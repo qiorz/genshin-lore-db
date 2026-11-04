@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509604,
+  "name": "野外温泉告示【永凝冻土】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1787019021",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509604/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509604,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:52:41+08:00",
+  "sha256": "03b9b9c93a09fb94a9c0d5842f7d3c0fb1e1ae87d60aa41035c588a4aa1be8e2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

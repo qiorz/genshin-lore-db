@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507843,
+  "name": "古旧的公告牌【逐浪野】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1768790234",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507843/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507843,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:42:39+08:00",
+  "sha256": "281402e3c96ee121e45c169c3024bfb864483a6a47d573af2dd10d74bacefbcd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

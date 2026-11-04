@@ -1,0 +1,18 @@
+{
+  "source_id": "bwiki",
+  "title": "鸟瞰风物",
+  "url": "https://wiki.biligame.com/ys/鸟瞰风物",
+  "api_url": "https://wiki.biligame.com/ys/api.php",
+  "api_params": {
+    "action": "parse",
+    "page": "鸟瞰风物",
+    "prop": "wikitext|revid",
+    "format": "json",
+    "formatversion": 2
+  },
+  "revision_id": "652508",
+  "retrieved_at": "2026-11-04T01:47:39+08:00",
+  "sha256": "d3435508dd155c276ab71478cbfba243340c648486bfcd0c12cc3e732c928b5e",
+  "http_status": 200,
+  "notes": "Comparison snapshot for 观测枢 evaluation."
+}

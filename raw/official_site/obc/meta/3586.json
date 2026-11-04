@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3586,
+  "name": "仙狐之章 第一幕：鸣神御祓祈愿祭",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1790042465",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3586/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3586,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:08:02+08:00",
+  "sha256": "1b02516d29906cf6af7b34b9628c82d65e452051edb7ff1e316760c870c2b262",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

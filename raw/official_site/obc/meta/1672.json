@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1672,
+  "name": "冒险家…该干嘛？",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712542284",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1672/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1672,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:05:05+08:00",
+  "sha256": "bf1d5eec7e37717fcb45834d2f2bd20264dc078efde61256e4b98f12a161c417",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

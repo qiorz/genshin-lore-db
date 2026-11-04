@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501818,
+  "name": "告示【归离原】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1723688319",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501818/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501818,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:46:54+08:00",
+  "sha256": "a746c2dd06b4c88f83fa2fcdb89ef468512be5b11e815740e852963af3012f1a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

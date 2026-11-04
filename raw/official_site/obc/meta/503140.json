@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503140,
+  "name": "新浪潮文汇【枫丹动能工程科学研究院区】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1730254239",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503140/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503140,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:44:56+08:00",
+  "sha256": "ed539d1282346af4ff20bd7ba4051ad7a728ac4c933774ac979995c64e1f2680",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

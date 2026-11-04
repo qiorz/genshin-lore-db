@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7612,
+  "name": "王子的国度",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1713319350",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7612/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7612,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:03:37+08:00",
+  "sha256": "165068f6cc12ec6999d4043c6131f430268ef99a2baee3a488b7e7265b6778f0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

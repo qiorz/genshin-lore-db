@@ -1,0 +1,192 @@
+
+===== entry 399 | 序章 第一幕「捕风的异乡人」 | 88 modules =====
+desc: 魔神任务 序章 第一幕「捕风的异乡人」
+
+module 0: 鸟瞰风物
+  component: base_info
+    keys: ['list']
+    list: list len=3 sample=[{'key': '触发条件', 'value': ['完成前置任务「流浪者的足迹」']}]
+
+module 1: 任务概述
+  component: rich_base_info
+    keys: ['list']
+    list: list len=4 sample=[{'key': '前置任务', 'value': ['<p><span class="custom-entry-wrapper" data-entry-id="1759" data-entry-ratio="text" data-entry-img="https://uploadstatic.mihoyo.com/ys-obc/2021/04/03/4359827/2d280665214ba1645df07a549c4535a5_8575972991983863206.png" data-entry-name="流浪者的足迹" data-entry-link="无" data-entry-status="Online"><a href="%E6%97%A0" target="_blank" class="entry-material
+
+module 2: 任务过程
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=141 sample='<p>从坠星山谷启程，你和派蒙走走看看，一路前行。</p><ul><li><p>继续前进</p></li><li><p>到派蒙附近</p></li><li><p>与派蒙对话</p></li><li><p>跟随派蒙</p></li><li><'
+    switch: bool False
+    is_show_switch: bool False
+    without_border: bool False
+
+module 3: 任务奖励
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=2044 sample='<p><span class="custom-entry-wrapper" data-entry-id="" data-entry-ratio="small" data-entry-img="https://act-upload.mihoy'
+    switch: bool False
+    is_show_switch: bool False
+    without_border: bool False
+
+module 4: 地图说明
+  component: map_desc
+    keys: ['list']
+    list: list len=2 sample=[{'tab_name': '任务起始位置', 'image': 'https://act-upload.mihoyo.com/wiki-user-upload/2024/04/23/24077343/a1193800e1773c369d82de29d7b4c0d2_8053997914346972684.png'}]
+
+module 5: 
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=7 sample='<p></p>'
+    switch: bool False
+    is_show_switch: bool False
+    without_border: bool False
+
+module 6: 攻略方法
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=7 sample='<p></p>'
+    switch: bool True
+    is_show_switch: bool True
+    without_border: bool False
+
+module 7: 剧情对话
+  component: interactive_dialogue
+    keys: ['child_ids', 'contents', 'list', 'root_id']
+    root_id: str len=0 sample=''
+    child_ids: NoneType None
+    contents: NoneType None
+    list: list len=1 sample=[{'contents': {'ewllh0qqr0dT1711546416025': {'dialogue': '<p><strong>◆ 继续前进</strong></p><p style="text-align: center"><span class="custom-entry-wrapper" data-entry-id="6072" data-entry-ratio="text" data-entry-img="https://uploadstatic.mihoyo.com/ys-obc/2023/02/08/4359827/45f7aa116d92c884c476d27a68aa6e85_940045684923526814.png" data-entry-name="序章 第一幕 捕风的异乡人 鸟瞰风物 （初入蒙德） 
+
+module 8: 任务奖励
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=4317 sample='<p><span class="custom-entry-wrapper" data-entry-id="" data-entry-ratio="small" data-entry-img="https://act-upload.mihoy'
+    switch: bool False
+    is_show_switch: bool False
+    without_border: bool False
+
+module 9: 攻略方法
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=7 sample='<p></p>'
+    switch: bool False
+    is_show_switch: bool False
+    without_border: bool False
+
+module 10: 任务奖励
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=2784 sample='<p><span class="custom-entry-wrapper" data-entry-id="" data-entry-ratio="small" data-entry-img="https://act-upload.mihoy'
+    switch: bool False
+    is_show_switch: bool False
+    without_border: bool False
+
+module 11: 任务概述
+  component: rich_base_info
+    keys: ['list']
+    list: list len=4 sample=[{'key': '前置任务', 'value': ['<p><span class="custom-entry-wrapper" data-entry-id="1759" data-entry-ratio="text" data-entry-img="https://uploadstatic.mihoyo.com/ys-obc/2021/04/03/4359827/2d280665214ba1645df07a549c4535a5_8575972991983863206.png" data-entry-name="鸟瞰风物" data-entry-link="无" data-entry-status="Online"><a href="%E6%97%A0" target="_blank" class="entry-material-b
+
+module 12: 任务概述
+  component: rich_base_info
+    keys: ['list']
+    list: list len=4 sample=[{'key': '前置任务', 'value': ['<p><span class="custom-entry-wrapper" data-entry-id="1759" data-entry-ratio="text" data-entry-img="https://uploadstatic.mihoyo.com/ys-obc/2021/04/03/4359827/2d280665214ba1645df07a549c4535a5_8575972991983863206.png" data-entry-name="自由之都" data-entry-link="无" data-entry-status="Online"><a href="%E6%97%A0" target="_blank" class="entry-material-b
+
+module 13: 随风而来的骑士
+  component: base_info
+    keys: ['list']
+    list: list len=3 sample=[{'key': '触发条件', 'value': ['完成前置任务「林间相会」']}]
+
+module 14: 
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=7 sample='<p></p>'
+    switch: bool False
+    is_show_switch: bool False
+    without_border: bool False
+
+module 15: 地图说明
+  component: map_desc
+    keys: ['list']
+    list: list len=2 sample=[{'tab_name': '任务起始位置', 'image': 'https://act-upload.mihoyo.com/wiki-user-upload/2024/04/25/24077343/85413c92c67f97c9ebf278874a54630e_4629095711613565310.png'}]
+
+module 16: 剧情对话
+  component: interactive_dialogue
+    keys: ['child_ids', 'contents', 'list', 'root_id']
+    root_id: str len=0 sample=''
+    child_ids: NoneType None
+    contents: NoneType None
+    list: list len=1 sample=[{'root_id': 'gaugvldzwaiT1713778814355', 'child_ids': {'1wghlrrslk4jT1713783904305': ['ipsetav1gcfT1713783918427'], '9xc3e63e0i8T1713783930574': ['f9fysm8fkuT1713783954242'], 'f9fysm8fkuT1713783954242': [], 'gaugvldzwaiT1713778814355': ['1wghlrrslk4jT1713783904305', 'turfx15nl3T1713783905869'], 'ipsetav1gcfT1713783918427': ['9xc3e63e0i8T1713783930574', 'l6fz62ejv6fT171
+
+module 17: 地图说明
+  component: map_desc
+    keys: ['list']
+    list: list len=2 sample=[{'tab_name': '任务起始位置', 'image': 'https://act-upload.mihoyo.com/wiki-user-upload/2024/04/22/24077343/ea25a7441db0fb1d708ca604d54d90f2_4051001241426174243.png'}]
+
+module 18: 任务概述
+  component: rich_base_info
+    keys: ['list']
+    list: list len=4 sample=[{'key': '前置任务', 'value': ['<p><span class="custom-entry-wrapper" data-entry-id="1759" data-entry-ratio="text" data-entry-img="https://uploadstatic.mihoyo.com/ys-obc/2021/04/03/4359827/2d280665214ba1645df07a549c4535a5_8575972991983863206.png" data-entry-name="与轻风同行" data-entry-link="无" data-entry-status="Online" data-updated="1"><a href="%E6%97%A0" target="_blank" class
+
+module 19: 
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=7 sample='<p></p>'
+    switch: bool False
+    is_show_switch: bool False
+    without_border: bool False
+
+===== entry 501 | 林间风 | 4 modules =====
+desc: 数百年前的学者们整理记录了蒙德诸多无名游吟诗人的诗篇，将其编纂结集，命名为《林间风》。
+
+module 0: 林间风·故事拔萃节选
+  component: material_base_info
+    keys: ['attr', 'img', 'materials', 'name', 'star']
+    name: str len=10 sample='林间风·故事拔萃节选'
+    img: str len=124 sample='https://act-upload.mihoyo.com/wiki-user-upload/2024/11/15/181950745/f55c6684af1b51b7f21db60100985e8b_4696271124747297911'
+    star: int 3
+    materials: dict {'key': '获得方式', 'value': '<p>在蒙德图书馆拾取 或在蒙德广场与<span class="custom-entry-wrapper" data-entry-id="1299" data-entry-ratio="text" data-entry-img="https://uploadstatic.mihoyo.com/ys-obc/2023/01/29/288180982/0d43950e7e2ab99cf947c7b1656ff
+    attr: list len=1 sample=[{'key': '描述', 'value': ['<p>数百年前的学者们整理记录了蒙德诸多无名游吟诗人的诗篇，将其编纂结集，命名为《林间风》</p>']}]
+
+module 1: 第一卷
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=1322 sample='<p>——故事拔萃节选——</p><p>《林间风》与《湖心风》是两册叙事诗诗集。学者们整理记录了蒙德诸多无名游吟诗人的诗篇，两册正是由此编纂结集而成。</p><p>游吟诗人的歌谣为了赚取听众与摩拉，往往言过其实或者捏造歪曲历史，大部分内容可'
+    switch: bool True
+    is_show_switch: bool False
+    without_border: bool False
+
+module 2: 林间风拾遗·龙之书
+  component: material_base_info
+    keys: ['attr', 'img', 'materials', 'name', 'star']
+    name: str len=9 sample='林间风拾遗·龙之书'
+    img: str len=123 sample='https://act-upload.mihoyo.com/wiki-user-upload/2024/11/15/181950745/f55c6684af1b51b7f21db60100985e8b_171299740883115341.'
+    star: int 3
+    materials: dict {'key': '获得方式', 'value': '<p>完成魔神任务：<span class="custom-entry-wrapper" data-entry-id="399" data-entry-ratio="text" data-entry-img="https://act-upload.mihoyo.com/wiki-user-upload/2024/03/25/80663279/ec183601e987037db0fe19854b33411d
+    attr: list len=1 sample=[{'key': '描述', 'value': ['<p>对叙事诗集《林间风》的补充说明集，其中资料摘选自各类文献。 描述了蒙德的龙的故事。</p>']}]
+
+module 3: 第二卷
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch', 'without_border']
+    rich_text: str len=721 sample='<p>——龙之书——</p><p>选自马斯克所写的《风之国土的人文习俗考察》，通译《风土人情志》。</p><p></p><p>……</p><p>北风骑士的「狼」、蒲公英（狮牙）骑士的「狮子」、西风骑士团的「鹰」，以及特瓦林——「风龙」，一直'
+    switch: bool False
+    is_show_switch: bool False
+    without_border: bool False
+
+===== entry 503 | 林间风·故事拔萃节选 | 2 modules =====
+desc: 数百年前的学者们整理记录了蒙德诸多无名游吟诗人的诗篇，将其编纂结集，命名为《林间风》。
+
+module 0: 林间风·故事拔萃节选
+  component: material_base_info
+    keys: ['attr', 'img', 'materials', 'name', 'star']
+    name: str len=10 sample='林间风·故事拔萃节选'
+    img: str len=124 sample='https://act-upload.mihoyo.com/wiki-user-upload/2024/11/15/181950745/f55c6684af1b51b7f21db60100985e8b_4713800881386517682'
+    star: int 3
+    materials: dict {'key': '获得方式', 'value': '<p>蒙德图书馆拾取 或 与<span class="custom-entry-wrapper" data-entry-id="1299" data-entry-ratio="text" data-entry-img="https://uploadstatic.mihoyo.com/ys-obc/2023/01/29/288180982/0d43950e7e2ab99cf947c7b1656ff53c_8
+    attr: list len=1 sample=[{'key': '描述', 'value': ['<p>数百年前的学者们整理记录了蒙德诸多无名游吟诗人的诗篇，将其编纂结集，命名为《林间风》。</p>']}]
+
+module 1: 林间风·故事拔萃节选
+  component: collapse_panel
+    keys: ['is_show_switch', 'rich_text', 'switch']
+    rich_text: str len=1630 sample='<p style="">《林间风》与《湖心风》是两册叙事诗诗集。学者们整理记录了蒙德诸多无名游吟诗人的诗篇，两册正是由此编纂结集而成。</p><p style="">游吟诗人的歌谣为了赚取听众与摩拉，往往言过其实或者捏造歪曲历史，大部分内容'
+    switch: bool True
+    is_show_switch: bool False

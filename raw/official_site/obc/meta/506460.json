@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506460,
+  "name": "爱依菈的笔记【遗誓者的圣所】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1757557423",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506460/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506460,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:43:28+08:00",
+  "sha256": "6610dad1f75999286abfa0cb84e290a2cb2619b8fa8bf7317fa3f4aa2602fa90",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

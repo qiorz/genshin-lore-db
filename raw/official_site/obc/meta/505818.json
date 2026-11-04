@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505818,
+  "name": "造浪机【呼呼丘】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1754276613",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505818/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505818,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:51:37+08:00",
+  "sha256": "9201fb186b09fd484a4647b3095698117e9c72c808b073a61e7f4244d6c7863e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

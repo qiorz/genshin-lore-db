@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504758,
+  "name": "出魂试炼之所的留言【奥奇卡纳塔】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1742955930",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504758/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504758,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:50:05+08:00",
+  "sha256": "60b2f9635344929c2d3742c1ec2597bb2037ec4e1b87c5edf03adb8d4687b69e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

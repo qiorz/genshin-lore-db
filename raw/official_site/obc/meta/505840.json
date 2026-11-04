@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505840,
+  "name": "谁人的指令【悠悠度假村】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1754446799",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505840/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505840,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:51:30+08:00",
+  "sha256": "d999e444df53f955e5436ec03c4be0c4e03fb4eadd8efeea1085d475de2feca8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507236,
+  "name": "稳健知行，完备冲刺！",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1763954419",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507236/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507236,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:17:39+08:00",
+  "sha256": "e48f93b4e0c50dd04c4b6a37e2b516f48fe9122f2c13e69157b66ff2eb3a5922",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

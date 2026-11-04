@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4717,
+  "name": "郭狐之章 第一幕 「没有答案的课题」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1751245489",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4717/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4717,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:18:18+08:00",
+  "sha256": "04266ed0702555775657718b6edb1166fce1d6b2440645115be470cab772e12f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

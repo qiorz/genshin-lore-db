@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502442,
+  "name": "旧花瓶【活力之家】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1726221149",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502442/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502442,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:54:53+08:00",
+  "sha256": "c7ed7d5e9243ebbf418fda35c9375f31e94576643d82fa1b00496e717e02fed1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

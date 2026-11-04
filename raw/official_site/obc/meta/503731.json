@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503731,
+  "name": "花之归尘，羽之将坠 第二幕「试炼前夜」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1735611138",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503731/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503731,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:11:29+08:00",
+  "sha256": "0126d31225f47c51fa76fb6d283ccaaa030b35ddf95fffa49f68854ccaaf9e6a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

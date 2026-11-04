@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507427,
+  "name": "魔女的课业·意外之题",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1768790454",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507427/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507427,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:15:34+08:00",
+  "sha256": "2e174959b5102ae1e707a9fa57fa14dafc8f289aa26f651f0a4090ebdda06952",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

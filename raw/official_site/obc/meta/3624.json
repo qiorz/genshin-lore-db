@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3624,
+  "name": "沉秋拾剑录",
+  "menu_id": "0",
+  "menu_name": "书籍",
+  "page_version": "1730690058",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3624/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3624,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:26:12+08:00",
+  "sha256": "741134555a45aade3568f7f65c50e367b155516955c8a8afe56f34bbfc3e0868",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

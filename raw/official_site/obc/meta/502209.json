@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502209,
+  "name": "向星星许愿",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1724983519",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502209/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502209,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:10:10+08:00",
+  "sha256": "0d6b2d5aad494ce84c6491074aaef493bbd57f2d9f8ee77b192a86baab03851c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

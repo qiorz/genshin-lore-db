@@ -1,0 +1,18 @@
+{
+  "source_id": "bwiki",
+  "title": "林间风",
+  "url": "https://wiki.biligame.com/ys/林间风",
+  "api_url": "https://wiki.biligame.com/ys/api.php",
+  "api_params": {
+    "action": "parse",
+    "page": "林间风",
+    "prop": "wikitext|revid",
+    "format": "json",
+    "formatversion": 2
+  },
+  "revision_id": "601764",
+  "retrieved_at": "2026-11-04T01:47:39+08:00",
+  "sha256": "cd25995346ffbaa2e94936c9cc7dec489e25c0614df0ea6cc4ce784c7bc3cbf8",
+  "http_status": 200,
+  "notes": "Comparison snapshot for 观测枢 evaluation."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503146,
+  "name": "藏书捐赠统计表【新枫丹科学院】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1730254220",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503146/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503146,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:45:26+08:00",
+  "sha256": "6b8aea1d1a4cbbe85a4ef656daa4af95423d5f8581ce97cc63d65d853cb94187",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509616,
+  "name": "告示牌【白桦雪葬地】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1791427826",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509616/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509616,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:52:03+08:00",
+  "sha256": "ff5f204fee8bbb95775e15102006870e3e9e6872ec5eff89a680e3c397cd3e2e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

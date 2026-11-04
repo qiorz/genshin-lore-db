@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6938,
+  "name": "琳妮特",
+  "menu_id": "0",
+  "menu_name": "角色",
+  "page_version": "1783304845",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6938/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6938,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T11:54:53+08:00",
+  "sha256": "45e7f80af7682d1bf673f62b2de1a08e984b6983010442efde76616f2659f31f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

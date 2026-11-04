@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506459,
+  "name": "残破的书卷【遗誓者的圣所】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1757557419",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506459/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506459,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:43:21+08:00",
+  "sha256": "a14652e61fddd7cc201c02ebb7e772e6560b3a96d864102d67ca6d234f2a77ee",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

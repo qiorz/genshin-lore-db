@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503141,
+  "name": "肖像【废弃实验室】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1730254237",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503141/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503141,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:45:23+08:00",
+  "sha256": "4c285142d77af4bd6f4f95328d8e1b33d6c0f29d63fe11b3e4d67b50a91187bb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

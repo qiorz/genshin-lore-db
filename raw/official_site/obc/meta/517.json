@@ -1,0 +1,19 @@
+{
+  "source_id": "obc",
+  "entry_page_id": "517",
+  "name": "神霄折戟录",
+  "menu_id": "0",
+  "menu_name": "",
+  "page_version": "1734688630",
+  "url": "https://baike.mihoyo.com/ys/obc/content/517/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 517,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "retrieved_at": "2026-11-04T01:40:58+08:00",
+  "sha256": "7c756e5e3c672f6eed1ad051bb3662bf299b0287a47ff6a14d150f2d70812742",
+  "http_status": 200,
+  "notes": "Probe snapshot. Content is hosted by miHoYo but community-maintained; verify key lore against in-game text."
+}

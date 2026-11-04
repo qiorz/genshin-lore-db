@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510022,
+  "name": "银翎溯月，玄鸟结璘·其二「乘白凤兮翦雾縠，揽龙鹰兮结血珠」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1791855450",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510022/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510022,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:07:43+08:00",
+  "sha256": "b05b712dc44acbfce0ebc82ac228d31790a485460541bffc0092769662861b86",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

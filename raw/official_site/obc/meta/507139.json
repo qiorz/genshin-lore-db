@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507139,
+  "name": "货物失窃引发的骚乱",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1762136359",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507139/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507139,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:00:14+08:00",
+  "sha256": "deb834ca39628d19740b3aecdd5f3f22a1786857afebe647a37ce364c3be5028",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

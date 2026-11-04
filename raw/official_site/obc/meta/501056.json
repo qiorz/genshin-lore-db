@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501056,
+  "name": "邀约事件·琳妮特 第一幕「猫与随机数」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1710728051",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501056/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501056,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:04:16+08:00",
+  "sha256": "a92d03d27732c1c3a84e88a2b8ea519fc51e360a6567397b2dc908ce7ed716ce",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508,
+  "name": "石书辑录",
+  "menu_id": "0",
+  "menu_name": "书籍",
+  "page_version": "1694672801",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:17:05+08:00",
+  "sha256": "6bad8315d0018d9100665a09347240ba7957e40b268cd2cd235f3bdab2dbf458",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

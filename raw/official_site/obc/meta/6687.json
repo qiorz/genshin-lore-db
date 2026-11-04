@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6687,
+  "name": "诸景巡礼",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712456140",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6687/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6687,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:14:54+08:00",
+  "sha256": "0347a99341c18a921b3ef98ffdb58c2a8f5962326d28bd0a35a068a75c6387c9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

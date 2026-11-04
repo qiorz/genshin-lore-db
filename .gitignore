@@ -1,0 +1,33 @@
+# Local toolchain
+tools/*
+!tools/README.md
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local database
+db/*.sqlite3
+db/*.sqlite3-*
+db/*.db
+db/backup/
+
+# Logs and temp
+logs/*.log
+*.tmp
+*.bak
+.env
+jieba.cache
+pip-ephem-wheel-cache-*/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large raw media (keep text snapshots)
+raw/**/images/
+raw/**/*.zip
+raw/**/*.pdf
+raw/**/cache/

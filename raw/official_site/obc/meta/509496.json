@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509496,
+  "name": "未谢幕者",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1791437198",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509496/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509496,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:12:32+08:00",
+  "sha256": "f21bd9ad0b527921f620b13efe8b143e33d15d3118bbba8f0ecccc6521c2c3a5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1702,
+  "name": "金翅鹏王之章 第一幕「槐柯胡蝶，傩佑之梦」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1753755541",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1702/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1702,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:07:39+08:00",
+  "sha256": "54e82be570a4b0161cce6e6bccca0ba3a1052b57dd7b28522d76e0644608dcea",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

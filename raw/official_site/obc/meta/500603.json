@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500603,
+  "name": "水中秘宝·尾声",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712714717",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500603/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500603,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:03:01+08:00",
+  "sha256": "cd9ad9db893bf8e17894a636a77d41ff66e8ed50d280aac7742e5d3218b7c6d8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501783,
+  "name": "石碑【绝云间】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1723687773",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501783/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501783,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:47:56+08:00",
+  "sha256": "6e18275344206e5f82e4df804db7f481858431c6469198cbf8b7f9036a376e79",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

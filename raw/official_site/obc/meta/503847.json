@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503847,
+  "name": "秋暮之火",
+  "menu_id": "0",
+  "menu_name": "书籍",
+  "page_version": "1739758269",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503847/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503847,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:26:31+08:00",
+  "sha256": "4dd973f87db7341da6ecec5dae446b080ea06ce9033202e2272886e1cb329574",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

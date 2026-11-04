@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501740,
+  "name": "报刊亭阅读板",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1782699049",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501740/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501740,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:44:50+08:00",
+  "sha256": "9e7c531065573146cc0a0cd97d251413af1fa7bcf6be8446f8fd56ea393185fe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

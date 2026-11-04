@@ -1,0 +1,26 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache D:\harn\2\genshin-lore-db\jieba.cache
+Loading model cost 0.675 seconds.
+Prefix dict has been built successfully.
+[quest] 沙漏之章 第一幕 「麻烦的工作」  (quest.obc.589)
+  丽莎：《白之公主与六侏儒》，还记得吗？
+  https://baike.mihoyo.com/ys/obc/content/589/detail?bbs_presentation_style=no_header
+
+[quest] 沙漏之章 第一幕 「麻烦的工作」  (quest.obc.589)
+  派蒙：是《白之公主与六侏儒》！我记得这个名字，应该就是它了吧？
+  https://baike.mihoyo.com/ys/obc/content/589/detail?bbs_presentation_style=no_header
+
+2 result(s)
+Building prefix dict from the default dictionary ...
+Loading model from cache D:\harn\2\genshin-lore-db\jieba.cache
+Loading model cost 0.476 seconds.
+Prefix dict has been built successfully.
+[quest] 月之东，日之西  (quest.obc.506550)
+  伊尔玛里：听相熟的游商说，集齐五个「识者之证」，就能找到埋藏在月之东，日之西的什么「伟大财宝」，也不知道是真是假。
+  https://baike.mihoyo.com/ys/obc/content/506550/detail?bbs_presentation_style=no_header
+
+[quest] 月之东，日之西  (quest.obc.506550)
+  派蒙：所以到底是怎么回事？我们只是听说集齐五个「识者之证」就可以找到被藏在月之东，日之西的「伟大财宝」…
+  https://baike.mihoyo.com/ys/obc/content/506550/detail?bbs_presentation_style=no_header
+
+2 result(s)

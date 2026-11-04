@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501749,
+  "name": "图书馆使用规范【西风骑士团】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1723527528",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501749/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501749,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:53:08+08:00",
+  "sha256": "bedcf06a8821d2312394a2c257efd3835a07576f14d7b7569097f256d9f06b9f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

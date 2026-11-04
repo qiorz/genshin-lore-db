@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501816,
+  "name": "匆忙写就的笔记【轻策庄】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1723688330",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501816/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501816,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:46:37+08:00",
+  "sha256": "21861b1e83727714ee496ff98920986bb4ad99d42289a2a60fe5308f13856561",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510063,
+  "name": "风仙亦是仙，古剑通幽玄！",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1791428045",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510063/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510063,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:12:53+08:00",
+  "sha256": "6246db0e5c3ec6a4fec948f2de71df75a00e4351f8d74d6a705050218cab6f3b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

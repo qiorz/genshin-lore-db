@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4267,
+  "name": "渴望旅行的妖狸",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1703671209",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4267/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4267,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:57:20+08:00",
+  "sha256": "e8f36013c50b57716207ff94b003f71f66e5d981b43a2c5d84d43d5062e1d4f6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

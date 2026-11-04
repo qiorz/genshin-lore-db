@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501832,
+  "name": "模糊的文字【赐福森林】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1723773631",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501832/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501832,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:46:05+08:00",
+  "sha256": "4bcef6ee6e4ef14930a455e2fa13eb73ecdbe910cb57245dd7f10299b9a4f860",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508561,
+  "name": "礁与浪的相逢 其三「留给孩子们的『玩具』」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1778034896",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508561/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508561,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:59:50+08:00",
+  "sha256": "024a2054682dd7fba7d0e038851b15e40b495351f40e9b10e9144b9df8636648",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503104,
+  "name": "表彰状【自体自身之塔】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1730253996",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503104/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503104,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:45:27+08:00",
+  "sha256": "c13ce0d7ccc82c5dfe9838c0f450c9565b7910af6c62a0067cf692cde8e15349",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

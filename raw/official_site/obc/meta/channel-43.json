@@ -1,0 +1,18 @@
+{
+  "source_id": "obc",
+  "channel_id": 43,
+  "channel_name": "任务",
+  "url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_params": {
+    "channel_id": 43,
+    "page_num": 1,
+    "page_size": 1000,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:08:04+08:00",
+  "sha256": "b6a36580e2c9f2bf478b3c6c2b2e9bd1972507ac0a2b38ff9832ae17404f558d",
+  "entry_count": 1101
+}

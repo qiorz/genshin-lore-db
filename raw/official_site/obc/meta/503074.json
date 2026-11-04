@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503074,
+  "name": "工程师的笔记【大枫丹湖】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1729735341",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503074/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503074,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:44:47+08:00",
+  "sha256": "6968e91ceb6f211959b421aa50a5db9d8e83e13419b5baf55656e06cae5e1ab0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

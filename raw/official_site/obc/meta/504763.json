@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504763,
+  "name": "无名祭司的笔记【奥奇卡纳塔】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1742955946",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504763/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504763,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:50:35+08:00",
+  "sha256": "f4e71dfa58c472bc69b810a1b4d0f251948491784dd864c7a90d2d53465e7c24",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

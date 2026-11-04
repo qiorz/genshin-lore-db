@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509416,
+  "name": "望月者计划",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1786587934",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509416/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509416,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:59:29+08:00",
+  "sha256": "11a597471619a87c45f1ea89a6c5311731b5d69fc5d0fa7fdf1114b931844a11",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

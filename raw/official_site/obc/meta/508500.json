@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508500,
+  "name": "礁与浪的相逢 其一「来自秘闻馆的委托」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1777342602",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508500/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508500,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:59:49+08:00",
+  "sha256": "8897017214143202218cce38611dc9739ef18fcdec512c1da38da896dcb02f13",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

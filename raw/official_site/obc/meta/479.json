@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 479,
+  "name": "与神性同行·序言",
+  "menu_id": "0",
+  "menu_name": "书籍",
+  "page_version": "1731890155",
+  "url": "https://baike.mihoyo.com/ys/obc/content/479/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 479,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:25:28+08:00",
+  "sha256": "52a98d8cf54eca6a901e41224299aa2d991cae07cfa9422f02f8bba0a7192f27",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505370,
+  "name": "炼金合成台【苍风高地】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1747018317",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505370/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505370,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:53:26+08:00",
+  "sha256": "1f36c4abc7ac70d27718281a85d1f452da741610e2ede959f7b07007250eca16",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

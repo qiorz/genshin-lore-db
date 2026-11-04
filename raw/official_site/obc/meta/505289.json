@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505289,
+  "name": "风格融合的思考",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1746327771",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505289/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505289,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:11:51+08:00",
+  "sha256": "fc8c73188f092858699302315b74017ba4f73f3b2accf1a297c4f5843d77d370",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

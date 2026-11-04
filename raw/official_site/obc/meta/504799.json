@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504799,
+  "name": "污损的讨伐悬赏【安饶之野】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1743042171",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504799/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504799,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:50:47+08:00",
+  "sha256": "ac846be4a06fe7b0b2e4c0b1d76189c6d80fe0f74fdb94238c7a2b56774b61e2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

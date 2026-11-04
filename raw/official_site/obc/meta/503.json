@@ -1,0 +1,19 @@
+{
+  "source_id": "obc",
+  "entry_page_id": "503",
+  "name": "林间风·故事拔萃节选",
+  "menu_id": "0",
+  "menu_name": "",
+  "page_version": "1731890301",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "retrieved_at": "2026-11-04T01:40:58+08:00",
+  "sha256": "de9eeacade12f5e6f40ea961eaf78c43118ab0bbb8f1d1603f854a169de09842",
+  "http_status": 200,
+  "notes": "Probe snapshot. Content is hosted by miHoYo but community-maintained; verify key lore against in-game text."
+}

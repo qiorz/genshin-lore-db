@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503154,
+  "name": "《如果是这样的话？》【枫丹动能工程科学研究院区】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1730254257",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503154/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503154,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:44:00+08:00",
+  "sha256": "ce9a9c69dfa791ea91bf56e368d13a3b88a27c8222e4228e351a8aae7197c0a1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

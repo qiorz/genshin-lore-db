@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7294,
+  "name": "好事多磨",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1702959537",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7294/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7294,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:01:49+08:00",
+  "sha256": "77808e74c8cb8f677fc0945b4913a813f59dc6561881742d59df25a9400c721d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

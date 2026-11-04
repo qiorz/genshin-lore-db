@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505662,
+  "name": "「小喷泉」【安眠处】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1753767763",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505662/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505662,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:44:03+08:00",
+  "sha256": "b4ef41fc7b2513d58649fee6321f6ad1ca2ba0603cd70ad1e036c1691c8843ba",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

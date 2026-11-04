@@ -1,0 +1,12 @@
+{
+  "source_id": "bwiki",
+  "url": "https://wiki.biligame.com/ys/api.php",
+  "api_params": {
+    "action": "ask",
+    "query": "[[分类:书籍]]|?书籍名|?实装版本|limit=1000",
+    "format": "json"
+  },
+  "retrieved_at": "2026-11-04T02:09:27+08:00",
+  "sha256": "dabb0b43086fd0c845053e30382869d840c975725e055406f4d81fbaf3c03844",
+  "count": 105
+}

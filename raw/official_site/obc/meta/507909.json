@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507909,
+  "name": "上许佳愿",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1770009235",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507909/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507909,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:04:55+08:00",
+  "sha256": "cd00afce4025aa0e8c282f45ed4cf98d46d399203fb8aca6595cdd73d51e3a7e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

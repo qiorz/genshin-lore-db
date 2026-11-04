@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504564,
+  "name": "关于北境蛮族的考察【褪色古堡】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1740104256",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504564/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504564,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:44:13+08:00",
+  "sha256": "e8aa7fbf1d0c68a93a995b3e5f1f9e3adf0c8c37dd6c9c7d1849b7a389db289c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505371,
+  "name": "核心【眠龙谷】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1753767932",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505371/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505371,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:53:21+08:00",
+  "sha256": "d3560f3578d3474d4ce5d0ea6372bad1bd522d60e3cf2bb41feacdf2fae7002b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

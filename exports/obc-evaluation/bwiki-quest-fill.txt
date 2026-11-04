@@ -1,0 +1,63 @@
+quest.obc.1399 | 低温预警 | no BWiki transcript
+quest.obc.1583 | 海灯节轶事之一 | filled 3/11
+quest.obc.1593 | 海灯节轶事之二 | filled 3/11
+quest.obc.1594 | 海灯节轶事之三 | filled 3/7
+quest.obc.1704 | 风花节引导任务 | no BWiki transcript
+quest.obc.1728 | 邀约事件·重云 第一幕「寻妖觅邪记」 | no BWiki transcript
+quest.obc.1729 | 邀约事件·班尼特 第一幕「美妙旅程」 | no BWiki transcript
+quest.obc.2152 | 雾与风的旅行 | no BWiki transcript
+quest.obc.2432 | 离岛之路 | filled 1/1
+quest.obc.2632 | 寝子是只猫系列任务 | no BWiki transcript
+quest.obc.3189 | 邀约事件·迪奥娜 第一幕「猫与特调酒」 | filled 1/2
+quest.obc.3190 | 邀约事件·诺艾尔 第二幕「骑士备考之道」 | filled 1/3
+quest.obc.3191 | 邀约事件·托马 第一幕「家政官的日常工作」 | no BWiki transcript
+quest.obc.3215 | 邀约事件·北斗 第一幕 「南十字闪耀时」 | no BWiki transcript
+quest.obc.3216 | 邀约事件·五郎 第一幕 「犬大将的特别行动」 | no BWiki transcript
+quest.obc.3622 | 海洲逐雾 | filled 2/6
+quest.obc.3840 | 特别的御神签系列任务 | no BWiki transcript
+quest.obc.4190 | 邀约事件·久岐忍 第一幕「帮派的日常事务」 | no BWiki transcript
+quest.obc.4219 | 邀约事件·鹿野院平藏 第一幕「风暴捕物帐」 | filled 1/3
+quest.obc.4265 | 极夜幻想剧·王女执剑记! | filled 1/1
+quest.obc.4267 | 渴望旅行的妖狸 | no BWiki transcript
+quest.obc.4268 | 「四礁觅宝记」系列任务 | filled 1/7
+quest.obc.4487 | 被嫌弃的木刻 | no BWiki transcript
+quest.obc.500835 | 云云椒椒 | no BWiki transcript
+quest.obc.500836 | 水土暂服 | no BWiki transcript
+quest.obc.500948 | 哐哐锵锵王山行 | no BWiki transcript
+quest.obc.501056 | 邀约事件·琳妮特 第一幕「猫与随机数」 | no BWiki transcript
+quest.obc.5012 | 黄金梦乡·阿赫玛尔的秘密 | no BWiki transcript
+quest.obc.5013 | 黄金梦乡·沙海迷踪 | filled 1/1
+quest.obc.5014 | 黄金梦乡·热砂之梦 | no BWiki transcript
+quest.obc.507421 | 小委托 | filled 1/1
+quest.obc.507909 | 上许佳愿 | no BWiki transcript
+quest.obc.507910 | 灯逐良愿 | no BWiki transcript
+quest.obc.507911 | 吉事共赏 | no BWiki transcript
+quest.obc.509536 | 危影重重·其一 | no BWiki transcript
+quest.obc.509816 | 危影重重·其二 | no BWiki transcript
+quest.obc.509871 | 危影重重·其三 | no BWiki transcript
+quest.obc.510015 | 危影重重·其四 | no BWiki transcript
+quest.obc.510061 | 危影重重·其五 | no BWiki transcript
+quest.obc.510076 | 危影重重·其六 | no BWiki transcript
+quest.obc.529 | 冒险协会的考验 | no BWiki transcript
+quest.obc.6268 | 邀约事件·凝光 第一幕「玉阁归客至」 | no BWiki transcript
+quest.obc.6269 | 邀约事件·云堇 第一幕「弦歌知雅意」 | filled 1/2
+quest.obc.6270 | 邀约事件·珐露珊 第一幕「难解之结」 | no BWiki transcript
+quest.obc.6472 | 邀约事件·莱依拉 第一幕「星本无言」 | no BWiki transcript
+quest.obc.6553 | 风沙轰鸣系列任务合集 | no BWiki transcript
+quest.obc.6568 | 忆昔诸途巡历系列任务合集 | no BWiki transcript
+quest.obc.6741 | 邀约事件·卡维 第一幕「苦与幸的钟摆」 | no BWiki transcript
+quest.obc.6866 | 秘境冒险的征途 | no BWiki transcript
+quest.obc.6880 | 邀约事件·凯亚 第一幕「鬼话与甜酒」 | no BWiki transcript
+quest.obc.689 | 探索剑冢封印 | no BWiki transcript
+quest.obc.721 | 每天都是新冒险 | no BWiki transcript
+quest.obc.7271 | 泉有重喷日 | no BWiki transcript
+quest.obc.7294 | 好事多磨 | no BWiki transcript
+quest.obc.7370 | 坏蛋们 | no BWiki transcript
+quest.obc.7393 | 智勇双拳 | no BWiki transcript
+quest.obc.7480 | 游水酝诗籍 第三首 幽潭心 | no BWiki transcript
+quest.obc.7602 | 一份预期内的计划 | no BWiki transcript
+quest.obc.7642 | 梦境与树 | no BWiki transcript
+quest.obc.7654 | 往事追迹·北 | no BWiki transcript
+quest.obc.7655 | 往事追迹·西 | no BWiki transcript
+quest.obc.7656 | 往事追迹·南 | no BWiki transcript
+quest.obc.7669 | 往事追迹 | no BWiki transcript

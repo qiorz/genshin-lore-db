@@ -1,0 +1,117 @@
+# scripts
+
+## 当前可用
+
+| 脚本 | 作用 | 依赖 |
+|---|---|---|
+| `check_env.ps1` | 检查 Python/SQLite/FTS5/包/目录 | PowerShell 5.1+ |
+| `Search-Corpus.ps1` | 在 `corpus/` 中做 Markdown 全文搜索 | PowerShell 5.1+ |
+| `fetch_obc.py` | 抓观测枢 entry_page / search / channel_tree | Python 3.11+ |
+| `render_obc.py` | entry_page → Markdown 草稿（任务/书籍/角色/散落文本） | Python 3.11+ |
+| `load_markdown.py` | Markdown → SQLite（documents/sections/FTS） | Python 3.11+ |
+| `search.py` | SQLite FTS5 命令行检索 | Python 3.11+ |
+| `validate_frontmatter.py` | front matter schema 校验 | Python 3.11+ |
+| `build_obc_index.py` | 从频道列表生成书籍/散落文本/任务索引 | Python 3.11+ |
+| `resolve_versions_bwiki.py` | 用 BWiki SMW 批量补书籍版本/地区 | Python 3.11+ |
+| `resolve_scattered_versions.py` | 从散落文本“相关任务”推导版本 | Python 3.11+ |
+| `render_obc_batch.py` | 批量渲染散落文本/任务 | Python 3.11+ |
+| `build_character_index.py` | 从角色频道生成 `character-index.csv` | Python 3.11+ |
+| `render_characters.py` | 角色页 → `corpus/characters/`（只留叙事文本） | Python 3.11+ |
+| `fill_quests_from_bwiki.py` | 用 BWiki 子任务页补 OBC 缺正文的任务 | Python 3.11+ |
+| `mark_empty_quests.py` | 给仍无对话的任务加待补标记 | Python 3.11+ |
+| `clean_filled_quest_notes.py` | 清理已补全任务的“无对话”旧标记 | Python 3.11+ |
+| `sync_index_versions.py` | 索引版本同步到 front matter/DB | Python 3.11+ |
+| `report_db.py` | 生成简洁数据库统计 | Python 3.11+ |
+| `move_books_to_corpus.py` | 书籍按地区移入 `corpus/books/` | Python 3.11+ |
+
+```powershell
+# Windows PowerShell（当前环境需要 Bypass 执行策略）
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check_env.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/Search-Corpus.ps1 钟离
+
+# 观测枢试点
+.\tools\python\python.exe scripts\fetch_obc.py --entry-page-id 399 --force
+.\tools\python\python.exe scripts\render_obc.py --entry raw\official_site\obc\entries\399.json `
+    --type quest --doc-id quest.obc.399 --region 蒙德 `
+    --out exports\obc-batch\quest-399.md
+.\tools\python\python.exe scripts\render_obc.py --entry raw\official_site\obc\entries\507704.json `
+    --type lore --doc-id lore.obc.507704 --region 挪德卡莱 `
+    --out exports\obc-batch\lore-507704.md
+.\tools\python\python.exe scripts\validate_frontmatter.py exports\obc-batch\quest-399.md
+.\tools\python\python.exe scripts\load_markdown.py exports\obc-batch\quest-399.md
+.\tools\python\python.exe scripts\search.py 钟离
+
+# 索引与版本
+.\tools\python\python.exe scripts\build_obc_index.py
+.\tools\python\python.exe scripts\resolve_versions_bwiki.py --category 书籍 --property 书籍名
+
+# 批量散落文本/任务（先 fetch，再 resolve/ render / load）
+.\tools\python\python.exe scripts\fetch_obc.py --channel-id 68 251 43 --force
+.\tools\python\python.exe scripts\resolve_scattered_versions.py
+.\tools\python\python.exe scripts\render_obc_batch.py --doc-type lore
+.\tools\python\python.exe scripts\render_obc_batch.py --doc-type quest
+.\tools\python\python.exe scripts\validate_frontmatter.py --dir exports\obc-batch --quiet
+.\tools\python\python.exe scripts\load_markdown.py --dir exports\obc-batch
+```
+
+## 计划中的脚本
+
+按依赖顺序：
+
+| 脚本 | 作用 | 输入 | 输出 |
+|---|---|---|---|
+| `fetch_bwiki.py` | 抓 BWiki 页面（对照/兜底） | 页面名/ID 清单 | `raw/bwiki/*` + `meta.json` |
+| `fetch_miyoushe.py` | 抓米游社帖子 | `post_id` 清单 | `raw/miyoushe/*` |
+| `parse_bwiki.py` | 解析任务/书籍/武器/圣遗物 | wikitext | 结构化 JSON |
+| `coverage.py` | 按观测枢频道树统计覆盖 | db + channel_tree | CSV/Markdown |
+| `init_db.py` | 建库/迁移 | schema | `db/*.sqlite3` |
+
+`render_obc.py` 目前是试点版：任务对话图去重展开、书籍分卷、角色故事过滤；还不是完整解析器。
+
+## 编码约定
+
+- Python 3.11+（`fetch_obc.py` 用 `tomllib`；当前便携版 3.13），UTF-8，LF；
+- 所有脚本支持 `--dry-run`（不写文件/库）；
+- 抓取脚本支持 `--limit`、`--resume`；
+- 原始快照只增不改；同名文件加 `-<revid>` 或时间戳；
+- 数据库写入记录 `ingest_runs`（`load_markdown.py` 已记录；抓取脚本扩量前补上）；
+- 日志写 `logs/`，不要只输出到终端；
+- 不在代码里写 Cookie/Token；需要时读环境变量；
+- 默认 1 请求/秒，失败指数退避；
+- 解析失败要保留原始快照和错误信息，不静默跳过；
+- 不要用 `print` 输出大段原文，日志只记录路径和摘要。
+
+## 建议的模块划分
+
+```text
+scripts/
+├─ common/
+│  ├─ config.py          # 读 config/sources.toml
+│  ├─ http.py            # 限速、重试、缓存、UA
+│  ├─ paths.py           # 项目路径
+│  └─ log.py
+├─ fetch_bwiki.py
+├─ fetch_miyoushe.py
+├─ parse_bwiki.py
+├─ normalize.py
+├─ init_db.py
+├─ load_corpus.py
+├─ search.py
+├─ validate.py
+└─ coverage.py
+```
+
+第一版不要过度抽象；先把一个页面的路径跑通，再抽公共模块。
+
+## 测试
+
+至少覆盖：
+
+- 模板清洗：`{{颜色}}`、`{{黑幕}}`、`[[链接|显示]]`、`{{任务描述}}`；
+- 对话解析：`*角色：台词`；
+- 选项保留：`> 选项：`；
+- front matter 校验；
+- 重复哈希不重复入库；
+- FTS 中文查询。
+
+用小样本做单元测试，不要连真实站点跑测试。

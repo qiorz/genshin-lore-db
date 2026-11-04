@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501992,
+  "name": "根付之源广告板【稻妻城】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1724638944",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501992/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501992,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:49:21+08:00",
+  "sha256": "e30bf8e09a99a241124225f1d1f04e6edce93d16d6fdb577e2084e92186ccd7e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

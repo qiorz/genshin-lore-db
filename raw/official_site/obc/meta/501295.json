@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501295,
+  "name": "为了旧日与明天",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1717466693",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501295/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501295,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:00:51+08:00",
+  "sha256": "6f0c0f25be6af5105372f3480c1360bdb637a7c788d484492a5646555cfa2b41",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

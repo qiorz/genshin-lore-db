@@ -1,0 +1,9 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache D:\harn\2\genshin-lore-db\jieba.cache
+Loading model cost 0.477 seconds.
+Prefix dict has been built successfully.
+[book] 林间风  (book.obc.501)
+  那是发生在地下失落王国坎瑞亚的另外一个故事了。
+  https://baike.mihoyo.com/ys/obc/content/501/detail?bbs_presentation_style=no_header
+
+1 result(s)

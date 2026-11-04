@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508908,
+  "name": "斑斓色彩不许逃！",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1782369655",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508908/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508908,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:10:29+08:00",
+  "sha256": "43aaec0ecbe028b861da5a8787689bd8cdcd86112891da5be2903146972faa42",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

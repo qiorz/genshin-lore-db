@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7274,
+  "name": "黑斑猫之章 第一幕：被遗忘的怪盗 ",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1779013818",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7274/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7274,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:04:39+08:00",
+  "sha256": "d0ebc0d6bd64a98e74f4b9088a423a3ef58227427561965d64dfdcae65fdbd43",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

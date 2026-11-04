@@ -1,0 +1,13 @@
+D:\harn\2\genshin-lore-db\corpus\quests\event\海灯节轶事之二.md
+D:\harn\2\genshin-lore-db\corpus\quests\story\邀约事件·迪奥娜 第一幕「猫与特调酒」.md
+D:\harn\2\genshin-lore-db\corpus\quests\story\邀约事件·诺艾尔 第二幕「骑士备考之道」.md
+D:\harn\2\genshin-lore-db\corpus\quests\story\海洲逐雾.md
+D:\harn\2\genshin-lore-db\corpus\quests\story\邀约事件·鹿野院平藏 第一幕「风暴捕物帐」.md
+D:\harn\2\genshin-lore-db\corpus\quests\story\邀约事件·云堇 第一幕「弦歌知雅意」.md
+D:\harn\2\genshin-lore-db\corpus\quests\world\海灯节轶事之一.md
+D:\harn\2\genshin-lore-db\corpus\quests\world\海灯节轶事之三.md
+D:\harn\2\genshin-lore-db\corpus\quests\world\离岛之路.md
+D:\harn\2\genshin-lore-db\corpus\quests\world\极夜幻想剧·王女执剑记!.md
+D:\harn\2\genshin-lore-db\corpus\quests\world\「四礁觅宝记」系列任务.md
+D:\harn\2\genshin-lore-db\corpus\quests\world\黄金梦乡·沙海迷踪.md
+D:\harn\2\genshin-lore-db\corpus\quests\world\小委托.md

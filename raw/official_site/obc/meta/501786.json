@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501786,
+  "name": "阅读石碑【庆云顶】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1723687721",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501786/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501786,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:48:47+08:00",
+  "sha256": "49a23003e7c5e4511f0fe406ab3366eddba1eb8755fbc35148fe6aa9f0c32cac",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

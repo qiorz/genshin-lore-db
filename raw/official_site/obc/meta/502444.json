@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502444,
+  "name": "落灰的餐具【活力之家】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1726221145",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502444/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502444,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:55:25+08:00",
+  "sha256": "4e897bef6bc5ec56de913e4e92a4f9b69f9c978bb309686a444d33762c03c9a5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

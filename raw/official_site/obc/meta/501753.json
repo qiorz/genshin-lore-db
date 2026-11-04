@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501753,
+  "name": "奇怪的花瓶【晨曦酒庄】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1723527488",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501753/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501753,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:53:10+08:00",
+  "sha256": "e76f26196d1261b2869c797f2dc90dab8d7919dfb3b318907f669aaf540af7e0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

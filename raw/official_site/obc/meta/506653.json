@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506653,
+  "name": "空寂的色彩",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1758621061",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506653/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506653,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:59:53+08:00",
+  "sha256": "f41b2da5d2b50343b4bf62ed9d7b5ef2dccfbbd6d2947ee577b52bd9df8e5184",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

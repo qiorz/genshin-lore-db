@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500625,
+  "name": "壶中闲事",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712459976",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500625/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500625,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:05:25+08:00",
+  "sha256": "0ab2dfdde28c4e5883897c149db21d01ee9281df5b69fec78ab0a9ed4593e015",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

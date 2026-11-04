@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5865,
+  "name": "艾尔海森",
+  "menu_id": "0",
+  "menu_name": "角色",
+  "page_version": "1771913439",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5865/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5865,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T11:54:33+08:00",
+  "sha256": "42ba434e4b5b174d41167080ddbab1500f7b142a5eb86f14329dd4fe04a6a147",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508474,
+  "name": "矿物调查特别授课",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1776736909",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508474/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508474,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:59:47+08:00",
+  "sha256": "ff6dd69609fd4ca4f517926e5aca516bd29ff095f58d4d1ce0c8a53663ba8d74",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

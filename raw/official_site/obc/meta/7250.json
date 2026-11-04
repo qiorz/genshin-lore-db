@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7250,
+  "name": "黛依阿的三日遐想",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1750223031",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7250/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7250,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:57:41+08:00",
+  "sha256": "58e29cd8b87a51381d2a655c25d30b5d96b0ba916d35259d19440cbf9c68ec78",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500571,
+  "name": "勒鲁瓦·午时已至",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712714632",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500571/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500571,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:01:14+08:00",
+  "sha256": "e43d30428f4e3fa12004100a19f22c3678031859dfbc98ab7a2523e832afdfa9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

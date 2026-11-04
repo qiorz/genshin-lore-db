@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504458,
+  "name": "春曦画桃符 第二回 「往生堂三日无主，玉京台遣将调兵」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1738894676",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504458/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504458,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:06:27+08:00",
+  "sha256": "95a320060c231471952b05a719799ffa3b535fdee8930b0621725f99116ec72f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

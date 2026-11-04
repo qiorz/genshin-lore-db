@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1264,
+  "name": "酒庄大扫除",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712542494",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1264/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1264,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:15:05+08:00",
+  "sha256": "3b28da63e33ded67ca2108eb3dbd00d44da9f8806b34175801d119f7835afa04",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

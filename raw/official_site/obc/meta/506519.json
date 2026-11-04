@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506519,
+  "name": "酒馆告示板【终夜长茔】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1757902329",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506519/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506519,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:43:55+08:00",
+  "sha256": "93b3b566eeb4967c3fea7564378145b6f7154e712e2a4b67c5404c59d9d402bf",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

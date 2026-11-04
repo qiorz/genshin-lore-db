@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502484,
+  "name": "流泉所归之处 第二幕 「神秘岛的传说」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1728366546",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502484/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502484,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:10:45+08:00",
+  "sha256": "1d252223d640a68001a2a0b49c47044fe2ab72815e7be9c833878e1c87274814",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

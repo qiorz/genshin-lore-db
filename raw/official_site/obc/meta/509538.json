@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509538,
+  "name": "至冬 爱憎的赫斯珀利德斯",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1787216811",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509538/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509538,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:12:46+08:00",
+  "sha256": "5ad66049b2482b5a52047974885825ace5b69b89d30b824d509a1a103dbf55de",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

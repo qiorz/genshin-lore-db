@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2431,
+  "name": "诸国游记",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1713751402",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2431/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2431,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:09:22+08:00",
+  "sha256": "1d039e45de9be5daebec516c7b6b10f5e22fa6064f3a940dad77daa264340c07",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

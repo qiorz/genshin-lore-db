@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6853,
+  "name": "蜃境乐园大危机！: 清夏！乐园？大秘境！其二",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1718676652",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6853/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6853,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:18:03+08:00",
+  "sha256": "74eeca378802a65c10095a8fd45ea320b139705eb2cca5b6ff5d8adbabd5508f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

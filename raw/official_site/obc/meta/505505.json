@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505505,
+  "name": "旅行者·水",
+  "menu_id": "0",
+  "menu_name": "角色",
+  "page_version": "1790042606",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505505/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505505,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T11:55:45+08:00",
+  "sha256": "0bd0a3e5e62ef2908a00314a9c3318320dd52906cc0d30126f8e99a275fa67f0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

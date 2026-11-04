@@ -1,0 +1,91 @@
+# Genshin Lore DB — runtime configuration
+# No secrets here. Use environment variables for cookies/tokens if ever needed.
+
+[project]
+name = "genshin-lore-db"
+schema_version = 1
+default_language = "zh-Hans"
+timezone = "Asia/Shanghai"
+
+[paths]
+raw = "raw"
+corpus = "corpus"
+knowledge = "knowledge"
+db = "db/genshin_lore.sqlite3"
+manifests = "manifests"
+exports = "exports"
+
+[http]
+user_agent = "GenshinLoreDB/0.1 (personal research; local use)"
+request_interval_seconds = 1.0
+timeout_seconds = 30
+max_retries = 3
+backoff_seconds = 2.0
+# Stop instead of hammering a site that returns these.
+stop_status_codes = [401, 403, 429, 567]
+
+[fts]
+enabled = true
+tokenizer = "jieba"
+user_dict = "manifests/terms.txt"
+# Keep raw body for English/verbatim matching.
+index_raw_body = true
+
+[quality]
+min_sections_per_document = 1
+max_unresolved_template_ratio = 0.01
+require_source_url = true
+require_revision_id_for_wiki = true
+
+[sources.bwiki]
+enabled = true
+kind = "wiki"
+api_url = "https://wiki.biligame.com/ys/api.php"
+page_base = "https://wiki.biligame.com/ys/"
+# MediaWiki API is more stable than scraping rendered pages.
+prefer = "wikitext"
+save_html = true
+
+[sources.miyoushe]
+enabled = true
+kind = "official-community"
+api_base = "https://bbs-api.miyoushe.com"
+post_full_path = "/post/wapi/getPostFull"
+forum_list_path = "/post/wapi/getForumPostList"
+forum_id = 26
+gids = 2
+referer = "https://www.miyoushe.com/ys/"
+save_html = true
+# Curated post ids only; do not brute-force ids.
+curated_post_ids = []
+
+[sources.obc]
+enabled = true
+kind = "official-community"
+base_url = "https://baike.mihoyo.com/ys/obc/"
+api_base = "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc"
+hoyowiki_base = "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin"
+app_sn = "ys_obc"
+lang = "zh-cn"
+save_raw = true
+notes = "Official platform, community-maintained. entry_page has structured modules; quest pages include interactive_dialogue. Treat text as near-verbatim, not canonical."
+
+[sources.official_site]
+enabled = true
+kind = "official"
+base_url = "https://ys.mihoyo.com/main/"
+mode = "manual-or-rendered"
+notes = "JS-rendered; use only for spot checks in the first phase."
+
+[sources.genshin_db]
+enabled = true
+kind = "datamine"
+package = "genshin-db"
+version = "5.2.12"
+# The package readme at this version advertises v6.7 game data.
+game_data_version = "6.7"
+notes = "Structured fields only; not a quest transcript source."
+
+[exports]
+default_format = "markdown"
+include_frontmatter = true

@@ -1,0 +1,21 @@
+* text=auto eol=lf
+
+*.md       text eol=lf
+*.sql      text eol=lf
+*.py       text eol=lf
+*.ps1      text eol=lf
+*.json     text eol=lf
+*.csv      text eol=lf
+*.toml     text eol=lf
+*.txt      text eol=lf
+
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.webp     binary
+*.gif      binary
+*.zip      binary
+
+# raw/ 是不可变原始快照：meta/*.json 记录了响应体的 sha256，
+# 若 Git 做 CRLF->LF 转换，重新检出后哈希对不上。整目录按二进制处理。
+raw/**     binary

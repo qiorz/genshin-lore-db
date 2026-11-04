@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505290,
+  "name": "撞球迸碰，摇摆律动！",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1746327781",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505290/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505290,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:10:28+08:00",
+  "sha256": "344b697d342c8839d3735c7ab359da0fd587e13f892a9a5ced7361787deba152",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

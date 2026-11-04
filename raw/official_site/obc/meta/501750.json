@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501750,
+  "name": "求职招聘互助板【天使的馈赠】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1723527522",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501750/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501750,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:53:25+08:00",
+  "sha256": "13e283f9b860c087006f6b387eae2eed26e3ed24502f78c4df9ea29ea2922176",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

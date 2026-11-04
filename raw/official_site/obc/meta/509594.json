@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509594,
+  "name": "少女的雕像【永凝冻土】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1787018968",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509594/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509594,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:52:07+08:00",
+  "sha256": "b422caf24919f744b7628f6d69e4cdd4d17ec8181adc69a789ae95e95f80ddd0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

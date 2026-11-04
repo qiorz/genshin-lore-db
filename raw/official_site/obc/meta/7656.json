@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7656,
+  "name": "往事追迹·南",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1713423094",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7656/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7656,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:01:59+08:00",
+  "sha256": "ab2ddaf22c9642d007b94328b605865790a79fc9a5501d5fb026c95b0873b287",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505883,
+  "name": "无头的科奎塔奥",
+  "menu_id": "0",
+  "menu_name": "书籍",
+  "page_version": "1793064288",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505883/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505883,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:26:02+08:00",
+  "sha256": "2f646c915db6790736f6283c6d28b598a4292a5826f515f1df04b305af48671a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

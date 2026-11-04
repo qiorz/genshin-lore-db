@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6500,
+  "name": "蝶去蝶来——盛典与慧业 第一幕",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1702959503",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6500/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6500,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:18:05+08:00",
+  "sha256": "4745e3056730ed6d77a8e79e0163a53ee4ba39de9d178900b908d25dc05c5058",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

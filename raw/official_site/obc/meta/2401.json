@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2401,
+  "name": "栽种之法",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1713751423",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2401/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2401,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:08:44+08:00",
+  "sha256": "0db4f34364601a22e25fb717053fd8872e131fa03d143bf6e51a83a1d1b7c961",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507984,
+  "name": "月下的守望者",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1786674322",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507984/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507984,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:59:17+08:00",
+  "sha256": "9c8d2153bfe0da815dd9e067bc11d5902e6d7e4ecd06b3efb68cdb7024dd923e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

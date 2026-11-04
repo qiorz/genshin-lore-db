@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4766,
+  "name": "兽有失蹄",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1715825221",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4766/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4766,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:16:12+08:00",
+  "sha256": "bf999cfd2958e8dc6f3d8beaf6b6359e3bfd2fb98633ba064102b1ec1cfa44b7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

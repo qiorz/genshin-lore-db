@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7234,
+  "name": "最后的问题",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1714961321",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7234/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7234,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:02:36+08:00",
+  "sha256": "36531175b954b9663dcdf297f120d638cfc7573511d4ad741914b2500e4df4db",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504684,
+  "name": "暂时止息的生物入侵…",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1741659715",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504684/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504684,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:02:25+08:00",
+  "sha256": "854ae1f8497b8cbd9cf90d1aec99b6035f4757938a1efe2391029a930506a8c3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

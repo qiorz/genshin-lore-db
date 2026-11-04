@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4693,
+  "name": "森林书 第四章「最终，森林会记住一切」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1750126202",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4693/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4693,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:17:13+08:00",
+  "sha256": "0ff97d03687f7077173dd26e80731bb6730f5b7bc44cff26eb7af05ea9d756d4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503148,
+  "name": "研究员的日记【中央实验室遗址】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1730254222",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503148/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503148,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:45:16+08:00",
+  "sha256": "9191c1c6586b574fa86477a286fd5f9997ec3a64ffe9795812f7a4c06cc63d1f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

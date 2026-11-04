@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501525,
+  "name": "炮炮，又见炮炮。",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1767578380",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501525/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501525,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:03:34+08:00",
+  "sha256": "0a37ceecf2ef6963da81a16378a999dbc7c9d846e909744fc57f3a8f98ad29ee",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

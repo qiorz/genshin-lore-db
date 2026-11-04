@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505143,
+  "name": "朝向炎崖之路",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1749635581",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505143/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505143,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:10:36+08:00",
+  "sha256": "c9047a8e82b34625e0fedc9c9d8c6939d0c4417d64b39c403f19d0aeb41a4b1f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

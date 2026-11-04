@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500564,
+  "name": "特技光效与明日之星！",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712542887",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500564/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500564,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:03:36+08:00",
+  "sha256": "aa8083b8ec208b1e7d3eb617f131509ddb939e720d997d44b20e1547ad7c1920",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

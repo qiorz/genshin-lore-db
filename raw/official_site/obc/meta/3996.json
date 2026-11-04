@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3996,
+  "name": "神守柏之章 第一幕「梧桐一叶落」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1711358139",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3996/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3996,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:09:08+08:00",
+  "sha256": "597efc6bfa5817e7d76e1572ef92c0177dc94ad83ba43291e0a7a91e04c1901b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

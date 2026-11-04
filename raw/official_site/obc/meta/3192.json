@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3192,
+  "name": "邀约事件·早柚 第一幕「呜呼流·生长之术」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1702959533",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3192/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3192,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:09:33+08:00",
+  "sha256": "2abb26aaa4351646b366e6353da4257e23da4955329b408ccc1d20ff692e02b3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

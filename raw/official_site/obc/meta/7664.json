@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7664,
+  "name": "「水的女儿」: 司颂之章 第一幕",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1703752706",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7664/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7664,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:00:32+08:00",
+  "sha256": "e95c00c52126632b6440e46b8ef5294e98e97ddd250f5a33500627b7d548f17b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

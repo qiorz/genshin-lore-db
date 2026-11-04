@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509110,
+  "name": "花羽伴弹头",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1785723706",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509110/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509110,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:03:56+08:00",
+  "sha256": "3d886d19e8d42dd0861cdbe755499af73d262bb57920cd930b976b6e9a5a2273",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

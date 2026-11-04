@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7077,
+  "name": "枫丹动物寓言集",
+  "menu_id": "0",
+  "menu_name": "书籍",
+  "page_version": "1730688864",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7077/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7077,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:26:09+08:00",
+  "sha256": "548d68a47b5b90ed1d2b60d1d4a4308dc2101e0535e37253e91e145e8a2614a4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

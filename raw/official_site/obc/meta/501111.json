@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501111,
+  "name": "「猫茸茸城堡」的大大危机！",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1713168747",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501111/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501111,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:12:55+08:00",
+  "sha256": "b117b9868be4802d3dd40b6c0cf6adf10a6226d6ce10199805fbfb5cf7a8ca28",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

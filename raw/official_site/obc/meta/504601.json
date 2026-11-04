@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504601,
+  "name": "无名旅人的笔记【奥奇卡纳塔】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1740129141",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504601/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504601,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:50:34+08:00",
+  "sha256": "90bc13b5048a48dc6898367253b29ae61da50364e0271c15ae6e8437d9cbf87c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

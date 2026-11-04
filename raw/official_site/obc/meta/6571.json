@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6571,
+  "name": "如是灵光悉示现·灭",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1714961311",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6571/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6571,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:16:30+08:00",
+  "sha256": "87cd2dfe4367e0d6c4ebd130d6f716890acdeb0de97ad6743896efc6f693710a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

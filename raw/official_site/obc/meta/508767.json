@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508767,
+  "name": "幻友绮旅 其一「野林猪与小魔女」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1780019777",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508767/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508767,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:08:27+08:00",
+  "sha256": "e0f2ab8fbf77d19f8435e2610844ddb9607d0326520438b930e69f96170ce89c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505553,
+  "name": "智巧灵蕈大竞逐 第二幕「「月莲杯」的初战」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1751360393",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505553/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505553,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:16:59+08:00",
+  "sha256": "2c0a28f30e21cf581b6cfab9b27afc6f8de369c416cb3606342179b402549d60",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

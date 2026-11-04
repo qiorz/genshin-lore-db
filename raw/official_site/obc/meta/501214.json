@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501214,
+  "name": "希格雯",
+  "menu_id": "0",
+  "menu_name": "角色",
+  "page_version": "1790646131",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501214/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501214,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T11:53:54+08:00",
+  "sha256": "867dee03c19645ca0093a211a5841b9d356b31af1cf52f1ae6f845adafdca382",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

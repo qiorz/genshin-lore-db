@@ -1,0 +1,9 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache D:\harn\2\genshin-lore-db\jieba.cache
+Loading model cost 0.491 seconds.
+Prefix dict has been built successfully.
+[lore] 石碑【龙脊雪山】  (lore.obc.501754)
+  石碑【龙脊雪山】
+  https://baike.mihoyo.com/ys/obc/content/501754/detail?bbs_presentation_style=no_header
+
+1 result(s)

@@ -1,0 +1,17 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache D:\harn\2\genshin-lore-db\jieba.cache
+Loading model cost 0.478 seconds.
+Prefix dict has been built successfully.
+[character] 钟离  (char.obc.1290)
+  - 名称：钟离 - 稀有度：5 星 - 生日：12月31日 - 所属：璃月港 - 定位：岩元素护盾兼输出 - 武器类型：长柄武器 - 命之座：岩王帝君座 - 称号：尘世闲游
+  https://baike.mihoyo.com/ys/obc/content/1290/detail?bbs_presentation_style=no_header
+
+[character] 钟离  (char.obc.1290)
+  钟离其人，虽说来历不明，却知礼数、晓规矩。他所掌握的璃月传统胜过任何一位学者，坐镇「往生堂」，能行天地万物之典仪。衣饰合规、行仪吉时、用具地点、观礼章程，以上种种只需交到他手里，便能后顾无忧。
+  https://baike.mihoyo.com/ys/obc/content/1290/detail?bbs_presentation_style=no_header
+
+[character] 钟离  (char.obc.1290)
+  然而，如此精致讲究的男子，却敢两袖清风地出门。买卖需要金钱，车马也需付费，可钟离身无分文，最终掏钱的，只会是别人。
+  https://baike.mihoyo.com/ys/obc/content/1290/detail?bbs_presentation_style=no_header
+
+3 result(s)

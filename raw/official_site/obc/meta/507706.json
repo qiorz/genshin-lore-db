@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507706,
+  "name": "歪歪扭扭的笔迹【废弃避难所】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1768443274",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507706/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507706,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:43:19+08:00",
+  "sha256": "199d2060b852729332b41e48d3339b89e570883c70933266baeafae4c8ee482c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

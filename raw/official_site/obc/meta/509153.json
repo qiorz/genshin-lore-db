@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509153,
+  "name": "暴躁鱼儿快痊愈…",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1785470151",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509153/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509153,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:02:28+08:00",
+  "sha256": "f139bdfa5027ab18ac9da5135e581a898b7756d3086781e624e392b6d45c461c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

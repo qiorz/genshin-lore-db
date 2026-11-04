@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2837,
+  "name": "繁忙的冒险家协会",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712628817",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2837/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2837,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:14:44+08:00",
+  "sha256": "ff88a229638e736206fc039e8725cc9b562550d265adcb4736b273a7e0b52fb5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

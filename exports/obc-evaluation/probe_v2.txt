@@ -1,0 +1,40 @@
+BWIKI 捕风的异乡人: revid=673271 fields={'所属版本': '1.0', '任务类型': '魔神任务'}
+BWIKI 鸟瞰风物: revid=652508 fields={'所属版本': '1.0', '任务类型': '魔神任务<!--魔神任务/传说任务/地图事件/活动事件/隐藏任务-->'}
+BWIKI 林间风: revid=601764 fields={'实装版本': '1.0', '书籍名': '林间风<!--此为备注，=后填写，书籍的名称，系列名，非单卷名称-->'}
+BWIKI 钟离: revid=690529 fields={'实装版本': '1.1', '名称': '钟离'}
+
+OBC channel 68: retcode=0 data_keys=['list']
+  list: 1
+    keys=['ch_ext', 'children', 'depth', 'entry_limit', 'hidden', 'id', 'layout', 'list', 'name', 'parent_id']
+    sample={"id": 68, "name": "书籍", "parent_id": 189, "depth": 2, "ch_ext": "[{\"type\":\"text\",\"attribute_name\":\"每行个数\",\"attribute_key\":\"col_per_row\",\"value\":\"2\"},{\"type\":\"text\",\"attribute_name\":\"展示样式\",\"attribute_key\":\"display_type\",\"value\":\"default\"},{\"type\":\"text\",\"attribute
+
+OBC channel 251: retcode=0 data_keys=['list']
+  list: 1
+    keys=['ch_ext', 'children', 'depth', 'entry_limit', 'hidden', 'id', 'layout', 'list', 'name', 'parent_id']
+    sample={"id": 251, "name": "地图文本", "parent_id": 189, "depth": 2, "ch_ext": "[{\"type\":\"text\",\"attribute_name\":\"每行个数\",\"attribute_key\":\"col_per_row\",\"value\":\"2\"},{\"type\":\"text\",\"attribute_name\":\"展示样式\",\"attribute_key\":\"display_type\",\"value\":\"default\"},{\"type\":\"text\",\"attrib
+
+OBC channel 43: retcode=0 data_keys=['list']
+  list: 1
+    keys=['ch_ext', 'children', 'depth', 'entry_limit', 'hidden', 'id', 'layout', 'list', 'name', 'parent_id']
+    sample={"id": 43, "name": "任务", "parent_id": 189, "depth": 2, "ch_ext": "[{\"type\":\"text\",\"attribute_name\":\"每行个数\",\"attribute_key\":\"col_per_row\",\"value\":\"2\"},{\"type\":\"text\",\"attribute_name\":\"展示样式\",\"attribute_key\":\"display_type\",\"value\":\"default\"},{\"type\":\"text\",\"attribute
+
+OBC search 地图文本 '石碑': 10
+  501754 | 石碑【龙脊雪山】
+  504608 | 迷灰中的石碑【镜璧山】
+  502019 | 古老的石碑【沉玉谷 · 上谷】
+  505825 | 石碑【烬寂海前】
+  504596 | 破损的石碑【祖遗庙宇】
+
+OBC search 地图文本 '残破的笔记': 9
+  502021 | 残破的笔记【暝垣山】
+  507704 | 残破的笔记【废弃避难所】
+  503068 | 遗落的笔记残页【精石铜城】
+  502437 | 残破的记录【雨的尽头】
+  502434 | 残破的出勤记录【阿陀河谷】
+
+OBC search 地图文本 '散落': 5
+  503070 | 散落的书页【揭示之书】
+  505443 | 桌上散落的信件【千织屋】
+  505442 | 桌上散落的笔记【千织屋】
+  501809 | 端雅之墓【天衡山】
+  507824 | 大盗雷德·米勒的留言【最后的藏宝地】

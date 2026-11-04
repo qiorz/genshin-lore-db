@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7230,
+  "name": "真是让人垂涎欲滴！",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712543888",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7230/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7230,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:03:43+08:00",
+  "sha256": "085772e234b34239b7d3b3ff7b7422aa28aca7b5a3e25883bf8ca22611c49bde",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

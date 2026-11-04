@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502872,
+  "name": "流泉所归之处 第三幕 「神秘岛之旅」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1728353212",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502872/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502872,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:10:44+08:00",
+  "sha256": "4b49878c8e32da66019d9bc3222b17dda144a6e485cbca990583ee92c34cc3a1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

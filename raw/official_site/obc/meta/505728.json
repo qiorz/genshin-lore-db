@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505728,
+  "name": "司巫的记录【秘境文本】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1753858259",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505728/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505728,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:50:14+08:00",
+  "sha256": "c6c66ba8b52d99e0f150f64ee24679d93203a131365b933000185f87c53840fb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

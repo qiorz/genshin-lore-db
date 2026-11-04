@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7154,
+  "name": "「这可不是南瓜汤…」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712457213",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7154/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7154,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:00:35+08:00",
+  "sha256": "fbf66cf367163a534f81cc9233fed9b0d631d737bdeb19de1db6bb713eab158c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

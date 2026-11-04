@@ -1,0 +1,10 @@
+entry_page_id,title,doc_type,version,version_source,version_confidence,notes
+"399","序章 第一幕「捕风的异乡人」","quest","1.0","obc-filter","confirmed","观测枢任务频道 版本号/1.0"
+"501","林间风","book","1.0","bwiki","confirmed","BWiki 实装版本=1.0"
+"503","林间风·故事拔萃节选","book","1.0","bwiki","confirmed","BWiki《林间风》实装版本=1.0"
+"516","碎梦奇珍","book","1.0","bwiki","confirmed","BWiki 实装版本=1.0"
+"3470","白夜国馆藏","book","2.3–2.4","bwiki","confirmed","多卷跨版本；BWiki 实装版本=2.3, 2.4"
+"1290","钟离","character","1.1","bwiki","confirmed","BWiki 实装版本=1.1"
+"507704","残破的笔记【废弃避难所】","lore","6.0","derived-related-quest","inferred","相关任务 506550「月之东，日之西」；版本号/月之一=6.0"
+"503070","散落的书页【揭示之书】","lore","4.0","derived-related-quest","inferred","相关任务 7235「秘诲揭示之书」；版本号/4.0"
+"501754","石碑【龙脊雪山】","lore","","unknown","unknown","无相关任务字段；待考"

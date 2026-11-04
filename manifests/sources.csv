@@ -1,0 +1,10 @@
+source_id,name,kind,base_url,language,license,access_method,priority,status,notes
+"bwiki","原神WIKI_BWIKI_哔哩哔哩","wiki","https://wiki.biligame.com/ys/","zh-Hans","站点未明示；按个人研究使用","MediaWiki API: api.php; action=parse / list=search / list=allpages","1","active","中文 Wiki 校验/兜底；任务子页有 ==任务剧情==；部分请求会 567，需退避"
+"obc","米游社·观测枢","official-community","https://baike.mihoyo.com/ys/obc/","zh-Hans","© HoYoverse；条目由社区编辑","API: act-api-takumi-static.mihoyo.com; entry_page / wapi/search / getChannelTree","1","active","官方平台/社区维护；结构化 entry_page；任务页含 interactive_dialogue；不是逐字官方文本"
+"miyoushe","米游社","official-community","https://www.miyoushe.com/ys/","zh-Hans","© HoYoverse；帖子内容权利归原作者/官方","API: bbs-api.miyoushe.com; getPostFull / getForumPostList; 需 UA + Referer","1","active","官方公告/版本信息；正文 HTML，常含图片；不适合当全量剧情库"
+"official_site","原神官网","official","https://ys.mihoyo.com/main/","zh-Hans","© HoYoverse","Nuxt/JS 页面；部分内容需浏览器渲染或内部接口","1","limited","权威抽查；首页 HTML 是壳，不适合批量"
+"genshin_db","genshin-db","datamine","https://github.com/theBowja/genshin-db","multi","代码 MIT；游戏数据权利归原权利方","npm / unpkg JSON","2","active","结构化名称/描述/故事；测试包 5.2.12 标注 v6.7 数据；不是任务全文库"
+"fandom","Genshin Impact Wiki (Fandom)","wiki","https://genshin-impact.fandom.com/","en","CC BY-SA（以站点声明为准）","MediaWiki API","2","unknown","英文对照；本次网络访问失败，需换网络重测"
+"hoyowiki","HoYoWiki","official-wiki","https://wiki.hoyolab.com/","multi","© HoYoverse","Web/API","3","blocked","本次返回 403（地区限制）；可用时作为官方词条校验"
+"animegame","AnimeGameData / GenshinData","datamine","https://github.com/DimbreathBot/AnimeGameData","multi","数据权利归原权利方；代码许可另见仓库","GitHub / 数据包","3","unknown","游戏内精确字符串；本次 web_fetch 未连通，需 git/代理再测"
+"wikiwiki","原神 Wiki*（wikiwiki.jp）","wiki","https://wikiwiki.jp/genshinwiki/","ja","站点条款","Web","3","active","日文任务全文；可作对照，非中文主源"

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1455,
+  "name": "灵矩有宝予何人",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1703676409",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1455/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1455,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:07:03+08:00",
+  "sha256": "81a37914299c6c17b907d3d1c630169f2a65a992b786423c374cc45b641b9ba1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

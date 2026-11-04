@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501627,
+  "name": "故事始于无雨的森林",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1723385340",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501627/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501627,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:57:12+08:00",
+  "sha256": "cbc80d1cb2e575ad56f2327f1df3e5aa630e288ec53695ce019b35488b0c4296",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

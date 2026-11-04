@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502892,
+  "name": "海精之章 第一幕：谎言的温度",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1733847583",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502892/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502892,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:03:26+08:00",
+  "sha256": "48d7852635c00ba220c5a3f81b791ef77e34793a12f5c950c769706bf128c3a9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,13 @@
+[book] 白之公主与六侏儒  (book.obc.500)
+  白之公主与六侏儒
+  https://baike.mihoyo.com/ys/obc/content/500/detail?bbs_presentation_style=no_header
+
+[quest] 沙漏之章 第一幕 「麻烦的工作」  (quest.obc.589)
+  丽莎：《白之公主与六侏儒》，还记得吗？
+  https://baike.mihoyo.com/ys/obc/content/589/detail?bbs_presentation_style=no_header
+
+[quest] 沙漏之章 第一幕 「麻烦的工作」  (quest.obc.589)
+  派蒙：是《白之公主与六侏儒》！我记得这个名字，应该就是它了吧？
+  https://baike.mihoyo.com/ys/obc/content/589/detail?bbs_presentation_style=no_header
+
+3 result(s)

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1106,
+  "name": "轻飘飘的花与芙萝拉",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712460332",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1106/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1106,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:14:57+08:00",
+  "sha256": "e7620467bbd7b603ed0f15666069aae98a0aa6c7dc287df3f2218600b17cd2f9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

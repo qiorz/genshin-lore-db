@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507238,
+  "name": "抗险机构，全量就绪！",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1763954414",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507238/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507238,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:16:48+08:00",
+  "sha256": "b8664f4f438b68bf59fa4660f6af2919ac41bf5f574df91a3f8314fb1244bc85",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

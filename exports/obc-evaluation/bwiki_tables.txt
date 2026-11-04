@@ -1,0 +1,11 @@
+
+=== 书籍一览 revid=677529 tables=1 ===
+table 0 headers=['稀有度', '体裁', '国家', '图鉴', '实装版本']
+  ['体裁', '小说 诗歌 人物传记 工具书 游记日志 故事传说 寓言童话 史书 戏剧']
+  ['国家', '提瓦特 蒙德 璃月 稻妻 须弥 枫丹 纳塔 挪德卡莱 至冬']
+  ['图鉴', '是 否']
+角色一览: no parse {'error': {'code': 'missingtitle', 'info': "The page you specified doesn't exist.", 'docref': 'See https://wiki.biligame.com/ys/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes.'}}
+
+=== 武器一览 revid=517570 tables=0 ===
+
+=== 圣遗物一览 revid=473437 tables=0 ===

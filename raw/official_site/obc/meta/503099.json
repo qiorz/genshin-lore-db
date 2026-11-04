@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503099,
+  "name": "谁人的日志【愿望之象限】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1730254025",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503099/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503099,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:45:34+08:00",
+  "sha256": "9b15ba2d7e08620ab24c93fe02c6f5163c95c44b322a2ee9f1af6d24c8e3c6bb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

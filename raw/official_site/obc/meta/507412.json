@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507412,
+  "name": "意料之外的委托·尾声",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1764900799",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507412/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507412,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:13:45+08:00",
+  "sha256": "6a9ccfaef23b91897c511f352cc1e474285eb43b3e708fbdbf3ca93a687f4438",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

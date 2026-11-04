@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 934,
+  "name": "林中小书",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712459915",
+  "url": "https://baike.mihoyo.com/ys/obc/content/934/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 934,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:06:39+08:00",
+  "sha256": "88ef7f447de676ef8fd5e2fffc68971d9e54fd6214cbede1ebac664f8fb16c76",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

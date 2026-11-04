@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 653,
+  "name": "磨刀不误砍柴工",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712459325",
+  "url": "https://baike.mihoyo.com/ys/obc/content/653/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 653,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:14:28+08:00",
+  "sha256": "4491dcf40a2f206dd33143796eacb99958f9d9ec8533d06564c2f95e19f0b968",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

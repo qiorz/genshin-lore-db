@@ -1,0 +1,18 @@
+{
+  "source_id": "obc",
+  "channel_id": 251,
+  "channel_name": "地图文本",
+  "url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_params": {
+    "channel_id": 251,
+    "page_num": 1,
+    "page_size": 1000,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:08:03+08:00",
+  "sha256": "24afbb2ae72fd4dd3aa32ee03046bc36265156f4cef3f9c8c2d9b7f85c083502",
+  "entry_count": 706
+}

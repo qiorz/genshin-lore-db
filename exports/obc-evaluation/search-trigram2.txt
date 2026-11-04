@@ -1,0 +1,13 @@
+[character] 钟离  (char.obc.1290)
+  钟离
+  https://baike.mihoyo.com/ys/obc/content/1290/detail?bbs_presentation_style=no_header
+
+[book] 提瓦特游览指南  (book.obc.534)
+  与我同行的钟离先生一向很严肃，却被我的想法逗得哈哈大笑。
+  https://baike.mihoyo.com/ys/obc/content/534/detail?bbs_presentation_style=no_header
+
+[book] 提瓦特游览指南  (book.obc.534)
+  璃月港的钟离先生似乎很熟悉这里的传说，但我从未见他来到过这里。从这里能远远望见望舒客栈，之前遇到的那位奇怪的年轻人应该一直在遥望这边。
+  https://baike.mihoyo.com/ys/obc/content/534/detail?bbs_presentation_style=no_header
+
+3 result(s)

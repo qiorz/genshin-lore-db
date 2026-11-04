@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501301,
+  "name": "瓦萨里回廊广告板",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1730427417",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501301/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501301,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:45:14+08:00",
+  "sha256": "833a3d3d2f6215e3381276aa8a5606898ab899d5d6543f8c9d48da9089957b9b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

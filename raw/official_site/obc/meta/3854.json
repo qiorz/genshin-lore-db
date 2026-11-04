@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3854,
+  "name": "黯淡蘑菇的求救",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712714753",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3854/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3854,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:58:02+08:00",
+  "sha256": "afc317bf00c4d631f554fdc257c9152e1e902fca2e52c979df93579e966ace7c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

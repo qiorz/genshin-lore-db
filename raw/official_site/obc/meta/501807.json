@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501807,
+  "name": "失页的笔记【天衡山】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1723688259",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501807/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501807,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:47:04+08:00",
+  "sha256": "72fa0ad24b97652130147850a0c0d76cda8c6ef7052ebf808fd090d82405f755",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

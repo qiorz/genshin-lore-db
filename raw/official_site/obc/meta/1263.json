@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1263,
+  "name": "风起风息",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1712542506",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1263/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1263,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:15:23+08:00",
+  "sha256": "48115a0cc902268fd8a8859c477b9e2c2d89258cc1807a4bdd418f3b9f89b01b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501694,
+  "name": "向着灯塔，或是远方",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1722218802",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501694/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501694,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:57:01+08:00",
+  "sha256": "6c111941363076135d1bb8a7e1f4feaf91f8799d5aa8f64378c1d042e0674c83",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

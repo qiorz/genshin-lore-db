@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507842,
+  "name": "遗落的笔记【逐浪野】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1768790230",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507842/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507842,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:43:54+08:00",
+  "sha256": "06819c9196ef0fe5e63a00312126ff0ac36535802a6e62e3d2a2ca5eba59f376",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

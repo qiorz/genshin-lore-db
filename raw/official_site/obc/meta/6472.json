@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6472,
+  "name": "邀约事件·莱依拉 第一幕「星本无言」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1702959502",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6472/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6472,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:18:15+08:00",
+  "sha256": "59807fbd5cca8a474d183d0b431e16dd038cf11ebc62ff336060f84fb6a31e7f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

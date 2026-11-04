@@ -1,0 +1,13 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache D:\harn\2\genshin-lore-db\jieba.cache
+Loading model cost 0.480 seconds.
+Prefix dict has been built successfully.
+[book] 白之公主与六侏儒  (book.obc.500)
+  ### 白之公主与六侏儒·第一卷 - 稀有度：4 星 - 获得方式：完成 沙漏之章 第一幕 「麻烦的工作」 - 描述：在提瓦特大陆各地流传已久的童话，这是第一册，讲述了夜之国与月光森林的故事。
+  https://baike.mihoyo.com/ys/obc/content/500/detail?bbs_presentation_style=no_header
+
+[book] 白之公主与六侏儒  (book.obc.500)
+  在提瓦特大陆各地流传已久的童话，本册讲述了白之公主与光之王子的相遇。
+  https://baike.mihoyo.com/ys/obc/content/500/detail?bbs_presentation_style=no_header
+
+2 result(s)

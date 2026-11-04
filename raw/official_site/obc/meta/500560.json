@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500560,
+  "name": "两个铳枪手的凯旋",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1781744401",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500560/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500560,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:00:50+08:00",
+  "sha256": "01081ab2cd988428fb17cfdb7e69be29e30bded4744c1d7046a2dc6e04d321d4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

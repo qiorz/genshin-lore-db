@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510076,
+  "name": "危影重重·其六",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1791437169",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510076/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510076,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:12:15+08:00",
+  "sha256": "ab6162d1bf22c7eb9442e2bdce2f03b8afa390c6a40fd7a561da26334659fe98",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

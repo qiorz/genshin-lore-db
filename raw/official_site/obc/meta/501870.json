@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501870,
+  "name": "香氛瓶之章 第一幕「花债血偿」",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1725439919",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501870/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501870,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:18:31+08:00",
+  "sha256": "576a119675c0b0c0588c52d75d37c2122441efc2355404baeff46e4568d37223",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

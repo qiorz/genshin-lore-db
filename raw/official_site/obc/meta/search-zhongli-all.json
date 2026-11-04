@@ -1,0 +1,16 @@
+{
+  "source_id": "obc",
+  "url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/search",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/search",
+  "api_params": {
+    "keyword": "钟离",
+    "page_num": 1,
+    "page_size": 5,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "retrieved_at": "2026-11-04T01:50:27+08:00",
+  "sha256": "1d0d8a14852f3a4fb52cf25521e86facca86bdfedd2360e54ebc1abb2ab4dc5c",
+  "http_status": 200,
+  "notes": "Search snapshot without menu filter."
+}

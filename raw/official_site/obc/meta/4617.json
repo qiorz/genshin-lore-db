@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4617,
+  "name": "灵光颂",
+  "menu_id": "0",
+  "menu_name": "书籍",
+  "page_version": "1730688918",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4617/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4617,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:26:18+08:00",
+  "sha256": "f8536a17f75c15b5da11fcba17c461494192071c19aba4b598a40ff89da1d8d9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

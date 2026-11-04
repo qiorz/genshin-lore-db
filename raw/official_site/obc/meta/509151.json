@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509151,
+  "name": "暴躁鱼儿的警告！",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1785470156",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509151/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509151,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T03:02:29+08:00",
+  "sha256": "4ef5eabdd2637dd53da017afbd7618f9b0bb444aa9d038a62816c80f5e695b38",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

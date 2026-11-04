@@ -1,0 +1,147 @@
+{
+  "counts": {
+    "sources": 9,
+    "documents": 2035,
+    "sections": 330417,
+    "document_revisions": 2693,
+    "ingest_runs": 25
+  },
+  "by_type": {
+    "quest": 1101,
+    "lore": 706,
+    "character": 136,
+    "book": 92
+  },
+  "version_coverage": {
+    "quest": {
+      "total": 1101,
+      "versioned": 1101,
+      "unknown": 0
+    },
+    "lore": {
+      "total": 706,
+      "versioned": 226,
+      "unknown": 480
+    },
+    "character": {
+      "total": 136,
+      "versioned": 136,
+      "unknown": 0
+    },
+    "book": {
+      "total": 92,
+      "versioned": 91,
+      "unknown": 1
+    }
+  },
+  "quest_dialogue": {
+    "with_dialogue": 1051,
+    "without_dialogue": 50
+  },
+  "regions": [
+    {
+      "region": "枫丹",
+      "n": 336
+    },
+    {
+      "region": "璃月",
+      "n": 329
+    },
+    {
+      "region": "须弥",
+      "n": 272
+    },
+    {
+      "region": "纳塔",
+      "n": 253
+    },
+    {
+      "region": "蒙德",
+      "n": 244
+    },
+    {
+      "region": "挪德卡莱",
+      "n": 218
+    },
+    {
+      "region": "稻妻",
+      "n": 168
+    },
+    {
+      "region": "至冬",
+      "n": 108
+    },
+    {
+      "region": "未知",
+      "n": 63
+    },
+    {
+      "region": "层岩巨渊",
+      "n": 17
+    },
+    {
+      "region": "活动区域",
+      "n": 13
+    },
+    {
+      "region": "渊下宫",
+      "n": 10
+    },
+    {
+      "region": "提瓦特",
+      "n": 4
+    }
+  ],
+  "recent_ingest_runs": [
+    {
+      "run_id": 25,
+      "started_at": "2026-11-04T11:56:47+08:00",
+      "finished_at": "2026-11-04T11:56:48+08:00",
+      "status": "success",
+      "documents_seen": 136,
+      "documents_written": 136,
+      "errors": 0,
+      "notes": "load_markdown.py"
+    },
+    {
+      "run_id": 24,
+      "started_at": "2026-11-04T11:16:25+08:00",
+      "finished_at": "2026-11-04T11:16:26+08:00",
+      "status": "success",
+      "documents_seen": 13,
+      "documents_written": 13,
+      "errors": 0,
+      "notes": "load_markdown.py"
+    },
+    {
+      "run_id": 23,
+      "started_at": "2026-11-04T11:16:05+08:00",
+      "finished_at": "2026-11-04T11:16:05+08:00",
+      "status": "success",
+      "documents_seen": 13,
+      "documents_written": 13,
+      "errors": 0,
+      "notes": "load_markdown.py"
+    },
+    {
+      "run_id": 22,
+      "started_at": "2026-11-04T10:37:35+08:00",
+      "finished_at": "2026-11-04T10:37:35+08:00",
+      "status": "success",
+      "documents_seen": 5,
+      "documents_written": 5,
+      "errors": 0,
+      "notes": "load_markdown.py"
+    },
+    {
+      "run_id": 21,
+      "started_at": "2026-11-04T10:37:18+08:00",
+      "finished_at": "2026-11-04T10:37:18+08:00",
+      "status": "success",
+      "documents_seen": 5,
+      "documents_written": 5,
+      "errors": 0,
+      "notes": "load_markdown.py"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.genshin-lore-db/schema/frontmatter.schema.json",
+  "title": "Genshin Lore DB — document front matter",
+  "description": "YAML front matter schema for files under corpus/. Volatile fields (hashes, paths, timestamps) belong in SQLite, not here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "title",
+    "language",
+    "canon_status",
+    "transcription",
+    "spoiler",
+    "source",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:[.-][a-z0-9-]+)+$",
+      "description": "Stable lower-case ASCII document id, e.g. quest.archon.mondstadt.prologue-01"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "quest",
+        "book",
+        "character",
+        "weapon",
+        "artifact",
+        "item",
+        "voice",
+        "geography",
+        "event",
+        "manga",
+        "notice",
+        "lore",
+        "other"
+      ]
+    },
+    "subtype": {
+      "type": "string",
+      "description": "e.g. archon, story, world, event, hangout, interlude; material, food, quest-item, furnishing"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "title_en": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "language": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 20,
+      "description": "BCP 47-ish tag, e.g. zh-Hans, en, ja"
+    },
+    "region": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "version": {
+      "type": "string",
+      "maxLength": 20,
+      "description": "Game release version, not retrieval version. Quote values like \"1.0\"."
+    },
+    "version_source": {
+      "type": "string",
+      "enum": [
+        "obc-filter",
+        "bwiki",
+        "official",
+        "manual",
+        "derived-related-quest",
+        "web",
+        "unknown"
+      ],
+      "description": "Where the game version came from."
+    },
+    "version_confidence": {
+      "type": "string",
+      "enum": ["confirmed", "likely", "inferred", "estimated", "unknown"],
+      "description": "How confident the game version mapping is."
+    },
+    "release_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "canon_status": {
+      "type": "string",
+      "enum": [
+        "official",
+        "official-secondary",
+        "community",
+        "datamine",
+        "fan",
+        "unknown"
+      ],
+      "description": "Authority of the content, not fidelity of the transcription."
+    },
+    "transcription": {
+      "type": "string",
+      "enum": [
+        "verbatim",
+        "near-verbatim",
+        "edited",
+        "summary",
+        "unknown"
+      ],
+      "description": "How close this text is to the original wording."
+    },
+    "spoiler": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level"],
+      "properties": {
+        "level": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "scope": {
+          "type": "array",
+          "uniqueItems": true,
+          "maxItems": 20,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 20,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 12,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 50
+      }
+    },
+    "related": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 50,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:[.-][a-z0-9-]+)+$"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "reviewed", "stable", "deprecated"]
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 2000
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "url", "retrieved_at"],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "maxLength": 2000
+        },
+        "page_id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "revision_id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "license": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 1000
+        }
+      }
+    }
+  }
+}

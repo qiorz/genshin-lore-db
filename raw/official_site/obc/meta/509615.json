@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509615,
+  "name": "调查手记【谒圣山峡】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1787019088",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509615/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509615,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T02:52:40+08:00",
+  "sha256": "70de43a4381ad72ea4de27b1df072d50cb7ea25350282a5b3a4442e884c10c0b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

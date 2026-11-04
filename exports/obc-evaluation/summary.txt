@@ -1,0 +1,45 @@
+DB summary
+==========
+sources: 9
+documents: 2035
+sections: 330417
+document_revisions: 2693
+ingest_runs: 25
+
+by type
+  quest: 1101
+  lore: 706
+  character: 136
+  book: 92
+
+version coverage
+  quest: 1101/1101 versioned, 0 unknown
+  lore: 226/706 versioned, 480 unknown
+  character: 136/136 versioned, 0 unknown
+  book: 91/92 versioned, 1 unknown
+
+top regions
+  枫丹: 336
+  璃月: 329
+  须弥: 272
+  纳塔: 253
+  蒙德: 244
+  挪德卡莱: 218
+  稻妻: 168
+  至冬: 108
+  未知: 63
+  层岩巨渊: 17
+  活动区域: 13
+  渊下宫: 10
+  提瓦特: 4
+
+quest dialogue
+  with_dialogue: 1051
+  without_dialogue: 50
+
+recent ingest runs
+  #25 success seen=136 written=136 errors=0
+  #24 success seen=13 written=13 errors=0
+  #23 success seen=13 written=13 errors=0
+  #22 success seen=5 written=5 errors=0
+  #21 success seen=5 written=5 errors=0
