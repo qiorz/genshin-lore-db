@@ -11,7 +11,8 @@ db/genshin_lore.sqlite3
 ## 规则
 
 - 数据库是**本地生成物**，不提交到版本库；
-- 正式正文的权威副本在 `corpus/`；92 本书在 `corpus/books/`，1,051 条任务在 `corpus/quests/`，50 条待补任务和散落文本在 `exports/obc-batch/`，数据库是索引层；
+- 正式正文的权威副本在 `corpus/`：92 本书在 `corpus/books/`，1,069 条任务在 `corpus/quests/`，32 条空壳任务在 `corpus/quests/_pending/`，706 条散落文本在 `corpus/scattered/`，136 个角色在 `corpus/characters/`；数据库只是索引层，可随时从 `corpus/` 全量重建；
+- 重新导入时注意分词模式：`quests` / `characters` 用 `--no-segment`，`books` / `scattered` **不加**该参数（走 jieba 分词）；
 - 不要手工改数据库里的正文；改 Markdown，再重新导入；
 - 改表结构用 `schema/migrations/`，不要直接改现库；
 - 升级/重建前备份。

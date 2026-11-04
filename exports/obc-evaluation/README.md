@@ -1,6 +1,8 @@
 # 观测枢输出
 
-本目录保留分析文件。92 本书在 [`corpus/books/`](../../corpus/books/index.csv)；1,051 条任务在 [`corpus/quests/`](../../corpus/quests/index.csv)；136 个角色在 [`corpus/characters/`](../../corpus/characters/index.csv)；706 条散落文本和 50 条待补任务在 [`exports/obc-batch/`](../obc-batch/)。
+本目录保留分析文件。92 本书在 [`corpus/books/`](../../corpus/books/index.csv)；1,069 条有正文任务在 [`corpus/quests/`](../../corpus/quests/index.csv)（另有 32 条空壳在 `_pending/`）；136 个角色在 [`corpus/characters/`](../../corpus/characters/index.csv)；706 条散落文本在 [`corpus/scattered/`](../../corpus/scattered/index.csv)。
+
+> **注**：本目录下的 `coverage-audit.md`、`crosscheck.md`、`bwiki-quest-fill.txt` 等是 2026-11-04 迁移**之前**的审计快照，其中的 `1,051 / 50 条待补`、`exports/obc-batch 路径` 均为当时状态，不再更新。当前状态以 [`HANDOFF.md`](../../HANDOFF.md) 为准。
 
 ## 文件
 
@@ -53,9 +55,9 @@ corpus/books/<地区>/<书名>.md   # 按地区分目录
 
 ## 下一步
 
-- 706 条散落文本、1,101 条任务已抓取入库；下一步从 `exports/obc-batch/` 移到 `corpus/scattered/` 和 `corpus/quests/`；
+- 706 条散落文本、1,101 条任务已入库；正文已于 2026-11-04 全部迁入 `corpus/scattered/` 与 `corpus/quests/`，`exports/obc-batch/` 已清空；
 - 书籍已归档，后续只补《白之公主与六侏儒》其余卷和 1158 的版本；
-- 全部草稿确认后再做知识层。
+- 任务尾巴（32 条空壳、13 组同文重复、一篇一幕审计）处理完，再做武器/圣遗物，最后做知识层。
 
 
 

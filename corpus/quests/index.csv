@@ -333,6 +333,10 @@ quest.obc.503211,骑士的剑影,event,纳塔,5.1,corpus/quests/event/骑士的�
 quest.obc.508384,骑士的测绘教学,event,蒙德,6.5,corpus/quests/event/骑士的测绘教学.md
 quest.obc.507061,龙龙同游,event,纳塔,6.1,corpus/quests/event/龙龙同游.md
 quest.obc.505174,龙龙远征，出发！,event,纳塔,5.5,corpus/quests/event/龙龙远征，出发！.md
+quest.obc.507909,上许佳愿,event,璃月,6.3,corpus/quests/event/上许佳愿.md
+quest.obc.507910,灯逐良愿,event,璃月,6.3,corpus/quests/event/灯逐良愿.md
+quest.obc.507911,吉事共赏,event,璃月,6.3,corpus/quests/event/吉事共赏.md
+quest.obc.7480,游水酝诗籍 第三首 幽潭心,event,璃月,4.1,corpus/quests/event/游水酝诗籍 第三首 幽潭心.md
 quest.obc.7483,人生的波峰与波谷,other,未知,4.1,corpus/quests/other/人生的波峰与波谷.md
 quest.obc.5990,千里寻音迹难觅 磬弦奏华夜 其一,other,未知,3.4,corpus/quests/other/千里寻音迹难觅 磬弦奏华夜 其一.md
 quest.obc.7649,生日快乐,other,未知,4.2,corpus/quests/other/生日快乐.md
@@ -1050,3 +1054,17 @@ quest.obc.3854,黯淡蘑菇的求救,world,层岩巨渊,2.6,corpus/quests/world/
 quest.obc.503672,龙的归巢,world,纳塔,5.2,corpus/quests/world/龙的归巢.md
 quest.obc.3429,龙蛇藏归辑录,world,渊下宫,2.4,corpus/quests/world/龙蛇藏归辑录.md
 quest.obc.502342,龙选者的旅迹,world,纳塔,5.0,corpus/quests/world/龙选者的旅迹.md
+quest.obc.1399,低温预警,world,蒙德,1.2,corpus/quests/world/低温预警.md
+quest.obc.500835,云云椒椒,world,璃月,4.4,corpus/quests/world/云云椒椒.md
+quest.obc.500836,水土暂服,world,璃月,4.4,corpus/quests/world/水土暂服.md
+quest.obc.509536,危影重重·其一,world,至冬,7.0,corpus/quests/world/危影重重·其一.md
+quest.obc.509816,危影重重·其二,world,至冬,7.0,corpus/quests/world/危影重重·其二.md
+quest.obc.509871,危影重重·其三,world,至冬,7.0,corpus/quests/world/危影重重·其三.md
+quest.obc.510015,危影重重·其四,world,至冬,7.0,corpus/quests/world/危影重重·其四.md
+quest.obc.510061,危影重重·其五,world,至冬,7.0,corpus/quests/world/危影重重·其五.md
+quest.obc.510076,危影重重·其六,world,至冬,7.0,corpus/quests/world/危影重重·其六.md
+quest.obc.7271,泉有重喷日,world,枫丹,4.0,corpus/quests/world/泉有重喷日.md
+quest.obc.7654,往事追迹·北,world,枫丹,4.1,corpus/quests/world/往事追迹·北.md
+quest.obc.7655,往事追迹·西,world,枫丹,4.1,corpus/quests/world/往事追迹·西.md
+quest.obc.7656,往事追迹·南,world,枫丹,4.1,corpus/quests/world/往事追迹·南.md
+quest.obc.7669,往事追迹,world,枫丹,4.1,corpus/quests/world/往事追迹.md

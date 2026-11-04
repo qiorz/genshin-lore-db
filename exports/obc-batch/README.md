@@ -1,38 +1,30 @@
-﻿# exports/obc-batch · 散落文本与任务草稿
+﻿# exports/obc-batch · 已清空（2026-11-04）
 
-本目录是观测枢的批量草稿，尚未正式进入 `corpus/`。
+**2026-11-04：706 条散落文本与 50 条任务草稿已全部迁出，本目录不再存放正文。**
+
+迁移去向：
 
 ```text
-lore-*.md          706 条散落文本
-quest-*.md         50 条待补任务（1,051 条有正文的任务已在 corpus/quests/）
-lore-manifest.csv 散落文本清单
-quest-manifest.csv 任务清单
+lore-*.md   706 条 -> corpus/scattered/<地区>/
+quest-*.md   19 条 -> corpus/quests/<subtype>/     （有正文）
+quest-*.md   31 条 -> corpus/quests/_pending/      （OBC 无剧情对话）
 ```
 
-## 状态
+保留文件：
 
-- 散落文本和 50 条待补任务已导入 SQLite；1,051 条有正文任务在 `corpus/quests/`。
-- `obc-index.csv` 中对应条目标 `loaded`。
-- 50 条任务仍无对话正文，已在 `notes` 标记待补。
-- 散落文本还没有移到 `corpus/scattered/`。
-
-## 类型
-
-- 散落文本：`type: lore`，`subtype: scattered`，只保留交互文本，不提取地图截图。
-- 任务：`type: quest`，按 `任务类型` 映射 `archon/story/world/event/other`；对话分支去重；50 条系列页待补。
-
-## 版本
-
-- 任务：观测枢任务频道 `版本号`，1,101/1,101 有版本。
-- 散落文本：从“相关任务/成就/活动”推导，226/706 有版本；其余 `unknown`。
-- 书籍：BWiki SMW，已归档到 `corpus/books/`。
-
-## 重新导入
-
-```powershell
-.\tools\python\python.exe scripts\load_markdown.py --dir exports\obc-batch --pattern 'lore-*.md'
-.\tools\python\python.exe scripts\load_markdown.py --dir exports\obc-batch --pattern 'quest-*.md'
+```text
+lore-manifest.csv   散落文本清单（迁移前的来源台账，保留作溯源）
+quest-manifest.csv  任务清单（同上）
 ```
 
+## 为什么还留着这个目录
 
+这两份 manifest 是当时抓取的批次台账，记录了每条 OBC entry 的归类与状态，
+和新生成的 `corpus/*/index.csv` 用途不同：前者是「抓了什么」，后者是「现在在哪」。
+不参与建库，可随时删除。
 
+## 正文位置
+
+- 散落文本：`corpus/scattered/`
+- 任务：`corpus/quests/`
+- 空壳任务：`corpus/quests/_pending/`

@@ -11,8 +11,9 @@ corpus/
 │  ├─ story/         # 传说任务
 │  ├─ world/         # 世界任务
 │  ├─ event/         # 活动剧情
-│  ├─ hangout/       # 邀约事件
-│  └─ interlude/     # 间章
+│  ├─ hangout/       # 邀约事件（暂空，归类待做）
+│  ├─ interlude/     # 间章（暂空，归类待做）
+│  └─ _pending/      # OBC 无剧情对话的空壳页，待补
 ├─ books/            # 游戏内书籍
 ├─ scattered/        # 散落文本：石碑、笔记、留言、书页、告示等
 ├─ characters/       # 角色故事/语音（不含攻略、配队、数值）

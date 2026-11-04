@@ -2,7 +2,7 @@
 
 > 目标：把分散在游戏内文本、米游社、Wiki 中的原神叙事资料，整理成一个**本地、可检索、可追溯、可校正**的私人研究库。
 >
-> 当前状态：**书籍 92 篇在 `corpus/books/`；1,051 条任务在 `corpus/quests/`；136 个角色在 `corpus/characters/`；50 条待补任务和 706 条散落文本在 `exports/obc-batch/`。数据库共 2,035 篇文档、330,417 个段落。**
+> 当前状态：**书籍 92 篇、任务 1,069 篇、散落文本 706 条、角色 136 个，全部归档在 `corpus/` 下；另有 32 条 OBC 无剧情的空壳任务隔离在 `corpus/quests/_pending/`。数据库共 2,035 篇文档、330,417 个段落，可随时从 Markdown 全量重建。**
 >
 > 本地 Web UI：**http://127.0.0.1:8765/**（启动方式见 [`webui/README.md`](webui/README.md)）
 
@@ -188,10 +188,11 @@ source:
 ## 8. 下一步
 
 1. **书籍已归档**：92 本在 `corpus/books/`，`503` 重复卷跳过。
-2. **散落文本和任务已抓取**：706 条散落文本、1,101 条任务全部入库；1,051 条任务已归档 `corpus/quests/`，50 条待补任务仍在 `exports/obc-batch/`。
-3. **下一步**：散落文本可移到 `corpus/scattered/`；50 条 OBC 缺正文的系列页补齐后，再移入 `corpus/quests/`。
-4. **补缺口**：《白之公主与六侏儒》其余卷、书籍 1158 版本、480 条散落文本版本；任务版本已补齐。
-5. **最后做知识层**：实体、关系、时间线、claims，不要反过来先画图。
+2. **正文层已闭合**：706 条散落文本在 `corpus/scattered/`，1,069 条有正文任务在 `corpus/quests/`，32 条 OBC 空壳任务隔离在 `corpus/quests/_pending/`；`exports/obc-batch/` 已清空。Git 已初始化，数据库有备份。
+3. **下一步**：收任务尾巴（补 32 条空壳、处理 13 组同文重复、做「一篇一幕」审计、补 hangout/interlude 分类）。
+4. **补缺口**：《白之公主与六侏儒》其余卷、书籍 1158 版本、480 条散落文本版本、10 篇空白散落文本的 renderer；任务版本已补齐。
+5. **再做武器/圣遗物**：频道列表已在 `raw/`，补 renderer 即可批量；成就建议只做 CSV 索引，不生成 1,626 篇正文。
+6. **最后做知识层**：实体、关系、时间线、claims，不要反过来先画图。
 
 具体拆解见 [`docs/03-实施路线图.md`](docs/03-实施路线图.md)。
 
@@ -229,8 +230,11 @@ source:
 - [`manifests/character-index.csv`](manifests/character-index.csv)：138 个角色频道索引（136 个已入库）
 - [`manifests/versions.csv`](manifests/versions.csv)：游戏版本标记与来源
 - [`exports/obc-evaluation/README.md`](exports/obc-evaluation/README.md)：非书草稿、分析文件与已知问题
-- [`exports/obc-batch/`](exports/obc-batch/)：50 条待补任务草稿
-- [`corpus/quests/index.csv`](corpus/quests/index.csv)：1,051 条任务正文索引
+- [`exports/obc-batch/`](exports/obc-batch/)：已清空，只剩两份批次台账 CSV
+- [`corpus/quests/index.csv`](corpus/quests/index.csv)：1,069 条任务正文索引
+- [`corpus/scattered/index.csv`](corpus/scattered/index.csv)：706 条散落文本索引
+- [`corpus/scattered/README.md`](corpus/scattered/README.md)：散落文本归档规则、命名与已知问题
+- [`corpus/quests/_pending/README.md`](corpus/quests/_pending/README.md)：32 条空壳任务说明
 - [`corpus/characters/index.csv`](corpus/characters/index.csv)：136 个角色正文索引
 - [`corpus/books/index.csv`](corpus/books/index.csv)：92 本书的版本/地区索引
 
