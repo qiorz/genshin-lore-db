@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503240,
+  "name": "同流者",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730699700",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503240/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503240,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:25+08:00",
+  "sha256": "2ac114fa4c4e8c21ca8aca3c02847d07b49ffc2eee040ebd888542f7c617c4b8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506856,
+  "name": "月光下的少女",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1760407810",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506856/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506856,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:18:19+08:00",
+  "sha256": "b8b84e9c4e407cd3c24d2443305c3bda2eb2de2ad7e7a7a3d76e4db0ee94591b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

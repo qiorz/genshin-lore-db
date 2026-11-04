@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508071,
+  "name": "如果在冬夜，一个旅人",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1772159726",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508071/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508071,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:17:36+08:00",
+  "sha256": "5b2e34b06e7cd683152b1fdd1e4a783a92de59e250f2b5937562c2d8dbae89c4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

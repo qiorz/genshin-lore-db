@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510248,
+  "name": "随尽末到来的毁灭",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1793153533",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510248/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510248,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:16:00+08:00",
+  "sha256": "e7b1f376497a9d6b1ba06e3642cec252100cd61385f4a5e020dab0d6b98b5adf",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

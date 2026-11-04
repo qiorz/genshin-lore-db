@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502728,
+  "name": "沧浪的寻宝者·其一",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206494",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502728/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502728,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:28:53+08:00",
+  "sha256": "b70856b33505c6ac2ae036fd48ed5c44eac8f18281ee67448c20dcf9890abdbd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509989,
+  "name": "已为您成功规划路线",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1790561966",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509989/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509989,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:16:15+08:00",
+  "sha256": "6091702ab5bbb4bcf7f76a5a64f0167aa8fdbd6ea0777c5f882b8d05a3df4fde",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

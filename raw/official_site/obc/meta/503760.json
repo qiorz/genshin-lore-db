@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503760,
+  "name": "还施彼身",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734315877",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503760/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503760,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:24:08+08:00",
+  "sha256": "dc8fbaec38387d6e31cd9c12b61b07b9c0e9e323820dcd5e676432983fb1c02d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502507,
+  "name": "「略大于突如其来的爱情。」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1727145171",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502507/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502507,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:30:27+08:00",
+  "sha256": "e6a8b91079e798c8d1fe3cfa3cd6dc40ae0e7edbfe1aa4c980bd3e7fef57ad3c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

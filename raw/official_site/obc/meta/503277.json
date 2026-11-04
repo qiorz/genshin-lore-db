@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503277,
+  "name": "「…她必施行报应。」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730772225",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503277/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503277,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:04+08:00",
+  "sha256": "e2e4f6848b900ffe61c80362a4452ce002f46f44932cb0f6df6d50f16f624e40",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

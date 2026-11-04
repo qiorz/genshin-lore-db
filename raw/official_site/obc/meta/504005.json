@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504005,
+  "name": "转桓摩王",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1735809052",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504005/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504005,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:22:45+08:00",
+  "sha256": "2857e08d8c1c36b2aae40f00fd165411dddf3fa0258632ad60a26c038cc06b30",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

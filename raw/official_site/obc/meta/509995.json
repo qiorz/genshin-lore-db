@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509995,
+  "name": "如我的想象顺我目光凝固",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1790561991",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509995/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509995,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:16:08+08:00",
+  "sha256": "29b65a178cfb316c80c8ade934107a27dfd38f7d6d6387136314299d964dc35c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

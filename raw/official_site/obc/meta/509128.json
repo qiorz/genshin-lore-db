@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509128,
+  "name": "一只特立独行的珠",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1785205114",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509128/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509128,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:17:05+08:00",
+  "sha256": "e35e5d53dc669bb4a454d5a6f44af14f95802102c3dc469cdabb2e8d3d2e525e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503184,
+  "name": "破尽无明",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730426777",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503184/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503184,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:54+08:00",
+  "sha256": "254fc95cb1bb7c9c9533c5d9e94622387e6a4baeadf00ea1d103852a457eb47c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502709,
+  "name": "从大海到大海",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206390",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502709/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502709,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:29:04+08:00",
+  "sha256": "c65621c06f9847026b406e2ace4d100436c2f05e81806d2bf0ea39c004395458",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

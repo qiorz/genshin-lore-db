@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507605,
+  "name": "重要的日子 ",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1766628522",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507605/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507605,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:18:00+08:00",
+  "sha256": "1bbf582ee6326dee723558049948a8efe57532f33d6566545d8dcdcd25a9a649",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

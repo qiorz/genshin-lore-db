@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503912,
+  "name": "只要我跑的够快",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1735131547",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503912/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503912,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:23:03+08:00",
+  "sha256": "39d1352f8a847c6924df57d8f39a6e57bf8b0403df756ac0649359377e9a2cb2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

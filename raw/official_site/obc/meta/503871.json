@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503871,
+  "name": "碰 · 一 · 碰",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734948460",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503871/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503871,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:23:25+08:00",
+  "sha256": "846600490144aaa0f1e9e8b585859ad66eca0d679b328a2ab74bbf51bc1edcf2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

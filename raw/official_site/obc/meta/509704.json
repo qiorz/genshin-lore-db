@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509704,
+  "name": "百般武艺，此乃榴弹发射器！",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1787882688",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509704/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509704,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:16:41+08:00",
+  "sha256": "4648204a5c89c6217903d8adf688f52243975ae13b433809079b9ca68476ed48",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

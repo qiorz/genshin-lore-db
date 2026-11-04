@@ -6,12 +6,12 @@
 db/genshin_lore.sqlite3
 ```
 
-当前状态：**全量文本库，含 9 个来源、2,345 篇文档、339,809 个段落**（书籍 92、散落文本 705、任务 1,097、角色 136、武器 252、圣遗物 63）。schema 和 FTS5 已通过 smoke test，中文检索、版本来源字段可用。
+当前状态：**全量文本库，含 9 个来源、2,392 篇文档、343,464 个段落**（书籍 92、散落文本 705、任务 1,097、角色 136、武器 252、圣遗物 63、活动 47；成就 1,558 条只在 CSV）。schema 和 FTS5 已通过 smoke test，中文检索、版本来源字段可用。
 
 ## 规则
 
 - 数据库是**本地生成物**，不提交到版本库；
-- 正式正文的权威副本在 `corpus/`：92 本书在 `corpus/books/`，1,065 条任务在 `corpus/quests/`，32 条空壳任务在 `corpus/quests/_pending/`，705 条散落文本在 `corpus/scattered/`，136 个角色在 `corpus/characters/`，252 把武器在 `corpus/weapons/`，63 套圣遗物在 `corpus/artifacts/`；数据库只是索引层，可随时从 `corpus/` 全量重建；
+- 正式正文的权威副本在 `corpus/`：92 本书在 `corpus/books/`，1,065 条任务在 `corpus/quests/`，32 条空壳任务在 `corpus/quests/_pending/`，705 条散落文本在 `corpus/scattered/`，136 个角色在 `corpus/characters/`，252 把武器在 `corpus/weapons/`，63 套圣遗物在 `corpus/artifacts/`，47 篇活动在 `corpus/events/`；数据库只是索引层，可随时从 `corpus/` 全量重建；
 - 重新导入时注意分词模式：`quests` / `characters` 用 `--no-segment`，`books` / `scattered` **不加**该参数（走 jieba 分词）；
 - 不要手工改数据库里的正文；改 Markdown，再重新导入；
 - 改表结构用 `schema/migrations/`，不要直接改现库；

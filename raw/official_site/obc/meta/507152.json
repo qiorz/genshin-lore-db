@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507152,
+  "name": "舞剧纪行",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1762481352",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507152/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507152,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:13:17+08:00",
+  "sha256": "c7f0915d81e1de1ea5677720f416a5ce6059f16d03ca3fff7d9460586039f10e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

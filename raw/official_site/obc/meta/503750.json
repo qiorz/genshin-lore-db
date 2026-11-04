@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503750,
+  "name": "抹消角度的人",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734315747",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503750/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503750,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:24:02+08:00",
+  "sha256": "2ae5cba156449f0e93d8aa3f94a4bc15b4486571c272e8baf1b077e0e27b165c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

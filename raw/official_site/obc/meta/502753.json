@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502753,
+  "name": "踏雪引路人",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206655",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502753/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502753,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:28:39+08:00",
+  "sha256": "3e07575fe035e25d5d3c418259eccf88bb2d7d360960ab4ffd0fce32c7d51f1c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503005,
+  "name": "启动跃迁引擎！",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1729130840",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503005/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503005,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:27:06+08:00",
+  "sha256": "55ac17ad952b86752f4dc2e0abf64cf80972bc568e06335f074fbf1d743ed19b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503015,
+  "name": "追想练行·烈趣篇",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1731061532",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503015/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503015,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:13:37+08:00",
+  "sha256": "4494a19ac99c65dea6738a35f48980d5fd7361ce771f446d1c25759c7457e624",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502587,
+  "name": "风与异乡人",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1727146621",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502587/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502587,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:29:43+08:00",
+  "sha256": "f4590b50c5f333ac088ee15bb1457ff3ea3c4d6a93353fccdc22dbb96c315eaa",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

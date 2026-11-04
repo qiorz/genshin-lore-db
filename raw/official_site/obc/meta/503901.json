@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503901,
+  "name": "遇雷切雷",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1735131112",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503901/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503901,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:23:06+08:00",
+  "sha256": "447fd331df4adc0f76f13f43d811a7b4cd755f473e8142223f59423a46bb3174",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

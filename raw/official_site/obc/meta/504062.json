@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504062,
+  "name": "一撕两半混沌球",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736130416",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504062/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504062,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:22:18+08:00",
+  "sha256": "fd1e718c180e2af927fc4756fc2327bf0319067e21b6de1e668ac10a84a32c4f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503939,
+  "name": "…还是新的风暴呢？",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1735449781",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503939/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503939,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:22:46+08:00",
+  "sha256": "ac04b1f3411d936666feceb569be2b473996c0e68f9b40a73b89c16c6e4864ce",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

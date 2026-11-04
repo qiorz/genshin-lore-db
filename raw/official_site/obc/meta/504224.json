@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504224,
+  "name": "勇气的余晖",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736333507",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504224/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504224,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:21:15+08:00",
+  "sha256": "153f7c22a4001403f07640ec0cad63356607221df12dd612497e51b322837707",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

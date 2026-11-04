@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501078,
+  "name": "圆圆滚滚交叉火力",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1712541356",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501078/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501078,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:13:51+08:00",
+  "sha256": "8da8533992e0345d87afa3ba76cc5520ee68ce3fd89ff3cd25f1f359c837cbc5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

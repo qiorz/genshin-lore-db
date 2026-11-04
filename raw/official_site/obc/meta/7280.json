@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7280,
+  "name": "光影研学·旖旎水界",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1702549222",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7280/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7280,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:14:05+08:00",
+  "sha256": "8fca02e3161cbdfe56167653f85d0395126cd4579e28e3075917fc87b0249b6c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

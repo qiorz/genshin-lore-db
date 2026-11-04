@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502771,
+  "name": "半素食主义",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206727",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502771/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502771,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:28:28+08:00",
+  "sha256": "a9f0a4c1b526f6f3c551123d8ce8494105b1cacfa5e2d5b72e54f68766874552",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

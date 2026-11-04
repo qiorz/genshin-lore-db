@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503281,
+  "name": "音乐不灭！",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730772081",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503281/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503281,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:02+08:00",
+  "sha256": "a5e1ab9545dd1c03ef4610cccfec65c3ec1b80ca2f4e32585e21ca1d48b0eb62",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

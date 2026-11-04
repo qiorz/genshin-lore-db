@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503903,
+  "name": "无关机械请立即离场！",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1735131126",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503903/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503903,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:23:08+08:00",
+  "sha256": "f3d924ec464ef9e4adc80071b65a001ca0d19a8352c2d8ec66e7426e80757002",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

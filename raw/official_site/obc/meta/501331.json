@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501331,
+  "name": "殊形之龙参寻战记",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1717380170",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501331/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501331,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:13:47+08:00",
+  "sha256": "46e30970ecdff5b1bdadfc5d5f37f48a086b220cc8b521643a6b9ce867147051",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

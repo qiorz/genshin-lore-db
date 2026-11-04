@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503204,
+  "name": "且听我一言。",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730427021",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503204/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503204,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:43+08:00",
+  "sha256": "7c99ca5259b986e87cee5c2290db50e1a87e524b985276d03a4b74626d5ecf86",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

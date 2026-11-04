@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503187,
+  "name": "碧水从游",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730426732",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503187/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503187,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:52+08:00",
+  "sha256": "5a877a2ed4eae4d6869aa8300e0c9b0b53bcd750edc117d306a81a77a1b01706",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

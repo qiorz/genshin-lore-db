@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509709,
+  "name": "你不当讲！",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1787882713",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509709/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509709,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:16:34+08:00",
+  "sha256": "56870cad7eea6a00c5e28be13953b5aa3118f60b680b175b811388efdc184283",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

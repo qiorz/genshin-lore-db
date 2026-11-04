@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507312,
+  "name": "火力压制",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1764210373",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507312/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507312,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:18:05+08:00",
+  "sha256": "9c46738a779e1cf594844ee3fc271169bdd6267f68063c6cbdef9a344c09bf06",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

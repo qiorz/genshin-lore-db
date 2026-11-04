@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504398,
+  "name": "四方求剑",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736993647",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504398/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504398,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:19:49+08:00",
+  "sha256": "28b9ab139749f1bc052e15365cff434fb7a5bae5951c056fba7c4edd24e06485",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

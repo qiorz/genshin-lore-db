@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504648,
+  "name": "犍闼缚城",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1740708544",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504648/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504648,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:19:20+08:00",
+  "sha256": "b708256f58f8cb587845ab06784eef64e0cc97dfbacb9333d713e157021ac52c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

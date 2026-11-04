@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502987,
+  "name": "妖鬼狂言百物语",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728957903",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502987/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502987,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:27:16+08:00",
+  "sha256": "b876b29b288455ac1e6496a45a5071d5b471dffed6e47632b2622769aca9fb8f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

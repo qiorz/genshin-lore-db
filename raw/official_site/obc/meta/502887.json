@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502887,
+  "name": "福斯福洛斯的指引",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728353004",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502887/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502887,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:27:26+08:00",
+  "sha256": "3842456e34b001cf884d4b32d77ec5b2744c6ba714aee1d39c76c91f25481845",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

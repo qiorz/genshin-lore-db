@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503860,
+  "name": "「被、被派蒙吃掉…」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734947867",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503860/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503860,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:23:31+08:00",
+  "sha256": "90ec0b6eed0afa7142e928c980090ed052a4674c43988259955b501fdd92017e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

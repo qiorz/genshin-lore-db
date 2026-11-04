@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505757,
+  "name": "沧屿的寻宝者",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1753931292",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505757/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505757,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:18:48+08:00",
+  "sha256": "4fc45f4f48e5729ced7d96cf02811a73824312118aba1a5de74a8eda4520d979",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

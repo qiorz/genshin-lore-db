@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504173,
+  "name": "其名为「莱依拉」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736303064",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504173/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504173,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:21:35+08:00",
+  "sha256": "d7f70e1db6e9ddd79d9c5e61d73ba413f0882101d1ab864a1391e56f57ca134c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

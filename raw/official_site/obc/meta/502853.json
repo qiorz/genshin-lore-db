@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502853,
+  "name": "推倒这面墙！",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728207218",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502853/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502853,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:27:43+08:00",
+  "sha256": "96113e97b3af56b26babfc48e6cbe2b6e3043250d15fdbeb7eb7bf5fbc6089c2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

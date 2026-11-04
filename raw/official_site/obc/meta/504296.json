@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504296,
+  "name": "故人久未归",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736735359",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504296/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504296,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:20:35+08:00",
+  "sha256": "3122805b37e01331e227f252538bff743ca26f0de73445d4bb95c3ed5cc73657",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

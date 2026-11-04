@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503322,
+  "name": "落草之谈",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730944833",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503322/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503322,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:25:42+08:00",
+  "sha256": "e06ab411ad38926cf2c16c5ad6724c0251f278892c7133e2ab03f459d5b5f919",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

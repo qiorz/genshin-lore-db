@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502805,
+  "name": "鲸腹中的三日夜",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206953",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502805/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502805,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:28:10+08:00",
+  "sha256": "3f0d322d7a3d8ee6fe8f21e8031a3c14e81fddd0bd2867673df7c0d4a8d14c4d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

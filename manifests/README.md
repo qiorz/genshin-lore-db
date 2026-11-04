@@ -9,8 +9,26 @@
 | `version-labels.csv` | 观测枢“月之一/月之四……”→ 数字版本映射 |
 | `obc-index.csv` | 观测枢书籍 93 + 散落文本 706 + 任务 1,101 的频道索引 |
 | `character-index.csv` | 观测枢角色 138 的频道索引（136 已入库） |
+| `achievements.csv` | 成就索引：名称/描述/成就集/版本/隐藏/每日委托（1,558 条） |
+| `event-skip.csv` | 未归档的活动页及原因（228 条，均为无叙事内容） |
+| `duplicates.csv` | 同文重复组判定 |
+| `equipment-bwiki-compare.csv` | 武器/圣遗物的 OBC 与 BWiki 字数对照 |
+| `bwiki-probe.csv` | 32 条空壳任务的 BWiki 同名页探测结果 |
 | `tag-vocabulary.md` | 标签词表 |
 | `terms.txt` | jieba 自定义词典 |
+
+## `achievements.csv`
+
+成就**不进正文层**：1,558 条，每行一个成就，来源是观测枢「成就」频道的 1,626 个页面。
+
+```text
+name,description,set,version,hidden,daily,source_page_id,source_page_title
+```
+
+- 页面有两种形态：94 个「成就集页」含 `成就列表` 表格（一次给出多行），1,532 个「单条页」只讲一个成就；
+- 描述取自 `material_base_info` 的「成就描述」字段，成就集取自「成就集」字段；
+- `hidden` / `daily` 来自频道列表 ext 的「隐藏成就」「每日委托成就」；
+- 14 条的 `hidden`/`daily` 为空：它们在成就集表格里出现，但频道里没有同名条目可回查。
 
 ## 版本约定
 

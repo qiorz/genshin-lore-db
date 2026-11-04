@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502382,
+  "name": "异世相逢·第二辑",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728439767",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502382/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502382,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:15:36+08:00",
+  "sha256": "52105546d0752010df55f442082b2938804a882fff5893a758d6e0a48d571357",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

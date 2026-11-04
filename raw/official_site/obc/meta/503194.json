@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503194,
+  "name": "献给虚无的供物",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730426952",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503194/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503194,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:47+08:00",
+  "sha256": "aed0d390f780ec8adf3225f4d3582113fe7c82f2f3f296c3ae5651b7a522a043",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

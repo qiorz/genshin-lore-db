@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505529,
+  "name": "幽境危战",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1790734628",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505529/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505529,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:13:23+08:00",
+  "sha256": "ce595d1efd4304b6d8bb0df7a242f3c5d2209b74ddb162c6d132b872047610cd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

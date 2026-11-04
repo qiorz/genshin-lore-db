@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501064,
+  "name": "弘辩的溢神效应",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1711677760",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501064/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501064,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:13:51+08:00",
+  "sha256": "1f22941c02c009d935c8b557f631db6f4337399ad4149f13195d2a2e41acab23",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

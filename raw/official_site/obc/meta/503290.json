@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503290,
+  "name": "无名之城的过往",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730772267",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503290/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503290,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:25:56+08:00",
+  "sha256": "b7184dfb3c42e21621ca0f271e45b487a2a201742ce5346fe12f0b868b022ef3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

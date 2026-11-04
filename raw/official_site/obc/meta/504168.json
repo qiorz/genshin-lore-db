@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504168,
+  "name": "建筑设计师的浪漫",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736303009",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504168/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504168,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:21:41+08:00",
+  "sha256": "21609135b36a0aaa3561ab26bd155c750f5c6855f4e8cf3adfe68fcfcfb72c3c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

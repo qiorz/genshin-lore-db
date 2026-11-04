@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3836,
+  "name": "曲生酌微梦",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1702548902",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3836/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3836,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:14:47+08:00",
+  "sha256": "0923e77f835dcc8f3f95f6c7a2b90eac216dfc4a77a9cd23f7b1ba8bea09c625",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

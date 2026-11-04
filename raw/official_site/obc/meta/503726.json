@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503726,
+  "name": "哟嚯嚯，再来瓶蒲公英酒",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734084462",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503726/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503726,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:24:31+08:00",
+  "sha256": "30df482c792bf3d88e8399c362af20a82f4f87d9756c4061844a32d7932e0405",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2045,
+  "name": "迷城战线",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1703675794",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2045/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2045,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:15:18+08:00",
+  "sha256": "4ab399f0ff75a3d65f33fb09f34ae228c0b19f944f6312affb0384f4e2f41374",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

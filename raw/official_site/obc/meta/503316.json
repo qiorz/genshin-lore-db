@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503316,
+  "name": "白船",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730944859",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503316/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503316,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:25:45+08:00",
+  "sha256": "4ab1ae2a95aa97343aa3b19dce7b1b3727945d1bb31cedb32f207438666fddf9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

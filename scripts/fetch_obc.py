@@ -276,6 +276,7 @@ def main() -> int:
     parser.add_argument("--search", action="append", default=[])
     parser.add_argument("--menu-id", type=int, default=None)
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--workers", type=int, default=1, help="并发数；每个 worker 各自保持请求间隔")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
@@ -289,8 +290,25 @@ def main() -> int:
         fetch_channel_tree(session, cfg, source, out_dir, force=args.force)
     for channel_id in args.channel_id:
         fetch_channel_list(session, cfg, source, channel_id, out_dir, force=args.force)
-    for entry_id in args.entry_page_id:
-        fetch_entry(session, cfg, source, entry_id, out_dir, force=args.force)
+    if args.workers > 1 and args.entry_page_id:
+        # 每个 worker 独立 session、各自保持 request_interval_seconds，
+        # 总速率仍由配置控制，只是把网络等待重叠起来。
+        from concurrent.futures import ThreadPoolExecutor
+
+        sessions = [make_session(cfg) for _ in range(args.workers)]
+        ids = list(args.entry_page_id)
+
+        def work(pair):
+            index, entry_id = pair
+            fetch_entry(
+                sessions[index % len(sessions)], cfg, source, entry_id, out_dir, force=args.force
+            )
+
+        with ThreadPoolExecutor(max_workers=args.workers) as pool:
+            list(pool.map(work, enumerate(ids)))
+    else:
+        for entry_id in args.entry_page_id:
+            fetch_entry(session, cfg, source, entry_id, out_dir, force=args.force)
     for keyword in args.search:
         search(
             session,

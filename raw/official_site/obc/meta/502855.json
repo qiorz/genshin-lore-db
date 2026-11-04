@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502855,
+  "name": "…摔得越重",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728207211",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502855/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502855,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:27:41+08:00",
+  "sha256": "3e343879239b368c0a037c2201d2cf2de84e0880e4383fb71c9e830b581d6442",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

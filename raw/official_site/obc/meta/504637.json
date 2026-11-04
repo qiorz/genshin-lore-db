@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504637,
+  "name": "「那只是永恒的奴役而已！」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1740708467",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504637/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504637,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:19:35+08:00",
+  "sha256": "a51b3669c36dc1964c638d21003ac1198cae8c40f8a2b96b28aab82015f2952a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

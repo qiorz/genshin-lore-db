@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508068,
+  "name": "事情本应如此发展 ",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1772773629",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508068/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508068,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:17:36+08:00",
+  "sha256": "c0518889ceb4a9c6f558a573c40a72e746f10720dcc4c76c3310b6b81127c248",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

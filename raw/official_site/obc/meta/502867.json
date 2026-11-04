@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502867,
+  "name": "提瓦特的园丁，不畏严寒",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728207234",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502867/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502867,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:27:35+08:00",
+  "sha256": "caedf6dfb0916e578d891d709091114f1d281c5a39a5452650a16cbc386b7eec",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

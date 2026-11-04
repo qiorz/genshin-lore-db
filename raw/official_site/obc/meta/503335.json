@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503335,
+  "name": "浪潮已至",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730944946",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503335/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503335,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:25:34+08:00",
+  "sha256": "4e37e3f65a3df372fe32af8813b5ef072aa3b086df7a1cd14bdc503cf06a1b2f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

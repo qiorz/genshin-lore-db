@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504184,
+  "name": "愿此刻永恒",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736303216",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504184/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504184,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:21:49+08:00",
+  "sha256": "cebff3a656a52df01276d0d563bb9899a7f8a78bc071b5ffb33aa53869a1ce63",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

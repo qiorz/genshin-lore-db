@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508055,
+  "name": "离群野狼的回忆",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1772158793",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508055/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508055,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:17:31+08:00",
+  "sha256": "64176e627b6c2e2cd888f79c1e6e5d9df6319e46e9963c1db8066315c5194236",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

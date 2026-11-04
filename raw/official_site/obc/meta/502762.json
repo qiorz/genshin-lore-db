@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502762,
+  "name": "你相信「场力」吗？",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206696",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502762/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502762,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:28:34+08:00",
+  "sha256": "0731360a4f1a56a080b47a50a605181b3f991da257f25555f9576cd5b695f201",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

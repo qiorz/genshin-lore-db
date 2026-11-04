@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2004,
+  "name": "导能原盘 绪论",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1703034992",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2004/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2004,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:15:18+08:00",
+  "sha256": "35de9ebd91cbe5148fce5717eae36df9c8c941811cff03620b47bd617687441a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

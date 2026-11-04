@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508808,
+  "name": "勇锐魁杰试炼战记",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1781747853",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508808/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508808,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:12:55+08:00",
+  "sha256": "19278a036f3064a266b3690df6371b0d35d59f9784c8f4e60a8a88dfe72ee479",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504895,
+  "name": "按下自爆按钮！",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1743388418",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504895/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504895,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:19:11+08:00",
+  "sha256": "6dbcec0fc593ac1a856d6f206601ac07cd0a8be15bd1ac2c72a35650458d1ba8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

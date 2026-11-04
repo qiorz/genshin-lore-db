@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502502,
+  "name": "「随风而去吧！」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1727145250",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502502/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502502,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:30:30+08:00",
+  "sha256": "2b0fd0ca01cec1fb0e3407c53c358312c64e433c37b5861bd86222ea1f2089ab",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

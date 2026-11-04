@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506340,
+  "name": "「此处曾有龙」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1758621611",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506340/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506340,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:18:28+08:00",
+  "sha256": "f8ec020f50742a38f8ed93d1e16daafe02396e5d61a2a9d9b6282a0e16f2e040",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

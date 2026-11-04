@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504693,
+  "name": "剪影辑帧",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1741747487",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504693/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504693,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:13:28+08:00",
+  "sha256": "60289dd9c00db453121966f5161f2fb927af98de5f8aae507385224c474fc6bd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

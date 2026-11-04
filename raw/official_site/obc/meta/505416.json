@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505416,
+  "name": "机谋变策战记",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1748311899",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505416/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505416,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:13:25+08:00",
+  "sha256": "7457d7044fd62e7f1bb1c3057e38c9503b23e043408c15e68f1aec6c56d737d1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

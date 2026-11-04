@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504262,
+  "name": "新灵感！新产品！",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736506707",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504262/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504262,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:21:00+08:00",
+  "sha256": "ad5f6f41f087b1c5b7f0b780e83b0f8aafc4ffef2ba83dc4973bdbe01034e49c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

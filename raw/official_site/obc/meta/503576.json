@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503576,
+  "name": "燔炎的寻宝者·其二",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1732586452",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503576/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503576,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:25:17+08:00",
+  "sha256": "68f9020353aa6b0e3b2cc2ba79eadb27f94b677e59f98094b0010b626d376b18",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

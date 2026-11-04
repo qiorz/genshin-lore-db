@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502505,
+  "name": "「艺术就是…」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1727145207",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502505/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502505,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:30:28+08:00",
+  "sha256": "3c39d0d0ea7c516dd7159b1c467f227ef57f2cac0db3d02e312e4703f88c852b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

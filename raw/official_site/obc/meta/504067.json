@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504067,
+  "name": "微缩型骰子壶",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736130477",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504067/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504067,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:22:15+08:00",
+  "sha256": "0c1edad84ea7af3567bd07864c6bf96b178b809fbf97a483166341242655ca56",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

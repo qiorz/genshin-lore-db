@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502850,
+  "name": "将盐送给敌人，将水留给自己",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728207174",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502850/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502850,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:27:44+08:00",
+  "sha256": "400ebfcca2f594e98df1d82bafdbc6c869b58b5567f73b3dc2d3947555efe487",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

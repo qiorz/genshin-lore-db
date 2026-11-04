@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501730,
+  "name": "导能原盘·引理",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1723427975",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501730/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501730,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:13:44+08:00",
+  "sha256": "ecc968d439abbb658ff0313a9269d0e1d9645f45caf33d91a207e27af24dd890",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

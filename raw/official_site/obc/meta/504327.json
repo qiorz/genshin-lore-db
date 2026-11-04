@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504327,
+  "name": "非必要需求",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736736767",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504327/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504327,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:20:25+08:00",
+  "sha256": "a83473f7da831a975ad1010618e9ab3d0e7ff8eacf382bf2169fee7846e2dd0f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

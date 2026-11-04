@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502705,
+  "name": "沧浪的冒险家·其三",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206411",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502705/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502705,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:29:06+08:00",
+  "sha256": "18018c28ffd907cfa71e9fb05e93d416d80bd1313762e2562b45b46dbb19f2ab",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504209,
+  "name": "完美而坚强的女仆",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736303451",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504209/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504209,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:22:01+08:00",
+  "sha256": "9227eda52cea4bad1effd185a99f547528fdaf242658d78d079be08016cc643c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

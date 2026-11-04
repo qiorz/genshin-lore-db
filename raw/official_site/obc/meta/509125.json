@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509125,
+  "name": "无秽的永远与三重的须臾",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1785205099",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509125/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509125,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:17:04+08:00",
+  "sha256": "1f47cb5a0a518742d1c06f711d76419338f2b6df85f623f6314fc26ef7dd3659",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

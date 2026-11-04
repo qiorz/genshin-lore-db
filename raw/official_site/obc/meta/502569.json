@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502569,
+  "name": "向深水中的晨星",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1727146426",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502569/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502569,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:29:53+08:00",
+  "sha256": "c4bfe664254d4319d74b9903ec115c88af51422fa04902259d1f75cfe808d69a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506336,
+  "name": "皇家捉双",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1758621598",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506336/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506336,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:18:26+08:00",
+  "sha256": "661a6bb7bbd7549da99a27cb775c8d6be989775ecf2c0db66e4060fd41a724dd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

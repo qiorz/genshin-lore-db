@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502809,
+  "name": "「来坦，来补，来输出」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206939",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502809/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502809,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:28:07+08:00",
+  "sha256": "b17ee15543104b90e5a1fd577244bf0ce176019f7bfa3ee88afd1da93c07e595",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

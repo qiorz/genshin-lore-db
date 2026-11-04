@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508726,
+  "name": "一翳在眼，空华乱坠",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1779677642",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508726/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508726,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:17:10+08:00",
+  "sha256": "c76f5efa27cbd0f7af722819e7deb3319ace40235aabb61a7c4b9a54769a3a32",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

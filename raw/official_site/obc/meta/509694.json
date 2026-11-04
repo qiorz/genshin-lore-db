@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509694,
+  "name": "冻原的修复师",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1787882631",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509694/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509694,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:16:46+08:00",
+  "sha256": "1946d42191a4f3cae2c477557603e416f82b63801a83cb780a881b1a2372efb2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

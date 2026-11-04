@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502549,
+  "name": "祝圣篇章",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1727146194",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502549/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502549,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:30:05+08:00",
+  "sha256": "49aabfba790458c8b90bbb54daf57e9d730555b208a7bc8b1ff5e4814f2a8911",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

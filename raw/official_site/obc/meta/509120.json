@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509120,
+  "name": "早知道选六便士",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1785205068",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509120/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509120,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:17:01+08:00",
+  "sha256": "aab5638c2324258b8b003b4fe48f1b375600d828e9065850b84d252e38d536cd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

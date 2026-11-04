@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502769,
+  "name": "「这便是暴君的结局」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206666",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502769/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502769,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:28:30+08:00",
+  "sha256": "4ee1c15fd5f0fafbf5ee67730b6dbc6053913c1a9e0484778e69e2e4337b5941",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

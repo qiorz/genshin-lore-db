@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504312,
+  "name": "至少有了个结局",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736735849",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504312/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504312,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:20:39+08:00",
+  "sha256": "3c227af70b8cb9b6fe063a252da0c022532ef153c5b0d78f7d557136be12834d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

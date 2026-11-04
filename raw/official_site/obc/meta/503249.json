@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503249,
+  "name": "水仙十字题解·迷宫篇",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730699665",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503249/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503249,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:20+08:00",
+  "sha256": "398fb61d8e3f5f4e5f5ebd9ac1f8c54c8c94838a91cb8d3b4170c2cfc841df2b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

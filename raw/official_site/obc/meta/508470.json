@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508470,
+  "name": "隙间的冒险家",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1777257832",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508470/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508470,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:17:12+08:00",
+  "sha256": "b362750a9f031932fbb1b08dcae3ea0c33a78f78bf8a730a2d526de1e2d78522",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

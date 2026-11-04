@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505372,
+  "name": "瓦尔普吉斯的游戏",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1747018481",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505372/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505372,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:18:54+08:00",
+  "sha256": "f89d65e8e72598c1c760319fc7f6dd24a7344352d6e001db98ecc3eb30e058f8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

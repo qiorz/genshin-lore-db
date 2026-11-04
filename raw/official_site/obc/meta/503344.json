@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503344,
+  "name": "生成、交换、储存和使用",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1731044526",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503344/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503344,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:25:30+08:00",
+  "sha256": "a522a4c62080e014cc6e351e4227dceb5b28c5ffce979d82d0a2f6f5ea5f9fc1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

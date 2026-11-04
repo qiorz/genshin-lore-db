@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504397,
+  "name": "「…使列邦观看你的丑陋。」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736993641",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504397/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504397,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:19:56+08:00",
+  "sha256": "606462eb85de95e027680ed3325b6e5b10dda8e42e7b2b5f63040ca1ba7523a8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

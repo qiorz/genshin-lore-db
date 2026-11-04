@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503261,
+  "name": "冲击炸裂铁箱斗技",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730710896",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503261/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503261,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:13+08:00",
+  "sha256": "33c01fa56f1756923270157f1b9707eebfc08b4cb2be2f4e48564d1d9dfbd169",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

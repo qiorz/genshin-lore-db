@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502577,
+  "name": "撷草瞻华",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1727146534",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502577/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502577,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:29:48+08:00",
+  "sha256": "ea6cf110a2456808091cdecfe4a240e6a18bd084e190e94138bb0019dc6a5328",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502635,
+  "name": "踏鞴物语",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1727661791",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502635/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502635,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:29:32+08:00",
+  "sha256": "9a9492e5aec5655bbe45e40da9fa804f123db63c7ad243813b2ad42fed7ee8ed",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

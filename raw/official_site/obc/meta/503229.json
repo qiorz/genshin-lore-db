@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503229,
+  "name": "正经的钓鱼学位",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730440128",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503229/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503229,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:30+08:00",
+  "sha256": "ba3162754da7c0af823e75ed7e1b16ba252ee20a06f9e3cfac2966ef1857200c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

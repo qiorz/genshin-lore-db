@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503254,
+  "name": "何岁为春，何岁为秋",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730699710",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503254/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503254,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:17+08:00",
+  "sha256": "531c31790721c876ac83543668512f7ed31e9d4807bb03daaa378c51dfde5c8f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

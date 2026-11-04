@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502719,
+  "name": "大地勘探·百泉谐律之地·其三",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206457",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502719/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502719,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:28:58+08:00",
+  "sha256": "e44d529b305127fc05f69a2f1cba23e4894d0d099f523c57cb42ffa08029f3ca",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

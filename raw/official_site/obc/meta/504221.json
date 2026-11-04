@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504221,
+  "name": "学者与「学者」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736333446",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504221/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504221,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:21:13+08:00",
+  "sha256": "7e6fd08242b7553ab8e69bcc06709080e93db62f6464a96b953e0dc2af2a3a42",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

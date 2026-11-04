@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6661,
+  "name": "决斗！召唤之巅！",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1787019324",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6661/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6661,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:14:13+08:00",
+  "sha256": "15683b71c32e51ec90a0a2019fd9a5181f00c168c3615afe241ee89e46d0a918",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

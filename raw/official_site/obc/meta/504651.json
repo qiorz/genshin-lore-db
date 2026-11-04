@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504651,
+  "name": "赤王时代的沙漠与大赤沙海",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1740708567",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504651/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504651,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:19:21+08:00",
+  "sha256": "744d4018820c18357e0b8094b96d4e35984de752327ca6cbf336a6d9baad8364",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

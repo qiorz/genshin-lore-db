@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502556,
+  "name": "风中引路人",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1727145914",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502556/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502556,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:30:01+08:00",
+  "sha256": "16d8d052a44901d05ef0d218925cc7f0919fd2c4c9aeca604573cdff0e6c9a3d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

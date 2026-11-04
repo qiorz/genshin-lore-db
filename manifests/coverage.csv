@@ -3,6 +3,8 @@ main_story,剧情,全部魔神任务：序章、各章、间章、终章,P0,观�
 story_quests,剧情,全部传说任务,P0,观测枢（BWiki 校验）,partial,"含在 1,101 条任务中；未按幕做最终审计"
 world_quests,剧情,全部世界任务/地图事件/隐藏任务,P1,观测枢（BWiki 校验）,partial,"含在 1,101 条任务中；50 条缺正文"
 event_quests,剧情,限时活动剧情/活动任务,P1,观测枢 + 米游社,partial,"含在 1,101 条任务中；活动频道未单独入库"
+events,文本,活动页说明与彩蛋（不含活动任务）,P2,观测枢 活动频道,partial,"275 条中 47 条有叙事；228 条为公告/纪行/赛季页，见 event-skip.csv"
+achievements,世界观,成就名称/描述/成就集/版本/隐藏,P2,观测枢 成就频道,done,"1,558 条入 manifests/achievements.csv，不进正文层"
 hangouts,剧情,全部邀约事件,P1,观测枢,partial,"19 条已归类 hangout；7 条有正文，12 条 OBC 无正文"
 interludes,剧情,间章/幕间,P0,观测枢,done,"4 条已从 archon 拆出并归类 interlude"
 books,文本,全部游戏内书籍（图鉴 + 任务书籍）,P0,观测枢（BWiki 校验）,done,92 unique；503 重复卷；500 仅第一卷；1158 版本 unknown

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503236,
+  "name": "稚子敲针作钓钩",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1730440213",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503236/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503236,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:26:27+08:00",
+  "sha256": "f0b6dc38039bb70a311da95ba6fe9313967168e53f2016f9a0fd22b49f9467a0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

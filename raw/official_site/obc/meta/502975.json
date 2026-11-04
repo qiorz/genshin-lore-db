@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502975,
+  "name": "追忆泉华的时光",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728957866",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502975/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502975,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:27:21+08:00",
+  "sha256": "3bd685cb33252e378bb876f4c518b36506d0564ed8dc22250727b8fdc12a8f9b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509974,
+  "name": "新婚的钟声",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1790561895",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509974/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509974,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:16:16+08:00",
+  "sha256": "65d81cb25defb3cd05b45a2f9f59d26763e3db195253d5d5776e40eed8c83b89",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

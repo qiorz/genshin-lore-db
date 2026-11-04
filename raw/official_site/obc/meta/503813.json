@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503813,
+  "name": "「…不代表最终品质」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734358182",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503813/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503813,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:23:48+08:00",
+  "sha256": "b7cb4111390f9db9471eea37f5d63cc26734784c5f2e27008bc708b69d8fbd48",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

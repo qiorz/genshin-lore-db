@@ -612,10 +612,110 @@ def render_artifact(page: dict, meta: dict | None, entry_path: Path, args) -> tu
     return front, body
 
 
+EVENT_TEXT_MODULES = ("活动说明", "游戏内活动说明")
+EVENT_DIALOGUE_MODULES = ("剧情", "彩蛋")
+# 只认明确是叙述的字段；自定义小标题多为玩法规则，不收
+EVENT_KEYWORDS = ("简介", "背景")
+
+
+def render_event(page: dict, meta: dict | None, entry_path: Path, args) -> tuple[dict, list[str]]:
+    """活动页：只收概述、活动简介、剧情对话/彩蛋；数值、奖励、攻略、公告表一律不收。"""
+    title = args.title or page.get("name") or ""
+
+    overview: list[tuple[str, str]] = []
+    intro_lines: list[str] = []
+    dialogue_blocks: list[tuple[str, list[str]]] = []
+
+    for module in page.get("modules") or []:
+        name = (module.get("name") or "").strip()
+        comps = module.get("components") or []
+
+        # 与页面同名的概述模块（官方公告格式含 〓 段落，属于奖励/规则，不收）
+        if name and name == title:
+            for comp in comps:
+                if comp.get("component_id") == "collapse_panel":
+                    text = html_paragraphs((as_json(comp.get("data")) or {}).get("rich_text", ""))
+                    if text and "〓" not in text:
+                        overview.append((name, text))
+
+        # 活动说明里的「简介 / 说明」字段
+        if name in EVENT_TEXT_MODULES:
+            for comp in comps:
+                if comp.get("component_id") != "rich_base_info":
+                    continue
+                data = as_json(comp.get("data")) or {}
+                for item in data.get("list") or []:
+                    key = (item.get("key") or "").strip("【】 ")
+                    if not any(k in key for k in EVENT_KEYWORDS):
+                        continue
+                    for value in item.get("value") or []:
+                        text = html_paragraphs(value)
+                        if text:
+                            intro_lines.append(text)
+
+        # 剧情对话 / 角色对话彩蛋
+        if any(k in name for k in EVENT_DIALOGUE_MODULES):
+            for comp in comps:
+                if comp.get("component_id") != "interactive_dialogue":
+                    continue
+                data = as_json(comp.get("data")) or {}
+                lines: list[str] = []
+                for group in dialogue_groups(data):
+                    part, _, _ = render_dialogue_group(group)
+                    lines.extend(part)
+                if lines:
+                    dialogue_blocks.append((name or "剧情对话", lines))
+
+    notes = "观测枢活动页导出；只收活动概述、活动简介与剧情对话/彩蛋，不含奖励、攻略、公告表格。"
+    front = {
+        "id": args.doc_id,
+        "type": "event",
+        "subtype": args.subtype or "活动",
+        "title": title,
+        "language": "zh-Hans",
+        "region": args.region,
+        "version": args.version,
+        "version_source": args.version_source,
+        "version_confidence": args.version_confidence,
+        "canon_status": "community",
+        "transcription": "near-verbatim",
+        "spoiler": {"level": args.spoiler, "scope": args.scope or []},
+        "source": [source_block(meta, page, entry_path)],
+        "status": "draft",
+        "notes": notes,
+    }
+    if not front.get("region"):
+        front.pop("region", None)
+    if not front.get("version"):
+        front.pop("version", None)
+
+    body: list[str] = ["## 活动信息", ""]
+    body.append(f"- 类型：{args.subtype or '活动'}")
+    if args.version:
+        body.append(f"- 版本：{args.version}")
+    body.append("- 来源：米游社·观测枢")
+
+    for name, text in overview:
+        body.extend(["", f"## {name}", "", text])
+
+    if intro_lines:
+        body.extend(["", "## 活动简介", ""])
+        for text in intro_lines:
+            body.extend([text, ""])
+        if body[-1] == "":
+            body.pop()
+
+    for name, lines in dialogue_blocks:
+        body.extend(["", f"## {name}", ""])
+        body.extend(lines)
+
+    return front, body
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--entry", type=Path, required=True)
-    parser.add_argument("--type", choices=["quest", "book", "character", "lore", "weapon", "artifact"], required=True)
+    parser.add_argument("--type", choices=["quest", "book", "character", "lore", "weapon", "artifact", "event"], required=True)
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--doc-id", required=True)
     parser.add_argument("--title")
@@ -676,6 +776,7 @@ def main() -> int:
         "lore": render_lore,
         "weapon": render_weapon,
         "artifact": render_artifact,
+        "event": render_event,
     }
     front, body = renderers[args.type](page, meta, args.entry, args)
 

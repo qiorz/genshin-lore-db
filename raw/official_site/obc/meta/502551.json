@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502551,
+  "name": "大地勘探·蒙德",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1727145960",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502551/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502551,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:30:04+08:00",
+  "sha256": "4b1db677a41a02a6a11d1ea91f4c22f4e508a75463548b8b7a68b6d316202f97",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503769,
+  "name": "「渐渐隐去的老兵」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734315996",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503769/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503769,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:24:14+08:00",
+  "sha256": "7848af549efa1d1ad8512d56b69b03b2c7ecb6a8b5c87f036dc4cc311bf52bc6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

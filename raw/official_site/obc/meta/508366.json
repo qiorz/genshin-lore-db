@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508366,
+  "name": "测定摹绘研学",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1775798136",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508366/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508366,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:12:59+08:00",
+  "sha256": "14c3b89cb56fced3603be6273a2eb2ca5253b7c9eb67dd69410e518852a1e86b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502849,
+  "name": "碍于归途艰险…",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728207171",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502849/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502849,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:27:45+08:00",
+  "sha256": "37d0d6917622db63d21e4a24738cfc7dbb86f20fe3bcac5b87adbcb3a64fae01",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

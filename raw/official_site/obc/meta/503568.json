@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503568,
+  "name": "「嵌合神骨的蛇姬」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734056430",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503568/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503568,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:25:23+08:00",
+  "sha256": "7bf018ba22758b6c0137486bd83f041080381cea2db58c8a744150464c664844",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

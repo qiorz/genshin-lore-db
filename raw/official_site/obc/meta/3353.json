@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3353,
+  "name": "百货奇货",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1767589846",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3353/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3353,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:14:52+08:00",
+  "sha256": "97e79370f4dee094b1e42a5dad1bb4d4c6a4ab391bd7aef2ee92b24cb6953523",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

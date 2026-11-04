@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503749,
+  "name": "「神明」回以凝视",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734315710",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503749/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503749,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:24:02+08:00",
+  "sha256": "41b47c3856ea44ea9c7eb71a756c55b0cdec4989e610fd0c584c0702a83f0e08",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

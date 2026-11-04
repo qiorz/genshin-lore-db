@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503007,
+  "name": "冢里最好的剑",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1729130831",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503007/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503007,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:27:04+08:00",
+  "sha256": "149dcc3d554f179ac7222bfc4305777690be16f0f21bc3d2e0d83f50f8b0a893",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

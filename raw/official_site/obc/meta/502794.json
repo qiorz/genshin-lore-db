@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502794,
+  "name": "「急冻树、青空、南风」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1728206928",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502794/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502794,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:28:18+08:00",
+  "sha256": "52f257bf83d1b06bd07f03c50fed0b8442549de94e6e7eaa833e826a70235bc6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

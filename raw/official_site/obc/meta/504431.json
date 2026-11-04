@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504431,
+  "name": "直面雷光",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1737373658",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504431/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504431,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:19:42+08:00",
+  "sha256": "2eb483bd19594ae90aa8d1cf2f4b3b7d23bbe204d41ea8907deb8a343ebb5c8b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509988,
+  "name": "「樱桃园卖掉了」",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1790561962",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509988/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509988,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:16:16+08:00",
+  "sha256": "211ba5c2a2312414bdfc93024b16773afa14898134c4c60a15212793c6965391",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

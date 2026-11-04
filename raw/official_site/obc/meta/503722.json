@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503722,
+  "name": "天雷圣裁",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734161133",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503722/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503722,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:24:33+08:00",
+  "sha256": "eaa676ddb1091d34086ef99cddf5feb71fafc2da97cb653d8989aa8d5e9b09b8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

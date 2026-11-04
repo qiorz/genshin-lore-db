@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508462,
+  "name": "山风无色",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1777257845",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508462/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508462,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:17:15+08:00",
+  "sha256": "326830dbf904490881ae7f74d589c2b91c305480384e8db6ff6b7ef2f43da0b7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

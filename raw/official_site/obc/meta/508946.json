@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508946,
+  "name": "映夏！归乡？千灵节！",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1782958120",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508946/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508946,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:12:53+08:00",
+  "sha256": "b6aeb68a7c19bd5d43303df8c437ac5de5be8afb91208c82990bca68c8bf2caa",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

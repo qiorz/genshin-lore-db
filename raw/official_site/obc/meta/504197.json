@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504197,
+  "name": "「高」人一等",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1736303348",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504197/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504197,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:22:02+08:00",
+  "sha256": "2c18167bcd3fc65cd6837640acac6461b2b7299f5c02e7e35f7cf51ddb87920c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

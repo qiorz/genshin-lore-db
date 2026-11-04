@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503544,
+  "name": "对决者·第二辑",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734056378",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503544/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503544,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:15:57+08:00",
+  "sha256": "befa8fbdf70f3e0d7a35e03be23ef03a6e2368784d420e959153a52459dc061d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

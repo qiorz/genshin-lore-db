@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505902,
+  "name": "阿亚尔的后继者",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1756779398",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505902/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505902,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:18:43+08:00",
+  "sha256": "c295433d6cdcba75ddb895f12b101d349ddf31ee012f69a6daf4ca2f9d8c344c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

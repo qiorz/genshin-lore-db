@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508414,
+  "name": "诉说过往、此刻与未来",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1776047179",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508414/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508414,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:17:23+08:00",
+  "sha256": "a0fed492b6eef2953059840233c027669c6c6912f116b807fc20cd56457cb89e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

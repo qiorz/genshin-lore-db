@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504126,
+  "name": "枫丹兽会吃纳塔鱼吗？",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1752027009",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504126/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504126,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:22:05+08:00",
+  "sha256": "6f873aa0959105528432aae98eecb775d173f07e1ced83cd3713b8cef0a83bea",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503861,
+  "name": "进入夜雾之门",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1734947874",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503861/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503861,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:23:31+08:00",
+  "sha256": "25e4b9ab06d6e396a64a43cb2dfec64f8a455f218c43d8c9f772715f9dc9bdf2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

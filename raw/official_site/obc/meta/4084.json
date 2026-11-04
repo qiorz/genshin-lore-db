@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4084,
+  "name": "危途疑踪",
+  "menu_id": "0",
+  "menu_name": "活动",
+  "page_version": "1703030872",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4084/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4084,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:14:43+08:00",
+  "sha256": "53fa2b13e1442cad99dc4cbee76626f0adc010d68bd89e316699f5c3ef99b46e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

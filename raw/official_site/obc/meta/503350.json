@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503350,
+  "name": "让我见识一下巨像的性能吧",
+  "menu_id": "0",
+  "menu_name": "成就",
+  "page_version": "1731044505",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503350/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503350,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:25:28+08:00",
+  "sha256": "43fde66fef19fe5b1dce6069ae6d906d545857165d7b53da8303fe6ef7516ba3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}
