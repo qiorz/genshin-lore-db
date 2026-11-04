@@ -2,15 +2,36 @@
 
 > 更新时间：2026-11-04  
 > 项目根目录：`D:\harn\2\genshin-lore-db`  
-> 一句话状态：**书籍、任务、散落文本、角色主干全部归档进 `corpus/`，数据库可从 Markdown 全量重建；武器/圣遗物/活动/成就与知识层还没做。**
+> 一句话状态：**书籍、任务、散落文本、角色主干全部归档进 `corpus/`，任务子类型已分清，重复组已判定；数据库可从 Markdown 全量重建。武器/圣遗物/活动/成就与知识层还没做。**
 
 ---
 
-## 0. 本次变更（2026-11-04 · 第 0 步：把正文收进 corpus）
+## 0. 变更记录
+
+两轮改动都在 2026-11-04：第 0 步把正文收进 `corpus/`，第 1 步收任务尾巴。
+
+### 第 1 步 · 收任务尾巴
+
+| 动作 | 结果 |
+|---|---|
+| 修复散落文本空白页 | `render_obc.py` 支持「根节点缺失」的对话图，12 篇从 0 字恢复到 113–4300 字 |
+| 重分类 | 19 条邀约 → `hangout`，4 条间章 → `interlude`，目录不再空 |
+| 系列页标注 | 15 篇标题含「系列/合集/总览」的页 + 3 篇海灯节，加 `tags: [系列任务]`，共 18 篇 |
+| 同名同文合并 | 好东西，坏品味 5→1、通知【明蕴镇】 2→1，来源并入主文档，删除冗余 5 篇 |
+| 重复组判定 | 剩余 10 组逐组写判定，见 `manifests/duplicates.csv` |
+| BWiki 补空壳 | 32 条探测完毕：BWiki 无可用正文，**0 条补全**，见 `exports/obc-evaluation/bwiki-stub-probe.md` |
+| 修工具 | `fill_quests_from_bwiki.py` 删除「匹配不到就取第一条」的回退（4190 事故根因） |
+
+**数量变化**：文档 2,035 → 2,030（合并 5 篇），段落 330,417 → 329,859，正文字符 7,322,802 → 7,303,488。
+减少的部分全部来自重复合并，没有丢内容；散落文本反而新增了 12 篇被修复的正文。
+
+**未做**：32 条空壳仍然补不了（上游没正文）；「一篇一幕」审计只做到系列页标注，没有拆分多幕文件。
+
+### 第 0 步 · 把正文收进 corpus
 
 这次只做一件事：**让 `corpus/` 成为真正完整、可重建的权威正文层**。之前 706 条散落文本和 50 条任务只存在于 `exports/` 和 SQLite 里，一旦重装库就会丢。
 
-### 做了什么
+#### 做了什么
 
 | 动作 | 结果 |
 |---|---|
@@ -54,8 +75,8 @@ PRAGMA integrity_check：ok
 | 模块 | 数量 | 状态 |
 |---|---:|---|
 | 书籍 | 92 | 已归档 `corpus/books/` |
-| 散落文本 | 706 | 已归档 `corpus/scattered/<地区>/` |
-| 任务（有正文） | 1,069 | 已归档 `corpus/quests/<subtype>/` |
+| 散落文本 | 705 | 已归档 `corpus/scattered/<地区>/` |
+| 任务（有正文） | 1,065 | 已归档 `corpus/quests/<subtype>/` |
 | 任务（空壳） | 32 | 隔离在 `corpus/quests/_pending/` |
 | 角色 | 136 | 已归档 `corpus/characters/` |
 | 武器 | 252 | **0，未开始** |
@@ -67,8 +88,8 @@ PRAGMA integrity_check：ok
 当前数据库：
 
 ```text
-文档：2,035
-段落：330,417
+文档：2,030
+段落：329,859
 来源：9
 数据库大小：约 244 MB
 ```
@@ -76,20 +97,27 @@ PRAGMA integrity_check：ok
 按类型：
 
 ```text
-任务：1,101（1,069 有正文 + 32 空壳，均在库里）
-散落文本：706
+任务：1,097（1,065 有正文 + 32 空壳，均在库里）
+散落文本：705
 角色：136
 书籍：92
+```
+
+任务子类型：
+
+```text
+world 642 · event 288 · story 92 · archon 46 · hangout 19 · interlude 4 · other 6
+（其中 32 条空壳分布在 world 20 / story 12，含 12 条邀约）
 ```
 
 版本覆盖：
 
 | 类型 | 已标版本 | 未知 |
 |---|---:|---:|
-| 任务 | 1,101/1,101 | 0 |
+| 任务 | 1,097/1,097 | 0 |
 | 角色 | 136/136 | 0 |
 | 书籍 | 91/92 | 1（1158） |
-| 散落文本 | 226/706 | 480 |
+| 散落文本 | 226/705 | 479 |
 
 ---
 
@@ -141,9 +169,9 @@ cd D:\harn\2\genshin-lore-db
 ```text
 corpus/
 ├─ books/           92 本书（按地区）
-├─ quests/          1,069 条有正文任务（按 archon/story/world/event/other）
+├─ quests/          1,065 条有正文任务（archon 46 / story 92 / world 622 / event 288 / hangout 7 / interlude 4 / other 6）
 │  └─ _pending/     32 条 OBC 无剧情对话的空壳页
-├─ scattered/       706 条散落文本（按地区）
+├─ scattered/       705 条散落文本（按地区）
 └─ characters/      136 个角色（按地区）
 
 exports/
@@ -188,22 +216,25 @@ manifests/
 
 ### 4.2 散落文本
 
-- 706 条全部归档 `corpus/scattered/`，10 个地区目录；
+- 705 条归档 `corpus/scattered/`，10 个地区目录；
 - 只保留交互文本，跳过地图截图/坐标；
 - 226 条从相关任务/成就/活动推导出版本；
-- 480 条版本 unknown，按约定不猜；
+- 479 条版本 unknown，按约定不猜；
 - 4 组同名条目（共 9 个文件）用 ` (obc-<content_id>)` 后缀消歧；
-- **10 篇正文为空**，原因见 §5.4。
+- 12 篇原本正文为空的页面已修复（见 §5.4）；
+- 1 组同文重复（通知【明蕴镇】）已合并。
 
 ### 4.3 任务
 
-- 1,101 个 OBC entry，全部在库；
-- 1,069 条有正文，归档 `corpus/quests/`；
+- 1,097 个 OBC entry，全部在库；
+- 1,065 条有正文，归档 `corpus/quests/`；
 - 32 条无正文，隔离在 `_pending/`；
 - 183 条用了 BWiki 源补全；
 - 修复了 OBC `interactive_dialogue` 的 graph-only 格式，恢复了 381 条任务的对话；
-- 任务版本 1,101/1,101 已补齐；
-- 迁移时把 19 条「其实有正文、但被误标待补」的任务从 exports 收进 corpus。
+- 任务版本 1,097/1,097 已补齐；
+- 迁移时把 19 条「其实有正文、但被误标待补」的任务从 exports 收进 corpus；
+- 第 1 步把 19 条邀约归入 `hangout/`、4 条间章归入 `interlude/`；
+- 5 篇同名同文的任务/散落文本已合并，OBC 条目 id 保留在 `source` 里。
 
 ### 4.4 角色
 
@@ -247,29 +278,27 @@ manifests/
 
 ### 5.2 任务尾巴
 
-- 32 条空壳任务在 `_pending/`，主要是邀约/活动系列页；
-- 20 条邀约事件已入库，但 subtype 仍是 `event/story/other`，`hangout/` 目录是空的；
-- 间章混在 `archon/`，`interlude/` 目录也是空的；
-- 15 个 `系列/合集/总览` 页（如 `风沙轰鸣系列任务合集`）应与正文区分，尚未审计；
-- 13 组同文重复尚未处理，典型是：
-  - `危影重重·其一` 到 `其六` 六篇同文；
-  - `好东西，坏品味` 五篇同文；
-  - 旅行者多元素形态共用正文。
-
-重复不一定是抓错，有些是 OBC 页面本身重复；但需要一次合并/去重。
+- 32 条空壳任务在 `_pending/`，主要是邀约/活动系列页；**BWiki 也补不了**（见 §5.4）；
+- 邀约/间章归类已完成：`hangout/` 7 篇有正文（另 12 条空壳 subtype 已改 hangout），`interlude/` 4 篇；
+- 18 篇系列页已加 `tags: [系列任务]`（标题含「系列/合集/总览」的 15 篇 + 海灯节 3 篇）；
+- **多幕文件未拆分**：`雾海纪行系列任务`（4 幕）、`清籁逐雷记系列任务`（4 幕）等仍是「一篇多幕」。
+  规范第 84 行允许「一个系列一篇，超长再拆」，所以先保留，没有强行切成合成的 doc_id；
+- 同文重复已处理，剩 10 组逐组判定见 `manifests/duplicates.csv`：
+  - 已合并 2 组（`好东西，坏品味` 5→1、`通知【明蕴镇】` 2→1）；
+  - 保留 8 组：旅行者形态 4 组、危影重重 1 组、海灯节 1 组、空壳页 2 组，原因写在 CSV 里。
 
 ### 5.3 版本与书籍
 
 - `1158 残破的笔记` unknown；
 - `500 白之公主与六侏儒` 只有第一卷；
-- 480 条散落文本版本 unknown。
+- 479 条散落文本版本 unknown。
 
 ### 5.4 内容质量
 
-- **10 篇散落文本正文为空**：`render_lore` 只识别 `interactive_dialogue` 组件，这几页的交互文本在别的模块里。是 renderer 缺口，不是数据缺失。清单见 `corpus/scattered/README.md`。
-- **`quest.obc.4190`**：BWiki 补全匹配到错误页面，已回退为空壳，待重补。
+- **散落文本空白页已修复**：`render_obc.py` 之前只从 `root_id` 起步，遇到「根节点不在 contents 里」的页面会输出空正文。现在改为从无父节点的孤岛起步、按节点 key 时间戳排序。12 篇恢复，最长 4,300 字。
+- **`quest.obc.4190`**：BWiki 补全匹配到错误页面，已回退为空壳；原脚本「匹配不到就取第一条」的回退已删除。
 - **`quest.obc.500835`**：曾被覆盖，已从 `raw/` 重渲染修复。
-- 13 组同文重复（见 §5.2）。
+- **32 条空壳**：OBC 无正文，BWiki 同名页面的「任务剧情」也全部为空（3 个挂 `{{待补充}}`）。探测报告见 `exports/obc-evaluation/bwiki-stub-probe.md`。
 
 ### 5.5 审计数字
 
@@ -283,8 +312,10 @@ manifests/
 
 - `books = done`
 - `characters = done`
-- `scattered_text = done`（正文已归档，480 条版本 unknown）
-- `main_story / story_quests / world_quests / event_quests / hangouts / interludes = partial`
+- `scattered_text = done`（正文已归档，479 条版本 unknown）
+- `hangouts = partial`（19 条已入库并归类，12 条无正文）
+- `interludes = done`（4 条已归类）
+- `main_story / story_quests / world_quests / event_quests = partial`
 - 其余 `planned`
 
 ---
@@ -371,12 +402,14 @@ manifests/
 
 ## 8. 下一步计划
 
-### P0：收任务尾巴（原计划，仍未做）
+### P0：收任务尾巴（基本完成）
 
-- 32 条空壳任务：按子任务页拆分，或补 BWiki 正文；
-- 13 组同文重复：区分「多地点同文」（保留 + 标注）和「页面级重复」（合并 + alias）；
-- 做一次「一篇一幕」审计，确认 1,069 条是真正的任务正文，而不是系列总览页；
-- 补 subtype：20 条邀约 → `hangout`，间章 → `interlude`，让空目录有意义。
+已完成：subtype 归类、系列页标注、同文重复判定与合并、空白散落文本修复、BWiki 补全探测。
+
+剩下的两件：
+
+- **32 条空壳**：OBC 与 BWiki 都没有正文，只能从游戏数据包（`TalkConfig` / `QuestExcelConfigData`）取，属新数据源接入；
+- **多幕文件拆分**：`雾海纪行`、`清籁逐雷记` 等 11 个系列页是一篇多幕。规范允许「一个系列一篇」，若要严格「一篇一幕」，得设计合成 doc_id 的规则（如 `quest.obc.2942.act1`），会影响 `source.page_id` 的一一对应，需要先定规范再动手。
 
 ### P1：武器 + 圣遗物（性价比最高）
 
@@ -416,6 +449,8 @@ manifests/
 - 数据库约 244 MB，`raw/` 约 136 MB，`tools/` 约 94 MB；仓库当前 36.95 MiB。
 - **重导入前先 `.backup` 一份 DB**：Markdown 可能被历史脚本写坏，DB 反而留着好副本（见 §5.4）。
 - 不要手工改 SQLite 正文；改 Markdown 后重新 `load_markdown.py`。
+  - 例外：合并重复文档需要删除 DB 行，必须 `PRAGMA foreign_keys = ON` 才能级联清掉 sections / sources / tags。用 `sqlite3` CLI 时要显式加这一句，默认是关的。
+- 删改文档后记得同步 `corpus/*/index.csv`，否则索引会指向不存在的文件。
 - 批量导入大文档时，确保 `idx_sections_parent` 存在；否则级联删除会很慢。
 - FTS 触发器存在时逐条导入会慢；大批量可先 drop triggers，导入后 rebuild（当前 schema 已有 trigram 迁移）。
 - 32 条空壳任务和 480 条 unknown 版本不是「漏跑」，是来源本身没有稳定字段/正文，已明确标记。
@@ -438,3 +473,5 @@ manifests/
 - [Web UI 说明](webui/README.md)
 - [散落文本说明](corpus/scattered/README.md)
 - [待补任务说明](corpus/quests/_pending/README.md)
+- [重复组判定](manifests/duplicates.csv)
+- [BWiki 空壳探测](exports/obc-evaluation/bwiki-stub-probe.md)

@@ -17,6 +17,7 @@
 | `compare_report.txt` | 观测枢 vs BWiki 的字数/样本对照 | — |
 | `crosscheck.md` | 5 书 / 5 任务 / 5 散落文本抽样报告；任务 50 条无对话的结构问题 | — |
 | `probe_v2.txt` | 版本字段、频道列表、散落文本搜索探测 | — |
+| `bwiki-stub-probe.md` | 32 条空壳任务的 BWiki 同名页面探测结论（0 条可补） | 2026-11-04 |
 | `search-*.txt` | SQLite FTS 检索测试结果 | — |
 
 书籍目录：

@@ -45,10 +45,10 @@ quest.obc.7201,第四章 第二幕 「仿若无因飘落的轻雨」,archon,枫�
 quest.obc.7653,第四章 第五幕 「罪人舞步旋」,archon,枫丹,4.2,corpus/quests/archon/第四章 第五幕 「罪人舞步旋」.md
 quest.obc.501464,第四章 第六幕 「睡前故事」,archon,须弥,4.7,corpus/quests/archon/第四章 第六幕 「睡前故事」.md
 quest.obc.7497,第四章 第四幕 「谕示胎动的终焉之刻」,archon,枫丹,4.1,corpus/quests/archon/第四章 第四幕 「谕示胎动的终焉之刻」.md
-quest.obc.3539,间章 第一幕「风起鹤归」,archon,璃月,2.4,corpus/quests/archon/间章 第一幕「风起鹤归」.md
-quest.obc.5794,间章 第三幕 「倾落伽蓝」,archon,须弥,3.3,corpus/quests/archon/间章 第三幕 「倾落伽蓝」.md
-quest.obc.4121,间章 第二幕「危途疑踪」,archon,层岩巨渊,2.7,corpus/quests/archon/间章 第二幕「危途疑踪」.md
-quest.obc.505457,间章 第四幕「悖理」,archon,蒙德,5.6,corpus/quests/archon/间章 第四幕「悖理」.md
+quest.obc.3539,间章 第一幕「风起鹤归」,interlude,璃月,2.4,corpus/quests/interlude/间章 第一幕「风起鹤归」.md
+quest.obc.5794,间章 第三幕 「倾落伽蓝」,interlude,须弥,3.3,corpus/quests/interlude/间章 第三幕 「倾落伽蓝」.md
+quest.obc.4121,间章 第二幕「危途疑踪」,interlude,层岩巨渊,2.7,corpus/quests/interlude/间章 第二幕「危途疑踪」.md
+quest.obc.505457,间章 第四幕「悖理」,interlude,蒙德,5.6,corpus/quests/interlude/间章 第四幕「悖理」.md
 quest.obc.501690,《勇敢的北风》,event,未知,4.8,corpus/quests/event/《勇敢的北风》.md
 quest.obc.501679,《好架子》,event,未知,4.8,corpus/quests/event/《好架子》.md
 quest.obc.501691,《猫头鹰乐师》,event,未知,4.8,corpus/quests/event/《猫头鹰乐师》.md
@@ -422,13 +422,13 @@ quest.obc.6272,蝎尾鬃狮之章 第一幕：狮之血,story,须弥,3.5,corpus/
 quest.obc.504680,貘枕之章 第一幕「食梦者的忧郁」,story,稻妻,5.4,corpus/quests/story/貘枕之章 第一幕「食梦者的忧郁」.md
 quest.obc.507413,赤龙之章 第一幕「名为故事的魔法」,story,蒙德,6.2,corpus/quests/story/赤龙之章 第一幕「名为故事的魔法」.md
 quest.obc.501509,迅捷剑之章 第一幕「夜色无声」,story,枫丹,4.7,corpus/quests/story/迅捷剑之章 第一幕「夜色无声」.md
-quest.obc.6269,邀约事件·云堇 第一幕「弦歌知雅意」,story,璃月,2.4,corpus/quests/story/邀约事件·云堇 第一幕「弦歌知雅意」.md
-quest.obc.3192,邀约事件·早柚 第一幕「呜呼流·生长之术」,story,稻妻,2.2,corpus/quests/story/邀约事件·早柚 第一幕「呜呼流·生长之术」.md
-quest.obc.1727,邀约事件·芭芭拉 第一幕「治愈的清泉」,story,蒙德,1.4,corpus/quests/story/邀约事件·芭芭拉 第一幕「治愈的清泉」.md
-quest.obc.1742,邀约事件·诺艾尔 第一幕「骑士修行之道」,story,蒙德,1.4,corpus/quests/story/邀约事件·诺艾尔 第一幕「骑士修行之道」.md
-quest.obc.3190,邀约事件·诺艾尔 第二幕「骑士备考之道」,story,蒙德,1.5,corpus/quests/story/邀约事件·诺艾尔 第二幕「骑士备考之道」.md
-quest.obc.3189,邀约事件·迪奥娜 第一幕「猫与特调酒」,story,蒙德,1.5,corpus/quests/story/邀约事件·迪奥娜 第一幕「猫与特调酒」.md
-quest.obc.4219,邀约事件·鹿野院平藏 第一幕「风暴捕物帐」,story,稻妻,2.8,corpus/quests/story/邀约事件·鹿野院平藏 第一幕「风暴捕物帐」.md
+quest.obc.6269,邀约事件·云堇 第一幕「弦歌知雅意」,hangout,璃月,2.4,corpus/quests/hangout/邀约事件·云堇 第一幕「弦歌知雅意」.md
+quest.obc.3192,邀约事件·早柚 第一幕「呜呼流·生长之术」,hangout,稻妻,2.2,corpus/quests/hangout/邀约事件·早柚 第一幕「呜呼流·生长之术」.md
+quest.obc.1727,邀约事件·芭芭拉 第一幕「治愈的清泉」,hangout,蒙德,1.4,corpus/quests/hangout/邀约事件·芭芭拉 第一幕「治愈的清泉」.md
+quest.obc.1742,邀约事件·诺艾尔 第一幕「骑士修行之道」,hangout,蒙德,1.4,corpus/quests/hangout/邀约事件·诺艾尔 第一幕「骑士修行之道」.md
+quest.obc.3190,邀约事件·诺艾尔 第二幕「骑士备考之道」,hangout,蒙德,1.5,corpus/quests/hangout/邀约事件·诺艾尔 第二幕「骑士备考之道」.md
+quest.obc.3189,邀约事件·迪奥娜 第一幕「猫与特调酒」,hangout,蒙德,1.5,corpus/quests/hangout/邀约事件·迪奥娜 第一幕「猫与特调酒」.md
+quest.obc.4219,邀约事件·鹿野院平藏 第一幕「风暴捕物帐」,hangout,稻妻,2.8,corpus/quests/hangout/邀约事件·鹿野院平藏 第一幕「风暴捕物帐」.md
 quest.obc.4717,郭狐之章 第一幕 「没有答案的课题」,story,须弥,3.0,corpus/quests/story/郭狐之章 第一幕 「没有答案的课题」.md
 quest.obc.500563,野蔷薇之章 第一幕：共渡潮落,story,枫丹,4.3,corpus/quests/story/野蔷薇之章 第一幕：共渡潮落.md
 quest.obc.5286,金狼之章 第一幕：沉沙归寂,story,须弥,3.1,corpus/quests/story/金狼之章 第一幕：沉沙归寂.md
@@ -614,10 +614,6 @@ quest.obc.510060,女皇的新画像,world,至冬,7.1,corpus/quests/world/女皇�
 quest.obc.510240,女皇的棋局·其一,world,至冬,7.1,corpus/quests/world/女皇的棋局·其一.md
 quest.obc.507998,她的礼赠,world,挪德卡莱,6.3,corpus/quests/world/她的礼赠.md
 quest.obc.506704,她的过去,world,挪德卡莱,6.0,corpus/quests/world/她的过去.md
-quest.obc.505656,好东西，坏品味,world,枫丹,4.0,corpus/quests/world/好东西，坏品味-quest.obc.505656.md
-quest.obc.505657,好东西，坏品味,world,枫丹,4.0,corpus/quests/world/好东西，坏品味-quest.obc.505657.md
-quest.obc.505658,好东西，坏品味,world,枫丹,4.0,corpus/quests/world/好东西，坏品味-quest.obc.505658.md
-quest.obc.7662,好东西，坏品味,world,枫丹,4.0,corpus/quests/world/好东西，坏品味-quest.obc.7662.md
 quest.obc.505655,好东西，坏品味,world,枫丹,4.0,corpus/quests/world/好东西，坏品味.md
 quest.obc.505660,好东西，坏品味·续,world,枫丹,4.0,corpus/quests/world/好东西，坏品味·续.md
 quest.obc.507932,如意斗彩,world,璃月,6.3,corpus/quests/world/如意斗彩.md

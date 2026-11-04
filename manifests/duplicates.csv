@@ -1,0 +1,11 @@
+﻿group,n,verdict,reason,doc_ids,titles,char_counts
+19b516c2,6,keep-all,六个独立条目的引导语相同且都很短，待补全，非重复页,quest.obc.509536 quest.obc.509816 quest.obc.509871 quest.obc.510015 quest.obc.510061 quest.obc.510076,危影重重·其一 / 危影重重·其二 / 危影重重·其三 / 危影重重·其四 / 危影重重·其五 / 危影重重·其六,"157,157,157,157,157,157"
+2f4eeabd,5,keep-all,同一角色的不同元素形态共用「更多描述」等章节，属正常,char.obc.505501 char.obc.505500 char.obc.505502 char.obc.505503 char.obc.505499,旅行者·风 / 旅行者·水 / 旅行者·岩 / 旅行者·草 / 旅行者·雷,"1286,1286,1286,1286,1286"
+3b67bb5d,5,keep-all,同一角色的不同元素形态共用「更多描述」等章节，属正常,char.obc.505497 char.obc.505505 char.obc.505498 char.obc.505496 char.obc.505504,旅行者·雷 / 旅行者·岩 / 旅行者·草 / 旅行者·风 / 旅行者·水,"1284,1284,1284,1284,1284"
+ee53a423,3,keep-all,OBC 页面本身无正文（空壳），已隔离在 _pending，不是内容重复,quest.obc.529 quest.obc.689 quest.obc.721,冒险协会的考验 / 探索剑冢封印 / 每天都是新冒险,"49,49,49"
+51fa3a4b,2,keep-all,OBC 页面本身无正文（空壳），已隔离在 _pending，不是内容重复,quest.obc.7370 quest.obc.7393,坏蛋们 / 智勇双拳,"49,49"
+ed6b62c1,2,keep-all,OBC 页面本身无正文（空壳），已隔离在 _pending，不是内容重复,quest.obc.6553 quest.obc.6568,风沙轰鸣系列任务合集 / 忆昔诸途巡历系列任务合集,"49,49"
+d7d7b290,2,keep-all,同一角色的不同元素形态共用「更多描述」等章节，属正常,char.obc.509226 char.obc.4074,旅行者·火 / 旅行者·冰,"1282,1282"
+f2e23e92,2,keep-all,同一角色的不同元素形态共用「更多描述」等章节，属正常,char.obc.509225 char.obc.4073,旅行者·火 / 旅行者·冰,"1282,1282"
+fe0e7cca,2,keep-all,同一系列被 OBC 三个条目重复装载，正文一致；保留以便按原条目检索,quest.obc.1583 quest.obc.1594,海灯节轶事之一 / 海灯节轶事之三,"13287,13287"
+5f41d154,2,keep-all,OBC 页面本身无正文（空壳），已隔离在 _pending，不是内容重复,quest.obc.5012 quest.obc.5014,黄金梦乡·阿赫玛尔的秘密 / 黄金梦乡·热砂之梦,"49,49"

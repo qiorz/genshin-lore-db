@@ -1,12 +1,12 @@
 ﻿target_id,category,scope,priority,source_hint,status,notes
-main_story,剧情,全部魔神任务：序章、各章、间章、终章,P0,观测枢（BWiki 校验）,partial,"任务 1,101 条；1,069 有正文；32 空壳在 _pending；含系列/子页混合"
+main_story,剧情,全部魔神任务：序章、各章、间章、终章,P0,观测枢（BWiki 校验）,partial,"任务 1,097 条；1,065 有正文；32 空壳在 _pending；含系列/子页混合"
 story_quests,剧情,全部传说任务,P0,观测枢（BWiki 校验）,partial,"含在 1,101 条任务中；未按幕做最终审计"
 world_quests,剧情,全部世界任务/地图事件/隐藏任务,P1,观测枢（BWiki 校验）,partial,"含在 1,101 条任务中；50 条缺正文"
 event_quests,剧情,限时活动剧情/活动任务,P1,观测枢 + 米游社,partial,"含在 1,101 条任务中；活动频道未单独入库"
-hangouts,剧情,全部邀约事件,P1,观测枢,partial,"含在 1,101 条任务中；部分 BWiki 邀约模板已补"
-interludes,剧情,间章/幕间,P0,观测枢,partial,"含在 1,101 条任务中"
+hangouts,剧情,全部邀约事件,P1,观测枢,partial,"19 条已归类 hangout；7 条有正文，12 条 OBC 无正文"
+interludes,剧情,间章/幕间,P0,观测枢,done,"4 条已从 archon 拆出并归类 interlude"
 books,文本,全部游戏内书籍（图鉴 + 任务书籍）,P0,观测枢（BWiki 校验）,done,92 unique；503 重复卷；500 仅第一卷；1158 版本 unknown
-scattered_text,文本,地图文本：石碑、笔记、留言、书页、告示,P0,观测枢 地图文本频道,done,"706/706 归档 corpus/scattered；226 有版本，480 unknown；10 篇正文空（renderer 缺口）"
+scattered_text,文本,地图文本：石碑、笔记、留言、书页、告示,P0,观测枢 地图文本频道,done,"705/705 归档 corpus/scattered；226 有版本，479 unknown；空白页已修复"
 characters,文本,角色故事、更多描述、神之眼/神之心、关联语音,P1,观测枢（BWiki 校验）,done,136/138；2 条「奇偶」无叙事；已含故事/描述/神之眼/神之心/关联语音/生日邮件
 character_voices,文本,角色语音/好感语音,P2,观测枢/数据包,partial,已收角色关联语音；未完整体验语音/音频
 weapons,文本,全部武器故事,P1,观测枢（BWiki 校验）,planned,0/252

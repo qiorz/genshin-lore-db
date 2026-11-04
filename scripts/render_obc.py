@@ -71,7 +71,12 @@ def html_text(html: str) -> str:
     soup = BeautifulSoup(html or "", "html.parser")
     for tag in soup(["script", "style"]):
         tag.decompose()
-    text = soup.get_text("\n")
+    # 只在块级元素边界断行；行内 span/ruby/a 不能断，否则会把一句话拆成几行。
+    for br in soup.find_all("br"):
+        br.replace_with("\n")
+    for tag in soup.find_all(["p", "li", "div", "h1", "h2", "h3", "h4", "blockquote", "tr"]):
+        tag.append("\n")
+    text = soup.get_text("")
     lines = [re.sub(r"[ \t]+", " ", line).strip() for line in text.splitlines()]
     lines = [line for line in lines if line]
     return "\n".join(lines)
@@ -169,6 +174,28 @@ def render_dialogue_group(group: dict) -> tuple[list[str], int, int]:
             if len(children) > 1:
                 out.append(f"> **分支 {index}**")
             walk(child, path | {node_id})
+
+    # 有些页面（多为地图文本）root_id 指向的容器节点并不在 contents 里，
+    # 真正的分支节点成了「没有父节点的孤岛」。此时从孤岛起步，
+    # 按 key 末位时间戳排序渲染，否则整篇会输出为空。
+    if root_id not in contents:
+        # 只统计「父节点真实存在」的边；指向缺失容器的边不算，
+        # 否则所有节点都会被认为有父节点，roots 为空。
+        child_nodes = {
+            c
+            for parent, kids in child_ids.items()
+            if parent in contents
+            for c in (kids or [])
+        }
+        roots = [k for k in contents if k not in child_nodes]
+
+        def node_order(node_key: str) -> tuple[int, str]:
+            digits = re.sub(r"\D", "", node_key)
+            return (int(digits[-13:]) if digits else 0, node_key)
+
+        for node_id in sorted(roots, key=node_order):
+            walk(node_id, set())
+        return out, nodes, options
 
     walk(root_id, set())
     return out, nodes, options

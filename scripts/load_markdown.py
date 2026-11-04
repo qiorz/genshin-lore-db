@@ -164,6 +164,8 @@ def main() -> int:
         if not directory.exists():
             raise SystemExit(f"directory not found: {directory}")
         paths.extend(sorted(directory.rglob(args.pattern)))
+    # 目录里的 README/index 是说明文件，没有 front matter，跳过而不是报错
+    paths = [p for p in paths if p.name.lower() not in {"readme.md", "index.md"}]
     if not paths:
         raise SystemExit("no Markdown files given; pass paths or --dir")
 

@@ -159,8 +159,8 @@ def bwiki_page(session: requests.Session, title: str) -> dict | None:
         if wanted and (wanted == norm(candidate) or wanted in norm(candidate)):
             chosen = candidate
             break
-    if not chosen and results:
-        chosen = results[0]["title"]
+    # 不能「匹配不到就取第一条」：搜索会返回版本专题页等无关结果，
+    # 曾因此把别的邀约整篇写进 quest.obc.4190。宁可不补，也不能补错。
     if not chosen:
         return None
     parse = session.get(
