@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509740,
+  "name": "「雪鱼王之杖」",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1788512423",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509740/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509740,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:48:03+08:00",
+  "sha256": "9be32440587a42d84e0e70944eb1b76e3f997d14119627a676cc0b4e7d52f4fe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

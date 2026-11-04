@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507809,
+  "name": "夜壑的黎明",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1768789829",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507809/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507809,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:40:22+08:00",
+  "sha256": "9c36a1e8b842748b4cfeb925c556e862ece46a73e6914cbf2396be2c9b2def51",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

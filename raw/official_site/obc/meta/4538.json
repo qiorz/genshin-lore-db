@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4538,
+  "name": "治草药剂",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1699238504",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4538/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4538,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:26+08:00",
+  "sha256": "5211bf01f80023c7c04b581f8fd13666d51504dacab718a5f76b6217f69195ba",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

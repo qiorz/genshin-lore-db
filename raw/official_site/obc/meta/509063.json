@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509063,
+  "name": "月之高地",
+  "menu_id": "0",
+  "menu_name": "区域",
+  "page_version": "1787278324",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509063/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509063,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:39:18+08:00",
+  "sha256": "28c638ad9a236b787d07f99b7d30d69c79406c7a08df5229508e7fe395530d1b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

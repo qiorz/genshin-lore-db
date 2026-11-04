@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7567,
+  "name": "小小的海螺",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702544995",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7567/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7567,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:56:26+08:00",
+  "sha256": "bdf8af639031c392bd59733f1c90f17a32d584a95a3a7ad8350aebfb54705768",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

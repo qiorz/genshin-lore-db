@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4249,
+  "name": "星象碎片",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702544997",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4249/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4249,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:02:03+08:00",
+  "sha256": "45c00b834326326d1ba09f287727631e6fd65f8c60c0f0a9b99a229c8ed9beb6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

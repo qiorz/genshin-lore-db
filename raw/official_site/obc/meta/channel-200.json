@@ -1,0 +1,18 @@
+{
+  "source_id": "obc",
+  "channel_id": 200,
+  "channel_name": "食物一览",
+  "url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_params": {
+    "channel_id": 200,
+    "page_num": 1,
+    "page_size": 1000,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:38:49+08:00",
+  "sha256": "300151aeb69fe24a90b6837a2e3c185bf76885028bdaf64e0e0058dc5b736882",
+  "entry_count": 0
+}

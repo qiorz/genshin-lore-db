@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5262,
+  "name": "贾汉吉尔的收货单",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545054",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5262/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5262,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:59:57+08:00",
+  "sha256": "9022c0055db9a473a251464086840cb590e839dcc38217d46d3b343625a98d72",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 891,
+  "name": "不祥的面具",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1747127647",
+  "url": "https://baike.mihoyo.com/ys/obc/content/891/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 891,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:04:40+08:00",
+  "sha256": "042c1bf013f94be9c4c18cb1a355f90bcb504f80331fd01d1d4e4ec6d76aa770",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

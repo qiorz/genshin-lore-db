@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509659,
+  "name": "焰羽谷",
+  "menu_id": "0",
+  "menu_name": "区域",
+  "page_version": "1787278239",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509659/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509659,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:39:16+08:00",
+  "sha256": "79e2c66c1f57a59bd45359c7c7cc1cc74b4c4a59dd85235a314ad7e1ae75a437",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

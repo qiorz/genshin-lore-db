@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 101,
+  "name": "烤肉排",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772176268",
+  "url": "https://baike.mihoyo.com/ys/obc/content/101/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 101,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:47:35+08:00",
+  "sha256": "38cbc6a3807706db31d8139dec5f0b7438e1106a3b177660fe05fa0734947870",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

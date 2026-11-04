@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500707,
+  "name": "渊光鳍翅",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1747017934",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500707/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500707,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:55:51+08:00",
+  "sha256": "3cf3fa997f19ed45f2facfde24e102f05bea1c40f5997d645447d126ec8c86e1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

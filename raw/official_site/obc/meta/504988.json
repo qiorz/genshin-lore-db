@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504988,
+  "name": "藏匿遗迹的裂口",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743741880",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504988/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504988,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:41:27+08:00",
+  "sha256": "a5792fb31307254c688f6cd89c1ae75c0196100e09c0e4d87f4c054a23ab33fe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

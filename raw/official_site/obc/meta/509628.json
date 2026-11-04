@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509628,
+  "name": "小妖精们的聚落",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1787019614",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509628/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509628,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:40:02+08:00",
+  "sha256": "4d8f8e6173b8dc4c8eb9ea1311a7684ed90f0e854b8ddb67f4edc597b7cf3a62",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

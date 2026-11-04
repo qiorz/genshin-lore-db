@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 872,
+  "name": "最胜紫晶",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1783649562",
+  "url": "https://baike.mihoyo.com/ys/obc/content/872/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 872,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:04:33+08:00",
+  "sha256": "d6fe3bf14e1f2b7b2c09b3f8d768a5563872ba0c94ba0ac6fbea142dc2473043",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

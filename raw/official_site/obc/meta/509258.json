@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509258,
+  "name": "苍星军势的鸣令",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1790062234",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509258/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509258,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:48:55+08:00",
+  "sha256": "d216ea68ddeac0e3baac19ea2218637e358b7135b6d349570981d13f5d199722",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

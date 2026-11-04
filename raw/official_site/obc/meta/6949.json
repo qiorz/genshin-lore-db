@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6949,
+  "name": "叶绿扇尾鸽",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1699593740",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6949/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6949,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:08:14+08:00",
+  "sha256": "c56f9cb5ca6ed5b5f949afcf3a1936b6f388566c1584643b0ca0cf34b98233f6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

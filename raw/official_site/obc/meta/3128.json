@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3128,
+  "name": "化种匣",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1757499044",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3128/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3128,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:03:21+08:00",
+  "sha256": "a22b41e6a2519c4f5be248c0c5322406c096a31bfdb7d8f8c2d6b70a5c4acb94",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

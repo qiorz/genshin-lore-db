@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505537,
+  "name": "九果甘露饮",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1782116439",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505537/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505537,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:45:10+08:00",
+  "sha256": "89d2e956c69f504af637293a5876e10face862605f0741578a8078d10fa62d6c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

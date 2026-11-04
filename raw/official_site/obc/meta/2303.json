@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2303,
+  "name": "绯樱天妇罗",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772175327",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2303/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2303,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:54+08:00",
+  "sha256": "95dce6411a5ff5db3574802f904729e9eac1af481febd949d87ae3796b5195a1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

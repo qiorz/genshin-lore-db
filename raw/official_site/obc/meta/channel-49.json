@@ -1,0 +1,18 @@
+{
+  "source_id": "obc",
+  "channel_id": 49,
+  "channel_name": "动物",
+  "url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_params": {
+    "channel_id": 49,
+    "page_num": 1,
+    "page_size": 1000,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:39:02+08:00",
+  "sha256": "cad20d6ce033442b078516d274c622539fe00c1696f59cf2ac61042c54da749a",
+  "entry_count": 227
+}

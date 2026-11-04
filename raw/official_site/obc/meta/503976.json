@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503976,
+  "name": "炎岩之颂",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772160590",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503976/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503976,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:45:20+08:00",
+  "sha256": "ce01ce7a9a9b460cf1e0579ff8ed8090e4cbd65ec379b3c709f4c6b85cdddc6c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

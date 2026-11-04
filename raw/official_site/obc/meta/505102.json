@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505102,
+  "name": "追逐胜利与荣耀的战场",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743770430",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505102/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505102,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:40:44+08:00",
+  "sha256": "0bed751618001a8f9954e20a33e2263296ec3bccd02533a2a17a9666774af9f6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

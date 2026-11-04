@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506151,
+  "name": "暮暮羊",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1757383707",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506151/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506151,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:07:42+08:00",
+  "sha256": "a971e9ee40df1da7120c1ca84fbc9eb74d781e572d65321cc9161868dbe0011f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

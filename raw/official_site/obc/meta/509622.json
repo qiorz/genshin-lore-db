@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509622,
+  "name": "远雷如冰凝结的山麓",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1787019594",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509622/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509622,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:39:58+08:00",
+  "sha256": "e2e2ec91e5323ad5629b55f996a8a334a357885ecddac1fc72ed216130b1a44a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4539,
+  "name": "丛林精油",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1699238192",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4539/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4539,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:25+08:00",
+  "sha256": "d9e31019576dd3f04497cdf7e417983a308b0bdadcbf9de1a244778943c82c09",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

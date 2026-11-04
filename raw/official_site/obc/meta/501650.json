@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501650,
+  "name": "女神的手稿·其二",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1736218006",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501650/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501650,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:54:20+08:00",
+  "sha256": "34c631d302577eca61a9fb6cd72280662b79949b2198da8acd36fb30568fcc5d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7445,
+  "name": "左边桌上的卷宗箱",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1722218735",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7445/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7445,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:56:43+08:00",
+  "sha256": "6dd96304c33faf73a8b00eb8002e131c1b267d0ccd6dc6fcff54837fd7664781",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

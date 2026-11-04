@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505101,
+  "name": "金文萦绕的岩钉",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743770427",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505101/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505101,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:40:36+08:00",
+  "sha256": "f516dbea84189c45c73b2d70cd7992784f49b9ca020ac7a7a7e0d6de4fcf587c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

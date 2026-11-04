@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1514,
+  "name": "「大雪猪王」",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1699593707",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1514/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1514,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:09:15+08:00",
+  "sha256": "1636d016352db34d8ddde5edb5c86718c1c0485ac8be2ba16d1e988f2586572a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

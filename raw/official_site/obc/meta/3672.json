@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3672,
+  "name": "记事者之匣",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545054",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3672/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3672,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:02:53+08:00",
+  "sha256": "b4a76c5940570deb2d477ee2d471643745da8f00263f420d1bfd7e81d3535d3c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

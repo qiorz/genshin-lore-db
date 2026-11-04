@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509401,
+  "name": "地下室某房间出口门的操纵杆",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1786519309",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509401/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509401,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:48:19+08:00",
+  "sha256": "95a9b6713383bc0a8bd8bcbfbf10721cbaad79b91444f4f8bbd43e1d70ca3c26",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

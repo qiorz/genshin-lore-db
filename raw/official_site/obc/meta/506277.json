@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506277,
+  "name": "「月光」的教导",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1768361334",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506277/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506277,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:50:53+08:00",
+  "sha256": "52c0f4d0297bd5431eb198eca2e60b4d1a515a94ac1d56f8fe11c3590885435c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

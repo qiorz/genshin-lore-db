@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5965,
+  "name": "永恒绿洲的记忆",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545073",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5965/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5965,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:59:24+08:00",
+  "sha256": "137f50ec3c95c280d6caff601ffb892c2bb34da9b627e8f67b5f25a9c14d207b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

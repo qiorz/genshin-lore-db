@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504989,
+  "name": "被遗忘的河谷",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743741884",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504989/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504989,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:41:42+08:00",
+  "sha256": "3ca1e4e8b7a677fb39e3054f85b58ca8e7e1b966200d894e8cce0c292678809f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

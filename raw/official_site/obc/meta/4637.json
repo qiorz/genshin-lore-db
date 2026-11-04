@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4637,
+  "name": "肉肉烤蘑菇披萨",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1699237673",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4637/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4637,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:23+08:00",
+  "sha256": "e94b82f1277a1a0d96e8e492f02c834dde907b72a600294dc7ade718a41e947f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

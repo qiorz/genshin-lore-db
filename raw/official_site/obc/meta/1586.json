@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1586,
+  "name": "灯芯绒材",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545013",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1586/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1586,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:05:35+08:00",
+  "sha256": "e8b02a3f4e844f24d6ed4f703b03b28b7f4c8c45a4afeb08e094dd7f7316c3fe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

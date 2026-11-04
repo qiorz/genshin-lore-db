@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 732,
+  "name": "北陆单手剑原胚",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1780283863",
+  "url": "https://baike.mihoyo.com/ys/obc/content/732/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 732,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:07:07+08:00",
+  "sha256": "4383654fed5cca49a73270b3308ef6800d75ce05b408d5a6faef71d95f8ae6b8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6205,
+  "name": "沾有酒香的信",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545009",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6205/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6205,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:58:55+08:00",
+  "sha256": "330a6acca0af18349b78577b0015cd107d4fc111ad48d735b77cb40cd831bfd2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

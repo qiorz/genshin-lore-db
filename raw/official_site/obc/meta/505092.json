@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505092,
+  "name": "在彩绘群山之中",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743770399",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505092/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505092,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:40:41+08:00",
+  "sha256": "6b18fc4e3bdd50d8bf3473d5fb9c0b4987681b81d7efd4c52cfd7c1056ad6892",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5771,
+  "name": "小蒙关于船只进出的见闻",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545067",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5771/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5771,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:59:38+08:00",
+  "sha256": "0fd8dfa5ac2bb931b200b35068208cdc95fad16060f6f5753edb507c45687bdc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

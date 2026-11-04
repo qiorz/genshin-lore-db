@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502659,
+  "name": "说明：火神瞳共鸣石",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1728021721",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502659/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502659,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:53:07+08:00",
+  "sha256": "5c9085a6d385fe50d6f02a73e1a807328f596448372aba63d66a34fa570c3086",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

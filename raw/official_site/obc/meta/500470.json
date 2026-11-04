@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500470,
+  "name": "缤纷马卡龙",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772173504",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500470/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500470,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:45:48+08:00",
+  "sha256": "aaa11fa59ffc5df22a6c90a62beb2a2893180b96ed18d3ac058f672a20cbb10b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

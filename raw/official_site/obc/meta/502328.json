@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502328,
+  "name": "绵驮兽木像",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1725531199",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502328/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502328,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:53:18+08:00",
+  "sha256": "edcf80021d8c80057d76df02a6279951a0f67e4eb8acbfff23418337185e53f0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

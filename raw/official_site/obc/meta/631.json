@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 631,
+  "name": "海蓝蟹",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1699593700",
+  "url": "https://baike.mihoyo.com/ys/obc/content/631/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 631,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:09:27+08:00",
+  "sha256": "963ab3c86b89f114ed3dd4ca9a7d055a2c40ba73fa77ebdce290134c45ca2e83",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5579,
+  "name": "结实的木板",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545066",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5579/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5579,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:59:41+08:00",
+  "sha256": "54dbe7ab8d244dd51eb17506020089dbcbd39c6e97b7aaf684a52370fd4708ae",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

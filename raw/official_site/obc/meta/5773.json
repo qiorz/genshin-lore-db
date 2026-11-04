@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5773,
+  "name": "璐璐关于船只进出的见闻",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545068",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5773/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5773,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:59:37+08:00",
+  "sha256": "914892b9c3c30fcacd763285a9315b76d95a0ab3078d57bce985dbf898574ee3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

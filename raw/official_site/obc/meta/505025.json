@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505025,
+  "name": "一切智慧具足之城",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743742002",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505025/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505025,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:41:45+08:00",
+  "sha256": "1701f9c6a83878b71b5cbc690d6f5757e9c665818e53e99d8cc25a49744f4db6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

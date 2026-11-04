@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6068,
+  "name": "被盗的文物",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702544998",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6068/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6068,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:59:09+08:00",
+  "sha256": "5f9fd58ff83c737df9e8afcf14e01d3cc0b6ffe8f1444a18f11d24fa6b6a26c4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

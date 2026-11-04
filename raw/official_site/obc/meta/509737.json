@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509737,
+  "name": "图谱：救赎之斩",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1788277550",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509737/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509737,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:48:05+08:00",
+  "sha256": "0c85c5ba85ea7b779e7470dabc3fe93d3d2062b175c485a04dd157587ffb6c11",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

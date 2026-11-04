@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505095,
+  "name": "跋涉而至的秘屿",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743770409",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505095/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505095,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:40:40+08:00",
+  "sha256": "85be035e3c3bc0552c84d943413ac7c79e257cf942379f8fccae1705ef5bc2b1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505054,
+  "name": "彩蝶翩绵之谷",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743742161",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505054/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505054,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:42:00+08:00",
+  "sha256": "262b8f7d3a2a3fcc36b9e70d2b7a44b00157d596a7c7d7bac5777edfcab7e9ed",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

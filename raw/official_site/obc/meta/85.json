@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 85,
+  "name": "渔人吐司",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772175185",
+  "url": "https://baike.mihoyo.com/ys/obc/content/85/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 85,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:50+08:00",
+  "sha256": "6e83d70d5ed270793ba3cf7b4c3aba9e5943e2c56209624b06a7364615d94c69",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

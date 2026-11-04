@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4342,
+  "name": "青金斧枪鱼",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1744542551",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4342/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4342,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:08:32+08:00",
+  "sha256": "f26240879da20d787bdeea3a58cc834debb88be6fddeeb9a609f33964ac30cdd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

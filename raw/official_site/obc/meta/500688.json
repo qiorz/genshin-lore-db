@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500688,
+  "name": "油爆双脆",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1706667422",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500688/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500688,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:45:46+08:00",
+  "sha256": "b05f1b7ab4262647776616d9fb6576ebc318d8ca4b82123d69b49533367f8bcd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

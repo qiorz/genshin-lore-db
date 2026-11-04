@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6941,
+  "name": "烘烘心羽鲈",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1744542542",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6941/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6941,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:08:19+08:00",
+  "sha256": "0b84caae351bcf396d82ed121ade3a17a83f5905d644455b574f4ba3e3123bc7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

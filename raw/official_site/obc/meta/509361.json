@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509361,
+  "name": "罐罐焖肉",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1787303228",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509361/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509361,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:44:48+08:00",
+  "sha256": "8ce12eea404bc10e8c3d9465b7dbba4f30e2f77b2cf56df97098f2eeffe68b92",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

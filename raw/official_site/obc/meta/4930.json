@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4930,
+  "name": "愚人众的餐食",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545046",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4930/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4930,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:00:13+08:00",
+  "sha256": "05a6c43a794acb5b6d0a67961c0b7e833461eb498e3450411af18ff0c0d0701d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

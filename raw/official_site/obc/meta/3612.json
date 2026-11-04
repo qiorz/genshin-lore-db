@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3612,
+  "name": "睦疏之匣",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545053",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3612/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3612,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:02:54+08:00",
+  "sha256": "4d7026e3a96ce12f5e118ca47a786b20f95b6b18c45ab119f533d0086565b401",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

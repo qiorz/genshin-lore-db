@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 802,
+  "name": "狮牙斗士的理想",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1764730906",
+  "url": "https://baike.mihoyo.com/ys/obc/content/802/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 802,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:03:56+08:00",
+  "sha256": "1ef3a8e3497134bb799fbc74d79951264e5fbf3eabf37ab2f4cf618435f21ed5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506149,
+  "name": "帔髦獾",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1789355618",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506149/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506149,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:07:40+08:00",
+  "sha256": "82076282b1454b1693261584b58a577513f75ce0db4e556442b8bef1aee45ea4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

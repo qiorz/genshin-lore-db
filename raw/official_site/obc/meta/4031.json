@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4031,
+  "name": "《第七个武士》台本",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545070",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4031/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4031,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:02:25+08:00",
+  "sha256": "c5b9475ddc114d20cdf1187b2fda42878a01f9e8871f30769048b38d4a34cc63",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

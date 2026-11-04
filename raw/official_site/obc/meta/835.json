@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 835,
+  "name": "「勤劳」的哲学",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1765162363",
+  "url": "https://baike.mihoyo.com/ys/obc/content/835/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 835,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:04:14+08:00",
+  "sha256": "d7e1674e840e60eba5fab864073a2d4f2d3731a46ff7511a0c155c07d7be4a63",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

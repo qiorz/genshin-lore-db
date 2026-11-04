@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6352,
+  "name": "琼玉果汤",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772173645",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6352/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6352,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:09+08:00",
+  "sha256": "3293b65c4dafc64e8960f1b66cdb6982c4b810bea25625b328a56c2d8da5a68b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

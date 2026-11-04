@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506137,
+  "name": "霜鳍鲸",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1757669962",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506137/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506137,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:07:34+08:00",
+  "sha256": "6f49ca6f86084abbfb54089c24a7a00481009352cd4a058e1dd921c740d6a3d7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

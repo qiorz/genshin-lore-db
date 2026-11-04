@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509254,
+  "name": "藏窖灵浆的酣畅",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1790062134",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509254/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509254,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:48:54+08:00",
+  "sha256": "45ead187b05d90eada3506aa384537861da5628a1104fb7717974f131f1d232d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

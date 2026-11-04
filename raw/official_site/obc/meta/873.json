@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 873,
+  "name": "自在松石碎屑",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1790049193",
+  "url": "https://baike.mihoyo.com/ys/obc/content/873/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 873,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:04:33+08:00",
+  "sha256": "9fcf103d3a2bb98c71a4f7b64092e4547c802d356327d3b747b72046d0fcbafd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

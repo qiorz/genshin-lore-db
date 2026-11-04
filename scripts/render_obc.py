@@ -712,10 +712,134 @@ def render_event(page: dict, meta: dict | None, entry_path: Path, args) -> tuple
     return front, body
 
 
+def render_geography(page: dict, meta: dict | None, entry_path: Path, args) -> tuple[dict, list[str]]:
+    """观景点/地点页：只收 collapse_panel 里的描述文字，跳过图片与考据。"""
+    title = args.title or page.get("name") or ""
+    texts: list[str] = []
+    for module in page.get("modules") or []:
+        for comp in module.get("components") or []:
+            if comp.get("component_id") != "collapse_panel":
+                continue
+            data = as_json(comp.get("data")) or {}
+            html = data.get("rich_text") or ""
+            # 去掉内嵌图片块，避免把图片 URL 当正文
+            html = re.sub(r'<span class="custom-image-view".*?</span>', "", html, flags=re.S)
+            html = re.sub(r"<img[^>]*>", "", html, flags=re.I)
+            text = html_paragraphs(html)
+            if text:
+                texts.append(text)
+
+    # 首段常是居中的标题，去掉与标题重复的行
+    cleaned: list[str] = []
+    for text in texts:
+        lines = [l for l in text.splitlines() if l.strip() and l.strip() != title]
+        if lines:
+            cleaned.append("\n\n".join(lines))
+
+    notes = "观测枢观景点页导出；只收描述文字，跳过地图、图片与考据推荐。"
+    front = {
+        "id": args.doc_id,
+        "type": "geography",
+        "subtype": args.subtype or "观景点",
+        "title": title,
+        "language": "zh-Hans",
+        "region": args.region,
+        "version": args.version,
+        "version_source": args.version_source,
+        "version_confidence": args.version_confidence,
+        "canon_status": "community",
+        "transcription": "near-verbatim",
+        "spoiler": {"level": args.spoiler, "scope": args.scope or []},
+        "source": [source_block(meta, page, entry_path)],
+        "status": "draft",
+        "notes": notes,
+    }
+    if not front.get("region"):
+        front.pop("region", None)
+    if not front.get("version"):
+        front.pop("version", None)
+
+    body: list[str] = []
+    for text in cleaned:
+        body.extend(["## 描述", "", text, ""])
+    while body and body[-1] == "":
+        body.pop()
+    return front, body
+
+
+def render_item(page: dict, meta: dict | None, entry_path: Path, args) -> tuple[dict, list[str]]:
+    """材料/食物/鱼/道具：只收「描述」与「背景故事」，不收效果、配方、分布、攻略。"""
+    title = args.title or page.get("name") or ""
+    blocks: list[tuple[str, str]] = []
+    star = None
+
+    for module in page.get("modules") or []:
+        mname = (module.get("name") or "").strip()
+        for comp in module.get("components") or []:
+            cid = comp.get("component_id")
+            data = as_json(comp.get("data")) or {}
+            if cid == "material_base_info":
+                if star is None and data.get("star"):
+                    star = data.get("star")
+                name = (data.get("name") or title).strip()
+                desc_parts = []
+                for attr in data.get("attr") or []:
+                    key = (attr.get("key") or "").strip()
+                    if "描述" not in key:
+                        continue
+                    for value in attr.get("value") or []:
+                        text = html_paragraphs(value)
+                        if text:
+                            desc_parts.append(text)
+                if desc_parts:
+                    blocks.append((name, "\n\n".join(desc_parts)))
+            elif cid == "good_desc" and ("背景" in mname or "故事" in mname):
+                text = html_paragraphs(data.get("rich_text", ""))
+                if text:
+                    blocks.append((mname or "背景故事", text))
+
+    # 单块且与标题同名时，用「描述」作小标题
+    if len(blocks) == 1 and blocks[0][0] == title:
+        blocks = [("描述", blocks[0][1])]
+
+    notes = "观测枢物品页导出；只收描述/背景故事，不含使用效果、配方、获取途径与攻略。"
+    front = {
+        "id": args.doc_id,
+        "type": "item",
+        "subtype": args.subtype or "物品",
+        "title": title,
+        "language": "zh-Hans",
+        "region": args.region,
+        "version": args.version,
+        "version_source": args.version_source,
+        "version_confidence": args.version_confidence,
+        "canon_status": "community",
+        "transcription": "near-verbatim",
+        "spoiler": {"level": args.spoiler, "scope": args.scope or []},
+        "source": [source_block(meta, page, entry_path)],
+        "status": "draft",
+        "notes": notes,
+    }
+    if not front.get("region"):
+        front.pop("region", None)
+    if not front.get("version"):
+        front.pop("version", None)
+
+    body: list[str] = ["## 物品信息", ""]
+    body.append(f"- 类型：{args.subtype or '物品'}")
+    if star:
+        body.append(f"- 稀有度：{star} 星")
+    body.append("- 来源：米游社·观测枢")
+
+    for heading, text in blocks:
+        body.extend(["", f"## {heading}", "", text])
+    return front, body
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--entry", type=Path, required=True)
-    parser.add_argument("--type", choices=["quest", "book", "character", "lore", "weapon", "artifact", "event"], required=True)
+    parser.add_argument("--type", choices=["quest", "book", "character", "lore", "weapon", "artifact", "event", "geography", "item"], required=True)
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--doc-id", required=True)
     parser.add_argument("--title")
@@ -777,6 +901,8 @@ def main() -> int:
         "weapon": render_weapon,
         "artifact": render_artifact,
         "event": render_event,
+        "geography": render_geography,
+        "item": render_item,
     }
     front, body = renderers[args.type](page, meta, args.entry, args)
 

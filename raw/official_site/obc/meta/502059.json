@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502059,
+  "name": "炸虾豆球",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772176410",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502059/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502059,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:45:34+08:00",
+  "sha256": "bec779241648da7e85ccbdb4ef41051ca024ca73de3f58435904083d7b094c4a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

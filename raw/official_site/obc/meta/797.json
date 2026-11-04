@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 797,
+  "name": "凛风奔狼的断牙",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1771996444",
+  "url": "https://baike.mihoyo.com/ys/obc/content/797/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 797,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:03:53+08:00",
+  "sha256": "d68e7e883a5bc73933b3d8a7605785ded94e6c4bc58ad701a45090e0b34b17c0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

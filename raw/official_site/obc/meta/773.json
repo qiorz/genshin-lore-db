@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 773,
+  "name": "面粉",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1787303327",
+  "url": "https://baike.mihoyo.com/ys/obc/content/773/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 773,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:06:42+08:00",
+  "sha256": "6d00cc4f32b2638361a751a2a6ce219de6f85c6c7f691fff2245b2f5611d0fbf",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

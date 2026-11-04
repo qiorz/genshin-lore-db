@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505030,
+  "name": "雷云旋聚之处",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743742018",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505030/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505030,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:41:41+08:00",
+  "sha256": "25291321e865933e94e94cf3c075aaae1e2c27512ac5ae8773ab41bc994576f7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

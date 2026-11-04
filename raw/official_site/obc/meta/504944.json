@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504944,
+  "name": "遁玉古陵",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743646293",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504944/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504944,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:42:16+08:00",
+  "sha256": "7992eda5d928246fcff7d7478bc57f365993da2e4c4d76341668f4a1b58cab8e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

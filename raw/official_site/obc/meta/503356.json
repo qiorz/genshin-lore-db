@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503356,
+  "name": "粗糙的黑曜石像",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1731290631",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503356/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503356,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:52:57+08:00",
+  "sha256": "5f15b3c92179dc76500f693ca890ea5ab3c5ec056169c30304e8a3baac98032e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

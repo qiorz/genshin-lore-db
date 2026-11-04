@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4864,
+  "name": "曲清的订货单据",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545041",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4864/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4864,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:00:22+08:00",
+  "sha256": "e7368d92de1c8d1c05dd3aa3243f537e983f204d67eb7a3844c67cc793a6ecd0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

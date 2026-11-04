@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503442,
+  "name": "火山蛋糕",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1734944423",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503442/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503442,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:45:23+08:00",
+  "sha256": "433caee34fc99f3a77d1b7b5311dcfd028c61c5efd68a27f3a38bcc937472a65",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

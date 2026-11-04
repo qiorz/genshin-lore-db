@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506246,
+  "name": "长夜燧火的残照",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1775613720",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506246/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506246,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:51:05+08:00",
+  "sha256": "fe8f12ec12c2ed5d862af1f0bfc35eeead5bc989703a7bc6b956d42a062b225b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

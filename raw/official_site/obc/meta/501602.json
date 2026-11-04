@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501602,
+  "name": "欢跃信笺",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1723622939",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501602/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501602,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:54:23+08:00",
+  "sha256": "2f5057ecd8068a13db555da24f33dfa905f359376b7daaba7f1b292df2519dfd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

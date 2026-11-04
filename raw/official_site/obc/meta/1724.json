@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1724,
+  "name": "「看得见的风」",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1710469184",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1724/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1724,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:05:38+08:00",
+  "sha256": "bab581fcfd7e43ef78a2e685034c5922676a1d06df2a42c37fcd900fe2db205f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

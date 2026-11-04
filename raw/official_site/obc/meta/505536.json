@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505536,
+  "name": "肉肉盛宴餐",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1782116454",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505536/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505536,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:45:11+08:00",
+  "sha256": "d6ee6fdb5fa0c2bc283d98b03f5a1787968c71ed8175d4123bd899c67a5b80e4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

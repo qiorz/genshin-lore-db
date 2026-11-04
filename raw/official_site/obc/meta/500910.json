@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500910,
+  "name": "莉莉亲手烤制的庄园拷松饼",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1707655318",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500910/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500910,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:55:28+08:00",
+  "sha256": "7b785ed9efb71f8d069f913fb4d219e2ead5b5725861bf94aa278cf997595ee5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

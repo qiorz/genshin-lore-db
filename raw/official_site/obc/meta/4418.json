@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4418,
+  "name": "镶边红绸",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1747127853",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4418/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4418,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:01:18+08:00",
+  "sha256": "36cb6a4fa9306bfb1aea3e9b6af9f85ddbc5f27361df2281715f30deebe95e0e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

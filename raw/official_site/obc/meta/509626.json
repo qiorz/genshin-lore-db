@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509626,
+  "name": "唱响渔歌的勇士乡",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1787019607",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509626/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509626,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:39:59+08:00",
+  "sha256": "a300422a7e3a5d348edd4339927c9225dc279db40713ec17f1f759724241af53",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

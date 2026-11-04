@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2317,
+  "name": "「浮世」的教导",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1765162350",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2317/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2317,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:06:17+08:00",
+  "sha256": "ec984c88ff3a3e41d2db03c9a8a69e717e00c2a27bc131130f14fe7451d5204a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

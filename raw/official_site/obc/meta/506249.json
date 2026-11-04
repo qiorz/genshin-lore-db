@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506249,
+  "name": "奇巧秘器的继业",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1779247349",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506249/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506249,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:50:47+08:00",
+  "sha256": "e8e7116aa158336c07cad8faf62b26006b69d59896a698b7fa7041865a8980e8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

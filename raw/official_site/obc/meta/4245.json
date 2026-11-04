@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4245,
+  "name": "装满泉水的瓶子",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702544996",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4245/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4245,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:02:05+08:00",
+  "sha256": "e9bdb221d1e7068e13e30b3b08b56f5f4a21e37e4d8f20b7e0b63e442265e623",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

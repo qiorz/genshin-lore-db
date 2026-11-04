@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2790,
+  "name": "祝圣油膏",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1784280161",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2790/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2790,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:03:40+08:00",
+  "sha256": "f83ced6d3549b6dcf369bd772e1307ac705d69612f55ef4653f61ee5633dca69",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

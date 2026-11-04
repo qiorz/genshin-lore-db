@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 95,
+  "name": "庄园烤松饼",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772176312",
+  "url": "https://baike.mihoyo.com/ys/obc/content/95/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 95,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:47:38+08:00",
+  "sha256": "285f4dfb9a13a7b2f12b31791c46dba00a392ce3d9b1c9659e5ea6cdbbadc17e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

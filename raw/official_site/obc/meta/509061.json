@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509061,
+  "name": "月之暗面",
+  "menu_id": "0",
+  "menu_name": "区域",
+  "page_version": "1787278330",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509061/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509061,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:39:19+08:00",
+  "sha256": "914d783ac1b6018372fca9477552803cdfdf9f98b00eb26c7ae2ea3619c218f6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

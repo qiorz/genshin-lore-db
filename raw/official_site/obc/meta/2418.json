@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2418,
+  "name": "金枪鱼寿司",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1695779835",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2418/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2418,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:49+08:00",
+  "sha256": "80ae404a3ff50c7755862c0d4d75e3ed8589b936b1c33fdc14439dbca79d8f07",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

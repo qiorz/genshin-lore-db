@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501910,
+  "name": "谵妄圣主的余哀",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1753854924",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501910/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501910,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:54:07+08:00",
+  "sha256": "1c3528e84dd30b197d00c416a584f7002b8f9fd2577dab4cafb4ddd36d09651c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

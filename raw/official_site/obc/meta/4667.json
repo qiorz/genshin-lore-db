@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4667,
+  "name": "失落的苗圃",
+  "menu_id": "0",
+  "menu_name": "区域",
+  "page_version": "1722564545",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4667/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4667,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:39:41+08:00",
+  "sha256": "89a8afacf7c266226d9d2c02a97156eb9b3f001875b954bee4b9b54a9eb19a4e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

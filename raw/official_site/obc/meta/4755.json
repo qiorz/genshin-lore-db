@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4755,
+  "name": "米圆塔",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772174910",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4755/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4755,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:20+08:00",
+  "sha256": "262888332544f8994fb96594db04367cd6eef2cd57f7c963b3b355c76b0cadca",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

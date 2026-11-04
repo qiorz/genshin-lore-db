@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505088,
+  "name": "未完工的灰烬之城",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743770385",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505088/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505088,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:40:54+08:00",
+  "sha256": "4ed4c7b3c53f94b323a88b7f4dbca0dbd210c994d8b0500f0183ea68e2cc2c3a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

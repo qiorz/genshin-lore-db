@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506511,
+  "name": "伊涅芙的工具箱",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1759111492",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506511/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506511,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:50:13+08:00",
+  "sha256": "4b85e6bf7501d2172ae32af8ed30caace5bc7c0e7f6c4b29e8217265fa0a666a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

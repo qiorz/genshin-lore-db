@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506270,
+  "name": "「浪迹」的指引",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1782871634",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506270/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506270,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:50:58+08:00",
+  "sha256": "75f16f049005ccb90481f33ba2a25368e72590b199b3cf89310725aee10db112",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

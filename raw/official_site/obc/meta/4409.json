@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4409,
+  "name": "蕈猪",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1708913314",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4409/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4409,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:08:52+08:00",
+  "sha256": "7efa1e0ad5b8bf1f6632347b7452a362df93a61dc4eaba337c01562e5fbab4b2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

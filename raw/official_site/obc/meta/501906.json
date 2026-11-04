@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501906,
+  "name": "神合秘烟的征兆",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1766372282",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501906/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501906,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:54:09+08:00",
+  "sha256": "d33775f722ab347ae646cf8d4fd6a8fc7eb29906d28dfc736026e19340943e4c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

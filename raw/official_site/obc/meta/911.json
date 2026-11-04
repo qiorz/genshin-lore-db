@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 911,
+  "name": "雾虚草囊",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1747127448",
+  "url": "https://baike.mihoyo.com/ys/obc/content/911/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 911,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:04:57+08:00",
+  "sha256": "ed7cddcbb55ec5fa1b8e4c288c48f65e8ca994cf7993412b6015c4360bf0c9ff",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

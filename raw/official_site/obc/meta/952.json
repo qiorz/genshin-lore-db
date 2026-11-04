@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 952,
+  "name": "霖铃精选诗集",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702544996",
+  "url": "https://baike.mihoyo.com/ys/obc/content/952/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 952,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:06:27+08:00",
+  "sha256": "a4ba4e1741235706e730c9e31dcde9c2ce20ead94b5fd028f3feb7811bca6f51",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501656,
+  "name": "邪龙的邪鳞",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1722218724",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501656/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501656,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:54:18+08:00",
+  "sha256": "b2e5c1370e9b47bd793f9b59e6779d74add088b7ecdfdf5f985c53ae4a9ed023",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

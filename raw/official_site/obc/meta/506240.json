@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506240,
+  "name": "终北遗嗣的煌熠",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1782871611",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506240/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506240,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:51:10+08:00",
+  "sha256": "933cde2a1953ea0194e7429fd2dc3d926a1539bc49cd2b0b0ca45cb0caa53c90",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506831,
+  "name": "边陲之地",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1760062155",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506831/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506831,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:44:59+08:00",
+  "sha256": "c940166566fb833c98739306b29a2abfc60b136d7a615867e285ad09e05503fc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

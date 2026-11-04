@@ -77,7 +77,8 @@ for item in load_items("105"):
         skipped.append((cid, item["title"], "no_entry"))
         continue
     front, body, page = result
-    has_content = any(line.startswith("## ") for line in body[6:]) if len(body) > 6 else False
+    # 除固定的「## 活动信息」外还有别的小节，才算有叙事内容
+    has_content = any(line.startswith("## ") and line != "## 活动信息" for line in body)
     if not has_content:
         skipped.append((cid, item["title"], "no_narrative"))
         continue

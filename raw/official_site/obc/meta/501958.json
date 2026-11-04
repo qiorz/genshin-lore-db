@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501958,
+  "name": "澄晶实",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1774929960",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501958/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501958,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:53:48+08:00",
+  "sha256": "3f0e763583f6fd5bc86fc8b4da2f65b1fd3df7b0abeec6296433b6c42b5c30f0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

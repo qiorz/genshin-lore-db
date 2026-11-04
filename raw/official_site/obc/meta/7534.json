@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7534,
+  "name": "锈蚀的铁钥匙",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545075",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7534/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7534,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:56:34+08:00",
+  "sha256": "a26ee29814bc0cb140a702a7ed1f83532db9e88feabe5ae95082a7c7b7d0839d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

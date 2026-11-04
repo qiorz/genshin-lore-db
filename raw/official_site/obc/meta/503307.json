@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503307,
+  "name": "某处的钥匙",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1730772944",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503307/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503307,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:52:58+08:00",
+  "sha256": "d3d9d6f3d1d1083ec968868d6a7dfbd9ad20030ad3f0504a551a21520a80d9cc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

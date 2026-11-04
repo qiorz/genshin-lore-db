@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2294,
+  "name": "妖狸",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1699593717",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2294/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2294,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:08:57+08:00",
+  "sha256": "30ce0d58f2aa4cde2ea0074e8b939bd76e5da7f44d462805c509e4f61b5f09cd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

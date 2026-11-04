@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5103,
+  "name": "清昼的签名",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545052",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5103/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5103,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:00:02+08:00",
+  "sha256": "8831c2ab71e85308c3daff84d60a81b94893f58b93a28e78e55018e1836f07fe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

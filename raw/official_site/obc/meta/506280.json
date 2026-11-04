@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506280,
+  "name": "月落银",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1761108765",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506280/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506280,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:50:50+08:00",
+  "sha256": "3feac52df4d771aab8914dddfcc294cd8ac148723f9a6e5d1a624d84f00e23ee",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

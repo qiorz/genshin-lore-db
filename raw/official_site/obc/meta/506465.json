@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506465,
+  "name": "图谱：掘金之锹",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1788314535",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506465/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506465,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:50:27+08:00",
+  "sha256": "a1f5699a0dab80b0664ad581b8284d7d6c05ac95e3d31246f3ca6b11ffa98e65",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

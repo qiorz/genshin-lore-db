@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 632,
+  "name": "黄金蟹",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1699593700",
+  "url": "https://baike.mihoyo.com/ys/obc/content/632/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 632,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:09:27+08:00",
+  "sha256": "f6b5568bfab03ae9bd19009645d220bb684ba74062411764e215d9eb4c07ceea",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

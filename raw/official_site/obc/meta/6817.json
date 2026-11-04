@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6817,
+  "name": "赛达菲的标记地图",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545036",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6817/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6817,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:58:08+08:00",
+  "sha256": "1ae3a3a4c37c9140f3b4a3c49b16b6806aba948361210dc6d5bfed4bd11e1b8b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

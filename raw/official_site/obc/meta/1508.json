@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1508,
+  "name": "灰雪猫",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1699593705",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1508/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1508,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:09:18+08:00",
+  "sha256": "d9bab1dd5631f9bef5b271bad148f515d7a48c2c79aad56d4b266c215810fc09",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

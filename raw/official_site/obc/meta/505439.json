@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505439,
+  "name": "兰般度的花",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1748484469",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505439/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505439,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:51:46+08:00",
+  "sha256": "53527e1884843984fb7c16762d8abbb51db59b2207f4ea4652a1f9eafb1038d0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

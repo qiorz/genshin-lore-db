@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504469,
+  "name": "从派蒙处收到的「祝柬」",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1738820602",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504469/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504469,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:52:16+08:00",
+  "sha256": "4d9e331072b8e393e5e4247def760df2a805c95b6ac25a50b69cbc1614977746",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

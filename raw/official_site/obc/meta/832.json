@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 832,
+  "name": "「繁荣」的哲学",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1765162369",
+  "url": "https://baike.mihoyo.com/ys/obc/content/832/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 832,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:04:12+08:00",
+  "sha256": "599aba21f07528ef6f360216433112e8a2265d9890415bc9d943dcdf186991e9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500755,
+  "name": "派蒙特制心意料理",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1706753971",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500755/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500755,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:55:47+08:00",
+  "sha256": "bcee47a16132cfcea7d47efbe6c3e3a4064b849c59138db9d02f9d7ff6c1fc7c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

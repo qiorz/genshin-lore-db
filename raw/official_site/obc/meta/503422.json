@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503422,
+  "name": "锈迹斑斑的钥匙",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1734932658",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503422/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503422,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:52:49+08:00",
+  "sha256": "76136d21f5e84b2cf72c4c865cc7aec04e744ae359bbdabdbdd0c0c4f04b8f13",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

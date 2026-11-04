@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7603,
+  "name": "布兰奇的信",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545003",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7603/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7603,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:56:14+08:00",
+  "sha256": "721ff293a164f172eac54742775ae1dadb42689591b37dca4a4dd668fe4b3199",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

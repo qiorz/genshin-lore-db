@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506150,
+  "name": "凛角鹿",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1789354681",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506150/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506150,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:07:43+08:00",
+  "sha256": "13388a642b77d99c36897e666e21acf429b8ea1416f176fe6560e771c98c99b0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

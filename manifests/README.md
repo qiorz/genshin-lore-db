@@ -9,8 +9,10 @@
 | `version-labels.csv` | 观测枢“月之一/月之四……”→ 数字版本映射 |
 | `obc-index.csv` | 观测枢书籍 93 + 散落文本 706 + 任务 1,101 的频道索引 |
 | `character-index.csv` | 观测枢角色 138 的频道索引（136 已入库） |
+| `regions.csv` | 区域结构化索引：任务/怪物/资源/机关/NPC（790 行，71 区域） |
 | `achievements.csv` | 成就索引：名称/描述/成就集/版本/隐藏/每日委托（1,558 条） |
 | `event-skip.csv` | 未归档的活动页及原因（228 条，均为无叙事内容） |
+| `item-skip.csv` | 未归档的物品及原因（**0 条**，2,622 条全部有描述） |
 | `duplicates.csv` | 同文重复组判定 |
 | `equipment-bwiki-compare.csv` | 武器/圣遗物的 OBC 与 BWiki 字数对照 |
 | `bwiki-probe.csv` | 32 条空壳任务的 BWiki 同名页探测结果 |

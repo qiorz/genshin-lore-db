@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6328,
+  "name": "悼灵花",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545053",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6328/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6328,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:58:37+08:00",
+  "sha256": "ef5a76ff1a181f40dfd06b3cdbb666ca797f015acdaa1cb453f2057ceb77eec8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

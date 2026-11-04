@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 755,
+  "name": "星螺",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1706668447",
+  "url": "https://baike.mihoyo.com/ys/obc/content/755/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 755,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:06:52+08:00",
+  "sha256": "a62f919b69746d2825bc528e1a59fa5f8eb1cb7b8547f0c9783c7e5c5da9a51a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

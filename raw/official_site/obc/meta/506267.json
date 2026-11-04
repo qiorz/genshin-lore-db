@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506267,
+  "name": "精密型月矩力冲鸭模具",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1759589304",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506267/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506267,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:50:57+08:00",
+  "sha256": "655896c7c6d8b55b63ce9fbd9a265b8f7da7bad0a2c40271c6e054883b33ba6e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

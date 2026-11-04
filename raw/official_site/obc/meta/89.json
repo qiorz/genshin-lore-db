@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 89,
+  "name": "「堆高高」",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772176359",
+  "url": "https://baike.mihoyo.com/ys/obc/content/89/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 89,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:47:40+08:00",
+  "sha256": "dc1283b77b99a1a9383a0721f012dceb0a1b5e8ee879396428a4b9f4648a3f8f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5948,
+  "name": "飞蛇",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1708913478",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5948/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5948,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:08:20+08:00",
+  "sha256": "5d939e6489b3fed8575d8475a1d1c0d8c35e5fa0e1f3af24f98f4ca2994b12a7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

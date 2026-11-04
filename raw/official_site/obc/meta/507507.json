@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507507,
+  "name": "新鲜的小灯草",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1766025698",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507507/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507507,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:49:55+08:00",
+  "sha256": "8ef5656447e7045bd9da6fedc481ca26ffb504d7c13eed2aecdb5fdd1020fe17",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

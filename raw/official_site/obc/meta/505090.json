@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505090,
+  "name": "属血气者的统律中枢",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1743770392",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505090/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505090,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:40:49+08:00",
+  "sha256": "16d09aa8c99143721e7e27b5cb033e73cb802bb3278a034263a04643d50d2cf7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

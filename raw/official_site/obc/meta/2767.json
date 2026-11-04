@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2767,
+  "name": "蒲烧鳗肉",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1695779821",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2767/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2767,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:42+08:00",
+  "sha256": "ebb5f11896d2323a0f8c1f47bf3ec1b26f84bf31036e70271affe064c706db5c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

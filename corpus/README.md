@@ -11,20 +11,20 @@ corpus/
 │  ├─ story/         # 传说任务
 │  ├─ world/         # 世界任务
 │  ├─ event/         # 活动剧情
-│  ├─ hangout/       # 邀约事件（暂空，归类待做）
-│  ├─ interlude/     # 间章（暂空，归类待做）
+│  ├─ hangout/       # 邀约事件（7 篇有正文，12 条空壳在 _pending）
+│  ├─ interlude/     # 间章（4 篇）
 │  └─ _pending/      # OBC 无剧情对话的空壳页，待补
 ├─ books/            # 游戏内书籍
 ├─ scattered/        # 散落文本：石碑、笔记、留言、书页、告示等
 ├─ characters/       # 角色故事/语音（不含攻略、配队、数值）
 ├─ weapons/          # 武器故事
 ├─ artifacts/        # 圣遗物故事
-├─ items/            # 材料/食物/任务道具/摆设
-├─ voices/           # 独立语音文本
-├─ geography/        # 地理志/地区
-├─ events/           # 活动设定（非任务正文）
-├─ manga/            # 官方漫画文本
-└─ notices/          # 公告/版本说明
+├─ items/            # 材料/食物/动物/道具（2,622 条，只收描述）
+├─ voices/           # 独立语音文本（未做）
+├─ geography/        # 观景点描述（区域无正文，见 manifests/regions.csv）
+├─ events/           # 活动设定（非任务正文，47 篇）
+├─ manga/            # 官方漫画文本（未做）
+└─ notices/          # 公告/版本说明（未做）
 ```
 
 ## 2. 文件要求

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3869,
+  "name": "青雷鼬",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1708913323",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3869/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3869,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:08:33+08:00",
+  "sha256": "fcac45871b4ee1a1719f93a1eb0b4b85b1d1bcc0da03ddbd4d700346a82827e2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

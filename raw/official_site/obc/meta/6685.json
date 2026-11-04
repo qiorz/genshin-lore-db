@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6685,
+  "name": "凝恒的脂蜡",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1710469116",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6685/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6685,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:58:14+08:00",
+  "sha256": "aa6ba868884ac6231a3153eb65bbde4f94b4911579c41f31466978a7e58ddbf9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

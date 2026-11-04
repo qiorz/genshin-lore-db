@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2763,
+  "name": "红烩兽肉",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1699238458",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2763/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2763,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:44+08:00",
+  "sha256": "6ba98058c0f748d360b32b65cd133bd846b538fad26ec5fbf358d5a58ce14f4b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

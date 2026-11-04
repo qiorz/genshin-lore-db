@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500630,
+  "name": "牢笼钥匙",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1705556772",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500630/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500630,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:55:56+08:00",
+  "sha256": "d251a238438ac218e2e3eaae79dc534b516ea4ba90765f4bfdca865815b2368b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

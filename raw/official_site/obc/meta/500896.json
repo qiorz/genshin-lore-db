@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500896,
+  "name": "「藏宝图」的碎片",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1707490500",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500896/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500896,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:55:30+08:00",
+  "sha256": "9464068fafbeb0c1c3bccc42219eca3475864d95563a78a8dd82c730fb2d0cfb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

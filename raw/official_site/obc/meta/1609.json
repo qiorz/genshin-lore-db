@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1609,
+  "name": "汲取了力量的龙牙",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1747017982",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1609/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1609,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:05:37+08:00",
+  "sha256": "d723bb67a3c33e39785d9fe2dfe9822859de00210dd08d36d5610a4c086cc2eb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

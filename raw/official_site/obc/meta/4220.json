@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4220,
+  "name": "《鹮巷物语·一》残页",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545079",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4220/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4220,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:02:12+08:00",
+  "sha256": "139f0725833a7da92475331b338c657c854387c4716215aa7f3bace7ce94007e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

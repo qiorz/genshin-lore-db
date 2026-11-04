@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504521,
+  "name": "秋沙钱汤贵宾邀请函",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1739337721",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504521/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504521,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:52:15+08:00",
+  "sha256": "11e33cfbbac1fc55e8346dfaf62513402fe4f30c2b62efd1dbfe0d904ec39b25",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

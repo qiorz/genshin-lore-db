@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504441,
+  "name": "「钟离·帝钱」",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1737881843",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504441/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504441,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:52:17+08:00",
+  "sha256": "bfcc0b4553147a6c33f64c61ffc8346f2e51926f02836e967f23dfe93b3b28d6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

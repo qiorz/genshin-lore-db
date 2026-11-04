@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500624,
+  "name": "搜集而来的碎片",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1705457027",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500624/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500624,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:55:57+08:00",
+  "sha256": "c3b5cc9a1e3e2590d2132a2c5261251971b4a1820d2b58a41def0dabc1e8b0d2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

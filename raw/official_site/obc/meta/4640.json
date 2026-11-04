@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4640,
+  "name": "马萨拉芝士球",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1704247880",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4640/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4640,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:46:21+08:00",
+  "sha256": "740073f6314229318e4a180f385296d42b0e60e9593930a79388b3470da53123",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

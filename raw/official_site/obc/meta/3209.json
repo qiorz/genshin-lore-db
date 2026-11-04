@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3209,
+  "name": "图谱：喜多院十文字",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1702545039",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3209/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3209,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:03:18+08:00",
+  "sha256": "cbbe48cb0e15271a77ab5c0aa5d93494ae90be42519d83b084a2a206ce1f7a62",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

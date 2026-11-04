@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504814,
+  "name": "乌乌黑蛋",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1743042392",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504814/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504814,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:45:18+08:00",
+  "sha256": "665df2015b8386d6dd9859394d2c2b1cae9ece3f86c0df8497fa1a7a8911e529",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

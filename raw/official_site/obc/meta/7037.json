@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7037,
+  "name": "悠古弦音的乐章",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1746594401",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7037/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7037,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:57:36+08:00",
+  "sha256": "3092c932064e19d8dafc3143f568a8b2f6af0a815eedd7fc28a311ec3427cb31",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

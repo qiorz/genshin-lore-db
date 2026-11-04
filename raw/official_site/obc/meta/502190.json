@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502190,
+  "name": "火晶蝶",
+  "menu_id": "0",
+  "menu_name": "动物",
+  "page_version": "1724914916",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502190/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502190,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:07:58+08:00",
+  "sha256": "2734d27d6c70b77e8bc7f971197e4c56b935f15754fa4d29931d068b9b396c3e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

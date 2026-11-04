@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2817,
+  "name": "海皇香脂",
+  "menu_id": "0",
+  "menu_name": "背包",
+  "page_version": "1710469178",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2817/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2817,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:03:36+08:00",
+  "sha256": "d04c879053a83f1884b8f943b5853b13aae4d43dba7d57d156dd883089c0a26b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 655,
+  "name": "风神杂烩菜",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772176062",
+  "url": "https://baike.mihoyo.com/ys/obc/content/655/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 655,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:47:19+08:00",
+  "sha256": "489f809ca3429a5f7b0dc69e9d277bd463147f125e57d3689c3d93a68e7330fc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

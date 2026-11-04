@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500689,
+  "name": "蜜汁叉烧",
+  "menu_id": "0",
+  "menu_name": "食物",
+  "page_version": "1772160954",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500689/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500689,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T13:45:45+08:00",
+  "sha256": "b85d1f6edb61695919ff35bddb83518229578540a632e181560852c87965c63f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}
