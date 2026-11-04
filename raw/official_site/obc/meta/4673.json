@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4673,
+  "name": "兰巴德【酒馆老板】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222549",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4673/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4673,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:07+08:00",
+  "sha256": "9a8ab5c29548c2e69de5395ea6dc329b8dc900c6e58ae965a08f91098af8a5a4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

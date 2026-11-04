@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505368,
+  "name": "「薄荷酱烤鱼王」 【有点眼熟的膨膨兽】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1747018129",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505368/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505368,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:08+08:00",
+  "sha256": "374b9d30c93ada4ad84475b796f7bf61a670804fd2847b4ff5ba4e67e03838f8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

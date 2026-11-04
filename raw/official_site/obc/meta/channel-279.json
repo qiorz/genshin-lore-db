@@ -1,0 +1,18 @@
+{
+  "source_id": "obc",
+  "channel_id": 279,
+  "channel_name": "角色彩蛋",
+  "url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_params": {
+    "channel_id": 279,
+    "page_num": 1,
+    "page_size": 1000,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:26:01+08:00",
+  "sha256": "9c688cf9f557dee3f68beca0cde776737ee2682e7624ca385dcd66b9948e2ba7",
+  "entry_count": 71
+}

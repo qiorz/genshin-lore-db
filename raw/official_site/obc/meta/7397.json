@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7397,
+  "name": "奥古斯都·洛夫莱斯",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762309110",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7397/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7397,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:13+08:00",
+  "sha256": "80caebb08aa2ed514f7fe68c9ef28cfa19b068d3c32df6c7c2a588fee1449d6e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

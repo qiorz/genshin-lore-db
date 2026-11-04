@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3348,
+  "name": "翔太",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713717942",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3348/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3348,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:39+08:00",
+  "sha256": "dd54d1a57d959b55212087891c06d3cb582af8bc1e6905b9589056cbbb4f90d8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

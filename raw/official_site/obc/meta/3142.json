@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3142,
+  "name": "宫岛【学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1724693646",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3142/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3142,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:55+08:00",
+  "sha256": "3d938ac82bbda8bab214d2e9661a1ba24e1a648a518ec02190422ae71dc6db81",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

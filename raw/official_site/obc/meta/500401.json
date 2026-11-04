@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500401,
+  "name": "米勒洛",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746522439",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500401/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500401,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:15+08:00",
+  "sha256": "d5f6afa188982db6549b1585c19151424b6f1a2b478b15903efd1778d39903b9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

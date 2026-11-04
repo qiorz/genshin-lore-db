@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4963,
+  "name": "卡齐姆【「阿如村」守卫】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222404",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4963/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4963,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:58+08:00",
+  "sha256": "b2b9e2674042bb11e2fd40ac9aed13e4cc51fa3fd9b43dccc29496319b232f89",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

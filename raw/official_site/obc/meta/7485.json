@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7485,
+  "name": "韦尔赛【「特许食堂」主管】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1780019688",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7485/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7485,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:51+08:00",
+  "sha256": "dea5a2612d01baf1058dc70681cdd34ff54d7f9027371703cb27983542878394",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

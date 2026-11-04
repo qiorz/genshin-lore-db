@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6035,
+  "name": "内海",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746522586",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6035/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6035,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:02+08:00",
+  "sha256": "f6e60111d8401f847afd0aa0b30e56abdd425bac06bc43b81bae5039d64ee8c3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

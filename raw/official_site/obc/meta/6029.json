@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6029,
+  "name": "萨哈尔【「三十人团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236632",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6029/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6029,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:05+08:00",
+  "sha256": "2bb5699a705c748185184d82d5a370b584a3c9c9f4d91de348e4d6ffa69ee2a6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500389,
+  "name": "兴澄",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746587633",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500389/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500389,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:22+08:00",
+  "sha256": "0ad1c4084839500da88b9a5474e7ea12af9d7e430c2a0b02255ed168a08f3da3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

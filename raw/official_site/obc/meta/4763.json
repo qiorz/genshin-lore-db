@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4763,
+  "name": "拉玛【香料商人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222413",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4763/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4763,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:58+08:00",
+  "sha256": "c7e42dd6430eadf7b7198ce53a299ce5cc9172469ef3ed7b606e88d41ecbe06a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

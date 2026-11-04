@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510190,
+  "name": "菈乌玛【彩蛋】",
+  "menu_id": "0",
+  "menu_name": "角色彩蛋",
+  "page_version": "1792982027",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510190/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510190,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:34+08:00",
+  "sha256": "f1607c4cfdb6d33ed7e0220443dd292111b980db41642278de85915d35845670",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

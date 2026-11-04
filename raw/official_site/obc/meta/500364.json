@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500364,
+  "name": "莱克图尔【水手】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746587584",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500364/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500364,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:36+08:00",
+  "sha256": "9faf3184179548d73793c13573385c304a99dd64afa98d6627544679cf25484c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

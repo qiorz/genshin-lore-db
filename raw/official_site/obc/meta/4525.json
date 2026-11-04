@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4525,
+  "name": "纳西尔【「镀金旅团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222617",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4525/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4525,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:14+08:00",
+  "sha256": "0caa81bb1bcee080d835a6dc681df1afae1edec7ddf953db50ddb3d547cabeb5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

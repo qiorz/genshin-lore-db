@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505288,
+  "name": "韦尼尔",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768888200",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505288/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505288,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:23+08:00",
+  "sha256": "bd7a7ae14c48a333f2fcfdc5077100da9f545d018ec359d24cda06dad3ff16f0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

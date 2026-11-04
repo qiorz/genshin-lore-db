@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7188,
+  "name": "白芨",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746497896",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7188/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7188,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:46+08:00",
+  "sha256": "49deb7eb08ef49fa155c33be5b9b1744561054c4eb75ee90fc6a31d84513be2a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4633,
+  "name": "范二爷【「和裕茶馆」老板】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746458637",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4633/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4633,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:10+08:00",
+  "sha256": "95506ace367d8a903d1c3089937c73aefc570dca1a2b08d0590175abec3cca37",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

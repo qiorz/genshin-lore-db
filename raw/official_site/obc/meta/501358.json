@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501358,
+  "name": "罗西莫夫【「拳力斗技」主持】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1716824803",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501358/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501358,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:35+08:00",
+  "sha256": "23cdc0900ebf45ece72d35b878636b1eaefc5ee914bd476b94c5cdb06f9c816a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

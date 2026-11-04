@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4728,
+  "name": "贝鲁兹【商人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222525",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4728/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4728,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:05+08:00",
+  "sha256": "dfdd588b2f002f328984677a4f77154366433a82715ecbb275b52af352a9940c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

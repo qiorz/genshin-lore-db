@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7299,
+  "name": "萩原【轻小说作家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746497912",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7299/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7299,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:21+08:00",
+  "sha256": "f3d086279fe7b8b6ba37d1367a57bba1b7360f88652c3e97d4d28bdbc5994dee",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

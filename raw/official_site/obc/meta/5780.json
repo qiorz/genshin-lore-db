@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5780,
+  "name": "赞玛兰【来自异乡的巨蕈】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1751942100",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5780/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5780,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:39+08:00",
+  "sha256": "3886b551ab963a3f52a7689ebaf78eb210b1259139b5d084e8f7ed6e22d2ca21",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

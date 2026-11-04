@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5573,
+  "name": "博尼法兹【商人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236966",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5573/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5573,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:25+08:00",
+  "sha256": "2cd3a94e56ef0a0f99e5ecf95c6fc35560e602f2cd5f497adced1a2c793f9cdb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

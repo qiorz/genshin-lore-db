@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5045,
+  "name": "扎伊",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222278",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5045/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5045,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:50+08:00",
+  "sha256": "08bb2a10e7f185a080c3dc316b4c319943350c0a23f18a9745522beec88edbbd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

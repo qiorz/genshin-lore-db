@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508182,
+  "name": "兹白【逸闻】",
+  "menu_id": "0",
+  "menu_name": "角色逸闻",
+  "page_version": "1793031792",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508182/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508182,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:50+08:00",
+  "sha256": "bd236fc8e3a9e6e554cbb497849306ae3988e7c0c90ae282b6af7bc613b1f7cc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5051,
+  "name": "基翁【林行者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222243",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5051/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5051,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:48+08:00",
+  "sha256": "a3ab1ac9b32272bced97067e7f8bb8c17684e08d303c229ee32797187360ae37",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

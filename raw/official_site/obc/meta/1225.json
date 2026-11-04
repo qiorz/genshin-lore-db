@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1225,
+  "name": "赫塔【「西风骑士团」后勤】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746671841",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1225/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1225,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:50+08:00",
+  "sha256": "ef26374cf2208d5ae73f71d33e9b3159dd0030f010f337869ecc58ba184ee26f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

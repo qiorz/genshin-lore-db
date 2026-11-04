@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509905,
+  "name": "雅洛维娅【「冬契军」少尉】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1790043477",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509905/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509905,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:09+08:00",
+  "sha256": "5fdb8684c285214942c2bd83142a073182637e11252e8695f85ae924be3ac156",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

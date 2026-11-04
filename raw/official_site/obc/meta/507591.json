@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507591,
+  "name": "满腹狐疑的璃月选手",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1766372398",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507591/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507591,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:35+08:00",
+  "sha256": "9f0fd93f295d5155109d2fed9cbb56b005b774e5b052efbc8c2e0d139d46afd3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3457,
+  "name": "朝仓【同心】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1722183220",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3457/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3457,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:31+08:00",
+  "sha256": "0b071dc0b012921b46b60ce0f2f7387b2e914dafaefa43c61528940b99226b0e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

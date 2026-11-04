@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504423,
+  "name": "赫卡",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1737349801",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504423/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504423,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:47+08:00",
+  "sha256": "96af4280f2d1c5c323ab486ddbfbc189ac1080f5977cc9cf978991473d8d49d6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505931,
+  "name": "胡里乌",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1754879265",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505931/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505931,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:20+08:00",
+  "sha256": "53b3c1815829886bdd57ce3bf08459e26be2f0285d3e79fb74a29ba048d0fcf4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

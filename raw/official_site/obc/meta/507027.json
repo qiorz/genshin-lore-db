@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507027,
+  "name": "奈芙尔【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1773022005",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507027/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507027,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:44+08:00",
+  "sha256": "ee4f6b9f8e36cf36163b65156831833796b9e7e4685e21ba4468089b06387bb0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

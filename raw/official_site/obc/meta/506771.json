@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506771,
+  "name": "潘提【怀旧派旅行家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1759905862",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506771/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506771,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:15+08:00",
+  "sha256": "f29fd95c3ed6aa0776e842e0f0fa2250e431e322fba7892c3608bbd85560d366",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

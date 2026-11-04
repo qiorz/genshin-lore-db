@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502616,
+  "name": "梅内娅",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1785229423",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502616/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502616,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:28+08:00",
+  "sha256": "1faf817f982e51021f6fa794684057246f2b5b9fec3e9596d0741dad74b2f806",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510207,
+  "name": "迪卢克【彩蛋】",
+  "menu_id": "0",
+  "menu_name": "角色彩蛋",
+  "page_version": "1792982093",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510207/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510207,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:27+08:00",
+  "sha256": "0f5590d69f0fb8fe35bca5cca252df70b790340f09dbb1fd171b4d7bbbb9a969",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

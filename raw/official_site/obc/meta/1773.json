@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1773,
+  "name": "葛瑞丝【修女】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746594853",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1773/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1773,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:59+08:00",
+  "sha256": "37d765b4b401efced32479ad86d2f6993d673c47ae1914c81c8e54c481256252",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

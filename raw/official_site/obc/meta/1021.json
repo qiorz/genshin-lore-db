@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1021,
+  "name": "石头【「解翠行」老板】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1750041724",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1021/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1021,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:08+08:00",
+  "sha256": "7e76e4f3518b9d326d994fc56a9a8f9580b31baeb2f42c52e1a2ef2a401a72bf",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

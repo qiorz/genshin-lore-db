@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3896,
+  "name": "安东【「第九连队」临时连长】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1791428264",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3896/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3896,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:58+08:00",
+  "sha256": "859aa091f7d91056a1904a019972707c8d3208fcf822c161e8d38fb9967bc767",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500637,
+  "name": "诗黛【「蒸汽鸟报」专栏作家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1719972480",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500637/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500637,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:59+08:00",
+  "sha256": "5b29ff62f100bcb02ba2ea9add11a94e6b4361c72d0ee217732c44868069d6d8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

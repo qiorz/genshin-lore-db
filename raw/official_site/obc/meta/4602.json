@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4602,
+  "name": "伊娜姆【「镀金旅团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222601",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4602/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4602,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:13+08:00",
+  "sha256": "8159d05063ff5ac0399db865976fbb67c8165ec9d906c4f31f388dab23eab59b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

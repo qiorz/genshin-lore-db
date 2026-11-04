@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505152,
+  "name": "尼娅",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1743901760",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505152/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505152,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:46+08:00",
+  "sha256": "00fa784d8eb298ef021dbc562d66ef774f5da4fe169a0dbe778188ea4819279c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

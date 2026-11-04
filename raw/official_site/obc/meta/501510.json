@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501510,
+  "name": "希格雯【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1723021484",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501510/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501510,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:17+08:00",
+  "sha256": "384e192b6db4f91923f1d027e8c61381b4d3afcae2107124830b0dfec61d3c3a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

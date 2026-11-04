@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7254,
+  "name": "瑟琳",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746497985",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7254/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7254,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:30+08:00",
+  "sha256": "ff4ed15616e7794fdd89f5e6ed081039c796f00975742ef650cac7060b4e295e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

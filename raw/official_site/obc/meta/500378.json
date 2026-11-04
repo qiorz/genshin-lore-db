@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500378,
+  "name": "格罗斯利【水道引导员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746585893",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500378/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500378,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:29+08:00",
+  "sha256": "d33d8085f01186fa00a02b1dbf7cb38bd27d401b978edf21839cec07826d0357",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

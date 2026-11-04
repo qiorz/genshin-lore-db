@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500541,
+  "name": "沃伦·努维尔勋爵【荣誉市民】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713455275",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500541/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500541,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:06+08:00",
+  "sha256": "3412a5ebb73fe6205fe205c6e8ff5393d0cbd6093e423bc99893c8516b2f2e99",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

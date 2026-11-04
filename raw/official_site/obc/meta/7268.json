@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7268,
+  "name": "瑟琪",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1785229698",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7268/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7268,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:27+08:00",
+  "sha256": "aeac4dd0591b3998df3935f4283efeea6ae1e3e0aa683140abc9c8abc234ed3d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

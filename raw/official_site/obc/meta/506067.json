@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506067,
+  "name": "穆温达【恩库巴的七矛】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1756089239",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506067/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506067,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:12+08:00",
+  "sha256": "6e3cf7fd70dfd63d55d944e12d19f74bba5f1b8361232e9cc1836f5fe1173bd5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

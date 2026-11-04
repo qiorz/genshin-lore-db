@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501478,
+  "name": "安特曼【鱼贩】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1774428168",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501478/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501478,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:25+08:00",
+  "sha256": "8314abae6dffdea9b6e86a103434a610bb4538465ef84174427b3ac6f4dfdf4d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

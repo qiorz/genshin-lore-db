@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5278,
+  "name": "鲁克沙【「三十人团」掌旗官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1780549363",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5278/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5278,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:44:00+08:00",
+  "sha256": "aa37e27c47ffc9629b58c4c77bde950e4dae06cf2d77f46c5db801e1eebbf098",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

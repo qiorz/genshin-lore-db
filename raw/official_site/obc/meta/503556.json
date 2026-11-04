@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503556,
+  "name": "玛伊蕾【旅行家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746291886",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503556/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503556,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:06+08:00",
+  "sha256": "76e988056d64a14e641967705cbbb0d9ba2f88f1da5b6dfd7f3864960745776d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

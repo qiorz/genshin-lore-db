@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506805,
+  "name": "坎托尔【「霜月之子」追随者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768184186",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506805/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506805,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:01+08:00",
+  "sha256": "a9fa4c665d713893f92800bd466174e6dbf12c97f6e2f6f50c53a605eb6f938b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5080,
+  "name": "沙欣【「镀金旅团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1763457046",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5080/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5080,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:39+08:00",
+  "sha256": "116adc13d44043e02d936ef1ad9e4e8ae3ed239cd9a89325958a567697eceb75",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

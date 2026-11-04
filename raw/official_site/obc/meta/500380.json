@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500380,
+  "name": "伊斯梅诺",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1750041811",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500380/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500380,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:28+08:00",
+  "sha256": "569b147b5338d7fbd21188348184bae3a8b141061dff67f532ee50f75026f882",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

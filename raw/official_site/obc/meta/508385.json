@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508385,
+  "name": "特雷斯",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1784080858",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508385/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508385,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:52+08:00",
+  "sha256": "4593425e439ec9b0f80614b16afbd976727a37d0992ea72c805da61ec433991f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

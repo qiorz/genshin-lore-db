@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5236,
+  "name": "古尔根【药农】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222114",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5236/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5236,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:44:10+08:00",
+  "sha256": "c57c97b98d3ecb76de4e4c93696f3c976c593ee9803f824dd512b398a33b3e0f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

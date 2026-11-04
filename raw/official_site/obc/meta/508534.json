@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508534,
+  "name": "丛沈",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778034417",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508534/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508534,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:25+08:00",
+  "sha256": "0a32e10d4533371d1d5e3dbd5e4443c907fffd63cc533ab8bb9ed3ab6ed06481",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

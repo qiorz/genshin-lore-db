@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501293,
+  "name": "朱斯蒂诺",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1715272251",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501293/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501293,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:51+08:00",
+  "sha256": "2c39f3660622a14dbc1e316a9a4501d822c444e2d6652736328e48e8b01929aa",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

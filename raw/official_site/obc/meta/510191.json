@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510191,
+  "name": "雅珂达【彩蛋】",
+  "menu_id": "0",
+  "menu_name": "角色彩蛋",
+  "page_version": "1792982031",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510191/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510191,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:37+08:00",
+  "sha256": "aed80c9556b2ccf3b3353eeba7a99a69484cc9c23372f77e10d339ce3af96537",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

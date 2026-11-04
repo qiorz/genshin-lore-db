@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3349,
+  "name": "信盛",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1728529571",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3349/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3349,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:39+08:00",
+  "sha256": "0f14531b267ca00940f84b1736a67bffea231752be52d7d6d97c757deee5ec1b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

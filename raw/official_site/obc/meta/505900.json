@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505900,
+  "name": "索林",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1754878819",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505900/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505900,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:23+08:00",
+  "sha256": "266e66b5ae481dd78a974a4506d2ed13fdf88602c009aecfee17d0b44a3b11bb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

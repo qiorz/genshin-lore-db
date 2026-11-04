@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5271,
+  "name": "多加【木匠】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222043",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5271/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5271,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:44:02+08:00",
+  "sha256": "140a615cfd5370b9ed5e59f57b2f5778cfe7169b015cbc54a4e925d9f45c4f15",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

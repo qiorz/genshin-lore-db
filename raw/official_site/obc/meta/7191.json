@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7191,
+  "name": "芙洛",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768875127",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7191/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7191,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:44+08:00",
+  "sha256": "d5e18390afa39205d589d226b88718aae99e64f390f1a3cdd1cd87b532fa5b78",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

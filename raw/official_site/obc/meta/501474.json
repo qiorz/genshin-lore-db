@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501474,
+  "name": "洛耶茨【复律官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768875093",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501474/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501474,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:27+08:00",
+  "sha256": "89e4b01001084bf5c39c9ed594d43e160227c96e78314d06e23c1c260cbdfdcb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

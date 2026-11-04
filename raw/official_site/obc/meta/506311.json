@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506311,
+  "name": "琳妮特【逸闻】",
+  "menu_id": "0",
+  "menu_name": "角色逸闻",
+  "page_version": "1793031409",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506311/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506311,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:55:08+08:00",
+  "sha256": "747ae0db6f0ca64859fbde8acbd55479438e5684ec03b6e023b3a9f468812480",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

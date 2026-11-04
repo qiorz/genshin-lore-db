@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3950,
+  "name": "老图【层岩巨渊矿工】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746237338",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3950/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3950,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:49+08:00",
+  "sha256": "0f9fbbc0195ff7cc5d1ae9f025e65a2cdb4b839655fc21bd27094accf2347a8f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

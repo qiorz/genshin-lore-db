@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506810,
+  "name": "卡乌妮娅【特邀时尚顾问】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1764731043",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506810/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506810,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:06+08:00",
+  "sha256": "568607eb1249196dd9276cf16801668cd7223cd01d8328a3e169a4852d8b1cec",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

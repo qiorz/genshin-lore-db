@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508563,
+  "name": "格布哈德【「远程小队」老兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778119485",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508563/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508563,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:16+08:00",
+  "sha256": "31c71a888e64414ee6e8c41af9eba1780731483a96bbf3805e80c8ce579b76c3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

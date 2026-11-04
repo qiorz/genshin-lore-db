@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505523,
+  "name": "阿塔希耶",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762308594",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505523/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505523,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:01+08:00",
+  "sha256": "43ea2997ce96eb416602149a9d6ae820e95c07eb758db8e868dbec28b794cee4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

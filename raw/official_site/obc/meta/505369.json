@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505369,
+  "name": "艾库瓦",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1747018135",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505369/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505369,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:09+08:00",
+  "sha256": "099c10fd04fe5c57384e174d66dae4d7f08bf1c97f3d69606b6ecc8580d80c23",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

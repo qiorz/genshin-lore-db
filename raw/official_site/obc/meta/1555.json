@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1555,
+  "name": "绮命【占卜师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1722502780",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1555/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1555,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:18+08:00",
+  "sha256": "f7a1c9112172793b1cee50dba7e075ec5a57a42be9db99c7eca9e5d57efd94f9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

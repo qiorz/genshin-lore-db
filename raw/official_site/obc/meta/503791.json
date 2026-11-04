@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503791,
+  "name": "玛兹嘉",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1734317185",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503791/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503791,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:01+08:00",
+  "sha256": "988f2a1dfba007844a64b29030b667cc04932475b398ccb0e5f1a2081cef4869",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

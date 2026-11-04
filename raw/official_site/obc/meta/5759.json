@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5759,
+  "name": "侯赛因【蔬果贩】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236746",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5759/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5759,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:48+08:00",
+  "sha256": "f2f72f056c275423318826f2f7c6c425ac9a9b05339a29a334fd0870ba24fc6f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

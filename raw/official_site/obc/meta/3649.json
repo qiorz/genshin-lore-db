@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3649,
+  "name": "冈崎绘里香",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1790563184",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3649/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3649,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:04+08:00",
+  "sha256": "61ad06336ee949bd559771af790ec6094ea3622f700d2e21556d23bd665ad2ed",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504280,
+  "name": "奥罗卢柯【纳塔渔师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1736734794",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504280/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504280,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:50+08:00",
+  "sha256": "de6b29117626578d4977557f77d82c674b8891f4adde04c957f4ddebd0d87cbc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

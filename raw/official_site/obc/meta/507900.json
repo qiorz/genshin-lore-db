@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507900,
+  "name": "闻冀",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1769749853",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507900/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507900,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:10+08:00",
+  "sha256": "81e9cfe41fbcbb02d99f4853de92762cc11299c8881cb49c3405fe2c2afd4be2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

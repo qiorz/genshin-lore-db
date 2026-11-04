@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5749,
+  "name": "西格【书籍收藏家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236783",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5749/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5749,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:54+08:00",
+  "sha256": "beb5402b0cf13c2184e30281370fb3d75e0034c21faf8eadd624e4bcb4794725",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

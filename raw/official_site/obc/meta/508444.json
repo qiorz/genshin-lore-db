@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508444,
+  "name": "西蒙·佩奇【「拂晓的枢机卿」】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1776304567",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508444/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508444,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:51+08:00",
+  "sha256": "1ff0cd4b5cafdcf365ad88934a891d5e815cf223d6aa0b7ab0db3367a0e92e48",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501704,
+  "name": "苏法什【「聪慧的辅臣」】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1722507407",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501704/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501704,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:09+08:00",
+  "sha256": "7d95d5d78645439b4ec4e992395d263ef7e0eaf6611d95686e90db3f8fef5367",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

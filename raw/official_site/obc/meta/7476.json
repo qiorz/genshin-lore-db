@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7476,
+  "name": "达希【漂亮脸蛋】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746583636",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7476/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7476,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:52+08:00",
+  "sha256": "c5d46c225cc319092a4aa792dbc23e68abe1c093b82f6e6ad754c2ef12f5911d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

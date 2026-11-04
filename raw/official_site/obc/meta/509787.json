@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509787,
+  "name": "列斯诺娃【「冒险家协会总部」冒险家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1788833328",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509787/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509787,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:29+08:00",
+  "sha256": "ad0a4f7e3aaddbdaeb63e89a1b8007f4f91dc0ee92543578fa4d9a781b80f4fb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505943,
+  "name": "「穆奇赫」",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1754879400",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505943/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505943,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:36+08:00",
+  "sha256": "a54fe04c5cd2b6831efe6812ab15700b3d59445d798e4e65cf1efc26aadec647",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

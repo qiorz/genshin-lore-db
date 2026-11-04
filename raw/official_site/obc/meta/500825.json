@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500825,
+  "name": "却之【「九略茶馆」女侍】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718557542",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500825/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500825,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:30+08:00",
+  "sha256": "434881634716a6c2f0be9b61e089378b70884d1de73053b2d7338d032ac6c60f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

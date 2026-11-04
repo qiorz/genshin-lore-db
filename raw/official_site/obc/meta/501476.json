@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501476,
+  "name": "瑟米安【复律官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1783674448",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501476/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501476,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:26+08:00",
+  "sha256": "9cec7d955d3d7624e58200b0006450f916821ca5f469bc8bb2ed3a44849c0cd5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

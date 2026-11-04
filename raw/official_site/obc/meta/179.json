@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 179,
+  "name": "巴顿",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768269898",
+  "url": "https://baike.mihoyo.com/ys/obc/content/179/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 179,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:19+08:00",
+  "sha256": "d8d99db43869fc82e0e96b70eaec8c78a6d3bc9d54147210e0f506bfcf028482",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4647,
+  "name": "阿什亚",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222574",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4647/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4647,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:09+08:00",
+  "sha256": "2d1a9188fd487bda075289328056b29ced9b0c29a09009449e7c51dba93f1601",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

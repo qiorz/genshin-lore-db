@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7503,
+  "name": "郎蒂【枫丹科学院第五财务办公室主任】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746594860",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7503/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7503,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:46+08:00",
+  "sha256": "ca5cdb6df7b0318d1e5ebc14904c6d96f405a2ffd2e5998b6202eaa5b2b38e4a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

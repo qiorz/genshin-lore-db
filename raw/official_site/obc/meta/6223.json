@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6223,
+  "name": "卡塔扬【图书管理员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1781575301",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6223/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6223,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:42+08:00",
+  "sha256": "a5c94daa70a6758438f849dae36477770ca94874571c54e78870f2327788050b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

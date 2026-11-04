@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3071,
+  "name": "柚子【冒险家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1793587236",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3071/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3071,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:02+08:00",
+  "sha256": "6558bfa34b7c9eb08c512241f2a1c81d7835c1cb2174836bfb87bb5799caf363",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

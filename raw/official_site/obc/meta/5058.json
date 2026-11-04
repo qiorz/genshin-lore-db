@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5058,
+  "name": "伊萨米【学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222226",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5058/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5058,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:46+08:00",
+  "sha256": "8aa7cd37b1e3ea4bc01350a59d97001f3928079239ff6cf4418d0bdc06ed68de",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

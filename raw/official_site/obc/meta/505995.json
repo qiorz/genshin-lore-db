@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505995,
+  "name": "阿圆【壶灵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1755482940",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505995/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505995,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:15+08:00",
+  "sha256": "b3daa44c316ac450cc2c520c0b8d18728a2a775dbe18f88eff3c674dd9cc0f09",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

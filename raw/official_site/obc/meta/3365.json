@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3365,
+  "name": "大和田【与力】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713721765",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3365/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3365,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:35+08:00",
+  "sha256": "6d49f928edbc033c0e296ad71ff331205e65a5c0a29de7d423260f2fde40ff22",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

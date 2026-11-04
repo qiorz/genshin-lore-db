@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500731,
+  "name": "罗叔",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1712848038",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500731/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500731,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:48+08:00",
+  "sha256": "f96cd6bdd250567568ec63046161f6cf497ce2d198359e2c12818d07c1be1649",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

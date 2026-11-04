@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 190,
+  "name": "玛乔丽【「荣光之风」店主】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1760579965",
+  "url": "https://baike.mihoyo.com/ys/obc/content/190/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 190,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:18+08:00",
+  "sha256": "63444853b9e4c20201d093efa82169ca1abcc011f834dbef28415e15a27cd032",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

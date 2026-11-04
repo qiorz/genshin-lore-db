@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5571,
+  "name": "伊萨克",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1790563155",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5571/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5571,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:26+08:00",
+  "sha256": "8a09bce9f01b2a3803697f1d0daa715087dce6954b9dcd83c3d39f81fb2c0c44",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

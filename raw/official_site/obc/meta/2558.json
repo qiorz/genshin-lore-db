@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2558,
+  "name": "阿扣【盗宝团】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746671590",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2558/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2558,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:19+08:00",
+  "sha256": "a2759a9f7f6cfc2ca6fb6c63bd1cd5b1736d342d68324a3eaf98cc324f330d80",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

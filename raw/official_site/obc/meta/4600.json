@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4600,
+  "name": "玛塔莉【「镀金旅团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222609",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4600/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4600,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:14+08:00",
+  "sha256": "e23e9f2e14f54b30650461a34845f1fd34ece59f479873c7dcf89dc57ba40733",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

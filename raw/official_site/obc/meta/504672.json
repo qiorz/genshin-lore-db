@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504672,
+  "name": "瓦兰卡",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746293330",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504672/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504672,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:23+08:00",
+  "sha256": "9c5db3ebf04adfbbc4fa97ffcd974cd47bbf9c81ec8ac1ff427f835c89f26e7d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

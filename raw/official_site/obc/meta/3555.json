@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3555,
+  "name": "宏达【社奉行代行】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1739868945",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3555/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3555,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:10+08:00",
+  "sha256": "0aa0501a799acd5ae23b27ff67904f6d6c1bf7941630e6fead1423d3d81e79df",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

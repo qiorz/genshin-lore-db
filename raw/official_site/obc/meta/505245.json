@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505245,
+  "name": "帕尼娅",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1745978840",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505245/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505245,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:32+08:00",
+  "sha256": "ace264ed232b6e61a3a9b6bc261b1184675db0ebb4f647d05d4707a2933d9155",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

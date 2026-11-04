@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3897,
+  "name": "达尼拉【「第九连队」士兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746430561",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3897/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3897,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:57+08:00",
+  "sha256": "0ba4e2a632a87de030809fba06c18e9d1c2fffba2e49ccba2ca0081b65f8b8ed",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6160,
+  "name": "库什基【学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236676",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6160/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6160,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:47+08:00",
+  "sha256": "7378495b52c91833f4a40b6bb085c4a49f43aea779c8a3b73cc161b4b73eb754",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

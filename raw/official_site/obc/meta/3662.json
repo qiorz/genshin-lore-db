@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3662,
+  "name": "中野【勘定奉行役人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1722183255",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3662/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3662,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:01+08:00",
+  "sha256": "327e50e5d0c9598f68b00fba25830e29689daf248231830993862de358a2e50a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6295,
+  "name": "贝尔福【「黄金流星」的部下】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762309219",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6295/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6295,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:34+08:00",
+  "sha256": "d704c85bbf9ea01f74ff62d8482fe83bafb4538fd53460823ec02433119eda34",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

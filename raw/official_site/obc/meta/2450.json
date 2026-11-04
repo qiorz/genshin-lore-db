@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2450,
+  "name": "黑田【「八重堂」编辑】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1750818490",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2450/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2450,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:29+08:00",
+  "sha256": "d9afb386c2c95cb48cf7ae1044c63523a39f9f74de3fcfa47c17dbee201a237e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

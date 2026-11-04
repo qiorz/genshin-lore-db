@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507593,
+  "name": "悠闲的清泉镇选手",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1766372429",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507593/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507593,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:34+08:00",
+  "sha256": "62c899805c4578f392f86da1efdc23e8cbd7562ff23c584c8665a0098d1d1978",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

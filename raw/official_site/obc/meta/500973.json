@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500973,
+  "name": "铁瓜儿",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1712848136",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500973/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500973,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:08+08:00",
+  "sha256": "3822ee7e6149f435571bf99eaa38d42d094c9e7450a7e7bbfd5cd2323e6302fe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501487,
+  "name": "方妮雅【「联兵小队」情报官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778120145",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501487/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501487,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:19+08:00",
+  "sha256": "5d30ba62a723d72a572b73d100b3150da343ef84f23aed7e16d48a3f75de3e01",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

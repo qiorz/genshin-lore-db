@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507416,
+  "name": "杜林【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1773021988",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507416/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507416,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:39+08:00",
+  "sha256": "7005f047e1ad557cfe7119f4062120524c35e1cab71dd5a842fc048a0122891d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

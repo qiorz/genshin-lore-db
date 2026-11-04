@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505952,
+  "name": "奥胡帝亚",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1754879456",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505952/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505952,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:43+08:00",
+  "sha256": "5ca792d227b679ad48ca01c05f7e5aef8a8c3306a4585c8b98cdecac8467b4ad",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

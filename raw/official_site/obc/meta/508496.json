@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508496,
+  "name": "维尼皮",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1777254873",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508496/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508496,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:43+08:00",
+  "sha256": "45d96e478c8da0fa0201b5ee0b1972e5394c81ba057f1789efb049ef31d8ba29",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

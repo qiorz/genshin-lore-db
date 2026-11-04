@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2447,
+  "name": "柊千里",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1722183250",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2447/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2447,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:30+08:00",
+  "sha256": "479fe2dde3da2ac0d6ca82138e41aa3266fca5f098a1e27d6dea206dbd585e5e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

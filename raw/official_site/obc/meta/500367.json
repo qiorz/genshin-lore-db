@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500367,
+  "name": "魏小保",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1758104801",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500367/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500367,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:33+08:00",
+  "sha256": "92df0583922aa5a0b8e19bc30d8e8cde34ad20ffb131651e55407305870459ce",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

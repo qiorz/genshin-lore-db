@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3258,
+  "name": "大久保大介【珊瑚宫军士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713882795",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3258/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3258,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:50+08:00",
+  "sha256": "8151f57ffaf500daf7dec4e64ce5354cc6e638a8d96c8bdeb2bc66e32a901b40",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

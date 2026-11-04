@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5860,
+  "name": "帕维尔",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718214666",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5860/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5860,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:18+08:00",
+  "sha256": "dd19feb65a3c2041f7f7f04905de7cb7eccd479a33d5bd65630b392f6db5c756",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

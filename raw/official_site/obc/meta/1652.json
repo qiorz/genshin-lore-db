@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1652,
+  "name": "孙宇【古华派弟子】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1758719183",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1652/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1652,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:14+08:00",
+  "sha256": "8f58a84a5218ca7ac045fa360ac1975cb25658ef2028a2c17fd0d189413f3b32",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510213,
+  "name": "早柚【彩蛋】",
+  "menu_id": "0",
+  "menu_name": "角色彩蛋",
+  "page_version": "1792982114",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510213/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510213,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:28+08:00",
+  "sha256": "e67c3db9f1bd84082b4b36ae5d9274ea8d4f99f4aeb51b74097f68b6d0e705b2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

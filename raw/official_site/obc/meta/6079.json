@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6079,
+  "name": "阿金【摊贩】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236587",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6079/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6079,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:57+08:00",
+  "sha256": "d2b76c909f6bdd85ef052f18ff84fb7e26f133e85b3469f6e5bef9df63254191",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

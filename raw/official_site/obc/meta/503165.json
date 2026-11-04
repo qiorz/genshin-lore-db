@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503165,
+  "name": "乌米【救生员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1730346121",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503165/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503165,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:13+08:00",
+  "sha256": "77ee71e2a778eea871dd651449b89ce857983bf3b18beae99a98126acf60e3e9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

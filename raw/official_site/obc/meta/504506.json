@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504506,
+  "name": "帕朗【助教】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1740968555",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504506/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504506,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:38+08:00",
+  "sha256": "05bf0f5c9d64118f0450685c1a463bef93fe02d964dc8b68d0e8a9ca771a3b2b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

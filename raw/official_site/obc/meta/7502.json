@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7502,
+  "name": "布罗意【水文研究员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746594619",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7502/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7502,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:46+08:00",
+  "sha256": "0e6e685203af486da718fe8bc22eb2e8224fdd44ea3dc9b7f569696005a43c62",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502270,
+  "name": "瓦伊纳【「悬木人」首领】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1761713025",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502270/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502270,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:44+08:00",
+  "sha256": "9de1a7e7dc0f2494f590f59c2ce06ae57d2b091dc986cdae7916c84d2ab9a3e5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

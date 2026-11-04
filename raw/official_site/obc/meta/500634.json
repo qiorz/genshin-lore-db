@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500634,
+  "name": "诺莱特",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1719972548",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500634/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500634,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:01+08:00",
+  "sha256": "b67bb6e59dbf38d6aaa340d9889258ce589fdb33dfb53dae52ee1d9d558731d0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

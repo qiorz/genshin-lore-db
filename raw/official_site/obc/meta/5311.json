@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5311,
+  "name": "齐米娅【学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762221940",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5311/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5311,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:58+08:00",
+  "sha256": "86641b1e047679b64f878131557e7b151ab09986daa00e42ba8baf78fd9d1429",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

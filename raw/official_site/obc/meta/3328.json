@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3328,
+  "name": "若紫【设计师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1748339363",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3328/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3328,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:46+08:00",
+  "sha256": "ee1969a722a6860b76f4f53450c8621265a0c04886a1a8c86b85928cd9b66921",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

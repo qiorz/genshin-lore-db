@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3927,
+  "name": "沐宁【总务司专员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746237317",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3927/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3927,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:51+08:00",
+  "sha256": "e0d6c2fbacf1165f6cba7ebbfd81d0802e367a0e8faa9a86dd2fd51a19d6f699",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

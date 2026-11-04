@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506803,
+  "name": "柴犬",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1759906085",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506803/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506803,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:01+08:00",
+  "sha256": "f239bbfca3e439a11712d875450562f82954c004c2db5cc85bd9630840db4ecb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

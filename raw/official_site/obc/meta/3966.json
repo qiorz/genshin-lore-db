@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3966,
+  "name": "瑾武【层岩巨渊安全技术员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1782124262",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3966/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3966,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:45+08:00",
+  "sha256": "dc3164fda93af8c3ef08ab93ef3c673922c8504f191e500aa8c66c9050b170b9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5067,
+  "name": "加斯顿【《蒸汽鸟报》记者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222209",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5067/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5067,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:43+08:00",
+  "sha256": "79a442c63f3787494851d13b2fcba20f249b959b86932ccabdb37c795d6896ab",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

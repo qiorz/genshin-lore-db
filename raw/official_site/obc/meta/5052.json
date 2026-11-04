@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5052,
+  "name": "费尔比【冒险家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222238",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5052/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5052,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:48+08:00",
+  "sha256": "3153676317f65fe151a6c15c9894460b1574c12f4cdbbc58f74aca4119d9d2ef",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

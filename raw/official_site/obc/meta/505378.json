@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505378,
+  "name": "「康思戈的前左手」 【「刺玫会」成员 】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1747019468",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505378/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505378,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:07+08:00",
+  "sha256": "d331b69cb0022710fa5a8829f78faa83d94821d0fc4f070cd3b43e87b5e08cf8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

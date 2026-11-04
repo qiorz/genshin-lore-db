@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506814,
+  "name": "鲁兹茨基【维修工】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1759906152",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506814/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506814,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:08+08:00",
+  "sha256": "cc480632b73ec46ea545ec7c41b7a422a353f8482ca97a851952fd119b35dd95",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

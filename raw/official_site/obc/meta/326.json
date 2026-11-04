@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 326,
+  "name": "长顺【商人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718553799",
+  "url": "https://baike.mihoyo.com/ys/obc/content/326/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 326,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:16+08:00",
+  "sha256": "c43b7294d002d358864b0e09e19582dfa2e33969a832cb712bdd03b2f3c899a7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

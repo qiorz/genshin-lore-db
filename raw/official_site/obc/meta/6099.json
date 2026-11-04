@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6099,
+  "name": "佐赫蕾【学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236576",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6099/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6099,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:55+08:00",
+  "sha256": "cba225a5e6556b13a7f3f4d71add7b5924218e69dca245c616be3bd82da267f1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

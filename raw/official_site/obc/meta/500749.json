@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500749,
+  "name": "大盗",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1712848499",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500749/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500749,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:38+08:00",
+  "sha256": "8a3684feea2a9e8810664f86f4cebcd7c5dff4385c346858f9ba5987117760e8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

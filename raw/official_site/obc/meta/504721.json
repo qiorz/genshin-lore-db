@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504721,
+  "name": "西坎【龙骑士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1742375940",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504721/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504721,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:12+08:00",
+  "sha256": "3b5719df400edfe0963f351cfbe21c3d3bb87a63d2e6c590434a7d80ea6a6ce1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

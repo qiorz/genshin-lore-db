@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504513,
+  "name": "塔卢加",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1740968528",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504513/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504513,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:41+08:00",
+  "sha256": "0dd01cb981fc81b0e15769278fea99ba15cc9c06cfb1d37fbcbd9a1372885c2d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

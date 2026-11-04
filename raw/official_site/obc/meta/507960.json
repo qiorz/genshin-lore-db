@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507960,
+  "name": "兹白【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1772592277",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507960/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507960,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:07+08:00",
+  "sha256": "e01f658543bf1564f0b15a0dfdf7bbd20684bedd4bd76ab2a2ed5010274c8df4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

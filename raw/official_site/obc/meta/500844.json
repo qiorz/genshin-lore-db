@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500844,
+  "name": "沃特蒙泰涅",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1790563062",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500844/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500844,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:24+08:00",
+  "sha256": "c8fea5468172fd9a775e93e303917d195eae474e367903ddb1d583802544d398",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

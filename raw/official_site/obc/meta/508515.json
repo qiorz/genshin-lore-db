@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508515,
+  "name": "志遥",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778032752",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508515/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508515,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:36+08:00",
+  "sha256": "d080f9556be86e820e62957e52605a926fd73c5a09866d4470f28e87e5a51d32",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

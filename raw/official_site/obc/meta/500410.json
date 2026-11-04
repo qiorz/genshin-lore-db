@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500410,
+  "name": "卢茨",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718011390",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500410/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500410,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:11+08:00",
+  "sha256": "c24f84326f2c5b2d8b1444627a1e13b425a86ae7aae023a983141892b3e35341",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

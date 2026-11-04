@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4040,
+  "name": "香川【珊瑚宫军士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1751273348",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4040/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4040,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:36+08:00",
+  "sha256": "223099a9cc2a5b650338c1a9a98461197f9330db1b4df985778ec1c07b6613a4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

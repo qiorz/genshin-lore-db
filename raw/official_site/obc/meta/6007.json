@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6007,
+  "name": "哈坎【「三十人团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236684",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6007/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6007,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:10+08:00",
+  "sha256": "cf0fabcccc339e059d98fb68b4133274f2b72dc5f26a367686b652d02d82e635",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

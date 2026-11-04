@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7220,
+  "name": "奥雷勒",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1720543244",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7220/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7220,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:39+08:00",
+  "sha256": "15e6adbe81d8f435f894dad28952183422a8ade8bd58cc552859addc3c5d335a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

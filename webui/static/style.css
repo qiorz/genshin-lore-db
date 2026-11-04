@@ -244,6 +244,14 @@ main { width: min(1220px, calc(100% - 36px)); margin: 0 auto; padding: 30px 0 70
 .badge-quest { color: #a9d0f5; background: rgba(127, 180, 232, 0.12); border-color: rgba(127, 180, 232, 0.3); }
 .badge-lore { color: #b2dfc4; background: rgba(143, 199, 168, 0.12); border-color: rgba(143, 199, 168, 0.3); }
 .badge-character { color: #cbb8ef; background: rgba(185, 163, 227, 0.12); border-color: rgba(185, 163, 227, 0.3); }
+.badge-weapon { color: #f2bd9f; background: rgba(226, 156, 116, 0.12); border-color: rgba(226, 156, 116, 0.3); }
+.badge-artifact { color: #e9b8d6; background: rgba(214, 143, 187, 0.12); border-color: rgba(214, 143, 187, 0.3); }
+.badge-item { color: #cfd8a3; background: rgba(180, 194, 122, 0.12); border-color: rgba(180, 194, 122, 0.3); }
+.badge-geography { color: #9ed9d2; background: rgba(116, 195, 187, 0.12); border-color: rgba(116, 195, 187, 0.3); }
+.badge-event { color: #f0c98f; background: rgba(214, 170, 100, 0.12); border-color: rgba(214, 170, 100, 0.3); }
+.badge-voice { color: #a9c7ef; background: rgba(133, 170, 224, 0.12); border-color: rgba(133, 170, 224, 0.3); }
+.badge-notice { color: #efb3b3; background: rgba(216, 133, 133, 0.12); border-color: rgba(216, 133, 133, 0.3); }
+.badge-manga { color: #c9c0e8; background: rgba(160, 148, 205, 0.12); border-color: rgba(160, 148, 205, 0.3); }
 
 .pager { display: flex; align-items: center; justify-content: center; gap: 18px; margin: 28px 0 0; color: var(--dim); font-size: 13px; }
 .pager a { padding: 7px 14px; border: 1px solid var(--line); border-radius: 8px; }

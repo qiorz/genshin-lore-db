@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3582,
+  "name": "小茜",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746671933",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3582/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3582,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:07+08:00",
+  "sha256": "02ba308e5239dbdaf5002bba7ebe89e49c60bebdf709188fd6380b18eae1543f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

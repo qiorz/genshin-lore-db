@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1326,
+  "name": "清昼【诗人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713101845",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1326/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1326,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:35+08:00",
+  "sha256": "0c185b36a61a6fc86181bda887ecda81083a2e9cc2428c5b715c5d61eccccde6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

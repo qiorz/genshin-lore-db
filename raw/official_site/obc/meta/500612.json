@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500612,
+  "name": "科斯唐坦",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1753323019",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500612/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500612,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:02+08:00",
+  "sha256": "69413df710918c7b8a1fa70cad7ebbd641b7620aa79a1c0a5ebe17927c84835f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

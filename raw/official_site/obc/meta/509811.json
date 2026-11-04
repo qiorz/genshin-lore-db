@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509811,
+  "name": "茹拉廖夫",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1789116180",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509811/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509811,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:19+08:00",
+  "sha256": "c9d0450eb10d71a1ebfb35b0d752468a1fc6846b8d15eccfd6aca5907f437645",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

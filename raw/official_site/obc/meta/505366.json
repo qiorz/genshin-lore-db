@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505366,
+  "name": "呆呆的绵驮兽",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1747018115",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505366/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505366,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:10+08:00",
+  "sha256": "58991b5d9b3fb4b29977c799f4d79e0e84d1a8be7ed708b86a0cd0fa8c153664",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

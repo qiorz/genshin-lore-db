@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500842,
+  "name": "渚春",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1724693643",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500842/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500842,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:24+08:00",
+  "sha256": "58adba605b5d7381a79368c9a80c089a06b6bc687b61a19406946e176f07a194",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

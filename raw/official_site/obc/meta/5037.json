@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5037,
+  "name": "贾汉吉尔【食品店主】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222317",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5037/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5037,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:52+08:00",
+  "sha256": "a2e96dfa96214fee1bde73d8013c2e12c5a14486e4a5ec36ab3b1e9e0b701973",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

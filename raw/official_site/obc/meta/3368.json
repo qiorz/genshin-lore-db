@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3368,
+  "name": "小仓澪【小仓屋店主】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1751263900",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3368/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3368,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:34+08:00",
+  "sha256": "9c6635a31bc43268f0503cd113b7824dfb4f6436357ed51d7e6eda20cd263947",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

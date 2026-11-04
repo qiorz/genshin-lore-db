@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500361,
+  "name": "贝格艾蒂【港口安检犬】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746608905",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500361/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500361,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:37+08:00",
+  "sha256": "d0200e7ba001a4e27de5b5cfc094be7090fd2693b00ea3414853268e52140c13",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

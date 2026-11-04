@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1451,
+  "name": "霖铃",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1769997845",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1451/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1451,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:22+08:00",
+  "sha256": "750c548d82f29f26e422dd1de0da2d06736efa0a61a8b72a14de8793a7cc53a5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

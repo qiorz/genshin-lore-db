@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5581,
+  "name": "福阿德【「镀金旅团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236929",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5581/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5581,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:22+08:00",
+  "sha256": "49e59784919253c44908d45be4a7f08d01be5d75514261230ec19ab33ec808bc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

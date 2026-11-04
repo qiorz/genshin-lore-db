@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5348,
+  "name": "莎塔【「阿如村」守卫】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762232625",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5348/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5348,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:42+08:00",
+  "sha256": "fee5b686825e38eb8c89125440c1e148ba5a219c78bcb8b67141322e56347373",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

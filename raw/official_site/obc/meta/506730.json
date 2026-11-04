@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506730,
+  "name": "小狼【礼宾员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1764919910",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506730/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506730,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:33+08:00",
+  "sha256": "e55b9c959904fd032b6a6b7a10dd91f7b2e33939cba75ecaf06fe3f02c0fda66",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

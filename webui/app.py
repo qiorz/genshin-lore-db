@@ -30,8 +30,19 @@ TYPE_LABELS = {
     "quest": "任务",
     "lore": "散落文本",
     "character": "角色",
+    "weapon": "武器",
+    "artifact": "圣遗物",
+    "item": "物品",
+    "geography": "地理",
+    "event": "活动",
+    "voice": "NPC 对话",
+    "notice": "官方公告",
+    "manga": "漫画",
 }
-TYPE_ORDER = ["book", "quest", "lore", "character"]
+TYPE_ORDER = [
+    "quest", "book", "lore", "character", "weapon", "artifact",
+    "item", "geography", "event", "voice", "notice", "manga",
+]
 SUBTYPE_LABELS = {
     "archon": "魔神任务",
     "story": "传说任务",

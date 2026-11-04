@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6096,
+  "name": "瑶瑶【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1723021479",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6096/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6096,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:57+08:00",
+  "sha256": "b845ce583660d2fb9273a2074f8906b6910a70e5eb85fb41f927b8010da6a076",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

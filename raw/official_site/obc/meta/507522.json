@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507522,
+  "name": "晕头转向的稻妻选手",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1766135633",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507522/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507522,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:37+08:00",
+  "sha256": "70b5e442c06f9255bebeb5a139364dfb2efc0cb2f32f35f21901541614ba9735",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

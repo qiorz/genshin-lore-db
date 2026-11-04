@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7143,
+  "name": "奥利弗",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746594635",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7143/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7143,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:59+08:00",
+  "sha256": "14042de5a516dd5ab11128fe32c8e6c4f5d2a0dab39f06b4c2215d2e54d5370a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

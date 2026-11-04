@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3496,
+  "name": "森口【珊瑚宫下士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1699536259",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3496/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3496,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:24+08:00",
+  "sha256": "fc1033335fe2a39384bb303a47aaece2a026beda79bcbea2140a18a8dfdaadb2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

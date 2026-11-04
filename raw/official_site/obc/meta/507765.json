@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507765,
+  "name": "科菲策【行商】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1773981959",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507765/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507765,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:23+08:00",
+  "sha256": "877f672e3987665d20461f4c113860bf901b4ff2edc2ab893f62a143df1d5490",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

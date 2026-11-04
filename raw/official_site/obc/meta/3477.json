@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3477,
+  "name": "「寝子」【自称「浅濑神社代宫司」】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746671668",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3477/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3477,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:26+08:00",
+  "sha256": "c67d2ddc3af1d8a8332c22e781f48edf8d4bfb2ddd195741d8946217c4dcfe1c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

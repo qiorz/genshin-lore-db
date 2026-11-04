@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500593,
+  "name": "小露米埃尔【「知名导演」】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1779076365",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500593/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500593,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:03+08:00",
+  "sha256": "e18e63c85e8bdf74a810fefd1b180de80b350518d1aaa0decdf3e6091117c254",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

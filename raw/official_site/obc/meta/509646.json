@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509646,
+  "name": "杜斯塔娅",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1791428257",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509646/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509646,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:46+08:00",
+  "sha256": "b3dd04490b1c89d9f9fa94ee2c142845755ff9f206bccbdc0960499b15e3f662",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

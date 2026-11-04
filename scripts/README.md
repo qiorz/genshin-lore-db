@@ -7,7 +7,7 @@
 | `check_env.ps1` | 检查 Python/SQLite/FTS5/包/目录 | PowerShell 5.1+ |
 | `Search-Corpus.ps1` | 在 `corpus/` 中做 Markdown 全文搜索 | PowerShell 5.1+ |
 | `fetch_obc.py` | 抓观测枢 entry_page / search / channel_tree | Python 3.11+ |
-| `render_obc.py` | entry_page → Markdown 草稿（任务/书籍/角色/散落文本） | Python 3.11+ |
+| `render_obc.py` | entry_page → Markdown 草稿（任务/书籍/角色/散落文本/武器/圣遗物/活动/地理/物品/NPC 对话） | Python 3.11+ |
 | `load_markdown.py` | Markdown → SQLite（documents/sections/FTS） | Python 3.11+ |
 | `search.py` | SQLite FTS5 命令行检索 | Python 3.11+ |
 | `validate_frontmatter.py` | front matter schema 校验 | Python 3.11+ |
@@ -23,6 +23,14 @@
 | `sync_index_versions.py` | 索引版本同步到 front matter/DB | Python 3.11+ |
 | `report_db.py` | 生成简洁数据库统计 | Python 3.11+ |
 | `move_books_to_corpus.py` | 书籍按地区移入 `corpus/books/` | Python 3.11+ |
+| `render_equipment.py` | 武器/圣遗物批量渲染 | Python 3.11+ |
+| `fetch_bwiki_equipment.py` | BWiki 装备故事与版本对照 | Python 3.11+ |
+| `render_events.py` | 活动页 + 成就索引 | Python 3.11+ |
+| `render_geography.py` | 观景点 / 区域 | Python 3.11+ |
+| `render_items.py` | 材料/食物/动物/道具 | Python 3.11+ |
+| `fetch_announcements.py` | 抓米游社官方帖与游戏内公告 API | Python 3.11+ |
+| `render_notices.py` | 官方公告 → `corpus/notices/` | Python 3.11+ |
+| `render_npcs.py` | NPC 对话/逸闻/彩蛋 → `corpus/voices/` | Python 3.11+ |
 
 ```powershell
 # Windows PowerShell（当前环境需要 Bypass 执行策略）

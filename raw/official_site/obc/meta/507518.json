@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507518,
+  "name": "咕咕丸【新锐忍犬领队】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1782094447",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507518/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507518,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:38+08:00",
+  "sha256": "cd18df95513ae890479eef6994a03e52f6a911c945bf046bd75d66ceba04f1ac",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

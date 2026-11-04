@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3670,
+  "name": "松田【珊瑚宫军士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1748916396",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3670/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3670,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:59+08:00",
+  "sha256": "dc16a43f3714a54103c79f5f9846fe88a9c2db51199c1afea0d2cacd648813dc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

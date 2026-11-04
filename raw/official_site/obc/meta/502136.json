@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502136,
+  "name": "爱雅【「弗里达的色盘」店主】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746291849",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502136/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502136,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:59+08:00",
+  "sha256": "f4c577c7c4ecb418cd7dc751a078d9b8e7175ac9486cb935330c825440fb0d82",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3344,
+  "name": "汤雯【学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713880347",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3344/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3344,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:41+08:00",
+  "sha256": "0afbec08430991a8f26e590d5d9189a10c168190686abafa0e745d717f9de635",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

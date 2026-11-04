@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507766,
+  "name": "格维妲【分队长】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1770793705",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507766/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507766,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:24+08:00",
+  "sha256": "60bc2d5a091261d847a39ef7b7b9e7adc7624250d012af37f9c7399f95c666f7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

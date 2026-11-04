@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4019,
+  "name": "虎之助【幕府军官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746671561",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4019/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4019,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:40+08:00",
+  "sha256": "3dbce1689162cf6f950049d09eb6e0b358caefba4b5913867de5011803bc7d7e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

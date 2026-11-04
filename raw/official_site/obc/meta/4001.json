@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4001,
+  "name": "塔列辛【吟游诗人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746237323",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4001/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4001,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:44+08:00",
+  "sha256": "2a04f1e9eae80555315f2c0d4e28ec1e0cdd9f64f074975a9216c3e220ed5655",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

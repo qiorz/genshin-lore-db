@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502618,
+  "name": "瓦蕾",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1727317299",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502618/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502618,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:27+08:00",
+  "sha256": "083648cf7ba1a5260857fcb104497ef6a899b5b6532c24c717b40272bab6a3c7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

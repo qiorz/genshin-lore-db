@@ -10,15 +10,15 @@ interludes,剧情,间章/幕间,P0,观测枢,done,"4 条已从 archon 拆出并�
 books,文本,全部游戏内书籍（图鉴 + 任务书籍）,P0,观测枢（BWiki 校验）,done,92 unique；503 重复卷；500 仅第一卷；1158 版本 unknown
 scattered_text,文本,地图文本：石碑、笔记、留言、书页、告示,P0,观测枢 地图文本频道,done,"705/705 归档 corpus/scattered；226 有版本，479 unknown；空白页已修复"
 characters,文本,角色故事、更多描述、神之眼/神之心、关联语音,P1,观测枢（BWiki 校验）,done,136/138；2 条「奇偶」无叙事；已含故事/描述/神之眼/神之心/关联语音/生日邮件
-character_voices,文本,角色语音/好感语音,P2,观测枢/数据包,partial,已收角色关联语音；未完整体验语音/音频
+character_voices,文本,"角色语音/好感语音/NPC 对话",P2,观测枢/数据包,done,"NPC 对话/逸闻/彩蛋 2,401 篇入 corpus/voices；音频本身不收"
 weapons,文本,全部武器故事,P1,观测枢（BWiki 校验）,done,252/252 归档 corpus/weapons；版本来自 BWiki
 artifacts,文本,全部圣遗物套故事,P1,观测枢（BWiki 校验）,done,63/63 归档 corpus/artifacts；4 套仅 1 部位
 items_materials,文本,材料/食物/道具/摆设描述,P2,观测枢 背包/食物/动物频道,done,"2,622 条入 corpus/items；只收描述/背景故事；版本全部 unknown"
 geography,世界观,地理志、地区/地点文本,P1,观测枢（BWiki 校验）,partial,"观景点 264 篇入 corpus/geography；区域无正文，71 个区域做成 regions.csv（790 行）"
 timeline,世界观,提瓦特编年史/时间线,P1,观测枢 + 人工整理,planned,不是单一原文；每条标来源
-official_notices,公告,版本更新、活动公告、开发者说明,P1,米游社/官网,planned,未开始
+official_notices,公告,"版本更新、活动公告、开发者说明",P1,米游社/官网,done,"55 篇入 corpus/notices；1.1→7.2 版本更新说明连续；27 条运营/重复/纯图片跳过"
 entities,知识层,核心实体：人物/国家/组织/地点/概念,P1,人工整理,planned,0
 relations,知识层,实体关系,P2,人工整理,planned,0
 claims,知识层,争议说法/不可靠叙述/不同视角,P2,人工整理,planned,0
 manga,跨媒介,官方漫画文本,P3,官网/米游社,planned,未开始
-npc_dialogue,文本,NPC 全部对话,P3,数据包/Wiki,planned,未开始
+npc_dialogue,文本,NPC 全部对话,P3,观测枢 NPC&商店/角色逸闻/角色彩蛋,done,"2,525 条 entry 全落盘；2,401 篇入 corpus/voices；124 条无对话见 npc-skip.csv"

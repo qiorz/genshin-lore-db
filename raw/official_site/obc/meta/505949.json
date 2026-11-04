@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505949,
+  "name": "夸米蒂",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1757297417",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505949/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505949,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:27+08:00",
+  "sha256": "b47f9f0a86eae4a54d62e570a1645ecc7ff39b22cce41146baf1c20a1c9e19e1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

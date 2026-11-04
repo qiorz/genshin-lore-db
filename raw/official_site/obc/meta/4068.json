@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4068,
+  "name": "凯亚【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1747019526",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4068/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4068,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:33+08:00",
+  "sha256": "2a93e34309495fde574c78141e99ac5c1d6ad40b4a51996d9250a0a4465efa5d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

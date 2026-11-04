@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506829,
+  "name": "爱莱妲",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1760062119",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506829/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506829,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:57+08:00",
+  "sha256": "95c04876f6ea6fb2b14a29f614c5fc2f19ab0fb86112fafda2edeac1ace935aa",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

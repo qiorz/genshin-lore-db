@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505296,
+  "name": "克伊奈【「烟谜主」训练大师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746497449",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505296/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505296,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:18+08:00",
+  "sha256": "9fd5f714a8444abc17b4ec3ff982a504543dfb8e7940c7e93b47e239b3b9decf",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

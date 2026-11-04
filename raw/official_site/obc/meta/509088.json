@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509088,
+  "name": "桑多涅【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1783476543",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509088/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509088,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:54+08:00",
+  "sha256": "000a5c92d4da3cda88723edde2296436add5df26e5b1b8798ecc5ce7a4845cba",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

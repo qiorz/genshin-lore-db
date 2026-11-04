@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5237,
+  "name": "尼达尔【「三十人团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1771295684",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5237/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5237,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:44:10+08:00",
+  "sha256": "c6db27493ef16e9b34139748236f46d10d17eaadd3216a908c912cee26acb2dd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

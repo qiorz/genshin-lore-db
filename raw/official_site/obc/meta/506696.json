@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506696,
+  "name": "蒂昂日【水手】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1759588859",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506696/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506696,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:38+08:00",
+  "sha256": "9edb82f8418d4385c72f92afb2bab4962ec5e5d87a7acac86ad668bfc58e14ba",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

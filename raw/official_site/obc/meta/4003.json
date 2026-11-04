@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4003,
+  "name": "村田【「八重堂」编辑】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746430607",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4003/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4003,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:44+08:00",
+  "sha256": "760a7b488ef5731e7c07f9a380db5013e5146e3383d86e595765a51e6e1065b5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

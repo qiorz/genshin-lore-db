@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3509,
+  "name": "江木【末代地走官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1724693678",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3509/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3509,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:18+08:00",
+  "sha256": "023eafcda0e58d79d7e891cb5d609beb096d0c0a027753aecc9b8a3efe6bf6ce",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

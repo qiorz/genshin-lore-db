@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505484,
+  "name": "丝柯克【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1751336409",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505484/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505484,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:02+08:00",
+  "sha256": "d61fa3fd85bdc45b2bf2a7cad80ba872d7a585bb68d36da18cfb232c0dc98e05",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

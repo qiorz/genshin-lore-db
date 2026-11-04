@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2409,
+  "name": "弥生七月【「弥生漆器」店主】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1783476501",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2409/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2409,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:35+08:00",
+  "sha256": "c7efe679754b11917315dbef195d607997091f9329d245827c361f00c61f36a2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

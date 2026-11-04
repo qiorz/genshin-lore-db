@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506686,
+  "name": "乌尔瓦【桑歌玛哈巴依老爷的代理人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1761462065",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506686/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506686,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:42+08:00",
+  "sha256": "0ef02d33c230f66b1edd1afb796bffb6ed27d841d2285fc4c39289c4cb060cfa",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

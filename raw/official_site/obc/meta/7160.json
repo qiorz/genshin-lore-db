@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7160,
+  "name": "薇托维娅【律法咨询师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746587169",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7160/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7160,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:57+08:00",
+  "sha256": "eaa5a97d81477fb038ecc20f13744ea6bf24eae7f39b0177752198ee4177eee3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

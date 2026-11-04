@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7473,
+  "name": "桑尼【白手套】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1783908676",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7473/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7473,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:54+08:00",
+  "sha256": "1e4c5f5a7276ddd951a1a13644cb529a7b0ff37a82f22e237491565885162e9d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

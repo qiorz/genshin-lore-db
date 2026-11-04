@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5807,
+  "name": "七夜由美",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1699593696",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5807/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5807,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:31+08:00",
+  "sha256": "3c64429daf4803c8b79d32166b83f459c8f194fcd00dbee8bcac01184ad173ce",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

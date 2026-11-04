@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508539,
+  "name": "葵娅乌赫奎扎尔",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778034500",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508539/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508539,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:25+08:00",
+  "sha256": "cf49dd74f835a9d8bf7917a0373053bde1f72ad5a652a5524726c1ee59f3d8d9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

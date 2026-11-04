@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5319,
+  "name": "法莉哈【秘书官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762232749",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5319/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5319,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:53+08:00",
+  "sha256": "38b2e80d79460d83e09c96e234f389a4ce6dc4fe44f500854f88fbc4855a4fd3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6151,
+  "name": "「千日喧哗大飞车」【「玉将」的精锐】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746671655",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6151/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6151,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:51+08:00",
+  "sha256": "cf1a1374eb6a98c2a115eb0bf28318209ee5aacbd2c9771023d00a2ce984b3bc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

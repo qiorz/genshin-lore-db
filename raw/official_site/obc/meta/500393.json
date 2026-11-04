@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500393,
+  "name": "旋转火蕈兽",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746587642",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500393/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500393,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:20+08:00",
+  "sha256": "36e5f63da9de2e9b971f86cd73b2f0d842269f1dd8a0e1091b6c779e9fcca751",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

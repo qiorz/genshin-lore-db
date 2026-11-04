@@ -20,6 +20,12 @@ logs/*.log
 jieba.cache
 pip-ephem-wheel-cache-*/
 
+# Scratch probes / id dumps (reproducible from channel lists)
+.probe*.py
+.retry_*.py
+.ids-*.txt
+exports/_*.md
+
 # OS/editor
 .DS_Store
 Thumbs.db

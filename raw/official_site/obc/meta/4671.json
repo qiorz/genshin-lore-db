@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4671,
+  "name": "阿汉格尔【铁匠】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222554",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4671/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4671,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:07+08:00",
+  "sha256": "4f7840cb2b5c42a558740553befd9877502bc09d3c31eaac4b7e84f9e475ec17",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

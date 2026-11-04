@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1350,
+  "name": "乾子【矿工】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1750041843",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1350/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1350,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:29+08:00",
+  "sha256": "59229fc3da2fddacf9c058c19bdaa3c35ecd0d1fea0dee6e561d80d6dad46b08",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

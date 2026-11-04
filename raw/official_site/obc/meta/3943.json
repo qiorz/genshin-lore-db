@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3943,
+  "name": "彦博【千岩军中队长】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1727279987",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3943/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3943,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:50+08:00",
+  "sha256": "70839faf0ebdb5c1016ce53cfccd258d24639b9df4a3e0a4f5e09e3f2b6da60d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5008,
+  "name": "秋蔚【商人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222400",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5008/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5008,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:57+08:00",
+  "sha256": "8f4aaf0cd19a30713e7516f0425d02581b6483127f2b554a485675c5985edaf5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

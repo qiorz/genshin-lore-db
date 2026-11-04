@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501281,
+  "name": "博言",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762309106",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501281/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501281,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:52+08:00",
+  "sha256": "50365c203c900aa8487f38b77b794048e581546046a21d49ae695d497573213f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

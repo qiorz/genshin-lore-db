@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3098,
+  "name": "木户",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1699536225",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3098/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3098,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:01+08:00",
+  "sha256": "b670b29e345e8123bfb6bb96a08fd93a9529bd97cc50c2c9cc79e6f65c6db947",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

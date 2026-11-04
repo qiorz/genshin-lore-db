@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508112,
+  "name": "敦克哈斯【果榛05】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1772431684",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508112/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508112,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:01+08:00",
+  "sha256": "e78347c415819b25ed608aa07dee1ffde6016e5fd2dc12b28c94e8ea9a9f93fc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

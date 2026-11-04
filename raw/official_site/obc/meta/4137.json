@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4137,
+  "name": "阿守【荒泷豪鼓祭氛围大使】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1739868954",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4137/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4137,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:26+08:00",
+  "sha256": "c7db431a774b8e379fbe0abeda7796af268450bec3b635024a5a78091f7b9664",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

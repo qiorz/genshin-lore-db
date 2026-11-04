@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5734,
+  "name": "兰迦鲁",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1758719219",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5734/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5734,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:02+08:00",
+  "sha256": "c5083b6af81c9af95e96c0a294059939d6adcb3bb2b55acf5a554d92d994c1f9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

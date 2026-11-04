@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6455,
+  "name": "尼扎姆【维齐尔】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762309165",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6455/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6455,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:26+08:00",
+  "sha256": "7863b5fdfe49c3f6604752dda5734cee0c0c5242970306e0ad5d2ca267cee88e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

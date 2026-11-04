@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1737,
+  "name": "沉香",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746608946",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1737/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1737,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:01+08:00",
+  "sha256": "84cd7a30b1212c168a61fe40bf7a629fa8622e45f74f4938bec84b493d0e0e85",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500782,
+  "name": "轩瞩【千岩军】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1716862050",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500782/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500782,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:33+08:00",
+  "sha256": "3630b33bc5f407705599778aa4ed8d7942f87bf942994e0e6d235f308b04df69",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

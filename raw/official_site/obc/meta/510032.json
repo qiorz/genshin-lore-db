@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510032,
+  "name": "卢香香",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1790563218",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510032/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510032,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:03+08:00",
+  "sha256": "005809b4403fa47872477e6433bbb6b5f00bd21c5603009737374419a6e54d39",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

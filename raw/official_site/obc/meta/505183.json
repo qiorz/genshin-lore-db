@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505183,
+  "name": "恩波索",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1744165787",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505183/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505183,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:43+08:00",
+  "sha256": "954a0e5c02ec92e94d11a8d217403bb1fb3cb3f38f32fa61aff3d6079928e26b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

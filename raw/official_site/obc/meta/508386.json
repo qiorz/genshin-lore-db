@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508386,
+  "name": "埃洛雯",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1790563146",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508386/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508386,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:52+08:00",
+  "sha256": "b2082a96705b92996fca68278e2c5fd289e4163357c340a31f1b1cf82d0ddc3f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

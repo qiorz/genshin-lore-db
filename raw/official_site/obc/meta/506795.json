@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506795,
+  "name": "辛查【工程师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1759906021",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506795/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506795,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:14+08:00",
+  "sha256": "48d05f617b80376f44dda18a9cc98392b64e9f3e3db1d94d5b75fbe3efd6db13",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

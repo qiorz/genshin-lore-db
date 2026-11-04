@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510261,
+  "name": "格里亚兹诺夫【凝露镇镇长】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1793239499",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510261/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510261,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:28:51+08:00",
+  "sha256": "602c288b4303cc7c547f631989ae631783643e4304378396e079d4e53a90ca46",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5709,
+  "name": "福图赫【「镀金旅团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236884",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5709/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5709,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:15+08:00",
+  "sha256": "8f0f76d0ce78c364631a8d69a12e3c4529e48ea3b3e234d4503526a903d3a267",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

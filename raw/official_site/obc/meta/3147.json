@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3147,
+  "name": "九条政仁【幕府军官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1715532488",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3147/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3147,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:54+08:00",
+  "sha256": "cc76a1d2b4972d2f4f82b1c7cd330e4ba89131df988ae5bf86a4a4ae0f3e517c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7488,
+  "name": "雷蒙多【枫丹科学院高阶技术官僚】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746522545",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7488/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7488,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:49+08:00",
+  "sha256": "536ca63532704a173eb45d7ead425758353f52c36e17e71e29663afed1a22637",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

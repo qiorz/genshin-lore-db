@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4160,
+  "name": "雷电将军【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746588372",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4160/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4160,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:24+08:00",
+  "sha256": "e0276b605b6ef5d8d23df09579dbc682eb7938b128fcc94ce7ebaa5504ab290c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

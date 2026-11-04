@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506894,
+  "name": "瓦伊诺",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1760926158",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506894/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506894,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:49+08:00",
+  "sha256": "cbf19653ecfa29af57a38fcc0ec577772fc3f2a9bf2084ddfa9819dccb4a2650",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

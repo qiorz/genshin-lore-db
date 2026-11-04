@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502320,
+  "name": "伊卡尤",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1725863207",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502320/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502320,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:37+08:00",
+  "sha256": "6411d15ba724f0ede32f02660c81e212a32485e33e64881ef2fb6c5f353c16ba",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

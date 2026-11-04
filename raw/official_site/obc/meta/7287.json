@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7287,
+  "name": "茹斯托【「卡朗代沙龙」成员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746497931",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7287/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7287,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:23+08:00",
+  "sha256": "6fe3bb548e3c32941441f136c2588df09b406a1536d7ee05d3f6590e4e2fe8a3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

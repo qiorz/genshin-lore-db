@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505302,
+  "name": "尤考姆",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746497706",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505302/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505302,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:19+08:00",
+  "sha256": "efaf1a2cda6b1395beef175902bd7d818e80985d9e3a0caa976a457a1fe420c5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

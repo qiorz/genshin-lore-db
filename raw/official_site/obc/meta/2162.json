@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2162,
+  "name": "烟绯【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1747018738",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2162/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2162,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:39+08:00",
+  "sha256": "8e8a9e3b8588081bf3aefab0c8ffa01b768181a5c5c7e51122007eb253fe0cff",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

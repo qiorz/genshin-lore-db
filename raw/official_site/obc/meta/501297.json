@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501297,
+  "name": "蒂埃坡罗【督治官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1715094505",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501297/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501297,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:48+08:00",
+  "sha256": "1935d6fd8510872fd745cff12ff0cebb3d5daa3dbbb9ef54258fd0141e5fb38e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

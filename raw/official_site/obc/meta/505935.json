@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505935,
+  "name": "马林切",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1754879282",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505935/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505935,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:36+08:00",
+  "sha256": "13d73fd8ba3692e48c5ad1976269a49a6eb80ef9850d934e0b43386377952774",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

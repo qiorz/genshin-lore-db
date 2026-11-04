@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506899,
+  "name": "沃莉斯菈娃",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1760926247",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506899/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506899,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:55+08:00",
+  "sha256": "5b20191e5c5c799c8a10b799cbcc1369800ec736f2e9b38ac37ca26f408432c3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

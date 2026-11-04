@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2551,
+  "name": "约顿【猎人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718125441",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2551/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2551,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:20+08:00",
+  "sha256": "3b3e80f5baf8b858688f2485dc2478f379e560f3b3df22ff15b846ef8502fb86",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

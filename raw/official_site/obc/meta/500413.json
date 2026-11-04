@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500413,
+  "name": "嘉维娜【梅洛彼得堡看守】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1736255134",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500413/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500413,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:11+08:00",
+  "sha256": "0a3a1b764e31b1371f0abae7b5b94584b7382f55237a481cda366cdf8d1c23dd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505861,
+  "name": "希亚赫【「龙遗物研究协会」驻店管理】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1755482952",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505861/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505861,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:51+08:00",
+  "sha256": "2873145421f500f963de95ab91e25c24cccc93bc8762cdb51600995a4e4e2b98",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

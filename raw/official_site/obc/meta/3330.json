@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3330,
+  "name": "安藤【同心】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713882263",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3330/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3330,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:46+08:00",
+  "sha256": "b1f862c83a393f7b67d057f30714dd46cb16e18ea1797f78bb315a06b930ee2c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

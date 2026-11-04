@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504975,
+  "name": "豪特利",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1743646443",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504975/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504975,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:51+08:00",
+  "sha256": "fa4a6d6c25f0623800cc87bf2100059226635e1c452a7d49888e0c90daca859d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

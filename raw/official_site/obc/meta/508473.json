@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508473,
+  "name": "埃斯特拉冈【商人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1776736884",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508473/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508473,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:46+08:00",
+  "sha256": "bd53b467eb76681c3dfe5535347f2993b49bc8a3ee085156ded991a434ec92e3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

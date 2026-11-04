@@ -836,10 +836,134 @@ def render_item(page: dict, meta: dict | None, entry_path: Path, args) -> tuple[
     return front, body
 
 
+NPC_TEXT_MODULES = ("秘闻馆情报", "秘文馆情报", "好感套装对话", "赠礼对话")
+NPC_SUMMARY_MODULES = ("逸闻纪事", "剧情彩蛋")
+NPC_SUMMARY_KEYS = ("名称", "简介", "描述")
+
+
+def _clean_npc_text(text: str) -> str:
+    """去掉语音占位行（「语音 汉语：…」「[当前音频暂无文件名]」）。"""
+    parts = []
+    for para in (text or "").split("\n\n"):
+        para = para.strip()
+        if not para or "当前音频暂无文件名" in para:
+            continue
+        if re.match(r"^语音\s*[：:]", para):
+            continue
+        parts.append(para)
+    return "\n\n".join(parts)
+
+
+def render_npc(page: dict, meta: dict | None, entry_path: Path, args) -> tuple[dict, list[str]]:
+    """NPC / 角色逸闻 / 角色彩蛋：只收对话与叙事性情报，不收商品、奖励与规则。
+
+    页面里同一模块名常出现多次（例如五段「逸闻纪事对话」），
+    按出现顺序加「· 其二」后缀，避免 Markdown 小节重名。
+    """
+    title = args.title or page.get("name") or ""
+    front = {
+        "id": args.doc_id,
+        "type": "voice",
+        "subtype": args.subtype,
+        "title": title,
+        "language": "zh-Hans",
+        "region": args.region,
+        "version_source": args.version_source,
+        "version_confidence": args.version_confidence,
+        "canon_status": "community",
+        "transcription": "near-verbatim",
+        "spoiler": {"level": args.spoiler, "scope": args.scope or []},
+        "source": [source_block(meta, page, entry_path)],
+        "status": "draft",
+        "notes": "",
+    }
+    if not front.get("region"):
+        front.pop("region", None)
+
+    body: list[str] = ["## 基本信息", ""]
+    body.append(f"- 类型：{args.subtype or 'NPC 对话'}")
+    if args.region:
+        body.append(f"- 地区：{args.region}")
+    body.append("- 来源：米游社·观测枢")
+
+    sections: list[tuple[str, str]] = []
+    heading_counts: dict[str, int] = {}
+    total_nodes = total_options = total_dialogue = 0
+
+    for module in page.get("modules") or []:
+        mname = (module.get("name") or "").strip()
+        for comp in module.get("components") or []:
+            cid = comp.get("component_id")
+            data = as_json(comp.get("data")) or {}
+            if not isinstance(data, dict):
+                continue
+            if cid == "npc_base_info":
+                for attr in list(data.get("attr") or []) + list(data.get("extra_attr") or []):
+                    if not isinstance(attr, dict):
+                        continue
+                    key = (attr.get("key") or "").strip().rstrip("：:")
+                    values = [html_inline(v) for v in (attr.get("value") or [])]
+                    values = [v for v in values if v and v != "暂无"]
+                    if key and values:
+                        body.append(f"- {key}：" + " ".join(values))
+            elif cid == "interactive_dialogue":
+                lines: list[str] = []
+                for group in dialogue_groups(data):
+                    part, nodes, options = render_dialogue_group(group)
+                    lines.extend(part)
+                    total_nodes += nodes
+                    total_options += options
+                compact: list[str] = []
+                for line in lines:
+                    # 洞天/赠礼对话节点里混有语音占位行，不是台词
+                    if "当前音频暂无文件名" in line:
+                        continue
+                    if line == "" and (not compact or compact[-1] == ""):
+                        continue
+                    compact.append(line)
+                while compact and compact[-1] == "":
+                    compact.pop()
+                if not any(line.strip() for line in compact):
+                    continue
+                sections.append((mname or "对话", "\n".join(compact)))
+                total_dialogue += 1
+            elif cid == "collapse_panel" and mname in NPC_TEXT_MODULES:
+                text = _clean_npc_text(html_paragraphs(data.get("rich_text") or ""))
+                if text:
+                    sections.append((mname, text))
+            elif cid == "rich_base_info" and any(k in mname for k in NPC_SUMMARY_MODULES):
+                pairs = []
+                for item in data.get("list") or []:
+                    if not isinstance(item, dict):
+                        continue
+                    key = (item.get("key") or "").strip()
+                    if key not in NPC_SUMMARY_KEYS:
+                        continue
+                    values = [html_inline(v) for v in (item.get("value") or [])]
+                    values = [v for v in values if v]
+                    if values:
+                        pairs.append(f"- {key}：" + " ".join(values))
+                if pairs:
+                    sections.append((mname, "\n".join(pairs)))
+
+    for heading, text in sections:
+        heading_counts[heading] = heading_counts.get(heading, 0) + 1
+        if heading_counts[heading] > 1:
+            heading = f"{heading} · 其{heading_counts[heading]}"
+        body.extend(["", f"## {heading}", "", text])
+
+    front["notes"] = (
+        "观测枢 NPC 页导出；只收对话、情报与逸闻简介，"
+        "不含商品列表、奖励、挑战规则、地图与生日邮件（生日邮件已在角色文档收录）。"
+        f" 共 {total_dialogue} 个对话模块、{total_nodes} 个对话节点、{total_options} 个选项。"
+    )
+    return front, body
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--entry", type=Path, required=True)
-    parser.add_argument("--type", choices=["quest", "book", "character", "lore", "weapon", "artifact", "event", "geography", "item"], required=True)
+    parser.add_argument("--type", choices=["quest", "book", "character", "lore", "weapon", "artifact", "event", "geography", "item", "voice"], required=True)
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--doc-id", required=True)
     parser.add_argument("--title")
@@ -903,6 +1027,7 @@ def main() -> int:
         "event": render_event,
         "geography": render_geography,
         "item": render_item,
+        "voice": render_npc,
     }
     front, body = renderers[args.type](page, meta, args.entry, args)
 

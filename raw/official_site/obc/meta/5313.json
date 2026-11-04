@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5313,
+  "name": "希拉非【旅行商人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762221921",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5313/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5313,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:57+08:00",
+  "sha256": "1affd5f79d76510f08d50556eab9f703261e105c40695d68d2689d112767bbdc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

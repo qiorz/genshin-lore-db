@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501353,
+  "name": "德斯诺斯【枫丹科学院驻外资质审核办公室主任】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1716824969",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501353/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501353,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:37+08:00",
+  "sha256": "f22f3508e6b62a5ccb99ebed34eea9e7bca065c6af5fad1bbcd8ab344ecf88c3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

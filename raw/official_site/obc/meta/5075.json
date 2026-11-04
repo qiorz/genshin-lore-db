@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5075,
+  "name": "乌达德【「盘羊」】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222180",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5075/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5075,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:40+08:00",
+  "sha256": "7be25fec04c1164b11cebd8dda060cbf241762e1d3d446c43fc4e4e438b1f11e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

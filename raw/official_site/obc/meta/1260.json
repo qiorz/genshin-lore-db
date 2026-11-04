@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1260,
+  "name": "紫微【天文学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1781765500",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1260/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1260,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:47+08:00",
+  "sha256": "7fd63d248b49186883c2e969496fbeca66f5e37ed5f6a4e8807ae2413b851e42",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

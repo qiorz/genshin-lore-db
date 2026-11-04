@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502112,
+  "name": "荆和【宝石商人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746293351",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502112/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502112,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:01+08:00",
+  "sha256": "e9624392aee581a3c05eae8ea0ff329d7cdb73d41c8c31d3c78779a4a8e373f5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

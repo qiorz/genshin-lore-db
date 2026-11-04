@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6226,
+  "name": "婕德",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1780624224",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6226/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6226,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:39+08:00",
+  "sha256": "6582f76c4afc5161e33981c1010b89aac0ce1ff0caaa7d387b78c69b9b4e1731",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510243,
+  "name": "弗约尔斯卡娅【运输局列车员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1793153355",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510243/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510243,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:28:53+08:00",
+  "sha256": "8642a36059fa2c11b0ecd75ed07dab7ccc7363c5a7b9c8e557b2f7c0ae611ea4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

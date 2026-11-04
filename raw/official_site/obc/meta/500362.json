@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500362,
+  "name": "安托万【港口安检员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1749789228",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500362/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500362,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:36+08:00",
+  "sha256": "391238912f258bc41abcea5cac3ceb73ca0321c82f1e770752b54386b5c9c5a2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507780,
+  "name": "纳尼娜【「远征队」骑士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768789365",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507780/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507780,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:20+08:00",
+  "sha256": "523d0bbc113309b4e95dfca820cb3eacca540694f1908f50ab9ceb2ee1443afe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

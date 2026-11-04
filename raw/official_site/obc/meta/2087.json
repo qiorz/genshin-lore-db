@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2087,
+  "name": "蔡寻【千岩军】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718038230",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2087/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2087,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:42+08:00",
+  "sha256": "7e9dd6a4d995a1606d3a6dffbfbf1f53e1d74b1e214b10622661ff737a140e2c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

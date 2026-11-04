@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3653,
+  "name": "伊达【迷宫艺术家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1724693689",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3653/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3653,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:02+08:00",
+  "sha256": "a2a110670cf4a9e923f32fb18baff1ca6af7688ee8ad5c2e0afeb212b9b8e796",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509828,
+  "name": "格尔岑【评议会枢密顾问】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1789352515",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509828/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509828,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:13+08:00",
+  "sha256": "78b70a19a3aadb453e5c0d482e5c427deaf3bdb2579c45638c0196f7443616a7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

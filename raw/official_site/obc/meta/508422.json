@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508422,
+  "name": "莉奈娅【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1776047439",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508422/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508422,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:53+08:00",
+  "sha256": "6ba83017cfc1ab2a4e94f7fbe24b74ec008099961b2e7cfc4b8dd4392f324ef6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

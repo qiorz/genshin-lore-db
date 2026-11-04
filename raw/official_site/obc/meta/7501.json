@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7501,
+  "name": "德尼谢尔【「…畅饮世界！」】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746585054",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7501/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7501,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:47+08:00",
+  "sha256": "84453a996476f7773889db756061d34bff0192ce2903ff51c1872c7901e97df6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

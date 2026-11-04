@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508583,
+  "name": "史图维尔",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778216957",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508583/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508583,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:08+08:00",
+  "sha256": "4c217dfb8cf76f12d3a9e9be4707f3bb762ba2201fc55513d94fb4f442d58f08",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

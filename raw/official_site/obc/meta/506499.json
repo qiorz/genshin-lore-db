@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506499,
+  "name": "萨维特【「秘谜书屋」店主】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768715410",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506499/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506499,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:03+08:00",
+  "sha256": "1aaaa27027a3cecfd81c2655a3a2e0eef3fc26db6760f56d2ed915763b3ab68e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

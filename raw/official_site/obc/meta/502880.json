@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502880,
+  "name": "阿斯基娅",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1745889204",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502880/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502880,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:23+08:00",
+  "sha256": "edc1b8b8f8746fd3dee541bc2ac3a0cad5da2f8d2e9b497c90422cc083592315",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

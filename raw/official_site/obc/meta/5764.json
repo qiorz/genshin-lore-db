@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5764,
+  "name": "兰难世",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1758183696",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5764/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5764,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:45+08:00",
+  "sha256": "2e887a484efa64acb840962ca730b8cb65192ac691c8d8f3d9a385abdb8b8baa",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

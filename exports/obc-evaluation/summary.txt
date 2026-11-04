@@ -1,45 +1,61 @@
 DB summary
 ==========
 sources: 9
-documents: 2035
-sections: 330417
-document_revisions: 2693
-ingest_runs: 25
+documents: 7734
+sections: 458736
+document_revisions: 8403
+ingest_runs: 44
 
 by type
-  quest: 1101
-  lore: 706
+  item: 2622
+  voice: 2401
+  quest: 1097
+  lore: 705
+  geography: 264
+  weapon: 252
   character: 136
   book: 92
+  artifact: 63
+  notice: 55
+  event: 47
 
 version coverage
-  quest: 1101/1101 versioned, 0 unknown
-  lore: 226/706 versioned, 480 unknown
+  item: 0/2622 versioned, 2622 unknown
+  voice: 0/2401 versioned, 2401 unknown
+  quest: 1097/1097 versioned, 0 unknown
+  lore: 226/705 versioned, 479 unknown
+  geography: 0/264 versioned, 264 unknown
+  weapon: 252/252 versioned, 0 unknown
   character: 136/136 versioned, 0 unknown
   book: 91/92 versioned, 1 unknown
+  artifact: 63/63 versioned, 0 unknown
+  notice: 53/55 versioned, 2 unknown
+  event: 47/47 versioned, 0 unknown
 
 top regions
-  枫丹: 336
-  璃月: 329
-  须弥: 272
-  纳塔: 253
-  蒙德: 244
-  挪德卡莱: 218
-  稻妻: 168
-  至冬: 108
-  未知: 63
+  未知: 3041
+  璃月: 760
+  须弥: 681
+  纳塔: 672
+  枫丹: 668
+  蒙德: 525
+  挪德卡莱: 474
+  稻妻: 425
+  至冬: 233
+  洞天: 121
+  未知: 64
+  活动地区: 21
   层岩巨渊: 17
   活动区域: 13
   渊下宫: 10
-  提瓦特: 4
 
 quest dialogue
-  with_dialogue: 1051
+  with_dialogue: 1047
   without_dialogue: 50
 
 recent ingest runs
-  #25 success seen=136 written=136 errors=0
-  #24 success seen=13 written=13 errors=0
-  #23 success seen=13 written=13 errors=0
-  #22 success seen=5 written=5 errors=0
-  #21 success seen=5 written=5 errors=0
+  #44 success seen=2401 written=2401 errors=0
+  #43 success seen=55 written=55 errors=0
+  #42 success seen=2622 written=2622 errors=0
+  #41 success seen=264 written=264 errors=0
+  #40 success seen=47 written=47 errors=0

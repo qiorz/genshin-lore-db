@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501253,
+  "name": "乔瓦尼",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746327815",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501253/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501253,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:54+08:00",
+  "sha256": "08a60e2c4201e652ed0590710ca87c49d1a7298f69a38e270496142dd93e608a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

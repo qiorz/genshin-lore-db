@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508458,
+  "name": "埃尔西【吟游诗人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1776651441",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508458/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508458,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:47+08:00",
+  "sha256": "924b9ace1f502bea811daf4f5fd4b7b61cfae4a86d7920d6f9e28b8ee6100e1d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

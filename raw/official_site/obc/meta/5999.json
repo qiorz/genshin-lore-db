@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5999,
+  "name": "库洛什【杂耍艺人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236712",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5999/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5999,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:13+08:00",
+  "sha256": "99a86adf9ebe7e5fd2e9e5211f3feba0da477d33712fd60f17a64d81a80678ca",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510259,
+  "name": "布兰诺娃",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1793239484",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510259/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510259,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:28:22+08:00",
+  "sha256": "01da090fbec5d380e5db198baff5bcbdcfb12d4a0db8cd422c1252e47939cd5c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5036,
+  "name": "阿米",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222321",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5036/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5036,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:53+08:00",
+  "sha256": "2c5023c776e8b50dcc8a1d1c66b4ee01db8930a86661123ab2bda2c9d4b4f335",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

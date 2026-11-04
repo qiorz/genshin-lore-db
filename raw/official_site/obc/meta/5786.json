@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5786,
+  "name": "阿飞",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746588355",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5786/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5786,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:36+08:00",
+  "sha256": "0ac4dd4956d1ccceec2f3d081b35edf570ecf79af413c77d777a672f2659791e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

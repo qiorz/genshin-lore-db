@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6036,
+  "name": "考什克【学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746586898",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6036/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6036,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:01+08:00",
+  "sha256": "5b2a150c7f1bb31690187c0bf53f8bea2c7739723395ad59f1d2b5e030fd66ec",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

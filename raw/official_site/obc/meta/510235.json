@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510235,
+  "name": "那维莱特【彩蛋】",
+  "menu_id": "0",
+  "menu_name": "角色彩蛋",
+  "page_version": "1792982479",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510235/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510235,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:22+08:00",
+  "sha256": "edd6e64eac4b5a38a1baf2531e5ee8dde278a06461856d7d4b863376f5d3170d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

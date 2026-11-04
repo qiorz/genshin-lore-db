@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502137,
+  "name": "西帕克",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746292354",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502137/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502137,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:59+08:00",
+  "sha256": "121dee1a95294111a39c93086853506eb9524e97fc600f69f54d3c0672c9a05e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

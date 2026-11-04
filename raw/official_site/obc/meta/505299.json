@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505299,
+  "name": "柯梯米",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746497681",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505299/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505299,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:17+08:00",
+  "sha256": "cf31a6ba8623b07aa51aa2b294cdf6dbfe79ef7e766c872ff99f05d7380d98cd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

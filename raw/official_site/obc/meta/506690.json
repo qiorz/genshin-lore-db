@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506690,
+  "name": "德文特【隐者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762827020",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506690/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506690,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:39+08:00",
+  "sha256": "b207abf6b7374c15599234330afa47b92b59b69e805154c085100c22a5b48e36",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

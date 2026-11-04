@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507883,
+  "name": "劳乌里【执灯士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1769134318",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507883/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507883,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:13+08:00",
+  "sha256": "20383d8d37055242ca2b04ce1c2545f19516d14b81550ce1bdbffbce9d15a527",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

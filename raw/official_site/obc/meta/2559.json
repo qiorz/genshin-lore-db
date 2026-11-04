@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2559,
+  "name": "康纳【酿酒师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1730773427",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2559/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2559,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:18+08:00",
+  "sha256": "d40ee1e42939a55edda944aa1761eaef077720a223b70ed952097ee706ed0f73",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

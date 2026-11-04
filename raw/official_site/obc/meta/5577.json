@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5577,
+  "name": "奥贝德",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236948",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5577/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5577,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:24+08:00",
+  "sha256": "893101ba1d2fb07bf82f7808ac1a3aed960cceb67999b076ae960bff8bbc259b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505927,
+  "name": "阿罗哈【绵驮园园长】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1754879244",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505927/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505927,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:24+08:00",
+  "sha256": "85ad1c22c4468e0965a7c76d3346c28d860af2572a15f7195775dadec54efad1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

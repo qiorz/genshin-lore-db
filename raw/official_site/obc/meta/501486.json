@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501486,
+  "name": "苏定【千岩军参谋】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718646079",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501486/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501486,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:20+08:00",
+  "sha256": "65e1570a30a4380fb440f86ceb454f3c14ab1f962d24d408ea2776b997861efa",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

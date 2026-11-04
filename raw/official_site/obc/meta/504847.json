@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504847,
+  "name": "库琪露",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1743127564",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504847/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504847,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:59+08:00",
+  "sha256": "79acaac0621c1721cb08ea9e1ac16a1e4b4f1fb1163cd9e163e9a76986f43183",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

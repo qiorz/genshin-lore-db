@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501306,
+  "name": "斯库拉",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1734056151",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501306/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501306,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:45+08:00",
+  "sha256": "50730fa2191c2330b6d69ecb25b11110758c43c471a5cf7ba82f1b47baefc8aa",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

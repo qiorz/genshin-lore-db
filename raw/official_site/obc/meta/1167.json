@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1167,
+  "name": "诺玛",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746608774",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1167/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1167,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:58+08:00",
+  "sha256": "152cdc97c76da76c502c1a4d524c76944e71e6cf12bc3eaafce322762ea1af3d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

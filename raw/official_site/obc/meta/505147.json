@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505147,
+  "name": "马扎里",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1744609059",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505147/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505147,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:44+08:00",
+  "sha256": "af1b7692c41c015a6fcaf5ff643545097a67b73d6ced528eaebc89967bf809ec",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

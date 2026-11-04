@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4023,
+  "name": "无怨【作家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1731895987",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4023/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4023,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:39+08:00",
+  "sha256": "3dd5361c75df8d8582056131430d8adc42494d5189703b04dd91c477bc6a3753",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

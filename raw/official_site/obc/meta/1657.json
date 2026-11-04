@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1657,
+  "name": "悬帆【水手】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1751263857",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1657/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1657,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:13+08:00",
+  "sha256": "e9eb6630673e7f58557a27e9eba5b3f09ea5520008fa6c012ee7ce0e5e32fe9c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

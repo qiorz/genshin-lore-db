@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1280,
+  "name": "阿宽【黑岩厂管事】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746036738",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1280/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1280,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:44+08:00",
+  "sha256": "d88e274199a60844a603f9d966cebb7ef999f7c4deb997ebbdca145422526e62",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

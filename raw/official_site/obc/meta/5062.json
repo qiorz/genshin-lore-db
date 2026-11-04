@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5062,
+  "name": "赛诺【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1782116450",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5062/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5062,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:44+08:00",
+  "sha256": "f8e9e76249e347db12cb15bf607e57f8e50e3f1b5689a681a70e671be0db365a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

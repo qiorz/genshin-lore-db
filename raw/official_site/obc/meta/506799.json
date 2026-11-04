@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506799,
+  "name": "苏霍维赫【执灯士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1764730168",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506799/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506799,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:13+08:00",
+  "sha256": "f78cf3c9879b6aa93adce37f4d0b3319f704523a8895058ef51528b62b474939",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

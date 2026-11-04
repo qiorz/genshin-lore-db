@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1320,
+  "name": "判官儿",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762391214",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1320/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1320,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:36+08:00",
+  "sha256": "77e0fd4dc94e7d6ebbd8ebdd1b0eef5fc81f79330e127316ca7e0bc0dc5b0728",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

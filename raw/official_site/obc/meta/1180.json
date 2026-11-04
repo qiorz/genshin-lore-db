@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1180,
+  "name": "阿笨",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746594984",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1180/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1180,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:55+08:00",
+  "sha256": "001be36bea917cf18b2c8e1ead9fb3c0e346ca331015e87efa3c9757240436f3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

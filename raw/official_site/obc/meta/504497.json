@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504497,
+  "name": "约洛特莉",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1739153366",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504497/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504497,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:43+08:00",
+  "sha256": "bd76d800a37f7480b04203552b109db3279c27fdcd8e30fc06a2b2eb246c118c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

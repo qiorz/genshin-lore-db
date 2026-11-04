@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504879,
+  "name": "西杜阿【健身学员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1743387878",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504879/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504879,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:55+08:00",
+  "sha256": "c8affc8a226955cf68b4c191a2399e296e2d36c073d59efd8b73f8eb6d11e9a7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

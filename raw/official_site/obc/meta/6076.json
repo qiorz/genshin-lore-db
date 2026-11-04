@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6076,
+  "name": "阿里娜【学生】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236604",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6076/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6076,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:00+08:00",
+  "sha256": "4f7ad857b8a3e37286c0b7d88085bd4151f9282e9d982002264ced199abf2c72",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

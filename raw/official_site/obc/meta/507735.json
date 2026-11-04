@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507735,
+  "name": "别蕾娜【执灯士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768443720",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507735/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507735,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:26+08:00",
+  "sha256": "4f9cbbbdea71b001f399dd875b843b61b865214382d7f93f0bdc10ffcc6be993",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506785,
+  "name": "帕霍【「旗舰」招待】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1759905935",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506785/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506785,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:24+08:00",
+  "sha256": "dae087752e7a623da080ea5a73e9a4ac21406265bed054d7fa47ff6259857a15",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

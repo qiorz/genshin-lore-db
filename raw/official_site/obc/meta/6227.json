@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6227,
+  "name": "马塞拉",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1779772642",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6227/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6227,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:39+08:00",
+  "sha256": "db5cb8ce9d84d17ef78e42d2917109edc591fec8379a03a94d583d4ac4eb970c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

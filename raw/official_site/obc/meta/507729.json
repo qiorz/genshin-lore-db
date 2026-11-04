@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507729,
+  "name": "阿莱娜【行商】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768443691",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507729/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507729,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:30+08:00",
+  "sha256": "789f3fdff13fdf70bad51f01f7d6006d37527dc2d2e2e645273c978e8de5c237",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1426,
+  "name": "乌尔曼【前·仙灵之友】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746586781",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1426/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1426,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:25+08:00",
+  "sha256": "cbed4a56a0eaec74eea6fa91b22247795de4eb07f3e7ac089c417289824ef087",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

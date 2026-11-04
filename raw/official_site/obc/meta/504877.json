@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504877,
+  "name": "夏贝瓦【健身学员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1743387872",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504877/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504877,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:53+08:00",
+  "sha256": "6b63055b78cc34401e7918dc4608dcf228c77567f27243348ddae8bba659030a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

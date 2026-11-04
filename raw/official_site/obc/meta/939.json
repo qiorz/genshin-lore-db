@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 939,
+  "name": "梅薇丝【吟游诗人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746508162",
+  "url": "https://baike.mihoyo.com/ys/obc/content/939/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 939,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:11+08:00",
+  "sha256": "e6df519cb6f3f2d1eaa221c14482ef43360f2b159c4b95eae427b6d4fce18859",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

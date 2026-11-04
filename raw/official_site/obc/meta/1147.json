@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1147,
+  "name": "东升【「荣发商铺」店主】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746430519",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1147/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1147,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:59+08:00",
+  "sha256": "206040cbd8c543108d49500e086935b8eaf528ffa418397667a995d4ca97565d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

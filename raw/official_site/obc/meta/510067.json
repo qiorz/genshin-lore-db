@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510067,
+  "name": "阿格拉娅",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1791428278",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510067/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510067,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:28:59+08:00",
+  "sha256": "6bc530e0f6e8f2eb2aed1e9612975ca37ba2b292f14300b7a5fba009e7269011",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

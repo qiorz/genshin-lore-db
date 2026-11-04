@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5048,
+  "name": "鲁达贝【学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222267",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5048/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5048,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:49+08:00",
+  "sha256": "f5595facf2587ceb45a526156781ffbb5a6747cd1104860c11c8877672b8e53f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

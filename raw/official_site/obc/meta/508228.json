@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508228,
+  "name": "转转悠悠兽",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1774577015",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508228/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508228,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:54+08:00",
+  "sha256": "8eda267fa61ac7e77ba765f9b0c410158698c498012c12089cbd730f023e9991",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

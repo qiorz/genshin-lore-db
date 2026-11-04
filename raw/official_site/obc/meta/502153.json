@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502153,
+  "name": "巴茨",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1787303457",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502153/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502153,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:54+08:00",
+  "sha256": "d8a39e7c621a314ef32b4132e4a6dbe1e830408588e05680a085bd23ff17bd64",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

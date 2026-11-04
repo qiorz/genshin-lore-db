@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4016,
+  "name": "稻叶久藏",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746430541",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4016/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4016,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:41+08:00",
+  "sha256": "764be50a93acb730f56ef9c93c9ddbbb92247f087508186f3547a9071dc21da5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

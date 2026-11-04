@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4044,
+  "name": "江舟",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746671290",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4044/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4044,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:35+08:00",
+  "sha256": "d3032c010bc5fe8ae1aae7d6fbd6b095d664906b174aa78918c746a9b34ce19c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

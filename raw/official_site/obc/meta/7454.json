@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7454,
+  "name": "艾蒂安【梅洛彼得堡看守】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1724983575",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7454/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7454,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:03+08:00",
+  "sha256": "712a9943eb2b8862a2e79b7906d87342adbd28cd22bff8f6c3388af10db8e0e8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

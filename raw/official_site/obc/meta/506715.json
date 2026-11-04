@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506715,
+  "name": "雅洛",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1759589511",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506715/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506715,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:36+08:00",
+  "sha256": "b9456b43e4d2f788f049db2b7fdc3f4e5e0d4fabc2f3b4648c509ea0923d3824",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

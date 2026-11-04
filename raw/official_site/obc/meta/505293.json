@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505293,
+  "name": "艾德温·伊斯丁豪斯【前·枫丹科学院高级研究员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746508276",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505293/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505293,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:20+08:00",
+  "sha256": "ab56f58304bca904730e3c7655b04963829fa1b01c6ecdca5f2254b32789ce74",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504500,
+  "name": "伊西姆【燃素刻录师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1739758295",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504500/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504500,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:45+08:00",
+  "sha256": "41f62dab7b2771b804f51fc621491358ef9d14f97520f79f6e546705104c107d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

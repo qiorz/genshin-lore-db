@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 196,
+  "name": "蒂玛乌斯【炼金学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746594908",
+  "url": "https://baike.mihoyo.com/ys/obc/content/196/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 196,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:17+08:00",
+  "sha256": "c4ee8c2fc29da8effda6ccacf9733607e78e82fd72c3411b60603245b0d8e5d7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

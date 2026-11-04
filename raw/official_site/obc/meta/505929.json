@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505929,
+  "name": "卡帕克",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1754879254",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505929/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505929,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:26+08:00",
+  "sha256": "4b8d346a2f097f08db3a09cd084c2cd0824fbc46f728d84801737cf5d6dd3d25",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

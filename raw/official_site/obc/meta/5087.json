@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5087,
+  "name": "多莉【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1723194889",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5087/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5087,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:44:15+08:00",
+  "sha256": "9bb15ee3b330620517e31a19c1b8338ebaf966615240cc7b60592ed0839af3e6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

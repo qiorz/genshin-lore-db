@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4131,
+  "name": "达达利亚【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1782116443",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4131/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4131,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:28+08:00",
+  "sha256": "bcbb84ab68fff956561e96fed68e3dcf5dd5aeb49ef55fd95554a4b01d9aeab6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502947,
+  "name": "阿霍伊图",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1745941335",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502947/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502947,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:22+08:00",
+  "sha256": "081615a5b2d9cd63c94301f428ce836eb27ebbf1cbb1fa2f80bc7f1930bff6fa",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

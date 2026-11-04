@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506503,
+  "name": "卡嘉【「斯佩兰扎」老板】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1787795516",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506503/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506503,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:03+08:00",
+  "sha256": "0c713492bf5aa1d8fafa260256113542451a52e3d0af8b0fee2976c7eace9fbf",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

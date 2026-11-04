@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505359,
+  "name": "阿乌伊娅【「流泉之众」训练大师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1747018059",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505359/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505359,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:10+08:00",
+  "sha256": "dd37f7095f1f9941e164141190fc08ec43b0c453f71ba21894e380ece399e9a4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

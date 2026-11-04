@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508777,
+  "name": "爱菲拉",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1779958037",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508777/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508777,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:59+08:00",
+  "sha256": "f964ffaa1508ab24df4d2dab7255d15db04b93277867cdee1efbe1c4dd0b94f1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

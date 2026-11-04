@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2456,
+  "name": "布鲁斯【西风骑士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746389308",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2456/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2456,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:28+08:00",
+  "sha256": "9786db2fb8612dc94e8a6d7c4ccff21f1e469717234578a71cf8ea9c6a7353ff",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

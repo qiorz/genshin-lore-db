@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5738,
+  "name": "埃尔凡【酒馆招待】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236843",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5738/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5738,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:59+08:00",
+  "sha256": "62f15836b9e97a4a31cc05096668dd5090c36fbe1f67043f35fbbdb1a2c5f0fb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505363,
+  "name": "萝克珊【特等射手】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1790563165",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505363/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505363,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:13+08:00",
+  "sha256": "f56fa2f1fd732809a8d2545d01ca659b80ebd5c23bc76dbfdd32a37bce31612d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

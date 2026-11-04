@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7482,
+  "name": "莫莱妮【梅洛彼得堡接待员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746522454",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7482/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7482,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:52+08:00",
+  "sha256": "d6aa23ca1393bc091a767ffa41356f55684abc19789a72d57d31fec29cc2fea1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

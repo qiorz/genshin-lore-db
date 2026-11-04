@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507143,
+  "name": "赫尔穆特【西风骑士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762147154",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507143/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507143,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:42+08:00",
+  "sha256": "2f5a7581c7647052ec05b6adfb8f012ec8642b0a6e965c89b6b2ca606e6f4153",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

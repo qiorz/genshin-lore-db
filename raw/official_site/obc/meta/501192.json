@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501192,
+  "name": "莫塞",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768185062",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501192/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501192,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:57+08:00",
+  "sha256": "48ce5fe5a160f5171a517f9690d6eb708ed17c33129ac2608d1b38224198a935",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

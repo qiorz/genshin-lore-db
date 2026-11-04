@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4043,
+  "name": "五百藏",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1781756978",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4043/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4043,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:35+08:00",
+  "sha256": "b16d063af302e1ebe3632a0b503a8b7a1f99187f9bdb5835b168f092e6ac704f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

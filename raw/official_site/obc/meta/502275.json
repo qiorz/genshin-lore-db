@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502275,
+  "name": "巴亚吉达",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1728034750",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502275/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502275,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:42+08:00",
+  "sha256": "cda9e5b4026c3b81b632439d5d0dd2326c5cdbbed785577ccf88cdbb69678e96",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

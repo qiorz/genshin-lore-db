@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6299,
+  "name": "沙扬【「三十人团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1763457101",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6299/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6299,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:32+08:00",
+  "sha256": "8dfa60e618d9d0875b3802dbc8bd2f977bace69d43290a169c2788705a2ca000",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

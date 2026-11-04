@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1308,
+  "name": "老刘伯",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1748571716",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1308/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1308,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:39+08:00",
+  "sha256": "5d74b8decb7d22804597785cbe28e6d7a1967e083432f72250304662ffc7d86e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

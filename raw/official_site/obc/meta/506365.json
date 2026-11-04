@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506365,
+  "name": "香菱【逸闻】",
+  "menu_id": "0",
+  "menu_name": "角色逸闻",
+  "page_version": "1793031645",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506365/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506365,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:55:00+08:00",
+  "sha256": "8afb81b9f1e1b9793b0721b9e15b72444fb285798b9fd04318c86316e2a8665e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

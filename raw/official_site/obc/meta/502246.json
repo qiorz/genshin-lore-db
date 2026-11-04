@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502246,
+  "name": "卡齐娜【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1749002612",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502246/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502246,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:49+08:00",
+  "sha256": "39c875137d1a3dbec095b42052410ae6fd3c270c33af2530be1c1706c8e7c008",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

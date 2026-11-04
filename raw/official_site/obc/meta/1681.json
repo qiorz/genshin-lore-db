@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1681,
+  "name": "阿芷【采药人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746458681",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1681/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1681,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:07+08:00",
+  "sha256": "b14db09d245bcc7c58af1d4d12afce4ddecbfd591b48b969b88a01fd1b355996",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

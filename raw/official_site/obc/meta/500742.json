@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500742,
+  "name": "霸爷",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718557546",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500742/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500742,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:43+08:00",
+  "sha256": "2adb4c133578d93973eeeaef68482378d4e6ebc2b449c498bbfc6bbe521693b8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

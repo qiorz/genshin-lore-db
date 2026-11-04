@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2068,
+  "name": "金钟【千岩军】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718214647",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2068/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2068,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:45+08:00",
+  "sha256": "2db8a59c9c44322a9cf3d7c812d01de90cb839b710e9e3507ae8a73a9c4e0e79",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

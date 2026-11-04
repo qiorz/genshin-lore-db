@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502955,
+  "name": "汉扎【冒险家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1787303463",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502955/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502955,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:20+08:00",
+  "sha256": "2d130e2274ea45cf53d2b7a1af0ac51976fef09bca4d2e0361ac49d08052c1b7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

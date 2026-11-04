@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504539,
+  "name": "特佐佐",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1739758360",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504539/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504539,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:35+08:00",
+  "sha256": "bb7894e28d71aae9c63e621e94eaa5e922e59cc72d5be636ce87236dc3a38e32",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

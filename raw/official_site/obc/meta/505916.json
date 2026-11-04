@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505916,
+  "name": "「特特尔特特尔」【「迎礼人」】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1754879180",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505916/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505916,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:22+08:00",
+  "sha256": "7a6c0ccf8e7ba6ed814e829f5861db82174674f07cbe5ce7c756f8fe0444ece4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

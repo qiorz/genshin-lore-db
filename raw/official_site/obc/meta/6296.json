@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6296,
+  "name": "海妮耶",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778723924",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6296/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6296,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:33+08:00",
+  "sha256": "a8bc3cb576e66e4ea095c664e6e0bdc03df25216ac81f9346c11c68c092f67d2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1654,
+  "name": "辉子",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746671213",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1654/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1654,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:14+08:00",
+  "sha256": "a5fa447bdd4da7ff3bc0ab90c7c957d96e4a2b749ad13d1fcc36fef2d2ebbb00",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

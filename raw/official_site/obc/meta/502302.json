@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502302,
+  "name": "瓦达娜",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1725863196",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502302/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502302,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:39+08:00",
+  "sha256": "f85c3059ff01e0243ae93d8499b8764186d756dab7e9a9c1d34871b1fed88f94",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

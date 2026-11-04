@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3339,
+  "name": "曜",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1758164164",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3339/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3339,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:43+08:00",
+  "sha256": "a119dc03f79f17450c630ff8eddd34fe404a5baf07ff294a3d33dbe9f51c3c88",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

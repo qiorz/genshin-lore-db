@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501703,
+  "name": "萨博兰【「沉稳的辅臣」】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1724719301",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501703/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501703,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:09+08:00",
+  "sha256": "14393080d9863f5a0efef090ce417c69a1b261d0e10c2d9095d5206ae5eada70",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

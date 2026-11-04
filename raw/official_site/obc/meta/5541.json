@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5541,
+  "name": "福迪尔【「阿如村」守卫】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762237024",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5541/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5541,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:34+08:00",
+  "sha256": "45b1b27586f98eb65770998c1634acb2ef279f3b0a70fc6793b4ce6d1693d7e9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

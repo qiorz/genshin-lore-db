@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500392,
+  "name": "阿芙颂",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746585062",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500392/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500392,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:21+08:00",
+  "sha256": "e724843124da5737acc76da6a19d7f17e53d8b03c403a6590ed8d161f04e23c8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

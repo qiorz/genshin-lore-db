@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501359,
+  "name": "瑟维妮",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1716824782",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501359/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501359,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:34+08:00",
+  "sha256": "f31b7124dd716326e71607b5ccefecb4e942b9e4761c14887a8a394765cc30cd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

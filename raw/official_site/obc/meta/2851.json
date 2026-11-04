@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2851,
+  "name": "直江久政【旗本武将】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1715532701",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2851/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2851,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:03+08:00",
+  "sha256": "8a698003adc5160fa3d69cb73acb102463167bbc1195de65c68005702cf4a6b7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1311,
+  "name": "阿卜【占卜师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1758092330",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1311/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1311,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:38+08:00",
+  "sha256": "3e22ba37bd03d05d2862df316d2be1044589c7e977e644ee173c7f7c853f14b3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

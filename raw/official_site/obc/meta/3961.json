@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3961,
+  "name": "梨香",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1788920074",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3961/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3961,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:47+08:00",
+  "sha256": "23ec06a08df7e196f2cc3c634f974cff89b426e01a2caa949aef2e0043b33f94",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

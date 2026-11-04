@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1591,
+  "name": "瑞锦【「机关棋谭」设计人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1702539836",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1591/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1591,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:15+08:00",
+  "sha256": "2756c1e67765c17e5e09c64729fb1bffa2deeb40f358ea17611ab9d417a8c165",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

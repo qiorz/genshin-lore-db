@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502274,
+  "name": "霍图鲁",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1765156591",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502274/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502274,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:42+08:00",
+  "sha256": "2fb868b8b174d0ec7fb42103e61c5b36044fb6ff7b29b681ff8c06e11fd50e52",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

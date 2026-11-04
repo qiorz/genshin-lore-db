@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510135,
+  "name": "布布莉克",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1792634655",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510135/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510135,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:28:56+08:00",
+  "sha256": "5f08480d43e4dc9936a58d09f4702ca2f57eff75dfc9c27778ccb52b9be05a34",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

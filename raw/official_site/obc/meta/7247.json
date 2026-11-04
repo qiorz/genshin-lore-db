@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7247,
+  "name": "芙佳",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768875134",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7247/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7247,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:32+08:00",
+  "sha256": "caabf64969ed2cb784e62247a41ef1067df8f57d4021e143b8e4d0d275d68012",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

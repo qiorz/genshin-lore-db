@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1351,
+  "name": "重佐【「死兆星号」大副】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1737101370",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1351/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1351,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:29+08:00",
+  "sha256": "7eb3cb555793f4a698547978fcff65571b4d5c602aaee1b0d6907a09dac5d136",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

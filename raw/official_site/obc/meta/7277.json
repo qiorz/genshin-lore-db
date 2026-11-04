@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7277,
+  "name": "泰托",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746498007",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7277/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7277,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:26+08:00",
+  "sha256": "8f50836d839f8db04c5545a5ffe0d350553229b88c686aed5373246fc22d8609",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

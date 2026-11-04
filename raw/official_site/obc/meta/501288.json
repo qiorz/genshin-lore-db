@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501288,
+  "name": "文四爷【「踏雪剑」】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1715011563",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501288/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501288,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:52+08:00",
+  "sha256": "fe7e1c75d5281b936c4714e79e891f36ddca1af1d6e028689d7370841403b4dd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

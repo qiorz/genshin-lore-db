@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510046,
+  "name": "薇斯纳【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1790586489",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510046/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510046,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:01+08:00",
+  "sha256": "920a88a7273f8e6d286cfc99eca637611c7532c44cb6060c22cebc3bf2f99e3b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

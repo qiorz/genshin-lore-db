@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7134,
+  "name": "利涅尔",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746497349",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7134/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7134,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:04+08:00",
+  "sha256": "ab0b8de8e41ce4bf562c1baf913819fcafd62026aa19ff3a7eddbf5e7a59a492",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

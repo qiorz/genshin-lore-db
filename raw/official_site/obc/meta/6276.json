@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6276,
+  "name": "卜劳恩【冒险家】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746389303",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6276/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6276,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:35+08:00",
+  "sha256": "bec56c9dbf57cff34de3395a843a6d0fe9ff1d55016791abb802e4da5264d56c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

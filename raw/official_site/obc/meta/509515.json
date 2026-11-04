@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509515,
+  "name": "雅罗斯拉夫",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1786698818",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509515/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509515,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:50+08:00",
+  "sha256": "09974fc05459b7a4a5d783db570ce7481ac241e852e3c53b92c303341602a3a5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

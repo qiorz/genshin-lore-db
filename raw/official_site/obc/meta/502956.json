@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502956,
+  "name": "布鲁",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1787303473",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502956/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502956,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:36:19+08:00",
+  "sha256": "328d5e13d7f537554054a93c9c24055fe43e5b1af97e2c65f7b797628cc2b042",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

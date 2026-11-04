@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500366,
+  "name": "克叙涅",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746587157",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500366/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500366,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:34+08:00",
+  "sha256": "e347edf7e0b259ce8d3790ec7eccd5a76cc2837b5805a054285c1ecd15bcfd0c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

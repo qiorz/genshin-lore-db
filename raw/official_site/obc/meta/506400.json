@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506400,
+  "name": "七七【逸闻】",
+  "menu_id": "0",
+  "menu_name": "角色逸闻",
+  "page_version": "1793031714",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506400/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506400,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:55:03+08:00",
+  "sha256": "9de2751a224bc7b0cf3ab478a97beaaee6693c3d2a1b47198f786048a4e7c48d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501536,
+  "name": "布蕾斯特",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1747018076",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501536/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501536,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:16+08:00",
+  "sha256": "9e509c6ce770f17e18aba03d4d5e56f76ead5d1b0a2b521bcb126cd440528c36",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

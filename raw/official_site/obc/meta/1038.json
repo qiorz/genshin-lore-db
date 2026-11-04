@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1038,
+  "name": "小白【磨坊主】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1703052839",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1038/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1038,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:54:05+08:00",
+  "sha256": "f350bf187015cc74ca62c3b2a2e7d6d5e801bdaa75a7cb9ecbc35bd7992b9a39",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

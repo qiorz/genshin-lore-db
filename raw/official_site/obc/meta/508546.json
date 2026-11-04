@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508546,
+  "name": "爱瑟海黛【「后勤小队」成员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778034627",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508546/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508546,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:20+08:00",
+  "sha256": "5fbf4cd9ce42b343746c9fd45daca110162ba7994e3e199972da0d883ffa4c3d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

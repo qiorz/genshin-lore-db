@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505169,
+  "name": "尤鲁赫",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1744165508",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505169/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505169,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:38+08:00",
+  "sha256": "a77afbf2656259d7be1ebc4f2960bd3c4864461967cda5292ed31a59e7f3e9f0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508498,
+  "name": "龙呼",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1777514769",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508498/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508498,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:42+08:00",
+  "sha256": "56496bfeeddcf612d636e0d7b71606a2b5ad7e4322e783ca072431a524b6297a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

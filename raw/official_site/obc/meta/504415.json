@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504415,
+  "name": "卡拉穆鲁",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1737081928",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504415/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504415,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:49+08:00",
+  "sha256": "178dbbf4df5f4828f63d7e850172bf0bc63b1e4ad9d37663ae0c65a6a52f4dab",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

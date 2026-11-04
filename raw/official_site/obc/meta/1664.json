@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1664,
+  "name": "万货通【商人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1751273372",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1664/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1664,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:11+08:00",
+  "sha256": "7c25181994ac1fa41b5dad71e01a70ac09eee0aca61a8e10ffe42b46ae3b7d8f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500409,
+  "name": "奥蒂涅",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1783674480",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500409/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500409,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:13+08:00",
+  "sha256": "605b5f9d8cbdf43c9c0e1d7e611ab04b78b069b42bc7d904c1d4f095e80cca80",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

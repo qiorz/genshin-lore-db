@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5750,
+  "name": "德赛【「镀金旅团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236779",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5750/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5750,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:53+08:00",
+  "sha256": "9a913904ededfa53b9a8906c3d35dc53fd47d16e36890cdf195b6a624c4648fc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4078,
+  "name": "五郎【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746757112",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4078/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4078,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:32+08:00",
+  "sha256": "e44a6ff0a6e9bf51517d842a6422b9837d7d86a4bbb48640630cc07955950eec",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5729,
+  "name": "兰萨卡",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1758183467",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5729/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5729,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:04+08:00",
+  "sha256": "5869e6b0816bb6e17b790acbfd0d67783243f93e6322c6c8d5369250f7d8b07c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

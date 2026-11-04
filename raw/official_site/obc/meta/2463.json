@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2463,
+  "name": "慕珍【「死兆星号」技术官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718553803",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2463/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2463,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:27+08:00",
+  "sha256": "b06e110a3aac9681d7dc06b7bb7968010ab4897f8e0ef3afd8a0efc74184ff07",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

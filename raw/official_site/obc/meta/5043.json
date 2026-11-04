@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5043,
+  "name": "库塔【实习牧驮犬】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746671098",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5043/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5043,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:51+08:00",
+  "sha256": "87f55b2c5abd5f2688ed7c28a154e1139bf6960346e8cbab76d0f15883650de2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

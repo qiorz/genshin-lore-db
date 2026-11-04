@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7243,
+  "name": "格蕾丝蒂",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746508195",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7243/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7243,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:33+08:00",
+  "sha256": "841bf809cb4392c383ca4620426e77fb6cf1a000724042cca01bca2771588054",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

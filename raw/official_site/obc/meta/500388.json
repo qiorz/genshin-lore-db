@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500388,
+  "name": "舒蕾",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1752555676",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500388/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500388,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:23+08:00",
+  "sha256": "4670e57da837e6e3fbce303fbf97c5fa11fe781b79a0a36274e117b0a6968961",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506779,
+  "name": "朗格马克【工程师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1759905903",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506779/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506779,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:32:21+08:00",
+  "sha256": "54fe56931b4e2ce9ac7697732379357873a25aa01332ed90444d2fd7edc43b4f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7413,
+  "name": "伊薇特【工程师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746587743",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7413/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7413,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:08+08:00",
+  "sha256": "79b0aaddf58266944c832ca3e9e8a1183c2e65af30036aeb3159e4abb2bb6e0b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

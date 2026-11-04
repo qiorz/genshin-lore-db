@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3371,
+  "name": "阿山婆【玩具摊摊主】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746583709",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3371/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3371,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:33+08:00",
+  "sha256": "83024137776c92e5272a8c1cfb531dcaf962eb625d6400f00460b8847e6b9e2f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

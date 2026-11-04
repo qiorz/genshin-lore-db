@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501484,
+  "name": "普莱希雅【枢机助理】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1759939324",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501484/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501484,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:21+08:00",
+  "sha256": "21682df66d91b8e91a90388018fd81aa53eef3631720e921fd1102f9febfb8c8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

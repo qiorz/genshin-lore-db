@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3916,
+  "name": "须婆达之彦",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1699536288",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3916/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3916,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:53+08:00",
+  "sha256": "4bd65c3dbb4b3a36b7af7037284bda9b385577019b32278a209d43513b6b0412",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6300,
+  "name": "沙班达尔【港务官】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762309190",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6300/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6300,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:30+08:00",
+  "sha256": "d3d4529a3e4cabd994887a78b7d4c325b75b6fa3b1df2705062995f417434c92",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

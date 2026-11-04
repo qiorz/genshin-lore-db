@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2044,
+  "name": "查耶维奇",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1718214677",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2044/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2044,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:46+08:00",
+  "sha256": "2c30b6afe2870d1ef8a2582bc737dfe01cb7e973c76fed1f4cb96444a6a5017d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

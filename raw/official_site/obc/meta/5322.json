@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5322,
+  "name": "齐米亚【学生】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762232736",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5322/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5322,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:52+08:00",
+  "sha256": "e1ae4a3a3bb8bc847217e4baa179fdd156b03b88184adb523b64ddf27a055201",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1302,
+  "name": "淮安【「望舒客栈」掌柜】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713372452",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1302/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1302,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:40+08:00",
+  "sha256": "bac0eeefcb01258431215ca820bdfbc54eac950fcc8dcaf1718f82c60911f366",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

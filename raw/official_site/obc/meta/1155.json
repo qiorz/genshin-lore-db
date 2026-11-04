@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1155,
+  "name": "玛文",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746410124",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1155/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1155,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:58+08:00",
+  "sha256": "1c2de7a5fc0b38fe61f762755218ab7755fc56b70e7c56e9042cc78cc1b2c0a0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

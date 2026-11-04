@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1776,
+  "name": "艾伯特",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1724687556",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1776/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1776,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:58+08:00",
+  "sha256": "0119184708e76a1622e60d275c6592c0a7952a13244ae104eb9e875207bfe37a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

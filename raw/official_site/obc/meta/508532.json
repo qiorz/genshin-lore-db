@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508532,
+  "name": "狄奥提玛",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778034384",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508532/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508532,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:28+08:00",
+  "sha256": "d514d88b297f2144f01a653f2de3205eb89f57e195282ff5dd875485f1a20d73",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

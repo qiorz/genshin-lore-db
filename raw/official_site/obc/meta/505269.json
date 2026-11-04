@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505269,
+  "name": "琪希可【教练】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1745989237",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505269/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505269,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:34:29+08:00",
+  "sha256": "c10d6d07e53c885aab3f24ab14979d320440744bb3a6db16e731b75c55bcdee1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

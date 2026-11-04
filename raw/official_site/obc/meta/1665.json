@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1665,
+  "name": "言笑【厨师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1790563106",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1665/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1665,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:10+08:00",
+  "sha256": "40a4261ab3a83d45dd3af058c3f8ee0485ad6e0d09384aa145c3b203f9c7deaa",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

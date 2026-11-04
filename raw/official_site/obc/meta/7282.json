@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7282,
+  "name": "布列松",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746522707",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7282/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7282,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:25+08:00",
+  "sha256": "5732b67350965c1fe244560c84427d157f0587b6d84e922eb3a4705016da0a50",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

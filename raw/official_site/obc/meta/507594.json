@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507594,
+  "name": "自信满满的须弥选手",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1766372433",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507594/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507594,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:33+08:00",
+  "sha256": "21157be8bce61bd10cc86d453daf090f55c121348b295861ef2cd210f6479a0c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

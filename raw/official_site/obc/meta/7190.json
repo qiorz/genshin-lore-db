@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7190,
+  "name": "伊雅蕾",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746498227",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7190/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7190,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:45+08:00",
+  "sha256": "902ed88333d161391f6ce646b770477d8f4afb4446d1d7d309bd50fc4f9630d8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

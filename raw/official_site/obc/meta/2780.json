@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2780,
+  "name": "小卷【望泷村长老】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1715566414",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2780/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2780,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:10+08:00",
+  "sha256": "186827350a8c756e76161a5a4551b8dc4eb87e52eaf1031dd7690da9c85ca3b9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

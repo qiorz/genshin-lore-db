@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1274,
+  "name": "凯瑟琳【璃月冒险家协会接待员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1783329149",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1274/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1274,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:46+08:00",
+  "sha256": "4f5acc239c49ac58e0a45b5b5e8b3dbb1933ba1cf3cb75dc17140bcd708adcaf",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509755,
+  "name": "安菲萨【「野蛮熊」三把手】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1788401048",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509755/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509755,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:31+08:00",
+  "sha256": "ee301a40be7dce21506acacf83391b906dbb75ca7c15c9c0df5b56fb03265cd9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

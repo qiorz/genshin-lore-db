@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3265,
+  "name": "真田【同心】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713882023",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3265/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3265,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:48+08:00",
+  "sha256": "1f22b97534bfc39392671d647a5461756e1cc41c6631712f2f4cf0aede24777d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

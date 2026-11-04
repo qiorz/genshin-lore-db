@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505889,
+  "name": "拉威亚",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1756693521",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505889/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505889,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:33:48+08:00",
+  "sha256": "1e3b5986e7cf79bed17bde106919ca1d1401cf98e57ad9c33ccdfa2d720c3d05",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

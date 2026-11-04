@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4749,
+  "name": "蒂亚【「镀金旅团」佣兵】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222431",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4749/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4749,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:00+08:00",
+  "sha256": "bd2c339aebf77f0e127844528cf111cc81e3e45e87fd8bccc40f56442a47ee68",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500750,
+  "name": "楚伯",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1712847345",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500750/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500750,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:38+08:00",
+  "sha256": "fdf07921efa2f4c154a7158b9fcc69e78c0326ce3ca6816fa26fe9786744219f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

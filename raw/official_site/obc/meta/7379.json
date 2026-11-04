@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7379,
+  "name": "布希柯【「达莫维百货」老板】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1727503184",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7379/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7379,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:40:15+08:00",
+  "sha256": "2f2cb7f7dce191fcd2401aec83c7703980ce1ef3ac44365be373267a6977cbf8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

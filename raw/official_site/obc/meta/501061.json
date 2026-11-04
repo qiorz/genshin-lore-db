@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501061,
+  "name": "千织【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1712801646",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501061/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501061,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:02+08:00",
+  "sha256": "e974124be21e23f76b898769a7e7ba0a309790eef1fc0daeaf954296b52d90e5",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

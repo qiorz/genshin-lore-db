@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509820,
+  "name": "拉特金",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1789352460",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509820/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509820,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:16+08:00",
+  "sha256": "35cb282c3fc0fd9a74259b33e9b7d4a09957381a80342dcbf8e280c2518bf25a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

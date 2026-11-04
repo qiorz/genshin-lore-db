@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508780,
+  "name": "伊莱帕【守卫】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1780019513",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508780/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508780,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:57+08:00",
+  "sha256": "eca029455588801271ecb8f15d180b635ffd8b2d2ab4f29c198acd22943f8e17",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

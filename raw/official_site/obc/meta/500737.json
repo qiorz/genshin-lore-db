@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500737,
+  "name": "捷悟【说书人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1790563129",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500737/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500737,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:38:45+08:00",
+  "sha256": "7f65f7f4133fbd5889857c6f6c7ec2615507af88e351886a53ffcb3e529e70d0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1661,
+  "name": "摆渡人【「往生堂」仪倌】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1736404111",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1661/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1661,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:12+08:00",
+  "sha256": "b932ca53daf57cc3069156e85468e0bb31c3ad6c6a4d5215168ebccfa5cbf878",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

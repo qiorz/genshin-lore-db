@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3097,
+  "name": "蛎罗",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1758018205",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3097/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3097,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:01+08:00",
+  "sha256": "06ec6a94b9c5c9221d086025826ce46dc746f6aa9ae8292a346760ca76d6d573",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

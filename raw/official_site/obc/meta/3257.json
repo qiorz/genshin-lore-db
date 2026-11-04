@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3257,
+  "name": "桃子",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713882839",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3257/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3257,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:51+08:00",
+  "sha256": "3c187b809f94c6f3a49d720bcd4164802b78bdc7fc5766586670ae3a7f9c67af",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

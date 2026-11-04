@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509514,
+  "name": "格里戈里【「布莱茨卡」老板】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1787105968",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509514/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509514,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:29:49+08:00",
+  "sha256": "f87c4fe3065f0584cf252b2f7ea3c7134bc4f583466344ec45985aa992434fca",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

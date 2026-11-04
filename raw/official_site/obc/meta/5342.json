@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5342,
+  "name": "里夫【「阿如村」守卫】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762232648",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5342/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5342,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:43:44+08:00",
+  "sha256": "656c31b217462b4bb699c88af1120724c43579bbd7dce90f3eb570b74bb56fad",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

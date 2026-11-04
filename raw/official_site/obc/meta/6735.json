@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6735,
+  "name": "络紫",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1699536258",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6735/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6735,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:12+08:00",
+  "sha256": "db969e8fe5110da648ba430690b0af6f7220930e8052e1f26b72e408386923fd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

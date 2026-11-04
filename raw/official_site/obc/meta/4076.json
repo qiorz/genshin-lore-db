@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4076,
+  "name": "娜扎法琳",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1699536308",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4076/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4076,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:32+08:00",
+  "sha256": "0d9a248070e7a4027347bad59d55745b67302f92e477fa9c97450f206986f1eb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

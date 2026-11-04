@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2038,
+  "name": "恩内斯特【仓库管理员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1699536179",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2038/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2038,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:47+08:00",
+  "sha256": "c7b135a77ed9a42db6b6230903082e3ca90ce7acca7e95247d25a2861c3e6f56",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

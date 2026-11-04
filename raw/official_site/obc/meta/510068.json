@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510068,
+  "name": "赫鲁塔廖夫【运输局售票员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1791428286",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510068/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510068,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:28:59+08:00",
+  "sha256": "eafdd648a3ac267367528d9b2c889db83f756b3a6080b4d47038209ecf506719",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

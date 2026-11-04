@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5755,
+  "name": "迪拉瓦尔【贸易监察】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762236761",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5755/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5755,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:42:50+08:00",
+  "sha256": "7de8d828057db418a185e0ad3073b6699e410af984b94a9b2a28a8c360094acf",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

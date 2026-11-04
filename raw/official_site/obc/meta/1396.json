@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1396,
+  "name": "史蒂文斯【学者】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746594592",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1396/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1396,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:27+08:00",
+  "sha256": "5625ea12f936b2b3983469cf44abcd047fe7818ff5494ea3be1f0d3d62505004",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

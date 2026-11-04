@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1268,
+  "name": "海伦【吟游诗人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746522564",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1268/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1268,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:46+08:00",
+  "sha256": "e10623c67c5cf71939c61a41028d7f622340b5c2c0d89c8a97d8a3d015568282",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

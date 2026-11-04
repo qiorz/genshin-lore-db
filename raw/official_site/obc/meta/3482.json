@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3482,
+  "name": "双叶",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746670941",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3482/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3482,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:51:25+08:00",
+  "sha256": "66fa78f4169b8d00e51f930e5e146652e36af4587d39b85ede8b57fb507aaefe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

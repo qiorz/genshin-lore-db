@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6225,
+  "name": "塔德菈",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762309252",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6225/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6225,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:41:41+08:00",
+  "sha256": "828285db966d552f52bd9d9cdc34ebe34fef302082db7c4c297d6a8aa57db32f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504714,
+  "name": "帕兰【主持人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1742375855",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504714/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504714,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:35:08+08:00",
+  "sha256": "b63de293fb113747e09bf9a817c255f41f4672da91930bc0fd52193bcef783b6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

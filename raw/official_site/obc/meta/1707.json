@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1707,
+  "name": "阿拉米【西风骑士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746036742",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1707/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1707,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:05+08:00",
+  "sha256": "33891ddefce938bbad6eb0044dc04e5072e1448a7b758d9745055e0ea42ed63c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

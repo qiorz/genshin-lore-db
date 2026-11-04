@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508547,
+  "name": "芬恩",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778034635",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508547/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508547,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:19+08:00",
+  "sha256": "d0ccf86ca1c38b0f302e2a23f8f99385c07cca322adee32581985bbc39edb0dd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

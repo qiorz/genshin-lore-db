@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5065,
+  "name": "莎莎妮【学生】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1762222218",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5065/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5065,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:49:44+08:00",
+  "sha256": "60fff0fd51a6fc42b91daff37653f3a65c851eade20c2aa6e8071582bc4a4aef",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

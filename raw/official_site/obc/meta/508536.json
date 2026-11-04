@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508536,
+  "name": "曾我隅田流左近重衡",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1778034447",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508536/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508536,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:30:27+08:00",
+  "sha256": "8d1ee189a51d97b0c2386671aeee4a208db7ec69bec389db8f610d3eb7a77701",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

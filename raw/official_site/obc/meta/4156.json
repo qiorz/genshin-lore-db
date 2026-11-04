@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4156,
+  "name": "七七【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746588594",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4156/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4156,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:24+08:00",
+  "sha256": "a7fcc3d18bd485fb5d1968d6381a3a678e2802603bfc7ca891b931f144c75829",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

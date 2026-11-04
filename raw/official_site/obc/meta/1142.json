@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1142,
+  "name": "米歇尔【风车管理员】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1730859175",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1142/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1142,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:53:59+08:00",
+  "sha256": "af82000a247e70736a1d9d9e6c4a746170ba3c5a2c5a5b38b2a9203ec8e9aec9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

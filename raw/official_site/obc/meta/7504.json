@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7504,
+  "name": "布里科勒",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746608923",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7504/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7504,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:45+08:00",
+  "sha256": "df8f7bb3ed87fb09bb66cede93537768ae1765282e7c795e66d3c8bf856bc776",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

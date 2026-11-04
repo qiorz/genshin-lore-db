@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500543,
+  "name": "安蒂拉【「蒸汽鸟报」摄影师】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1713455385",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500543/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500543,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:39:05+08:00",
+  "sha256": "8aa9f25ea2e25d2a2013d53604bf807605fc18ad63fefe6e00803ab61e19105e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

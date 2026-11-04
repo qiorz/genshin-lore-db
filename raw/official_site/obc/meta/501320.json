@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501320,
+  "name": "朗清【璃月港的文创猛商】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1715653256",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501320/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501320,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:37:42+08:00",
+  "sha256": "116740d701a122a0930e416c6ac765fde04249b03e25fbea309bfbf392ea021b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

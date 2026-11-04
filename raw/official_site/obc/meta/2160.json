@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2160,
+  "name": "砂糖【洞天】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1747018711",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2160/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2160,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:40+08:00",
+  "sha256": "ad935bfde7455081069fe96e544969ab21ff7f7c2190f56e6a7c2a6e38b84547",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

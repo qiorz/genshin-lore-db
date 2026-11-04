@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2848,
+  "name": "井上【同心】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1739758182",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2848/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2848,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:05+08:00",
+  "sha256": "91f2b4557e69d0c6d1a4be3b2eabf990657d9255fe06c505d445f55f86d58c24",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

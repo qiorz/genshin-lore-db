@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507727,
+  "name": "库济米奇【流浪的商人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1768481169",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507727/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507727,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:31:28+08:00",
+  "sha256": "2390f938c203525e217176fd7631089fe63088c11666850026a00798fc6e788f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

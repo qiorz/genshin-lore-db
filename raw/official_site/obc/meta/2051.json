@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2051,
+  "name": "麦克【西风骑士】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1746098908",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2051/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2051,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:52:45+08:00",
+  "sha256": "f970ceca2d7ef6b10d113851d002739ed864433beb6f2d793c3133284a6fb278",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4027,
+  "name": "雄三【工人】",
+  "menu_id": "0",
+  "menu_name": "NPC&商店",
+  "page_version": "1749436485",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4027/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4027,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T14:50:38+08:00",
+  "sha256": "dc943fd8feb12d974699238011f7df8e744c4a68aa0169dc144ffba084ae17ed",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}
