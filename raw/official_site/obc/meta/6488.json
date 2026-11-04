@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6488,
+  "name": "碧落之珑",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1758162378",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6488/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6488,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:55:19+08:00",
+  "sha256": "367bd80a675248d596588346a9bad8276b3325f3d525afc186004ef7c47d1de6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 139,
+  "name": "鸦羽弓",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1725848209",
+  "url": "https://baike.mihoyo.com/ys/obc/content/139/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 139,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:57:32+08:00",
+  "sha256": "c67949800e73f3aaa6800a5991214fd031c7a3e01bcac914c4ef1542be74c7bd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

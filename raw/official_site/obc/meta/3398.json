@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3398,
+  "name": "息灾",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1757906030",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3398/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3398,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:55:41+08:00",
+  "sha256": "b57fa37f211b2e3d46aa20207737f3a84d5a69f17fd41545b462721f432285dc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

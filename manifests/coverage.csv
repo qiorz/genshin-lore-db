@@ -9,8 +9,8 @@ books,文本,全部游戏内书籍（图鉴 + 任务书籍）,P0,观测枢（BWi
 scattered_text,文本,地图文本：石碑、笔记、留言、书页、告示,P0,观测枢 地图文本频道,done,"705/705 归档 corpus/scattered；226 有版本，479 unknown；空白页已修复"
 characters,文本,角色故事、更多描述、神之眼/神之心、关联语音,P1,观测枢（BWiki 校验）,done,136/138；2 条「奇偶」无叙事；已含故事/描述/神之眼/神之心/关联语音/生日邮件
 character_voices,文本,角色语音/好感语音,P2,观测枢/数据包,partial,已收角色关联语音；未完整体验语音/音频
-weapons,文本,全部武器故事,P1,观测枢（BWiki 校验）,planned,0/252
-artifacts,文本,全部圣遗物套故事,P1,观测枢（BWiki 校验）,planned,0/63
+weapons,文本,全部武器故事,P1,观测枢（BWiki 校验）,done,252/252 归档 corpus/weapons；版本来自 BWiki
+artifacts,文本,全部圣遗物套故事,P1,观测枢（BWiki 校验）,done,63/63 归档 corpus/artifacts；4 套仅 1 部位
 items_materials,文本,材料/食物/道具/摆设描述,P2,genshin-db / 观测枢,planned,未开始
 geography,世界观,地理志、地区/地点文本,P1,观测枢（BWiki 校验）,planned,未开始
 timeline,世界观,提瓦特编年史/时间线,P1,观测枢 + 人工整理,planned,不是单一原文；每条标来源

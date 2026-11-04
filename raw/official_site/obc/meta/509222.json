@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509222,
+  "name": "寸心余响",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1787279232",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509222/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509222,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:53:23+08:00",
+  "sha256": "e1ecd8ed25df48d95a825ca761f34679900865059ed2448db732a7d643f6be73",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

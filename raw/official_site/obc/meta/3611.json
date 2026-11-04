@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3611,
+  "name": "证誓之明瞳",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1725850275",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3611/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3611,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:55:39+08:00",
+  "sha256": "2d3047e38e960229b1e016f3be6f6f62d11c19b833d45a4d52357daeabf0bc89",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

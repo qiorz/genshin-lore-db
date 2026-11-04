@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1600,
+  "name": "悠古的磐岩",
+  "menu_id": "0",
+  "menu_name": "圣遗物",
+  "page_version": "1787496707",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1600/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1600,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:58:49+08:00",
+  "sha256": "42eb433eb0e0627ac110c3069b16e82c988447cc4be967fde216537f59fe8e87",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

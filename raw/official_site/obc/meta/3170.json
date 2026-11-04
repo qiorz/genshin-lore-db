@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3170,
+  "name": "辰砂之纺锤",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1758074531",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3170/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3170,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:55:43+08:00",
+  "sha256": "c07d3ab0cb81703113a688fd9f3107f214a92533109dd9a23b8f4d67cc4aad9b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

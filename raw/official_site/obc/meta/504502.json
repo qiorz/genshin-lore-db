@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504502,
+  "name": "且住亭御咄",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1757902929",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504502/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504502,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:54:06+08:00",
+  "sha256": "d55b1a234b73c12223583caff9e097c39d871760724613579272101525e273b9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

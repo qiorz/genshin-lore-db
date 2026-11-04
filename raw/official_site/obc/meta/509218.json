@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509218,
+  "name": "霜雪誓约",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1787279204",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509218/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509218,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:53:22+08:00",
+  "sha256": "115fedcfa3c1b530adc463e19a647140b7b15ce563b200b579af523a7bb911ea",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

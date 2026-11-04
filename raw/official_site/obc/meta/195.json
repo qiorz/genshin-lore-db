@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 195,
+  "name": "西风猎弓",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1758162433",
+  "url": "https://baike.mihoyo.com/ys/obc/content/195/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 195,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:56:37+08:00",
+  "sha256": "43a22f4b79123e675aa9a4b4a14e1558e4af3adfa9ea762c35e7a01e0e3ca2ac",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

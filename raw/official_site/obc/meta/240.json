@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 240,
+  "name": "试作澹月",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1725849112",
+  "url": "https://baike.mihoyo.com/ys/obc/content/240/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 240,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:56:50+08:00",
+  "sha256": "e0364b9c66d78130da25696f273edbc5ae97ac781045a47cf81cf6dced0269f0",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

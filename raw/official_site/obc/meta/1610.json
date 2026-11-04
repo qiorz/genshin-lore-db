@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 1610,
+  "name": "千岩长枪",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1725848323",
+  "url": "https://baike.mihoyo.com/ys/obc/content/1610/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 1610,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:57:15+08:00",
+  "sha256": "7759301f7586865782d7e4b09b56dca77742ab78e0779314e8aa2c52a68f228e",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

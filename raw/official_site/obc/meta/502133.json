@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502133,
+  "name": "苍纹角杯",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1747621715",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502133/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502133,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:54:29+08:00",
+  "sha256": "6b15815c2729120429383ce12fc69e3dd33b2c7976875f2c6c96fd0fbe27ed3f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

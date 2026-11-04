@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 7041,
+  "name": "静谧之曲",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1725850850",
+  "url": "https://baike.mihoyo.com/ys/obc/content/7041/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 7041,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:55:10+08:00",
+  "sha256": "86028eb489c8e1423ab75f5333dbcd41191358901f77a48266905f8b0b07aff3",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

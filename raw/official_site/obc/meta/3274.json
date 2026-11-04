@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 3274,
+  "name": "赤角石溃杵",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1758162592",
+  "url": "https://baike.mihoyo.com/ys/obc/content/3274/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 3274,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:55:42+08:00",
+  "sha256": "de0cc119378cbf9b3cc30c36672c9cf4d4b72ee616478b4ecc2e63046b84e10c",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -444,10 +444,178 @@ def render_lore(page: dict, meta: dict | None, entry_path: Path, args) -> tuple[
     return front, body
 
 
+def _component_data(page: dict, component_id: str) -> list:
+    found = []
+    for module in page.get("modules") or []:
+        for comp in module.get("components") or []:
+            if comp.get("component_id") == component_id:
+                found.append(as_json(comp.get("data")) or {})
+    return found
+
+
+def _module_text(page: dict, name_keyword: str, component_id: str = "collapse_panel") -> str:
+    for module in page.get("modules") or []:
+        if name_keyword not in (module.get("name") or ""):
+            continue
+        for comp in module.get("components") or []:
+            if comp.get("component_id") != component_id:
+                continue
+            data = as_json(comp.get("data")) or {}
+            return html_paragraphs(data.get("rich_text", ""))
+    return ""
+
+
+def _split_hr(html: str) -> tuple[str, str]:
+    """把 good_desc 拆成 <hr> 前后两段：前段是精炼数值，后段是装备描述。"""
+    if "<hr" not in html:
+        return html, ""
+    head, tail = re.split(r"<hr[^>]*>", html, maxsplit=1)
+    return head, tail
+
+
+def render_weapon(page: dict, meta: dict | None, entry_path: Path, args) -> tuple[dict, list[str]]:
+    base = (_component_data(page, "equipment_base_info") or [{}])[0]
+    category = (base.get("category") or "").strip()
+    star = base.get("star")
+
+    flavor = ""
+    for data in _component_data(page, "good_desc"):
+        raw = data.get("rich_text", "")
+        if "<hr" in raw:
+            # 有精炼数值段：只取 <hr> 之后的装备描述
+            _stats, tail = _split_hr(raw)
+            if tail.strip():
+                flavor = html_paragraphs(tail)
+        else:
+            # 一星武器没有精炼段，整段就是装备描述
+            if raw.strip():
+                flavor = html_paragraphs(raw)
+
+    story = _module_text(page, "相关故事")
+
+    notes = "观测枢 entry_page 导出；只收装备描述与故事，不含精炼数值、属性、推荐角色。"
+    front = {
+        "id": args.doc_id,
+        "type": "weapon",
+        "subtype": category or None,
+        "title": args.title or page.get("name") or "",
+        "language": "zh-Hans",
+        "region": args.region,
+        "version": args.version,
+        "version_source": args.version_source,
+        "version_confidence": args.version_confidence,
+        "canon_status": "community",
+        "transcription": "near-verbatim",
+        "spoiler": {"level": args.spoiler, "scope": args.scope or []},
+        "source": [source_block(meta, page, entry_path)],
+        "status": "draft",
+        "notes": notes,
+    }
+    if not front.get("subtype"):
+        front.pop("subtype", None)
+    if not front.get("region"):
+        front.pop("region", None)
+    if not front.get("version"):
+        front.pop("version", None)
+
+    body: list[str] = ["## 武器信息", ""]
+    body.append(f"- 类型：{category or '未知'}")
+    if star:
+        body.append(f"- 稀有度：{star} 星")
+    if args.version:
+        body.append(f"- 版本：{args.version}")
+    body.append("- 来源：米游社·观测枢")
+
+    if flavor:
+        body.extend(["", "## 装备描述", "", flavor])
+    if story:
+        body.extend(["", "## 故事", "", story])
+    return front, body
+
+
+ARTIFACT_SLOTS = ["生之花", "死之羽", "时之沙", "空之杯", "理之冠"]
+
+
+def render_artifact(page: dict, meta: dict | None, entry_path: Path, args) -> tuple[dict, list[str]]:
+    rarity = ""
+    for data in _component_data(page, "rich_base_info"):
+        for item in data.get("list") or []:
+            if "稀有度" in (item.get("key") or ""):
+                values = item.get("value") or []
+                if values:
+                    rarity = html_inline(values[0])
+                break
+        if rarity:
+            break
+
+    slots: list[tuple[str, str, str, str]] = []
+    for module in page.get("modules") or []:
+        slot_name = (module.get("name") or "").strip()
+        for comp in module.get("components") or []:
+            if comp.get("component_id") != "artifact_list_v2":
+                continue
+            data = as_json(comp.get("data")) or {}
+            # 有些页面模块名是空的，部位名在 name.key 里（如「生之花：」）
+            if slot_name not in ARTIFACT_SLOTS:
+                slot_name = ((data.get("name") or {}).get("key") or "").strip().rstrip("：: ")
+            if slot_name not in ARTIFACT_SLOTS:
+                continue
+            name = html_inline(((data.get("name") or {}).get("value") or [""])[0])
+            desc = html_paragraphs((((data.get("desc") or {}).get("value") or [""])[0]))
+            story_html = "".join((data.get("story") or {}).get("value") or [])
+            story = html_paragraphs(story_html)
+            # 空占位（祭火之人等只有理之冠有内容）直接跳过，不留空标题
+            if not name and not story.strip():
+                continue
+            slots.append((slot_name, name, desc, story))
+
+    notes = "观测枢 entry_page 导出；只收五个部位的描述与故事，不含套装数值、推荐搭配。"
+    if len(slots) < 5:
+        notes += f" OBC 仅收录 {len(slots)} 个部位，其余部位在来源页为空。"
+    front = {
+        "id": args.doc_id,
+        "type": "artifact",
+        "subtype": "set",
+        "title": args.title or page.get("name") or "",
+        "language": "zh-Hans",
+        "region": args.region,
+        "version": args.version,
+        "version_source": args.version_source,
+        "version_confidence": args.version_confidence,
+        "canon_status": "community",
+        "transcription": "near-verbatim",
+        "spoiler": {"level": args.spoiler, "scope": args.scope or []},
+        "source": [source_block(meta, page, entry_path)],
+        "status": "draft",
+        "notes": notes,
+    }
+    if not front.get("region"):
+        front.pop("region", None)
+    if not front.get("version"):
+        front.pop("version", None)
+
+    body: list[str] = ["## 套装信息", ""]
+    if rarity:
+        body.append(f"- 稀有度：{rarity}")
+    if args.version:
+        body.append(f"- 版本：{args.version}")
+    body.append("- 来源：米游社·观测枢")
+    body.append(f"- 部件：{len(slots)}/5")
+
+    for slot, name, desc, story in slots:
+        heading = f"{slot} · {name}" if name else slot
+        body.extend(["", f"## {heading}"])
+        if desc:
+            body.extend(["", f"> {desc}"])
+        if story:
+            body.extend(["", story])
+    return front, body
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--entry", type=Path, required=True)
-    parser.add_argument("--type", choices=["quest", "book", "character", "lore"], required=True)
+    parser.add_argument("--type", choices=["quest", "book", "character", "lore", "weapon", "artifact"], required=True)
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--doc-id", required=True)
     parser.add_argument("--title")
@@ -506,6 +674,8 @@ def main() -> int:
         "book": render_book,
         "character": render_character,
         "lore": render_lore,
+        "weapon": render_weapon,
+        "artifact": render_artifact,
     }
     front, body = renderers[args.type](page, meta, args.entry, args)
 

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 2905,
+  "name": "冬极白星",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1758162445",
+  "url": "https://baike.mihoyo.com/ys/obc/content/2905/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 2905,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:55:49+08:00",
+  "sha256": "236169923e988d466b572d71a1ede4d9ee6c30f114944439676c250d524f94f7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

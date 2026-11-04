@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 4792,
+  "name": "玛海菈的水色",
+  "menu_id": "0",
+  "menu_name": "武器",
+  "page_version": "1725850645",
+  "url": "https://baike.mihoyo.com/ys/obc/content/4792/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 4792,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-04T12:55:27+08:00",
+  "sha256": "4dd0e247d699ae7301c4ced3bb0771355d5f17ebbd0f7dcc25724ac7844526f2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

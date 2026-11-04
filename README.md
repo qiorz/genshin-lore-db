@@ -2,7 +2,7 @@
 
 > 目标：把分散在游戏内文本、米游社、Wiki 中的原神叙事资料，整理成一个**本地、可检索、可追溯、可校正**的私人研究库。
 >
-> 当前状态：**书籍 92 篇、任务 1,065 篇、散落文本 705 条、角色 136 个，全部归档在 `corpus/` 下；另有 32 条 OBC 无剧情的空壳任务隔离在 `corpus/quests/_pending/`。数据库共 2,030 篇文档、329,859 个段落，可随时从 Markdown 全量重建。**
+> 当前状态：**书籍 92 篇、任务 1,065 篇、散落文本 705 条、角色 136 个、武器 252 把、圣遗物 63 套，全部归档在 `corpus/` 下；另有 32 条 OBC 无剧情的空壳任务隔离在 `corpus/quests/_pending/`。数据库共 2,345 篇文档、339,809 个段落，可随时从 Markdown 全量重建。**
 >
 > 本地 Web UI：**http://127.0.0.1:8765/**（启动方式见 [`webui/README.md`](webui/README.md)）
 
@@ -192,8 +192,9 @@ source:
 3. **任务结构已理清**：邀约归 `hangout/`、间章归 `interlude/`，18 篇系列页加 `系列任务` 标签，重复组逐组判定（`manifests/duplicates.csv`）。
 4. **剩余尾巴**：32 条空壳只能从游戏数据包补（BWiki 也没有）；11 个多幕系列页是否拆分需先定规范。
 5. **补缺口**：《白之公主与六侏儒》其余卷、书籍 1158 版本、479 条散落文本版本；任务版本已补齐。
-6. **再做武器/圣遗物**：频道列表已在 `raw/`，补 renderer 即可批量；成就建议只做 CSV 索引，不生成 1,626 篇正文。
-7. **最后做知识层**：实体、关系、时间线、claims，不要反过来先画图。
+6. **武器/圣遗物已完成**：252 把武器 + 63 套圣遗物入库，版本由 BWiki 补齐，244/315 与 BWiki 逐字一致。
+7. **再做活动/成就**：活动先抽 5 条看结构；成就建议只做 CSV 索引，不生成 1,626 篇正文。
+8. **最后做知识层**：实体、关系、时间线、claims，不要反过来先画图。
 
 具体拆解见 [`docs/03-实施路线图.md`](docs/03-实施路线图.md)。
 
@@ -235,6 +236,8 @@ source:
 - [`corpus/quests/index.csv`](corpus/quests/index.csv)：1,069 条任务正文索引
 - [`corpus/scattered/index.csv`](corpus/scattered/index.csv)：706 条散落文本索引
 - [`corpus/scattered/README.md`](corpus/scattered/README.md)：散落文本归档规则、命名与已知问题
+- [`corpus/weapons/README.md`](corpus/weapons/README.md)：武器故事归档、版本来源与 BWiki 对照
+- [`corpus/artifacts/README.md`](corpus/artifacts/README.md)：圣遗物 5 部位结构、仅 1 部位的套装说明
 - [`corpus/quests/_pending/README.md`](corpus/quests/_pending/README.md)：32 条空壳任务说明
 - [`corpus/characters/index.csv`](corpus/characters/index.csv)：136 个角色正文索引
 - [`corpus/books/index.csv`](corpus/books/index.csv)：92 本书的版本/地区索引
