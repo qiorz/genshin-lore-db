@@ -160,6 +160,11 @@ PREDICATE_LABELS = {
     "nearest_to": "最接近", "based_in": "根据地在",
     "granted_by": "授予对象", "involved_in": "涉及事件",
 }
+STATUS_LABELS = {
+    "open": "待定", "accepted": "已采信", "disputed": "有争议",
+    "rejected": "已驳回", "superseded": "已被推翻",
+}
+
 CERTAINTY_LABELS = {
     "exact": "确切", "approximate": "约数", "relative": "仅相对顺序",
     "unknown": "未知",
@@ -849,10 +854,13 @@ def render_entity_detail(entity_id: str) -> str | None:
     for c in claims:
         link = (f'<a href="/doc/{quote(c["doc_id"], safe="")}">'
                 f'{esc(c["doc_title"] or c["doc_id"])}</a>') if c["doc_id"] else "—"
+        # 卡片上只给前 110 字，全文在原文里；否则一张卡会被一条长语音撑爆
+        text = c["statement"] or ""
+        shown = text if len(text) <= 110 else text[:110] + "…"
         claim_items.append(
-            f'<li><span class="claim-text">{esc(c["statement"])}</span>'
+            f'<li><span class="claim-text" title="{esc(text[:400])}">{esc(shown)}</span>'
             f'<span class="claim-tags">{esc(CONFIDENCE_LABELS.get(c["confidence"], c["confidence"]))}'
-            f' · {esc(c["status"])}</span>'
+            f' · {esc(STATUS_LABELS.get(c["status"], c["status"]))}</span>'
             f'<span class="claim-src">{esc(c["perspective"] or "未标视角")} · 出处：{link}</span></li>'
         )
 
