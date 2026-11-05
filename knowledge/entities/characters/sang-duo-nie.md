@@ -5,7 +5,7 @@ canonical_name: 桑多涅
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[char.obc.508841]]：哥伦比娅与桑多涅遗体告别时说的话
+- [[char.obc.508841]]：同事和朋友们一般称呼她为「桑多涅」
 
 ## 待考
 

@@ -5,7 +5,7 @@ canonical_name: 冒险家协会
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[quest.obc.1432]]：现在冒险家协会里的委托，也只有找猫找狗，搬货送信之类的委托了
+- [[quest.obc.652]]：欢迎来到冒险家协会，我已经观察你很久了
 
 ## 待考
 

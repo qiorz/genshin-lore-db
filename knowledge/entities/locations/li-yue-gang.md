@@ -5,7 +5,7 @@ canonical_name: 璃月港
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[quest.obc.504443]]：那位设计师最近正好来璃月港采风，说是想从异国节庆中寻找灵感，我们一拍即合，一点也不费功夫
+- [[quest.obc.1686]]：璃月港可真是一座繁忙的城市啊，虽然稻妻也很繁忙…
 
 ## 待考
 

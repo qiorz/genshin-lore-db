@@ -5,7 +5,7 @@ canonical_name: 珊瑚宫
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[char.obc.2403]]：人们普遍认为珊瑚宫心海是一名足智多谋、深不可测的领导者
+- [[char.obc.2403]]：自那日在珊瑚宫外俯瞰海祇岛起，她的愿望就从未变过
 
 ## 待考
 

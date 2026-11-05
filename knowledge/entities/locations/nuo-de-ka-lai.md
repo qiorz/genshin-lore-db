@@ -5,7 +5,7 @@ canonical_name: 挪德卡莱
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[quest.obc.505878]]：况且我们再过不久，就要出发去挪德卡莱了吧
+- [[quest.obc.506587]]：难道挪德卡莱的凯瑟琳会下班吗
 
 ## 待考
 

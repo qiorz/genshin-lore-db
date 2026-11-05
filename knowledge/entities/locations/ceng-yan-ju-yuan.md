@@ -5,7 +5,7 @@ canonical_name: 层岩巨渊
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[quest.obc.3870]]：怎么，你是来应征探索层岩巨渊的吗
+- [[quest.obc.3870]]：层岩巨渊还有很多秘密没被发掘呢…
 
 ## 待考
 

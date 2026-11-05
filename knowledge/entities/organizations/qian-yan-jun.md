@@ -5,7 +5,7 @@ canonical_name: 千岩军
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[quest.obc.677]]：你小心翼翼绕过了千岩军的层层监视，但刚走出案发地不远,你的脚步还是惊动了千岩军
+- [[voice.obc.2022]]：逢岩，千岩军的一员，位居教头
 
 ## 待考
 

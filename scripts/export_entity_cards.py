@@ -25,6 +25,8 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from knowledge_state import reviewed_ids  # noqa: E402
 SEED_DIR = ROOT / "knowledge"
 SEED_FILES = sorted(SEED_DIR.glob("seed*.yaml"),
                     key=lambda p: (p.name != "seed.yaml", p.name))
@@ -56,6 +58,9 @@ CONF_LABELS = {
 }
 
 
+REVIEWED = reviewed_ids(ROOT)
+
+
 def load_seeds() -> dict:
     """与 load_knowledge.py 用同一套合并规则，保证卡片与数据库一致。"""
     merged = {"entities": [], "claims": [], "events": []}
@@ -66,6 +71,8 @@ def load_seeds() -> dict:
         for entity in data.get("entities") or []:
             entity = dict(entity)
             entity["_status"] = entity.get("status", status)
+            if entity["id"] in REVIEWED:
+                entity["_status"] = "reviewed"
             entity["_batch"] = batch
             merged["entities"].append(entity)
         for key in ("claims", "events"):

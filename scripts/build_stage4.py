@@ -93,7 +93,6 @@ location|卡萨扎莱宫
 location|缄默之殿
 location|露景泉
 location|佩特莉可镇
-location|枫丹科学院
 location|圣火竞技场
 location|挪德卡莱
 location|希汐岛
@@ -117,7 +116,7 @@ organization|执灯士
 
 SENT_END = set("。！？!?；\n")
 OPEN_Q, CLOSE_Q = "「『（(《", "」』）)》"
-TRIM = " \t\u3000*#>—-"
+TRIM = " \t\u3000*#>—-[]"
 
 
 def norm(text: str) -> str:
@@ -163,13 +162,16 @@ def slug(name: str, doc_id: str) -> str:
 
 
 # 舞台指示、攻略旁白这类句子不是证据，直接排除
-NOISE_MARKS = ("过场动画", "（可选）", "点击", "待更新", "见下方", "如上", "如下图")
+NOISE_MARKS = ("过场动画", "（可选）", "点击", "待更新", "见下方", "如上", "如下图",
+               "时说的话", "版本前瞻")
 
 
 def is_clean_quote(s: str) -> bool:
     if any(m in s for m in NOISE_MARKS):
         return False
-    if s.startswith("【") and s.endswith("】"):   # 纯标题行，不是句子
+    if s.startswith(("▌", "【")):      # 版式标题行（「▌空月归乡 · 哥伦比娅…」）
+        return False
+    if s.endswith(("：", ":")):        # 引出下文的提示句，本身不含信息
         return False
     han = sum(1 for ch in s if "\u4e00" <= ch <= "\u9fff")
     return han >= 8 and han / max(len(s), 1) >= 0.55
@@ -217,12 +219,15 @@ def best_evidence(con, name: str, cache: dict) -> tuple[str, str, int] | None:
     for doc_id, doc_type, title, body in rows:
         score = DOC_SCORE.get(doc_type, 0)
         if name in (title or ""):
-            score += 2
+            score += 2                      # 整篇就在讲它，比顺带一提强
         quote = pick_quote(body, name, lo=14, hi=80)
         if not quote:
             continue
-        if best is None or score > best[2]:
-            best = (doc_id, quote, score)
+        # 名字出现在句首=当主语用；出现在「的」前面多半只是形容词（「枫丹的密码盘」）
+        head_bonus = 1 if quote.startswith(name) or quote.find(name) <= 4 else 0
+        key = (score + head_bonus, -len(quote))
+        if best is None or key > best[2]:
+            best = (doc_id, quote, key)
     cache[name] = best
     return best
 
@@ -235,8 +240,16 @@ def main() -> int:
     con = sqlite3.connect(DB)
     con.row_factory = sqlite3.Row
 
-    existing = {r["canonical_name"] for r in con.execute("SELECT canonical_name FROM entities")}
-    taken_ids = {r["entity_id"] for r in con.execute("SELECT entity_id FROM entities")}
+    # 本批已生成过的 id 要排除在「库里已有」之外，否则重跑会全部跳过、
+    # 也无法修正上一版的分类错误。做法：读上一次的 seed-stage4.yaml 拿 id 白名单。
+    prior_ids: set[str] = set()
+    if YAML_OUT.exists():
+        prev = yaml.safe_load(YAML_OUT.read_text(encoding="utf-8")) or {}
+        prior_ids = {e["id"] for e in prev.get("entities") or [] if e.get("id")}
+
+    rows = con.execute("SELECT entity_id, canonical_name FROM entities").fetchall()
+    existing = {r["canonical_name"] for r in rows if r["entity_id"] not in prior_ids}
+    taken_ids = {r["entity_id"] for r in rows if r["entity_id"] not in prior_ids}
     meta = load_char_index()
 
     entries: list[dict] = []
@@ -282,7 +295,7 @@ def main() -> int:
         if not hit:
             skipped.append((etype, name, "语料里没有含这个名字的段落"))
             continue
-        doc_id, quote, _score = hit
+        doc_id, quote, _key = hit
         label = "地点" if etype == "location" else "组织"
         added_names.add(name)
         entries.append({

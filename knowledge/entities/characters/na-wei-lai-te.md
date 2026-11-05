@@ -5,7 +5,7 @@ canonical_name: 那维莱特
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[char.obc.500207]]：▌谕告的潮音 · 那维莱特
+- [[char.obc.500207]]：「之前对于水神大人的秘辛专栏让得本报荣获了那维莱特先生『什么地摊小报』的评价，这次我们聚焦神秘的最高审判官先生。
 
 ## 待考
 

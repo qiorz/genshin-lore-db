@@ -1,17 +1,17 @@
 ---
 id: entity.feng-dan-ke-xue-yuan
-type: location
+type: organization
 canonical_name: 枫丹科学院
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
 ## 简介
 
-地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
+组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
 
 ## 关键设定
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[quest.obc.7373]]：终于稳定下来了，这枚始基矿已经转化为了「惰性态」…我们和枫丹科学院都暂时安全了
+- [[quest.obc.7373]]：「枫丹科学院荣誉高级研究员」，欢迎，欢迎啊
 
 ## 待考
 

@@ -5,7 +5,7 @@ canonical_name: 花羽会
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[lore.obc.503637]]：「此为部族事务公告板，花羽会内部重要事务均在此公示，如有疑问也可在此留言。」
+- [[lore.obc.503637]]：「『花羽会』的战士们，感谢你们的付出与牺牲，得益于此，我们才能赢得这场胜利。」
 
 ## 待考
 

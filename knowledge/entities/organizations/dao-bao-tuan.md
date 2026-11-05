@@ -5,7 +5,7 @@ canonical_name: 盗宝团
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[quest.obc.1250]]：…啊，是那些盗宝团把什么人关起来了吗
+- [[quest.obc.3870]]：他之前是盗宝团，这样也可以吗…
 
 ## 待考
 

@@ -5,13 +5,13 @@ canonical_name: 枫丹廷
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
 ## 简介
 
-证据出自枫丹地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
 
 ## 关键设定
 

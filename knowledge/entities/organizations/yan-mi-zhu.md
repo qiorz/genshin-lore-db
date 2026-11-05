@@ -5,7 +5,7 @@ canonical_name: 烟谜主
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[quest.obc.503547]]：偶遇了一只幼年暝视龙之后，某种神秘的存在引导你进入烟谜主的驻地…
+- [[quest.obc.503547]]：这…烟谜主这个部族果然好神秘啊
 
 ## 待考
 

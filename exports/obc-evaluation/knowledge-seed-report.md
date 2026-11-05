@@ -1,10 +1,10 @@
 # 知识层种子 · 灌库报告
 
-> 2026-11-05T20:34:07+08:00 · 模式：写入 · 来源：`knowledge/seed.yaml`、`knowledge/seed-stage2.yaml`、`knowledge/seed-stage3.yaml`、`knowledge/seed-stage4.yaml`
+> 2026-11-05T20:48:27+08:00 · 模式：写入 · 来源：`knowledge/seed.yaml`、`knowledge/seed-stage2.yaml`、`knowledge/seed-stage3.yaml`、`knowledge/seed-stage4.yaml`
 
 | 项 | 值 |
 |---|---|
-| 实体 | 250（draft 220、reviewed 30） |
+| 实体 | 250（draft 190、reviewed 60） |
 | 种子批次 | 4 |
 | 别名（不含规范名） | 34 |
 | claims | 10 |

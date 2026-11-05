@@ -433,10 +433,10 @@ def main() -> int:
         ev = c["evidence"]
         region = ev["region"]
         label = TYPE_LABEL.get(c["type"], "条目")
-        # 只说「证据出自哪篇文档」，不说「实体属于哪个地区」：
-        # 例：枫丹的证据恰好出自一篇纳塔地区的文档。
-        where = f"证据出自{region}地区文档的" if region and region != "未知" else "库内"
-        desc = f"{where}{label}条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）"
+        # 不再写「证据出自{region}地区文档」：话虽属实，但读起来像在说
+        # 「这个实体属于该地区」——枫丹的证据恰好出自一篇纳塔文档，会误导。
+        # 地区信息保留在证据链接里，描述只留分类标签。
+        desc = f"{label}条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）"
         entities_yaml.append({
             "id": c["id"], "type": c["type"], "name": c["name"],
             "description": desc, "spoiler": 1,

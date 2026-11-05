@@ -9,7 +9,7 @@ entities:
 - id: entity.albedo
   type: character
   name: 阿贝多
-  description: 证据出自挪德卡莱地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -18,7 +18,7 @@ entities:
 - id: entity.arlecchino
   type: character
   name: 阿蕾奇诺
-  description: 证据出自挪德卡莱地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases:
   - name: 仆人
@@ -29,7 +29,7 @@ entities:
 - id: entity.barbara
   type: character
   name: 芭芭拉
-  description: 证据出自蒙德地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -38,7 +38,7 @@ entities:
 - id: entity.charlotte
   type: character
   name: 夏洛蒂
-  description: 证据出自枫丹地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -47,7 +47,7 @@ entities:
 - id: entity.chasca
   type: character
   name: 恰斯卡
-  description: 证据出自纳塔地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -56,7 +56,7 @@ entities:
 - id: entity.chiori
   type: character
   name: 千织
-  description: 证据出自枫丹地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -65,7 +65,7 @@ entities:
 - id: entity.clorinde
   type: character
   name: 克洛琳德
-  description: 证据出自枫丹地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -74,7 +74,7 @@ entities:
 - id: entity.dottore
   type: character
   name: 多托雷
-  description: 证据出自挪德卡莱地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases:
   - name: 博士
@@ -85,7 +85,7 @@ entities:
 - id: entity.enjou
   type: character
   name: 渊上
-  description: 库内人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -94,7 +94,7 @@ entities:
 - id: entity.fischl
   type: character
   name: 菲谢尔
-  description: 证据出自蒙德地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases:
   - name: 皇女
@@ -105,7 +105,7 @@ entities:
 - id: entity.freminet
   type: character
   name: 菲米尼
-  description: 证据出自枫丹地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -114,7 +114,7 @@ entities:
 - id: entity.gorou
   type: character
   name: 五郎
-  description: 证据出自稻妻地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -123,7 +123,7 @@ entities:
 - id: entity.hutao
   type: character
   name: 胡桃
-  description: 证据出自璃月地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -132,7 +132,7 @@ entities:
 - id: entity.kaeya
   type: character
   name: 凯亚
-  description: 证据出自须弥地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -141,7 +141,7 @@ entities:
 - id: entity.kaveh
   type: character
   name: 卡维
-  description: 证据出自须弥地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -150,7 +150,7 @@ entities:
 - id: entity.kirara
   type: character
   name: 绮良良
-  description: 库内人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -159,7 +159,7 @@ entities:
 - id: entity.lisa
   type: character
   name: 丽莎
-  description: 证据出自蒙德地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -168,7 +168,7 @@ entities:
 - id: entity.mavuika
   type: character
   name: 玛薇卡
-  description: 证据出自纳塔地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -177,7 +177,7 @@ entities:
 - id: entity.mika
   type: character
   name: 米卡
-  description: 证据出自挪德卡莱地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -186,7 +186,7 @@ entities:
 - id: entity.ningguang
   type: character
   name: 凝光
-  description: 证据出自璃月地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -195,7 +195,7 @@ entities:
 - id: entity.ororon
   type: character
   name: 欧洛伦
-  description: 证据出自纳塔地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -204,7 +204,7 @@ entities:
 - id: entity.pierro
   type: character
   name: 皮耶罗
-  description: 证据出自至冬地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases:
   - name: 丑角
@@ -215,7 +215,7 @@ entities:
 - id: entity.qiqi
   type: character
   name: 七七
-  description: 证据出自璃月地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -224,7 +224,7 @@ entities:
 - id: entity.sara
   type: character
   name: 九条裟罗
-  description: 证据出自稻妻地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -233,7 +233,7 @@ entities:
 - id: entity.sucrose
   type: character
   name: 砂糖
-  description: 证据出自须弥地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -242,7 +242,7 @@ entities:
 - id: entity.varka
   type: character
   name: 法尔伽
-  description: 证据出自蒙德地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -251,7 +251,7 @@ entities:
 - id: entity.xilonen
   type: character
   name: 希诺宁
-  description: 证据出自纳塔地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -260,7 +260,7 @@ entities:
 - id: entity.yae-miko
   type: character
   name: 八重神子
-  description: 证据出自稻妻地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -269,7 +269,7 @@ entities:
 - id: entity.yoimiya
   type: character
   name: 宵宫
-  description: 证据出自稻妻地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -278,7 +278,7 @@ entities:
 - id: entity.yunjin
   type: character
   name: 云堇
-  description: 证据出自璃月地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -287,7 +287,7 @@ entities:
 - id: entity.adeptal-energy
   type: concept
   name: 仙力
-  description: 证据出自璃月地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -296,7 +296,7 @@ entities:
 - id: entity.archon-war-concept
   type: concept
   name: 魔神战争
-  description: 证据出自稻妻地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -305,7 +305,7 @@ entities:
 - id: entity.constellation
   type: concept
   name: 命之座
-  description: 证据出自枫丹地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -314,7 +314,7 @@ entities:
 - id: entity.delusion
   type: concept
   name: 邪眼
-  description: 证据出自稻妻地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -323,7 +323,7 @@ entities:
 - id: entity.descender
   type: concept
   name: 降临者
-  description: 证据出自挪德卡莱地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -332,7 +332,7 @@ entities:
 - id: entity.forbidden-knowledge
   type: concept
   name: 禁忌知识
-  description: 证据出自须弥地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -341,7 +341,7 @@ entities:
 - id: entity.genius-invokation
   type: concept
   name: 七圣召唤
-  description: 证据出自枫丹地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -350,7 +350,7 @@ entities:
 - id: entity.loom-of-fate
   type: concept
   name: 命运的织机
-  description: 证据出自璃月地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -359,7 +359,7 @@ entities:
 - id: entity.ruin-guard
   type: concept
   name: 遗迹守卫
-  description: 证据出自蒙德地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -368,7 +368,7 @@ entities:
 - id: entity.seelie
   type: concept
   name: 仙灵
-  description: 证据出自挪德卡莱地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -377,7 +377,7 @@ entities:
 - id: entity.spiral-abyss
   type: concept
   name: 深境螺旋
-  description: 库内设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -386,7 +386,7 @@ entities:
 - id: entity.apep
   type: creature
   name: 阿佩普
-  description: 证据出自挪德卡莱地区文档的非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -395,7 +395,7 @@ entities:
 - id: entity.azhdaha
   type: creature
   name: 若陀龙王
-  description: 证据出自璃月地区文档的非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -404,7 +404,7 @@ entities:
 - id: entity.bathysmal-vishap
   type: creature
   name: 深海龙蜥
-  description: 证据出自稻妻地区文档的非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -413,7 +413,7 @@ entities:
 - id: entity.hilichurl
   type: creature
   name: 丘丘人
-  description: 证据出自蒙德地区文档的非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -422,7 +422,7 @@ entities:
 - id: entity.oceanid
   type: creature
   name: 纯水精灵
-  description: 证据出自枫丹地区文档的非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -431,7 +431,7 @@ entities:
 - id: entity.aaru-village
   type: location
   name: 阿如村
-  description: 证据出自须弥地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -440,7 +440,7 @@ entities:
 - id: entity.dawn-winery
   type: location
   name: 晨曦酒庄
-  description: 证据出自蒙德地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -449,7 +449,7 @@ entities:
 - id: entity.dragonspine
   type: location
   name: 龙脊雪山
-  description: 证据出自挪德卡莱地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -458,7 +458,7 @@ entities:
 - id: entity.fontaine-city
   type: location
   name: 枫丹廷
-  description: 证据出自枫丹地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -467,7 +467,7 @@ entities:
 - id: entity.fortress-of-meropide
   type: location
   name: 梅洛彼得堡
-  description: 证据出自挪德卡莱地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -476,7 +476,7 @@ entities:
 - id: entity.grand-narukami-shrine
   type: location
   name: 鸣神大社
-  description: 证据出自稻妻地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -485,7 +485,7 @@ entities:
 - id: entity.inazuma-city
   type: location
   name: 稻妻城
-  description: 证据出自稻妻地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -494,7 +494,7 @@ entities:
 - id: entity.jueyun-karst
   type: location
   name: 绝云间
-  description: 证据出自璃月地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -503,7 +503,7 @@ entities:
 - id: entity.opera-epiclese
   type: location
   name: 欧庇克莱歌剧院
-  description: 证据出自枫丹地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -512,7 +512,7 @@ entities:
 - id: entity.poisson
   type: location
   name: 白淞镇
-  description: 证据出自枫丹地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -521,7 +521,7 @@ entities:
 - id: entity.port-ormos
   type: location
   name: 奥摩斯港
-  description: 证据出自须弥地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -530,7 +530,7 @@ entities:
 - id: entity.qingce-village
   type: location
   name: 轻策庄
-  description: 证据出自璃月地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -539,7 +539,7 @@ entities:
 - id: entity.ritou
   type: location
   name: 离岛
-  description: 证据出自稻妻地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -548,7 +548,7 @@ entities:
 - id: entity.sumeru-desert
   type: location
   name: 须弥沙漠
-  description: 证据出自至冬地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -557,7 +557,7 @@ entities:
 - id: entity.thousand-winds-temple
   type: location
   name: 千风神殿
-  description: 证据出自蒙德地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -566,7 +566,7 @@ entities:
 - id: entity.wangshu-inn
   type: location
   name: 望舒客栈
-  description: 证据出自璃月地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -575,7 +575,7 @@ entities:
 - id: entity.fontaine
   type: nation
   name: 枫丹
-  description: 证据出自纳塔地区文档的国度条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 国度条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -584,7 +584,7 @@ entities:
 - id: entity.natlan
   type: nation
   name: 纳塔
-  description: 证据出自纳塔地区文档的国度条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 国度条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases:
   - name: 战争之国
@@ -595,7 +595,7 @@ entities:
 - id: entity.church-of-favonius
   type: organization
   name: 西风教会
-  description: 证据出自蒙德地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -604,7 +604,7 @@ entities:
 - id: entity.eremites
   type: organization
   name: 镀金旅团
-  description: 证据出自枫丹地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -613,7 +613,7 @@ entities:
 - id: entity.house-of-hearth
   type: organization
   name: 壁炉之家
-  description: 证据出自挪德卡莱地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -622,7 +622,7 @@ entities:
 - id: entity.qixing
   type: organization
   name: 璃月七星
-  description: 证据出自璃月地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -631,7 +631,7 @@ entities:
 - id: entity.thirty-men
   type: organization
   name: 三十人团
-  description: 证据出自须弥地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
@@ -640,7 +640,7 @@ entities:
 - id: entity.yashiro-commission
   type: organization
   name: 社奉行
-  description: 证据出自稻妻地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:

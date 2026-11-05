@@ -5,13 +5,13 @@ canonical_name: 枫丹
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
 ## 简介
 
-证据出自纳塔地区文档的国度条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+国度条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
 
 ## 关键设定
 

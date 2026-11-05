@@ -5,7 +5,7 @@ canonical_name: 哥伦比娅
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[char.obc.507505]]：▌空月归乡 · 哥伦比娅·希珀塞莱尼娅
+- [[char.obc.507505]]：而同事们能不能理解哥伦比娅的行为…那就不是她会去考虑的问题了
 
 ## 待考
 

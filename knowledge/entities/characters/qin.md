@@ -5,7 +5,7 @@ canonical_name: 琴
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[char.obc.59]]：如果你在蒙德城里问起人们对于琴的看法，你可能会得到许多不同的回答：
+- [[char.obc.59]]：但是当你问琴怎么看待自己时，这位西风骑士团代理团长永远会这么回答
 
 ## 待考
 

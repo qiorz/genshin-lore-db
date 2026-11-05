@@ -277,3 +277,51 @@ entity_evidence(entity_id, doc_id, section_id, quote, is_primary)
 角色 125 张里，先看 88 张第四批新增的（第三批那 70 张已抽过）；
 地点 63 张里先看层岩巨渊、挪德卡莱这类会出现在多篇任务里的。复核通过的改 `status: reviewed`，
 重跑 `load_knowledge.py --apply` 即生效。
+
+## 12. 复核流程（190 张待核）
+
+卡片攒到 250 张后，复核成了瓶颈。这里定了两件事：**先看哪些**、**看完记在哪**。
+
+### 先看哪些
+
+`python scripts/review_queue.py --top 30` 会输出 `exports/review/entity-review-queue.md`。
+
+排序不是拍脑袋：先看「出现在多少篇**任务**正文里」，再看「出现在多少篇文档里」。
+理由很实际——`枫丹` 出现在 268 篇任务里，它要是类型写错，错的是整库的引用关系；
+一个只在两篇观景点文本里出现的 NPC，错了也没人引用。
+
+脚本同时做三项**机械校验**，不用人判断：
+
+1. 引文是否真的在它声称的那一篇里；
+2. 名字是否真的出现在引文里；
+3. 人物的类型是否与来源角色页一致。
+
+人只需要判断：**类型对不对、名字是不是通行写法、别名该不该补**。
+
+### 看完记在哪
+
+结论写 `knowledge/review-state.yaml`，**不写进 `seed-*.yaml`**：
+
+```yaml
+reviewed:
+  - id: entity.fontaine
+    date: 2026-11-05
+    note: 抽检：类型/名字通行写法/引文命中，三者一致
+rejected: []
+```
+
+原因很直接：`seed-stage3.yaml`、`seed-stage4.yaml` 是生成物，重新生成会覆盖手写状态。
+`load_knowledge.py` 与 `export_entity_cards.py` 都读这份清单，命中即 `status: reviewed`。
+
+```bash
+python scripts/review_queue.py --mark entity.fontaine --note "类型/名字/引文一致"
+python scripts/review_queue.py --unmark entity.fontaine
+python scripts/load_knowledge.py --apply      # 库里状态跟着变
+python scripts/export_entity_cards.py --apply # 卡片也跟着变
+```
+
+### 首轮结果
+
+按队列核了前 30 张，三处问题已修：`枫丹科学院` 分类由地点改组织、
+第三批描述里的「证据出自{region}地区文档」去掉（会读成归属）、
+`▌…` 版式标题与「…：」提示句不再当证据。
