@@ -221,7 +221,8 @@ def entity_evidence_rows(con: sqlite3.Connection, entity_id: str) -> list[sqlite
            FROM entity_evidence ev
            LEFT JOIN documents d ON d.doc_id = ev.doc_id
            LEFT JOIN sections s ON s.section_id = ev.section_id
-           WHERE ev.entity_id = ? ORDER BY ev.doc_id, ev.evidence_id""",
+           WHERE ev.entity_id = ?
+           ORDER BY ev.is_primary DESC, ev.doc_id, ev.evidence_id""",
         (entity_id,),
     ).fetchall()
 
@@ -814,6 +815,15 @@ def render_entity_detail(entity_id: str) -> str | None:
         names = entity_names(con, entity_id)
         claims = entity_claims(con, entity_id)
         evidence = entity_evidence_rows(con, entity_id)
+        # 全库提及：卡片只锚定一两条证据，但这个名字在正文里出现多少次是另一回事，
+        # 两个数字必须同时显示，否则「176 篇提及 / 1 条关联原文」会被当成数据缺失。
+        mention_docs, mention_sections, mention_quests = con.execute(
+            """SELECT COUNT(DISTINCT s.doc_id), COUNT(*),
+                      COUNT(DISTINCT CASE WHEN d.doc_type = 'quest' THEN s.doc_id END)
+               FROM sections s JOIN documents d ON d.doc_id = s.doc_id
+               WHERE s.body LIKE ?""",
+            (f"%{row['canonical_name']}%",),
+        ).fetchone()
         outgoing, incoming = entity_relation_rows(con, entity_id)
         tl_rows = entity_timeline_rows(con, entity_id)
     finally:
@@ -889,6 +899,8 @@ def render_entity_detail(entity_id: str) -> str | None:
       <div class="stats-line">
         {esc(ENTITY_TYPE_LABELS.get(row['entity_type'], row['entity_type']))} ·
         剧透等级 {row['spoiler_level']} · status {esc(row['status'])} ·
+        全库提及 {mention_docs} 篇（任务 {mention_quests} 篇 / 共 {mention_sections} 段）·
+        <a href="/?q={quote(row['canonical_name'], safe='')}">检索这些原文 →</a> ·
         <a href="/entities">全部实体</a> · <a href="/timeline">时间线</a> ·
         <a href="/">回到原文检索</a>
       </div>
@@ -902,7 +914,8 @@ def render_entity_detail(entity_id: str) -> str | None:
       <article class="detail-card">
         <h2>关联原文（{len(docs)}）</h2>
         <ul class="detail-docs">{doc_links}</ul>
-        <p class="detail-note">点进去看原文那一句，知识层只是索引。</p>
+        <p class="detail-note">这里只列卡片的锚定出处（每张卡至少一条，优先取整篇在讲它的文档）；
+          全库还有 {mention_docs} 篇提到过「{esc(row['canonical_name'])}」，点上方的「检索这些原文」看全部。</p>
       </article>
     </div>
     <article class="detail-card wide">
@@ -1170,6 +1183,13 @@ class Handler(BaseHTTPRequestHandler):
             item["aliases"] = entity_names(con, entity_id)
             item["claims"] = [dict(c) for c in entity_claims(con, entity_id)]
             item["evidence"] = [dict(e) for e in entity_evidence_rows(con, entity_id)]
+            item["mention_docs"], item["mention_sections"], item["mention_quests"] = con.execute(
+                """SELECT COUNT(DISTINCT s.doc_id), COUNT(*),
+                          COUNT(DISTINCT CASE WHEN d.doc_type = 'quest' THEN s.doc_id END)
+                   FROM sections s JOIN documents d ON d.doc_id = s.doc_id
+                   WHERE s.body LIKE ?""",
+                (f"%{row['canonical_name']}%",),
+            ).fetchone()
             outgoing, incoming = entity_relation_rows(con, entity_id)
             item["relations_out"] = [dict(r) for r in outgoing]
             item["relations_in"] = [dict(r) for r in incoming]

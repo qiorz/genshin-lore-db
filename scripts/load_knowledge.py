@@ -244,13 +244,14 @@ def main() -> int:
             # 出处单独一条条存：详情页要能点回原文那一句。
             # 无稳定主键，按 entity 先删后插，保证幂等。
             con.execute("DELETE FROM entity_evidence WHERE entity_id=?", (eid,))
-            for ev in item.get("evidence") or []:
+            for i, ev in enumerate(item.get("evidence") or []):
                 found = resolve(con, ev["doc"], ev["quote"], cache)
                 con.execute(
                     """INSERT INTO entity_evidence
                        (entity_id, doc_id, section_id, quote, is_primary)
-                       VALUES (?,?,?,?,1)""",
-                    (eid, ev["doc"], found[0] if found else None, ev["quote"]),
+                       VALUES (?,?,?,?,?)""",
+                    (eid, ev["doc"], found[0] if found else None, ev["quote"],
+                     1 if i == 0 else 0),
                 )
         for item in claims:
             found = resolve(con, item["doc"], item["quote"], cache)

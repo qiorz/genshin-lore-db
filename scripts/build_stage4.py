@@ -232,6 +232,49 @@ def best_evidence(con, name: str, cache: dict) -> tuple[str, str, int] | None:
     return best
 
 
+
+def best_evidences(con, name: str, cache: dict, k: int = 3) -> list[tuple[str, str]]:
+    """多锚点：最多 k 篇不同文档、每篇一句。
+
+    单条证据对「被提到几百次」的概念太单薄；而种子的 evidence 本来就是列表，
+    多写几条不用改结构。评分同时考虑文档类型、标题是否在讲它、句子是否把头名当主语。
+    """
+    key = ("multi", name)
+    if key in cache:
+        return cache[key]
+    rows = con.execute(
+        """SELECT s.doc_id, d.doc_type, d.title, s.body
+           FROM sections s JOIN documents d ON d.doc_id = s.doc_id
+           WHERE s.body LIKE ?""",
+        (f"%{name}%",),
+    ).fetchall()
+    # 「记忆力」「记忆感」这类是构词，不是「记忆」这个概念本身
+    BAD_SUFFIX = "力感性者家员度率化"
+    best: dict[str, tuple[float, str]] = {}
+    for doc_id, doc_type, title, body in rows:
+        quote = pick_quote(body, name, lo=14, hi=80)
+        if not quote:
+            continue
+        pos = quote.find(name)
+        nxt = quote[pos + len(name):pos + len(name) + 1]
+        if nxt and nxt in BAD_SUFFIX:
+            continue
+        score = DOC_SCORE.get(doc_type, 0)
+        if name in (title or ""):
+            score += 2
+        if f"「{name}」" in quote:
+            score += 3
+        elif quote.startswith(name) or quote.find(name) <= 4:
+            score += 1
+        score -= len(quote) / 200.0
+        if doc_id not in best or score > best[doc_id][0]:
+            best[doc_id] = (score, quote)
+    picked = sorted(best.items(), key=lambda kv: -kv[1][0])[:k]
+    out = [(doc_id, quote) for doc_id, (_s, quote) in picked]
+    cache[key] = out
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true", help="写 seed-stage4.yaml")
@@ -281,6 +324,7 @@ def main() -> int:
         added_names.add(name)
         entries.append({
             "type": "character", "name": name, "doc": row["doc_id"], "quote": quote,
+            "evidences": [(row["doc_id"], quote)],
             "desc": char_description(name, meta.get(name, {})),
         })
 
@@ -291,15 +335,16 @@ def main() -> int:
         if name in existing or name in added_names:
             skipped.append((etype, name, "库里已有同名实体" if name in existing else "候选表内重名，保留首次出现的分类"))
             continue
-        hit = best_evidence(con, name, cache)
-        if not hit:
+        evidences = best_evidences(con, name, cache, k=3)
+        if not evidences:
             skipped.append((etype, name, "语料里没有含这个名字的段落"))
             continue
-        doc_id, quote, _key = hit
+        doc_id, quote = evidences[0]
         label = "地点" if etype == "location" else "组织"
         added_names.add(name)
         entries.append({
             "type": etype, "name": name, "doc": doc_id, "quote": quote,
+            "evidences": evidences,
             "desc": f"{label}条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对",
         })
 
@@ -339,7 +384,7 @@ def main() -> int:
                 {
                     "id": e["id"], "type": e["type"], "name": e["name"],
                     "description": e["desc"], "spoiler": 1, "aliases": [],
-                    "evidence": [{"doc": e["doc"], "quote": e["quote"]}],
+                    "evidence": [{"doc": d, "quote": q} for d, q in e["evidences"]],
                 }
                 for e in entries
             ],

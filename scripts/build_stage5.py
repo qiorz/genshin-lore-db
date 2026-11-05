@@ -28,7 +28,7 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from build_stage4 import best_evidence, pick_quote, slug  # noqa: E402
+from build_stage4 import DOC_SCORE, best_evidences, pick_quote, slug  # noqa: E402,F401  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / "db/genshin_lore.sqlite3"
@@ -160,6 +160,7 @@ QUOTA = {"concept": 35, "creature": 23, "deity": 8,
          "organization": 8, "event": 20}
 
 
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true")
@@ -190,7 +191,8 @@ def main() -> int:
     added: set[str] = set()
     cache: dict = {}
 
-    def add(etype: str, name: str, doc: str, quote: str, desc: str) -> None:
+    def add(etype: str, name: str, evidences: list[tuple[str, str]], desc: str) -> None:
+        doc, quote = evidences[0]
         eid = slug(name, doc)
         base, n = eid, 2
         while eid in taken_ids:
@@ -199,7 +201,7 @@ def main() -> int:
         taken_ids.add(eid)
         added.add(name)
         entries.append({"id": eid, "type": etype, "name": name, "doc": doc,
-                        "quote": quote, "desc": desc})
+                        "quote": quote, "evidences": evidences, "desc": desc})
 
     # --- 1. NPC 人物：按台词量取 ------------------------------------------
     speakers = con.execute(
@@ -228,7 +230,7 @@ def main() -> int:
             continue
         desc = (f"NPC 人物：台词 {s['n']} 段，出现在 {s['d']} 篇文档。"
                 "第五批扩量，描述只写语料统计，剧情身份请点证据原文核对")
-        add("character", name, row["doc_id"], quote, desc)
+        add("character", name, [(row["doc_id"], quote)], desc)
         npc += 1
     print(f"NPC 人物：{npc} 个（门槛 ≥{NPC_MIN_LINES} 段台词）")
 
@@ -246,14 +248,13 @@ def main() -> int:
         if name in existing_names or name in added or name in all_names:
             skipped.append((etype, name, "库里已有同名实体或别名"))
             continue
-        hit = best_evidence(con, name, cache)
-        if not hit:
+        evidences = best_evidences(con, name, cache, k=3)
+        if not evidences:
             skipped.append((etype, name, "语料里没有含这个名字的可用句子"))
             continue
-        doc_id, quote, _key = hit
         label = {"concept": "概念", "creature": "生物", "deity": "神明",
                  "organization": "组织", "event": "事件/节庆"}.get(etype, "条目")
-        add(etype, name, doc_id, quote,
+        add(etype, name, evidences,
             f"{label}条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）")
         hits[etype] += 1
 
@@ -266,9 +267,11 @@ def main() -> int:
     # --- 3. 输出 -----------------------------------------------------------
     with CSV_OUT.open("w", encoding="utf-8-sig", newline="") as fh:
         w = csv.writer(fh)
-        w.writerow(["entity_id", "type", "name", "doc_id", "quote", "description"])
+        w.writerow(["entity_id", "type", "name", "doc_id", "quote", "evidence_count",
+                    "description"])
         for e in entries:
-            w.writerow([e["id"], e["type"], e["name"], e["doc"], e["quote"], e["desc"]])
+            w.writerow([e["id"], e["type"], e["name"], e["doc"], e["quote"],
+                        len(e["evidences"]), e["desc"]])
     print(f"候选清单 -> {CSV_OUT}")
 
     if args.apply:
@@ -277,7 +280,7 @@ def main() -> int:
             "entities": [
                 {"id": e["id"], "type": e["type"], "name": e["name"],
                  "description": e["desc"], "spoiler": 1, "aliases": [],
-                 "evidence": [{"doc": e["doc"], "quote": e["quote"]}]}
+                 "evidence": [{"doc": d, "quote": q} for d, q in e["evidences"]]}
                 for e in entries
             ],
         }

@@ -807,6 +807,10 @@ entities:
   evidence:
   - doc: quest.obc.1231
     quote: 蒙德城现在的状况，您应该也已经有所了解了
+  - doc: lore.obc.501761
+    quote: 我们心怀感恩，坚定地支持着蒙德城与蒙德同胞们
+  - doc: quest.obc.505457
+    quote: 这关系到蒙德城内无数人的安全
 - id: entity.feng-qi-di
   type: location
   name: 风起地
@@ -816,6 +820,10 @@ entities:
   evidence:
   - doc: char.obc.57
     quote: 风起地中央矗立着一棵巨大的橡树
+  - doc: quest.obc.1106
+    quote: 然后再去风起地，帮我摘一株风车菊
+  - doc: char.obc.59
+    quote: 风起地的神树是初代「狮牙骑士」道路的终点
 - id: entity.xing-luo-hu
   type: location
   name: 星落湖
@@ -825,6 +833,10 @@ entities:
   evidence:
   - doc: quest.obc.508097
     quote: 所以星落湖原本的七天神像被你挪到哪里去了
+  - doc: quest.obc.592
+    quote: 从星落湖向东一段距离，在海滩的南方有一片山地
+  - doc: quest.obc.507621
+    quote: 说起星星和湖的话，那就是星落湖了吧
 - id: entity.da-da-wu-pa-gu
   type: location
   name: 达达乌帕谷
@@ -834,6 +846,10 @@ entities:
   evidence:
   - doc: quest.obc.3536
     quote: 东西一定就在达达乌帕谷里——嗯
+  - doc: quest.obc.595
+    quote: 一个人就能…扫平达达乌帕谷的三大部族…
+  - doc: book.obc.521
+    quote: 丘丘人习俗的多元化——以蒙德的达达乌帕谷为例
 - id: entity.ben-lang-ling
   type: location
   name: 奔狼领
@@ -841,8 +857,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.588
+    quote: 本来只在「奔狼领」活动的狼群，最近胆子变大了
   - doc: quest.obc.1551
     quote: 在奔狼领搜索与深渊教团有关的线索
+  - doc: char.obc.56
+    quote: 奔狼领的树影从长变短，又从短变长
 - id: entity.zhai-xing-ya
   type: location
   name: 摘星崖
@@ -852,6 +872,10 @@ entities:
   evidence:
   - doc: quest.obc.6263
     quote: 到摘星崖啦，这里会有我们要找的人吗
+  - doc: quest.obc.505457
+    quote: 摘星崖一到晚上就有人占座，你又不是不知道
+  - doc: quest.obc.1106
+    quote: 最后去摘星崖上，帮我采一株塞西莉亚花回来
 - id: entity.feng-long-fei-xu
   type: location
   name: 风龙废墟
@@ -859,8 +883,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.533
+    quote: 旅行者，你知道「风龙废墟」吗
   - doc: quest.obc.1551
-    quote: 上次来风龙废墟，也有一瞬间…
+    quote: 行动起来吧，我在「风龙废墟」等你
+  - doc: book.obc.1159
+    quote: 因此这片遗迹近来定名为「风龙废墟」
 - id: entity.wang-feng-shan-di
   type: location
   name: 望风山地
@@ -870,6 +898,10 @@ entities:
   evidence:
   - doc: quest.obc.6263
     quote: 今天要从望风山地走到蒙德城门哦
+  - doc: quest.obc.595
+    quote: 望风山地的一大片地貌，都被那位强者改变了
+  - doc: char.obc.55
+    quote: 「望风山地红衣骑士」的传说，就此在蒙德流传开来
 - id: entity.li-yue-gang
   type: location
   name: 璃月港
@@ -879,6 +911,10 @@ entities:
   evidence:
   - doc: quest.obc.1686
     quote: 璃月港可真是一座繁忙的城市啊，虽然稻妻也很繁忙…
+  - doc: quest.obc.504443
+    quote: 今年的璃月港，亦有刻着降魔古印的吉语钱流通，刘苏兄没能识得，我略感意外
+  - doc: quest.obc.1250
+    quote: 回璃月港吧…找千岩军打听一下
 - id: entity.gui-li-yuan
   type: location
   name: 归离原
@@ -888,6 +924,10 @@ entities:
   evidence:
   - doc: quest.obc.720
     quote: 在这片「归离原」上，确实有着一批宝藏
+  - doc: book.obc.605
+    quote: 被称为归离原的土地在那时曾开遍琉璃百合
+  - doc: char.obc.1433
+    quote: 长到归离原人声鼎沸的集镇，在战后化为断壁残垣
 - id: entity.di-hua-zhou
   type: location
   name: 荻花洲
@@ -897,6 +937,10 @@ entities:
   evidence:
   - doc: quest.obc.1250
     quote: 说起来，荻花洲也有送仙典仪要用的东西吗
+  - doc: char.obc.1433
+    quote: 长到开满荻花洲的琉璃百合，在洪水后绝迹
+  - doc: char.obc.112
+    quote: 当然，荻花洲那些花花草草的命运，也绝对没好到哪去
 - id: entity.tian-heng-shan
   type: location
   name: 天衡山
@@ -906,6 +950,10 @@ entities:
   evidence:
   - doc: char.obc.1291
     quote: 她坐在天衡山上，俯瞰夜晚的璃月港
+  - doc: quest.obc.3539
+    quote: 据说天衡山风水宜人，许多仙人也喜欢到那里去
+  - doc: quest.obc.1702
+    quote: 你们知道天衡山南部的商道旁，有两尊「夜叉石像」么
 - id: entity.ceng-yan-ju-yuan
   type: location
   name: 层岩巨渊
@@ -915,6 +963,10 @@ entities:
   evidence:
   - doc: quest.obc.3870
     quote: 层岩巨渊还有很多秘密没被发掘呢…
+  - doc: lore.obc.501839
+    quote: 「层岩巨渊已无限期关闭，爆破工具全部封存此库房之内。若不具齐两重钥匙，则无法开启大门。」
+  - doc: lore.obc.501840
+    quote: 「…层岩巨渊地下的异变在缓慢加速，为了阻止情况进一步恶化，我们需要尽快将『摩科什装置』运抵底部组装…」
 - id: entity.qun-yu-ge
   type: location
   name: 群玉阁
@@ -922,8 +974,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.1434
-    quote: 你应该已经知道群玉阁重建完成的事了吧
+  - doc: char.obc.78
+    quote: 那是属于凝光的产业——「群玉阁」
+  - doc: quest.obc.1250
+    quote: 「群玉阁」为璃月而毁，于她意义重大
+  - doc: voice.obc.1334
+    quote: 但「群玉阁」的结局，还是不免令我等喟叹…
 - id: entity.wu-wang-po
   type: location
   name: 无妄坡
@@ -931,8 +987,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: book.obc.513
+    quote: 在轻策山以北的山峦与丘壑之间，有一片名为「无妄坡」的山坡,此地阴气浊重，多有异闻传说
   - doc: quest.obc.6678
     quote: 那你们去无妄坡看看吧，他应该在那儿
+  - doc: char.obc.1627
+    quote: 从无妄坡一直向前，便能抵达「边界」
 - id: entity.lu-hua-chi
   type: location
   name: 渌华池
@@ -942,6 +1002,10 @@ entities:
   evidence:
   - doc: quest.obc.6691
     quote: 渌华池吗…那附近地形复杂，但愿不要出事
+  - doc: quest.obc.1447
+    quote: 唉，眼睛会发光的雕像…这片渌华池里，到底会有什么秘密呢
+  - doc: book.obc.621
+    quote: 对了，在归离原的渌华池的对面有一座好高好高的断崖，在那里我撞见了一座遗迹守卫
 - id: entity.gu-yun-ge
   type: location
   name: 孤云阁
@@ -949,6 +1013,10 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.1250
+    quote: 我要唤醒「孤云阁」下沉睡的魔神
+  - doc: quest.obc.3538
+    quote: 接下来，陪我去一趟「孤云阁」如何
   - doc: quest.obc.500628
     quote: 孤云阁的螃蟹，是什么味道的来着
 - id: entity.hua-guang-lin
@@ -960,6 +1028,8 @@ entities:
   evidence:
   - doc: quest.obc.4124
     quote: 华光林、庆云顶等地，山势险峻，交通不便
+  - doc: char.obc.1627
+    quote: 而途经华光林山间歇脚亭的商贾，或许会有幸见到一位独坐桌边自娱自乐的神秘少女
 - id: entity.qing-yun-ding
   type: location
   name: 庆云顶
@@ -969,6 +1039,10 @@ entities:
   evidence:
   - doc: quest.obc.4124
     quote: 华光林、庆云顶等地，山势险峻，交通不便
+  - doc: voice.obc.1717
+    quote: 即便是我路过时瞟到过的「庆云顶」，那在大雾中只能看轮廓的山峦，也是别有一番韵味啊…
+  - doc: book.obc.638
+    quote: 冒险家罗尔德的日志·绝云间·庆云顶
 - id: entity.bi-shui-yuan
   type: location
   name: 碧水原
@@ -987,6 +1061,10 @@ entities:
   evidence:
   - doc: quest.obc.1455
     quote: 宝藏就在灵矩关最中间的那棵金色大树下，你们想要的话，就快点去拿吧
+  - doc: lore.obc.501780
+    quote: 「…在灵矩关那吃了亏，这次我决定在能看见七天神像的地方扎营，讨个彩头。」
+  - doc: quest.obc.4008
+    quote: 从层岩巨渊往北，会抵达灵矩关
 - id: entity.ming-shen-dao
   type: location
   name: 鸣神岛
@@ -994,8 +1072,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.2942
+    quote: 之前也有听来的人说过「稻妻」、「鸣神岛」之类的地方，你们也是稻妻人吗
   - doc: quest.obc.2292
     quote: 前往鸣神岛北端寻找阿顺的踪迹
+  - doc: quest.obc.4204
+    quote: 鸣神岛东侧的那座小岛就很合适
 - id: entity.ying-xiang-shan
   type: location
   name: 影向山
@@ -1005,6 +1087,10 @@ entities:
   evidence:
   - doc: quest.obc.2393
     quote: 前往影向山底部的裂口，与花散里交谈
+  - doc: quest.obc.504623
+    quote: 我听说影向山那边，也有人遇到过「二重身」了吧
+  - doc: char.obc.2404
+    quote: 我在影向山一处风景优美的地方备好了雅座，邀你一同赏绯樱、观海景
 - id: entity.shan-hu-gong
   type: location
   name: 珊瑚宫
@@ -1014,6 +1100,10 @@ entities:
   evidence:
   - doc: char.obc.2403
     quote: 自那日在珊瑚宫外俯瞰海祇岛起，她的愿望就从未变过
+  - doc: book.obc.2481
+    quote: 自此以后，珊瑚宫遣使降服，尊稻妻幕府为大宗主也
+  - doc: book.obc.3227
+    quote: 简述了海祇岛的珊瑚宫民间信仰，并提出了较新的学术主张
 - id: entity.hai-qi-dao
   type: location
   name: 海祇岛
@@ -1021,8 +1111,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: book.obc.2481
+    quote: 是故珊瑚宫人名之「海祇岛」，盖以大蛇为神也
   - doc: lore.obc.501969
     quote: 「…雷神的祭坛在海祇岛上往往不会受到妥善对待，此处也是同样…」
+  - doc: quest.obc.3427
+    quote: 原来海祇岛下面有这么巨大的空间嘛
 - id: entity.he-guan
   type: location
   name: 鹤观
@@ -1031,7 +1125,11 @@ entities:
   aliases: []
   evidence:
   - doc: quest.obc.2942
-    quote: 呜呃，鹤观的地名都好麻烦……
+    quote: 言归正传，这次请大家过来，是希望各位能分享关于「鹤观」的情报
+  - doc: quest.obc.4070
+    quote: 鹤观的原住民曾以雷元素之魔鸟为信仰，以祭祀仪礼为核心组建起自己的文明
+  - doc: book.obc.638
+    quote: 此前多亏一个叫阿釜的当地青年帮了我许多忙，我才能成功从离岛脱身，绕过重重监视来到鹤观
 - id: entity.qing-lai-dao
   type: location
   name: 清籁岛
@@ -1041,6 +1139,10 @@ entities:
   evidence:
   - doc: quest.obc.2836
     quote: 清籁岛…唉，真想亲自过去看看
+  - doc: quest.obc.2942
+    quote: 祖先们在清籁岛上生活了很长时间
+  - doc: quest.obc.2631
+    quote: 确实，清籁岛上的雷元素很夸张呢…
 - id: entity.shen-wu-zhong
   type: location
   name: 神无冢
@@ -1048,8 +1150,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: voice.obc.3495
+    quote: 因此这里被称为「神无冢」，大意是「神不在的山丘」
   - doc: quest.obc.2400
     quote: 这里是神无冢啊，不论是稻妻人的信仰，还是珊瑚宫人的信仰，都无法照耀的地方
+  - doc: quest.obc.2942
+    quote: 那里的环境变得不宜居住，就迁到了神无冢
 - id: entity.ba-yun-dao
   type: location
   name: 八酝岛
@@ -1059,6 +1165,10 @@ entities:
   evidence:
   - doc: lore.obc.501998
     quote: 「…八酝岛前线部队的畏战现象十分严峻，已经引起家主大人的严重关注…」
+  - doc: quest.obc.2299
+    quote: 希望你在八酝岛的行程一路顺利
+  - doc: quest.obc.508046
+    quote: （八酝岛和踏鞴砂的「祟神」…）
 - id: entity.hua-jian-ban
   type: location
   name: 花见坂
@@ -1068,6 +1178,10 @@ entities:
   evidence:
   - doc: lore.obc.5802
     quote: 「请来花见坂找久岐忍，我将尽量悉数归还···当然，已经被玩坏掉的、吃掉的东西就爱莫能助了。」
+  - doc: char.obc.2124
+    quote: 毕竟，花见坂的大家都是宵宫的好朋友嘛
+  - doc: quest.obc.4121
+    quote: 天上地下花见坂荒泷派，从来只有我一个老大
 - id: entity.tian-shou-ge
   type: location
   name: 天守阁
@@ -1077,6 +1191,10 @@ entities:
   evidence:
   - doc: char.obc.3875
     quote: 去天守阁跟那群老古董开会，不必急于发言
+  - doc: quest.obc.501300
+    quote: 还有那个天守阁里的寂寞神明啊，你们知道吗
+  - doc: quest.obc.3531
+    quote: 闯进天守阁，在御前大放厥词，不是自投罗网是什么
 - id: entity.ta-bei-sha
   type: location
   name: 踏鞴砂
@@ -1084,8 +1202,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.2394
+    quote: 那座岛叫「踏鞴砂」，是生产锻造武器用的「玉钢」的冶炼厂
   - doc: lore.obc.501995
     quote: 「然而实在太过匆忙，无法找到目付大人与造兵司正大人，小人斗胆将三片钥匙藏在踏鞴砂内三处宝箱中…」
+  - doc: quest.obc.5794
+    quote: 自我来到踏鞴砂已经有些日子了
 - id: entity.gan-tian-cun
   type: location
   name: 绀田村
@@ -1093,8 +1215,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.2393
+    quote: 您眼前的村庄名叫「绀田村」，存在着一个需要被解开的…「结界」
   - doc: quest.obc.2599
     quote: 绀田村，好熟悉的名字，是哪里来着
+  - doc: book.obc.2448
+    quote: 三人在绀田村歇脚不久，便偶遇对母女
 - id: entity.mu-lou-cha-shi
   type: location
   name: 木漏茶室
@@ -1102,8 +1228,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: lore.obc.5803
-    quote: 「木漏茶室的梢小姐很可爱。」
+  - doc: voice.obc.2410
+    quote: 今日光临「木漏茶室」有何贵干
+  - doc: quest.obc.2431
+    quote: 这位客人，今日光临「木漏茶室」有何贵干
+  - doc: quest.obc.2599
+    quote: 等我们出了离岛，一定要去「木漏茶室」找他算账
 - id: entity.tian-yun-qia
   type: location
   name: 天云峠
@@ -1120,8 +1250,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.507302
-    quote: 前往净善宫与纳西妲、莱依拉和妮露对话
+  - doc: quest.obc.5299
+    quote: 为什么一直用这种方式，我记得你是住在「净善宫」来着
+  - doc: quest.obc.4723
+    quote: 毕竟我们之前，连「大慈树王」、「净善宫」什么的都没听说过呢
+  - doc: quest.obc.6044
+    quote: 啊啊——可恶，这下子纳西妲真的彻底被禁锢在「净善宫」了啊，糟糕了
 - id: entity.huan-na-lan-na
   type: location
   name: 桓那兰那
@@ -1129,8 +1263,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: lore.obc.502435
-    quote: 「…无忧节快要开始了。很多好久没见到的朋友，都回到了桓那兰那。兰拉迦也很开心，能够给他填补空缺，我也好开心…」
+  - doc: quest.obc.4691
+    quote: 总之，我们出发去「桓那兰那」吧
+  - doc: quest.obc.4690
+    quote: 只要唱大梦的曲调，就能进入「桓那兰那」
+  - doc: quest.obc.4692
+    quote: 虽然这个「桓那兰那」的地貌与我获得的记忆有所出入，但位置我大致心里有数
 - id: entity.hua-cheng-guo
   type: location
   name: 化城郭
@@ -1138,8 +1276,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.4723
+    quote: 这里叫「化城郭」，最早是须弥的学者们在雨林中搭建的临时休息处，现在这里主要由巡林员驻扎
   - doc: char.obc.4333
     quote: 化城郭的孩子喜欢看她缝制玩偶
+  - doc: quest.obc.5778
+    quote: 看来，化城郭的疗养水平还是那么高
 - id: entity.chi-wang-ling
   type: location
   name: 赤王陵
@@ -1147,6 +1289,10 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: lore.obc.509517
+    quote: 那么，真相便呼之欲出了——那就是所谓的「赤王陵」其实是莫诺马赫皇帝修建的
+  - doc: quest.obc.5011
+    quote: 那可不是普通的遗迹，如果文献的记载没错，那应该就是「赤王陵」，是埋葬暴君的地方
   - doc: quest.obc.7641
     quote: 莫非…赤王陵的变化…和你们有关
 - id: entity.ka-sa-zha-lai-gong
@@ -1158,6 +1304,10 @@ entities:
   evidence:
   - doc: char.obc.6490
     quote: 艾尔卡萨扎莱宫问世后，他名满须弥
+  - doc: char.obc.4736
+    quote: 多莉是卡萨扎莱宫的主人…你说什么
+  - doc: quest.obc.508722
+    quote: 卡萨扎莱宫就是她设计的，跟她合作我比较放心…
 - id: entity.jian-mo-zhi-dian
   type: location
   name: 缄默之殿
@@ -1166,7 +1316,11 @@ entities:
   aliases: []
   evidence:
   - doc: quest.obc.501326
-    quote: 他跟缄默之殿的关系，说不定比你还大
+    quote: 等一下等一下，「缄默之殿」的纹章…
+  - doc: quest.obc.507289
+    quote: 嗯，你果然还记得，我们「缄默之殿」的发源地
+  - doc: voice.obc.501481
+    quote: 不知你是否听说过，「缄默之殿」这一机构最初是赫曼努比斯大人建立的
 - id: entity.lu-jing-quan
   type: location
   name: 露景泉
@@ -1174,8 +1328,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.7202
+    quote: 这个喷泉叫做「露景泉」，是枫丹所有水流的交汇之处
   - doc: quest.obc.7431
     quote: 露景泉亮起的同时，一阵眩晕感袭来…
+  - doc: char.obc.500291
+    quote: 若非露景泉的泉水…默默收容了芙宁娜的泪水的话
 - id: entity.pei-te-li-ke-zhen
   type: location
   name: 佩特莉可镇
@@ -1185,6 +1343,10 @@ entities:
   evidence:
   - doc: lore.obc.504567
     quote: …这次航行的目的地是佩特莉可镇，那里据说藏有「铃兰十字结社」的秘宝，还是传说中褪色城堡的所在
+  - doc: quest.obc.501361
+    quote: 佩特莉可镇的居民，他们的灵魂被带走了
+  - doc: lore.obc.501301
+    quote: 前往佩特莉可镇的客运业务现已恢复正常
 - id: entity.sheng-huo-jing-ji-chang
   type: location
   name: 圣火竞技场
@@ -1192,8 +1354,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: lore.obc.504218
-    quote: 「『归火圣夜巡礼』结束后，『圣火竞技场』将进行维护，原则上不作它用。」
+  - doc: book.obc.503020
+    quote: 获取方式：「圣火竞技场」外围无法使用的合成台对面的箱子上
+  - doc: book.obc.503017
+    quote: 获取方式：「圣火竞技场」水池NPC 娜玛卡 旁边的 箱子上
+  - doc: quest.obc.505144
+    quote: 「圣山」的称呼是很久很久以前的织卷留下来的…对我们来说，还是「圣火竞技场」要更「圣」一筹呢
 - id: entity.nuo-de-ka-lai
   type: location
   name: 挪德卡莱
@@ -1202,7 +1368,11 @@ entities:
   aliases: []
   evidence:
   - doc: quest.obc.506587
-    quote: 难道挪德卡莱的凯瑟琳会下班吗
+    quote: 可到了「挪德卡莱」，我劝你们最好不要和「愚人众」对着干
+  - doc: quest.obc.507858
+    quote: 唔…月亮的确是从你口中的那个，未来称之为「挪德卡莱」的地方升起的
+  - doc: quest.obc.508321
+    quote: 挪德卡莱有很多有意思的东西呀
 - id: entity.xi-xi-dao
   type: location
   name: 希汐岛
@@ -1212,6 +1382,10 @@ entities:
   evidence:
   - doc: quest.obc.506655
     quote: 只是希汐岛这边也用不上什么摩拉，所以就全都送给你们吧
+  - doc: quest.obc.507699
+    quote: 希汐岛和那夏镇交给菈乌玛小姐，愚人众方面和皮拉米达城我来安排
+  - doc: lore.obc.506516
+    quote: 希汐岛上向来少有狂猎肆虐，狂猎似乎畏惧着月亮的力量，不敢靠近
 - id: entity.tian-ling-feng-xing
   type: organization
   name: 天领奉行
@@ -1219,8 +1393,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.4009
-    quote: 你说天领奉行勾结愚人众的事情
+  - doc: char.obc.4197
+    quote: 他和九条小姐一样，是「天领奉行」的人
+  - doc: char.obc.2402
+    quote: 为「天领奉行」工作的九条裟罗…她总是一脸严肃
+  - doc: quest.obc.2589
+    quote: 还有最近的「眼狩令」，便是由「天领奉行」负责执行
 - id: entity.kan-ding-feng-xing
   type: organization
   name: 勘定奉行
@@ -1228,8 +1406,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.3996
-    quote: 勘定奉行家主名代，柊千里大人
+  - doc: voice.obc.2705
+    quote: 这里是「远国监司」，受「勘定奉行」管辖
+  - doc: voice.obc.2703
+    quote: 此处乃是「勘定奉行」要地，是全离岛的管理中枢
+  - doc: quest.obc.4708
+    quote: 「勘定奉行」的人一点儿都不想搭理我们，甚至巴不得我们倒霉呢⋯
 - id: entity.nan-shi-zi-chuan-dui
   type: organization
   name: 南十字船队
@@ -1239,6 +1421,10 @@ entities:
   evidence:
   - doc: quest.obc.501513
     quote: 「南十字船队」的首席技术官似乎有事相托…
+  - doc: quest.obc.2599
+    quote: 过去连暴风雨都没法让「南十字船队」耽搁，这次我可是给足了你们面子啊
+  - doc: lore.obc.5982
+    quote: 近日凝光大人特批准增建三座船坞仓库，以供「南十字船队」停泊维护之需
 - id: entity.qian-yan-jun
   type: organization
   name: 千岩军
@@ -1246,8 +1432,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.1174
+    quote: 我是负责这片区域的「千岩军」
   - doc: voice.obc.2022
     quote: 逢岩，千岩军的一员，位居教头
+  - doc: quest.obc.4121
+    quote: 这些千岩军，应该也是他们的战友
 - id: entity.mao-xian-jia-xie-hui
   type: organization
   name: 冒险家协会
@@ -1257,6 +1447,10 @@ entities:
   evidence:
   - doc: quest.obc.652
     quote: 欢迎来到冒险家协会，我已经观察你很久了
+  - doc: quest.obc.7646
+    quote: 我们要去「冒险家协会」看看啦，你要不要去
+  - doc: quest.obc.1432
+    quote: 现在冒险家协会里的委托，也只有找猫找狗，搬货送信之类的委托了
 - id: entity.dao-bao-tuan
   type: organization
   name: 盗宝团
@@ -1264,8 +1458,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.3870
-    quote: 他之前是盗宝团，这样也可以吗…
+  - doc: quest.obc.1593
+    quote: 这是跨国犯罪组织「盗宝团」的符号
+  - doc: quest.obc.1583
+    quote: 这是跨国犯罪组织「盗宝团」的符号
+  - doc: quest.obc.1594
+    quote: 这是跨国犯罪组织「盗宝团」的符号
 - id: entity.feng-dan-ke-xue-yuan
   type: organization
   name: 枫丹科学院
@@ -1275,6 +1473,10 @@ entities:
   evidence:
   - doc: quest.obc.7373
     quote: 「枫丹科学院荣誉高级研究员」，欢迎，欢迎啊
+  - doc: quest.obc.6807
+    quote: 您也可以把它称作「枫丹科学院」，枫丹人也都这么叫
+  - doc: lore.obc.501301
+    quote: 「枫丹科学院」、「全提瓦特」以及「独一无二」等用词，涉嫌违反枫丹广告法律的相关规定
 - id: entity.zheng-qi-niao-bao
   type: organization
   name: 蒸汽鸟报
@@ -1282,6 +1484,10 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.502283
+    quote: 听说在枫丹格外活跃的旅行者即将启程，「蒸汽鸟报」自然不会错过这个报道机会啊
+  - doc: quest.obc.7274
+    quote: 嘿嘿，我已经迫不及待地想要看到明天早上的「蒸汽鸟报」了，应该会有关于林尼与塞萨尔的报道吧
   - doc: quest.obc.7064
     quote: 每个向我们蒸汽鸟报请求帮助的市民都是一副忧心忡忡的模样，但你的步伐非常悠闲，表情也很轻松
 - id: entity.te-xun-dui
@@ -1291,8 +1497,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.500557
-    quote: 特巡队队长在灰河长大很奇怪吗
+  - doc: voice.obc.500592
+    quote: 等到我回了「特巡队」的驻地，我帮您好好问问
+  - doc: quest.obc.500570
+    quote: 欢迎参与「特巡队」的特别活动，体验铳枪射手的快乐
+  - doc: quest.obc.7431
+    quote: 我记得枫丹有「警备队」、「逐影庭」，还有「特巡队」
 - id: entity.hui-sheng-zhi-zi
   type: organization
   name: 回声之子
@@ -1300,8 +1510,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: lore.obc.504122
-    quote: 「『回声之子』们，吆喝起来！下次撞见伊兹娜，把她扛在肩上，抛向天上，为她好好庆祝！」
+  - doc: quest.obc.502175
+    quote: 前往观看「回声之子」的舞蹈活动
+  - doc: quest.obc.504873
+    quote: 而且我们也不是「回声之子」的人
+  - doc: quest.obc.502979
+    quote: 没关系，那「回声之子」就先交给我们
 - id: entity.liu-quan-zhi-zhong
   type: organization
   name: 流泉之众
@@ -1309,8 +1523,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: lore.obc.504123
-    quote: 『流泉之众』欢迎各位远道而来的客人
+  - doc: quest.obc.502283
+    quote: 你们还没有去过「流泉之众」吧
+  - doc: quest.obc.502484
+    quote: 「流泉之众」的首领应该在这里吧
+  - doc: char.obc.501625
+    quote: 于是我就被安排在「流泉之众」特训
 - id: entity.hua-yu-hui
   type: organization
   name: 花羽会
@@ -1318,8 +1536,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: lore.obc.503637
-    quote: 「『花羽会』的战士们，感谢你们的付出与牺牲，得益于此，我们才能赢得这场胜利。」
+  - doc: quest.obc.502286
+    quote: 恰斯卡，你不是「花羽会」的吗
+  - doc: quest.obc.502342
+    quote: 医生为它治疗后，就领着它先回「花羽会」
+  - doc: quest.obc.502283
+    quote: 来自「花羽会」的参赛者恰斯卡选手一骑绝尘
 - id: entity.xuan-mu-ren
   type: organization
   name: 悬木人
@@ -1327,8 +1549,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: lore.obc.504121
-    quote: 「『悬木人』的兄弟姐妹们，想必大家都已经知道了，我们赢得了胜利。」
+  - doc: quest.obc.502283
+    quote: 把一些仪式道具送去「悬木人」
+  - doc: quest.obc.503161
+    quote: 「悬木人」的讯使也不会从天上落下来
+  - doc: voice.obc.502270
+    quote: 我是「悬木人」部族的首领，叫我瓦伊纳就好
 - id: entity.wo-lu-zhi-bang
   type: organization
   name: 沃陆之邦
@@ -1336,8 +1562,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: lore.obc.504846
-    quote: 「『沃陆之邦』的战士们，得益于你们的努力，才使得深渊大敌的入侵被我们挫败，损失也被控制在了最小。」
+  - doc: quest.obc.504837
+    quote: 你们来「沃陆之邦」有什么事吗
+  - doc: quest.obc.505275
+    quote: 「沃陆之邦」的人好像都热爱竞争
+  - doc: quest.obc.502979
+    quote: 我也要回一趟「沃陆之邦」，以防万一
 - id: entity.yan-mi-zhu
   type: organization
   name: 烟谜主
@@ -1345,8 +1575,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.505242
+    quote: 前往「烟谜主」查阅过去的织物
   - doc: quest.obc.503547
     quote: 这…烟谜主这个部族果然好神秘啊
+  - doc: quest.obc.502286
+    quote: 帮他解围的那种力量，来自「烟谜主」
 - id: entity.zhi-deng-shi
   type: organization
   name: 执灯士
@@ -1354,5 +1588,9 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.507424
+    quote: 「执灯士」也向来深知告别的重要性
+  - doc: quest.obc.506587
+    quote: 那借「执灯士」常用的告别语来说——我们墓里见
   - doc: lore.obc.507855
     quote: 「须知执灯士的头衔并非显荣的特权，亦无法带来名利。我们是执灯人，属于我们的只有荒原上的朔风。」

@@ -70,20 +70,34 @@ def save_state(data: dict) -> None:
 
 
 def collect(con: sqlite3.Connection) -> list[dict]:
-    rows = con.execute(
-        """SELECT e.entity_id, e.canonical_name, e.entity_type, e.description, e.status,
-                  ev.doc_id, ev.section_id, ev.quote, d.doc_type AS ev_type, d.title AS ev_title,
-                  s.speaker AS ev_speaker
-           FROM entities e
-           LEFT JOIN entity_evidence ev ON ev.entity_id = e.entity_id
-           LEFT JOIN documents d ON d.doc_id = ev.doc_id
-           LEFT JOIN sections s ON s.section_id = ev.section_id
-           WHERE e.status <> 'reviewed'
-           ORDER BY e.entity_id"""
+    """待复核实体 + 主证据 + 提及统计。
+
+    注意：一个实体现在可能有多条 entity_evidence（高频实体给了 3 个锚点），
+    所以不能直接 LEFT JOIN，否则同一个实体会出现多行、排队会重复。
+    这里先取「主锚点」一张表，再按 entity_id 对回。
+    """
+    entities = con.execute(
+        """SELECT entity_id, canonical_name, entity_type, description, status
+           FROM entities WHERE status <> 'reviewed' ORDER BY entity_id"""
     ).fetchall()
+
+    ev_map: dict[str, tuple[str, int | None, str]] = {}
+    for row in con.execute(
+        """SELECT entity_id, doc_id, section_id, quote FROM entity_evidence
+           ORDER BY is_primary DESC, evidence_id"""
+    ):
+        ev_map.setdefault(row["entity_id"], (row["doc_id"], row["section_id"], row["quote"]))
+
+    doc_meta = {r["doc_id"]: (r["doc_type"], r["title"])
+                for r in con.execute("SELECT doc_id, doc_type, title FROM documents")}
+    sec_speaker = {r["section_id"]: r["speaker"]
+                   for r in con.execute("SELECT section_id, speaker FROM sections")}
+
     out = []
-    for r in rows:
+    for r in entities:
         name = r["canonical_name"]
+        doc_id, section_id, quote = ev_map.get(r["entity_id"], ("", None, ""))
+        ev_type, ev_title = doc_meta.get(doc_id, ("", ""))
         docs, sections = con.execute(
             """SELECT COUNT(DISTINCT doc_id), COUNT(*) FROM sections WHERE body LIKE ?""",
             (f"%{name}%",),
@@ -95,36 +109,26 @@ def collect(con: sqlite3.Connection) -> list[dict]:
             (f"%{name}%",),
         ).fetchone()[0]
         quote_hit = None
-        if r["quote"] and r["doc_id"]:
-            probe = norm(r["quote"])[:14]
-            hit = con.execute(
-                """SELECT COUNT(*) FROM sections
-                   WHERE doc_id = ? AND section_id = ? AND body LIKE ?""",
-                (r["doc_id"], r["section_id"], f"%{r['quote'][:20]}%"),
-            ).fetchone()[0]
-            quote_hit = bool(hit)
-            if not quote_hit and probe:
-                quote_hit = bool(con.execute(
-                    "SELECT COUNT(*) FROM sections WHERE doc_id=? AND body LIKE ?",
-                    (r["doc_id"], f"%{r['quote'][:20]}%"),
-                ).fetchone()[0])
+        if quote and doc_id:
+            quote_hit = bool(con.execute(
+                "SELECT COUNT(*) FROM sections WHERE doc_id=? AND body LIKE ?",
+                (doc_id, f"%{quote[:20]}%"),
+            ).fetchone()[0])
         out.append({
             "entity_id": r["entity_id"], "name": name, "type": r["entity_type"],
-            "description": r["description"] or "", "doc_id": r["doc_id"] or "",
-            "ev_type": r["ev_type"] or "", "ev_title": r["ev_title"] or "",
-            "quote": r["quote"] or "", "doc_count": docs, "quest_docs": quests,
+            "description": r["description"] or "", "doc_id": doc_id,
+            "ev_type": ev_type, "ev_title": ev_title,
+            "quote": quote, "doc_count": docs, "quest_docs": quests,
             "section_count": sections,
             "quote_in_doc": bool(quote_hit),
-            # 名人的台词证据里不会出现他自己的名字，说话人就是他，也算命中
-            "quote_has_name": bool(r["quote"] and (name in r["quote"]
-                                                   or r["ev_speaker"] == name)),
-            # 只有证据取自角色页的角色才谈得上「类型一致」；
-            # 第三批的角色证据来自任务正文，那是正常的，不该报错。
+            # 人物的证据常常是他自己的台词，说话人匹配也算命中
+            "quote_has_name": bool(quote and (name in quote
+                                              or sec_speaker.get(section_id) == name)),
+            # 只有证据取自角色页的角色才谈得上「类型一致」
             "type_ok": (r["entity_type"] != "character")
-                       or (not (r["doc_id"] or "").startswith("char."))
-                       or (r["ev_type"] == "character"),
+                       or (not doc_id.startswith("char."))
+                       or (ev_type == "character"),
         })
-    # 先看剧情主干，再看覆盖广度
     out.sort(key=lambda x: (-x["quest_docs"], -x["doc_count"], -x["section_count"]))
     return out
 

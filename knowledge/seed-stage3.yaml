@@ -293,6 +293,10 @@ entities:
   evidence:
   - doc: lore.obc.502016
     quote: 「…无论如何，需要留一些预备措施…分离了一部分仙力，置入彩蝶的鳞羽…它们的寿命将会大大延长…」
+  - doc: quest.obc.500786
+    quote: 唔…用「仙力」试试吧，旅行者
+  - doc: quest.obc.4121
+    quote: 「仙力与人力合一，可转斗移星，举天地之威。」
 - id: entity.archon-war-concept
   type: concept
   name: 魔神战争
@@ -302,6 +306,10 @@ entities:
   evidence:
   - doc: lore.obc.501969
     quote: 「…这处遗迹在风格上与魔神战争时代古建筑相近，但仍有待进一步研究…」
+  - doc: char.obc.1498
+    quote: 直截了当的答案则是：七神体系建立前，在「魔神战争」中惨败的魔神余下的残渣
+  - doc: quest.obc.505275
+    quote: 而且它好像搞错了什么，我们在说的对抗深渊的战争，它好像以为是什么…「魔神战争」
 - id: entity.constellation
   type: concept
   name: 命之座
@@ -311,6 +319,10 @@ entities:
   evidence:
   - doc: char.obc.500207
     quote: ——当然，他生来就是人的姿态。那为什么他的命之座却是巨灵龙的样子呢？这一切或许就有另一个没有那么多世界命运牵扯的版本了：
+  - doc: char.obc.505631
+    quote: 高傲如他们，自不会接受「命之座」的禁锢
+  - doc: char.obc.92
+    quote: 她的「命之座」以「沙漏」为名，象征着知识、时间与等价交换
 - id: entity.delusion
   type: concept
   name: 邪眼
@@ -320,6 +332,10 @@ entities:
   evidence:
   - doc: quest.obc.3531
     quote: 想要阻止他们，就只能捣毁他们生产邪眼的工厂。但那里一定有重兵把守…
+  - doc: quest.obc.501870
+    quote: 奥古斯都花…是靠「邪眼」的力量，扭曲、畸变出的花种
+  - doc: char.obc.76
+    quote: 这天下午，克利普斯·莱艮芬德强行使用邪力，遭到「邪眼」的反噬
 - id: entity.descender
   type: concept
   name: 降临者
@@ -329,6 +345,10 @@ entities:
   evidence:
   - doc: lore.obc.507822
     quote: 借努昂诺塔（即哥伦比娅的灵魂碎片），同世界的「变数」（即「降临者」）相连接，达到将哥伦比娅的完整灵魂由「月亮倒影」空间反向寻回的效果…
+  - doc: quest.obc.507699
+    quote: 「降临者」，我来为你展现世界
+  - doc: quest.obc.506587
+    quote: 我是提瓦特之外来的「降临者」…
 - id: entity.forbidden-knowledge
   type: concept
   name: 禁忌知识
@@ -338,6 +358,10 @@ entities:
   evidence:
   - doc: quest.obc.508722
     quote: 当我被阿赫玛尔算计，被禁忌知识折磨时，是布耶尔将我从苦痛中解救出来。
+  - doc: quest.obc.6463
+    quote: 你是怎么被「禁忌知识」缠上的
+  - doc: char.obc.5111
+    quote: 要怎么样才能完全消除「禁忌知识」对世界树的威胁呢
 - id: entity.genius-invokation
   type: concept
   name: 七圣召唤
@@ -347,6 +371,10 @@ entities:
   evidence:
   - doc: lore.obc.503120
     quote: 禁止携带与生产无关的杂物进入生产区，包括七圣召唤卡牌和小说等。
+  - doc: quest.obc.6678
+    quote: 这是...「七圣召唤」的卡牌
+  - doc: quest.obc.6682
+    quote: 渐渐地，就变成了「七圣召唤」
 - id: entity.loom-of-fate
   type: concept
   name: 命运的织机
@@ -356,6 +384,10 @@ entities:
   evidence:
   - doc: quest.obc.2247
     quote: 它们…「深渊」，似乎正在执行一个计划。计划的关键词是…「命运的织机」。
+  - doc: quest.obc.6236
+    quote: （这个概念出现了…「命运的织机」…）
+  - doc: quest.obc.505514
+    quote: 使用「命运的织机」重新编织了坎瑞亚的地脉
 - id: entity.ruin-guard
   type: concept
   name: 遗迹守卫
@@ -365,6 +397,10 @@ entities:
   evidence:
   - doc: lore.obc.968
     quote: 「但是，其中有一个巨大的遗迹守卫，真的很可怕。起初我以为是废弃的古代机关，靠近后竟然站起来要攻击我。我赶紧逃了。」
+  - doc: quest.obc.2247
+    quote: 「遗迹守卫」这个名字，是现代人根据现代的「印象」取的
+  - doc: quest.obc.4707
+    quote: 经常有遗迹守卫冒出来的遗迹…
 - id: entity.seelie
   type: concept
   name: 仙灵
@@ -374,6 +410,10 @@ entities:
   evidence:
   - doc: quest.obc.507425
     quote: 你们来了，我还在想你们会不会沿路去拾仙灵开启的宝藏，在周围花半天功夫检查一遍才绕来这个地方。
+  - doc: quest.obc.506587
+    quote: 在空中一飘一飘的，和「仙灵」长得好像
+  - doc: char.obc.3386
+    quote: 将祭品献给秘术召唤来的「仙灵」，便能以活人之身，索回亡人之命
 - id: entity.spiral-abyss
   type: concept
   name: 深境螺旋
@@ -383,6 +423,10 @@ entities:
   evidence:
   - doc: artifact.obc.504793
     quote: 独自漫步于深境螺旋的废墟间，意图探寻魔剑士向她提及的旅者的踪迹…
+  - doc: notice.mys.62920608
+    quote: 5. 优化了“活动一览”界面，「深境螺旋」的红点显示逻辑
+  - doc: notice.mys.53490107
+    quote: 1. 修复了完成「深境螺旋」挑战后，结算界面按键未显示即可进行相关操作的问题
 - id: entity.apep
   type: creature
   name: 阿佩普
@@ -392,6 +436,10 @@ entities:
   evidence:
   - doc: lore.obc.509001
     quote: …极度烦躁。记录工作也因此受到严重影响。卢沙里姆说，阿佩普王已经听闻了此事，也已经派出了她手下最好的医疗官…但即便是父神尼伯龙根为我们留下的三位月之女，
+  - doc: quest.obc.508722
+    quote: 阿佩普将自己的生命力分给她了
+  - doc: quest.obc.508772
+    quote: 可阿佩普不一样，她从来都看不起他
 - id: entity.azhdaha
   type: creature
   name: 若陀龙王
@@ -401,6 +449,10 @@ entities:
   evidence:
   - doc: quest.obc.4008
     quote: 若陀龙王原是岩神摩拉克斯的知交与战友，寿命远超人类。然而，大地的衍生物正如这地面上的岩石…
+  - doc: quest.obc.4214
+    quote: 几位还请想想，岩王帝君不是将那若陀龙王封入地下了
+  - doc: quest.obc.4124
+    quote: 青墟浦本就有许多秘密，过去若陀龙王在那边大闹一场，更多的秘密被深埋在地下
 - id: entity.bathysmal-vishap
   type: creature
   name: 深海龙蜥
@@ -410,6 +462,10 @@ entities:
   evidence:
   - doc: lore.obc.501973
     quote: 「这一次与海祇选出的勇士同行，发现了深海龙蜥居然都在这里活动了。」
+  - doc: quest.obc.3622
+    quote: 可是深海龙蜥不是喜欢黑暗的吗
+  - doc: quest.obc.3427
+    quote: 深海龙蜥，纯粹而且原始的元素生物
 - id: entity.hilichurl
   type: creature
   name: 丘丘人
@@ -419,6 +475,10 @@ entities:
   evidence:
   - doc: quest.obc.533
     quote: 好在很早之前我就侦察到了动向，丘丘人的聚落不自然地向蒙德城附近迁移。
+  - doc: book.obc.520
+    quote: 描述：丘丘人的生活也有酒和诗吗
+  - doc: book.obc.521
+    quote: 丘丘人衡量地位的标准并非只有年龄
 - id: entity.oceanid
   type: creature
   name: 纯水精灵
@@ -428,6 +488,10 @@ entities:
   evidence:
   - doc: lore.obc.503060
     quote: 或许你会觉得这样的记录没有任何科学价值，主张物证与记载指出纯水精灵的起源要早于厄歌莉娅以及此前的雷穆利亚，认为《林猪因为地域差异的不同形态演化研究田野跟
+  - doc: quest.obc.7236
+    quote: （为什么要和「纯水精灵」较真？）
+  - doc: quest.obc.7201
+    quote: 你将与那只「纯水精灵」意识连接时发生的事告诉了大家…
 - id: entity.aaru-village
   type: location
   name: 阿如村
@@ -437,6 +501,10 @@ entities:
   evidence:
   - doc: lore.obc.501739
     quote: 「现在的年轻人就是喜欢想太多。我们阿如村的人要不是有树王她老人家的庇护，早就在那些神殿废墟下面当骷髅了。」
+  - doc: quest.obc.508722
+    quote: 你是说阿如村的守护者珐露珊吗
+  - doc: quest.obc.5862
+    quote: 先回阿如村，再制订下一步计划
 - id: entity.dawn-winery
   type: location
   name: 晨曦酒庄
@@ -446,6 +514,10 @@ entities:
   evidence:
   - doc: lore.obc.501761
     quote: 晨曦酒庄精心酿制的各式美酒，满足了人们对杯中物的情有独钟。此外，仅仅酒庄所产生的税收，就达到了骑士团年度开销的11.4%。我们心怀感恩，坚定地支持着蒙德
+  - doc: quest.obc.591
+    quote: 而他的真实身份即是——「晨曦酒庄」的老板迪卢克
+  - doc: quest.obc.1263
+    quote: 咳…说远了，怎么，您今天是来我们「晨曦酒庄」选酒的吗
 - id: entity.dragonspine
   type: location
   name: 龙脊雪山
@@ -455,6 +527,10 @@ entities:
   evidence:
   - doc: quest.obc.507425
     quote: 我在龙脊雪山的石碑上见过这个名字，很遗憾，留存至今的也只有废墟了。
+  - doc: quest.obc.1796
+    quote: 这份「冒险情报」，是关于蒙德旁边那座「龙脊雪山」的
+  - doc: quest.obc.505457
+    quote: 事情与龙脊雪山有关，他有发言权
 - id: entity.fontaine-city
   type: location
   name: 枫丹廷
@@ -464,6 +540,10 @@ entities:
   evidence:
   - doc: lore.obc.503061
     quote: 「执律庭对有关公共安全经费的过度使用之现状与枫丹廷公共安全确保的关联」。
+  - doc: lore.obc.505355
+    quote: 「枫丹廷近期要闻更新公示。」
+  - doc: lore.obc.503062
+    quote: 今夜，枫丹廷最耀眼的双子星，为你揭秘
 - id: entity.fortress-of-meropide
   type: location
   name: 梅洛彼得堡
@@ -473,6 +553,10 @@ entities:
   evidence:
   - doc: quest.obc.507699
     quote: 我瞧瞧盒子上写了什么…「致敬梅洛彼得堡充满趣味的取餐机制，我们为您献上：随机幸运饼干！开启一天的运势吧！」
+  - doc: lore.obc.501743
+    quote: 将其遣送至「梅洛彼得堡」服刑
+  - doc: lore.obc.503125
+    quote: 入住梅洛彼得堡二百四十天，日常训练
 - id: entity.grand-narukami-shrine
   type: location
   name: 鸣神大社
@@ -482,6 +566,10 @@ entities:
   evidence:
   - doc: lore.obc.5803
     quote: 经宫司八重神子大人许可，鸣神大社将向受战争影响之贫困商户、困难家庭发放无息扶助贷款、慰问粮等补助福利。
+  - doc: quest.obc.2599
+    quote: 「鸣神大社」的大巫女…八重大人
+  - doc: quest.obc.2393
+    quote: 你好，远道而来的旅者，欢迎来到「鸣神大社」
 - id: entity.inazuma-city
   type: location
   name: 稻妻城
@@ -491,6 +579,10 @@ entities:
   evidence:
   - doc: lore.obc.5803
     quote: 近日有行踪可疑之外国人士进入稻妻城区，游荡不定，可见动机险恶。
+  - doc: quest.obc.504623
+    quote: 而既然犯人选择「稻妻城」作为新的目标，那他原先所在的「会场」，就会出现「空缺」…
+  - doc: char.obc.2142
+    quote: 离开稻妻城之后，万叶四处游历
 - id: entity.jueyun-karst
   type: location
   name: 绝云间
@@ -500,6 +592,10 @@ entities:
   evidence:
   - doc: lore.obc.501769
     quote: （绝云间示仙人的居所，难道这里示某位仙家的洞府？但似乎无法进入…）
+  - doc: quest.obc.677
+    quote: 尔是何人，因何擅闯「绝云间」
+  - doc: quest.obc.688
+    quote: 但是，「仙人」们不应该都住在「绝云间」里吗
 - id: entity.opera-epiclese
   type: location
   name: 欧庇克莱歌剧院
@@ -509,6 +605,10 @@ entities:
   evidence:
   - doc: lore.obc.501740
     quote: 近日在欧庇克莱歌剧院，著名疑案「少女连环失踪案」的终于尘埃落定。
+  - doc: quest.obc.7201
+    quote: 与此同时，「欧庇克莱歌剧院」内…
+  - doc: lore.obc.501743
+    quote: 欧庇克莱歌剧院须在预约后取票入场
 - id: entity.poisson
   type: location
   name: 白淞镇
@@ -518,6 +618,10 @@ entities:
   evidence:
   - doc: lore.obc.501743
     quote: 「保卫白淞镇、驱逐恶霸匪帮的前灾厄时代最伟大的英雄故事！数十年来最激动人心的历史剧，近日将于歌剧院上演！」
+  - doc: quest.obc.7201
+    quote: 是白淞镇本地的商会，由老板一手扶持
+  - doc: quest.obc.7653
+    quote: 噢，白淞镇的情况…我来为你们说明吧
 - id: entity.port-ormos
   type: location
   name: 奥摩斯港
@@ -527,6 +631,10 @@ entities:
   evidence:
   - doc: lore.obc.502452
     quote: 「…卢妮雅大姐从奥摩斯港的雪国商人那里交了个大单子，帮他们处置了个叛徒什么的，总之又是一大笔收入…」
+  - doc: lore.obc.501738
+    quote: 奥摩斯港最大的旅舍，为往来商旅提供最贴心的服务
+  - doc: quest.obc.7646
+    quote: 嗯…非要说的话，那就是「维摩庄」和「喀万驿」和「奥摩斯港」了吧…
 - id: entity.qingce-village
   type: location
   name: 轻策庄
@@ -536,6 +644,10 @@ entities:
   evidence:
   - doc: lore.obc.6104
     quote: 无论您是仙人或是侠客，假如您路过轻策庄，又幸而读到我的留言，希望能烦您同我一叙。」
+  - doc: quest.obc.969
+    quote: 你知道这片地方的名字吧——「轻策庄」
+  - doc: quest.obc.501470
+    quote: 向轻策庄里的人询问小六的去向
 - id: entity.ritou
   type: location
   name: 离岛
@@ -545,6 +657,10 @@ entities:
   evidence:
   - doc: lore.obc.6121
     quote: 此乃幕府所设离岛告示板，各种事务，尽皆公示。闲人请勿擅自张贴！
+  - doc: lore.obc.501716
+    quote: 「离岛的港口过于防备外国人，对于稻妻本土却疏于防备。」
+  - doc: quest.obc.2589
+    quote: 就算是突破万难，来到稻妻接待外国人的「离岛」，也需要出具相关证明，不然还是会被赶走…
 - id: entity.sumeru-desert
   type: location
   name: 须弥沙漠
@@ -554,6 +670,10 @@ entities:
   evidence:
   - doc: lore.obc.509517
     quote: 以主流史学界所笃信的须弥沙漠史为例，其中就存在诸多经不起推敲的疑点：
+  - doc: quest.obc.508519
+    quote: 须弥沙漠来的孩子，不也一样是孩子
+  - doc: char.obc.6180
+    quote: 瞧瞧，须弥沙漠的事就是这样，虽然表面上看毫无联系，但总有些看不见的脉络在暗地里勾连串结，直到时机到来，它们才彼此纠结着挤出地面，给大家一个「惊喜」
 - id: entity.thousand-winds-temple
   type: location
   name: 千风神殿
@@ -563,6 +683,10 @@ entities:
   evidence:
   - doc: lore.obc.968
     quote: 「前段时间去了东边的千风神殿，听说这是很久很久以前祭拜风的场所，非常气派。很难想象古代人是怎么造出这么宏伟的建筑的。」
+  - doc: quest.obc.503548
+    quote: 如果你愿意，请到「千风神殿」来找我吧，我已经拜托人把设备安装好了
+  - doc: quest.obc.507404
+    quote: 之前我不是说过，我曾在「千风神殿」偶遇了「时间」，并且得到了助力么
 - id: entity.wangshu-inn
   type: location
   name: 望舒客栈
@@ -572,6 +696,10 @@ entities:
   evidence:
   - doc: lore.obc.5801
     quote: 这里是望舒客栈的公告板，近况无论大小，皆悉心为客人公示。客人若有意见、需求或感触， 亦请在此留言。
+  - doc: quest.obc.677
+    quote: 去往「望舒客栈」，或可觅其踪迹
+  - doc: quest.obc.1702
+    quote: 「望舒客栈」就在附近，会威胁到来往的客人吧
 - id: entity.fontaine
   type: nation
   name: 枫丹
@@ -581,6 +709,10 @@ entities:
   evidence:
   - doc: quest.obc.505878
     quote: 密码筒？你居然没有直接给它来一枪…我看看，枫丹的密码盘、璃月的金属外壳…
+  - doc: quest.obc.509101
+    quote: 亏你们还解决了「枫丹」的危机
+  - doc: lore.obc.505355
+    quote: 「枫丹廷近期要闻更新公示。」
 - id: entity.natlan
   type: nation
   name: 纳塔
@@ -592,6 +724,10 @@ entities:
   evidence:
   - doc: quest.obc.505878
     quote: 纳塔的核心、枫丹的关节、蒙德的发饰…她看起来不属于任何一个国家。
+  - doc: lore.obc.504601
+    quote: 可他为什么要关闭奥奇卡纳塔的供能
+  - doc: lore.obc.504773
+    quote: 再等等吧，现在还不是时候，现在的纳塔还不能当你的家…
 - id: entity.church-of-favonius
   type: organization
   name: 西风教会
@@ -601,6 +737,10 @@ entities:
   evidence:
   - doc: lore.obc.508352
     quote: 「说起来，我先前一直以为，港口旁边的那栋小楼是你们西风教会的分部，就是传说中蒙德最古老的大圣堂，和我们至冬的白冕宫一样恢弘…」
+  - doc: char.obc.1744
+    quote: 蒙德城西风教会下属的一名修女
+  - doc: quest.obc.505457
+    quote: 西风教会…是芭芭拉和罗莎莉亚的同事吗
 - id: entity.eremites
   type: organization
   name: 镀金旅团
@@ -610,6 +750,10 @@ entities:
   evidence:
   - doc: lore.obc.500363
     quote: 海露港毗邻沙漠，有大量名为「镀金旅团」的非法人员在附近活动。请路过商旅提高警惕。
+  - doc: quest.obc.5016
+    quote: 镀金旅团成员说的话，绝对不作假
+  - doc: quest.obc.507290
+    quote: 看起来，有不少「镀金旅团」的佣兵呢…
 - id: entity.house-of-hearth
   type: organization
   name: 壁炉之家
@@ -619,6 +763,10 @@ entities:
   evidence:
   - doc: quest.obc.507000
     quote: 壁炉之家也常用代号行事，但人需要本名来锚定自我。以前的你大概会觉得无所谓吧，毕竟那时你四海为家，名字可有可无。
+  - doc: quest.obc.7202
+    quote: 你和琳妮特，其实是「壁炉之家」的人，没错吧
+  - doc: char.obc.501157
+    quote: 孩子们所处的组织名为「壁炉之家」，隶属于愚人众
 - id: entity.qixing
   type: organization
   name: 璃月七星
@@ -628,6 +776,10 @@ entities:
   evidence:
   - doc: lore.obc.501851
     quote: 「…与至冬国之合作协议就此作废，层岩巨渊之勘探工作改由璃月七星全权负责…」
+  - doc: quest.obc.688
+    quote: 这也是「璃月七星」默许的情况
+  - doc: quest.obc.1250
+    quote: 但「璃月七星」也不是坐以待毙的人
 - id: entity.thirty-men
   type: organization
   name: 三十人团
@@ -637,6 +789,10 @@ entities:
   evidence:
   - doc: lore.obc.501738
     quote: 如需雇佣保镖、守卫，亦或其他委托，请联系「三十人团」驻奥摩斯港队长费罗兹。
+  - doc: quest.obc.7647
+    quote: 你可能知道，「三十人团」受教令院雇佣，负有护卫整个须弥城的责任
+  - doc: quest.obc.6044
+    quote: …佣兵，你是「三十人团」的吧
 - id: entity.yashiro-commission
   type: organization
   name: 社奉行
@@ -646,3 +802,7 @@ entities:
   evidence:
   - doc: lore.obc.5803
     quote: 「感谢八重大人与社奉行大人为我们着想，只是每天来领取粮食的人太多了…」
+  - doc: char.obc.2123
+    quote: 稻妻「社奉行」神里家的大小姐
+  - doc: char.obc.2125
+    quote: 事实上，「终末番」是「社奉行」麾下的一个秘密组织
