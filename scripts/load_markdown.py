@@ -24,6 +24,9 @@ from pathlib import Path
 import jieba
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from corpus_rules import is_meta_bullet  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_DB = ROOT / "db" / "genshin_lore.sqlite3"
 DEFAULT_TERMS = ROOT / "manifests" / "terms.txt"
@@ -134,6 +137,10 @@ def build_sections(body: str, spoiler_level: int) -> list[dict]:
             continue
 
         if section_type == "text":
+            # 「- 类型：…」「- 版本：…」等结构性字段在 documents 表和 front matter
+            # 里已有，写进 sections 只会制造上千组跨文档重复并污染 FTS。
+            if is_meta_bullet(text):
+                continue
             paragraph.append(text)
             continue
 

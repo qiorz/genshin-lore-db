@@ -32,6 +32,8 @@
 | `render_notices.py` | 官方公告 → `corpus/notices/` | Python 3.11+ |
 | `render_npcs.py` | NPC 对话/逸闻/彩蛋 → `corpus/voices/` | Python 3.11+ |
 | `repair_quest_5299_epilogue.py` | 用 OBC 原始快照重填 5299 的「尾声」，修复 BWiki 短名错配 | Python 3.11+ |
+| `corpus_rules.py` | 共享规则：结构性元数据行识别、台词归一化（导入器与体检脚本共用） | Python 3.11+ |
+| `audit_corpus.py` | **全库体检**：串内容/重复、字段覆盖、corpus↔DB 对账、FTS 完整性 | Python 3.11+ |
 
 ```powershell
 # Windows PowerShell（当前环境需要 Bypass 执行策略）
@@ -124,3 +126,28 @@ scripts/
 - FTS 中文查询。
 
 用小样本做单元测试，不要连真实站点跑测试。
+
+## 入库后必跑体检
+
+```powershell
+.\tools\python\python.exe .\scripts\audit_corpus.py --strict
+```
+
+只读，输出到 `exports/obc-evaluation/audit/`：
+
+| 文件 | 内容 |
+|---|---|
+| `audit-summary.md` | 总览、字段覆盖率、Top 15 需复核重复块 |
+| `findings.csv` | 全部 ERROR / WARN |
+| `suspect-pairs.csv` | 文档对共享台词数、**最长连续雷同块**、风险等级 |
+| `duplicate-lines.csv` | 同一句出现在多篇文档的台词 |
+| `empty-docs.csv` | 正文少于 100 字的文档 |
+| `field-gaps.csv` | 缺失版本/地区/日期的文档 |
+
+- `--strict`：出现 ERROR 时退出码 1，可接 CI；WARN 只是复核线索。
+- 高风险 = 跨地区 + 连续 ≥8 句雷同。**不等于错误**：同角色洞天对话在不同频道重复收录、
+  系列任务共用台词都会命中，需要人工判定。
+- 回归测试：把有问题的历史文档放进临时目录，用
+  `--corpus <dir> --no-db --out-dir <dir>` 验证能否抓出该文档对。
+- `load_markdown.py` 与体检脚本共用 `corpus_rules.py`；改元数据行规则时两边一起改。
+

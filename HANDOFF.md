@@ -2,7 +2,7 @@
 
 > 更新时间：2026-11-04  
 > 项目根目录：`D:\harn\2\genshin-lore-db`  
-> 一句话状态：**书籍、任务、散落文本、角色、武器、圣遗物、活动、观景点、材料/食物/动物/道具、官方公告、NPC 对话/逸闻/彩蛋已全部归档进 `corpus/`，共 7,734 篇、458,726 段，可从 Markdown 全量重建；成就只做 CSV。剩下漫画、PV、七圣召唤牌面文本与知识层。**
+> 一句话状态：**书籍、任务、散落文本、角色、武器、圣遗物、活动、观景点、材料/食物/动物/道具、官方公告、NPC 对话/逸闻/彩蛋已全部归档进 `corpus/`，共 7,734 篇、453,939 段，可从 Markdown 全量重建；成就只做 CSV。剩下漫画、PV、七圣召唤牌面文本与知识层。**
 
 ---
 
@@ -10,7 +10,26 @@
 
 主要改动在 2026-11-04：第 0 步把正文收进 `corpus/`，第 1 步收任务尾巴，第 2 步武器与圣遗物，
 第 3 步活动与成就，第 4 步地理，第 5 步材料/食物/动物/道具，第 6 步官方公告与 NPC 对话；
-2026-11-05 补了 Web UI 启停脚本，并校对了 `quest.obc.5299` 的串内容事故。下面按倒序排列。
+2026-11-05 补了 Web UI 启停脚本、校对了 `quest.obc.5299`，并落地 P0 自动质检。下面按倒序排列。
+
+### 第 8 步 · P0 自动质检（2026-11-05）
+
+| 动作 | 结果 |
+|---|---|
+| 新增 `scripts/audit_corpus.py` | 5 类只读检查：front matter / corpus↔DB 对账 / 跨文档重复与**连续雷同块** / 字段覆盖 / 短正文；输出 5 份 CSV + 摘要 |
+| 新增 `scripts/corpus_rules.py` | 结构性元数据行识别 + 台词归一化，导入器与体检共用同一套规则 |
+| 改 `load_markdown.py` + 全量重导 | `- 类型：` 等元数据行不再写进 sections/FTS；先备份 DB，按原分词模式分两组重导 |
+| 回归验证 | 取 Git 历史里**修复前**的 5299，脚本自动标 `high`：与 533 共享 55 句、30 句连续雷同、须弥/蒙德跨地区 |
+| 首份体检 | 7,734 篇、ERROR 0；5,068 组跨文档重复台词、455 对疑似、63 对跨地区连续雷同；短正文 3,090 篇（其中任务 75） |
+
+**重导结果**：文档 7,734 篇与正文 13,306,758 字符不变，段落 458,726 → **453,939**
+（少了 4,787 个元数据段），FTS 行数与 sections 一致，`integrity_check` 与 FTS
+`integrity-check` 均通过，各类型分词模式保持不变。
+
+**体检发现（待人工判定）**：63 个高风险里绝大多数是「洞天」与「角色彩蛋」两个频道
+重复收录同一段角色洞天对话，属真实冗余；公告补偿/版权模板句在 50 篇里重复是已知取舍。
+完整报告 `exports/obc-evaluation/audit/audit-summary.md`。
+**以后每次入库后跑**：`.\tools\python\python.exe .\scripts\audit_corpus.py --strict`。
 
 ### 第 7 步 · 启停脚本与 5299 校对（2026-11-05）
 
@@ -22,7 +41,7 @@
 | 防再犯 | `fill_quests_from_bwiki.py` 短名（≤3 字）必须精确匹配、加 `MANUAL_REVIEW` 保护；删除错配缓存 |
 | 排查 | 177 篇补全文档全扫，23 组「节标题 ≠ 来源页」，除 5299 外无整篇串入；详见 `exports/obc-evaluation/quest-5299-proofread.md` |
 
-修复后文档 1,201 段 / 38,495 字符；全库 7,734 篇 / 458,726 段 / 13,306,758 字符，`integrity_check` ok。
+修复后文档 1,201 段 / 38,495 字符；全库 7,734 篇 / 453,939 段 / 13,306,758 字符，`integrity_check` ok。
 
 ### 第 6 步 · 官方公告与 NPC 对话
 
@@ -200,7 +219,7 @@ PRAGMA integrity_check：ok
 
 ```text
 文档：7,734
-段落：458,726
+段落：453,939
 正文字符：13,306,758
 来源：9
 数据库大小：约 345 MB
@@ -579,13 +598,21 @@ manifests/
 ### 重新导入（注意分词模式不同）
 
 ```powershell
-# 角色、任务：不分词
-.\tools\python\python.exe .\scripts\load_markdown.py --dir .\corpus\characters --bulk --no-segment
-.\tools\python\python.exe .\scripts\load_markdown.py --dir .\corpus\quests --bulk --no-segment
+# 不分词：任务 / 角色 / NPC 对话
+.\tools\python\python.exe .\scripts\load_markdown.py --dir .\corpus\quests --dir .\corpus\characters --dir .\corpus\voices --bulk --no-segment
 
-# 书籍、散落文本：要分词（不要加 --no-segment）
-.\tools\python\python.exe .\scripts\load_markdown.py --dir .\corpus\books --bulk
-.\tools\python\python.exe .\scripts\load_markdown.py --dir .\corpus\scattered --bulk
+# 要分词（不要加 --no-segment）：其余目录
+.\tools\python\python.exe .\scripts\load_markdown.py --dir .\corpus\books --dir .\corpus\scattered --dir .\corpus\weapons --dir .\corpus\artifacts --dir .\corpus\events --dir .\corpus\geography --dir .\corpus\items --dir .\corpus\notices --bulk
+```
+
+上面两条合起来就是全量重导（约 1.5 分钟）。**重导前先备份 DB**；
+`- 类型：` 等结构性元数据行由 `scripts/corpus_rules.py` 识别并排除出 sections/FTS，
+改规则时 `load_markdown.py` 与 `audit_corpus.py` 共用该文件，不要只改一边。
+
+重导后必跑体检：
+
+```powershell
+.\tools\python\python.exe .\scripts\audit_corpus.py --strict
 ```
 
 ### 统计与审计

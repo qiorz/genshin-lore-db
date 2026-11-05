@@ -2,9 +2,9 @@
   "counts": {
     "sources": 9,
     "documents": 7734,
-    "sections": 458726,
+    "sections": 453939,
     "document_revisions": 8404,
-    "ingest_runs": 45
+    "ingest_runs": 47
   },
   "by_type": {
     "item": 2622,
@@ -152,6 +152,26 @@
   ],
   "recent_ingest_runs": [
     {
+      "run_id": 47,
+      "started_at": "2026-11-05T17:56:09+08:00",
+      "finished_at": "2026-11-05T17:56:32+08:00",
+      "status": "success",
+      "documents_seen": 4100,
+      "documents_written": 4100,
+      "errors": 0,
+      "notes": "load_markdown.py"
+    },
+    {
+      "run_id": 46,
+      "started_at": "2026-11-05T17:55:01+08:00",
+      "finished_at": "2026-11-05T17:56:06+08:00",
+      "status": "success",
+      "documents_seen": 3634,
+      "documents_written": 3634,
+      "errors": 0,
+      "notes": "load_markdown.py"
+    },
+    {
       "run_id": 45,
       "started_at": "2026-11-05T17:23:59+08:00",
       "finished_at": "2026-11-05T17:23:59+08:00",
@@ -178,26 +198,6 @@
       "status": "success",
       "documents_seen": 55,
       "documents_written": 55,
-      "errors": 0,
-      "notes": "load_markdown.py"
-    },
-    {
-      "run_id": 42,
-      "started_at": "2026-11-04T14:11:21+08:00",
-      "finished_at": "2026-11-04T14:11:51+08:00",
-      "status": "success",
-      "documents_seen": 2622,
-      "documents_written": 2622,
-      "errors": 0,
-      "notes": "load_markdown.py"
-    },
-    {
-      "run_id": 41,
-      "started_at": "2026-11-04T13:43:50+08:00",
-      "finished_at": "2026-11-04T13:43:54+08:00",
-      "status": "success",
-      "documents_seen": 264,
-      "documents_written": 264,
       "errors": 0,
       "notes": "load_markdown.py"
     }
