@@ -3,7 +3,8 @@ id: entity.lai-ou-si-li
 type: character
 canonical_name: 莱欧斯利
 canonical_name_en: 
-aliases: []
+aliases:
+  - 公爵
 spoiler_level: 1
 status: draft
 tags: [知识层种子]

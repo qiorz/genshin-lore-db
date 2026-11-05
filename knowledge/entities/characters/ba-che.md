@@ -3,7 +3,8 @@ id: entity.ba-che
 type: deity
 canonical_name: 跋掣
 canonical_name_en: 
-aliases: []
+aliases:
+  - 旋涡的余威
 spoiler_level: 1
 status: draft
 tags: [知识层种子]

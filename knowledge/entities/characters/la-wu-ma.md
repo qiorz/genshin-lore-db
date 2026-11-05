@@ -3,7 +3,8 @@ id: entity.la-wu-ma
 type: character
 canonical_name: 菈乌玛
 canonical_name_en: 
-aliases: []
+aliases:
+  - 咏月使
 spoiler_level: 1
 status: draft
 tags: [知识层种子]

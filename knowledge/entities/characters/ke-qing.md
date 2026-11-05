@@ -3,7 +3,9 @@ id: entity.ke-qing
 type: character
 canonical_name: 刻晴
 canonical_name_en: 
-aliases: []
+aliases:
+  - 玉衡星
+  - 玉衡
 spoiler_level: 1
 status: draft
 tags: [知识层种子]
@@ -15,7 +17,7 @@ tags: [知识层种子]
 
 ## 关键设定
 
-- 暂无
+- **成员所属** → 璃月七星（较可能）· [[quest.obc.1250]] 第 69 段
 
 ## 说法（0）
 
@@ -28,5 +30,4 @@ tags: [知识层种子]
 ## 待考
 
 - 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。
-- 该实体暂无关系边，待补。
 - 该实体暂无说法条目，待补。

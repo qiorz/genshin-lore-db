@@ -11,7 +11,9 @@ entities:
   name: 阿贝多
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 白垩之子
+    kind: alias
   evidence:
   - doc: quest.obc.507699
     quote: 各位，请允许淑女告辞，阿贝多先生给了我许多意见，接下来我要找个地方专心研究了。
@@ -31,7 +33,9 @@ entities:
   name: 芭芭拉
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 闪耀偶像
+    kind: alias
   evidence:
   - doc: quest.obc.533
     quote: 看到天空之琴已经面目全非，虔诚的芭芭拉吓坏了。无可奈何的温迪只得用幻术「修复」了天空之琴，趁芭芭拉还没发觉，你们一行人悄悄离开了教堂。但在教堂外，「愚人
@@ -170,7 +174,9 @@ entities:
   name: 玛薇卡
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 火神
+    kind: alias
   evidence:
   - doc: lore.obc.504218
     quote: 「玛薇卡姐姐大人！您的眼镜是什么做的呀？为什么不会被火烧坏呢？我问了爸爸，妈妈和姐姐，但他们都不知道…」
@@ -188,7 +194,11 @@ entities:
   name: 凝光
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 天权星
+    kind: alias
+  - name: 天权
+    kind: alias
   evidence:
   - doc: lore.obc.5982
     quote: 近日凝光大人特批准增建三座船坞仓库，以供「南十字船队」停泊维护之需。
@@ -280,7 +290,9 @@ entities:
   name: 云堇
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 云先生
+    kind: alias
   evidence:
   - doc: lore.obc.6104
     quote: 「前些日子去女婿家做客，顺便在和裕茶馆听了云堇一场戏。」

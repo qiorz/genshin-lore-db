@@ -452,7 +452,9 @@ entities:
   name: 雷利尔
   description: NPC 人物：台词 175 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 猎月人
+    kind: alias
   evidence:
   - doc: quest.obc.507019
     quote: （听起来，维瑟弗尼尔给出的预言触怒了陛下。对于不想听到的言论，即便是「预言家」所揭示，陛下也已不愿容忍。）
@@ -1281,7 +1283,9 @@ entities:
   name: 奥赛尔
   description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 漩涡之魔神
+    kind: alias
   evidence:
   - doc: quest.obc.2247
     quote: 不过说起来，他们想要对奥赛尔做什么
@@ -1294,7 +1298,9 @@ entities:
   name: 跋掣
   description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 旋涡的余威
+    kind: alias
   evidence:
   - doc: quest.obc.501450
     quote: 那次战斗中，我目睹了你与申鹤仙君抗击「跋掣」的全过程，深有感触

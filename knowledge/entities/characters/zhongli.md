@@ -7,6 +7,7 @@ aliases:
   - 岩王帝君
   - 摩拉克斯
   - 岩神
+  - 岩王爷
 spoiler_level: 2
 status: reviewed
 tags: [知识层种子]

@@ -18,6 +18,7 @@ tags: [知识层种子]
 - **出身自** → 坎瑞亚（较可能）· [[quest.obc.2247]] 第 525 段
 - **涉及事件** → event.abyss-order-formation（较可能）· [[quest.obc.2247]] 第 525 段
 - **涉及事件** → event.dvalin-corruption（较可能）· [[char.obc.509225]] 第 24 段
+- **根据地在** → 纳塔（已确认）· [[quest.obc.505514]] 第 806 段
 
 ## 说法（1）
 

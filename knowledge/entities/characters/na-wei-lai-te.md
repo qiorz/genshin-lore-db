@@ -3,7 +3,8 @@ id: entity.na-wei-lai-te
 type: character
 canonical_name: 那维莱特
 canonical_name_en: 
-aliases: []
+aliases:
+  - 最高审判官
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

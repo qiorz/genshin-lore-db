@@ -3,7 +3,8 @@ id: entity.yunjin
 type: character
 canonical_name: 云堇
 canonical_name_en: 
-aliases: []
+aliases:
+  - 云先生
 spoiler_level: 1
 status: draft
 tags: [知识层种子]

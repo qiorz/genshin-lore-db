@@ -29,7 +29,11 @@ entities:
   name: 刻晴
   description: 角色页标注：璃月 · 雷 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 玉衡星
+    kind: alias
+  - name: 玉衡
+    kind: alias
   evidence:
   - doc: char.obc.1058
     quote: 璃月七星之一，玉衡星，刻晴
@@ -74,7 +78,9 @@ entities:
   name: 甘雨
   description: 角色页标注：璃月 · 冰 · 弓 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 半仙
+    kind: alias
   evidence:
   - doc: char.obc.1433
     quote: 对于高居「玉京台」的七枚明星来说，甘雨绝非服侍他们「伴星」，而是璃月港错综情报数据之网的统筹者，璃月港行政效率的筑基人
@@ -110,7 +116,9 @@ entities:
   name: 优菈
   description: 角色页标注：蒙德 · 冰 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 浪花骑士
+    kind: alias
   evidence:
   - doc: char.obc.2040
     quote: 「西风骑士团更看重一个人的能力和作为，而非身世与血统。优菈的确是一名杰出的骑士，不必对她旧贵族后裔的身份耿耿于怀。」—— 琴·古恩希尔德
@@ -119,7 +127,9 @@ entities:
   name: 神里绫华
   description: 角色页标注：稻妻 · 冰 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 白鹭公主
+    kind: alias
   evidence:
   - doc: char.obc.2123
     quote: 而神里绫华，正是社奉行神里家的大小姐，远近闻名的「白鹭公主」
@@ -272,7 +282,9 @@ entities:
   name: 赛诺
   description: 角色页标注：须弥 · 雷 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 大风纪官
+    kind: alias
   evidence:
   - doc: char.obc.4780
     quote: 在教令院中，如果一位学者需要和大风纪官赛诺进行正式会面，那他一般不会得到什么好消息
@@ -290,7 +302,9 @@ entities:
   name: 那维莱特
   description: 角色页标注：枫丹 · 水 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 最高审判官
+    kind: alias
   evidence:
   - doc: char.obc.500207
     quote: 「之前对于水神大人的秘辛专栏让得本报荣获了那维莱特先生『什么地摊小报』的评价，这次我们聚焦神秘的最高审判官先生。
@@ -299,7 +313,9 @@ entities:
   name: 莱欧斯利
   description: 角色页标注：枫丹 · 冰 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 公爵
+    kind: alias
   evidence:
   - doc: char.obc.500286
     quote: 若莱欧斯利有名片，只需这一行足矣
@@ -308,7 +324,9 @@ entities:
   name: 娜维娅
   description: 角色页标注：枫丹 · 岩 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 刺玫会会长
+    kind: alias
   evidence:
   - doc: char.obc.500419
     quote: 从外表来看，娜维娅小姐无疑是一位完美的枫丹淑女
@@ -515,7 +533,9 @@ entities:
   name: 菈乌玛
   description: 角色页标注：至冬 · 草 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 咏月使
+    kind: alias
   evidence:
   - doc: char.obc.505973
     quote: 于是菈乌玛从树影中走出，走到月光之下
@@ -614,7 +634,9 @@ entities:
   name: 桑多涅
   description: 角色页标注：至冬 · 冰 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 木偶
+    kind: alias
   evidence:
   - doc: char.obc.508841
     quote: 同事和朋友们一般称呼她为「桑多涅」
@@ -704,7 +726,9 @@ entities:
   name: 可莉
   description: 角色页标注：蒙德 · 火 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 火花骑士
+    kind: alias
   evidence:
   - doc: char.obc.55
     quote: 「放火烧山，可莉完蛋！」——凯亚为可莉写的《骑士团生存守则》中标红标重的一条
@@ -740,7 +764,9 @@ entities:
   name: 琴
   description: 角色页标注：蒙德 · 风 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 蒲公英骑士
+    kind: alias
   evidence:
   - doc: char.obc.59
     quote: 但是当你问琴怎么看待自己时，这位西风骑士团代理团长永远会这么回答
@@ -749,7 +775,9 @@ entities:
   name: 迪希雅
   description: 角色页标注：须弥 · 火 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 炽鬃之狮
+    kind: alias
   evidence:
   - doc: char.obc.6180
     quote: 「任谁生气都不怕，除非惹毛了迪希雅，
@@ -794,7 +822,9 @@ entities:
   name: 北斗
   description: 角色页标注：璃月 · 雷 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
+  aliases:
+  - name: 大姐头
+    kind: alias
   evidence:
   - doc: char.obc.79
     quote: 「整座璃月港，也只有北斗敢真赢凝光的钱。」——飞云商会会长在一次家宴中的醉后真言
