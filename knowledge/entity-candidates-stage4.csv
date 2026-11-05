@@ -130,7 +130,7 @@ entity.ka-sa-zha-lai-gong,location,卡萨扎莱宫,char.obc.6490,艾尔卡萨扎
 entity.jian-mo-zhi-dian,location,缄默之殿,quest.obc.501326,等一下等一下，「缄默之殿」的纹章…,地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
 entity.lu-jing-quan,location,露景泉,quest.obc.7202,这个喷泉叫做「露景泉」，是枫丹所有水流的交汇之处,地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
 entity.pei-te-li-ke-zhen,location,佩特莉可镇,lore.obc.504567,…这次航行的目的地是佩特莉可镇，那里据说藏有「铃兰十字结社」的秘宝，还是传说中褪色城堡的所在,地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
-entity.sheng-huo-jing-ji-chang,location,圣火竞技场,book.obc.503020,获取方式：「圣火竞技场」外围无法使用的合成台对面的箱子上,地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
+entity.sheng-huo-jing-ji-chang,location,圣火竞技场,quest.obc.505144,「圣山」的称呼是很久很久以前的织卷留下来的…对我们来说，还是「圣火竞技场」要更「圣」一筹呢,地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
 entity.nuo-de-ka-lai,location,挪德卡莱,quest.obc.506587,可到了「挪德卡莱」，我劝你们最好不要和「愚人众」对着干,地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
 entity.xi-xi-dao,location,希汐岛,quest.obc.506655,只是希汐岛这边也用不上什么摩拉，所以就全都送给你们吧,地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
 entity.tian-ling-feng-xing,organization,天领奉行,char.obc.4197,他和九条小姐一样，是「天领奉行」的人,组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对

@@ -3,8 +3,7 @@ id: entity.na-wei-ya
 type: character
 canonical_name: 娜维娅
 canonical_name_en: 
-aliases:
-  - 刺玫会会长
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

@@ -3,8 +3,7 @@ id: entity.ke-li
 type: character
 canonical_name: 可莉
 canonical_name_en: 
-aliases:
-  - 火花骑士
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

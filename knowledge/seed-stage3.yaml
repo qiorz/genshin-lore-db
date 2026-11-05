@@ -305,10 +305,10 @@ entities:
   evidence:
   - doc: quest.obc.500786
     quote: 唔…用「仙力」试试吧，旅行者
-  - doc: quest.obc.4121
-    quote: 「仙力与人力合一，可转斗移星，举天地之威。」
   - doc: lore.obc.502016
     quote: 「…无论如何，需要留一些预备措施…分离了一部分仙力，置入彩蝶的鳞羽…它们的寿命将会大大延长…」
+  - doc: quest.obc.4121
+    quote: 「仙力与人力合一，可转斗移星，举天地之威。」
 - id: entity.archon-war-concept
   type: concept
   name: 魔神战争
@@ -550,12 +550,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: lore.obc.505355
-    quote: 「枫丹廷近期要闻更新公示。」
   - doc: lore.obc.503062
     quote: 今夜，枫丹廷最耀眼的双子星，为你揭秘
   - doc: lore.obc.503061
     quote: 「执律庭对有关公共安全经费的过度使用之现状与枫丹廷公共安全确保的关联」。
+  - doc: lore.obc.505355
+    quote: 「枫丹廷近期要闻更新公示。」
 - id: entity.fortress-of-meropide
   type: location
   name: 梅洛彼得堡
@@ -669,10 +669,10 @@ entities:
   evidence:
   - doc: quest.obc.2589
     quote: 就算是突破万难，来到稻妻接待外国人的「离岛」，也需要出具相关证明，不然还是会被赶走…
-  - doc: lore.obc.501716
-    quote: 「离岛的港口过于防备外国人，对于稻妻本土却疏于防备。」
   - doc: lore.obc.6121
     quote: 此乃幕府所设离岛告示板，各种事务，尽皆公示。闲人请勿擅自张贴！
+  - doc: lore.obc.501716
+    quote: 「离岛的港口过于防备外国人，对于稻妻本土却疏于防备。」
 - id: entity.sumeru-desert
   type: location
   name: 须弥沙漠
@@ -721,10 +721,10 @@ entities:
   evidence:
   - doc: quest.obc.509101
     quote: 亏你们还解决了「枫丹」的危机
-  - doc: lore.obc.505355
-    quote: 「枫丹廷近期要闻更新公示。」
   - doc: quest.obc.505878
     quote: 密码筒？你居然没有直接给它来一枪…我看看，枫丹的密码盘、璃月的金属外壳…
+  - doc: lore.obc.505355
+    quote: 「枫丹廷近期要闻更新公示。」
 - id: entity.natlan
   type: nation
   name: 纳塔

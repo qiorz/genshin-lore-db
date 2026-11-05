@@ -3,8 +3,7 @@ id: entity.bei-dou
 type: character
 canonical_name: 北斗
 canonical_name_en: 
-aliases:
-  - 大姐头
+aliases: []
 spoiler_level: 1
 status: draft
 tags: [知识层种子]

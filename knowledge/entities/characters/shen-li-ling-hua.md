@@ -3,8 +3,7 @@ id: entity.shen-li-ling-hua
 type: character
 canonical_name: 神里绫华
 canonical_name_en: 
-aliases:
-  - 白鹭公主
+aliases: []
 spoiler_level: 1
 status: draft
 tags: [知识层种子]

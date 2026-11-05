@@ -29,11 +29,7 @@ entities:
   name: 刻晴
   description: 角色页标注：璃月 · 雷 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 玉衡星
-    kind: alias
-  - name: 玉衡
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.1058
     quote: 璃月七星之一，玉衡星，刻晴
@@ -78,9 +74,7 @@ entities:
   name: 甘雨
   description: 角色页标注：璃月 · 冰 · 弓 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 半仙
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.1433
     quote: 对于高居「玉京台」的七枚明星来说，甘雨绝非服侍他们「伴星」，而是璃月港错综情报数据之网的统筹者，璃月港行政效率的筑基人
@@ -116,9 +110,7 @@ entities:
   name: 优菈
   description: 角色页标注：蒙德 · 冰 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 浪花骑士
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.2040
     quote: 「西风骑士团更看重一个人的能力和作为，而非身世与血统。优菈的确是一名杰出的骑士，不必对她旧贵族后裔的身份耿耿于怀。」—— 琴·古恩希尔德
@@ -127,9 +119,7 @@ entities:
   name: 神里绫华
   description: 角色页标注：稻妻 · 冰 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 白鹭公主
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.2123
     quote: 而神里绫华，正是社奉行神里家的大小姐，远近闻名的「白鹭公主」
@@ -282,9 +272,7 @@ entities:
   name: 赛诺
   description: 角色页标注：须弥 · 雷 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 大风纪官
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.4780
     quote: 在教令院中，如果一位学者需要和大风纪官赛诺进行正式会面，那他一般不会得到什么好消息
@@ -302,9 +290,7 @@ entities:
   name: 那维莱特
   description: 角色页标注：枫丹 · 水 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 最高审判官
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.500207
     quote: 「之前对于水神大人的秘辛专栏让得本报荣获了那维莱特先生『什么地摊小报』的评价，这次我们聚焦神秘的最高审判官先生。
@@ -313,9 +299,7 @@ entities:
   name: 莱欧斯利
   description: 角色页标注：枫丹 · 冰 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 公爵
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.500286
     quote: 若莱欧斯利有名片，只需这一行足矣
@@ -324,9 +308,7 @@ entities:
   name: 娜维娅
   description: 角色页标注：枫丹 · 岩 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 刺玫会会长
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.500419
     quote: 从外表来看，娜维娅小姐无疑是一位完美的枫丹淑女
@@ -533,9 +515,7 @@ entities:
   name: 菈乌玛
   description: 角色页标注：至冬 · 草 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 咏月使
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.505973
     quote: 于是菈乌玛从树影中走出，走到月光之下
@@ -634,9 +614,7 @@ entities:
   name: 桑多涅
   description: 角色页标注：至冬 · 冰 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 木偶
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.508841
     quote: 同事和朋友们一般称呼她为「桑多涅」
@@ -726,9 +704,7 @@ entities:
   name: 可莉
   description: 角色页标注：蒙德 · 火 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 火花骑士
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.55
     quote: 「放火烧山，可莉完蛋！」——凯亚为可莉写的《骑士团生存守则》中标红标重的一条
@@ -764,9 +740,7 @@ entities:
   name: 琴
   description: 角色页标注：蒙德 · 风 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 蒲公英骑士
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.59
     quote: 但是当你问琴怎么看待自己时，这位西风骑士团代理团长永远会这么回答
@@ -775,9 +749,7 @@ entities:
   name: 迪希雅
   description: 角色页标注：须弥 · 火 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 炽鬃之狮
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.6180
     quote: 「任谁生气都不怕，除非惹毛了迪希雅，
@@ -822,9 +794,7 @@ entities:
   name: 北斗
   description: 角色页标注：璃月 · 雷 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 大姐头
-    kind: alias
+  aliases: []
   evidence:
   - doc: char.obc.79
     quote: 「整座璃月港，也只有北斗敢真赢凝光的钱。」——飞云商会会长在一次家宴中的醉后真言
@@ -993,10 +963,10 @@ entities:
   evidence:
   - doc: quest.obc.3870
     quote: 层岩巨渊还有很多秘密没被发掘呢…
-  - doc: lore.obc.501839
-    quote: 「层岩巨渊已无限期关闭，爆破工具全部封存此库房之内。若不具齐两重钥匙，则无法开启大门。」
   - doc: lore.obc.501840
     quote: 「…层岩巨渊地下的异变在缓慢加速，为了阻止情况进一步恶化，我们需要尽快将『摩科什装置』运抵底部组装…」
+  - doc: lore.obc.501839
+    quote: 「层岩巨渊已无限期关闭，爆破工具全部封存此库房之内。若不具齐两重钥匙，则无法开启大门。」
 - id: entity.qun-yu-ge
   type: location
   name: 群玉阁
@@ -1235,7 +1205,7 @@ entities:
   - doc: quest.obc.2394
     quote: 那座岛叫「踏鞴砂」，是生产锻造武器用的「玉钢」的冶炼厂
   - doc: lore.obc.501995
-    quote: 「然而实在太过匆忙，无法找到目付大人与造兵司正大人，小人斗胆将三片钥匙藏在踏鞴砂内三处宝箱中…」
+    quote: 「…撤离时，原本应当将兵库钥匙分为三片，一片交予目付大人、一片交予造兵司正大人、一片留在踏鞴砂中，以防贼人侵入。」
   - doc: quest.obc.5794
     quote: 自我来到踏鞴砂已经有些日子了
 - id: entity.gan-tian-cun
@@ -1384,12 +1354,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: book.obc.503020
-    quote: 获取方式：「圣火竞技场」外围无法使用的合成台对面的箱子上
-  - doc: book.obc.503017
-    quote: 获取方式：「圣火竞技场」水池NPC 娜玛卡 旁边的 箱子上
   - doc: quest.obc.505144
     quote: 「圣山」的称呼是很久很久以前的织卷留下来的…对我们来说，还是「圣火竞技场」要更「圣」一筹呢
+  - doc: quest.obc.502895
+    quote: 对了，旅行者，听说纳塔有个最热闹的地方叫「圣火竞技场」，说不定在那有人知道幼嵴锋龙身上发生的事
+  - doc: char.obc.503613
+    quote: 她拥有这个国度巅峰级的力量，也拥有与力量匹配的气度，哪怕是刚刚抵达此地的外来者，只要在「圣火竞技场」听过她的演讲，都能理解她不愧太阳之名
 - id: entity.nuo-de-ka-lai
   type: location
   name: 挪德卡莱

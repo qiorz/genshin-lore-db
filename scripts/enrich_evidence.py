@@ -62,7 +62,15 @@ for rel in files:
                 % ",".join("?" * len(evs)), [e["doc"] for e in evs])}
             def key(e):
                 q = e.get("quote") or ""
-                return (0 if f"「{name}」" in q else 1,
+                # 三种情况分开排：原词被括注（最好）> 没括注 > 只是更长词的前缀
+                # （「原初一滴」对「原初」就是第三种，不能当主锚点）
+                if f"「{name}」" in q:
+                    rank = 0
+                elif f"「{name}" in q:
+                    rank = 2
+                else:
+                    rank = 1
+                return (rank,
                         0 if name in titles.get(e["doc"], "") else 1,
                         len(q))
             ordered = sorted(evs, key=key)

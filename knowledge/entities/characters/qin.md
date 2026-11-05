@@ -3,8 +3,7 @@ id: entity.qin
 type: character
 canonical_name: 琴
 canonical_name_en: 
-aliases:
-  - 蒲公英骑士
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

@@ -3,8 +3,7 @@ id: entity.di-xi-ya
 type: character
 canonical_name: 迪希雅
 canonical_name_en: 
-aliases:
-  - 炽鬃之狮
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

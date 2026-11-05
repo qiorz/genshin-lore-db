@@ -3,11 +3,9 @@ id: entity.ke-qing
 type: character
 canonical_name: 刻晴
 canonical_name_en: 
-aliases:
-  - 玉衡星
-  - 玉衡
+aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 

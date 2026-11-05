@@ -828,12 +828,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.7586
-    quote: 我对「原初一滴」这个词有些想法
   - doc: quest.obc.507427
     quote: 原初神圣言语自会涌流出一切因果
   - doc: book.obc.3470
     quote: 原初的那一位大王开始了天地的创造
+  - doc: quest.obc.7586
+    quote: 我对「原初一滴」这个词有些想法
 - id: entity.shi-jie-shi
   type: concept
   name: 世界式

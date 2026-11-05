@@ -3,8 +3,7 @@ id: entity.sang-duo-nie
 type: character
 canonical_name: 桑多涅
 canonical_name_en: 
-aliases:
-  - 木偶
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

@@ -3,8 +3,7 @@ id: entity.sai-nuo
 type: character
 canonical_name: 赛诺
 canonical_name_en: 
-aliases:
-  - 大风纪官
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]
