@@ -255,6 +255,23 @@ CREATE TABLE IF NOT EXISTS entity_names (
 CREATE INDEX IF NOT EXISTS idx_entity_names_name
     ON entity_names(name);
 
+-- 实体级的原文出处：一张卡片为什么被收进来，靠的就是这里的某一句原话。
+-- 与 claims 分开：claims 是「谁说了什么」的断言，这里只是「原文提到过它」。
+CREATE TABLE IF NOT EXISTS entity_evidence (
+    evidence_id     INTEGER PRIMARY KEY,
+    entity_id       TEXT NOT NULL REFERENCES entities(entity_id) ON DELETE CASCADE,
+    doc_id          TEXT REFERENCES documents(doc_id) ON DELETE SET NULL,
+    section_id      INTEGER REFERENCES sections(section_id) ON DELETE SET NULL,
+    quote           TEXT NOT NULL,
+    is_primary      INTEGER NOT NULL DEFAULT 1 CHECK (is_primary IN (0, 1)),
+    created_at      TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+CREATE INDEX IF NOT EXISTS idx_entity_evidence_entity
+    ON entity_evidence(entity_id, doc_id);
+CREATE INDEX IF NOT EXISTS idx_entity_evidence_doc
+    ON entity_evidence(doc_id);
+
 CREATE TABLE IF NOT EXISTS entity_relations (
     relation_id     INTEGER PRIMARY KEY,
     subject_id      TEXT NOT NULL REFERENCES entities(entity_id) ON DELETE CASCADE,

@@ -1,0 +1,32 @@
+---
+id: entity.thousand-winds-temple
+type: location
+canonical_name: 千风神殿
+canonical_name_en: 
+aliases: []
+spoiler_level: 1
+status: draft
+tags: [知识层种子]
+---
+
+## 简介
+
+证据出自蒙德地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+
+## 关键设定
+
+- 暂无
+
+## 说法（0）
+
+- 暂无
+
+## 证据（1）
+
+- [[lore.obc.968]]：「前段时间去了东边的千风神殿，听说这是很久很久以前祭拜风的场所，非常气派。很难想象古代人是怎么造出这么宏伟的建筑的。」
+
+## 待考
+
+- 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。
+- 该实体暂无关系边，待补。
+- 该实体暂无说法条目，待补。

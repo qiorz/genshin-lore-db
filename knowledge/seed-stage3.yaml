@@ -1,0 +1,648 @@
+# 第三批知识层种子 · 实体扩量（由 scripts/mine_entities.py 生成）
+# 候选名字来自词表，但每条证据都来自 corpus/ 中真实存在的叙事段落。
+# 描述只是中性分类标签，不是剧情结论；具体设定请点出处核对。
+# status=draft：本批为半自动扩量，待人工抽样复核后再标 reviewed。
+version: 1
+batch: 2026-11-05-stage3
+status: draft
+entities:
+- id: entity.albedo
+  type: character
+  name: 阿贝多
+  description: 证据出自挪德卡莱地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507699
+    quote: 各位，请允许淑女告辞，阿贝多先生给了我许多意见，接下来我要找个地方专心研究了。
+- id: entity.arlecchino
+  type: character
+  name: 阿蕾奇诺
+  description: 证据出自挪德卡莱地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases:
+  - name: 仆人
+    kind: alias
+  evidence:
+  - doc: lore.obc.507822
+    quote: 哥伦比娅喜欢的茶都很普通，不像阿蕾奇诺那么有品位。倒也像她这个人。
+- id: entity.barbara
+  type: character
+  name: 芭芭拉
+  description: 证据出自蒙德地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.533
+    quote: 看到天空之琴已经面目全非，虔诚的芭芭拉吓坏了。无可奈何的温迪只得用幻术「修复」了天空之琴，趁芭芭拉还没发觉，你们一行人悄悄离开了教堂。但在教堂外，「愚人
+- id: entity.charlotte
+  type: character
+  name: 夏洛蒂
+  description: 证据出自枫丹地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501301
+    quote: 第一届夏洛蒂个人留影展将于瓦萨里回廊举行。本次展会将有大量珍贵画片原片参与公开展览。
+- id: entity.chasca
+  type: character
+  name: 恰斯卡
+  description: 证据出自纳塔地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.504585
+    quote: 「那可是恰斯卡女士啊！万众瞩目，能够拿下万般难题的恰斯卡女士！我要把这件好事记进族谱！」
+- id: entity.chiori
+  type: character
+  name: 千织
+  description: 证据出自枫丹地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501740
+    quote: 是异域的利刃？还是漆黑的雷鸣？千织屋与它的老板千织总是给人以锐利、高傲且我行我素的感觉。
+- id: entity.clorinde
+  type: character
+  name: 克洛琳德
+  description: 证据出自枫丹地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501740
+    quote: 应读者要求，本报记者特对决斗代理人克洛琳德进行了专题采访。尽管采访的请求遭到拒绝，双方仍进行了简短的沟通。
+- id: entity.dottore
+  type: character
+  name: 多托雷
+  description: 证据出自挪德卡莱地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases:
+  - name: 博士
+    kind: alias
+  evidence:
+  - doc: lore.obc.507822
+    quote: 多托雷的项目批得比我的快十倍？？多托雷和潘塔罗涅能不能一起离开我的视野？
+- id: entity.enjou
+  type: character
+  name: 渊上
+  description: 库内人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7663
+    quote: 对呀，我们也遇到过假扮成研究者的深渊教团成员！我记得是叫渊上…
+- id: entity.fischl
+  type: character
+  name: 菲谢尔
+  description: 证据出自蒙德地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases:
+  - name: 皇女
+    kind: alias
+  evidence:
+  - doc: lore.obc.505671
+    quote: 无论菲谢尔辞典，或菲谢尔辞典·皇女新编版，正式名均为——断罪圣诰之书。在正式场合（如文学颁奖典礼〔若有幸获奖〕）上错用、误用是不应该、不推荐、不太好的。
+- id: entity.freminet
+  type: character
+  name: 菲米尼
+  description: 证据出自枫丹地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.500363
+    quote: 「每分钟三万？最好的潜水员菲米尼都不至于这么贵！你是来诈骗的吧！」
+- id: entity.gorou
+  type: character
+  name: 五郎
+  description: 证据出自稻妻地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5804
+    quote: 「秘密侦查十分顺利，五郎大将完全把那群家伙唬住了！虽然因为长得太年轻，并没有喝到酒…【后面的内容被胡乱擦掉了】」
+- id: entity.hutao
+  type: character
+  name: 胡桃
+  description: 证据出自璃月地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501802
+    quote: （木牌背后还写上了很有胡桃风格的广告词，「凭此木牌，购一送一」。）
+- id: entity.kaeya
+  type: character
+  name: 凯亚
+  description: 证据出自须弥地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6236
+    quote: 凯亚！原来是他到须弥来了呀…唔，我就觉得「诡计多端的外国先生」很有可能是他呢。
+- id: entity.kaveh
+  type: character
+  name: 卡维
+  description: 证据出自须弥地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5799
+    quote: 「两位的纸上争论还是一贯的犀利呢···不过卡维先生这个月的账单该结了哦，仍旧是记在艾尔海森先生账上吗？」
+- id: entity.kirara
+  type: character
+  name: 绮良良
+  description: 库内人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.501680
+    quote: 这…对了一半吧。那我重新介绍一下，这位是绮良良，稻妻「狛荷屋」的快递员，一只猫又。
+- id: entity.lisa
+  type: character
+  name: 丽莎
+  description: 证据出自蒙德地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6263
+    quote: 比如丽莎小姐泡在图书馆错过了巡逻时间，琴小姐会说「丽莎身体抱恙」之类的话。
+- id: entity.mavuika
+  type: character
+  name: 玛薇卡
+  description: 证据出自纳塔地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.504218
+    quote: 「玛薇卡姐姐大人！您的眼镜是什么做的呀？为什么不会被火烧坏呢？我问了爸爸，妈妈和姐姐，但他们都不知道…」
+- id: entity.mika
+  type: character
+  name: 米卡
+  description: 证据出自挪德卡莱地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507019
+    quote: 「我觉得我的画技还不错，大家应该会喜欢这些吧？以前米卡也夸我还算有天赋来着。」
+- id: entity.ningguang
+  type: character
+  name: 凝光
+  description: 证据出自璃月地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5982
+    quote: 近日凝光大人特批准增建三座船坞仓库，以供「南十字船队」停泊维护之需。
+- id: entity.ororon
+  type: character
+  name: 欧洛伦
+  description: 证据出自纳塔地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.504606
+    quote: 欧洛伦勘探员只是对草药学有较为深入的研究与热情。他真不是卖菜的。」
+- id: entity.pierro
+  type: character
+  name: 皮耶罗
+  description: 证据出自至冬地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases:
+  - name: 丑角
+    kind: alias
+  evidence:
+  - doc: quest.obc.509511
+    quote: ——起因还是「队长」卡皮塔诺，在前往纳塔之前，给「丑角」皮耶罗留下了一封内容详实的信件。
+- id: entity.qiqi
+  type: character
+  name: 七七
+  description: 证据出自璃月地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5982
+    quote: 「死生有命，何苦与当绝之人同留此世，强延天命？莫如将七七带来往生堂。以礼安葬，安逸无虞，重归元素循环之理。岂不妙哉？」
+- id: entity.sara
+  type: character
+  name: 九条裟罗
+  description: 证据出自稻妻地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5804
+    quote: 这位客人，虽然不知九条裟罗大人如何亏待了您，还请时常光顾消愁。
+- id: entity.sucrose
+  type: character
+  name: 砂糖
+  description: 证据出自须弥地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.508783
+    quote: 亲爱的砂糖，你收到这封信的时候，我应该还在忙，为了好的事而忙。因为我现在不是见习，而是正式巡林官了！
+- id: entity.varka
+  type: character
+  name: 法尔伽
+  description: 证据出自蒙德地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.508352
+    quote: 「…这告示是谁贴的？半个月内？你女儿是法尔伽，艾伦德林还是古华？」
+- id: entity.xilonen
+  type: character
+  name: 希诺宁
+  description: 证据出自纳塔地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.504559
+    quote: 『莫莫』；原因：『用希诺宁的盆栽磨牙，半夜跟其他龙吵架，偷吃零食，同时曾畏罪躲藏在切妮家。』」
+- id: entity.yae-miko
+  type: character
+  name: 八重神子
+  description: 证据出自稻妻地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5803
+    quote: 经宫司八重神子大人许可，鸣神大社将向受战争影响之贫困商户、困难家庭发放无息扶助贷款、慰问粮等补助福利。
+- id: entity.yoimiya
+  type: character
+  name: 宵宫
+  description: 证据出自稻妻地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5802
+    quote: 「诸位市民若发现宵宫小姐在城区内滥放管制烟火，请尽量加以制止！」
+- id: entity.yunjin
+  type: character
+  name: 云堇
+  description: 证据出自璃月地区文档的人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.6104
+    quote: 「前些日子去女婿家做客，顺便在和裕茶馆听了云堇一场戏。」
+- id: entity.adeptal-energy
+  type: concept
+  name: 仙力
+  description: 证据出自璃月地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.502016
+    quote: 「…无论如何，需要留一些预备措施…分离了一部分仙力，置入彩蝶的鳞羽…它们的寿命将会大大延长…」
+- id: entity.archon-war-concept
+  type: concept
+  name: 魔神战争
+  description: 证据出自稻妻地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501969
+    quote: 「…这处遗迹在风格上与魔神战争时代古建筑相近，但仍有待进一步研究…」
+- id: entity.constellation
+  type: concept
+  name: 命之座
+  description: 证据出自枫丹地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: char.obc.500207
+    quote: ——当然，他生来就是人的姿态。那为什么他的命之座却是巨灵龙的样子呢？这一切或许就有另一个没有那么多世界命运牵扯的版本了：
+- id: entity.delusion
+  type: concept
+  name: 邪眼
+  description: 证据出自稻妻地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3531
+    quote: 想要阻止他们，就只能捣毁他们生产邪眼的工厂。但那里一定有重兵把守…
+- id: entity.descender
+  type: concept
+  name: 降临者
+  description: 证据出自挪德卡莱地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.507822
+    quote: 借努昂诺塔（即哥伦比娅的灵魂碎片），同世界的「变数」（即「降临者」）相连接，达到将哥伦比娅的完整灵魂由「月亮倒影」空间反向寻回的效果…
+- id: entity.forbidden-knowledge
+  type: concept
+  name: 禁忌知识
+  description: 证据出自须弥地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.508722
+    quote: 当我被阿赫玛尔算计，被禁忌知识折磨时，是布耶尔将我从苦痛中解救出来。
+- id: entity.genius-invokation
+  type: concept
+  name: 七圣召唤
+  description: 证据出自枫丹地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.503120
+    quote: 禁止携带与生产无关的杂物进入生产区，包括七圣召唤卡牌和小说等。
+- id: entity.loom-of-fate
+  type: concept
+  name: 命运的织机
+  description: 证据出自璃月地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2247
+    quote: 它们…「深渊」，似乎正在执行一个计划。计划的关键词是…「命运的织机」。
+- id: entity.ruin-guard
+  type: concept
+  name: 遗迹守卫
+  description: 证据出自蒙德地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.968
+    quote: 「但是，其中有一个巨大的遗迹守卫，真的很可怕。起初我以为是废弃的古代机关，靠近后竟然站起来要攻击我。我赶紧逃了。」
+- id: entity.seelie
+  type: concept
+  name: 仙灵
+  description: 证据出自挪德卡莱地区文档的设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507425
+    quote: 你们来了，我还在想你们会不会沿路去拾仙灵开启的宝藏，在周围花半天功夫检查一遍才绕来这个地方。
+- id: entity.spiral-abyss
+  type: concept
+  name: 深境螺旋
+  description: 库内设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: artifact.obc.504793
+    quote: 独自漫步于深境螺旋的废墟间，意图探寻魔剑士向她提及的旅者的踪迹…
+- id: entity.apep
+  type: creature
+  name: 阿佩普
+  description: 证据出自挪德卡莱地区文档的非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.509001
+    quote: …极度烦躁。记录工作也因此受到严重影响。卢沙里姆说，阿佩普王已经听闻了此事，也已经派出了她手下最好的医疗官…但即便是父神尼伯龙根为我们留下的三位月之女，
+- id: entity.azhdaha
+  type: creature
+  name: 若陀龙王
+  description: 证据出自璃月地区文档的非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.4008
+    quote: 若陀龙王原是岩神摩拉克斯的知交与战友，寿命远超人类。然而，大地的衍生物正如这地面上的岩石…
+- id: entity.bathysmal-vishap
+  type: creature
+  name: 深海龙蜥
+  description: 证据出自稻妻地区文档的非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501973
+    quote: 「这一次与海祇选出的勇士同行，发现了深海龙蜥居然都在这里活动了。」
+- id: entity.hilichurl
+  type: creature
+  name: 丘丘人
+  description: 证据出自蒙德地区文档的非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.533
+    quote: 好在很早之前我就侦察到了动向，丘丘人的聚落不自然地向蒙德城附近迁移。
+- id: entity.oceanid
+  type: creature
+  name: 纯水精灵
+  description: 证据出自枫丹地区文档的非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.503060
+    quote: 或许你会觉得这样的记录没有任何科学价值，主张物证与记载指出纯水精灵的起源要早于厄歌莉娅以及此前的雷穆利亚，认为《林猪因为地域差异的不同形态演化研究田野跟
+- id: entity.aaru-village
+  type: location
+  name: 阿如村
+  description: 证据出自须弥地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501739
+    quote: 「现在的年轻人就是喜欢想太多。我们阿如村的人要不是有树王她老人家的庇护，早就在那些神殿废墟下面当骷髅了。」
+- id: entity.dawn-winery
+  type: location
+  name: 晨曦酒庄
+  description: 证据出自蒙德地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501761
+    quote: 晨曦酒庄精心酿制的各式美酒，满足了人们对杯中物的情有独钟。此外，仅仅酒庄所产生的税收，就达到了骑士团年度开销的11.4%。我们心怀感恩，坚定地支持着蒙德
+- id: entity.dragonspine
+  type: location
+  name: 龙脊雪山
+  description: 证据出自挪德卡莱地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507425
+    quote: 我在龙脊雪山的石碑上见过这个名字，很遗憾，留存至今的也只有废墟了。
+- id: entity.fontaine-city
+  type: location
+  name: 枫丹廷
+  description: 证据出自枫丹地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.503061
+    quote: 「执律庭对有关公共安全经费的过度使用之现状与枫丹廷公共安全确保的关联」。
+- id: entity.fortress-of-meropide
+  type: location
+  name: 梅洛彼得堡
+  description: 证据出自挪德卡莱地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507699
+    quote: 我瞧瞧盒子上写了什么…「致敬梅洛彼得堡充满趣味的取餐机制，我们为您献上：随机幸运饼干！开启一天的运势吧！」
+- id: entity.grand-narukami-shrine
+  type: location
+  name: 鸣神大社
+  description: 证据出自稻妻地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5803
+    quote: 经宫司八重神子大人许可，鸣神大社将向受战争影响之贫困商户、困难家庭发放无息扶助贷款、慰问粮等补助福利。
+- id: entity.inazuma-city
+  type: location
+  name: 稻妻城
+  description: 证据出自稻妻地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5803
+    quote: 近日有行踪可疑之外国人士进入稻妻城区，游荡不定，可见动机险恶。
+- id: entity.jueyun-karst
+  type: location
+  name: 绝云间
+  description: 证据出自璃月地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501769
+    quote: （绝云间示仙人的居所，难道这里示某位仙家的洞府？但似乎无法进入…）
+- id: entity.opera-epiclese
+  type: location
+  name: 欧庇克莱歌剧院
+  description: 证据出自枫丹地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501740
+    quote: 近日在欧庇克莱歌剧院，著名疑案「少女连环失踪案」的终于尘埃落定。
+- id: entity.poisson
+  type: location
+  name: 白淞镇
+  description: 证据出自枫丹地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501743
+    quote: 「保卫白淞镇、驱逐恶霸匪帮的前灾厄时代最伟大的英雄故事！数十年来最激动人心的历史剧，近日将于歌剧院上演！」
+- id: entity.port-ormos
+  type: location
+  name: 奥摩斯港
+  description: 证据出自须弥地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.502452
+    quote: 「…卢妮雅大姐从奥摩斯港的雪国商人那里交了个大单子，帮他们处置了个叛徒什么的，总之又是一大笔收入…」
+- id: entity.qingce-village
+  type: location
+  name: 轻策庄
+  description: 证据出自璃月地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.6104
+    quote: 无论您是仙人或是侠客，假如您路过轻策庄，又幸而读到我的留言，希望能烦您同我一叙。」
+- id: entity.ritou
+  type: location
+  name: 离岛
+  description: 证据出自稻妻地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.6121
+    quote: 此乃幕府所设离岛告示板，各种事务，尽皆公示。闲人请勿擅自张贴！
+- id: entity.sumeru-desert
+  type: location
+  name: 须弥沙漠
+  description: 证据出自至冬地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.509517
+    quote: 以主流史学界所笃信的须弥沙漠史为例，其中就存在诸多经不起推敲的疑点：
+- id: entity.thousand-winds-temple
+  type: location
+  name: 千风神殿
+  description: 证据出自蒙德地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.968
+    quote: 「前段时间去了东边的千风神殿，听说这是很久很久以前祭拜风的场所，非常气派。很难想象古代人是怎么造出这么宏伟的建筑的。」
+- id: entity.wangshu-inn
+  type: location
+  name: 望舒客栈
+  description: 证据出自璃月地区文档的地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5801
+    quote: 这里是望舒客栈的公告板，近况无论大小，皆悉心为客人公示。客人若有意见、需求或感触， 亦请在此留言。
+- id: entity.fontaine
+  type: nation
+  name: 枫丹
+  description: 证据出自纳塔地区文档的国度条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.505878
+    quote: 密码筒？你居然没有直接给它来一枪…我看看，枫丹的密码盘、璃月的金属外壳…
+- id: entity.natlan
+  type: nation
+  name: 纳塔
+  description: 证据出自纳塔地区文档的国度条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases:
+  - name: 战争之国
+    kind: alias
+  evidence:
+  - doc: quest.obc.505878
+    quote: 纳塔的核心、枫丹的关节、蒙德的发饰…她看起来不属于任何一个国家。
+- id: entity.church-of-favonius
+  type: organization
+  name: 西风教会
+  description: 证据出自蒙德地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.508352
+    quote: 「说起来，我先前一直以为，港口旁边的那栋小楼是你们西风教会的分部，就是传说中蒙德最古老的大圣堂，和我们至冬的白冕宫一样恢弘…」
+- id: entity.eremites
+  type: organization
+  name: 镀金旅团
+  description: 证据出自枫丹地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.500363
+    quote: 海露港毗邻沙漠，有大量名为「镀金旅团」的非法人员在附近活动。请路过商旅提高警惕。
+- id: entity.house-of-hearth
+  type: organization
+  name: 壁炉之家
+  description: 证据出自挪德卡莱地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507000
+    quote: 壁炉之家也常用代号行事，但人需要本名来锚定自我。以前的你大概会觉得无所谓吧，毕竟那时你四海为家，名字可有可无。
+- id: entity.qixing
+  type: organization
+  name: 璃月七星
+  description: 证据出自璃月地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501851
+    quote: 「…与至冬国之合作协议就此作废，层岩巨渊之勘探工作改由璃月七星全权负责…」
+- id: entity.thirty-men
+  type: organization
+  name: 三十人团
+  description: 证据出自须弥地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.501738
+    quote: 如需雇佣保镖、守卫，亦或其他委托，请联系「三十人团」驻奥摩斯港队长费罗兹。
+- id: entity.yashiro-commission
+  type: organization
+  name: 社奉行
+  description: 证据出自稻妻地区文档的组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.5803
+    quote: 「感谢八重大人与社奉行大人为我们着想，只是每天来领取粮食的人太多了…」

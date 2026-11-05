@@ -166,18 +166,36 @@ CERTAINTY_LABELS = {
 }
 
 
-def find_entities(con: sqlite3.Connection, query: str, limit: int = 50) -> list[sqlite3.Row]:
+def find_entities(con: sqlite3.Connection, query: str, limit: int = 200,
+                  entity_type: str = "") -> list[sqlite3.Row]:
+    # 加括号是必要的：A OR B AND type 会被 SQL 解析成 A OR (B AND type)。
+    type_filter = " AND e.entity_type = ?" if entity_type else ""
+    type_param = [entity_type] if entity_type else []
     if query:
         return con.execute(
-            """SELECT DISTINCT e.* FROM entities e
-               LEFT JOIN entity_names n ON n.entity_id = e.entity_id
-               WHERE e.canonical_name LIKE ? OR n.name LIKE ?
-               ORDER BY e.spoiler_level, e.canonical_name LIMIT ?""",
-            (f"%{query}%", f"%{query}%", limit),
+            f"""SELECT DISTINCT e.* FROM entities e
+                LEFT JOIN entity_names n ON n.entity_id = e.entity_id
+                WHERE (e.canonical_name LIKE ? OR n.name LIKE ?){type_filter}
+                ORDER BY e.spoiler_level, e.canonical_name LIMIT ?""",
+            [f"%{query}%", f"%{query}%", *type_param, limit],
         ).fetchall()
     return con.execute(
-        "SELECT * FROM entities ORDER BY spoiler_level, canonical_name LIMIT ?", (limit,)
+        f"SELECT e.* FROM entities e WHERE 1=1{type_filter} "
+        "ORDER BY e.spoiler_level, e.canonical_name LIMIT ?",
+        [*type_param, limit],
     ).fetchall()
+
+
+def knowledge_stats(con: sqlite3.Connection) -> dict:
+    count = lambda table: con.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
+    return {
+        "entities": count("entities"), "names": count("entity_names"),
+        "relations": count("entity_relations"), "claims": count("claims"),
+        "timeline": count("timeline_entries"),
+        "draft": con.execute(
+            "SELECT COUNT(*) FROM entities WHERE status <> 'reviewed'"
+        ).fetchone()[0],
+    }
 
 
 def entity_names(con: sqlite3.Connection, entity_id: str) -> list[str]:
@@ -192,6 +210,18 @@ def entity_claims(con: sqlite3.Connection, entity_id: str) -> list[sqlite3.Row]:
         """SELECT c.*, d.title AS doc_title FROM claims c
            LEFT JOIN documents d ON d.doc_id = c.doc_id
            WHERE c.subject_id = ? ORDER BY c.claim_id""",
+        (entity_id,),
+    ).fetchall()
+
+
+def entity_evidence_rows(con: sqlite3.Connection, entity_id: str) -> list[sqlite3.Row]:
+    """实体级原文出处：原文哪一篇、哪一句。与 claims 分开，不带断言含义。"""
+    return con.execute(
+        """SELECT ev.*, d.title AS doc_title, s.ordinal AS ordinal
+           FROM entity_evidence ev
+           LEFT JOIN documents d ON d.doc_id = ev.doc_id
+           LEFT JOIN sections s ON s.section_id = ev.section_id
+           WHERE ev.entity_id = ? ORDER BY ev.doc_id, ev.evidence_id""",
         (entity_id,),
     ).fetchall()
 
@@ -710,9 +740,11 @@ def render_doc(doc_id: str) -> str:
 
 def render_entities(args: dict[str, list[str]]) -> str:
     q = first(args, "q")
+    etype = first(args, "type")
     con = connect()
     try:
-        rows = find_entities(con, q, limit=60)
+        ks = knowledge_stats(con)
+        rows = find_entities(con, q, limit=500, entity_type=etype)
         cards = []
         for row in rows:
             names = entity_names(con, row["entity_id"])
@@ -740,6 +772,7 @@ def render_entities(args: dict[str, list[str]]) -> str:
               <div class="aliases">{alias_html or '<span class="none">暂无别名</span>'}</div>
               <p class="entity-meta">关系 {len(outgoing) + len(incoming)} 条 · 说法 {len(claims)} 条 ·
                 相关时间线 {len(tl_rows)} 条 ·
+                {'<span class="entity-status draft">待复核</span>' if row['status'] != 'reviewed' else '<span class="entity-status reviewed">已校对</span>'} ·
                 <a href="/entity/{quote(row['entity_id'], safe='')}">查看详情 →</a></p>
               <h3>带出处的说法（{len(claims)}）</h3>
               <ul class="claim-list">{''.join(claim_items) or '<li class="none">暂无</li>'}</ul>
@@ -753,11 +786,17 @@ def render_entities(args: dict[str, list[str]]) -> str:
       <p>额外的一层：把同一个人物的不同叫法、带出处的说法收在一起。原文检索不受影响。</p>
       <form class="search-form" action="/entities" method="get">
         <input type="search" name="q" value="{esc(q)}" placeholder="搜名字或别名，如 巴巴托斯 / 岩王帝君" autofocus>
+        <select name="type" class="entity-type-select">
+          <option value="">全部类型</option>
+          {''.join(f'<option value="{k}"{" selected" if etype == k else ""}>{v}</option>' for k, v in ENTITY_TYPE_LABELS.items())}
+        </select>
         <button type="submit">查找</button>
       </form>
-      <div class="stats-line">第一批种子 30 个实体 · 43 条关系 · 10 条说法 ·
-        61 条时间线（53 现实版本 + 8 提瓦特纪年）· 全部挂 corpus 段落出处 ·
+      <div class="stats-line">当前显示 {len(rows)} / {ks['entities']} 个实体 · {ks['names']} 个别名 ·
+        {ks['relations']} 条关系 · {ks['claims']} 条说法 · {ks['timeline']} 条时间线 ·
         <a href="/timeline">时间线</a> · <a href="/">回到原文检索</a></div>
+      <p class="entity-hint">前 30 个实体已人工校对；扩量的 {ks['draft']} 个为半自动收录，
+        描述只是分类标签（不是剧情结论），状态标「待复核」，别名与出处均有库内证据。</p>
     </section>
     <section class="entity-list">{''.join(cards) or '<div class="empty">没有匹配的实体。</div>'}</section>
     """
@@ -774,6 +813,7 @@ def render_entity_detail(entity_id: str) -> str | None:
             return None
         names = entity_names(con, entity_id)
         claims = entity_claims(con, entity_id)
+        evidence = entity_evidence_rows(con, entity_id)
         outgoing, incoming = entity_relation_rows(con, entity_id)
         tl_rows = entity_timeline_rows(con, entity_id)
     finally:
@@ -817,11 +857,25 @@ def render_entity_detail(entity_id: str) -> str | None:
             f'<span class="claim-src">{esc(t["relative_time"] or "—")} · 出处：{link}</span></li>'
         )
 
-    docs = sorted({r["doc_id"] for r in list(outgoing) + list(incoming) + list(claims)
-                   if r["doc_id"]})
-    doc_links = "".join(
-        f'<li><a href="/doc/{quote(d, safe="")}">{esc(d)}</a></li>' for d in docs
-    ) or '<li class="none">暂无</li>'
+    # 「关联原文」= 实体出处 ∪ 关系/说法的出处。
+    # 出处逐句列出（带原话），关系和说法只补文档链接，不重复列同一篇。
+    ev_docs = {e["doc_id"] for e in evidence if e["doc_id"]}
+    docs = sorted(ev_docs | {r["doc_id"] for r in list(outgoing) + list(incoming) + list(claims)
+                             if r["doc_id"]})
+    ev_items = []
+    for e in evidence:
+        if not e["doc_id"]:
+            continue
+        link = f'<a href="/doc/{quote(e["doc_id"], safe="")}">{esc(e["doc_title"] or e["doc_id"])}</a>'
+        ev_items.append(f'<li><span class="claim-text">「{esc(e["quote"])}」</span>'
+                        f'<span class="claim-src">出处：{link}</span></li>')
+    rest = [d for d in docs if d not in ev_docs]
+    titles = {r["doc_id"]: r["doc_title"] for r in
+              list(outgoing) + list(incoming) + list(claims) + list(evidence)
+              if r["doc_id"]}
+    ev_items += [f'<li><a href="/doc/{quote(d, safe="")}">'
+                 f'{esc(titles.get(d) or d)}</a></li>' for d in rest]
+    doc_links = "".join(ev_items) or '<li class="none">暂无</li>'
 
     alias_html = "".join(f'<span class="alias">{esc(n)}</span>' for n in names) \
         or '<span class="none">暂无别名</span>'
@@ -1083,10 +1137,11 @@ class Handler(BaseHTTPRequestHandler):
 
     def _api_entities(self, args: dict[str, list[str]]) -> dict:
         q = first(args, "q")
+        etype = first(args, "type")
         con = connect()
         try:
             out = []
-            for row in find_entities(con, q, limit=50):
+            for row in find_entities(con, q, limit=200, entity_type=etype):
                 item = dict(row)
                 item["aliases"] = entity_names(con, row["entity_id"])
                 item["claims"] = [dict(c) for c in entity_claims(con, row["entity_id"])]
@@ -1098,7 +1153,7 @@ class Handler(BaseHTTPRequestHandler):
                 out.append(item)
         finally:
             con.close()
-        return {"query": q, "count": len(out), "results": out}
+        return {"query": q, "type": etype, "count": len(out), "results": out}
 
     def _api_entity(self, args: dict[str, list[str]]) -> dict:
         entity_id = first(args, "id")
@@ -1112,6 +1167,7 @@ class Handler(BaseHTTPRequestHandler):
             item = dict(row)
             item["aliases"] = entity_names(con, entity_id)
             item["claims"] = [dict(c) for c in entity_claims(con, entity_id)]
+            item["evidence"] = [dict(e) for e in entity_evidence_rows(con, entity_id)]
             outgoing, incoming = entity_relation_rows(con, entity_id)
             item["relations_out"] = [dict(r) for r in outgoing]
             item["relations_in"] = [dict(r) for r in incoming]

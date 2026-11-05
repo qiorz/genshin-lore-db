@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*-
 """把 knowledge/ 下的种子卡片灌进 SQLite 知识层。
 
-数据源：
-  knowledge/seed.yaml        第一批：30 个实体 + 别名 + claims（已人工校对）
-  knowledge/seed-stage2.yaml 第二批：关系边、提瓦特纪年事件、现实版本上线时间线
+数据源：自动读取 knowledge/seed*.yaml（按 seed.yaml 优先、其余按文件名排序）并合并
+  seed.yaml          第一批：30 个实体 + 别名 + claims（已人工校对，reviewed）
+  seed-stage2.yaml   第二批：关系边、提瓦特纪年事件、现实版本上线时间线
+  seed-stage3.yaml   第三批：70 个扩量实体（半自动挖掘，draft）
+  以后再加批次只需新增 seed-*.yaml，不必改本脚本。
 
 设计要点（见 knowledge/README.md §8）：
   - 不硬编码 section_id。重导 corpus 后 section_id 会变，所以每条证据只写
@@ -32,8 +34,9 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-SEED = ROOT / "knowledge/seed.yaml"
-SEED2 = ROOT / "knowledge/seed-stage2.yaml"
+SEED_DIR = ROOT / "knowledge"
+SEED_FILES = sorted(SEED_DIR.glob("seed*.yaml"),
+                    key=lambda p: (p.name != "seed.yaml", p.name))
 DB = ROOT / "db/genshin_lore.sqlite3"
 REPORT = ROOT / "exports/obc-evaluation/knowledge-seed-report.md"
 APPLY = "--apply" in sys.argv
@@ -52,6 +55,27 @@ ENTITY_STATUS = {"draft", "reviewed", "stable", "deprecated"}
 TL_LORE_BASE = 3000
 TL_RELEASE_BASE = 90000
 REL_INVOLVED_BASE = 5000
+
+
+def load_seeds() -> dict:
+    """合并所有 seed*.yaml；给每条实体附加所属批次与该批的 status。"""
+    merged = {"entities": [], "claims": [], "relations": [],
+              "events": [], "release_timeline": {}, "batches": []}
+    for path in SEED_FILES:
+        data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        batch = data.get("batch", path.stem)
+        status = data.get("status", "draft")
+        merged["batches"].append((path.name, batch, status))
+        for entity in data.get("entities") or []:
+            entity = dict(entity)
+            entity["_status"] = entity.get("status", status)
+            entity["_batch"] = batch
+            merged["entities"].append(entity)
+        for key in ("claims", "relations", "events"):
+            merged[key].extend(data.get(key) or [])
+        if data.get("release_timeline"):
+            merged["release_timeline"] = data["release_timeline"]
+    return merged
 
 
 def norm(text: str) -> str:
@@ -96,13 +120,12 @@ def release_rows(con: sqlite3.Connection) -> list[sqlite3.Row]:
 
 
 def main() -> int:
-    seed = yaml.safe_load(SEED.read_text(encoding="utf-8"))
-    stage2 = yaml.safe_load(SEED2.read_text(encoding="utf-8"))
-    entities = seed.get("entities") or []
-    claims = seed.get("claims") or []
-    relations = stage2.get("relations") or []
-    events = stage2.get("events") or []
-    release_cfg = stage2.get("release_timeline") or {}
+    data = load_seeds()
+    entities = data["entities"]
+    claims = data["claims"]
+    relations = data["relations"]
+    events = data["events"]
+    release_cfg = data["release_timeline"]
     errors: list[str] = []
     cache: dict = {}
     con = sqlite3.connect(DB)
@@ -110,9 +133,14 @@ def main() -> int:
     con.execute("PRAGMA foreign_keys = ON")
 
     known_ids = {e["id"] for e in entities}
-    entity_status = seed.get("status", "draft")
-    if entity_status not in ENTITY_STATUS:
-        errors.append(f"seed.yaml: 非法 status {entity_status}")
+    id_counts = Counter(e["id"] for e in entities)
+    for eid, n in id_counts.items():
+        if n > 1:
+            errors.append(f"重复 entity_id {eid}（{n} 次）")
+    status_counts = Counter(e["_status"] for e in entities)
+    for st in status_counts:
+        if st not in ENTITY_STATUS:
+            errors.append(f"非法 entity status {st}")
 
     for item in entities:
         eid = item["id"]
@@ -194,7 +222,7 @@ def main() -> int:
                      status=excluded.status,
                      updated_at=datetime('now')""",
                 (eid, item["type"], item["name"], item.get("name_en"),
-                 item.get("description", ""), int(item.get("spoiler", 0)), entity_status),
+                 item.get("description", ""), int(item.get("spoiler", 0)), item["_status"]),
             )
             names = [(item["name"], "canonical", 1)]
             names += [(a["name"], a.get("kind", "alias"), 0) for a in item.get("aliases") or []]
@@ -204,6 +232,17 @@ def main() -> int:
                        (entity_id, name, language, name_type, source_id, is_primary)
                        VALUES (?,?,'zh-Hans',?,NULL,?)""",
                     (eid, name, kind, primary),
+                )
+            # 出处单独一条条存：详情页要能点回原文那一句。
+            # 无稳定主键，按 entity 先删后插，保证幂等。
+            con.execute("DELETE FROM entity_evidence WHERE entity_id=?", (eid,))
+            for ev in item.get("evidence") or []:
+                found = resolve(con, ev["doc"], ev["quote"], cache)
+                con.execute(
+                    """INSERT INTO entity_evidence
+                       (entity_id, doc_id, section_id, quote, is_primary)
+                       VALUES (?,?,?,?,1)""",
+                    (eid, ev["doc"], found[0] if found else None, ev["quote"]),
                 )
         for item in claims:
             found = resolve(con, item["doc"], item["quote"], cache)
@@ -352,9 +391,11 @@ def main() -> int:
         "# 知识层种子 · 灌库报告", "",
         f"> {datetime.now().astimezone().isoformat(timespec='seconds')} · "
         f"模式：{'写入' if APPLY else '干跑'} · "
-        f"来源 `knowledge/seed.yaml` + `knowledge/seed-stage2.yaml`", "",
+        "来源：" + "、".join(f"`knowledge/{n}`" for n, _, _ in data["batches"]), "",
         "| 项 | 值 |", "|---|---|",
-        f"| 实体 | {len(entities)}（status: {entity_status}） |",
+        f"| 实体 | {len(entities)}（" +
+        "、".join(f"{k} {v}" for k, v in status_counts.most_common()) + "） |",
+        f"| 种子批次 | {len(data['batches'])} |",
         f"| 别名（不含规范名） | {alias_count} |",
         f"| claims | {len(claims)} |",
         f"| 关系边 | {len(relations)} 条人工 + {involved_count} 条事件参与 |",

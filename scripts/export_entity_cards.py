@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """把知识层种子导出为便于人工阅读的 Markdown 卡片。
 
-权威来源：knowledge/seed.yaml + knowledge/seed-stage2.yaml（可编辑）
+权威来源：knowledge/seed*.yaml（可编辑，自动合并所有批次）
 查询层：  db/genshin_lore.sqlite3 的 entities / entity_relations / claims / timeline_entries
 导出视图：knowledge/entities/**.md、knowledge/events/*.md、
           knowledge/claims/*.md、knowledge/timelines/*.md
@@ -25,8 +25,9 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-SEED = ROOT / "knowledge/seed.yaml"
-SEED2 = ROOT / "knowledge/seed-stage2.yaml"
+SEED_DIR = ROOT / "knowledge"
+SEED_FILES = sorted(SEED_DIR.glob("seed*.yaml"),
+                    key=lambda p: (p.name != "seed.yaml", p.name))
 DB = ROOT / "db/genshin_lore.sqlite3"
 OUT = ROOT / "knowledge"
 APPLY = "--apply" in sys.argv
@@ -55,6 +56,23 @@ CONF_LABELS = {
 }
 
 
+def load_seeds() -> dict:
+    """与 load_knowledge.py 用同一套合并规则，保证卡片与数据库一致。"""
+    merged = {"entities": [], "claims": [], "events": []}
+    for path in SEED_FILES:
+        data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        status = data.get("status", "draft")
+        batch = data.get("batch", path.stem)
+        for entity in data.get("entities") or []:
+            entity = dict(entity)
+            entity["_status"] = entity.get("status", status)
+            entity["_batch"] = batch
+            merged["entities"].append(entity)
+        for key in ("claims", "events"):
+            merged[key].extend(data.get(key) or [])
+    return merged
+
+
 def slug(entity_id: str) -> str:
     return re.sub(r"[^a-z0-9-]", "-", entity_id.removeprefix("entity.").lower())
 
@@ -70,15 +88,13 @@ def doc_link(doc_id: str, ordinal: int | None = None) -> str:
 
 
 def main() -> int:
-    seed = yaml.safe_load(SEED.read_text(encoding="utf-8"))
-    stage2 = yaml.safe_load(SEED2.read_text(encoding="utf-8"))
+    data = load_seeds()
     con = sqlite3.connect(DB)
     con.row_factory = sqlite3.Row
-    status = seed.get("status", "draft")
     files: dict[Path, str] = {}
 
     # --- 实体卡片 -----------------------------------------------------------
-    for item in seed.get("entities") or []:
+    for item in data["entities"]:
         eid = item["id"]
         rels = con.execute(
             """SELECT r.predicate, r.object_literal, r.confidence, r.doc_id,
@@ -127,8 +143,7 @@ def main() -> int:
         evidence_lines = [f"- {doc_link(ev['doc'])}：{ev['quote']}"
                           for ev in item.get("evidence") or []]
 
-        pending = ["- 关系与说法的完整证据见 `knowledge/seed.yaml` 与 "
-                   "`knowledge/seed-stage2.yaml`；本卡片由脚本生成，不要手改。"]
+        pending = ["- 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。"]
         if not rels:
             pending.append("- 该实体暂无关系边，待补。")
         if not claims:
@@ -143,8 +158,8 @@ def main() -> int:
             f"canonical_name_en: {item.get('name_en') or ''}",
             "aliases:" + yaml_list(aliases),
             f"spoiler_level: {int(item.get('spoiler', 0))}",
-            f"status: {status}",
-            "tags: [第一批种子]",
+            f"status: {item['_status']}",
+            "tags: [知识层种子]",
             "---", "",
             "## 简介", "",
             item.get("description", ""), "",
@@ -160,7 +175,7 @@ def main() -> int:
         files[OUT / "entities" / TYPE_DIR[item["type"]] / f"{slug(eid)}.md"] = body
 
     # --- 说法卡片 -----------------------------------------------------------
-    for item in seed.get("claims") or []:
+    for item in data["claims"]:
         cid = item["id"]
         body = "\n".join([
             "---",
@@ -183,7 +198,7 @@ def main() -> int:
         files[OUT / "claims" / f"claim-{cid}.md"] = body
 
     # --- 事件卡片 -----------------------------------------------------------
-    for item in stage2.get("events") or []:
+    for item in data["events"]:
         evid = item["id"]
         participants = [f"- [[{e}]]" for e in item.get("entities") or []]
         body = "\n".join([

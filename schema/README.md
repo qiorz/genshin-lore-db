@@ -55,6 +55,7 @@ sources
   ├──< entities >──< entity_names
   │        │
   │        ├──< entity_relations >── entities (object)
+  │        ├──< entity_evidence >── sections
   │        └──< claims >── sections
   │
   ├──< events >──< event_sources
@@ -141,6 +142,14 @@ sources
 - `entity_type`：人物、国家、组织、地点、神、生物、概念、事件、物品、称号；
 - `canonical_name`：中文规范名；
 - `entity_names`：本名、称号、化名、译名、拼音。
+
+### `entity_evidence`
+
+实体级的原文出处：`entity_id + doc_id + section_id + quote`。
+
+- 与 `claims` 分工：`claims` 是**带视角的断言**；`entity_evidence` 只回答「原文提到过它」；
+- 半自动扩量的实体往往还写不出可靠断言，但仍必须能点回原话，所以单列一张；
+- 无自然主键，按 `entity_id` 先删后插（`load_knowledge.py`），保证重复灌库幂等。
 
 ### `entity_relations`
 
@@ -331,6 +340,7 @@ SELECT * FROM v_duplicate_hashes;
 - 已应用：`002_allow_duplicate_hashes.sql`（同文异址可共存）；
 - 已应用：`003_fts_trigram.sql`（FTS5 改为 trigram，去掉 jieba 依赖）；
 - 已应用：`004_index_sections_parent.sql`（`sections.parent_id` 索引，修复重载大文档的级联删除性能）；
+- 已应用：`005_add_entity_evidence.sql`（新增 `entity_evidence`：实体级原文出处，与 `claims` 分工）；
 - 升级前备份 `db/genshin_lore.sqlite3`；
 - 不要直接删除表；先导出，再迁移；
 - `content_hash` 是内容身份，不要手动改；

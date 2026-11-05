@@ -181,7 +181,7 @@ quote: "所幸温迪阁下…嗯，也就是巴巴托斯大人也愿意帮忙"
 ### 权威源 → 查询层 → 阅读视图
 
 ```text
-knowledge/seed.yaml + seed-stage2.yaml   可编辑的权威源（人工维护）
+knowledge/seed*.yaml                     可编辑的权威源（人工维护，按批新增）
         ↓ scripts/load_knowledge.py --apply
 db/genshin_lore.sqlite3                  查询层（entities / relations / claims / events / timeline）
         ↓ scripts/export_entity_cards.py --apply
@@ -191,7 +191,8 @@ knowledge/entities|claims|events|timelines/*.md   导出的阅读视图（生成
 要改结论就改 seed，依次重跑两个脚本。证据仍只用 `doc_id + 短引用`，
 `corpus/` 全量重导后重跑灌库脚本即可重新对齐 `section_id`。
 
-本批生成的 50 份 Markdown：30 张实体卡、10 张说法卡、8 张事件卡、2 张时间线汇总。
+本批生成的 50 份 Markdown：30 张实体卡、10 张说法卡、8 张事件卡、2 张时间线汇总
+（第三批扩量后实体卡共 100 张，见 §10）。
 
 ### 两条时间线互不换算（重要）
 
@@ -217,3 +218,34 @@ knowledge/entities|claims|events|timelines/*.md   导出的阅读视图（生成
 - Web UI：`/entities`、`/entity/<entity_id>`、`/timeline`；
 - JSON：`/api/entities`、`/api/entity?id=...`、`/api/timeline?era=teyvat`；
 - 报告：`exports/obc-evaluation/knowledge-seed-report.md`。
+
+## 10. 第三批（2026-11-05）：实体扩量到 100
+
+用户要求把实体扩到 100。扩量方式是**证据驱动**，不是照着名单硬填：
+
+| 环节 | 做法 |
+|---|---|
+| 挖候选 | `scripts/mine_entities.py` 拿词表去 `corpus/` 里反查真实段落，按文档类型打分（任务/书籍/角色 3 分，公告 −3 分），噪声词扣分，名字出现在段首加分 |
+| 人工取舍 | 结果落 `entity-candidates.csv`，收谁不收谁由人过目 |
+| 入库 | `seed-stage3.yaml` 70 个实体，每条都有 `doc_id` + 原话，干跑 147/147 命中 |
+| 描述口径 | 只写中性分类标签（「证据出自某地区文档的人物条目」），**不写剧情结论**；具体设定点出处核对 |
+| 别名 | 只收**同一段原文里同时出现**的称呼（皇女/博士/丑角/仆人/战争之国），不从百科列表抄 |
+
+### 新表 `entity_evidence`
+
+`claims` 回答「谁在什么立场说了什么」，扩量实体多数还没有这种断言，
+但它们确实被原文提到过。于是单开一张轻量表：
+
+```text
+entity_evidence(entity_id, doc_id, section_id, quote, is_primary)
+```
+
+- 详情页「关联原文」逐句列出原话 + 可点回 `section_id` 所在段落；
+- 与 `claims` 严格分开：这里只证明「原文提到过它」，不承载任何结论；
+- 无稳定主键，灌库时按 `entity_id` 先删后插，保证幂等；
+- 迁移文件：`schema/migrations/005_add_entity_evidence.sql`。
+
+### 待复核
+
+70 张新卡 `status=draft`（卡片与列表页都标「待复核」）。别名和出处可信，
+**描述需要人工抽样复核**；复核通过的卡片改成 `status: reviewed` 再重跑灌库脚本即可。
