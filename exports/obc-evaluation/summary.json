@@ -4,7 +4,7 @@
     "documents": 7734,
     "sections": 453939,
     "document_revisions": 8404,
-    "ingest_runs": 47
+    "ingest_runs": 49
   },
   "by_type": {
     "item": 2622,
@@ -67,13 +67,13 @@
     },
     "notice": {
       "total": 55,
-      "versioned": 53,
-      "unknown": 2
+      "versioned": 55,
+      "unknown": 0
     },
     "event": {
       "total": 47,
-      "versioned": 47,
-      "unknown": 0
+      "versioned": 45,
+      "unknown": 2
     }
   },
   "quest_dialogue": {
@@ -152,6 +152,26 @@
   ],
   "recent_ingest_runs": [
     {
+      "run_id": 49,
+      "started_at": "2026-11-05T18:46:13+08:00",
+      "finished_at": "2026-11-05T18:46:14+08:00",
+      "status": "success",
+      "documents_seen": 70,
+      "documents_written": 70,
+      "errors": 0,
+      "notes": "load_markdown.py"
+    },
+    {
+      "run_id": 48,
+      "started_at": "2026-11-05T18:27:27+08:00",
+      "finished_at": "2026-11-05T18:27:27+08:00",
+      "status": "success",
+      "documents_seen": 2,
+      "documents_written": 2,
+      "errors": 0,
+      "notes": "load_markdown.py"
+    },
+    {
       "run_id": 47,
       "started_at": "2026-11-05T17:56:09+08:00",
       "finished_at": "2026-11-05T17:56:32+08:00",
@@ -178,26 +198,6 @@
       "status": "success",
       "documents_seen": 1,
       "documents_written": 1,
-      "errors": 0,
-      "notes": "load_markdown.py"
-    },
-    {
-      "run_id": 44,
-      "started_at": "2026-11-04T15:01:47+08:00",
-      "finished_at": "2026-11-04T15:01:56+08:00",
-      "status": "success",
-      "documents_seen": 2401,
-      "documents_written": 2401,
-      "errors": 0,
-      "notes": "load_markdown.py"
-    },
-    {
-      "run_id": 43,
-      "started_at": "2026-11-04T15:01:44+08:00",
-      "finished_at": "2026-11-04T15:01:46+08:00",
-      "status": "success",
-      "documents_seen": 55,
-      "documents_written": 55,
       "errors": 0,
       "notes": "load_markdown.py"
     }

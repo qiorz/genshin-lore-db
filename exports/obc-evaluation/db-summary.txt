@@ -4,7 +4,7 @@ sources: 9
 documents: 7734
 sections: 453939
 document_revisions: 8404
-ingest_runs: 47
+ingest_runs: 49
 
 by type
   item: 2622
@@ -29,8 +29,8 @@ version coverage
   character: 136/136 versioned, 0 unknown
   book: 91/92 versioned, 1 unknown
   artifact: 63/63 versioned, 0 unknown
-  notice: 53/55 versioned, 2 unknown
-  event: 47/47 versioned, 0 unknown
+  notice: 55/55 versioned, 0 unknown
+  event: 45/47 versioned, 2 unknown
 
 top regions
   未知: 3041
@@ -54,8 +54,8 @@ quest dialogue
   without_dialogue: 50
 
 recent ingest runs
+  #49 success seen=70 written=70 errors=0
+  #48 success seen=2 written=2 errors=0
   #47 success seen=4100 written=4100 errors=0
   #46 success seen=3634 written=3634 errors=0
   #45 success seen=1 written=1 errors=0
-  #44 success seen=2401 written=2401 errors=0
-  #43 success seen=55 written=55 errors=0

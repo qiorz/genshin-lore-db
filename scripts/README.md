@@ -34,6 +34,8 @@
 | `repair_quest_5299_epilogue.py` | 用 OBC 原始快照重填 5299 的「尾声」，修复 BWiki 短名错配 | Python 3.11+ |
 | `corpus_rules.py` | 共享规则：结构性元数据行识别、台词归一化（导入器与体检脚本共用） | Python 3.11+ |
 | `audit_corpus.py` | **全库体检**：串内容/重复、字段覆盖、corpus↔DB 对账、FTS 完整性 | Python 3.11+ |
+| `enrich_release_versions.py` | 按官方版本更新说明的上线日期区间，给有 `release_date` 无 `version` 的公告推导版本（`official`/`inferred`） | Python 3.11+ |
+| `normalize_version_labels.py` | 把「月之X」/多版本列表/版本区间归一化为 `X.Y`，玩法标签移出 version 字段 | Python 3.11+ |
 
 ```powershell
 # Windows PowerShell（当前环境需要 Bypass 执行策略）

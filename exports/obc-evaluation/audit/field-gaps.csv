@@ -299,7 +299,7 @@ event.obc.505345,event,0,1,1,1
 event.obc.507409,event,0,1,1,1
 event.obc.507904,event,0,1,1,1
 event.obc.508678,event,0,1,1,1
-event.obc.505529,event,0,1,1,1
+event.obc.505529,event,1,1,1,1
 event.obc.500837,event,0,1,1,1
 event.obc.509108,event,0,1,1,1
 event.obc.508083,event,0,1,1,1
@@ -319,7 +319,7 @@ event.obc.504239,event,0,1,1,1
 event.obc.508202,event,0,1,1,1
 event.obc.507517,event,0,1,1,1
 event.obc.507770,event,0,1,1,1
-event.obc.507357,event,0,1,1,1
+event.obc.507357,event,1,1,1,1
 event.obc.5959,event,0,1,1,1
 event.obc.508499,event,0,1,1,1
 event.obc.509785,event,0,1,1,1
@@ -3223,8 +3223,8 @@ item.obc.4390,item,1,1,1,1
 item.obc.1161,item,1,1,1,1
 item.obc.3426,item,1,1,1,1
 item.obc.502060,item,1,1,1,1
-notice.ann.21812,notice,1,1,0,1
-notice.ann.21969,notice,1,1,0,1
+notice.ann.21812,notice,0,1,0,1
+notice.ann.21969,notice,0,1,0,1
 notice.mys.2586578,notice,0,1,0,1
 notice.mys.3261335,notice,0,1,0,1
 notice.mys.4036379,notice,0,1,0,1

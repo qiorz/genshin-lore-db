@@ -1,0 +1,71 @@
+﻿doc_id,title,old_version,new_version,action,path
+artifact.obc.508651,天之美赐,月之七,6.6,mapped,corpus/artifacts/天之美赐.md
+artifact.obc.508652,影中沉凝的幻灭,月之七,6.6,mapped,corpus/artifacts/影中沉凝的幻灭.md
+artifact.obc.507648,晨星与月的晓歌,月之四,6.3,mapped,corpus/artifacts/晨星与月的晓歌.md
+artifact.obc.506178,穹境示现之夜,月之一,6.0,mapped,corpus/artifacts/穹境示现之夜.md
+artifact.obc.506172,纺月的夜歌,月之一,6.0,mapped,corpus/artifacts/纺月的夜歌.md
+artifact.obc.507653,风起之日,月之四,6.3,mapped,corpus/artifacts/风起之日.md
+book.obc.638,冒险家罗尔德的日志,"1.0, 1.2, 2.0, 2.2",1.0,multi_first,corpus/books/提瓦特/冒险家罗尔德的日志.md
+book.obc.534,提瓦特游览指南,"1.0, 2.6",1.0,multi_first,corpus/books/提瓦特/提瓦特游览指南.md
+book.obc.3470,白夜国馆藏,2.3–2.4,2.3,range_start,corpus/books/渊下宫/白夜国馆藏.md
+book.obc.605,侠客记,"1.0, 1.5",1.0,multi_first,corpus/books/璃月/侠客记.md
+book.obc.606,璃月风土志,"1.0, 1.1, 1.2",1.0,multi_first,corpus/books/璃月/璃月风土志.md
+book.obc.513,绝云记闻,"1.0, 1.2, 1.3",1.0,multi_first,corpus/books/璃月/绝云记闻.md
+book.obc.621,谁人的日志,"1.0, 2.0",1.0,multi_first,corpus/books/璃月/谁人的日志.md
+book.obc.1690,连心珠,"1.2, 1.3, 1.5",1.2,multi_first,corpus/books/璃月/连心珠.md
+book.obc.2448,新六狐传,"2.0, 2.1",2.0,multi_first,corpus/books/稻妻/新六狐传.md
+book.obc.3624,沉秋拾剑录,"2.0, 2.6",2.0,multi_first,corpus/books/稻妻/沉秋拾剑录.md
+book.obc.3623,鹮巷物语,"2.0, 2.1",2.0,multi_first,corpus/books/稻妻/鹮巷物语.md
+book.obc.504,少女薇拉的忧郁,"1.0, 1.1, 6.5",1.0,multi_first,corpus/books/蒙德/少女薇拉的忧郁.md
+book.obc.1130,犬又二分之一,"1.1, 1.3, 1.5, 2.0",1.1,multi_first,corpus/books/蒙德/犬又二分之一.md
+book.obc.624,蒲公英海的狐狸,"1.0, 1.1",1.0,multi_first,corpus/books/蒙德/蒲公英海的狐狸.md
+book.obc.625,野猪公主,"1.0, 1.2",1.0,multi_first,corpus/books/蒙德/野猪公主.md
+book.obc.4943,千夜故事集,"3.1, 3.4",3.1,multi_first,corpus/books/须弥/千夜故事集.md
+event.obc.508808,勇锐魁杰试炼战记,月之七,6.6,mapped,corpus/events/游戏活动/勇锐魁杰试炼战记.md
+event.obc.507177,参究故墟·稳健知行,月之二,6.1,mapped,corpus/events/游戏活动/参究故墟·稳健知行.md
+event.obc.507409,哐哐当当雀雀球,月之三,6.2,mapped,corpus/events/游戏活动/哐哐当当雀雀球.md
+event.obc.507904,奔霄颂玉轮,月之四,6.3,mapped,corpus/events/游戏活动/奔霄颂玉轮.md
+event.obc.508678,幻友绮旅,月之七,6.6,mapped,corpus/events/游戏活动/幻友绮旅.md
+event.obc.505529,幽境危战,常驻,,removed,corpus/events/游戏活动/幽境危战.md
+event.obc.509108,悠悠律动舞力聚会,月之八,6.7,mapped,corpus/events/游戏活动/悠悠律动舞力聚会.md
+event.obc.508083,捕风的归客,月之五,6.4,mapped,corpus/events/游戏活动/捕风的归客.md
+event.obc.508218,据点防卫总动员,月之五,6.4,mapped,corpus/events/游戏活动/据点防卫总动员.md
+event.obc.508891,斑斓色彩追逐战,月之七,6.6,mapped,corpus/events/游戏活动/斑斓色彩追逐战.md
+event.obc.508946,映夏！归乡？千灵节！,月之八,6.7,mapped,corpus/events/游戏活动/映夏！归乡？千灵节！.md
+event.obc.509099,最终远射瞄准线,月之八,6.7,mapped,corpus/events/游戏活动/最终远射瞄准线.md
+event.obc.507981,月引周巡之述演,月之四,6.3,mapped,corpus/events/游戏活动/月引周巡之述演.md
+event.obc.508366,测定摹绘研学,月之六,6.5,mapped,corpus/events/游戏活动/测定摹绘研学.md
+event.obc.508202,灵蕈旅记,月之五,6.4,mapped,corpus/events/游戏活动/灵蕈旅记.md
+event.obc.507517,炽魂斗士的雪界之旅,月之三,6.2,mapped,corpus/events/游戏活动/炽魂斗士的雪界之旅.md
+event.obc.507770,瞬影旅集,月之四,6.3,mapped,corpus/events/游戏活动/瞬影旅集.md
+event.obc.507357,砺行修远,常驻,,removed,corpus/events/游戏活动/砺行修远.md
+event.obc.508499,礁与浪的相逢,月之六,6.5,mapped,corpus/events/游戏活动/礁与浪的相逢.md
+event.obc.507286,跃跃律动舞力聚会,月之二,6.1,mapped,corpus/events/游戏活动/跃跃律动舞力聚会.md
+event.obc.508562,速摄快镜,月之六,6.5,mapped,corpus/events/游戏活动/速摄快镜.md
+event.obc.507611,飒勇争锋，龙之劲斗,月之三,6.2,mapped,corpus/events/游戏活动/飒勇争锋，龙之劲斗.md
+event.obc.507046,龙龙同游,月之二,6.1,mapped,corpus/events/游戏活动/龙龙同游.md
+lore.obc.509006,古老的终端【黑体物质笼发生站】,月之八,6.7,mapped,corpus/scattered/挪德卡莱/古老的终端【黑体物质笼发生站】.md
+lore.obc.507844,埋放在时间囊中的信笺【凯雷丝之翼】,月之四,6.3,mapped,corpus/scattered/挪德卡莱/埋放在时间囊中的信笺【凯雷丝之翼】.md
+lore.obc.508304,一叠纸【疗养院旧址】,月之六,6.5,mapped,corpus/scattered/蒙德/一叠纸【疗养院旧址】.md
+weapon.obc.507943,朏魄含光,月之四,6.3,mapped,corpus/weapons/单手剑/朏魄含光.md
+weapon.obc.506381,织月者的曙色,月之一,6.0,mapped,corpus/weapons/单手剑/织月者的曙色.md
+weapon.obc.506379,谧音吹哨,月之一,6.0,mapped,corpus/weapons/单手剑/谧音吹哨.md
+weapon.obc.507354,黑蚀,月之三,6.2,mapped,corpus/weapons/单手剑/黑蚀.md
+weapon.obc.506376,万能钥匙,月之一,6.0,mapped,corpus/weapons/双手剑/万能钥匙.md
+weapon.obc.508005,狼的武功歌,月之五,6.4,mapped,corpus/weapons/双手剑/狼的武功歌.md
+weapon.obc.508913,超越之匙,月之八,6.7,mapped,corpus/weapons/双手剑/超越之匙.md
+weapon.obc.506377,罗网勾针,月之一,6.0,mapped,corpus/weapons/弓/罗网勾针.md
+weapon.obc.507352,虹蛇的雨弦,月之三,6.2,mapped,corpus/weapons/弓/虹蛇的雨弦.md
+weapon.obc.508253,霜结的誓金枝,月之六,6.5,mapped,corpus/weapons/弓/霜结的誓金枝.md
+weapon.obc.507353,黎明破晓之史,月之三,6.2,mapped,corpus/weapons/弓/黎明破晓之史.md
+weapon.obc.506375,乌髓孑灯,月之一,6.0,mapped,corpus/weapons/法器/乌髓孑灯.md
+weapon.obc.506378,天光的纺琴,月之一,6.0,mapped,corpus/weapons/法器/天光的纺琴.md
+weapon.obc.508634,尘光七谕,月之七,6.6,mapped,corpus/weapons/法器/尘光七谕.md
+weapon.obc.507623,帷间夜曲,月之四,6.3,mapped,corpus/weapons/法器/帷间夜曲.md
+weapon.obc.506913,真语秘匣,月之二,6.1,mapped,corpus/weapons/法器/真语秘匣.md
+weapon.obc.506390,纺夜天镜,月之一,6.0,mapped,corpus/weapons/法器/纺夜天镜.md
+weapon.obc.506911,霜辰,月之二,6.1,mapped,corpus/weapons/法器/霜辰.md
+weapon.obc.506912,圣祭者的辉杖,月之二,6.1,mapped,corpus/weapons/长柄武器/圣祭者的辉杖.md
+weapon.obc.506374,掘金之锹,月之一,6.0,mapped,corpus/weapons/长柄武器/掘金之锹.md
+weapon.obc.508805,灾悔,月之七,6.6,mapped,corpus/weapons/长柄武器/灾悔.md
+weapon.obc.506694,血染荒城,月之一,6.0,mapped,corpus/weapons/长柄武器/血染荒城.md

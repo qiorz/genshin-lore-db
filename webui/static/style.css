@@ -177,6 +177,19 @@ main { width: min(1220px, calc(100% - 36px)); margin: 0 auto; padding: 30px 0 70
 }
 .stats-line { margin-top: 18px; color: var(--dim); font-size: 12px; letter-spacing: 0.04em; }
 
+.coverage-note { margin-top: 14px; font-size: 12px; color: var(--muted); }
+.coverage-note summary { cursor: pointer; padding: 8px 12px; border: 1px solid var(--line-soft); border-radius: 8px; background: var(--panel); }
+.coverage-note[open] summary { border-radius: 8px 8px 0 0; border-bottom: 0; }
+.cov-hint { margin-left: 10px; color: var(--gold-soft); font-size: 11px; }
+.coverage-note ul { margin: 0; padding: 12px 12px 12px 30px; border: 1px solid var(--line-soft); border-top: 0; border-radius: 0 0 8px 8px; background: var(--panel-2); line-height: 1.7; }
+.coverage-note li { margin-bottom: 4px; }
+.coverage-note strong { color: var(--ink); font-weight: 500; }
+.filter-notice { margin: 0 0 16px; padding: 10px 14px; border: 1px solid rgba(214, 179, 106, 0.3); border-radius: 8px; background: rgba(214, 179, 106, 0.08); color: var(--gold-soft); font-size: 12px; line-height: 1.7; }
+.cov-table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 12px; }
+.cov-table th, .cov-table td { padding: 8px 10px; border-bottom: 1px solid var(--line-soft); text-align: left; vertical-align: top; }
+.cov-table th { color: var(--dim); font-weight: 500; }
+.cov-table td:last-child { color: var(--muted); line-height: 1.6; }
+
 .results-head {
   display: flex;
   align-items: end;

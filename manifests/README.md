@@ -15,6 +15,8 @@
 | `item-skip.csv` | 未归档的物品及原因（**0 条**，2,622 条全部有描述） |
 | `notice-skip.csv` | 未归档的游戏内公告及原因（27 条：运营类 / 与米游社重复 / 纯图片） |
 | `npc-skip.csv` | 未归档的 NPC 条目及原因（124 条，均为 `no_dialogue`） |
+| `metadata-enrichment.csv` | 按公告上线日期区间推导出版本的文档（2 篇） |
+| `version-normalization.csv` | 版本标签归一化清单（70 篇：月之X / 多版本 / 区间 / 玩法标签） |
 | `duplicates.csv` | 同文重复组判定 |
 | `equipment-bwiki-compare.csv` | 武器/圣遗物的 OBC 与 BWiki 字数对照 |
 | `bwiki-probe.csv` | 32 条空壳任务的 BWiki 同名页探测结果 |
@@ -41,8 +43,8 @@ version_source:
   obc-filter             观测枢任务频道 ext 的“版本号”
   bwiki                  BWiki 的“所属版本/实装版本”
   derived-related-quest  从散落文本的“相关任务”推导
-  official / manual / web
-  unknown
+  official               官方公告/官网；若按上线日期区间推导，配 inferred
+  manual / web / unknown
 
 version_confidence:
   confirmed / likely / inferred / estimated / unknown

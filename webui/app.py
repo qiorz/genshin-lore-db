@@ -53,7 +53,8 @@ SUBTYPE_LABELS = {
     "other": "其他任务",
     "scattered": "散落文本",
 }
-SPOILER_LABELS = {0: "无剧透", 1: "轻度", 2: "中度", 3: "重度"}
+# 剧透筛选已下线：全库仅 10 篇做过 2/3 级分级，不足以支撑筛选。
+# 后端仍接受 spoiler 参数（兼容旧链接与 /api/search），文档页照常显示等级值。
 PAGE_SIZE = 20
 
 
@@ -99,6 +100,46 @@ def regions(con: sqlite3.Connection) -> list[sqlite3.Row]:
     ).fetchall()
 
 
+COVERAGE_NOTES = {
+    "type": "全部文档都有类型，可放心使用类型筛选。",
+    "region": "物品 / 武器 / 圣遗物 / 活动 / 公告没有地区字段，属正常；任务、书籍、角色、散落文本、观景点、NPC 对话已 100% 标注。",
+    "version": "所有值已归一化为 X.Y：月之一…月之八按 version-labels.csv 映射为 6.0–6.7，多版本书籍取最早版本（原值留在 notes）。物品 / NPC 对话 / 观景点上游无版本字段；479 条散落文本无可推导来源，按约定留空不猜。",
+    "release_date": "仅官方公告有明确上线日期，其余类型留空。",
+    "spoiler": "仅少数书籍做过 2/3 级分级，其余均为 1。分级不足以支撑筛选，剧透下拉已下线。",
+}
+
+
+def coverage(con: sqlite3.Connection) -> dict:
+    """字段覆盖率：让「筛选会漏掉什么」变成明示信息，而不是隐藏陷阱。"""
+    total = con.execute("SELECT COUNT(*) FROM documents").fetchone()[0]
+    fields: dict[str, dict] = {}
+    for key, col in (("type", "doc_type"), ("region", "region"),
+                     ("version", "version"), ("release_date", "release_date")):
+        n = con.execute(
+            f"SELECT COUNT(*) FROM documents WHERE {col} IS NOT NULL AND {col} <> ''"
+        ).fetchone()[0]
+        fields[key] = {"filled": n, "total": total, "pct": round(100 * n / total, 1),
+                       "note": COVERAGE_NOTES[key]}
+    graded = con.execute("SELECT COUNT(*) FROM documents WHERE spoiler_level <> 1").fetchone()[0]
+    fields["spoiler"] = {"filled": graded, "total": total,
+                         "pct": round(100 * graded / total, 1),
+                         "note": COVERAGE_NOTES["spoiler"]}
+    return {"total": total, "fields": fields}
+
+
+def versions(con: sqlite3.Connection) -> list[str]:
+    rows = [r[0] for r in con.execute(
+        "SELECT DISTINCT version FROM documents WHERE version IS NOT NULL AND version <> ''")]
+
+    def key(value: str):
+        try:
+            return (0, tuple(int(part) for part in value.split(".")))
+        except ValueError:
+            return (1, value)
+
+    return sorted(rows, key=key)
+
+
 def make_snippet(text: str, query: str, width: int = 180) -> str:
     clean = re.sub(r"\s+", " ", re.sub(r"\*\*|\*", "", text or "")).strip()
     if not clean:
@@ -130,8 +171,10 @@ def base_where(type_: str, region: str, max_spoiler: int | None, version: str) -
         filters.append("d.spoiler_level <= ?")
         params.append(max_spoiler)
     if version:
+        # 前缀匹配：下拉传 "3.0" 精确命中，手输 "3" 可筛 3.x；
+        # 不用 %version%，否则 "1.0" 会误命中 "11.0" 之类的值。
         filters.append("d.version LIKE ?")
-        params.append(f"%{version}%")
+        params.append(f"{version}%")
     return " AND ".join(filters), params
 
 
@@ -235,8 +278,8 @@ def search_docs(
                 "doc_id": doc_id,
                 "title": row["title"],
                 "doc_type": row["doc_type"],
-                "region": row["region"] or "未知",
-                "version": row["version"] or "未知",
+                "region": row["region"] or "未标注",
+                "version": row["version"] or "未标注",
                 "spoiler": row["spoiler_level"],
                 "speaker": row["speaker"],
                 "snippet": make_snippet(body, query),
@@ -321,7 +364,8 @@ def layout(title: str, content: str, active: str = "") -> str:
 </html>"""
 
 
-def search_form(q: str, type_: str, region: str, spoiler: str, version: str, region_rows: list) -> str:
+def search_form(q: str, type_: str, region: str, spoiler: str, version: str,
+                region_rows: list, version_rows: list, cov: dict) -> str:
     type_options = ['<option value="">全部类型</option>']
     for key in TYPE_ORDER:
         selected = " selected" if type_ == key else ""
@@ -332,10 +376,23 @@ def search_form(q: str, type_: str, region: str, spoiler: str, version: str, reg
         region_options.append(
             f'<option value="{esc(row["region"])}"{selected}>{esc(row["region"])} ({row["n"]})</option>'
         )
-    spoiler_options = ['<option value="">全部剧透等级</option>']
-    for level, label in SPOILER_LABELS.items():
-        selected = " selected" if spoiler == str(level) else ""
-        spoiler_options.append(f'<option value="{level}"{selected}>{level} · {label}</option>')
+    version_options = ['<option value="">全部版本</option>']
+    for value in version_rows:
+        selected = " selected" if version == value else ""
+        version_options.append(f'<option value="{esc(value)}"{selected}>{esc(value)}</option>')
+    fields = cov["fields"]
+    cov_summary = (f"字段覆盖率：地区 {fields['region']['pct']}% · "
+                   f"版本 {fields['version']['pct']}% · "
+                   f"上线日期 {fields['release_date']['pct']}% · "
+                   f"剧透分级 {fields['spoiler']['pct']}%")
+    cov_labels = [("type", "类型"), ("region", "地区"), ("version", "版本"),
+                  ("release_date", "上线日期"), ("spoiler", "剧透分级")]
+    cov_items = "".join(
+        f"<li><strong>{label}</strong> {fields[key]['pct']}%"
+        f"（{fields[key]['filled']:,}/{fields[key]['total']:,}）："
+        f"{esc(fields[key]['note'])}</li>"
+        for key, label in cov_labels
+    )
     return f"""
     <form class="search-form" action="/search" method="get">
       <input type="search" name="q" value="{esc(q)}" placeholder="搜索书名、任务、人物、地名、台词…" autofocus>
@@ -344,13 +401,17 @@ def search_form(q: str, type_: str, region: str, spoiler: str, version: str, reg
     <div class="filters">
       <form id="filter-form" action="/search" method="get" class="filter-form">
         <input type="hidden" name="q" value="{esc(q)}">
+        <input type="hidden" name="spoiler" value="{esc(spoiler)}">
         <select name="type">{''.join(type_options)}</select>
         <select name="region">{''.join(region_options)}</select>
-        <select name="spoiler">{''.join(spoiler_options)}</select>
-        <input type="text" name="version" value="{esc(version)}" placeholder="版本，如 4.0">
+        <select name="version">{''.join(version_options)}</select>
         <button type="submit" class="ghost">筛选</button>
       </form>
     </div>
+    <details class="coverage-note">
+      <summary>{esc(cov_summary)}<span class="cov-hint">筛选边界说明</span></summary>
+      <ul>{cov_items}</ul>
+    </details>
     """
 
 
@@ -371,9 +432,27 @@ def render_search(args: dict[str, list[str]]) -> str:
     try:
         st = stats(con)
         region_rows = regions(con)
+        version_rows = versions(con)
+        cov = coverage(con)
         results = search_docs(con, q, type_, region, max_spoiler, version)
     finally:
         con.close()
+
+    filter_notice = ""
+    active = []
+    if region:
+        active.append(("地区", cov["fields"]["region"]))
+    if version:
+        active.append(("版本", cov["fields"]["version"]))
+    if active:
+        parts = [
+            f"{label}覆盖 {f['filled']:,}/{f['total']:,} 篇（{f['pct']}%），"
+            f"另有 <strong>{f['total'] - f['filled']:,}</strong> 篇未标注{label}的文档不在结果内"
+            for label, f in active
+        ]
+        filter_notice = ('<div class="filter-notice">本次按'
+                         + "、".join(label for label, _ in active)
+                         + "筛选：" + "；".join(parts) + "。</div>")
 
     total = len(results)
     start = (page - 1) * PAGE_SIZE
@@ -422,13 +501,14 @@ def render_search(args: dict[str, list[str]]) -> str:
       <div class="hero-kicker">GENSHIN LORE · LOCAL INDEX</div>
       <h1>原神世界观数据库</h1>
       <p>书籍、任务、散落文本、角色故事。正文在 Markdown，检索走 SQLite FTS5。</p>
-      {search_form(q, type_, region, spoiler_raw, version, region_rows)}
+      {search_form(q, type_, region, spoiler_raw, version, region_rows, version_rows, cov)}
       <div class="stats-line">{counts} · 段落 {st['sections']:,} · 待补任务 {st['pending']}</div>
     </section>
     <section class="results-head">
       <div><h2>{heading}</h2><p>{summary}</p></div>
       <a class="ghost" href="/">重置</a>
     </section>
+    {filter_notice}
     <section class="results">{''.join(cards)}</section>
     {pager}
     """
@@ -508,11 +588,19 @@ def render_about() -> str:
     con = connect()
     try:
         st = stats(con)
+        cov = coverage(con)
         pending = con.execute(
             "SELECT COUNT(*) FROM documents WHERE doc_type='quest' AND notes LIKE '%OBC 无剧情对话%'"
         ).fetchone()[0]
     finally:
         con.close()
+    labels = [("type", "类型"), ("region", "地区"), ("version", "版本"),
+              ("release_date", "上线日期"), ("spoiler", "剧透分级")]
+    cov_rows = "".join(
+        f"<tr><td>{label}</td><td>{cov['fields'][key]['filled']:,} / {cov['fields'][key]['total']:,}</td>"
+        f"<td>{cov['fields'][key]['pct']}%</td><td>{esc(cov['fields'][key]['note'])}</td></tr>"
+        for key, label in labels
+    )
     content = f"""
     <section class="about">
       <div class="hero-kicker">ABOUT THIS DATABASE</div>
@@ -533,10 +621,18 @@ db/genshin_lore.sqlite3  索引</code></pre>
       <h2>使用方式</h2>
       <ul>
         <li>搜索框：3 字以上中文走 FTS5 trigram，2 字词自动回退 LIKE；</li>
-        <li>筛选：类型、地区、剧透等级、版本；</li>
+        <li>筛选：类型、地区、版本（下拉选精确值）；剧透分级数据不足，筛选已下线；</li>
+        <li>按地区/版本筛选时会明确提示有多少「未标注」文档被排除；</li>
         <li>文档页：正文、版本、来源、原始 Markdown；</li>
+        <li>字段覆盖率也可通过 <code>/api/coverage</code> 读取；</li>
         <li>本页面只读，不会修改数据库或 Markdown。</li>
       </ul>
+      <h2>筛选字段覆盖率</h2>
+      <p>覆盖率不是「缺数据」的同义词：有些类型本来就没有该字段。留空按约定不猜。</p>
+      <table class="cov-table">
+        <thead><tr><th>字段</th><th>已标注</th><th>覆盖率</th><th>说明</th></tr></thead>
+        <tbody>{cov_rows}</tbody>
+      </table>
       <h2>声明</h2>
       <p>游戏文本版权归米哈游及原权利方所有。本库用于个人研究、检索和考据，不对外公开发布全文。</p>
     </section>
@@ -575,6 +671,13 @@ class Handler(BaseHTTPRequestHandler):
                 return
             if path.startswith("/raw/"):
                 self.send_raw(path[len("/raw/"):])
+                return
+            if path == "/api/coverage":
+                con = connect()
+                try:
+                    self.send_json(coverage(con))
+                finally:
+                    con.close()
                 return
             if path.startswith("/api/search"):
                 self.send_json(self._api_search(args))
