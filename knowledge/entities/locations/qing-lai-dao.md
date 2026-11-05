@@ -5,7 +5,7 @@ canonical_name: 清籁岛
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -24,8 +24,8 @@ tags: [知识层种子]
 ## 证据（3）
 
 - [[quest.obc.2836]]：清籁岛…唉，真想亲自过去看看
-- [[quest.obc.2942]]：祖先们在清籁岛上生活了很长时间
 - [[quest.obc.2631]]：确实，清籁岛上的雷元素很夸张呢…
+- [[quest.obc.2942]]：在清籁岛的情况，我近日听悦子小姐说了
 
 ## 待考
 

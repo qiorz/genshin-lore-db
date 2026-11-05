@@ -5,7 +5,7 @@ canonical_name: 元素反应
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -24,8 +24,8 @@ tags: [知识层种子]
 ## 证据（3）
 
 - [[quest.obc.504613]]：嗯…那么这里就再加上一点「元素反应」…
-- [[quest.obc.3870]]：岩元素反应本身不就是惰性的吗
 - [[quest.obc.3531]]：运用元素反应，尽快破除保护「女士」的冰茧吧…
+- [[quest.obc.3870]]：岩元素反应产生的能量引发炮弹内容物的元素反应，然后…
 
 ## 待考
 

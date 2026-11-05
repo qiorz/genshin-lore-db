@@ -5,7 +5,7 @@ canonical_name: 急冻树
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,8 +23,8 @@ tags: [知识层种子]
 
 ## 证据（3）
 
-- [[notice.mys.29470078]]：1. 降低了BOSS「急冻树」从瘫痪中恢复后，施放的霜霰攻击技能连续命中角色时造成的伤害
 - [[quest.obc.593]]：急冻树和野猪，捡到两个宝贝了
+- [[item.obc.1070]]：急冻树被击败后，裸露出的原核
 - [[quest.obc.6235]]：要类比的话，可能急冻树，或者骗骗花更加合适，但要追溯动植物之间的亲缘关系，恐怕要追溯到世界原初了
 
 ## 待考

@@ -47,6 +47,8 @@ NPC_LIMIT = 66
 SPEAKER_BLACKLIST = {
     "旁白", "？？？", "旅行者", "派蒙", "空", "荧", "系统", "全员", "众人",
     "幼嵴锋龙", "黑蛋",          # 坐骑/宠物，不是剧情人物
+    "主持人",                     # 占位说话人（「主持人」不是名字）
+    "浮游水蕈兽·元素生命",          # 元素生命，属生物
     "阿帽", "留云借风真君",       # 分别是「流浪者」「闲云」的另一称呼
 }
 
@@ -248,7 +250,8 @@ def main() -> int:
         if name in existing_names or name in added or name in all_names:
             skipped.append((etype, name, "库里已有同名实体或别名"))
             continue
-        evidences = best_evidences(con, name, cache, k=3)
+        evidences = best_evidences(con, name, cache, k=3,
+                                   allow_notice=(etype == "event"))
         if not evidences:
             skipped.append((etype, name, "语料里没有含这个名字的可用句子"))
             continue

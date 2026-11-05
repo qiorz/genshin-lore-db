@@ -5,7 +5,7 @@ canonical_name: 埃洛伊
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[char.obc.2415]]：流放者——这是埃洛伊最先拥有的身份
+- [[char.obc.2415]]：自出生起，埃洛伊就一直受到部落中不知缘由的排斥和畏避，被迫居住在远离部落的险峻山野中，由一名猎手罗斯特抚养成人
 
 ## 待考
 

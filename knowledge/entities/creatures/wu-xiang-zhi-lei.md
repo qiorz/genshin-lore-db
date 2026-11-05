@@ -5,7 +5,7 @@ canonical_name: 无相之雷
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -24,8 +24,8 @@ tags: [知识层种子]
 ## 证据（3）
 
 - [[quest.obc.2400]]：等一下，营地中间的那个…和我们曾经遇到过的「无相之雷」好像啊
-- [[notice.mys.17699231]]：6. 修复了特定情况下，BOSS「无相之雷」脱离战斗后无法正常恢复生命值的问题
 - [[quest.obc.6235]]：无相之雷的粉末，好像就是这个
+- [[item.obc.877]]：无相之雷用于汇聚元素，修复损伤的元素物质
 
 ## 待考
 

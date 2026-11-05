@@ -5,7 +5,7 @@ canonical_name: 达达乌帕谷
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,9 +23,9 @@ tags: [知识层种子]
 
 ## 证据（3）
 
-- [[quest.obc.3536]]：东西一定就在达达乌帕谷里——嗯
 - [[quest.obc.595]]：一个人就能…扫平达达乌帕谷的三大部族…
-- [[book.obc.521]]：丘丘人习俗的多元化——以蒙德的达达乌帕谷为例
+- [[quest.obc.508048]]：只差一步了…「大锅烹煮的药汤」，没记错的话是在达达乌帕谷吧
+- [[quest.obc.3536]]：说出来怕你们不信，这两件武器现在都还藏在蒙德境内，就在达达乌帕谷哦
 
 ## 待考
 

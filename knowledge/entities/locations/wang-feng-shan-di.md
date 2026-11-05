@@ -5,7 +5,7 @@ canonical_name: 望风山地
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,8 +23,8 @@ tags: [知识层种子]
 
 ## 证据（3）
 
-- [[quest.obc.6263]]：今天要从望风山地走到蒙德城门哦
 - [[quest.obc.595]]：望风山地的一大片地貌，都被那位强者改变了
+- [[quest.obc.2634]]：最近，望风山地附近的水域活跃着很多「观赏鱼」，我在你的地图上标注出来了
 - [[char.obc.55]]：「望风山地红衣骑士」的传说，就此在蒙德流传开来
 
 ## 待考

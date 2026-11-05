@@ -5,7 +5,7 @@ canonical_name: 踏鞴砂
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -25,7 +25,7 @@ tags: [知识层种子]
 
 - [[quest.obc.2394]]：那座岛叫「踏鞴砂」，是生产锻造武器用的「玉钢」的冶炼厂
 - [[lore.obc.501995]]：「…撤离时，原本应当将兵库钥匙分为三片，一片交予目付大人、一片交予造兵司正大人、一片留在踏鞴砂中，以防贼人侵入。」
-- [[quest.obc.5794]]：自我来到踏鞴砂已经有些日子了
+- [[quest.obc.5794]]：你听说过踏鞴砂有一个「倾奇者」吗
 
 ## 待考
 

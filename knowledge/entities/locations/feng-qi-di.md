@@ -5,7 +5,7 @@ canonical_name: 风起地
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,9 +23,9 @@ tags: [知识层种子]
 
 ## 证据（3）
 
-- [[char.obc.57]]：风起地中央矗立着一棵巨大的橡树
 - [[quest.obc.1106]]：然后再去风起地，帮我摘一株风车菊
 - [[char.obc.59]]：风起地的神树是初代「狮牙骑士」道路的终点
+- [[quest.obc.399]]：风起地的那座七天神像，应该就是离我们最近的一座
 
 ## 待考
 

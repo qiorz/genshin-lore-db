@@ -5,7 +5,7 @@ canonical_name: 归离原
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -24,8 +24,8 @@ tags: [知识层种子]
 ## 证据（3）
 
 - [[quest.obc.720]]：在这片「归离原」上，确实有着一批宝藏
-- [[book.obc.605]]：被称为归离原的土地在那时曾开遍琉璃百合
 - [[char.obc.1433]]：长到归离原人声鼎沸的集镇，在战后化为断壁残垣
+- [[book.obc.605]]：归离原遭受了纷扰战乱的荼毒，旧日住民尽皆流散
 
 ## 待考
 

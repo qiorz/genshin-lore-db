@@ -5,7 +5,7 @@ canonical_name: 化城郭
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -24,8 +24,8 @@ tags: [知识层种子]
 ## 证据（3）
 
 - [[quest.obc.4723]]：这里叫「化城郭」，最早是须弥的学者们在雨林中搭建的临时休息处，现在这里主要由巡林员驻扎
-- [[char.obc.4333]]：化城郭的孩子喜欢看她缝制玩偶
 - [[quest.obc.5778]]：看来，化城郭的疗养水平还是那么高
+- [[quest.obc.7657]]：前往化城郭，寻找「背上鼓鼓的人」
 
 ## 待考
 

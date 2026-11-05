@@ -1,18 +1,18 @@
 # 知识层种子 · 灌库报告
 
-> 2026-11-05T22:25:20+08:00 · 模式：写入 · 来源：`knowledge/seed.yaml`、`knowledge/seed-stage2.yaml`、`knowledge/seed-stage3.yaml`、`knowledge/seed-stage4.yaml`、`knowledge/seed-stage5.yaml`、`knowledge/seed-stage6.yaml`、`knowledge/seed-stage7.yaml`
+> 2026-11-05T22:40:49+08:00 · 模式：写入 · 来源：`knowledge/seed.yaml`、`knowledge/seed-stage2.yaml`、`knowledge/seed-stage3.yaml`、`knowledge/seed-stage4.yaml`、`knowledge/seed-stage5.yaml`、`knowledge/seed-stage6.yaml`、`knowledge/seed-stage7.yaml`
 
 | 项 | 值 |
 |---|---|
-| 实体 | 400（draft 250、reviewed 150） |
+| 实体 | 400（reviewed 400） |
 | 种子批次 | 7 |
 | 别名（不含规范名） | 41 |
 | claims | 233 |
 | 关系边 | 89 条人工 + 17 条事件参与 |
 | 提瓦特纪年事件 | 8（era=teyvat，只有相对顺序） |
 | 现实版本上线 | 53（era=release，官方公告日期） |
-| 证据引用 | 1093 |
-| 证据解析成功 | 1093 |
+| 证据引用 | 1088 |
+| 证据解析成功 | 1088 |
 | 校验错误 | 0 |
 
 claims 置信度：likely 225、confirmed 5、disputed 2、speculative 1  

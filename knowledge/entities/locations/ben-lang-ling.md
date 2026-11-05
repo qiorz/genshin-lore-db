@@ -5,7 +5,7 @@ canonical_name: 奔狼领
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -24,8 +24,8 @@ tags: [知识层种子]
 ## 证据（3）
 
 - [[quest.obc.588]]：本来只在「奔狼领」活动的狼群，最近胆子变大了
-- [[quest.obc.1551]]：在奔狼领搜索与深渊教团有关的线索
 - [[char.obc.56]]：奔狼领的树影从长变短，又从短变长
+- [[quest.obc.2247]]：如今守护奔狼领的，只是它的残魂而已
 
 ## 待考
 

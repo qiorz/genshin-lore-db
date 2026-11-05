@@ -1,0 +1,34 @@
+---
+id: entity.zhen-shou-zhi-sen
+type: location
+canonical_name: 镇守之森
+canonical_name_en: 
+aliases: []
+spoiler_level: 1
+status: reviewed
+tags: [知识层种子]
+---
+
+## 简介
+
+地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
+
+## 关键设定
+
+- 暂无
+
+## 说法（0）
+
+- 暂无
+
+## 证据（3）
+
+- [[quest.obc.2393]]：镇守之森中，藏着镇物与需要净化的树根
+- [[quest.obc.504613]]：呜哇，说起来镇守之森算是五百藏的地盘吧
+- [[char.obc.3875]]：回家途经镇守之森，恰好撞见又有行人被妖狸捉弄，忍不住顺手指出幻象
+
+## 待考
+
+- 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。
+- 该实体暂无关系边，待补。
+- 该实体暂无说法条目，待补。

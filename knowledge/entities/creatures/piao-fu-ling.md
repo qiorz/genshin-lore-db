@@ -5,7 +5,7 @@ canonical_name: 飘浮灵
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,8 +23,8 @@ tags: [知识层种子]
 
 ## 证据（3）
 
-- [[quest.obc.6874]]：毕竟你笨笨的就像飘浮灵一样嘛
 - [[quest.obc.7235]]：等等，我记得飘浮灵是骂人的话吧
+- [[quest.obc.506558]]：比须弥的蕈兽，稻妻的飘浮灵还要多
 - [[quest.obc.4691]]：「像飘浮灵一样膨胀，像林猪一样一往无前…」
 
 ## 待考

@@ -1,17 +1,17 @@
 ---
-id: entity.bi-shui-yuan
-type: location
-canonical_name: 碧水原
+id: entity.kun-jun
+type: character
+canonical_name: 昆钧
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
 ## 简介
 
-地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
+NPC 人物：台词 143 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
 
 ## 关键设定
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[notice.mys.5758586]]：◆挑战位于碧水原的全新祝圣秘境「山脊守望」，可获取以上圣遗物套装
+- [[quest.obc.4008]]：我消散后，就让这具躯体的主人随工头一道回璃月吧
 
 ## 待考
 

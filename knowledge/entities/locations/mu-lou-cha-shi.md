@@ -5,7 +5,7 @@ canonical_name: 木漏茶室
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 

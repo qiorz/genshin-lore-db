@@ -5,7 +5,7 @@ canonical_name: 利露帕尔
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 

@@ -5,7 +5,7 @@ canonical_name: 沃雅妮莎
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[char.obc.509804]]：沃雅妮莎在演出准备室中的自言自语
+- [[char.obc.509804]]：不过，在某个早晨，人们却发现，沃雅妮莎依旧在科洛列夫茨基剧院登台献唱，就如同往昔的时光不曾褪却，旧日的欢乐一如往常
 
 ## 待考
 

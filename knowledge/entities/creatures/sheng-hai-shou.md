@@ -5,7 +5,7 @@ canonical_name: 圣骸兽
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -21,9 +21,8 @@ tags: [知识层种子]
 
 - 暂无
 
-## 证据（3）
+## 证据（2）
 
-- [[notice.mys.73521381]]：所属为「圣骸兽」卡牌生成的事件牌「噬骸能量块」
 - [[quest.obc.510127]]：比如须弥的「镀金旅团」小队大战枫丹警卫机关，部族战士对抗圣骸兽…
 - [[quest.obc.505547]]：我去过须弥的沙漠，那里一夜之间多了大量圣骸兽的尸体，而且地下的魔神残渣也少了很多
 

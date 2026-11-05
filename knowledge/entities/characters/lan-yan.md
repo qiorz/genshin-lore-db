@@ -5,7 +5,7 @@ canonical_name: 蓝砚
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[char.obc.503614]]：蓝砚就是沉玉谷手工艺工会中的一位藤编师
+- [[char.obc.503614]]：在幽静的山谷中，碧水与古茶树之间，迷路的游人若是遇到了一位满身佩银的爱笑姑娘，那或许就是外出采藤的蓝砚
 
 ## 待考
 

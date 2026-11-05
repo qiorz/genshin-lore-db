@@ -5,7 +5,7 @@ canonical_name: 缄默之殿
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 

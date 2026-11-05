@@ -433,10 +433,6 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: notice.mys.62920608
-    quote: 5. 优化了“活动一览”界面，「深境螺旋」的红点显示逻辑
-  - doc: notice.mys.53490107
-    quote: 1. 修复了完成「深境螺旋」挑战后，结算界面按键未显示即可进行相关操作的问题
   - doc: artifact.obc.504793
     quote: 独自漫步于深境螺旋的废墟间，意图探寻魔剑士向她提及的旅者的踪迹…
 - id: entity.apep

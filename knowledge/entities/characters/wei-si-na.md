@@ -5,7 +5,7 @@ canonical_name: 薇斯纳
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[char.obc.509803]]：薇斯纳显然担得起这个姓氏
+- [[char.obc.509803]]：随心所欲的薇斯纳从不被他人制定的礼数束缚，率性而为的她也常有不拘一格的惊人之举：有时是将火车开出足以喜提禁令的残影，有时是往同僚的餐盘里塞点精心挑选的酸柠檬片…
 
 ## 待考
 

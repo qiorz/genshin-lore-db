@@ -69,7 +69,7 @@ location|渌华池
 location|孤云阁
 location|华光林
 location|庆云顶
-location|碧水原
+location|镇守之森
 location|灵矩关
 location|鸣神岛
 location|影向山
@@ -179,10 +179,16 @@ def is_clean_quote(s: str) -> bool:
     return han >= 8 and han / max(len(s), 1) >= 0.55
 
 
+def looks_like_heading(s: str) -> bool:
+    """没有标点、也没有引号的短句，多半是页面小标题，不是叙述。"""
+    return len(s) < 30 and not any(ch in s for ch in "。！？…，、；：「」")
+
+
 def pick_quote(body: str, name: str | None = None,
                lo: int = 12, hi: int = 70) -> str | None:
     """取一句长度适中、像人话的原话；给了 name 就要求句子里确实出现该名字。"""
-    cands = [s for s in sentences(body) if lo <= len(s) <= hi and is_clean_quote(s)]
+    cands = [s for s in sentences(body)
+             if lo <= len(s) <= hi and is_clean_quote(s) and not looks_like_heading(s)]
     if name:
         cands = [s for s in cands if name in s]
     return cands[0] if cands else None
@@ -235,7 +241,8 @@ def best_evidence(con, name: str, cache: dict) -> tuple[str, str, int] | None:
 
 
 
-def best_evidences(con, name: str, cache: dict, k: int = 3) -> list[tuple[str, str]]:
+def best_evidences(con, name: str, cache: dict, k: int = 3,
+                   allow_notice: bool = False) -> list[tuple[str, str]]:
     """多锚点：最多 k 篇不同文档、每篇一句。
 
     单条证据对「被提到几百次」的概念太单薄；而种子的 evidence 本来就是列表，
@@ -250,6 +257,10 @@ def best_evidences(con, name: str, cache: dict, k: int = 3) -> list[tuple[str, s
            WHERE s.body LIKE ?""",
         (f"%{name}%",),
     ).fetchall()
+    # 版本更新说明是运营补丁文本，不能当实体证据；
+    # 但「活动/节庆」的主要出处就是版本公告，这类放行。
+    if not allow_notice:
+        rows = [r for r in rows if r[1] != "notice"]
     # 「记忆力」「记忆感」这类是构词，不是「记忆」这个概念本身
     BAD_SUFFIX = "力感性者家员度率化"
     best: dict[str, tuple[float, str]] = {}
@@ -285,12 +296,17 @@ def main() -> int:
     con = sqlite3.connect(DB)
     con.row_factory = sqlite3.Row
 
-    # 本批已生成过的 id 要排除在「库里已有」之外，否则重跑会全部跳过、
-    # 也无法修正上一版的分类错误。做法：读上一次的 seed-stage4.yaml 拿 id 白名单。
-    prior_ids: set[str] = set()
-    if YAML_OUT.exists():
-        prev = yaml.safe_load(YAML_OUT.read_text(encoding="utf-8")) or {}
-        prior_ids = {e["id"] for e in prev.get("entities") or [] if e.get("id")}
+    # 本批 id = 库里有的 − 前三批的。
+    # 不能读自己的 seed-stage4.yaml：上一版若把某个实体删了，这次就会被判成
+    # 「库里已有同名实体」而永久跳过（碧水原就是这么丢的）。
+    other_ids: set[str] = set()
+    for name in ("seed.yaml", "seed-stage2.yaml", "seed-stage3.yaml"):
+        f = ROOT / "knowledge" / name
+        if f.exists():
+            data = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
+            other_ids |= {e["id"] for e in data.get("entities") or [] if e.get("id")}
+    prior_ids = {r["entity_id"] for r in
+                 con.execute("SELECT entity_id FROM entities")} - other_ids
 
     rows = con.execute("SELECT entity_id, canonical_name FROM entities").fetchall()
     existing = {r["canonical_name"] for r in rows if r["entity_id"] not in prior_ids}
@@ -321,7 +337,14 @@ def main() -> int:
             if quote:
                 break
         if not quote:
-            skipped.append(("character", name, "角色页里找不到含名字的可用原句"))
+            # 角色页里只有小标题（如「沃雅妮莎在演出准备室中的自言自语」）时，
+            # 退回全库找一条真正在讲这个人的句子
+            fb = best_evidences(con, name, cache, k=1)
+            quote = fb[0][1] if fb else None
+            if quote:
+                row = {"doc_id": fb[0][0]}
+        if not quote:
+            skipped.append(("character", name, "角色页与全库都找不到可用原句"))
             continue
         added_names.add(name)
         entries.append({

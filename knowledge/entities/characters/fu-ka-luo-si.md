@@ -5,7 +5,7 @@ canonical_name: 芙卡洛斯
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -24,7 +24,7 @@ tags: [知识层种子]
 ## 证据（3）
 
 - [[quest.obc.5778]]：并不是，枫丹有一位最高审判官在，一般来说，神明「芙卡洛斯」并不会亲自参与审判
-- [[quest.obc.7653]]：◆在芙卡洛斯的意识中完成对话
+- [[quest.obc.7653]]：魔神芙卡洛斯…为什么要骗我们
 - [[quest.obc.7497]]：魔神芙卡洛斯，你自始至终不采取任何行动，悠闲得令人震惊
 
 ## 待考

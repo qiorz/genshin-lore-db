@@ -5,7 +5,7 @@ canonical_name: 遗迹重机
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,9 +23,9 @@ tags: [知识层种子]
 
 ## 证据（3）
 
-- [[quest.obc.4692]]：还轰的一下消灭了一个遗迹重机
 - [[quest.obc.7156]]：按照记录上描述的，这是「特殊的」遗迹重机
 - [[lore.obc.508352]]：「枪啊，枪啊！知不知道？七十步开外，一枪就能打中遗迹重机的传感器！」
+- [[quest.obc.5287]]：「大大铁块」是遗迹重机，遗迹龙兽之类的⋯「大方方铁块」是恒常机关阵列也不意外呢⋯
 
 ## 待考
 

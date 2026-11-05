@@ -5,7 +5,7 @@ canonical_name: 深境螺旋
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -21,10 +21,8 @@ tags: [知识层种子]
 
 - 暂无
 
-## 证据（3）
+## 证据（1）
 
-- [[notice.mys.62920608]]：5. 优化了“活动一览”界面，「深境螺旋」的红点显示逻辑
-- [[notice.mys.53490107]]：1. 修复了完成「深境螺旋」挑战后，结算界面按键未显示即可进行相关操作的问题
 - [[artifact.obc.504793]]：独自漫步于深境螺旋的废墟间，意图探寻魔剑士向她提及的旅者的踪迹…
 
 ## 待考

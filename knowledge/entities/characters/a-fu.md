@@ -5,7 +5,7 @@ canonical_name: 阿釜
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,7 +23,7 @@ NPC 人物：台词 144 段，出现在 1 篇文档。第五批扩量，描述�
 
 ## 证据（1）
 
-- [[quest.obc.2942]]：祖先们在清籁岛上生活了很长时间
+- [[quest.obc.2942]]：那里的环境变得不宜居住，就迁到了神无冢
 
 ## 待考
 

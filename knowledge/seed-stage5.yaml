@@ -59,7 +59,7 @@ entities:
   aliases: []
   evidence:
   - doc: quest.obc.502418
-    quote: 这不是吾那仆从的两位劣友吗
+    quote: 是在山下窥见了吾的英姿，特地爬上来供奉的吧
 - id: entity.yi-di-ya
   type: character
   name: 伊迪娅
@@ -537,15 +537,6 @@ entities:
   evidence:
   - doc: quest.obc.2598
     quote: 这样我也算是做了一件大事…虽然我还是希望像你一样，能够轻轻松松撂倒几个幕府武士，用手里的剑建立真正的功勋
-- id: entity.fu-you-shui-xun-shou-yuan-su-sheng-ming
-  type: character
-  name: 浮游水蕈兽·元素生命
-  description: NPC 人物：台词 151 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
-  spoiler: 1
-  aliases: []
-  evidence:
-  - doc: quest.obc.6463
-    quote: 我们看重家人，无论是什么时期的家人
 - id: entity.suo-lin-di-si
   type: character
   name: 索琳蒂丝
@@ -573,15 +564,6 @@ entities:
   evidence:
   - doc: quest.obc.7200
     quote: 无论如何，我会以真诚作答
-- id: entity.zhu-chi-ren
-  type: character
-  name: 主持人
-  description: NPC 人物：台词 146 段，出现在 3 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
-  spoiler: 1
-  aliases: []
-  evidence:
-  - doc: quest.obc.501509
-    quote: 大厅两侧摆满了镀金桌椅、昂贵的古董工艺品、玻璃矮柜与银质烛台，都是常见的尺寸，却将觐见厅的空旷衬托出几分不真实感
 - id: entity.nie-duo-qi-ka
   type: character
   name: 涅朵奇卡
@@ -599,7 +581,25 @@ entities:
   aliases: []
   evidence:
   - doc: quest.obc.2942
-    quote: 祖先们在清籁岛上生活了很长时间
+    quote: 那里的环境变得不宜居住，就迁到了神无冢
+- id: entity.kun-jun
+  type: character
+  name: 昆钧
+  description: NPC 人物：台词 143 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.4008
+    quote: 我消散后，就让这具躯体的主人随工头一道回璃月吧
+- id: entity.yan-xiao
+  type: character
+  name: 言笑
+  description: NPC 人物：台词 142 段，出现在 10 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.510125
+    quote: 香菱，接下来你出手的时候直接拿出招牌菜吧
 - id: entity.tian-kong-dao
   type: concept
   name: 天空岛
@@ -633,12 +633,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.6016
-    quote: 我使用元素力战斗的经验很丰富
   - doc: quest.obc.6463
     quote: 用我的元素力，应该可以驱散它吧
-  - doc: quest.obc.508722
-    quote: 元素力衰减到了一个极度危险的等级
+  - doc: quest.obc.7497
+    quote: 水元素力如潮汐飞涨，最终趋于稳定
+  - doc: quest.obc.4723
+    quote: 即使你有元素力，在里面也一定会感到非常不适
 - id: entity.tian-li
   type: concept
   name: 天理
@@ -754,8 +754,8 @@ entities:
     quote: 因为在那之前，我从来没有听说过「提瓦特」
   - doc: char.obc.509225
     quote: 在降临名为「提瓦特」的大陆之前，你希望能与这个世界相处愉快
-  - doc: book.obc.534
-    quote: 提瓦特地理杂志特刊—艾莉丝的蒙德行记
+  - doc: char.obc.509226
+    quote: 在降临名为「提瓦特」的大陆之前，你希望能与这个世界相处愉快
 - id: entity.chen-shi
   type: concept
   name: 尘世
@@ -817,10 +817,10 @@ entities:
   evidence:
   - doc: quest.obc.504613
     quote: 嗯…那么这里就再加上一点「元素反应」…
-  - doc: quest.obc.3870
-    quote: 岩元素反应本身不就是惰性的吗
   - doc: quest.obc.3531
     quote: 运用元素反应，尽快破除保护「女士」的冰茧吧…
+  - doc: quest.obc.3870
+    quote: 岩元素反应产生的能量引发炮弹内容物的元素反应，然后…
 - id: entity.yuan-chu
   type: concept
   name: 原初
@@ -828,10 +828,10 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.507427
-    quote: 原初神圣言语自会涌流出一切因果
+  - doc: quest.obc.507858
+    quote: 而那位原初之主，龙王尼伯龙根…就此陨灭…
   - doc: book.obc.3470
-    quote: 原初的那一位大王开始了天地的创造
+    quote: 但是原初的那一位，第一个王座，布下了禁令
   - doc: quest.obc.7586
     quote: 我对「原初一滴」这个词有些想法
 - id: entity.shi-jie-shi
@@ -867,12 +867,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.3622
-    quote: 应该是他对深渊之力有所需求引发的微弱流动
-  - doc: quest.obc.507424
-    quote: 更何况那位归来的造物主身上已经沾染了危险的深渊之力
   - doc: quest.obc.503380
     quote: 深渊之力由此处朝纳塔全境蔓延，魔物无穷无尽，攻势不可阻挡
+  - doc: quest.obc.507425
+    quote: 我能听见您体内深渊之力的低吼，在我看来您的存在本身，就已经是一种奇迹
+  - doc: quest.obc.507019
+    quote: 就连本该是营救对象的维瑟弗尼尔，也在那个晚上瓜分了深渊之力，弃我而去
 - id: entity.yuan-su-long
   type: concept
   name: 元素龙
@@ -995,12 +995,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.4692
-    quote: 还轰的一下消灭了一个遗迹重机
   - doc: quest.obc.7156
     quote: 按照记录上描述的，这是「特殊的」遗迹重机
   - doc: lore.obc.508352
     quote: 「枪啊，枪啊！知不知道？七十步开外，一枪就能打中遗迹重机的传感器！」
+  - doc: quest.obc.5287
+    quote: 「大大铁块」是遗迹重机，遗迹龙兽之类的⋯「大方方铁块」是恒常机关阵列也不意外呢⋯
 - id: entity.shou-jing-lie-quan
   type: creature
   name: 兽境猎犬
@@ -1021,10 +1021,10 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.6874
-    quote: 毕竟你笨笨的就像飘浮灵一样嘛
   - doc: quest.obc.7235
     quote: 等等，我记得飘浮灵是骂人的话吧
+  - doc: quest.obc.506558
+    quote: 比须弥的蕈兽，稻妻的飘浮灵还要多
   - doc: quest.obc.4691
     quote: 「像飘浮灵一样膨胀，像林猪一样一往无前…」
 - id: entity.xun-shou
@@ -1037,9 +1037,9 @@ entities:
   - doc: quest.obc.6117
     quote: 已经到了这里，就要把问题解决，无论是「孢子」还是「蕈兽」
   - doc: lore.obc.508208
-    quote: 一·蕈兽的活动范围与种类辨识
-  - doc: quest.obc.505628
-    quote: 希望人和蕈兽和谐共处的那天能尽早到来
+    quote: 为了与蕈兽建立牢固的伙伴关系，有必要了解蕈兽们喜欢的食物
+  - doc: quest.obc.508204
+    quote: 可是，蕈兽伙伴们也享受不了我们的食物，或许在它们看来，生活变得越来越枯燥了
 - id: entity.shi-lai-mu
   type: creature
   name: 史莱姆
@@ -1049,10 +1049,10 @@ entities:
   evidence:
   - doc: quest.obc.3537
     quote: 引来史莱姆，找回朱老板的戒指
-  - doc: quest.obc.506072
-    quote: 看来史莱姆吃多了真的会让人变笨
   - doc: quest.obc.502342
     quote: 把雷史莱姆引到木桶边，击碎那个木桶吧
+  - doc: quest.obc.7479
+    quote: 底味是史莱姆凝液，配料是绝云椒椒和青蛙腿
 - id: entity.wu-xiang-zhi-lei
   type: creature
   name: 无相之雷
@@ -1062,10 +1062,10 @@ entities:
   evidence:
   - doc: quest.obc.2400
     quote: 等一下，营地中间的那个…和我们曾经遇到过的「无相之雷」好像啊
-  - doc: notice.mys.17699231
-    quote: 6. 修复了特定情况下，BOSS「无相之雷」脱离战斗后无法正常恢复生命值的问题
   - doc: quest.obc.6235
     quote: 无相之雷的粉末，好像就是这个
+  - doc: item.obc.877
+    quote: 无相之雷用于汇聚元素，修复损伤的元素物质
 - id: entity.ji-dong-shu
   type: creature
   name: 急冻树
@@ -1073,10 +1073,10 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: notice.mys.29470078
-    quote: 1. 降低了BOSS「急冻树」从瘫痪中恢复后，施放的霜霰攻击技能连续命中角色时造成的伤害
   - doc: quest.obc.593
     quote: 急冻树和野猪，捡到两个宝贝了
+  - doc: item.obc.1070
+    quote: 急冻树被击败后，裸露出的原核
   - doc: quest.obc.6235
     quote: 要类比的话，可能急冻树，或者骗骗花更加合适，但要追溯动植物之间的亲缘关系，恐怕要追溯到世界原初了
 - id: entity.bao-yan-shu
@@ -1099,10 +1099,8 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: notice.mys.58421356
-    quote: 4. 修复了特定情况下，多次挑战敌人「雷音权现」时，成就「无法传达的恋波」无法完成的问题
-  - doc: notice.mys.17699231
-    quote: 5. 修复了BOSS「雷音权现」施放的电网夹攻技能在遇到岩元素创造物时，有概率出现位置偏移的问题
+  - doc: item.obc.2615
+    quote: 雷音权现留下的，蕴含电气的雷之珠
   - doc: quest.obc.2942
     quote: 那么，看来在天云峠和这里有雷音权现，应该都和雷鸟有关
 - id: entity.sheng-hai-shou
@@ -1112,8 +1110,6 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: notice.mys.73521381
-    quote: 所属为「圣骸兽」卡牌生成的事件牌「噬骸能量块」
   - doc: quest.obc.510127
     quote: 比如须弥的「镀金旅团」小队大战枫丹警卫机关，部族战士对抗圣骸兽…
   - doc: quest.obc.505547
@@ -1140,10 +1136,10 @@ entities:
   evidence:
   - doc: quest.obc.500628
     quote: 那只龙蜥…好像听懂了锅巴的话
+  - doc: quest.obc.3427
+    quote: 深海龙蜥，纯粹而且原始的元素生物
   - doc: quest.obc.3622
-    quote: 可是深海龙蜥不是喜欢黑暗的吗
-  - doc: quest.obc.3922
-    quote: 那只岩龙蜥应该可以调用水元素
+    quote: 深海龙蜥被击退之后，为了生存开始了新的进化
 - id: entity.yu-ren-zhong-xian-qian-dui
   type: creature
   name: 愚人众先遣队
@@ -1179,8 +1175,8 @@ entities:
   evidence:
   - doc: quest.obc.1553
     quote: 根据描述，可能是过去曾经作乱的「岩龙蜥」和「古岩龙蜥」…
-  - doc: quest.obc.3922
-    quote: 那只岩龙蜥应该可以调用水元素
+  - doc: voice.obc.1550
+    quote: 根据描述，可能是过去曾经作乱的「岩龙蜥」和「古岩龙蜥」···
   - doc: quest.obc.501340
     quote: 古岩龙蜥就不一样了，哪怕在故事里也算得上是够格的对手了
 - id: entity.yi-ji-long-shou
@@ -1203,12 +1199,8 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: notice.mys.55221094
-    quote: 17. 调整了角色牌「藏镜仕女」状态「水光破镜」的效果：效果“附属角色受到的水元素伤害+1
   - doc: quest.obc.4254
-    quote: 将内有照片的怀表交给藏镜仕女
-  - doc: notice.mys.9076566
-    quote: 8.修复了愚人众·藏镜仕女破镜循声技能伤害异常的问题
+    quote: 这里怎么有愚人众，这名藏镜仕女⋯
 - id: entity.zhai-wu-chu-li-ren
   type: creature
   name: 债务处理人
@@ -1242,8 +1234,6 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: notice.mys.19691956
-    quote: 14. 「深渊使徒」、「深渊咏者」新增副掉落物「晦暗刻像」、「夤夜刻像」、「幽邃刻像」
   - doc: quest.obc.505339
     quote: 一名深渊咏者·渊火从兽境中现身…
   - doc: quest.obc.507523
@@ -1258,7 +1248,7 @@ entities:
   - doc: quest.obc.5778
     quote: 并不是，枫丹有一位最高审判官在，一般来说，神明「芙卡洛斯」并不会亲自参与审判
   - doc: quest.obc.7653
-    quote: ◆在芙卡洛斯的意识中完成对话
+    quote: 魔神芙卡洛斯…为什么要骗我们
   - doc: quest.obc.7497
     quote: 魔神芙卡洛斯，你自始至终不采取任何行动，悠闲得令人震惊
 - id: entity.e-ge-li-ya
@@ -1433,12 +1423,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.4219
-    quote: 我不会让幕府的人随便带走轰大叔
   - doc: quest.obc.3531
     quote: 幕府军对你的搜捕，应该还没有结束
   - doc: quest.obc.2598
     quote: 幕府军并非不可战胜，我们也一定能赢
+  - doc: quest.obc.504625
+    quote: 呵，幕府组织调查队，本就是为了避免冲突
 - id: entity.li-yue-zong-wu-si
   type: organization
   name: 璃月总务司

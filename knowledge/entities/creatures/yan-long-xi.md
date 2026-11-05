@@ -5,7 +5,7 @@ canonical_name: 岩龙蜥
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -24,7 +24,7 @@ tags: [知识层种子]
 ## 证据（3）
 
 - [[quest.obc.1553]]：根据描述，可能是过去曾经作乱的「岩龙蜥」和「古岩龙蜥」…
-- [[quest.obc.3922]]：那只岩龙蜥应该可以调用水元素
+- [[voice.obc.1550]]：根据描述，可能是过去曾经作乱的「岩龙蜥」和「古岩龙蜥」···
 - [[quest.obc.501340]]：古岩龙蜥就不一样了，哪怕在故事里也算得上是够格的对手了
 
 ## 待考

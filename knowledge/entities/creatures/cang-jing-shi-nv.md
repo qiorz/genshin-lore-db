@@ -5,7 +5,7 @@ canonical_name: 藏镜仕女
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -21,11 +21,9 @@ tags: [知识层种子]
 
 - 暂无
 
-## 证据（3）
+## 证据（1）
 
-- [[notice.mys.55221094]]：17. 调整了角色牌「藏镜仕女」状态「水光破镜」的效果：效果“附属角色受到的水元素伤害+1
-- [[quest.obc.4254]]：将内有照片的怀表交给藏镜仕女
-- [[notice.mys.9076566]]：8.修复了愚人众·藏镜仕女破镜循声技能伤害异常的问题
+- [[quest.obc.4254]]：这里怎么有愚人众，这名藏镜仕女⋯
 
 ## 待考
 

@@ -5,7 +5,7 @@ canonical_name: 星落湖
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -24,7 +24,7 @@ tags: [知识层种子]
 ## 证据（3）
 
 - [[quest.obc.507621]]：说起星星和湖的话，那就是星落湖了吧
-- [[quest.obc.508097]]：所以星落湖原本的七天神像被你挪到哪里去了
+- [[event.obc.504692]]：在星落湖旁，你遇见了正在执行任务的安柏
 - [[quest.obc.592]]：从星落湖向东一段距离，在海滩的南方有一片山地
 
 ## 待考

@@ -1,17 +1,17 @@
 ---
-id: entity.fu-you-shui-xun-shou-yuan-su-sheng-ming
+id: entity.yan-xiao
 type: character
-canonical_name: 浮游水蕈兽·元素生命
+canonical_name: 言笑
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
 ## 简介
 
-NPC 人物：台词 151 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+NPC 人物：台词 142 段，出现在 10 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
 
 ## 关键设定
 
@@ -23,7 +23,7 @@ NPC 人物：台词 151 段，出现在 2 篇文档。第五批扩量，描述�
 
 ## 证据（1）
 
-- [[quest.obc.6463]]：我们看重家人，无论是什么时期的家人
+- [[quest.obc.510125]]：香菱，接下来你出手的时候直接拿出招牌菜吧
 
 ## 待考
 

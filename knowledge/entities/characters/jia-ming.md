@@ -5,7 +5,7 @@ canonical_name: 嘉明
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -25,7 +25,7 @@ tags: [知识层种子]
 
 ## 证据（1）
 
-- [[char.obc.500672]]：被嘉明安全护送的商队给剑匣镖局送来的感谢牌匾
+- [[char.obc.500672]]：走在璃月港街头，如果听闻锣鼓声响，不妨循声而去，说不定有缘能观赏到嘉明惟妙惟肖的舞兽戏表演
 
 ## 待考
 
