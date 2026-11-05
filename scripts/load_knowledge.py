@@ -42,6 +42,7 @@ SEED_FILES = sorted(SEED_DIR.glob("seed*.yaml"),
 DB = ROOT / "db/genshin_lore.sqlite3"
 REPORT = ROOT / "exports/obc-evaluation/knowledge-seed-report.md"
 APPLY = "--apply" in sys.argv
+PRUNE = "--prune" in sys.argv
 sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
 
 ENTITY_TYPES = {"character", "nation", "organization", "location", "deity",
@@ -384,6 +385,18 @@ def main() -> int:
                  release_cfg.get("note", "")),
             )
 
+        # --- 收尾：剪掉库里已不在任何种子中的实体 ---------------------------
+        # 只删「种子里没有」的，不碰原文层；entity_names / entity_evidence 随
+        # 外键级联删除，claims.subject_id 置空（由 CHECK 保证至少留字面量）。
+        if PRUNE:
+            seed_ids = {e["id"] for e in entities}
+            orphans = [r[0] for r in con.execute("SELECT entity_id FROM entities")
+                       if r[0] not in seed_ids]
+            for eid in orphans:
+                con.execute("DELETE FROM entities WHERE entity_id=?", (eid,))
+            if orphans:
+                print(f"已剪掉 {len(orphans)} 个孤儿实体：" + "、".join(orphans[:10])
+                      + ("…" if len(orphans) > 10 else ""))
         con.commit()
         for table in ("entities", "entity_names", "claims", "entity_relations",
                       "events", "event_sources", "timeline_entries"):

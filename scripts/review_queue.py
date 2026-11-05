@@ -72,10 +72,12 @@ def save_state(data: dict) -> None:
 def collect(con: sqlite3.Connection) -> list[dict]:
     rows = con.execute(
         """SELECT e.entity_id, e.canonical_name, e.entity_type, e.description, e.status,
-                  ev.doc_id, ev.section_id, ev.quote, d.doc_type AS ev_type, d.title AS ev_title
+                  ev.doc_id, ev.section_id, ev.quote, d.doc_type AS ev_type, d.title AS ev_title,
+                  s.speaker AS ev_speaker
            FROM entities e
            LEFT JOIN entity_evidence ev ON ev.entity_id = e.entity_id
            LEFT JOIN documents d ON d.doc_id = ev.doc_id
+           LEFT JOIN sections s ON s.section_id = ev.section_id
            WHERE e.status <> 'reviewed'
            ORDER BY e.entity_id"""
     ).fetchall()
@@ -113,7 +115,9 @@ def collect(con: sqlite3.Connection) -> list[dict]:
             "quote": r["quote"] or "", "doc_count": docs, "quest_docs": quests,
             "section_count": sections,
             "quote_in_doc": bool(quote_hit),
-            "quote_has_name": bool(r["quote"] and name in r["quote"]),
+            # 名人的台词证据里不会出现他自己的名字，说话人就是他，也算命中
+            "quote_has_name": bool(r["quote"] and (name in r["quote"]
+                                                   or r["ev_speaker"] == name)),
             # 只有证据取自角色页的角色才谈得上「类型一致」；
             # 第三批的角色证据来自任务正文，那是正常的，不该报错。
             "type_ok": (r["entity_type"] != "character")

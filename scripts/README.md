@@ -36,12 +36,14 @@
 | `audit_corpus.py` | **全库体检**：串内容/重复、字段覆盖、corpus↔DB 对账、FTS 完整性 | Python 3.11+ |
 | `enrich_release_versions.py` | 按官方版本更新说明的上线日期区间，给有 `release_date` 无 `version` 的公告推导版本（`official`/`inferred`） | Python 3.11+ |
 | `normalize_version_labels.py` | 把「月之X」/多版本列表/版本区间归一化为 `X.Y`，玩法标签移出 version 字段 | Python 3.11+ |
+| `build_stage5.py` | 第五批收尾：NPC 人物按 `sections.speaker` 台词量取（≥50 段），其余类别走候选表 + 库内证据；剔除泛用词；产出 `seed-stage5.yaml` | Python 3.11+ |
+| `prune_cards.py` | 清理 `knowledge/entities/` 下的过期卡与同 id 多目录的重复副本（YAML 解析 front matter，不靠正则）；`--apply` 才删 | Python 3.11+ |
 | `review_queue.py` | 给 `status=draft` 的实体排复核优先级（先按任务提及篇数，再按文档篇数），做三项机械校验，输出 `exports/review/` 下 md + csv；`--mark/--unmark` 写复核记录 | Python 3.11+ |
 | `knowledge_state.py` | 复核状态的唯一读取入口：`reviewed_ids()`。复核结论存 `knowledge/review-state.yaml`，不写进会被重新生成的 seed | Python 3.11+ |
 | `build_stage4.py` | 第四批扩量：角色直接以 136 篇角色页为权威名单，地点/组织用候选表 + 库内证据校验；中文名经 `pypinyin` 生成 `entity_id`，未安装时退回文档号；产出 `entity-candidates-stage4.csv` 与 `seed-stage4.yaml` | Python 3.11+ |
 | `mine_entities.py` | 从词表 × 真实段落反查候选实体，按文档类型打分并扣噪声词，产出 `knowledge/entity-candidates.csv`；只给候选，收录与否由人定 | Python 3.11+ |
-| `load_knowledge.py` | 把 `knowledge/seed*.yaml`（全部批次）灌进知识层（实体/别名/出处/说法/关系/事件/时间线）；证据只用 `doc_id + 短引用` 现场解析 section_id，抗重导；固定主键幂等 | Python 3.11+ |
-| `export_entity_cards.py` | 把知识层种子导出为 `knowledge/` 下 250 份实体卡 + 说法/事件/时间线 Markdown（生成物，不要手改） | Python 3.11+ |
+| `load_knowledge.py` | 把 `knowledge/seed*.yaml`（全部批次）灌进知识层（实体/别名/出处/说法/关系/事件/时间线）；证据只用 `doc_id + 短引用` 现场解析 section_id，抗重导；固定主键幂等；`--prune` 剪掉已不在任何种子中的实体 | Python 3.11+ |
+| `export_entity_cards.py` | 把知识层种子导出为 `knowledge/` 下 400 份实体卡 + 说法/事件/时间线 Markdown（生成物，不要手改） | Python 3.11+ |
 
 ```powershell
 # Windows PowerShell（当前环境需要 Bypass 执行策略）

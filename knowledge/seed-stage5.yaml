@@ -1,0 +1,1358 @@
+# 第五批知识层种子 · 收尾扩量（由 scripts/build_stage5.py 生成）
+# 人物来自 sections.speaker 的台词统计；其余来自候选表 + 库内证据校验。
+# 描述只写语料统计或中性分类标签，不写剧情结论。
+# status=draft：待复核（python scripts/review_queue.py 排队）。
+version: 1
+batch: 2026-11-05-stage5
+status: draft
+entities:
+- id: entity.jie-de
+  type: character
+  name: 婕德
+  description: NPC 人物：台词 797 段，出现在 7 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6042
+    quote: 我母亲的名字带给我骄傲，父亲的名字保存着我的回忆
+- id: entity.ze-wei-er
+  type: character
+  name: 泽维尔
+  description: NPC 人物：台词 785 段，出现在 11 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2394
+    quote: 但我在离开枫丹之前，就听说我的某些同行似乎也对这种连续播放画片的技术很感兴趣…唉，我现在只能希望这群好先生们的动作别太快了…
+- id: entity.ka-te-pi-la
+  type: character
+  name: 卡特皮拉
+  description: NPC 人物：台词 761 段，出现在 10 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7649
+    quote: 鱼群好奇地将他围住，催促他讲述事情的前因后果
+- id: entity.lan-luo-mo
+  type: character
+  name: 兰罗摩
+  description: NPC 人物：台词 721 段，出现在 3 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.4692
+    quote: 每一朵花，都连接着一颗兰那罗小小的心
+- id: entity.ai-li-si
+  type: character
+  name: 艾莉丝
+  description: NPC 人物：台词 559 段，出现在 17 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.508977
+    quote: 芭比要是还有话想说，那等下次小魔女会成员再次相聚的时候，再给每一位小魔女都做一次预言吧
+- id: entity.a-qiao
+  type: character
+  name: 阿乔
+  description: NPC 人物：台词 513 段，出现在 17 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.502418
+    quote: 这不是吾那仆从的两位劣友吗
+- id: entity.yi-di-ya
+  type: character
+  name: 伊迪娅
+  description: NPC 人物：台词 500 段，出现在 6 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6856
+    quote: 那位小朋友听爸爸妈妈说，云朵深处藏着团雀和晶蝶的乐园，于是悄悄做了一个大风筝，想要用风筝飞高高，探访灵巧的朋友
+- id: entity.li-lu-pa-er
+  type: character
+  name: 利露帕尔
+  description: NPC 人物：台词 449 段，出现在 7 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.5970
+    quote: 我曾以为我能利用漆黑的深渊，对我所憎恨的施以惩罚…但我业已遭受了报应…进入居尔城，直面它的报复，也将是我的使命
+- id: entity.kai-se-lin
+  type: character
+  name: 凯瑟琳
+  description: NPC 人物：台词 397 段，出现在 47 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.652
+    quote: 嗯嗯，不过对冒险家来说，阅历比资质更加重要
+- id: entity.xi-mo-er
+  type: character
+  name: 西摩尔
+  description: NPC 人物：台词 370 段，出现在 12 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7199
+    quote: 尊贵的旅行者先生/尊贵而美丽的旅行者小姐，拜托/恳请您将我带到上方的水体中
+- id: entity.qi-ma-li
+  type: character
+  name: 奇马利
+  description: NPC 人物：台词 360 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.504033
+    quote: 就像火神大人说的一样，今后我们可以自豪地挺起胸膛，告诉孩子们——我们跨越了战争带来的苦难，纳塔将迎来新生
+- id: entity.na-xian-zhu-na
+  type: character
+  name: 那先朱那
+  description: NPC 人物：台词 353 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6550
+    quote: 如果我对文献的解读无误的话，这里同之前的试验基地一样，是属于一个被称为「白鹄骑士」的荼诃人战团，用于制造机关的工场
+- id: entity.kui-ke
+  type: character
+  name: 葵可
+  description: NPC 人物：台词 349 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.502286
+    quote: 首先的首先，我们约定过吧
+- id: entity.di-na-ze-dai
+  type: character
+  name: 迪娜泽黛
+  description: NPC 人物：台词 332 段，出现在 7 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.4723
+    quote: 其实这是个很古老的节日，最早是为大慈树王大人祝寿的
+- id: entity.tuo-luo-sha
+  type: character
+  name: 托萝莎
+  description: NPC 人物：台词 329 段，出现在 3 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7578
+    quote: 不过他的核心老化很严重，很快就要进入休眠状态了…唉，他的机器身体可以更换，但核心不能换…
+- id: entity.zhi-qiong
+  type: character
+  name: 志琼
+  description: NPC 人物：台词 327 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3870
+    quote: 这些奇怪的聚合物近来一直在困扰着总务司…它们是近两年从层岩巨渊的基岩中蔓生出来的，性质上与下面的「东西」很相近
+- id: entity.si-lu-sha
+  type: character
+  name: 斯露莎
+  description: NPC 人物：台词 312 段，出现在 11 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6865
+    quote: 哎呀，失礼了，毕竟白飘飘不像吾之「谒颂主」那样英勇果敢…面对这种程度的危险就知难而退，倒也称得上是明智的举动吧
+- id: entity.ma-mei-he
+  type: character
+  name: 玛梅赫
+  description: NPC 人物：台词 284 段，出现在 7 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7200
+    quote: 要不是他突然提起摩拉的事情，我大概就会直接把画作为礼物送给他了吧…为什么那些个子高高的人，总是喜欢谈论摩拉的事情呢…
+- id: entity.di-tu
+  type: character
+  name: 蒂图
+  description: NPC 人物：台词 282 段，出现在 3 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.502480
+    quote: 唉⋯没想到今天之前还在为写什么故事而烦恼，现在倒是有很多想写的
+- id: entity.hua-san-li
+  type: character
+  name: 花散里
+  description: NPC 人物：台词 280 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2393
+    quote: 但是，连「大祓」所需的镇物也敢偷，那确实会受到惩罚呢
+- id: entity.cai-te-lin-de
+  type: character
+  name: 彩特琳德
+  description: NPC 人物：台词 279 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.508442
+    quote: 「救世主在黑暗的世界里牺牲自己，自愿被钉缚于十字上。因此他的灵魂才得以获救，升入光的王国。」
+- id: entity.yi-si-tuo-li-ya
+  type: character
+  name: 伊斯托利亚
+  description: NPC 人物：台词 272 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.508440
+    quote: 我们想要下去，只有放弃自己的一切记忆和知识，登上最高处
+- id: entity.xu-dong
+  type: character
+  name: 旭东
+  description: NPC 人物：台词 270 段，出现在 6 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2279
+    quote: 我们刚去下面采集了一些新鲜的海草上来，准备做一种叫做「饭团」的食物呢，下面的路可真难走，我的鞋子都湿透了…
+- id: entity.ba-bi-luo-si
+  type: character
+  name: 芭比洛斯
+  description: NPC 人物：台词 261 段，出现在 13 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.509809
+    quote: 不过虽然你的身体在行动，但你的「内心」却一直停滞不前
+- id: entity.a-sa-li-ge
+  type: character
+  name: 阿萨里格
+  description: NPC 人物：台词 251 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6056
+    quote: …我说了，这是为了塔尼特的利益着想，「镇灵之母」留在我们的手里大有用处，但在这个外人手中，不过玩物而已
+- id: entity.la-na
+  type: character
+  name: 拉娜
+  description: NPC 人物：台词 233 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.4693
+    quote: 哎呀，有了这个，旅行的时候就更不用担心了
+- id: entity.ping-lao-lao
+  type: character
+  name: 萍姥姥
+  description: NPC 人物：台词 233 段，出现在 16 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.1250
+    quote: 好了，凝光刚才不是说，「请仔细看看这座城市，看看这里的每一个人」吗
+- id: entity.ai-la-ni
+  type: character
+  name: 爱拉尼
+  description: NPC 人物：台词 230 段，出现在 10 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.1244
+    quote: 而且我听人说，那位统御着稻妻的「雷之神」，还颁布了一条「眼狩令」
+- id: entity.na-si-jia
+  type: character
+  name: 娜斯佳
+  description: NPC 人物：台词 227 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.509533
+    quote: 玩「抓坏虫」的游戏时，我总是能赢
+- id: entity.te-la-zuo-li
+  type: character
+  name: 特拉佐莉
+  description: NPC 人物：台词 226 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.503161
+    quote: 至于祝福⋯哈哈⋯从妮赫佳离开后，我就再也感觉不到「祝福」了
+- id: entity.tu-te
+  type: character
+  name: 图特
+  description: NPC 人物：台词 225 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.508772
+    quote: 伟大的女主人创造出镇灵，点化它们令其服从自己
+- id: entity.a-liu
+  type: character
+  name: 阿瑠
+  description: NPC 人物：台词 225 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2942
+    quote: 虽然人造的木簧笛已经不具备这样的能力了，但作为木簧笛的「原本」，它应该有特别的力量
+- id: entity.jia-zha-li
+  type: character
+  name: 加扎里
+  description: NPC 人物：台词 221 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7663
+    quote: 或许就是你们说的「无留陀的化身」之类的
+- id: entity.bo-na
+  type: character
+  name: 玻娜
+  description: NPC 人物：台词 221 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.503853
+    quote: 「回还之玉」可不是初出茅庐的冒险家随随便便就能找到的
+- id: entity.a-ke-xi-ni-ya
+  type: character
+  name: 阿克西妮娅
+  description: NPC 人物：台词 219 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.509533
+    quote: 这还真是让人悲伤的事…不过，卡谢伊的仪式不会汲取「他」的力量，你们应该已经取回那一份破碎的身躯，力量的碎片了
+- id: entity.ai-you-en
+  type: character
+  name: 艾尤恩
+  description: NPC 人物：台词 215 段，出现在 5 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7127
+    quote: 我得先去找塞勒，把这份倡议书盖上复律庭的公章，再把倡议书拿去给迪福尔先生盖章，最后再正式印发…这件事就结了
+- id: entity.wei-na
+  type: character
+  name: 维娜
+  description: NPC 人物：台词 214 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.506655
+    quote: 从最初的咏月使爱依菈大人的时代开始，雷图礁的月矩力就很不安稳，但自从那两块大石头从天上掉下来之后，情况就变得更糟了
+- id: entity.fu-jin
+  type: character
+  name: 浮锦
+  description: NPC 人物：台词 213 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.500786
+    quote: 呵呵，果真与我听闻的一样，是性格直爽的人儿
+- id: entity.ba-bie-er
+  type: character
+  name: 芭别尔
+  description: NPC 人物：台词 213 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6056
+    quote: 尊敬的利露帕尔大人，您是娜布·玛莉卡塔的爱仆，居尔城的缔造者，阿伊·哈努姆城的永恒囚徒…塔尼特族的凡人芭别尔求见
+- id: entity.ai-de
+  type: character
+  name: 埃德
+  description: NPC 人物：台词 207 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6236
+    quote: 他的神力你也已经看到了，七神怎么可能带来这样的奇迹
+- id: entity.mo-tian
+  type: character
+  name: 墨田
+  description: NPC 人物：台词 200 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2942
+    quote: 那么，在故事开始没多久，就击败巨龙的经历呢
+- id: entity.xi-mei
+  type: character
+  name: 西梅
+  description: NPC 人物：台词 200 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.501601
+    quote: 有时候我真会想…这个世界上最好真有某位「女神」，她书写了所有关于我们的故事
+- id: entity.mu-ning
+  type: character
+  name: 沐宁
+  description: NPC 人物：台词 198 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3856
+    quote: 他们再被发现是又过了一段时间的事，都变得精神恍惚的，休整好一阵才恢复健康，太吓人了…之后七星就决定封印了层岩巨渊
+- id: entity.hai-ni-ye
+  type: character
+  name: 海妮耶
+  description: NPC 人物：台词 195 段，出现在 14 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.505555
+    quote: 而且，宝珠的「理智增幅」会让蕈兽的元素力异常活跃，影响周围的环境，身体不够强健的人使用宝珠后，很快就会出现不适症状
+- id: entity.lu-tong
+  type: character
+  name: 路通
+  description: NPC 人物：台词 191 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6460
+    quote: 自从前几天开始，加尔恰先生每次和迦雅小姐约会的时候，我都自己去旁边喝咖啡，而且尽量保证自己的目光不要往那边瞟
+- id: entity.tuo-er-fen
+  type: character
+  name: 托尔芬
+  description: NPC 人物：台词 188 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.506550
+    quote: 两位或许能为我提供一些故事的素材，老少咸宜的寻宝故事，如何
+- id: entity.xiao-mao
+  type: character
+  name: 小茂
+  description: NPC 人物：台词 183 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.500786
+    quote: 很久以前是这样啦…有的人相信璃月大地上最早的主人就是帝君岩王爷，但我们沉玉谷的人相信，在他之前还有别的魔神和仙人，保佑着我们的祖先
+- id: entity.jia-er-qia
+  type: character
+  name: 加尔恰
+  description: NPC 人物：台词 182 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6460
+    quote: 你见多识广，肯定也尝过不少美食，拜托你用直觉来帮我判断一下，哪一种食材的投料量应该加到最大吧
+- id: entity.li-nuo-er
+  type: character
+  name: 莉诺尔
+  description: NPC 人物：台词 177 段，出现在 3 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7649
+    quote: 然后…然后，我发现不穿鞋子的时候，在草地上走，小草会伸到脚趾之间，感觉有点刺痛
+- id: entity.lei-li-er
+  type: character
+  name: 雷利尔
+  description: NPC 人物：台词 175 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507019
+    quote: （听起来，维瑟弗尼尔给出的预言触怒了陛下。对于不想听到的言论，即便是「预言家」所揭示，陛下也已不愿容忍。）
+- id: entity.ju-lei-shen
+  type: character
+  name: 居勒什
+  description: NPC 人物：台词 174 段，出现在 5 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.508722
+    quote: 这原本是几乎不可能完成的事情，如此庞大的知识与记忆如果涌入一个人的大脑，瞬间就会将那个人的意识全部烧毁
+- id: entity.ka-ma-jia
+  type: character
+  name: 卡马加
+  description: NPC 人物：台词 167 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.503380
+    quote: 他们说他们是「队长」的部下，眼下也正在四处救援…深渊确实是人类共同的敌人没错，但…还是觉得有点奇妙
+- id: entity.qi-ke-ya
+  type: character
+  name: 奇科娅
+  description: NPC 人物：台词 166 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.502611
+    quote: 嗯，据说这里的浮土本身都是用燃素的力量聚合在一起的，燃素本身也是一种生命力特别旺盛的能源…能源有点怪，先这么理解吧
+- id: entity.pa-jia-er
+  type: character
+  name: 帕加尔
+  description: NPC 人物：台词 164 段，出现在 8 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.502895
+    quote: 「盗火贤者」与最初的火神，各自从火山中带走了一枚信物
+- id: entity.chu-gu-nuo-fu
+  type: character
+  name: 楚古诺夫
+  description: NPC 人物：台词 155 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.509534
+    quote: 一开始就被怀疑是始作俑者的「莱莱可」，却刚好完美避开所有死亡，一直活到现在，你难道不应该是嫌疑最大的那个吗
+- id: entity.ba-er-wa-nie
+  type: character
+  name: 芭尔瓦涅
+  description: NPC 人物：台词 155 段，出现在 6 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2278
+    quote: 哼，真是不识货…算了，等我再完善完善吧，我一定能做出那种只要放进菜里，无论什么菜都能变美味的万能调料
+- id: entity.zuo-xi-mo-si
+  type: character
+  name: 佐西摩斯
+  description: NPC 人物：台词 154 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6854
+    quote: 爱幻想的孩童时期，大家都会有吧
+- id: entity.an-na-si-ta-xia
+  type: character
+  name: 安娜丝塔夏
+  description: NPC 人物：台词 153 段，出现在 6 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.510131
+    quote: 嗯，正如哥伦比娅·希珀塞莱尼娅所说
+- id: entity.zhe-ping
+  type: character
+  name: 哲平
+  description: NPC 人物：台词 151 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2598
+    quote: 这样我也算是做了一件大事…虽然我还是希望像你一样，能够轻轻松松撂倒几个幕府武士，用手里的剑建立真正的功勋
+- id: entity.fu-you-shui-xun-shou-yuan-su-sheng-ming
+  type: character
+  name: 浮游水蕈兽·元素生命
+  description: NPC 人物：台词 151 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6463
+    quote: 我们看重家人，无论是什么时期的家人
+- id: entity.suo-lin-di-si
+  type: character
+  name: 索琳蒂丝
+  description: NPC 人物：台词 148 段，出现在 3 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507019
+    quote: 「月髓相关实验部门最初不止我一人，但近来，深秘院人力大都被调往研究深渊力量，对赤月遗留项目的重视度大大降低。」
+- id: entity.xia-nuo-di-la
+  type: character
+  name: 夏诺蒂拉
+  description: NPC 人物：台词 147 段，出现在 4 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7639
+    quote: 不过，这么想想的话，送其他的东西，瑟琳也确实不会接受吧
+- id: entity.ya-ge-bu
+  type: character
+  name: 雅各布
+  description: NPC 人物：台词 147 段，出现在 3 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7200
+    quote: 无论如何，我会以真诚作答
+- id: entity.zhu-chi-ren
+  type: character
+  name: 主持人
+  description: NPC 人物：台词 146 段，出现在 3 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.501509
+    quote: 大厅两侧摆满了镀金桌椅、昂贵的古董工艺品、玻璃矮柜与银质烛台，都是常见的尺寸，却将觐见厅的空旷衬托出几分不真实感
+- id: entity.nie-duo-qi-ka
+  type: character
+  name: 涅朵奇卡
+  description: NPC 人物：台词 144 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.506550
+    quote: 唔…如果是我认识的那个拉斯科尔尼科夫，是不会出于自己的兴趣去做这件事的，不如说他根本就没有能称得上是兴趣的嗜好
+- id: entity.a-fu
+  type: character
+  name: 阿釜
+  description: NPC 人物：台词 144 段，出现在 1 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2942
+    quote: 祖先们在清籁岛上生活了很长时间
+- id: entity.tian-kong-dao
+  type: concept
+  name: 天空岛
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.509534
+    quote: 从天空岛降临而来，难道懂得很多
+- id: entity.di-mai
+  type: concept
+  name: 地脉
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.503380
+    quote: 可以通过地脉的力量和她们通讯
+- id: entity.yuan-su-li
+  type: concept
+  name: 元素力
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6016
+    quote: 我使用元素力战斗的经验很丰富
+- id: entity.tian-li
+  type: concept
+  name: 天理
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507858
+    quote: 但也被「天理」抛出了虚假之天
+- id: entity.shen-yuan
+  type: concept
+  name: 深渊
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507019
+    quote: 深渊的力量，确实可以算是诅咒
+- id: entity.san-yue-nv-shen
+  type: concept
+  name: 三月女神
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507425
+    quote: 可是，三月女神那时候应该都逝去了
+- id: entity.lian-jin-shu
+  type: concept
+  name: 炼金术
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.503548
+    quote: 一场炼金术结束，账单比炼金成果更令人在意…
+- id: entity.zhan-xing-shu
+  type: concept
+  name: 占星术
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3537
+    quote: 唉，看来占星术士也没那么厉害
+- id: entity.xian-shu
+  type: concept
+  name: 仙术
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.501133
+    quote: 阿圆驱使仙术，对酒馆进行了一番改建，并更换了对局邀请板
+- id: entity.ji-guan-shu
+  type: concept
+  name: 机关术
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.500776
+    quote: 她擅长机关术，也精通各类仙家符箓
+- id: entity.xu-jia-zhi-tian
+  type: concept
+  name: 虚假之天
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.506558
+    quote: 但它位于虚假之天外，离我太远
+- id: entity.ti-wa-te
+  type: concept
+  name: 提瓦特
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: book.obc.534
+    quote: 提瓦特地理杂志特刊—艾莉丝的蒙德行记
+- id: entity.chen-shi
+  type: concept
+  name: 尘世
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.503853
+    quote: 尘世，建筑于徐徐崩塌的沙砾…
+- id: entity.zu-zhou
+  type: concept
+  name: 诅咒
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507913
+    quote: 时间的诅咒…和…此身的记忆…
+- id: entity.ling-hun
+  type: concept
+  name: 灵魂
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.508046
+    quote: 你的灵魂已同安德留斯融为一体
+- id: entity.ji-yi
+  type: concept
+  name: 记忆
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.501464
+    quote: 大家的记忆也不会再受到影响了
+- id: entity.yuan-su-fan-ying
+  type: concept
+  name: 元素反应
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3870
+    quote: 岩元素反应本身不就是惰性的吗
+- id: entity.yuan-chu
+  type: concept
+  name: 原初
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7586
+    quote: 我对「原初一滴」这个词有些想法
+- id: entity.shi-jie-shi
+  type: concept
+  name: 世界式
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507699
+    quote: 世界式计算着整个世界，那引入变量后，将会得到…
+- id: entity.di-mai-yi-chang
+  type: concept
+  name: 地脉异常
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.503790
+    quote: 之前的地脉异常跟阻塞，导致了气态燃素匮乏
+- id: entity.shen-yuan-zhi-li
+  type: concept
+  name: 深渊之力
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.503380
+    quote: 深渊之力由此处朝纳塔全境蔓延，魔物无穷无尽，攻势不可阻挡
+- id: entity.yuan-su-long
+  type: concept
+  name: 元素龙
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7431
+    quote: （身为水元素龙王的那维莱特仍然按照固有印象称自己为「局外人」…）
+- id: entity.shen-xing
+  type: concept
+  name: 神性
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: book.obc.479
+    quote: 如同这本书的题目一样，提瓦特的人们始终与神性同行，但是也仅仅是同行而已
+- id: entity.tian-ming
+  type: concept
+  name: 天命
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.501361
+    quote: 我们曾向天命举起刀剑，我们创造的事业挑战了高天的律法
+- id: entity.deng-jia-jiao-huan
+  type: concept
+  name: 等价交换
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: char.obc.1290
+    quote: 就算是人与人之间，交易的铁则也是「等价交换」
+- id: entity.long-wang
+  type: concept
+  name: 龙王
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.508722
+    quote: 龙王的力量比你们想象中更加强大
+- id: entity.jiang-lin
+  type: concept
+  name: 降临
+  description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507699
+    quote: 「降临者」，我来为你展现世界
+- id: entity.shen-yuan-fa-shi
+  type: creature
+  name: 深渊法师
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2247
+    quote: 刚才那些深渊法师…是准备埋伏我们的吗
+- id: entity.shen-yuan-shi-tu
+  type: creature
+  name: 深渊使徒
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2247
+    quote: 「深渊使徒」匆匆离开了遗迹…
+- id: entity.yi-ji-lie-zhe
+  type: creature
+  name: 遗迹猎者
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.1593
+    quote: 「遗迹猎者」十分危险，做好准备之后再去找它吧
+- id: entity.yi-ji-zhong-ji
+  type: creature
+  name: 遗迹重机
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.4692
+    quote: 还轰的一下消灭了一个遗迹重机
+- id: entity.shou-jing-lie-quan
+  type: creature
+  name: 兽境猎犬
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3587
+    quote: 消灭了兽境猎犬，这件事算初步解决了
+- id: entity.piao-fu-ling
+  type: creature
+  name: 飘浮灵
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.4691
+    quote: 「像飘浮灵一样膨胀，像林猪一样一往无前…」
+- id: entity.xun-shou
+  type: creature
+  name: 蕈兽
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.508208
+    quote: 一·蕈兽的活动范围与种类辨识
+- id: entity.shi-lai-mu
+  type: creature
+  name: 史莱姆
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3537
+    quote: 引来史莱姆，找回朱老板的戒指
+- id: entity.wu-xiang-zhi-lei
+  type: creature
+  name: 无相之雷
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6235
+    quote: 无相之雷的粉末，好像就是这个
+- id: entity.ji-dong-shu
+  type: creature
+  name: 急冻树
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.593
+    quote: 急冻树和野猪，捡到两个宝贝了
+- id: entity.bao-yan-shu
+  type: creature
+  name: 爆炎树
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.501340
+    quote: 啊，不过爆炎树的果实味道还是不错的，有火元素的味道
+- id: entity.lei-yin-quan-xian
+  type: creature
+  name: 雷音权现
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2942
+    quote: 那么，看来在天云峠和这里有雷音权现，应该都和雷鸟有关
+- id: entity.sheng-hai-shou
+  type: creature
+  name: 圣骸兽
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.510127
+    quote: 比如须弥的「镀金旅团」小队大战枫丹警卫机关，部族战士对抗圣骸兽…
+- id: entity.xuan-wen-shou
+  type: creature
+  name: 玄文兽
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.500822
+    quote: 至于玄文兽嘛⋯它是我设计中的「犯案者」
+- id: entity.long-xi
+  type: creature
+  name: 龙蜥
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.500628
+    quote: 那只龙蜥…好像听懂了锅巴的话
+- id: entity.yu-ren-zhong-xian-qian-dui
+  type: creature
+  name: 愚人众先遣队
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6042
+    quote: '{{颜色|灰|击败{{图标|愚人众先遣队·水铳重卫士|1}}}}'
+- id: entity.you-yan-long-xi
+  type: creature
+  name: 幼岩龙蜥
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: char.obc.1055
+    quote: 只是…幼岩龙蜥和岩龙蜥通常都在璃月野外活动，独自行动肯定十分危险，我想邀请你一同出发
+- id: entity.yan-long-xi
+  type: creature
+  name: 岩龙蜥
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3922
+    quote: 那只岩龙蜥应该可以调用水元素
+- id: entity.yi-ji-long-shou
+  type: creature
+  name: 遗迹龙兽
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7657
+    quote: 这下，「遗迹龙兽」被摧毁了，我们回去叫醒兰非拉吧
+- id: entity.cang-jing-shi-nv
+  type: creature
+  name: 藏镜仕女
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.4254
+    quote: 将内有照片的怀表交给藏镜仕女
+- id: entity.zhai-wu-chu-li-ren
+  type: creature
+  name: 债务处理人
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.506600
+    quote: 而据我的债务处理人说，他在很多天前就躲进了工坊的领地
+- id: entity.feng-shi-lai-mu
+  type: creature
+  name: 风史莱姆
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.590
+    quote: …有人用风史莱姆做过这种事吗
+- id: entity.shen-yuan-yong-zhe
+  type: creature
+  name: 深渊咏者
+  description: 生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.505339
+    quote: 一名深渊咏者·渊火从兽境中现身…
+- id: entity.fu-ka-luo-si
+  type: deity
+  name: 芙卡洛斯
+  description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.7653
+    quote: ◆在芙卡洛斯的意识中完成对话
+- id: entity.e-ge-li-ya
+  type: deity
+  name: 厄歌莉娅
+  description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.508526
+    quote: 看在厄歌莉娅的份上，薇恩狄娅，我真要写不完了
+- id: entity.ao-sai-er
+  type: deity
+  name: 奥赛尔
+  description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2247
+    quote: 不过说起来，他们想要对奥赛尔做什么
+- id: entity.ba-che
+  type: deity
+  name: 跋掣
+  description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: event.obc.510009
+    quote: 「跋掣」那样的对手，现在应该只能给我热身了
+- id: entity.hua-shen
+  type: deity
+  name: 花神
+  description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.5299
+    quote: 花神诞祭…我们应该没有错过吧
+- id: entity.chi-wang
+  type: deity
+  name: 赤王
+  description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507019
+    quote: 这是赤王七柱之一，鹮之王图特
+- id: entity.yan-shen
+  type: deity
+  name: 盐神
+  description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3538
+    quote: 未经此灾的盐神子民离开了她的领地，前往璃月，请求岩王帝君的庇护
+- id: entity.zao-shen
+  type: deity
+  name: 灶神
+  description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.5989
+    quote: 灶神的手艺，连我也挑不出毛病
+- id: entity.yu-ren-zhong-zhi-xing-guan
+  type: organization
+  name: 愚人众执行官
+  description: 组织条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507425
+    quote: 愚人众执行官第二席，「博士」多托雷
+- id: entity.ba-zhong-tang
+  type: organization
+  name: 八重堂
+  description: 组织条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2434
+    quote: 关于「八重堂」的信件和礼物…
+- id: entity.wan-min-tang
+  type: organization
+  name: 万民堂
+  description: 组织条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.507940
+    quote: 是万民堂的厨子，怎么称呼你呀
+- id: entity.bu-bo-lu
+  type: organization
+  name: 不卜庐
+  description: 组织条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.1245
+    quote: 在「不卜庐」附近寻找诗歌灵感
+- id: entity.shen-li-jia
+  type: organization
+  name: 神里家
+  description: 组织条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.5794
+    quote: 神里家的人也是我的朋友，谢谢
+- id: entity.jiu-tiao-jia
+  type: organization
+  name: 九条家
+  description: 组织条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3532
+    quote: 那位九条家的后人，可能已经受困其中
+- id: entity.mu-fu
+  type: organization
+  name: 幕府
+  description: 组织条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.4219
+    quote: 我不会让幕府的人随便带走轰大叔
+- id: entity.li-yue-zong-wu-si
+  type: organization
+  name: 璃月总务司
+  description: 组织条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: char.obc.78
+    quote: 但我听闻璃月总务司中有「璃月七星」
+- id: entity.hai-deng-jie
+  type: event
+  name: 海灯节
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.1593
+    quote: 海灯节是实现大家愿望的日子吧
+- id: entity.feng-hua-jie
+  type: event
+  name: 风花节
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6304
+    quote: 并不是风花节意义上的那种帮忙
+- id: entity.yu-qiu-jie
+  type: event
+  name: 羽球节
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: lore.obc.968
+    quote: 「之前在羽球节上看见的，很奇怪的少女。全身缠着绷带，是生病了吗？」
+- id: entity.zhu-yue-jie
+  type: event
+  name: 逐月节
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.510026
+    quote: 有关逐月节的习俗，我确实也听说过一些
+- id: entity.guang-hua-rong-cai-ji
+  type: event
+  name: 光华容彩祭
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: voice.obc.2447
+    quote: 既然「光华容彩祭」选在离岛举办，那勘定奉行必须要负起责任来
+- id: entity.san-jie-lu-xiang-ji
+  type: event
+  name: 三界路飨祭
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3622
+    quote: 「三界路飨祭」…和真实情况相去不多
+- id: entity.yan-shou-ling
+  type: event
+  name: 眼狩令
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.3531
+    quote: 那眼狩令，什么时候才能结束呢
+- id: entity.suo-guo-ling
+  type: event
+  name: 锁国令
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.2292
+    quote: 「锁国令」下达后，就再也没有相见
+- id: entity.kan-rui-ya-zai-bian
+  type: event
+  name: 坎瑞亚灾变
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.509534
+    quote: 经历过坎瑞亚灾变，或许你也负上了什么诅咒吧
+- id: entity.zang-huo-zhi-zhan
+  type: event
+  name: 葬火之战
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.506558
+    quote: 但葬火之战后，三位女神均已逝去
+- id: entity.hua-shen-dan-ji
+  type: event
+  name: 花神诞祭
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.5299
+    quote: 花神诞祭…我们应该没有错过吧
+- id: entity.shi-dan-da-hui
+  type: event
+  name: 试胆大会
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.504613
+    quote: 之前像「试胆大会」那样的活动，大多是由兄长出面筹划
+- id: entity.qing-lai-zhu-lei-ji
+  type: event
+  name: 清籁逐雷记
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: notice.mys.10828316
+    quote: ◇解锁条件：完成世界任务「清籁逐雷记」
+- id: entity.gui-feng-jia-niang-jie
+  type: event
+  name: 归风佳酿节
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: char.obc.6285
+    quote: 蒙德「归风佳酿节」期间，米卡带着大团长的信件重返蒙德，回归了游击小队
+- id: entity.mo-nv-de-cha-hui
+  type: event
+  name: 魔女的茶会
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.508721
+    quote: 呃…伟大魔女的茶会还要自己动手烧水吗
+- id: entity.yan-wu-chuan-xin
+  type: event
+  name: 演武传心
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: quest.obc.6107
+    quote: 各位观众，请大家安静，「演武传心」表演赛马上就要开始了，请各位有序进入赛场入座
+- id: entity.ji-guan-qi-tan
+  type: event
+  name: 机关棋谭
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: voice.obc.2562
+    quote: 「机关棋谭·巧策之局」一定不会让你失望的
+- id: entity.wu-xiang-jiao-xiang-shi
+  type: event
+  name: 无相交响诗
+  description: 事件/节庆条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+  spoiler: 1
+  aliases: []
+  evidence:
+  - doc: notice.mys.3261335
+    quote: ○ 「庆典·无相」：「无相交响诗」活动获取
