@@ -3,8 +3,7 @@ id: entity.lei-li-er
 type: character
 canonical_name: 雷利尔
 canonical_name_en: 
-aliases:
-  - 猎月人
+aliases: []
 spoiler_level: 1
 status: draft
 tags: [知识层种子]

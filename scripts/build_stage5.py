@@ -79,7 +79,7 @@ concept|神性
 concept|天命
 concept|等价交换
 concept|坎瑞亚
-concept|龙王
+concept|元素龙王
 concept|降临
 creature|深渊法师
 creature|深渊使徒

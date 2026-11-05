@@ -5,7 +5,7 @@ canonical_name: 社奉行
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -25,9 +25,9 @@ tags: [知识层种子]
 
 ## 证据（3）
 
-- [[lore.obc.5803]]：「感谢八重大人与社奉行大人为我们着想，只是每天来领取粮食的人太多了…」
 - [[char.obc.2123]]：稻妻「社奉行」神里家的大小姐
 - [[char.obc.2125]]：事实上，「终末番」是「社奉行」麾下的一个秘密组织
+- [[lore.obc.5803]]：「感谢八重大人与社奉行大人为我们着想，只是每天来领取粮食的人太多了…」
 
 ## 待考
 

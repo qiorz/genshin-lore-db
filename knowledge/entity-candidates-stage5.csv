@@ -90,7 +90,7 @@ entity.yuan-su-long,concept,元素龙,quest.obc.7431,（身为水元素龙王的
 entity.shen-xing,concept,神性,book.obc.479,描述：「你有没有思考过，假如没有了神，我们的生活会怎样？」 在理智而幽默的叙述中，与作者一同拨开那团名为「神性」的迷雾,3,概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
 entity.tian-ming,concept,天命,quest.obc.501361,我们曾向天命举起刀剑，我们创造的事业挑战了高天的律法,3,概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
 entity.deng-jia-jiao-huan,concept,等价交换,char.obc.1290,就算是人与人之间，交易的铁则也是「等价交换」,3,概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
-entity.long-wang,concept,龙王,char.obc.79,道上称她「龙王」，乃是实至名归,3,概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
+entity.yuan-su-long-wang,concept,元素龙王,quest.obc.7431,（身为水元素龙王的那维莱特仍然按照固有印象称自己为「局外人」…）,2,概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
 entity.jiang-lin,concept,降临,lore.obc.503105,不是所有的外来物都可以被叫做「降临」的,3,概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
 entity.shen-yuan-fa-shi,creature,深渊法师,quest.obc.1551,我倒是遇见过一些「深渊法师」…,3,生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
 entity.shen-yuan-shi-tu,creature,深渊使徒,quest.obc.2247,「深渊使徒」匆匆离开了遗迹…,3,生物条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）

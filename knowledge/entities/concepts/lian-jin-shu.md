@@ -5,7 +5,7 @@ canonical_name: 炼金术
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,9 +23,9 @@ tags: [知识层种子]
 
 ## 证据（3）
 
-- [[quest.obc.503548]]：一场炼金术结束，账单比炼金成果更令人在意…
 - [[quest.obc.507413]]：为了办到这一点，只有「炼金术」或许还不够…
 - [[char.obc.1360]]：因此，它所持有的「炼金术」，更侧重于「创造生命」这一分支领域
+- [[quest.obc.503548]]：一场炼金术结束，账单比炼金成果更令人在意…
 
 ## 待考
 

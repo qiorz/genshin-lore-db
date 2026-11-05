@@ -3,8 +3,7 @@ id: entity.ba-che
 type: deity
 canonical_name: 跋掣
 canonical_name_en: 
-aliases:
-  - 旋涡的余威
+aliases: []
 spoiler_level: 1
 status: draft
 tags: [知识层种子]
@@ -24,8 +23,8 @@ tags: [知识层种子]
 
 ## 证据（3）
 
-- [[quest.obc.501450]]：那次战斗中，我目睹了你与申鹤仙君抗击「跋掣」的全过程，深有感触
 - [[event.obc.510009]]：「跋掣」那样的对手，现在应该只能给我热身了
+- [[quest.obc.501450]]：那次战斗中，我目睹了你与申鹤仙君抗击「跋掣」的全过程，深有感触
 - [[voice.obc.501486]]：自上次与「跋掣」交战后，玉衡星大人与其余几位七星长官仔细商议后，决定适当改进千岩军的指挥体系
 
 ## 待考

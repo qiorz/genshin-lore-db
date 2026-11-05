@@ -394,6 +394,14 @@ def main() -> int:
             orphans = [r[0] for r in con.execute("SELECT entity_id FROM entities")
                        if r[0] not in seed_ids]
             for eid in orphans:
+                # claims 有 CHECK(subject_id 或 subject_literal 至少一个)，
+                # 直接删会让 ON DELETE SET NULL 把两者都置空而报错。
+                # 先把正式名写进 subject_literal 留痕，再删。
+                con.execute(
+                    """UPDATE claims SET subject_literal = COALESCE(
+                           subject_literal,
+                           (SELECT canonical_name FROM entities WHERE entity_id = ?))
+                       WHERE subject_id = ?""", (eid, eid))
                 con.execute("DELETE FROM entities WHERE entity_id=?", (eid,))
             if orphans:
                 print(f"已剪掉 {len(orphans)} 个孤儿实体：" + "、".join(orphans[:10])

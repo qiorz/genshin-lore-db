@@ -31,6 +31,7 @@ DB = ROOT / "db/genshin_lore.sqlite3"
 sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
 
 APPLY = "--apply" in sys.argv
+RESORT = "--resort" in sys.argv
 files = [a for a in sys.argv[1:] if a.endswith(".yaml")]
 if not files:
     print("用法：python scripts/enrich_evidence.py knowledge/seed-stage3.yaml [--apply]")
@@ -46,6 +47,31 @@ for rel in files:
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     entities = data.get("entities") or []
     changed = 0
+    resorted = 0
+
+    # 重排：主锚点应该是「原文把名字当专名引用」的那条，而不是最早写进去的那条
+    if RESORT:
+        reordered = 0
+        for item in entities:
+            evs = item.get("evidence") or []
+            if len(evs) < 2:
+                continue
+            name = item["name"]
+            titles = {r[0]: (r[1] or "") for r in con.execute(
+                "SELECT doc_id, title FROM documents WHERE doc_id IN (%s)"
+                % ",".join("?" * len(evs)), [e["doc"] for e in evs])}
+            def key(e):
+                q = e.get("quote") or ""
+                return (0 if f"「{name}」" in q else 1,
+                        0 if name in titles.get(e["doc"], "") else 1,
+                        len(q))
+            ordered = sorted(evs, key=key)
+            if ordered != evs:
+                item["evidence"] = ordered
+                reordered += 1
+        resorted = reordered
+        print(f"{path.name}: 重排 {reordered} 个实体的锚点顺序")
+
     for item in entities:
         have = item.get("evidence") or []
         if len(have) >= TARGET:
@@ -65,7 +91,7 @@ for rel in files:
             changed += 1
             total_add += len(trimmed) - len(have)
     print(f"{path.name}: {len(entities)} 个实体，补足 {changed} 个")
-    if APPLY and changed:
+    if APPLY and (changed or resorted):
         # 保留文件头的说明注释，只重写 YAML 主体
         header = "".join(
             line + "\n" for line in

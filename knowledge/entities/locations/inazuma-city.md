@@ -5,7 +5,7 @@ canonical_name: 稻妻城
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,9 +23,9 @@ tags: [知识层种子]
 
 ## 证据（3）
 
-- [[lore.obc.5803]]：近日有行踪可疑之外国人士进入稻妻城区，游荡不定，可见动机险恶。
 - [[quest.obc.504623]]：而既然犯人选择「稻妻城」作为新的目标，那他原先所在的「会场」，就会出现「空缺」…
 - [[char.obc.2142]]：离开稻妻城之后，万叶四处游历
+- [[lore.obc.5803]]：近日有行踪可疑之外国人士进入稻妻城区，游荡不定，可见动机险恶。
 
 ## 待考
 

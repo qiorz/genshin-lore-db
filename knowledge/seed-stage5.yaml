@@ -452,9 +452,7 @@ entities:
   name: 雷利尔
   description: NPC 人物：台词 175 段，出现在 2 篇文档。第五批扩量，描述只写语料统计，剧情身份请点证据原文核对
   spoiler: 1
-  aliases:
-  - name: 猎月人
-    kind: alias
+  aliases: []
   evidence:
   - doc: quest.obc.507019
     quote: （听起来，维瑟弗尼尔给出的预言触怒了陛下。对于不想听到的言论，即便是「预言家」所揭示，陛下也已不愿容忍。）
@@ -611,10 +609,10 @@ entities:
   evidence:
   - doc: quest.obc.509534
     quote: 从天空岛降临而来，难道懂得很多
-  - doc: quest.obc.398
-    quote: 那剑是天空岛上的神明失手落入海中的，被爷爷他们碰巧打捞起来
   - doc: quest.obc.3427
     quote: 「众神」和天空岛果然是外来之物
+  - doc: quest.obc.398
+    quote: 那剑是天空岛上的神明失手落入海中的，被爷爷他们碰巧打捞起来
 - id: entity.di-mai
   type: concept
   name: 地脉
@@ -687,12 +685,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.503548
-    quote: 一场炼金术结束，账单比炼金成果更令人在意…
   - doc: quest.obc.507413
     quote: 为了办到这一点，只有「炼金术」或许还不够…
   - doc: char.obc.1360
     quote: 因此，它所持有的「炼金术」，更侧重于「创造生命」这一分支领域
+  - doc: quest.obc.503548
+    quote: 一场炼金术结束，账单比炼金成果更令人在意…
 - id: entity.zhan-xing-shu
   type: concept
   name: 占星术
@@ -713,12 +711,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.501133
-    quote: 阿圆驱使仙术，对酒馆进行了一番改建，并更换了对局邀请板
   - doc: quest.obc.2840
     quote: 他在渡海去璃月学了仙术之后，又回了稻妻
   - doc: quest.obc.5989
     quote: 削月筑阳真君与理水叠山真君用仙术驱动起了机关…
+  - doc: quest.obc.501133
+    quote: 阿圆驱使仙术，对酒馆进行了一番改建，并更换了对局邀请板
 - id: entity.ji-guan-shu
   type: concept
   name: 机关术
@@ -752,12 +750,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: book.obc.534
-    quote: 提瓦特地理杂志特刊—艾莉丝的蒙德行记
   - doc: quest.obc.4723
     quote: 因为在那之前，我从来没有听说过「提瓦特」
   - doc: char.obc.509225
     quote: 在降临名为「提瓦特」的大陆之前，你希望能与这个世界相处愉快
+  - doc: book.obc.534
+    quote: 提瓦特地理杂志特刊—艾莉丝的蒙德行记
 - id: entity.chen-shi
   type: concept
   name: 尘世
@@ -869,12 +867,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.503380
-    quote: 深渊之力由此处朝纳塔全境蔓延，魔物无穷无尽，攻势不可阻挡
   - doc: quest.obc.3622
     quote: 应该是他对深渊之力有所需求引发的微弱流动
   - doc: quest.obc.507424
     quote: 更何况那位归来的造物主身上已经沾染了危险的深渊之力
+  - doc: quest.obc.503380
+    quote: 深渊之力由此处朝纳塔全境蔓延，魔物无穷无尽，攻势不可阻挡
 - id: entity.yuan-su-long
   type: concept
   name: 元素龙
@@ -882,12 +880,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.7431
-    quote: （身为水元素龙王的那维莱特仍然按照固有印象称自己为「局外人」…）
   - doc: quest.obc.7202
     quote: 如果真的是元素龙的话，有这样神奇的力量倒也不奇怪…
   - doc: quest.obc.7497
     quote: 如今这世上的元素龙，包括我在内，都并非是「完整」的状态
+  - doc: quest.obc.7431
+    quote: （身为水元素龙王的那维莱特仍然按照固有印象称自己为「局外人」…）
 - id: entity.shen-xing
   type: concept
   name: 神性
@@ -908,12 +906,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.501361
-    quote: 我们曾向天命举起刀剑，我们创造的事业挑战了高天的律法
   - doc: quest.obc.3531
     quote: 是啊，究竟是机缘巧合，还是天命注定呢
   - doc: quest.obc.4121
     quote: 时至今日我已明白，天命是夜叉最能感知到的劫难
+  - doc: quest.obc.501361
+    quote: 我们曾向天命举起刀剑，我们创造的事业挑战了高天的律法
 - id: entity.deng-jia-jiao-huan
   type: concept
   name: 等价交换
@@ -923,23 +921,21 @@ entities:
   evidence:
   - doc: char.obc.1290
     quote: 就算是人与人之间，交易的铁则也是「等价交换」
-  - doc: char.obc.92
-    quote: 她的「命之座」以「沙漏」为名，象征着知识、时间与等价交换
   - doc: voice.obc.7460
     quote: 你有问题，我有答案，拿你知道的和我知道的等价交换
-- id: entity.long-wang
+  - doc: char.obc.92
+    quote: 她的「命之座」以「沙漏」为名，象征着知识、时间与等价交换
+- id: entity.yuan-su-long-wang
   type: concept
-  name: 龙王
+  name: 元素龙王
   description: 概念条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
   aliases: []
   evidence:
-  - doc: char.obc.79
-    quote: 道上称她「龙王」，乃是实至名归
-  - doc: quest.obc.6463
-    quote: 当初在「龙王」归来之时，世界已是沧海桑田
-  - doc: quest.obc.508722
-    quote: 龙王的力量比你们想象中更加强大
+  - doc: quest.obc.7431
+    quote: （身为水元素龙王的那维莱特仍然按照固有印象称自己为「局外人」…）
+  - doc: book.obc.3470
+    quote: 龙蜥化人对大人来说是一种恐怖的阴谋，根据古代预言，水之元素龙王一定会以人形重生
 - id: entity.jiang-lin
   type: concept
   name: 降临
@@ -1025,12 +1021,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.4691
-    quote: 「像飘浮灵一样膨胀，像林猪一样一往无前…」
   - doc: quest.obc.6874
     quote: 毕竟你笨笨的就像飘浮灵一样嘛
   - doc: quest.obc.7235
     quote: 等等，我记得飘浮灵是骂人的话吧
+  - doc: quest.obc.4691
+    quote: 「像飘浮灵一样膨胀，像林猪一样一往无前…」
 - id: entity.xun-shou
   type: creature
   name: 蕈兽
@@ -1038,12 +1034,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.6117
+    quote: 已经到了这里，就要把问题解决，无论是「孢子」还是「蕈兽」
   - doc: lore.obc.508208
     quote: 一·蕈兽的活动范围与种类辨识
   - doc: quest.obc.505628
     quote: 希望人和蕈兽和谐共处的那天能尽早到来
-  - doc: quest.obc.6117
-    quote: 已经到了这里，就要把问题解决，无论是「孢子」还是「蕈兽」
 - id: entity.shi-lai-mu
   type: creature
   name: 史莱姆
@@ -1066,10 +1062,10 @@ entities:
   evidence:
   - doc: quest.obc.2400
     quote: 等一下，营地中间的那个…和我们曾经遇到过的「无相之雷」好像啊
-  - doc: quest.obc.6235
-    quote: 无相之雷的粉末，好像就是这个
   - doc: notice.mys.17699231
     quote: 6. 修复了特定情况下，BOSS「无相之雷」脱离战斗后无法正常恢复生命值的问题
+  - doc: quest.obc.6235
+    quote: 无相之雷的粉末，好像就是这个
 - id: entity.ji-dong-shu
   type: creature
   name: 急冻树
@@ -1077,12 +1073,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: notice.mys.29470078
+    quote: 1. 降低了BOSS「急冻树」从瘫痪中恢复后，施放的霜霰攻击技能连续命中角色时造成的伤害
   - doc: quest.obc.593
     quote: 急冻树和野猪，捡到两个宝贝了
   - doc: quest.obc.6235
     quote: 要类比的话，可能急冻树，或者骗骗花更加合适，但要追溯动植物之间的亲缘关系，恐怕要追溯到世界原初了
-  - doc: notice.mys.29470078
-    quote: 1. 降低了BOSS「急冻树」从瘫痪中恢复后，施放的霜霰攻击技能连续命中角色时造成的伤害
 - id: entity.bao-yan-shu
   type: creature
   name: 爆炎树
@@ -1090,12 +1086,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: quest.obc.6235
+    quote: 就比如…人类也无法理解爆炎树或者狂风之核的生活吧
   - doc: quest.obc.501340
     quote: 啊，不过爆炎树的果实味道还是不错的，有火元素的味道
   - doc: quest.obc.501342
     quote: 除了爆炎树，之后我还打算试试挑战古岩龙蜥、翠翎恐蕈，还有千年珍珠骏麟
-  - doc: quest.obc.6235
-    quote: 就比如…人类也无法理解爆炎树或者狂风之核的生活吧
 - id: entity.lei-yin-quan-xian
   type: creature
   name: 雷音权现
@@ -1103,12 +1099,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.2942
-    quote: 那么，看来在天云峠和这里有雷音权现，应该都和雷鸟有关
   - doc: notice.mys.58421356
     quote: 4. 修复了特定情况下，多次挑战敌人「雷音权现」时，成就「无法传达的恋波」无法完成的问题
   - doc: notice.mys.17699231
     quote: 5. 修复了BOSS「雷音权现」施放的电网夹攻技能在遇到岩元素创造物时，有概率出现位置偏移的问题
+  - doc: quest.obc.2942
+    quote: 那么，看来在天云峠和这里有雷音权现，应该都和雷鸟有关
 - id: entity.sheng-hai-shou
   type: creature
   name: 圣骸兽
@@ -1116,12 +1112,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: notice.mys.73521381
+    quote: 所属为「圣骸兽」卡牌生成的事件牌「噬骸能量块」
   - doc: quest.obc.510127
     quote: 比如须弥的「镀金旅团」小队大战枫丹警卫机关，部族战士对抗圣骸兽…
   - doc: quest.obc.505547
     quote: 我去过须弥的沙漠，那里一夜之间多了大量圣骸兽的尸体，而且地下的魔神残渣也少了很多
-  - doc: notice.mys.73521381
-    quote: 所属为「圣骸兽」卡牌生成的事件牌「噬骸能量块」
 - id: entity.xuan-wen-shou
   type: creature
   name: 玄文兽
@@ -1155,12 +1151,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: voice.obc.508564
+    quote: 你是说…像愚人众先遣队的那些射手，发射元素进行攻击
   - doc: quest.obc.6042
     quote: '{{颜色|灰|击败{{图标|愚人众先遣队·水铳重卫士|1}}}}'
   - doc: lore.obc.509517
     quote: 调查发现，波波洛夫过去曾加入愚人众先遣队，长期驻扎于须弥雨林中的某处据点
-  - doc: voice.obc.508564
-    quote: 你是说…像愚人众先遣队的那些射手，发射元素进行攻击
 - id: entity.you-yan-long-xi
   type: creature
   name: 幼岩龙蜥
@@ -1168,12 +1164,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: char.obc.1055
-    quote: 只是…幼岩龙蜥和岩龙蜥通常都在璃月野外活动，独自行动肯定十分危险，我想邀请你一同出发
   - doc: quest.obc.500628
     quote: 你也不用觉得丢脸啦，鬼兜虫怎么可能打赢幼岩龙蜥嘛
   - doc: quest.obc.501509
     quote: 哦对了，我的第一只宠物是头幼岩龙蜥，师父从璃月抓来的
+  - doc: char.obc.1055
+    quote: 只是…幼岩龙蜥和岩龙蜥通常都在璃月野外活动，独自行动肯定十分危险，我想邀请你一同出发
 - id: entity.yan-long-xi
   type: creature
   name: 岩龙蜥
@@ -1207,10 +1203,10 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.4254
-    quote: 将内有照片的怀表交给藏镜仕女
   - doc: notice.mys.55221094
     quote: 17. 调整了角色牌「藏镜仕女」状态「水光破镜」的效果：效果“附属角色受到的水元素伤害+1
+  - doc: quest.obc.4254
+    quote: 将内有照片的怀表交给藏镜仕女
   - doc: notice.mys.9076566
     quote: 8.修复了愚人众·藏镜仕女破镜循声技能伤害异常的问题
 - id: entity.zhai-wu-chu-li-ren
@@ -1222,10 +1218,10 @@ entities:
   evidence:
   - doc: quest.obc.4707
     quote: 既然打赌输给那位「债务处理人」，就顺便活动一下筋骨好了
-  - doc: quest.obc.506600
-    quote: 而据我的债务处理人说，他在很多天前就躲进了工坊的领地
   - doc: quest.obc.508122
     quote: 我们那时候击败了债务处理人…
+  - doc: quest.obc.506600
+    quote: 而据我的债务处理人说，他在很多天前就躲进了工坊的领地
 - id: entity.feng-shi-lai-mu
   type: creature
   name: 风史莱姆
@@ -1246,12 +1242,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: notice.mys.19691956
+    quote: 14. 「深渊使徒」、「深渊咏者」新增副掉落物「晦暗刻像」、「夤夜刻像」、「幽邃刻像」
   - doc: quest.obc.505339
     quote: 一名深渊咏者·渊火从兽境中现身…
   - doc: quest.obc.507523
     quote: 队长说的是小剧场特别篇《菲耶蒂娜与深渊咏者的烤肉之战》，对吧
-  - doc: notice.mys.19691956
-    quote: 14. 「深渊使徒」、「深渊咏者」新增副掉落物「晦暗刻像」、「夤夜刻像」、「幽邃刻像」
 - id: entity.fu-ka-luo-si
   type: deity
   name: 芙卡洛斯
@@ -1283,9 +1279,7 @@ entities:
   name: 奥赛尔
   description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 漩涡之魔神
-    kind: alias
+  aliases: []
   evidence:
   - doc: quest.obc.2247
     quote: 不过说起来，他们想要对奥赛尔做什么
@@ -1298,14 +1292,12 @@ entities:
   name: 跋掣
   description: 神明条目（第五批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 旋涡的余威
-    kind: alias
+  aliases: []
   evidence:
-  - doc: quest.obc.501450
-    quote: 那次战斗中，我目睹了你与申鹤仙君抗击「跋掣」的全过程，深有感触
   - doc: event.obc.510009
     quote: 「跋掣」那样的对手，现在应该只能给我热身了
+  - doc: quest.obc.501450
+    quote: 那次战斗中，我目睹了你与申鹤仙君抗击「跋掣」的全过程，深有感触
   - doc: voice.obc.501486
     quote: 自上次与「跋掣」交战后，玉衡星大人与其余几位七星长官仔细商议后，决定适当改进千岩军的指挥体系
 - id: entity.hua-shen
@@ -1389,12 +1381,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
+  - doc: voice.obc.680
+    quote: 我们「万民堂」可没有那么多弯弯绕绕
   - doc: char.obc.1291
     quote: 辛焱经常来「万民堂」吃夜宵喔
   - doc: char.obc.5866
     quote: 不过呀，她很久没来「万民堂」玩儿了
-  - doc: voice.obc.680
-    quote: 我们「万民堂」可没有那么多弯弯绕绕
 - id: entity.bu-bo-lu
   type: organization
   name: 不卜庐
@@ -1454,9 +1446,9 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.1230
-    quote: 我是「璃月总务司」指派的资源管理专员，我叫小雨
   - doc: voice.obc.1224
+    quote: 我是「璃月总务司」指派的资源管理专员，我叫小雨
+  - doc: quest.obc.1230
     quote: 我是「璃月总务司」指派的资源管理专员，我叫小雨
   - doc: char.obc.78
     quote: 但我听闻璃月总务司中有「璃月七星」
@@ -1632,12 +1624,12 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: char.obc.6285
-    quote: 蒙德「归风佳酿节」期间，米卡带着大团长的信件重返蒙德，回归了游击小队
   - doc: voice.obc.1092
     quote: 「归风佳酿节」是秋季蒙德人庆祝丰收的节日
   - doc: voice.obc.936
     quote: 没有听过的声音呢…你是来蒙德参加「归风佳酿节」的旅行者吗
+  - doc: char.obc.6285
+    quote: 蒙德「归风佳酿节」期间，米卡带着大团长的信件重返蒙德，回归了游击小队
 - id: entity.mo-nv-de-cha-hui
   type: event
   name: 魔女的茶会
@@ -1671,10 +1663,10 @@ entities:
   spoiler: 1
   aliases: []
   evidence:
-  - doc: quest.obc.6290
-    quote: 他在璃月学习商业经营时，接触到了一种游戏，名为「机关棋谭」
   - doc: voice.obc.2562
     quote: 而且，我比较关注「机关棋谭」的玩法，以前还尝试独创过新玩法
+  - doc: quest.obc.6290
+    quote: 他在璃月学习商业经营时，接触到了一种游戏，名为「机关棋谭」
   - doc: voice.obc.4003
     quote: 虽说新刊发售会结束了，但祭典还会持续一段时间，我听说还有插花、机关棋谭这些活动…
 - id: entity.wu-xiang-jiao-xiang-shi

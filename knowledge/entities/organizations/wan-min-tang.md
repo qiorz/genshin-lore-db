@@ -5,7 +5,7 @@ canonical_name: 万民堂
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,9 +23,9 @@ tags: [知识层种子]
 
 ## 证据（3）
 
+- [[voice.obc.680]]：我们「万民堂」可没有那么多弯弯绕绕
 - [[char.obc.1291]]：辛焱经常来「万民堂」吃夜宵喔
 - [[char.obc.5866]]：不过呀，她很久没来「万民堂」玩儿了
-- [[voice.obc.680]]：我们「万民堂」可没有那么多弯弯绕绕
 
 ## 待考
 

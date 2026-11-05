@@ -3,8 +3,7 @@ id: entity.ao-sai-er
 type: deity
 canonical_name: 奥赛尔
 canonical_name_en: 
-aliases:
-  - 漩涡之魔神
+aliases: []
 spoiler_level: 1
 status: draft
 tags: [知识层种子]

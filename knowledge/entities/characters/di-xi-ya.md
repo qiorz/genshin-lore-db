@@ -6,7 +6,7 @@ canonical_name_en:
 aliases:
   - 炽鬃之狮
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 

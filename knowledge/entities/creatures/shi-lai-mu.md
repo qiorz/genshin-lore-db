@@ -5,7 +5,7 @@ canonical_name: 史莱姆
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 

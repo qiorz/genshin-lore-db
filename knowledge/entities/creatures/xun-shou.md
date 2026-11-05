@@ -5,7 +5,7 @@ canonical_name: 蕈兽
 canonical_name_en: 
 aliases: []
 spoiler_level: 1
-status: draft
+status: reviewed
 tags: [知识层种子]
 ---
 
@@ -23,9 +23,9 @@ tags: [知识层种子]
 
 ## 证据（3）
 
+- [[quest.obc.6117]]：已经到了这里，就要把问题解决，无论是「孢子」还是「蕈兽」
 - [[lore.obc.508208]]：一·蕈兽的活动范围与种类辨识
 - [[quest.obc.505628]]：希望人和蕈兽和谐共处的那天能尽早到来
-- [[quest.obc.6117]]：已经到了这里，就要把问题解决，无论是「孢子」还是「蕈兽」
 
 ## 待考
 
