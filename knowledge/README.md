@@ -172,3 +172,48 @@ quote: "所幸温迪阁下…嗯，也就是巴巴托斯大人也愿意帮忙"
 实体卡片走独立页面 `/entities` 与 `/api/entities`，
 搜索页底部只额外加一个默认折叠的「相关实体」提示区。
 原文某一句话永远是这个库最根本的检索单位。
+
+## 9. 第二批（2026-11-05）：关系 / 时间线 / 正式卡片
+
+第一批 `seed.yaml` 已人工校对通过（`status: reviewed`），作为冻结记录不再改结论。
+第二批内容全部放 `seed-stage2.yaml`。
+
+### 权威源 → 查询层 → 阅读视图
+
+```text
+knowledge/seed.yaml + seed-stage2.yaml   可编辑的权威源（人工维护）
+        ↓ scripts/load_knowledge.py --apply
+db/genshin_lore.sqlite3                  查询层（entities / relations / claims / events / timeline）
+        ↓ scripts/export_entity_cards.py --apply
+knowledge/entities|claims|events|timelines/*.md   导出的阅读视图（生成物，不要手改）
+```
+
+要改结论就改 seed，依次重跑两个脚本。证据仍只用 `doc_id + 短引用`，
+`corpus/` 全量重导后重跑灌库脚本即可重新对齐 `section_id`。
+
+本批生成的 50 份 Markdown：30 张实体卡、10 张说法卡、8 张事件卡、2 张时间线汇总。
+
+### 两条时间线互不换算（重要）
+
+| `era` | 条数 | 含义 | `certainty` |
+|---|---:|---|---|
+| `release` | 53 | 现实世界官方版本更新说明的上线日期（1.1→7.2，无断档） | `exact` |
+| `teyvat` | 8 | 提瓦特世界的事件先后（魔神战争、坎瑞亚灾变、世界树修复等） | `relative` / `approximate` |
+
+- 现实版本线由 `load_knowledge.py` 从 `corpus/notices/` 的官方公告**自动生成**，不手写、不猜测；
+- 提瓦特线**只有相对先后**：`sort_key` 是负数，只表示顺序，不代表任何年代数值；
+- 原文写「约两千六百年前」「五百年前」的一律保留为约数文字，**不写 `absolute_year`**；
+- 两者分开存放在同一张表的 `era` 字段，UI 分两个区块展示，绝不互相换算。
+
+### 关系与说法的分工
+
+- `entity_relations` 只收**稳定、可复用**的断言（谁属于哪个组织、哪国由哪位神明统御）；
+- `claims` 收**有视角、有争议**的说法，置信度故意不统一；
+- 角色台词、NPC 语音、编校推断分别标 `likely` / `speculative`，不自动等于设定；
+- 例如「教令院推行虚空」用 `operated_by` 而非 `created_by`，因为原文没直述发明者。
+
+### 复核入口
+
+- Web UI：`/entities`、`/entity/<entity_id>`、`/timeline`；
+- JSON：`/api/entities`、`/api/entity?id=...`、`/api/timeline?era=teyvat`；
+- 报告：`exports/obc-evaluation/knowledge-seed-report.md`。

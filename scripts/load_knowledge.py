@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""把 knowledge/seed.yaml 的第一批实体卡片灌进 SQLite 知识层。
+"""把 knowledge/ 下的种子卡片灌进 SQLite 知识层。
+
+数据源：
+  knowledge/seed.yaml        第一批：30 个实体 + 别名 + claims（已人工校对）
+  knowledge/seed-stage2.yaml 第二批：关系边、提瓦特纪年事件、现实版本上线时间线
 
 设计要点（见 knowledge/README.md §8）：
   - 不硬编码 section_id。重导 corpus 后 section_id 会变，所以每条证据只写
     doc_id + 短引用，灌库时现场在 sections 里解析出当前 section_id / ordinal。
   - 解析不到就报错，绝不静默跳过；证据是知识层的命根子。
-  - 幂等：entity_id / claim_id 固定，重跑只更新不重复插入。
+  - 幂等：所有主键固定（entity_id / claim_id / relation_id / event_id / entry_id）；
+    重跑只更新不重复插入。event_sources 无唯一键，按 event_id 先删后插。
   - 不写 documents / sections，不碰原文层。
+  - 现实版本上线日期（era=release）与提瓦特纪年（era=teyvat）严格分开，
+    绝不互相换算，也绝不把「约五百年前」写成绝对年份。
 
 用法：
     python scripts/load_knowledge.py            # 干跑，只校验并出报告
@@ -26,6 +33,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 SEED = ROOT / "knowledge/seed.yaml"
+SEED2 = ROOT / "knowledge/seed-stage2.yaml"
 DB = ROOT / "db/genshin_lore.sqlite3"
 REPORT = ROOT / "exports/obc-evaluation/knowledge-seed-report.md"
 APPLY = "--apply" in sys.argv
@@ -37,6 +45,13 @@ NAME_TYPES = {"canonical", "alias", "title", "epithet", "cryptic",
               "romanization", "translation"}
 CONFIDENCE = {"confirmed", "likely", "speculative", "disputed", "unreliable"}
 STATUS = {"open", "accepted", "disputed", "rejected", "superseded"}
+CERTAINTY = {"exact", "approximate", "relative", "unknown"}
+ENTITY_STATUS = {"draft", "reviewed", "stable", "deprecated"}
+
+# 时间线条目 ID 的固定区间，保证幂等
+TL_LORE_BASE = 3000
+TL_RELEASE_BASE = 90000
+REL_INVOLVED_BASE = 5000
 
 
 def norm(text: str) -> str:
@@ -61,29 +76,55 @@ def resolve(con: sqlite3.Connection, doc_id: str, quote: str, cache: dict):
     return None
 
 
+def source_of(con: sqlite3.Connection, doc_id: str) -> str | None:
+    row = con.execute(
+        "SELECT primary_source_id FROM documents WHERE doc_id=?", (doc_id,)
+    ).fetchone()
+    return row[0] if row else None
+
+
+def release_rows(con: sqlite3.Connection) -> list[sqlite3.Row]:
+    """53 篇官方版本更新说明 → 现实版本上线时间线。"""
+    return con.execute(
+        """SELECT doc_id, version, release_date, title, primary_source_id
+           FROM documents
+           WHERE doc_type='notice' AND version IS NOT NULL AND version<>''
+             AND release_date IS NOT NULL AND release_date<>''
+             AND title LIKE '%更新说明%'
+           ORDER BY release_date, doc_id"""
+    ).fetchall()
+
+
 def main() -> int:
     seed = yaml.safe_load(SEED.read_text(encoding="utf-8"))
+    stage2 = yaml.safe_load(SEED2.read_text(encoding="utf-8"))
     entities = seed.get("entities") or []
     claims = seed.get("claims") or []
+    relations = stage2.get("relations") or []
+    events = stage2.get("events") or []
+    release_cfg = stage2.get("release_timeline") or {}
     errors: list[str] = []
     cache: dict = {}
     con = sqlite3.connect(DB)
+    con.row_factory = sqlite3.Row
     con.execute("PRAGMA foreign_keys = ON")
 
-    known_ids = set()
+    known_ids = {e["id"] for e in entities}
+    entity_status = seed.get("status", "draft")
+    if entity_status not in ENTITY_STATUS:
+        errors.append(f"seed.yaml: 非法 status {entity_status}")
+
     for item in entities:
         eid = item["id"]
-        known_ids.add(eid)
         if item.get("type") not in ENTITY_TYPES:
             errors.append(f"{eid}: 非法 entity_type {item.get('type')}")
         for alias in item.get("aliases") or []:
             if alias.get("kind") not in NAME_TYPES:
                 errors.append(f"{eid}: 非法 name_type {alias.get('kind')}")
-        if not con.execute("SELECT 1 FROM documents WHERE doc_id=?", (item["evidence"][0]["doc"],)).fetchone():
-            errors.append(f"{eid}: 证据文档不存在 {item['evidence'][0]['doc']}")
         for ev in item.get("evidence") or []:
             if not resolve(con, ev["doc"], ev["quote"], cache):
                 errors.append(f"{eid}: 证据未命中 {ev['doc']} | {ev['quote'][:28]}")
+
     for item in claims:
         if item.get("subject") not in known_ids:
             errors.append(f"claim {item['id']}: 未知 subject {item.get('subject')}")
@@ -94,14 +135,49 @@ def main() -> int:
         if not resolve(con, item["doc"], item["quote"], cache):
             errors.append(f"claim {item['id']}: 证据未命中 {item['doc']} | {item['quote'][:28]}")
 
+    for item in relations:
+        rid = item["id"]
+        if item.get("subject") not in known_ids:
+            errors.append(f"relation {rid}: 未知 subject {item.get('subject')}")
+        if item.get("object_id") and item["object_id"] not in known_ids:
+            errors.append(f"relation {rid}: 未知 object_id {item['object_id']}")
+        if not item.get("object_id") and not item.get("object_literal"):
+            errors.append(f"relation {rid}: object_id / object_literal 至少填一个")
+        if item.get("confidence") not in CONFIDENCE:
+            errors.append(f"relation {rid}: 非法 confidence {item.get('confidence')}")
+        if not resolve(con, item["doc"], item["quote"], cache):
+            errors.append(f"relation {rid}: 证据未命中 {item['doc']} | {item['quote'][:28]}")
+
+    for item in events:
+        evid = item["id"]
+        if item.get("time_certainty") not in CERTAINTY or item.get("certainty") not in CERTAINTY:
+            errors.append(f"event {evid}: 非法 certainty {item.get('certainty')}")
+        for eid in item.get("entities") or []:
+            if eid not in known_ids:
+                errors.append(f"event {evid}: 未知参与实体 {eid}")
+        if not resolve(con, item["doc"], item["quote"], cache):
+            errors.append(f"event {evid}: 证据未命中 {item['doc']} | {item['quote'][:28]}")
+
+    releases = release_rows(con)
+    if release_cfg and not releases:
+        errors.append("release_timeline: 没有找到官方版本更新说明")
+    if release_cfg.get("certainty") not in CERTAINTY or release_cfg.get("era") != "release":
+        errors.append("release_timeline: era 必须为 release，certainty 必须合法")
+
     alias_count = sum(len(e.get("aliases") or []) for e in entities)
-    ev_count = sum(len(e.get("evidence") or []) for e in entities) + len(claims)
-    print(f"实体 {len(entities)} · 别名 {alias_count} · claims {len(claims)} · 证据 {ev_count}")
-    print(f"证据解析成功 {ev_count - sum(1 for x in errors if '证据未命中' in x)}/{ev_count}")
+    ev_count = (sum(len(e.get("evidence") or []) for e in entities) + len(claims)
+                + len(relations) + len(events))
+    involved_count = sum(len(e.get("entities") or []) for e in events)
+    missed = sum(1 for x in errors if "证据未命中" in x)
+    print(f"实体 {len(entities)} · 别名 {alias_count} · claims {len(claims)} · "
+          f"关系 {len(relations)}+{involved_count} · 纪年事件 {len(events)} · "
+          f"版本上线 {len(releases)} · 证据 {ev_count}")
+    print(f"证据解析成功 {ev_count - missed}/{ev_count}")
     for err in errors:
         print("  ERROR", err)
 
     if APPLY and not errors:
+        # --- 第一批：实体 / 别名 / 说法 -------------------------------------
         for item in entities:
             eid = item["id"]
             con.execute(
@@ -115,9 +191,10 @@ def main() -> int:
                      canonical_name_en=excluded.canonical_name_en,
                      description=excluded.description,
                      spoiler_level=excluded.spoiler_level,
+                     status=excluded.status,
                      updated_at=datetime('now')""",
                 (eid, item["type"], item["name"], item.get("name_en"),
-                 item.get("description", ""), int(item.get("spoiler", 0)), "draft"),
+                 item.get("description", ""), int(item.get("spoiler", 0)), entity_status),
             )
             names = [(item["name"], "canonical", 1)]
             names += [(a["name"], a.get("kind", "alias"), 0) for a in item.get("aliases") or []]
@@ -130,9 +207,6 @@ def main() -> int:
                 )
         for item in claims:
             found = resolve(con, item["doc"], item["quote"], cache)
-            source = con.execute(
-                "SELECT primary_source_id FROM documents WHERE doc_id=?", (item["doc"],)
-            ).fetchone()
             con.execute(
                 """INSERT INTO claims
                    (claim_id, subject_id, subject_literal, predicate, object_id,
@@ -154,36 +228,154 @@ def main() -> int:
                 (int(item["id"]), item.get("subject"), None, item["predicate"],
                  None, str(item.get("object", "")), item["statement"],
                  item.get("perspective"), item["confidence"], item["status"],
-                 source[0] if source else None, item["doc"],
+                 source_of(con, item["doc"]), item["doc"],
                  found[0] if found else None, int(item.get("spoiler", 0)),
                  item.get("notes")),
             )
-        con.commit()
-        print(f"写入完成：entities={con.execute('SELECT COUNT(*) FROM entities').fetchone()[0]} "
-              f"entity_names={con.execute('SELECT COUNT(*) FROM entity_names').fetchone()[0]} "
-              f"claims={con.execute('SELECT COUNT(*) FROM claims').fetchone()[0]}")
 
+        # --- 第二批：关系边 -------------------------------------------------
+        def write_relation(rid, subject, predicate, object_id, object_literal,
+                           confidence, spoiler, doc_id, quote, notes):
+            found = resolve(con, doc_id, quote, cache)
+            con.execute(
+                """INSERT INTO entity_relations
+                   (relation_id, subject_id, predicate, object_id, object_literal,
+                    qualifier, confidence, source_id, doc_id, section_id,
+                    spoiler_level, notes)
+                   VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+                   ON CONFLICT(relation_id) DO UPDATE SET
+                     subject_id=excluded.subject_id,
+                     predicate=excluded.predicate,
+                     object_id=excluded.object_id,
+                     object_literal=excluded.object_literal,
+                     confidence=excluded.confidence,
+                     source_id=excluded.source_id,
+                     doc_id=excluded.doc_id,
+                     section_id=excluded.section_id,
+                     spoiler_level=excluded.spoiler_level,
+                     notes=excluded.notes""",
+                (rid, subject, predicate, object_id, object_literal, None,
+                 confidence, source_of(con, doc_id), doc_id,
+                 found[0] if found else None, int(spoiler), notes),
+            )
+
+        for item in relations:
+            write_relation(int(item["id"]), item["subject"], item["predicate"],
+                           item.get("object_id"), item.get("object_literal"),
+                           item["confidence"], item.get("spoiler", 0),
+                           item["doc"], item["quote"], item.get("notes"))
+
+        # --- 第二批：纪年事件 + 时间线 + 参与关系 ---------------------------
+        involved_id = REL_INVOLVED_BASE
+        for idx, item in enumerate(events, 1):
+            evid = item["id"]
+            found = resolve(con, item["doc"], item["quote"], cache)
+            con.execute(
+                """INSERT INTO events
+                   (event_id, name, event_type, era, time_certainty, description, spoiler_level)
+                   VALUES (?,?,?,?,?,?,?)
+                   ON CONFLICT(event_id) DO UPDATE SET
+                     name=excluded.name, event_type=excluded.event_type,
+                     era=excluded.era, time_certainty=excluded.time_certainty,
+                     description=excluded.description,
+                     spoiler_level=excluded.spoiler_level""",
+                (evid, item["name"], item.get("event_type"), "teyvat",
+                 item["time_certainty"], item.get("description", ""),
+                 int(item.get("spoiler", 0))),
+            )
+            con.execute("DELETE FROM event_sources WHERE event_id=?", (evid,))
+            con.execute(
+                """INSERT INTO event_sources (event_id, doc_id, section_id, source_id, notes)
+                   VALUES (?,?,?,?,?)""",
+                (evid, item["doc"], found[0] if found else None,
+                 source_of(con, item["doc"]), item.get("relative_time")),
+            )
+            con.execute(
+                """INSERT INTO timeline_entries
+                   (entry_id, event_id, sort_key, label, relative_time, absolute_year,
+                    era, certainty, source_id, doc_id, section_id, notes)
+                   VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+                   ON CONFLICT(entry_id) DO UPDATE SET
+                     event_id=excluded.event_id, sort_key=excluded.sort_key,
+                     label=excluded.label, relative_time=excluded.relative_time,
+                     era=excluded.era, certainty=excluded.certainty,
+                     doc_id=excluded.doc_id, section_id=excluded.section_id,
+                     notes=excluded.notes""",
+                (TL_LORE_BASE + idx, evid, float(item["sort_key"]), item["label"],
+                 item.get("relative_time"), None, "teyvat", item["certainty"],
+                 source_of(con, item["doc"]), item["doc"],
+                 found[0] if found else None,
+                 "sort_key 只表示相对先后，不代表任何绝对年份。"),
+            )
+            for eid in item.get("entities") or []:
+                involved_id += 1
+                write_relation(involved_id, eid, "involved_in", None, evid,
+                               "likely", item.get("spoiler", 0),
+                               item["doc"], item["quote"],
+                               "由事件参与关系自动生成，见 timeline_entries / event_sources。")
+
+        # --- 第二批：现实版本上线时间线 -------------------------------------
+        for row in releases:
+            version = row["version"]
+            try:
+                entry_id = TL_RELEASE_BASE + int(round(float(version) * 10))
+            except ValueError:
+                continue
+            con.execute(
+                """INSERT INTO timeline_entries
+                   (entry_id, event_id, sort_key, label, relative_time, absolute_year,
+                    era, certainty, source_id, doc_id, section_id, notes)
+                   VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+                   ON CONFLICT(entry_id) DO UPDATE SET
+                     sort_key=excluded.sort_key, label=excluded.label,
+                     relative_time=excluded.relative_time, era=excluded.era,
+                     certainty=excluded.certainty, doc_id=excluded.doc_id,
+                     notes=excluded.notes""",
+                (entry_id, None, float(version),
+                 f"{version} 版本上线 · {row['title']}", row["release_date"], None,
+                 "release", release_cfg["certainty"], row["primary_source_id"],
+                 row["doc_id"], None,
+                 release_cfg.get("note", "")),
+            )
+
+        con.commit()
+        for table in ("entities", "entity_names", "claims", "entity_relations",
+                      "events", "event_sources", "timeline_entries"):
+            n = con.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
+            print(f"  {table:20} {n}")
+
+    # --- 报告 ---------------------------------------------------------------
     conf = Counter(c.get("confidence") for c in claims)
+    rel_conf = Counter(r.get("confidence") for r in relations)
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     lines = [
-        "# 知识层第一批种子 · 灌库报告", "",
+        "# 知识层种子 · 灌库报告", "",
         f"> {datetime.now().astimezone().isoformat(timespec='seconds')} · "
-        f"模式：{'写入' if APPLY else '干跑'} · 来源 `knowledge/seed.yaml`", "",
+        f"模式：{'写入' if APPLY else '干跑'} · "
+        f"来源 `knowledge/seed.yaml` + `knowledge/seed-stage2.yaml`", "",
         "| 项 | 值 |", "|---|---|",
-        f"| 实体 | {len(entities)} |",
+        f"| 实体 | {len(entities)}（status: {entity_status}） |",
         f"| 别名（不含规范名） | {alias_count} |",
         f"| claims | {len(claims)} |",
+        f"| 关系边 | {len(relations)} 条人工 + {involved_count} 条事件参与 |",
+        f"| 提瓦特纪年事件 | {len(events)}（era=teyvat，只有相对顺序） |",
+        f"| 现实版本上线 | {len(releases)}（era=release，官方公告日期） |",
         f"| 证据引用 | {ev_count} |",
-        f"| 证据解析成功 | {ev_count - sum(1 for x in errors if '证据未命中' in x)} |",
+        f"| 证据解析成功 | {ev_count - missed} |",
         f"| 校验错误 | {len(errors)} |", "",
-        "claims 置信度：" + "、".join(f"{k} {v}" for k, v in conf.most_common()), "",
+        "claims 置信度：" + "、".join(f"{k} {v}" for k, v in conf.most_common()) + "  ",
+        "关系置信度：" + "、".join(f"{k} {v}" for k, v in rel_conf.most_common()), "",
+        "## 两条时间线互不换算", "",
+        "- `era=release`：现实世界版本上线日期，取自米游社官方版本更新说明，certainty=exact；",
+        "- `era=teyvat`：提瓦特纪年，只有相对先后，sort_key 为负数不代表年份，",
+        "  原文里的「约两千六百年前」「五百年前」保留为约数文字，不写成 absolute_year。", "",
         "## 证据样例（点得回原文）", "",
     ]
-    for item in claims[:5]:
+    for item in claims[:3] + relations[:2]:
         found = resolve(con, item["doc"], item["quote"], cache)
+        label = item.get("statement") or f"{item['subject']} —{item['predicate']}→"
         if found:
-            lines.append(f"- `{item['doc']}` 第 {found[1]} 段 / section {found[0]}："
-                         f"{item['statement']}（{item['confidence']} / {item['status']}）")
+            lines.append(f"- `{item['doc']}` 第 {found[1]} 段 / section {found[0]}：{label}")
     if errors:
         lines += ["", "## 错误", ""] + [f"- {e}" for e in errors]
     lines += ["", "证据只用 `doc_id + 短引用` 定位，重导 corpus 后重跑本脚本即可重新对齐；",

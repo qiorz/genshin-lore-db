@@ -1,8 +1,8 @@
 # 交接文档 · 原神世界观数据库
 
-> 更新时间：2026-11-04  
+> 更新时间：2026-11-05  
 > 项目根目录：`D:\harn\2\genshin-lore-db`  
-> 一句话状态：**书籍、任务、散落文本、角色、武器、圣遗物、活动、观景点、材料/食物/动物/道具、官方公告、NPC 对话/逸闻/彩蛋已全部归档进 `corpus/`，共 7,734 篇、453,939 段，可从 Markdown 全量重建；成就只做 CSV。剩下漫画、PV、七圣召唤牌面文本；知识层已起第一批种子卡片（30 实体 / 10 说法，待人工校对）。**
+> 一句话状态：**正文层已收齐（书籍、任务、散落文本、角色、武器、圣遗物、活动、观景点、物品、官方公告、NPC 对话），共 7,734 篇、453,939 段，可从 Markdown 全量重建；成就只做 CSV。P0 自动质检、P1 筛选可用性、P2 知识层两批种子均已落地：30 实体 / 59 别名 / 43 关系 / 10 说法 / 61 条时间线，带真实段落出处。原 Web UI 搜索结果零改动。剩下漫画、PV、七圣召唤牌面文本，以及知识层扩量。**
 
 ---
 
@@ -10,7 +10,27 @@
 
 主要改动在 2026-11-04：第 0 步把正文收进 `corpus/`，第 1 步收任务尾巴，第 2 步武器与圣遗物，
 第 3 步活动与成就，第 4 步地理，第 5 步材料/食物/动物/道具，第 6 步官方公告与 NPC 对话；
-2026-11-05 补了 Web UI 启停脚本、校对了 `quest.obc.5299`，并落地 P0 自动质检。下面按倒序排列。
+2026-11-05 补了 Web UI 启停脚本、校对了 `quest.obc.5299`，并落地 P0 自动质检、
+P1 筛选可用性、P2 知识层两批种子。下面按倒序排列。
+
+### 第 11 步 · P2 第二批：关系 / 时间线 / 正式卡片（2026-11-05）
+
+第一批 30 实体 + 10 说法经用户校对通过（`seed.yaml` 的 `status: reviewed`）。
+本批按既定方向往下铺，仍遵守「卡片是额外增加，原搜索零改动」。
+
+| 动作 | 结果 |
+|---|---|
+| `knowledge/seed-stage2.yaml` | 26 条人工关系边 + 8 个提瓦特纪年事件 + 53 个现实版本上线（从公告自动生成，不手写）；每条证据仍是 `doc_id + 短引用`，干跑 **77/77 命中** |
+| `scripts/load_knowledge.py` | 扩展为读两个 seed；写入 `entity_relations=43`（含 17 条事件参与）、`events=8`、`event_sources=8`、`timeline_entries=61`；全部固定主键、幂等复跑行数不变 |
+| 两条时间线分开 | `era=release`（53 条官方公告上线日期，`certainty=exact`）与 `era=teyvat`（8 条，只有相对先后，约数不写成绝对年份）**严格不互相换算** |
+| `scripts/export_entity_cards.py` | 把种子导出成 50 份便于人读的 Markdown：30 实体 / 10 说法 / 8 事件 / 2 时间线，按 `knowledge/README.md` 的模板分类落盘。**生成物，不要手改** |
+| Web UI | 新增 `/entity/<id>` 详情页（关系出边/入边、说法置信度、相关时间线、关联原文）与 `/timeline`（两区块）、`/api/entity`、`/api/timeline`；导航加「时间线」 |
+| **原搜索零改动** | 用 `git show HEAD:webui/app.py` 在 8766 端口跑旧版逐字对比：3 组 `/api/search` 输出完全一致，`<section class="results">` 13,693 字符完全一致；`git diff` 涉及 `result-card` 的行 0 行 |
+
+关系置信度同样不统一：NPC 语音、角色叙述、编校判断分别标 `likely`，
+「教令院推行虚空」用 `operated_by` 而非 `created_by`（原文未直述发明者）——
+按「先有证据，再写结论」不把推测写成定论。
+`audit_corpus.py --strict` 仍 ERROR 0，`integrity_check` ok，正文层 7,734 / 453,939 未变。
 
 ### 第 10 步 · P2 第一批知识层种子（2026-11-05）
 
@@ -29,8 +49,8 @@
 `speculative`（雷电影与雷电将军人偶须区分，编校判断）、`disputed`（芙宁娜是水神，剧情后被推翻）。
 这是「矛盾是数据，不是错误」的示范，也避免把角色的一句话包装成定论。
 
-**刻意没做**：没自动生成全量知识图谱，没动 `entity_relations` / `timeline_entries`，
-没把种子拆成正式实体 Markdown。等这批卡片人工校对、确认方向后再铺。
+**刻意没做（当轮）**：没自动生成全量知识图谱，没动 `entity_relations` / `timeline_entries`，
+没把种子拆成正式实体 Markdown。等这批卡片人工校对、确认方向后再铺 —— 已于第 11 步完成。
 报告 `exports/obc-evaluation/knowledge-seed-report.md`。
 
 ### 第 9 步 · P1 让筛选真的可用（2026-11-05）
@@ -252,7 +272,7 @@ PRAGMA integrity_check：ok
 | 成就 | 1,626 | 1,558 条入 `manifests/achievements.csv`（不进正文层） |
 | 官方公告 | 82 | 55 篇已归档 `corpus/notices/`；27 条见 `notice-skip.csv` |
 | NPC 对话/逸闻/彩蛋 | 2,525 | 2,401 篇已归档 `corpus/voices/`；124 条见 `npc-skip.csv` |
-| 知识层 | — | entities / relations / claims / timeline 全为 0 |
+| 知识层 | — | 30 实体 / 59 别名 / 43 关系 / 10 说法 / 8 纪年事件 / 61 条时间线；`knowledge/` 下 50 份正式卡片 |
 
 当前数据库：
 
@@ -535,10 +555,11 @@ manifests/
 | 漫画 | 未统计 | 未做 |
 | PV / 过场动画文本 | 未统计 | 未做 |
 | 七圣召唤牌面文本 | 未统计 | 未做（角色彩蛋里的七圣召唤**对话**已收） |
-| 知识层 | — | 0 |
+| 知识层 | — | partial（30 实体 / 43 关系 / 10 说法 / 61 时间线，见第 10–11 步） |
 
-> 剩下的是跨媒介内容（漫画、PV）与知识层：实体、关系、claims、时间线仍全为 0。
-> 官方公告与 NPC 对话本轮已接入；游戏内公告 API 只给当前窗口 29 条，
+> 剩下的是跨媒介内容（漫画、PV、七圣召唤牌面文本）与知识层扩量：
+> 实体目前 30 个（目标 50），claims 10 条（目标 20），关系尚未逐实体达标。
+> 官方公告与 NPC 对话已接入；游戏内公告 API 只给当前窗口 29 条，
 > 历史的版本说明靠米游社官方帖补齐，没有把运营公告硬塞进正文层。
 
 ### 5.2 任务尾巴
@@ -589,7 +610,8 @@ manifests/
 - `interludes = done`（4 条已归类）
 - `main_story / story_quests / world_quests / event_quests = partial`
 - `official_notices = done`、`npc_dialogue = done`、`character_voices = done`（NPC/逸闻/彩蛋对话）
-- 其余 `planned`（漫画、PV、七圣召唤牌面、知识层）
+- `entities / relations / claims / timeline = partial`（两批种子，待扩量）
+- 其余 `planned`（漫画、PV、七圣召唤牌面）
 
 ---
 
@@ -714,21 +736,25 @@ manifests/
 - **材料/食物/动物/道具** 2,622 条，归档 `corpus/items/`；
 - **观景点** 264 条，归档 `corpus/geography/`；**区域** 71 个做成 `manifests/regions.csv`。
 
+已完成（第 6 步）：
+
+- **官方公告** 55 篇 → `corpus/notices/`（53 篇版本更新说明覆盖 1.1→7.2 无断档）；
+- **NPC 对话 / 逸闻 / 彩蛋** 2,401 篇 → `corpus/voices/`。
+
 未做：
 
-- 官方公告（版本/活动时间线的好来源）；
-- 漫画；
-- NPC 对话；
-- 七圣召唤。
+- 漫画、PV / 过场文本；
+- 七圣召唤牌面文本（角色彩蛋里的七圣召唤对话已顺带收录）。
 
-### P4：知识层
+### P4：知识层（两批种子已完成）
 
-- entities；
-- entity_relations；
-- claims；
-- events / timeline。
+- `entities` 30 / `entity_names` 59 / `entity_relations` 43 / `claims` 10；
+- `events` 8 / `event_sources` 8 / `timeline_entries` 61（53 现实版本 + 8 提瓦特纪年）；
+- 权威源是 `knowledge/seed.yaml` + `seed-stage2.yaml`，`knowledge/**/*.md` 是导出的阅读视图，
+  SQLite 是查询层；改结论改 seed 后重跑 `load_knowledge.py --apply` 与 `export_entity_cards.py --apply`。
 
-建议在武器/圣遗物入库后，先起 `entities` 的**人物、地区、组织**三张核心表，而不是等全量文本做完。
+下一步扩量建议：先把实体从 30 扩到 50–80、给争议说法补「不同来源」对照，
+再考虑 `document_links` / `document_aliases` 两张仍为 0 的表；**不要自动生成全量图谱**。
 
 ---
 

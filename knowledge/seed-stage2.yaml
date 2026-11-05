@@ -1,0 +1,383 @@
+# 第二批知识层种子 · 关系 / 时间线（2026-11-05）
+# 第一批 seed.yaml（30 实体 + 10 说法）已人工校对通过，本文件只补关系与时间线，不改第一批结论。
+# 规则见 knowledge/README.md §3 §4 §8：
+#   - 证据只写 doc_id + 短引用，section_id 由 scripts/load_knowledge.py 现场解析；
+#   - 现实版本上线日期与提瓦特纪年严格分开，不互相换算；
+#   - 提瓦特纪年只有相对顺序，没有绝对年份时绝不伪造年份；
+#   - 角色台词、传闻、编校判断分别标 likely / speculative，不冒充 confirmed。
+version: 1
+batch: 2026-11-05-stage2
+status: draft
+
+# ---------------------------------------------------------------------------
+# 1. 关系：稳定、可复用的断言。争议性说法仍留在 claims，不搬到这里。
+#    predicate 用小写下划线；object 可以指向实体，也可以是原文里的字面值。
+# ---------------------------------------------------------------------------
+relations:
+  - id: 2001
+    subject: entity.venti
+    predicate: deity_of
+    object_id: entity.mondstadt
+    confidence: confirmed
+    spoiler: 1
+    doc: quest.obc.4691
+    quote: "不是不是！他是蒙德的风神，是吟游诗人哦。"
+
+  - id: 2002
+    subject: entity.zhongli
+    predicate: deity_of
+    object_id: entity.liyue
+    confidence: confirmed
+    spoiler: 2
+    doc: voice.obc.1258
+    quote: "听说过摩拉克斯大人吗，那位守护着璃月的神明？"
+
+  - id: 2003
+    subject: entity.nahida
+    predicate: deity_of
+    object_id: entity.sumeru
+    confidence: confirmed
+    spoiler: 2
+    doc: quest.obc.6044
+    quote: "小吉祥草王…现任草神，居然还活跃在须弥？"
+
+  - id: 2004
+    subject: entity.raiden-ei
+    predicate: deity_of
+    object_id: entity.inazuma
+    confidence: likely
+    spoiler: 1
+    doc: voice.obc.2484
+    quote: "「鸣神大社」是稻妻供奉和祭祀的场所，一切以雷神大人的意志为上。"
+    notes: NPC 语音描述的是鸣神大社与雷神意志，未直述「雷神治理稻妻」，故标 likely。
+
+  - id: 2005
+    subject: entity.tsaritsa
+    predicate: deity_of
+    object_id: entity.snezhnaya
+    confidence: confirmed
+    spoiler: 1
+    doc: char.obc.509225
+    quote: "人类内部的威胁，则是至冬国的神灵，冰之女皇的野心。"
+
+  - id: 2006
+    subject: entity.tartaglia
+    predicate: member_of
+    object_id: entity.fatui
+    confidence: confirmed
+    spoiler: 1
+    doc: char.obc.1220
+    quote: "那是日后成为愚人众执行官的「公子」，也无法再次探知底细的黑暗。"
+
+  - id: 2007
+    subject: entity.fatui
+    predicate: subordinate_to
+    object_id: entity.tsaritsa
+    confidence: confirmed
+    spoiler: 1
+    doc: quest.obc.1250
+    quote: "作为愚人众的十一执行官，必须贯彻冰之女皇的意旨。"
+
+  - id: 2008
+    subject: entity.zhongli
+    predicate: member_of
+    object_id: entity.wangsheng-funeral-parlor
+    confidence: confirmed
+    spoiler: 1
+    doc: quest.obc.6066
+    quote: "我是钟离，现于往生堂就职，很高兴能认识您这位新朋友。"
+
+  - id: 2009
+    subject: entity.akasha
+    predicate: operated_by
+    object_id: entity.akademiya
+    confidence: confirmed
+    spoiler: 2
+    doc: quest.obc.508783
+    quote: "教令院称虚空为有史以来最强大完美的智慧辅助系统"
+    notes: 用 operated_by 而非 created_by：原文只说明教令院推行与使用，未直述发明者。
+
+  - id: 2010
+    subject: entity.akasha
+    predicate: legacy_of
+    object_id: entity.rukkhadevata
+    confidence: likely
+    spoiler: 2
+    doc: voice.obc.6302
+    quote: "虚空是大慈树王大人留给我们的智慧宝库。"
+    notes: NPC 语音中的说法，故标 likely。
+
+  - id: 2011
+    subject: entity.rukkhadevata
+    predicate: manifestation_of
+    object_id: entity.irminsul
+    confidence: confirmed
+    spoiler: 3
+    doc: quest.obc.5778
+    quote: "作为大慈树王，我是世界树的化身，而你则是世界树上折下的最纯净的枝杈。"
+
+  - id: 2012
+    subject: entity.dvalin
+    predicate: guardian_of
+    object_id: entity.mondstadt
+    confidence: confirmed
+    spoiler: 2
+    doc: quest.obc.533
+    quote: "原来是「四风守护」之一的特瓦林大人啊…蒙德人不该忘记他旧日的自我牺牲。"
+
+  - id: 2013
+    subject: entity.dainsleif
+    predicate: origin_of
+    object_id: entity.khaenriah
+    confidence: confirmed
+    spoiler: 2
+    doc: quest.obc.507019
+    quote: "我叫戴因斯雷布，确实是坎瑞亚人。"
+
+  - id: 2014
+    subject: entity.paimon
+    predicate: companion_of
+    object_id: entity.traveler
+    confidence: confirmed
+    spoiler: 0
+    doc: quest.obc.506587
+    quote: "旅行者和派蒙，对吧？欢迎你们来到希汐岛。"
+
+  - id: 2015
+    subject: entity.wanderer
+    predicate: created_by
+    object_id: entity.raiden-ei
+    confidence: confirmed
+    spoiler: 3
+    doc: quest.obc.5794
+    quote: "他是雷神的造物，以人偶之身流落人间"
+
+  - id: 2016
+    subject: entity.seven-archons
+    predicate: has
+    object_id: entity.gnosis
+    confidence: likely
+    spoiler: 2
+    doc: quest.obc.3531
+    quote: "归七神所有，与天空岛相连的「神之心」！"
+    notes: 原文说「七神」，与规范名「尘世七执政」是同义换称（见 claim 1006），故标 likely。
+
+  - id: 2017
+    subject: entity.gnosis
+    predicate: symbol_of
+    object_literal: 七神之座
+    confidence: confirmed
+    spoiler: 1
+    doc: quest.obc.533
+    quote: "是更高位的元素控制中枢，是七神之座的象征"
+
+  - id: 2018
+    subject: entity.abyss-order
+    predicate: origin_of
+    object_id: entity.khaenriah
+    confidence: likely
+    spoiler: 3
+    doc: quest.obc.2247
+    quote: "深渊教团的怪物，就是坎瑞亚灭国时的人民…扭曲成的怪物。"
+    notes: 角色叙述而非旁白定论，故标 likely；「 prince／公主统领」另有 disputed 说法见 claim 1009。
+
+  - id: 2019
+    subject: entity.knights-of-favonius
+    predicate: located_in
+    object_id: entity.mondstadt
+    confidence: confirmed
+    spoiler: 0
+    doc: quest.obc.399
+    quote: "西风骑士团代理团长——琴。蒙德的守护者。"
+
+  - id: 2020
+    subject: entity.akademiya
+    predicate: located_in
+    object_id: entity.sumeru
+    confidence: confirmed
+    spoiler: 0
+    doc: char.obc.92
+    quote: "据说她是须弥教令院两百年一遇的天才魔女。"
+
+  - id: 2021
+    subject: entity.wangsheng-funeral-parlor
+    predicate: located_in
+    object_id: entity.liyue
+    confidence: confirmed
+    spoiler: 0
+    doc: char.obc.1627
+    quote: "而璃月「往生堂」，堪称人生画卷的终笔者。"
+
+  - id: 2022
+    subject: entity.diluc
+    predicate: located_in
+    object_id: entity.mondstadt
+    confidence: confirmed
+    spoiler: 1
+    doc: char.obc.75
+    quote: "作为蒙德最大酒庄「晨曦酒庄」的庄主，迪卢克老爷却总是滴酒不沾。"
+
+  - id: 2023
+    subject: entity.irminsul
+    predicate: nearest_to
+    object_id: entity.sumeru
+    confidence: confirmed
+    spoiler: 2
+    doc: quest.obc.508722
+    quote: "世界树是提瓦特地脉的根基，而须弥是距离世界树最近的国家。"
+
+  - id: 2024
+    subject: entity.fatui
+    predicate: based_in
+    object_id: entity.snezhnaya
+    confidence: confirmed
+    spoiler: 0
+    doc: quest.obc.509511
+    quote: "至冬向来有优待愚人众部队成员和其家属的传统。"
+
+  - id: 2025
+    subject: entity.dvalin
+    predicate: member_of
+    object_literal: 四风守护
+    confidence: confirmed
+    spoiler: 2
+    doc: quest.obc.592
+    quote: "四风守护中的东风之龙，特瓦林，我一直想象不到它背叛的原因。"
+
+  - id: 2026
+    subject: entity.vision
+    predicate: granted_by
+    object_literal: 受神认可者
+    confidence: likely
+    spoiler: 1
+    doc: quest.obc.1250
+    quote: "这就是「神之眼」，受神认可者所获的外置魔力器官，用以引导元素之力。"
+    notes: 与 claim 1007 同源但角度不同；角色解释性台词，标 likely。
+
+# ---------------------------------------------------------------------------
+# 2. 现实版本上线时间线：不手写 53 条，直接从 corpus 的官方版本更新说明生成。
+#    这是「官方公告日期」，不是提瓦特纪年；era=release 与下面 era=teyvat 严格分开。
+# ---------------------------------------------------------------------------
+release_timeline:
+  era: release
+  certainty: exact
+  source: "documents where doc_type='notice' and title like '%更新说明%'"
+  note: 现实世界的版本上线日期，取自米游社官方版本更新说明；与游戏内提瓦特纪年无关，不可互相换算。
+
+# ---------------------------------------------------------------------------
+# 3. 提瓦特纪年事件：只有相对顺序，没有可信绝对年份时一律不填 absolute_year。
+#    sort_key 为负数只表示先后，不代表任何年代数值。
+#    entities 会生成 predicate=involved_in 的关系，让实体详情页能反查时间线。
+# ---------------------------------------------------------------------------
+events:
+  - id: event.archon-war
+    name: 魔神战争
+    event_type: 战争
+    time_certainty: approximate
+    relative_time: "约两千六百年前（原文为角色文本中的约数，不作精确年份）"
+    sort_key: -80
+    label: 魔神战争 · 七神体系建立之前
+    certainty: approximate
+    description: 七神体系建立前的战争，战败魔神留下残渣。
+    spoiler: 1
+    doc: char.obc.57
+    quote: "大约两千六百年前，魔神战争尚未结束，尘世尚未划归七神所有。"
+    entities: [entity.seven-archons]
+
+  - id: event.seven-archons-established
+    name: 尘世七执政体系建立
+    event_type: 秩序建立
+    time_certainty: relative
+    relative_time: 魔神战争结束之后
+    sort_key: -70
+    label: 七执政体系建立
+    certainty: relative
+    description: 七枚神之心被用来巩固七执政体系。
+    spoiler: 2
+    doc: quest.obc.509101
+    quote: "天理用第三降临者的遗骨造了七枚神之心，用来巩固其建立的七执政体系。"
+    entities: [entity.seven-archons, entity.gnosis]
+
+  - id: event.khaenriah-cataclysm
+    name: 坎瑞亚灾变
+    event_type: 灾变
+    time_certainty: approximate
+    relative_time: 距今约五百年（原文约数）
+    sort_key: -50
+    label: 坎瑞亚灾变
+    certainty: approximate
+    description: 坎瑞亚被众神覆灭，是深渊教团与遗迹守卫等线索的共同起点。
+    spoiler: 2
+    doc: quest.obc.2247
+    quote: "五百年前，是众神一同降临，覆灭了坎瑞亚。"
+    entities: [entity.khaenriah, entity.dainsleif]
+
+  - id: event.abyss-order-formation
+    name: 深渊教团形成
+    event_type: 组织形成
+    time_certainty: relative
+    relative_time: 坎瑞亚灾变之后
+    sort_key: -45
+    label: 深渊教团出现
+    certainty: relative
+    description: 坎瑞亚灭国时的民众扭曲为深渊教团的怪物。
+    spoiler: 3
+    doc: quest.obc.2247
+    quote: "深渊教团的怪物，就是坎瑞亚灭国时的人民…扭曲成的怪物。"
+    entities: [entity.abyss-order, entity.khaenriah]
+
+  - id: event.dvalin-corruption
+    name: 风魔龙被腐化
+    event_type: 事件
+    time_certainty: relative
+    relative_time: 主线蒙德篇之前
+    sort_key: -12
+    label: 东风之龙被深渊教团腐化
+    certainty: relative
+    description: 四风守护中的东风之龙特瓦林被深渊教团腐化。
+    spoiler: 2
+    doc: char.obc.509225
+    quote: "深渊教团腐化了风神的眷属——蒙德 「四风守护」中的东风之龙。"
+    entities: [entity.dvalin, entity.abyss-order, entity.mondstadt]
+
+  - id: event.inazuma-sakoku
+    name: 稻妻锁国
+    event_type: 政令
+    time_certainty: relative
+    relative_time: 主线稻妻篇期间解除
+    sort_key: -8
+    label: 稻妻锁国令解除
+    certainty: relative
+    description: 稻妻曾长期锁国，主线期间锁国令解除。
+    spoiler: 1
+    doc: quest.obc.4121
+    quote: "稻妻锁国令最近解除了，这事你们知道吗？"
+    entities: [entity.inazuma]
+
+  - id: event.irminsul-purification
+    name: 世界树清除禁忌知识
+    event_type: 事件
+    time_certainty: relative
+    relative_time: 主线须弥篇
+    sort_key: -4
+    label: 世界树清除禁忌知识
+    certainty: relative
+    description: 禁忌知识从世界树中被清除，与须弥民众的记忆和梦境直接相关。
+    spoiler: 3
+    doc: quest.obc.5778
+    quote: "多亏了须弥子民的智慧，禁忌知识几乎全部从世界树中被清除掉了。"
+    entities: [entity.irminsul, entity.sumeru, entity.nahida]
+
+  - id: event.rukkhadevata-erasure
+    name: 大慈树王的告别
+    event_type: 事件
+    time_certainty: relative
+    relative_time: 主线须弥篇 · 世界树修复前后
+    sort_key: -3
+    label: 大慈树王与世界树
+    certainty: relative
+    description: 大慈树王自称世界树化身，纳西妲被比作世界树折下的枝杈；该段剧情伴随从记忆中被抹去。
+    spoiler: 3
+    doc: quest.obc.5778
+    quote: "作为大慈树王，我是世界树的化身，而你则是世界树上折下的最纯净的枝杈。"
+    entities: [entity.rukkhadevata, entity.nahida, entity.irminsul]

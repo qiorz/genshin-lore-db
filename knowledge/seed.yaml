@@ -1,9 +1,11 @@
-# 第一批知识层种子 · 供人工校对，不是最终结论
+# 第一批知识层种子 · 2026-11-05 已人工校对通过（status: reviewed）
 # 规则见 knowledge/README.md §8。证据只写 doc_id + 短引用，section_id 由灌库脚本现场解析。
 # 所有 quote 都取自 corpus/ 里真实存在的台词/旁白，未作改写。
+# 校对结论：30 个实体、29 个别名、10 条说法及各自的置信度标注方向正确；
+# 追加内容一律放 seed-stage2.yaml，本文件作为第一批的冻结记录。
 version: 1
 batch: 2026-11-05-seed-01
-status: draft
+status: reviewed
 
 entities:
   - id: entity.venti

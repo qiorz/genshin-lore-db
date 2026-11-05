@@ -150,6 +150,20 @@ CONFIDENCE_LABELS = {
     "confirmed": "已确认", "likely": "较可信", "speculative": "推测",
     "disputed": "有争议", "unreliable": "不可靠",
 }
+PREDICATE_LABELS = {
+    "deity_of": "神明／统御", "member_of": "成员所属",
+    "subordinate_to": "效忠于", "operated_by": "由…运营",
+    "legacy_of": "继承自", "manifestation_of": "化身／体现",
+    "guardian_of": "守护", "origin_of": "出身自",
+    "companion_of": "同行者", "created_by": "由…创造",
+    "has": "拥有", "symbol_of": "象征", "located_in": "位于",
+    "nearest_to": "最接近", "based_in": "根据地在",
+    "granted_by": "授予对象", "involved_in": "涉及事件",
+}
+CERTAINTY_LABELS = {
+    "exact": "确切", "approximate": "约数", "relative": "仅相对顺序",
+    "unknown": "未知",
+}
 
 
 def find_entities(con: sqlite3.Connection, query: str, limit: int = 50) -> list[sqlite3.Row]:
@@ -179,6 +193,54 @@ def entity_claims(con: sqlite3.Connection, entity_id: str) -> list[sqlite3.Row]:
            LEFT JOIN documents d ON d.doc_id = c.doc_id
            WHERE c.subject_id = ? ORDER BY c.claim_id""",
         (entity_id,),
+    ).fetchall()
+
+
+def entity_relation_rows(con: sqlite3.Connection, entity_id: str) -> tuple[list, list]:
+    """出边（本实体 → 其它）与入边（其它 → 本实体），事件参与关系单独展示。"""
+    outgoing = con.execute(
+        """SELECT r.*, e.canonical_name AS object_name, d.title AS doc_title
+           FROM entity_relations r
+           LEFT JOIN entities e ON e.entity_id = r.object_id
+           LEFT JOIN documents d ON d.doc_id = r.doc_id
+           WHERE r.subject_id=? AND r.predicate<>'involved_in'
+           ORDER BY r.relation_id""",
+        (entity_id,),
+    ).fetchall()
+    incoming = con.execute(
+        """SELECT r.*, e.canonical_name AS subject_name, d.title AS doc_title
+           FROM entity_relations r
+           JOIN entities e ON e.entity_id = r.subject_id
+           LEFT JOIN documents d ON d.doc_id = r.doc_id
+           WHERE r.object_id=? AND r.predicate<>'involved_in'
+           ORDER BY r.relation_id""",
+        (entity_id,),
+    ).fetchall()
+    return outgoing, incoming
+
+
+def entity_timeline_rows(con: sqlite3.Connection, entity_id: str) -> list[sqlite3.Row]:
+    """通过 predicate=involved_in 的 object_literal（event_id）反查时间线条目。"""
+    return con.execute(
+        """SELECT DISTINCT t.entry_id, t.label, t.relative_time, t.era,
+                  t.certainty, t.doc_id, t.sort_key, d.title AS doc_title
+           FROM entity_relations r
+           JOIN timeline_entries t ON t.event_id = r.object_literal
+           LEFT JOIN documents d ON d.doc_id = t.doc_id
+           WHERE r.subject_id=? AND r.predicate='involved_in'
+           ORDER BY t.era DESC, t.sort_key""",
+        (entity_id,),
+    ).fetchall()
+
+
+def timeline_rows(con: sqlite3.Connection, era: str) -> list[sqlite3.Row]:
+    return con.execute(
+        """SELECT t.*, d.title AS doc_title, e.name AS event_name
+           FROM timeline_entries t
+           LEFT JOIN documents d ON d.doc_id = t.doc_id
+           LEFT JOIN events e ON e.event_id = t.event_id
+           WHERE t.era=? ORDER BY t.sort_key, t.entry_id""",
+        (era,),
     ).fetchall()
 
 
@@ -379,6 +441,7 @@ def layout(title: str, content: str, active: str = "") -> str:
         ("/search?type=lore", "散落文本", "lore"),
         ("/search?type=character", "角色", "character"),
         ("/entities", "实体卡片", "entities"),
+        ("/timeline", "时间线", "timeline"),
         ("/about", "关于", "about"),
     ]
     links = "".join(
@@ -654,6 +717,8 @@ def render_entities(args: dict[str, list[str]]) -> str:
         for row in rows:
             names = entity_names(con, row["entity_id"])
             claims = entity_claims(con, row["entity_id"])
+            outgoing, incoming = entity_relation_rows(con, row["entity_id"])
+            tl_rows = entity_timeline_rows(con, row["entity_id"])
             alias_html = "".join(f'<span class="alias">{esc(n)}</span>' for n in names)
             claim_items = []
             for c in claims:
@@ -668,11 +733,14 @@ def render_entities(args: dict[str, list[str]]) -> str:
             cards.append(f"""
             <article class="entity-card">
               <div class="entity-head">
-                <h2>{esc(row['canonical_name'])}</h2>
+                <h2><a href="/entity/{quote(row['entity_id'], safe='')}">{esc(row['canonical_name'])}</a></h2>
                 <span class="entity-kind">{esc(ENTITY_TYPE_LABELS.get(row['entity_type'], row['entity_type']))}</span>
               </div>
               <p class="entity-desc">{esc(row['description'] or '')}</p>
               <div class="aliases">{alias_html or '<span class="none">暂无别名</span>'}</div>
+              <p class="entity-meta">关系 {len(outgoing) + len(incoming)} 条 · 说法 {len(claims)} 条 ·
+                相关时间线 {len(tl_rows)} 条 ·
+                <a href="/entity/{quote(row['entity_id'], safe='')}">查看详情 →</a></p>
               <h3>带出处的说法（{len(claims)}）</h3>
               <ul class="claim-list">{''.join(claim_items) or '<li class="none">暂无</li>'}</ul>
             </article>""")
@@ -687,12 +755,186 @@ def render_entities(args: dict[str, list[str]]) -> str:
         <input type="search" name="q" value="{esc(q)}" placeholder="搜名字或别名，如 巴巴托斯 / 岩王帝君" autofocus>
         <button type="submit">查找</button>
       </form>
-      <div class="stats-line">第一批种子 30 个实体 · 10 条说法 · 全部挂 corpus 段落出处 ·
-        <a href="/">回到原文检索</a></div>
+      <div class="stats-line">第一批种子 30 个实体 · 43 条关系 · 10 条说法 ·
+        61 条时间线（53 现实版本 + 8 提瓦特纪年）· 全部挂 corpus 段落出处 ·
+        <a href="/timeline">时间线</a> · <a href="/">回到原文检索</a></div>
     </section>
     <section class="entity-list">{''.join(cards) or '<div class="empty">没有匹配的实体。</div>'}</section>
     """
     return layout("实体卡片", content, "entities")
+
+
+def render_entity_detail(entity_id: str) -> str | None:
+    con = connect()
+    try:
+        row = con.execute(
+            "SELECT * FROM entities WHERE entity_id=?", (entity_id,)
+        ).fetchone()
+        if not row:
+            return None
+        names = entity_names(con, entity_id)
+        claims = entity_claims(con, entity_id)
+        outgoing, incoming = entity_relation_rows(con, entity_id)
+        tl_rows = entity_timeline_rows(con, entity_id)
+    finally:
+        con.close()
+
+    def rel_items(rows, direction: str) -> str:
+        items = []
+        for r in rows:
+            obj = (r["object_name"] or r["object_literal"] or "") if direction == "out" \
+                else (r["subject_name"] or "")
+            label = PREDICATE_LABELS.get(r["predicate"], r["predicate"])
+            conf = CONFIDENCE_LABELS.get(r["confidence"], r["confidence"])
+            link = (f'<a href="/doc/{quote(r["doc_id"], safe="")}">'
+                    f'{esc(r["doc_title"] or r["doc_id"])}</a>') if r["doc_id"] else "—"
+            arrow = f"本实体 —{esc(label)}→ {esc(obj)}" if direction == "out" \
+                else f"{esc(obj)} —{esc(label)}→ 本实体"
+            items.append(f'<li><span class="claim-text">{arrow}</span>'
+                         f'<span class="claim-tags">{esc(conf)}</span>'
+                         f'<span class="claim-src">出处：{link}</span></li>')
+        return "".join(items) or '<li class="none">暂无</li>'
+
+    claim_items = []
+    for c in claims:
+        link = (f'<a href="/doc/{quote(c["doc_id"], safe="")}">'
+                f'{esc(c["doc_title"] or c["doc_id"])}</a>') if c["doc_id"] else "—"
+        claim_items.append(
+            f'<li><span class="claim-text">{esc(c["statement"])}</span>'
+            f'<span class="claim-tags">{esc(CONFIDENCE_LABELS.get(c["confidence"], c["confidence"]))}'
+            f' · {esc(c["status"])}</span>'
+            f'<span class="claim-src">{esc(c["perspective"] or "未标视角")} · 出处：{link}</span></li>'
+        )
+
+    tl_items = []
+    for t in tl_rows:
+        link = (f'<a href="/doc/{quote(t["doc_id"], safe="")}">'
+                f'{esc(t["doc_title"] or t["doc_id"])}</a>') if t["doc_id"] else "—"
+        tl_items.append(
+            f'<li><span class="claim-text">{esc(t["label"])}</span>'
+            f'<span class="claim-tags">{esc("现实版本" if t["era"] == "release" else "提瓦特纪年")}'
+            f' · {esc(CERTAINTY_LABELS.get(t["certainty"], t["certainty"]))}</span>'
+            f'<span class="claim-src">{esc(t["relative_time"] or "—")} · 出处：{link}</span></li>'
+        )
+
+    docs = sorted({r["doc_id"] for r in list(outgoing) + list(incoming) + list(claims)
+                   if r["doc_id"]})
+    doc_links = "".join(
+        f'<li><a href="/doc/{quote(d, safe="")}">{esc(d)}</a></li>' for d in docs
+    ) or '<li class="none">暂无</li>'
+
+    alias_html = "".join(f'<span class="alias">{esc(n)}</span>' for n in names) \
+        or '<span class="none">暂无别名</span>'
+    content = f"""
+    <section class="hero">
+      <div class="hero-kicker">KNOWLEDGE LAYER · ENTITY</div>
+      <h1>{esc(row['canonical_name'])}</h1>
+      <p>{esc(row['description'] or '')}</p>
+      <div class="stats-line">
+        {esc(ENTITY_TYPE_LABELS.get(row['entity_type'], row['entity_type']))} ·
+        剧透等级 {row['spoiler_level']} · status {esc(row['status'])} ·
+        <a href="/entities">全部实体</a> · <a href="/timeline">时间线</a> ·
+        <a href="/">回到原文检索</a>
+      </div>
+    </section>
+    <div class="detail-grid">
+      <article class="detail-card">
+        <h2>别名（{len(names)}）</h2>
+        <div class="aliases">{alias_html}</div>
+        <p class="detail-note">搜任何一个别名都能找到这张卡；别名只指向卡片，不改写原文。</p>
+      </article>
+      <article class="detail-card">
+        <h2>关联原文（{len(docs)}）</h2>
+        <ul class="detail-docs">{doc_links}</ul>
+        <p class="detail-note">点进去看原文那一句，知识层只是索引。</p>
+      </article>
+    </div>
+    <article class="detail-card wide">
+      <h2>关系（{len(outgoing) + len(incoming)}）</h2>
+      <h3>本实体指向</h3>
+      <ul class="claim-list">{rel_items(outgoing, 'out')}</ul>
+      <h3>其它实体指向本实体</h3>
+      <ul class="claim-list">{rel_items(incoming, 'in')}</ul>
+      <p class="detail-note">关系只收稳定可复用的断言；有视角、有争议的说法放在下面，不混成定论。</p>
+    </article>
+    <article class="detail-card wide">
+      <h2>说法与置信度（{len(claims)}）</h2>
+      <ul class="claim-list">{''.join(claim_items) or '<li class="none">暂无</li>'}</ul>
+    </article>
+    <article class="detail-card wide">
+      <h2>相关时间线（{len(tl_rows)}）</h2>
+      <ul class="claim-list">{''.join(tl_items) or '<li class="none">暂无</li>'}</ul>
+      <p class="detail-note">现实版本上线日期与提瓦特纪年是两条独立时间线，不互相换算。</p>
+    </article>
+    """
+    return layout(f"实体 · {row['canonical_name']}", content, "entities")
+
+
+def render_timeline(args: dict[str, list[str]]) -> str:
+    era = first(args, "era")
+    if era not in ("release", "teyvat"):
+        era = ""
+    con = connect()
+    try:
+        releases = timeline_rows(con, "release")
+        lore = timeline_rows(con, "teyvat")
+    finally:
+        con.close()
+
+    def table(rows, kind: str) -> str:
+        body = []
+        for r in rows:
+            link = (f'<a href="/doc/{quote(r["doc_id"], safe="")}">'
+                    f'{esc(r["doc_title"] or r["doc_id"])}</a>') if r["doc_id"] else "—"
+            when = r["relative_time"] or "—"
+            cert = CERTAINTY_LABELS.get(r["certainty"], r["certainty"])
+            if kind == "release":
+                version = (r["label"] or "").split(" 版本上线", 1)[0]
+                body.append(f"<tr><td>{esc(version)}</td><td>{esc(when)}</td>"
+                            f"<td>{esc(cert)}</td><td>{link}</td></tr>")
+            else:
+                body.append(f"<tr><td>{esc(r['label'])}</td><td>{esc(when)}</td>"
+                            f"<td>{esc(cert)}</td><td>{link}</td></tr>")
+        head = ("<tr><th>版本</th><th>上线日期</th><th>确定性</th><th>官方说明</th></tr>"
+                if kind == "release" else
+                "<tr><th>事件（按相对先后）</th><th>相对时间</th><th>确定性</th><th>出处</th></tr>")
+        return (f'<table class="timeline-table"><thead>{head}</thead>'
+                f'<tbody>{"".join(body)}</tbody></table>')
+
+    blocks = ""
+    if era != "teyvat":
+        blocks += f"""
+    <section class="era-block">
+      <h2>现实版本上线（{len(releases)}）</h2>
+      <p class="timeline-note">现实世界的官方版本更新说明发布日期，1.1 → 7.2 无断档。
+      这是发布历史，<strong>不是提瓦特纪年</strong>；确定性为「确切」。</p>
+      {table(releases, 'release')}
+    </section>"""
+    if era != "release":
+        blocks += f"""
+    <section class="era-block">
+      <h2>提瓦特纪年（{len(lore)}，只有相对顺序）</h2>
+      <p class="timeline-note">游戏内世界的事件顺序。原文写「约两千六百年前」「五百年前」的，
+      保留约数文字而不伪造绝对年份；排序用的负数只是先后编号，不代表任何年代数值。
+      <strong>与上面的现实版本日期不可换算。</strong></p>
+      {table(lore, 'teyvat')}
+    </section>"""
+
+    content = f"""
+    <section class="hero">
+      <div class="hero-kicker">KNOWLEDGE LAYER · TIMELINE</div>
+      <h1>时间线</h1>
+      <p>两条互不换算的时间线：现实世界的版本上线，与提瓦特世界里的事件先后。</p>
+      <div class="stats-line">
+        <a href="/timeline">全部</a> ·
+        <a href="/timeline?era=release">只看版本上线</a> ·
+        <a href="/timeline?era=teyvat">只看提瓦特纪年</a> ·
+        <a href="/entities">实体卡片</a> · <a href="/">回到原文检索</a>
+      </div>
+    </section>
+    {blocks}
+    """
+    return layout("时间线", content, "timeline")
 
 
 def render_about() -> str:
@@ -768,6 +1010,18 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/entities":
                 self.send_html(render_entities(args))
                 return
+            if path.startswith("/entity/"):
+                page = render_entity_detail(unquote(path[len("/entity/"):]))
+                if page is None:
+                    self.send_html(layout("未找到", '<section class="empty-page"><h1>未找到实体</h1>'
+                                          '<p>这个 entity_id 不在知识层里。</p>'
+                                          '<a href="/entities">返回实体卡片</a></section>'), 404)
+                else:
+                    self.send_html(page)
+                return
+            if path == "/timeline":
+                self.send_html(render_timeline(args))
+                return
             if path == "/about":
                 self.send_html(render_about())
                 return
@@ -788,6 +1042,12 @@ class Handler(BaseHTTPRequestHandler):
                 return
             if path == "/api/entities":
                 self.send_json(self._api_entities(args))
+                return
+            if path == "/api/entity":
+                self.send_json(self._api_entity(args))
+                return
+            if path == "/api/timeline":
+                self.send_json(self._api_timeline(args))
                 return
             if path == "/api/coverage":
                 con = connect()
@@ -830,10 +1090,50 @@ class Handler(BaseHTTPRequestHandler):
                 item = dict(row)
                 item["aliases"] = entity_names(con, row["entity_id"])
                 item["claims"] = [dict(c) for c in entity_claims(con, row["entity_id"])]
+                outgoing, incoming = entity_relation_rows(con, row["entity_id"])
+                item["relations_out"] = [dict(r) for r in outgoing]
+                item["relations_in"] = [dict(r) for r in incoming]
+                item["timeline"] = [dict(t) for t in
+                                    entity_timeline_rows(con, row["entity_id"])]
                 out.append(item)
         finally:
             con.close()
         return {"query": q, "count": len(out), "results": out}
+
+    def _api_entity(self, args: dict[str, list[str]]) -> dict:
+        entity_id = first(args, "id")
+        con = connect()
+        try:
+            row = con.execute(
+                "SELECT * FROM entities WHERE entity_id=?", (entity_id,)
+            ).fetchone()
+            if not row:
+                return {"error": "entity not found", "id": entity_id}
+            item = dict(row)
+            item["aliases"] = entity_names(con, entity_id)
+            item["claims"] = [dict(c) for c in entity_claims(con, entity_id)]
+            outgoing, incoming = entity_relation_rows(con, entity_id)
+            item["relations_out"] = [dict(r) for r in outgoing]
+            item["relations_in"] = [dict(r) for r in incoming]
+            item["timeline"] = [dict(t) for t in entity_timeline_rows(con, entity_id)]
+        finally:
+            con.close()
+        return item
+
+    def _api_timeline(self, args: dict[str, list[str]]) -> dict:
+        era = first(args, "era")
+        con = connect()
+        try:
+            out = {}
+            for key in ("release", "teyvat"):
+                if era and era != key:
+                    continue
+                out[key] = [dict(r) for r in timeline_rows(con, key)]
+        finally:
+            con.close()
+        return {"era": era or "all", "counts": {k: len(v) for k, v in out.items()},
+                "note": "era=release 是现实世界版本上线日期；era=teyvat 是提瓦特纪年，只有相对顺序。两者不可换算。",
+                "eras": out}
 
     def _api_search(self, args: dict[str, list[str]]) -> dict:
         q = first(args, "q")

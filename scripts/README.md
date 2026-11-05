@@ -36,7 +36,8 @@
 | `audit_corpus.py` | **全库体检**：串内容/重复、字段覆盖、corpus↔DB 对账、FTS 完整性 | Python 3.11+ |
 | `enrich_release_versions.py` | 按官方版本更新说明的上线日期区间，给有 `release_date` 无 `version` 的公告推导版本（`official`/`inferred`） | Python 3.11+ |
 | `normalize_version_labels.py` | 把「月之X」/多版本列表/版本区间归一化为 `X.Y`，玩法标签移出 version 字段 | Python 3.11+ |
-| `load_knowledge.py` | 把 `knowledge/seed.yaml` 灌进知识层；证据只用 `doc_id + 短引用` 现场解析 section_id，抗重导 | Python 3.11+ |
+| `load_knowledge.py` | 把 `knowledge/seed.yaml` + `seed-stage2.yaml` 灌进知识层（实体/别名/说法/关系/事件/时间线）；证据只用 `doc_id + 短引用` 现场解析 section_id，抗重导；固定主键幂等 | Python 3.11+ |
+| `export_entity_cards.py` | 把知识层种子导出为 `knowledge/` 下 50 份正式 Markdown 卡片（生成物，不要手改） | Python 3.11+ |
 
 ```powershell
 # Windows PowerShell（当前环境需要 Bypass 执行策略）
@@ -134,6 +135,14 @@ scripts/
 
 ```powershell
 .\tools\python\python.exe .\scripts\audit_corpus.py --strict
+```
+
+知识层改动后（改了 `knowledge/seed*.yaml`）：
+
+```powershell
+.\tools\python\python.exe .\scripts\load_knowledge.py            # 先干跑，证据必须 100% 命中
+.\tools\python\python.exe .\scripts\load_knowledge.py --apply
+.\tools\python\python.exe .\scripts\export_entity_cards.py --apply
 ```
 
 只读，输出到 `exports/obc-evaluation/audit/`：

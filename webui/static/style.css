@@ -211,6 +211,30 @@ main { width: min(1220px, calc(100% - 36px)); margin: 0 auto; padding: 30px 0 70
 .related-entities ul { margin: 12px 0 8px; padding-left: 20px; line-height: 1.9; }
 .related-entities a { color: var(--blue); }
 
+/* 知识层：实体详情与时间线（独立入口，不影响检索结果卡片） */
+.entity-head h2 a { color: var(--ink); text-decoration: none; }
+.entity-head h2 a:hover { color: var(--blue); }
+.entity-meta { margin: 0 0 4px; font-size: 11px; color: var(--dim); line-height: 1.7; }
+.entity-meta a { color: var(--blue); }
+.detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.detail-card { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+.detail-card.wide { margin-bottom: 16px; }
+.detail-card h2 { margin: 0 0 12px; font-size: 15px; }
+.detail-card h3 { margin: 16px 0 6px; font-size: 12px; font-weight: 500; color: var(--dim); }
+.detail-card .aliases { margin-bottom: 10px; }
+.detail-note { margin: 12px 0 0; color: var(--dim); font-size: 11px; line-height: 1.7; }
+.detail-docs { list-style: none; margin: 0; padding: 0; columns: 2; font-size: 11px; line-height: 1.9; }
+.detail-docs a { color: var(--blue); }
+.era-block { margin: 22px 0; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+.era-block h2 { margin: 0 0 8px; font-size: 16px; }
+.timeline-note { margin: 0 0 14px; color: var(--muted); font-size: 12px; line-height: 1.8; }
+.timeline-note strong { color: var(--gold-soft); font-weight: 500; }
+.timeline-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.timeline-table th { text-align: left; color: var(--dim); font-weight: 500; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+.timeline-table td { padding: 8px 10px; border-bottom: 1px solid var(--line-soft); color: var(--ink); line-height: 1.6; }
+.timeline-table tbody tr:hover { background: rgba(127, 180, 232, 0.05); }
+.timeline-table a { color: var(--blue); }
+
 .results-head {
   display: flex;
   align-items: end;
@@ -423,6 +447,8 @@ main { width: min(1220px, calc(100% - 36px)); margin: 0 auto; padding: 30px 0 70
 
 @media (max-width: 900px) {
   .doc-grid { grid-template-columns: 1fr; }
+  .detail-grid { grid-template-columns: 1fr; }
+  .detail-docs { columns: 1; }
   .doc-side { position: static; order: -1; }
   .about-grid { grid-template-columns: repeat(3, 1fr); }
 }

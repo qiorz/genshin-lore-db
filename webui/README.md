@@ -52,12 +52,17 @@ http://127.0.0.1:8765/
 - 剧透筛选已下线：全库仅 10 篇做过 2/3 级分级，不足以支撑筛选；文档页仍显示等级值；
 - 文档页：正文、版本、版本来源/置信度、来源链接、原始 Markdown；
 - 类型页：全部 12 种 `doc_type`（任务 / 书籍 / 散落文本 / 角色 / 武器 / 圣遗物 / 物品 / 地理 / 活动 / NPC 对话 / 官方公告 / 漫画）；
-- **实体卡片**（`/entities`）：知识层的独立入口，按名字或别名找卡片，卡片里列出别名与带出处的说法；
+- **实体卡片**（`/entities`）：知识层的独立入口，按名字或别名找卡片，卡片里列出别名与带出处的说法；点标题进 `/entity/<id>` 看关系出边/入边、说法置信度、相关时间线与关联原文；
+- **时间线**（`/timeline`）：两个独立区块 —— 53 条现实版本上线日期（官方公告，确切）与 8 条提瓦特纪年（只有相对顺序，约数不写成绝对年份），明确标注两者不可换算；
 - 只读：数据库以 `mode=ro` 打开，不写文件。
 
 > **原文检索优先**：`/` 与 `/search` 的结果卡片、高亮、筛选、分页保持原样，
 > 实体卡片是**额外增加**的一层，不替换原文结果。搜索页底部只有一个默认折叠的
 > 「相关实体」提示区。要找原文某一句话，原来的用法完全不变。
+>
+> 每次加知识层入口后都用 `git show HEAD:webui/app.py` 在另一个端口跑旧版做逐字对比：
+> 3 组 `/api/search` 输出完全一致，`<section class="results">` 区块 13,693 字符完全一致，
+> `git diff` 涉及 `result-card` 的行 0 行。导航多一个入口不影响结果样式。
 
 ## 字段覆盖率
 
@@ -97,7 +102,11 @@ webui/
 GET /health
 GET /api/coverage
 GET /api/entities?q=巴巴托斯
+GET /api/entity?id=entity.zhongli
+GET /api/timeline                 # 两条时间线；?era=release / ?era=teyvat 可单取
 GET /entities?q=岩王帝君
+GET /entity/entity.venti
+GET /timeline?era=teyvat
 GET /api/search?q=白之公主&type=book&region=蒙德&spoiler=2&version=1.0
 GET /api/doc/quest.obc.2598
 GET /raw/quest.obc.2598

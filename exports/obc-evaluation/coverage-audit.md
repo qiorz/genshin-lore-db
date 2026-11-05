@@ -53,7 +53,8 @@
 - 待补任务：50/1,101。
 - 书籍：500 只有第一卷全文；1158 版本 unknown。
 - 同文重复组：10 条（lore.obc.501751,lore.obc.501795,lore.obc.501802,lore.obc.501819,lore.obc.501991,lore.obc.501995,lore.obc.502005,lore.obc.502007,lore.obc.504822,lore.obc.507854）、6 条（quest.obc.509536,quest.obc.509816,quest.obc.509871,quest.obc.510015,quest.obc.510061,quest.obc.510076）、5 条（quest.obc.505655,quest.obc.505656,quest.obc.505657,quest.obc.505658,quest.obc.7662）、5 条（char.obc.505497,char.obc.505505,char.obc.505498,char.obc.505496,char.obc.505504）、5 条（char.obc.505501,char.obc.505500,char.obc.505502,char.obc.505503,char.obc.505499）、3 条（quest.obc.529,quest.obc.689,quest.obc.721） 等。
-- 知识层全空：entities / relations / claims / events / timeline_entries 都是 0。
+- 知识层全空（**当时状态**）：entities / relations / claims / events / timeline_entries 都是 0；
+  2026-11-05 已填两批种子，当前数字见 `HANDOFF.md` 与 `exports/obc-evaluation/knowledge-seed-report.md`。
 
 ## 建议顺序
 
