@@ -30,6 +30,11 @@ DB = ROOT / "db" / "genshin_lore.sqlite3"
 ENTRIES = ROOT / "raw" / "official_site" / "obc" / "entries"
 CACHE = ROOT / "raw" / "bwiki" / "quest-transcripts"
 REPORT = ROOT / "exports" / "obc-evaluation" / "bwiki-quest-fill.txt"
+
+# 已人工校对的正文：重跑补全时不要覆盖。
+# quest.obc.5299 的「尾声」曾被子任务名短名错配污染，
+# 现已用观测枢原始快照的「剧情对话」重填，见 scripts/repair_quest_5299_epilogue.py。
+MANUAL_REVIEW = {"quest.obc.5299"}
 sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
 TZ = datetime.now().astimezone().tzinfo
 
@@ -156,7 +161,16 @@ def bwiki_page(session: requests.Session, title: str) -> dict | None:
     chosen = None
     for result in results:
         candidate = result["title"]
-        if wanted and (wanted == norm(candidate) or wanted in norm(candidate)):
+        if not wanted:
+            continue
+        if wanted == norm(candidate):
+            chosen = candidate
+            break
+        # 短名（≤3 字，如「尾声」「序章」「小委托」）禁止子串匹配：
+        # 搜索「尾声」会命中蒙德序章第三幕的「尾声的尾声」，
+        # 曾把整段蒙德剧情写进 3.0 须弥的 quest.obc.5299。
+        # 宁可少补一个子任务，也不能补错。
+        if len(wanted) >= 4 and wanted in norm(candidate):
             chosen = candidate
             break
     # 不能「匹配不到就取第一条」：搜索会返回版本专题页等无关结果，
@@ -206,6 +220,9 @@ def main() -> int:
     filled_paths = []
     filled = 0
     for doc in docs:
+        if doc["doc_id"] in MANUAL_REVIEW:
+            report.append((doc["doc_id"], doc["title"], "skipped: manually reviewed"))
+            continue
         entry_path = ENTRIES / f"{doc['source_page_id']}.json"
         if not entry_path.exists():
             report.append((doc["doc_id"], doc["title"], "no raw"))

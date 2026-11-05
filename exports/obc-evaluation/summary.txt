@@ -2,9 +2,9 @@ DB summary
 ==========
 sources: 9
 documents: 7734
-sections: 458736
-document_revisions: 8403
-ingest_runs: 44
+sections: 458726
+document_revisions: 8404
+ingest_runs: 45
 
 by type
   item: 2622
@@ -54,8 +54,8 @@ quest dialogue
   without_dialogue: 50
 
 recent ingest runs
+  #45 success seen=1 written=1 errors=0
   #44 success seen=2401 written=2401 errors=0
   #43 success seen=55 written=55 errors=0
   #42 success seen=2622 written=2622 errors=0
   #41 success seen=264 written=264 errors=0
-  #40 success seen=47 written=47 errors=0

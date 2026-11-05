@@ -31,6 +31,7 @@
 | `fetch_announcements.py` | 抓米游社官方帖与游戏内公告 API | Python 3.11+ |
 | `render_notices.py` | 官方公告 → `corpus/notices/` | Python 3.11+ |
 | `render_npcs.py` | NPC 对话/逸闻/彩蛋 → `corpus/voices/` | Python 3.11+ |
+| `repair_quest_5299_epilogue.py` | 用 OBC 原始快照重填 5299 的「尾声」，修复 BWiki 短名错配 | Python 3.11+ |
 
 ```powershell
 # Windows PowerShell（当前环境需要 Bypass 执行策略）

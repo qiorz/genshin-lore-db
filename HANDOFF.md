@@ -2,15 +2,27 @@
 
 > 更新时间：2026-11-04  
 > 项目根目录：`D:\harn\2\genshin-lore-db`  
-> 一句话状态：**书籍、任务、散落文本、角色、武器、圣遗物、活动、观景点、材料/食物/动物/道具、官方公告、NPC 对话/逸闻/彩蛋已全部归档进 `corpus/`，共 7,734 篇、458,736 段，可从 Markdown 全量重建；成就只做 CSV。剩下漫画、PV、七圣召唤牌面文本与知识层。**
+> 一句话状态：**书籍、任务、散落文本、角色、武器、圣遗物、活动、观景点、材料/食物/动物/道具、官方公告、NPC 对话/逸闻/彩蛋已全部归档进 `corpus/`，共 7,734 篇、458,726 段，可从 Markdown 全量重建；成就只做 CSV。剩下漫画、PV、七圣召唤牌面文本与知识层。**
 
 ---
 
 ## 0. 变更记录
 
-全部改动都在 2026-11-04：第 0 步把正文收进 `corpus/`，第 1 步收任务尾巴，第 2 步武器与圣遗物，
-第 3 步活动与成就，第 4 步地理，第 5 步材料/食物/动物/道具，第 6 步官方公告与 NPC 对话。
-下面按倒序排列。
+主要改动在 2026-11-04：第 0 步把正文收进 `corpus/`，第 1 步收任务尾巴，第 2 步武器与圣遗物，
+第 3 步活动与成就，第 4 步地理，第 5 步材料/食物/动物/道具，第 6 步官方公告与 NPC 对话；
+2026-11-05 补了 Web UI 启停脚本，并校对了 `quest.obc.5299` 的串内容事故。下面按倒序排列。
+
+### 第 7 步 · 启停脚本与 5299 校对（2026-11-05）
+
+| 动作 | 结果 |
+|---|---|
+| Web UI 启停 | `start.ps1` 改后台常驻（幂等/自检/PID），新增 `stop.ps1` 与两个 `.cmd` 双击入口；`app.py` 加 `--log-file`；提交 `4fa66ee` |
+| **校对 5299** | **第三章 第二幕「千朵玫瑰带来的黎明」的 `## 尾声` 整段是蒙德序章第三幕内容，已用 OBC 原始快照重填** |
+| 根因 | `render_quest` 不认 `collapse_panel` 剧情 → 误判 OBC 无正文 → BWiki 补全时短名「尾声」错配到「尾声的尾声」 |
+| 防再犯 | `fill_quests_from_bwiki.py` 短名（≤3 字）必须精确匹配、加 `MANUAL_REVIEW` 保护；删除错配缓存 |
+| 排查 | 177 篇补全文档全扫，23 组「节标题 ≠ 来源页」，除 5299 外无整篇串入；详见 `exports/obc-evaluation/quest-5299-proofread.md` |
+
+修复后文档 1,201 段 / 38,495 字符；全库 7,734 篇 / 458,726 段 / 13,306,758 字符，`integrity_check` ok。
 
 ### 第 6 步 · 官方公告与 NPC 对话
 
@@ -188,8 +200,8 @@ PRAGMA integrity_check：ok
 
 ```text
 文档：7,734
-段落：458,736
-正文字符：13,306,486
+段落：458,726
+正文字符：13,306,758
 来源：9
 数据库大小：约 345 MB
 ```
@@ -490,6 +502,12 @@ manifests/
 
 ### 5.4 内容质量
 
+- **`quest.obc.5299` 串内容已修复（2026-11-05）**：第三章 第二幕「千朵玫瑰带来的黎明」的
+  `## 尾声` 曾被 BWiki 短名错配填成序章 第三幕「巨龙与自由之歌」的蒙德尾声。
+  已用观测枢原始快照的 `collapse_panel` 剧情对话重填（95 行 / 3,418 字），
+  并修了补全脚本匹配规则。完整证据见 `exports/obc-evaluation/quest-5299-proofread.md`。
+  **遗留**：`render_quest` 至今只认 `interactive_dialogue`，OBC 把剧情放在 `collapse_panel` 的任务
+  仍会被误判为空；另有 11 组零碎错配节待人工核对。
 - **散落文本空白页已修复**：`render_obc.py` 之前只从 `root_id` 起步，遇到「根节点不在 contents 里」的页面会输出空正文。现在改为从无父节点的孤岛起步、按节点 key 时间戳排序。12 篇恢复，最长 4,300 字。
 - **`quest.obc.4190`**：BWiki 补全匹配到错误页面，已回退为空壳；原脚本「匹配不到就取第一条」的回退已删除。
 - **`quest.obc.500835`**：曾被覆盖，已从 `raw/` 重渲染修复。
@@ -502,6 +520,7 @@ manifests/
 - [`exports/obc-evaluation/coverage-audit.md`](exports/obc-evaluation/coverage-audit.md)
 - [`exports/obc-evaluation/crosscheck.md`](exports/obc-evaluation/crosscheck.md)
 - [`exports/obc-evaluation/bwiki-quest-fill.txt`](exports/obc-evaluation/bwiki-quest-fill.txt)
+- [`exports/obc-evaluation/quest-5299-proofread.md`](exports/obc-evaluation/quest-5299-proofread.md)（5299 串内容校对与 177 篇补全文档排查）
 
 覆盖矩阵已更新到 `manifests/coverage.csv`：
 
