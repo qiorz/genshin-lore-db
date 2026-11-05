@@ -867,7 +867,9 @@ def render_entity_detail(entity_id: str) -> str | None:
         if not e["doc_id"]:
             continue
         link = f'<a href="/doc/{quote(e["doc_id"], safe="")}">{esc(e["doc_title"] or e["doc_id"])}</a>'
-        ev_items.append(f'<li><span class="claim-text">「{esc(e["quote"])}」</span>'
+        q = e["quote"] or ""
+        shown = q if q.startswith("「") else f"「{q}」"
+        ev_items.append(f'<li><span class="claim-text">{esc(shown)}</span>'
                         f'<span class="claim-src">出处：{link}</span></li>')
     rest = [d for d in docs if d not in ev_docs]
     titles = {r["doc_id"]: r["doc_title"] for r in
