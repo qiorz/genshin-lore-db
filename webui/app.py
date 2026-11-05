@@ -685,9 +685,17 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8765)
+    parser.add_argument("--log-file", default=None,
+                        help="后台启动时把 stdout/stderr 追加写入该文件")
     args = parser.parse_args()
     if not DB.exists():
         raise SystemExit(f"database not found: {DB}")
+    if args.log_file:
+        log_path = Path(args.log_file)
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+        log = log_path.open("a", encoding="utf-8", buffering=1)
+        sys.stdout = log
+        sys.stderr = log
     server = ThreadingHTTPServer((args.host, args.port), Handler)
     print(f"Genshin Lore UI: http://{args.host}:{args.port}/", flush=True)
     print(f"DB: {DB}", flush=True)

@@ -4,6 +4,8 @@
 *.sql      text eol=lf
 *.py       text eol=lf
 *.ps1      text eol=lf
+*.cmd      text eol=crlf
+*.bat      text eol=crlf
 *.json     text eol=lf
 *.csv      text eol=lf
 *.toml     text eol=lf

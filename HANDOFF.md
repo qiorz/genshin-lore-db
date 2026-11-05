@@ -241,12 +241,18 @@ world 642 · event 288 · story 92 · archon 46 · hangout 19 · interlude 4 · 
 http://127.0.0.1:8765/
 ```
 
-如果服务已停：
+启停（也可以直接双击 `webui/start-webui.cmd` / `webui/stop-webui.cmd`）：
 
 ```powershell
 cd D:\harn\2\genshin-lore-db
-.\webui\start.ps1
+.\webui\start.ps1        # 后台启动，先探 /health，重复执行安全
+.\webui\stop.ps1         # 按端口精确停止，校验身份、不误杀其他 Python
 ```
+
+换端口用 `-Port 8766`（启停都要带）；日志在 `logs/webui-<port>.log`，
+PID 文件 `logs/webui-<port>.pid`，均不进 Git。若终端报「禁止运行脚本」，
+先执行 `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force`。
+细节见 [`webui/README.md`](webui/README.md)。
 
 健康检查：
 

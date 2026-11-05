@@ -2,24 +2,47 @@
 
 本地只读检索界面，直接读 `db/genshin_lore.sqlite3`，不会修改数据库或 Markdown。
 
-启动：
+**最省事：双击这两个文件**
+
+```text
+webui\start-webui.cmd    启动
+webui\stop-webui.cmd     停止
+```
+
+**或在本项目 PowerShell 里**
 
 ```powershell
 cd D:\harn\2\genshin-lore-db
-.\webui\start.ps1
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force   # 仅需一次，只对当前窗口生效
+.\webui\start.ps1                  # 后台启动，写 logs/webui-8765.pid
+.\webui\stop.ps1                   # 精确停止
+.\webui\start.ps1 -Port 8766       # 换端口（停止时也要 .\webui\stop.ps1 -Port 8766）
+.\webui\start.ps1 -Foreground      # 前台运行，Ctrl+C 停止，不写 PID 文件
 ```
 
-或：
-
-```powershell
-.\tools\python\python.exe .\webui\app.py --host 127.0.0.1 --port 8765
-```
+`.cmd` 里已经带了 `-ExecutionPolicy Bypass`，双击不用管执行策略；
+直接在终端跑 `.ps1` 若报「禁止运行脚本」，按上面先设一次进程级策略即可（不改系统设置）。
 
 打开：
 
 ```text
 http://127.0.0.1:8765/
 ```
+
+## 启停脚本怎么工作
+
+| 行为 | 说明 |
+|---|---|
+| 幂等启动 | 先探 `/health`；已在跑就只打印地址和 PID，不会再开第二个进程 |
+| 端口保护 | 端口被别的程序占用且 `/health` 不通时直接报错，建议换端口，不盲目启动 |
+| 精确停止 | 从「端口监听进程 + PID 文件」取候选，**校验进程名是 python、命令行含 `app.py` 且 `--port` 匹配**才停 |
+| 不误杀 | 绝不用 `taskkill /im python.exe`；身份不符会明确「拒绝停止 PID x」并保留该进程 |
+| 兼容手启 | 服务若是手工 `python webui/app.py` 起的、没有 PID 文件，也能按端口找到并停掉 |
+| 日志 / PID | `logs/webui-8765.log`、`logs/webui-8765.pid`；都不进 Git |
+| 启动自检 | 启动后轮询 `/health` 最多 6 秒，失败会打印日志尾部并清理 PID 文件 |
+
+`app.py` 新增了可选的 `--log-file`，后台启动时由它自己把访问日志写进文件；
+前台运行不传该参数，输出照旧打到终端。
 
 ## 功能
 
@@ -33,8 +56,11 @@ http://127.0.0.1:8765/
 
 ```text
 webui/
-├─ app.py          stdlib http.server + sqlite3 + markdown
-├─ start.ps1       启动脚本
+├─ app.py            stdlib http.server + sqlite3 + markdown
+├─ start.ps1         后台启动（幂等、自检、写 PID）
+├─ stop.ps1          精确停止（身份校验、不误杀）
+├─ start-webui.cmd   双击启动入口
+├─ stop-webui.cmd    双击停止入口
 ├─ static/
 │  └─ style.css
 └─ README.md
