@@ -140,6 +140,48 @@ def versions(con: sqlite3.Connection) -> list[str]:
     return sorted(rows, key=key)
 
 
+ENTITY_TYPE_LABELS = {
+    "character": "人物", "deity": "神明", "nation": "国家/地区",
+    "organization": "组织", "location": "地点", "creature": "生物",
+    "concept": "概念", "event": "事件", "item": "物品",
+    "title": "称号", "other": "其他",
+}
+CONFIDENCE_LABELS = {
+    "confirmed": "已确认", "likely": "较可信", "speculative": "推测",
+    "disputed": "有争议", "unreliable": "不可靠",
+}
+
+
+def find_entities(con: sqlite3.Connection, query: str, limit: int = 50) -> list[sqlite3.Row]:
+    if query:
+        return con.execute(
+            """SELECT DISTINCT e.* FROM entities e
+               LEFT JOIN entity_names n ON n.entity_id = e.entity_id
+               WHERE e.canonical_name LIKE ? OR n.name LIKE ?
+               ORDER BY e.spoiler_level, e.canonical_name LIMIT ?""",
+            (f"%{query}%", f"%{query}%", limit),
+        ).fetchall()
+    return con.execute(
+        "SELECT * FROM entities ORDER BY spoiler_level, canonical_name LIMIT ?", (limit,)
+    ).fetchall()
+
+
+def entity_names(con: sqlite3.Connection, entity_id: str) -> list[str]:
+    return [r[0] for r in con.execute(
+        "SELECT name FROM entity_names WHERE entity_id=? AND is_primary=0 ORDER BY name",
+        (entity_id,),
+    )]
+
+
+def entity_claims(con: sqlite3.Connection, entity_id: str) -> list[sqlite3.Row]:
+    return con.execute(
+        """SELECT c.*, d.title AS doc_title FROM claims c
+           LEFT JOIN documents d ON d.doc_id = c.doc_id
+           WHERE c.subject_id = ? ORDER BY c.claim_id""",
+        (entity_id,),
+    ).fetchall()
+
+
 def make_snippet(text: str, query: str, width: int = 180) -> str:
     clean = re.sub(r"\s+", " ", re.sub(r"\*\*|\*", "", text or "")).strip()
     if not clean:
@@ -336,6 +378,7 @@ def layout(title: str, content: str, active: str = "") -> str:
         ("/search?type=quest", "任务", "quest"),
         ("/search?type=lore", "散落文本", "lore"),
         ("/search?type=character", "角色", "character"),
+        ("/entities", "实体卡片", "entities"),
         ("/about", "关于", "about"),
     ]
     links = "".join(
@@ -434,9 +477,26 @@ def render_search(args: dict[str, list[str]]) -> str:
         region_rows = regions(con)
         version_rows = versions(con)
         cov = coverage(con)
+        entity_hits = find_entities(con, q, limit=5) if q else []
         results = search_docs(con, q, type_, region, max_spoiler, version)
     finally:
         con.close()
+
+    # 额外补充区：默认折叠，放在结果列表之后，不改动任何原有结果卡片。
+    related_html = ""
+    if entity_hits:
+        items = "".join(
+            f'<li><a href="/entities?q={quote(row["canonical_name"], safe="")}">'
+            f'{esc(row["canonical_name"])}</a>'
+            f'<span class="entity-kind">{esc(ENTITY_TYPE_LABELS.get(row["entity_type"], row["entity_type"]))}</span></li>'
+            for row in entity_hits
+        )
+        related_html = (
+            f'<details class="related-entities"><summary>相关实体卡片（{len(entity_hits)}）'
+            f' · 补充阅读，不影响上方原文结果</summary>'
+            f'<ul>{items}</ul><p>卡片含别名与带出处的说法；完整列表见 '
+            f'<a href="/entities">实体卡片</a>。</p></details>'
+        )
 
     filter_notice = ""
     active = []
@@ -511,6 +571,7 @@ def render_search(args: dict[str, list[str]]) -> str:
     {filter_notice}
     <section class="results">{''.join(cards)}</section>
     {pager}
+    {related_html}
     """
     return layout("检索", content, "home")
 
@@ -584,6 +645,56 @@ def render_doc(doc_id: str) -> str:
     return layout(title, content, "home")
 
 
+def render_entities(args: dict[str, list[str]]) -> str:
+    q = first(args, "q")
+    con = connect()
+    try:
+        rows = find_entities(con, q, limit=60)
+        cards = []
+        for row in rows:
+            names = entity_names(con, row["entity_id"])
+            claims = entity_claims(con, row["entity_id"])
+            alias_html = "".join(f'<span class="alias">{esc(n)}</span>' for n in names)
+            claim_items = []
+            for c in claims:
+                link = (f'<a href="/doc/{quote(c["doc_id"], safe="")}">'
+                        f'{esc(c["doc_title"] or c["doc_id"])}</a>') if c["doc_id"] else "—"
+                claim_items.append(
+                    f'<li><span class="claim-text">{esc(c["statement"])}</span>'
+                    f'<span class="claim-tags">'
+                    f'{esc(CONFIDENCE_LABELS.get(c["confidence"], c["confidence"]))} · {esc(c["status"])}</span>'
+                    f'<span class="claim-src">出处：{link}</span></li>'
+                )
+            cards.append(f"""
+            <article class="entity-card">
+              <div class="entity-head">
+                <h2>{esc(row['canonical_name'])}</h2>
+                <span class="entity-kind">{esc(ENTITY_TYPE_LABELS.get(row['entity_type'], row['entity_type']))}</span>
+              </div>
+              <p class="entity-desc">{esc(row['description'] or '')}</p>
+              <div class="aliases">{alias_html or '<span class="none">暂无别名</span>'}</div>
+              <h3>带出处的说法（{len(claims)}）</h3>
+              <ul class="claim-list">{''.join(claim_items) or '<li class="none">暂无</li>'}</ul>
+            </article>""")
+    finally:
+        con.close()
+    content = f"""
+    <section class="hero">
+      <div class="hero-kicker">KNOWLEDGE LAYER · SEED</div>
+      <h1>实体卡片</h1>
+      <p>额外的一层：把同一个人物的不同叫法、带出处的说法收在一起。原文检索不受影响。</p>
+      <form class="search-form" action="/entities" method="get">
+        <input type="search" name="q" value="{esc(q)}" placeholder="搜名字或别名，如 巴巴托斯 / 岩王帝君" autofocus>
+        <button type="submit">查找</button>
+      </form>
+      <div class="stats-line">第一批种子 30 个实体 · 10 条说法 · 全部挂 corpus 段落出处 ·
+        <a href="/">回到原文检索</a></div>
+    </section>
+    <section class="entity-list">{''.join(cards) or '<div class="empty">没有匹配的实体。</div>'}</section>
+    """
+    return layout("实体卡片", content, "entities")
+
+
 def render_about() -> str:
     con = connect()
     try:
@@ -654,6 +765,9 @@ class Handler(BaseHTTPRequestHandler):
             if path in ("/", "/search"):
                 self.send_html(render_search(args))
                 return
+            if path == "/entities":
+                self.send_html(render_entities(args))
+                return
             if path == "/about":
                 self.send_html(render_about())
                 return
@@ -671,6 +785,9 @@ class Handler(BaseHTTPRequestHandler):
                 return
             if path.startswith("/raw/"):
                 self.send_raw(path[len("/raw/"):])
+                return
+            if path == "/api/entities":
+                self.send_json(self._api_entities(args))
                 return
             if path == "/api/coverage":
                 con = connect()
@@ -703,6 +820,20 @@ class Handler(BaseHTTPRequestHandler):
             return con.execute("SELECT COUNT(*) FROM documents").fetchone()[0]
         finally:
             con.close()
+
+    def _api_entities(self, args: dict[str, list[str]]) -> dict:
+        q = first(args, "q")
+        con = connect()
+        try:
+            out = []
+            for row in find_entities(con, q, limit=50):
+                item = dict(row)
+                item["aliases"] = entity_names(con, row["entity_id"])
+                item["claims"] = [dict(c) for c in entity_claims(con, row["entity_id"])]
+                out.append(item)
+        finally:
+            con.close()
+        return {"query": q, "count": len(out), "results": out}
 
     def _api_search(self, args: dict[str, list[str]]) -> dict:
         q = first(args, "q")

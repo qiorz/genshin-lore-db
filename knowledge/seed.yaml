@@ -1,0 +1,449 @@
+# 第一批知识层种子 · 供人工校对，不是最终结论
+# 规则见 knowledge/README.md §8。证据只写 doc_id + 短引用，section_id 由灌库脚本现场解析。
+# 所有 quote 都取自 corpus/ 里真实存在的台词/旁白，未作改写。
+version: 1
+batch: 2026-11-05-seed-01
+status: draft
+
+entities:
+  - id: entity.venti
+    type: deity
+    name: 温迪
+    name_en: Venti
+    description: 蒙德的风神，以吟游诗人身份在人间行走。
+    spoiler: 2
+    aliases:
+      - {name: 巴巴托斯, kind: title}
+      - {name: 风神, kind: epithet}
+      - {name: 卖唱的, kind: alias}
+    evidence:
+      - {doc: quest.obc.508097, quote: "所幸温迪阁下…嗯，也就是巴巴托斯大人也愿意帮忙"}
+      - {doc: quest.obc.399, quote: "也是风神「巴巴托斯」的眷属"}
+
+  - id: entity.zhongli
+    type: deity
+    name: 钟离
+    name_en: Zhongli
+    description: 璃月的岩神，以「钟离」这一凡人身份在往生堂任职。
+    spoiler: 2
+    aliases:
+      - {name: 岩王帝君, kind: title}
+      - {name: 摩拉克斯, kind: title}
+      - {name: 岩神, kind: epithet}
+    evidence:
+      - {doc: quest.obc.1250, quote: "身为岩王帝君、摩拉克斯，我自然可以轻易创造摩拉"}
+      - {doc: quest.obc.677, quote: "关于岩神「摩拉克斯」"}
+
+  - id: entity.nahida
+    type: deity
+    name: 纳西妲
+    name_en: Nahida
+    description: 须弥的草神，被信众称作小吉祥草王。
+    spoiler: 2
+    aliases:
+      - {name: 小吉祥草王, kind: title}
+      - {name: 草神, kind: epithet}
+      - {name: 智慧之神, kind: epithet}
+    evidence:
+      - {doc: quest.obc.6044, quote: "你们口中的纳西妲，也就是之前旅行者体内的意识…莫非是草神大人"}
+      - {doc: quest.obc.5299, quote: "早上好，纳西妲！我全想起来了，是不是该说「早上好，小吉祥草王」了呢"}
+
+  - id: entity.rukkhadevata
+    type: deity
+    name: 大慈树王
+    description: 须弥前代草神，与世界树、须弥民众的梦境密切相关。
+    spoiler: 3
+    aliases:
+      - {name: 树王, kind: alias}
+    evidence:
+      - {doc: quest.obc.5778, quote: "纳西妲含着泪水抱住了大慈树王"}
+
+  - id: entity.raiden-ei
+    type: deity
+    name: 雷电影
+    name_en: Raiden Ei
+    description: 稻妻的雷神，巴尔泽布；与「雷电将军」人偶须区分，暂不列为别名。
+    spoiler: 3
+    aliases:
+      - {name: 巴尔泽布, kind: title}
+      - {name: 影, kind: alias}
+    evidence:
+      - {doc: quest.obc.3531, quote: "巴尔泽布则以御侧「影武者」的身份，成为巴尔的替身"}
+
+  - id: entity.tartaglia
+    type: character
+    name: 达达利亚
+    name_en: Tartaglia
+    description: 愚人众执行官，代号「公子」。
+    spoiler: 1
+    aliases:
+      - {name: 公子, kind: title}
+    evidence:
+      - {doc: quest.obc.509511, quote: "执行官「公子」，达达利亚"}
+
+  - id: entity.dvalin
+    type: creature
+    name: 特瓦林
+    name_en: Dvalin
+    description: 蒙德「四风守护」之一，被称作风魔龙。
+    spoiler: 2
+    aliases:
+      - {name: 风魔龙, kind: epithet}
+    evidence:
+      - {doc: quest.obc.399, quote: "特瓦林——这就是风魔龙的名字"}
+
+  - id: entity.tsaritsa
+    type: deity
+    name: 冰之女皇
+    description: 至冬的神明，愚人众全体执行官唯一效忠对象。
+    spoiler: 1
+    aliases:
+      - {name: 冰之神, kind: epithet}
+      - {name: 至冬女皇, kind: alias}
+    evidence:
+      - {doc: quest.obc.533, quote: "端坐于至冬宫的「冰之女皇」，全体愚人众执行官的唯一效忠对象"}
+
+  - id: entity.diluc
+    type: character
+    name: 迪卢克
+    name_en: Diluc
+    description: 晨曦酒庄老板，暗中守护蒙德的「暗夜英雄」。
+    spoiler: 2
+    aliases:
+      - {name: 暗夜英雄, kind: epithet}
+    evidence:
+      - {doc: quest.obc.6263, quote: "迪卢克暗中担当着蒙德的暗夜英雄"}
+
+  - id: entity.wanderer
+    type: character
+    name: 流浪者
+    description: 曾被雷神安置、称作「散兵」的存在。
+    spoiler: 3
+    aliases:
+      - {name: 散兵, kind: alias}
+    evidence:
+      - {doc: quest.obc.5794, quote: "流浪者，这里是雷神安置「散兵」的地方"}
+
+  - id: entity.furina
+    type: character
+    name: 芙宁娜
+    name_en: Furina
+    description: 枫丹舞台上被称作「水神」的人物；其与神格的关系是剧情争议点，见 claims。
+    spoiler: 3
+    aliases:
+      - {name: 芙宁娜大人, kind: alias}
+    evidence:
+      - {doc: quest.obc.7202, quote: "水神芙宁娜大人天天泡在歌剧院里"}
+
+  - id: entity.paimon
+    type: character
+    name: 派蒙
+    name_en: Paimon
+    description: 与旅行者同行的伙伴。
+    spoiler: 0
+    aliases: []
+    evidence:
+      - {doc: quest.obc.2942, quote: "其名为旅行者与派蒙"}
+
+  - id: entity.traveler
+    type: character
+    name: 旅行者
+    description: 来自异乡的主角，与血亲失散后行走七国。
+    spoiler: 0
+    aliases:
+      - {name: 异乡人, kind: epithet}
+    evidence:
+      - {doc: quest.obc.2942, quote: "在任何地方都格格不入的异邦人二人组，其名为旅行者与派蒙"}
+
+  - id: entity.dainsleif
+    type: character
+    name: 戴因斯雷布
+    description: 坎瑞亚遗民，追寻「命运的织机」相关线索。
+    spoiler: 2
+    aliases: []
+    evidence:
+      - {doc: quest.obc.6236, quote: "门外传来戴因斯雷布的呼唤声"}
+
+  - id: entity.knights-of-favonius
+    type: organization
+    name: 西风骑士团
+    description: 蒙德的骑士组织，由代理团长琴主持事务。
+    spoiler: 0
+    aliases:
+      - {name: 骑士团, kind: alias}
+    evidence:
+      - {doc: quest.obc.399, quote: "西风骑士团代理团长——琴。蒙德的守护者"}
+
+  - id: entity.fatui
+    type: organization
+    name: 愚人众
+    description: 至冬国的外交与武力组织，设有十一位执行官。
+    spoiler: 1
+    aliases:
+      - {name: 十一执行官, kind: alias}
+    evidence:
+      - {doc: quest.obc.533, quote: "愚人众的每一位执行官，都像她一样，被至冬国的女皇赐予了神灵般的权柄"}
+
+  - id: entity.abyss-order
+    type: organization
+    name: 深渊教团
+    description: 由「王子／公主殿下」统领的敌对势力。
+    spoiler: 2
+    aliases: []
+    evidence:
+      - {doc: quest.obc.533, quote: "被深渊教团的怪物称为…「王子殿下（公主殿下）」"}
+
+  - id: entity.akademiya
+    type: organization
+    name: 教令院
+    description: 须弥的学术与治理机构，开发了虚空。
+    spoiler: 1
+    aliases:
+      - {name: 贤者, kind: alias}
+    evidence:
+      - {doc: quest.obc.508783, quote: "教令院称虚空为有史以来最强大完美的智慧辅助系统"}
+
+  - id: entity.mondstadt
+    type: nation
+    name: 蒙德
+    name_en: Mondstadt
+    description: 风神庇护的自由之都。
+    spoiler: 0
+    aliases:
+      - {name: 自由之都, kind: epithet}
+    evidence:
+      - {doc: quest.obc.399, quote: "它们是蒙德四方之风的守护者"}
+
+  - id: entity.liyue
+    type: nation
+    name: 璃月
+    name_en: Liyue
+    description: 岩神治下的契约之国，摩拉由这里的黄金屋铸造。
+    spoiler: 0
+    aliases:
+      - {name: 契约之国, kind: epithet}
+    evidence:
+      - {doc: voice.obc.2021, quote: "全提瓦特流通的货币「摩拉」是由璃月的「黄金屋」所铸造"}
+
+  - id: entity.inazuma
+    type: nation
+    name: 稻妻
+    name_en: Inazuma
+    description: 雷神治下的国度，锻刀技术相传源自雷神。
+    spoiler: 0
+    aliases:
+      - {name: 永恒之国, kind: epithet}
+    evidence:
+      - {doc: quest.obc.5794, quote: "稻妻的锻刀技术最初传自雷神——雷电将军"}
+
+  - id: entity.sumeru
+    type: nation
+    name: 须弥
+    name_en: Sumeru
+    description: 草神治下的智慧之国，与梦境、世界树关系密切。
+    spoiler: 0
+    aliases:
+      - {name: 智慧之国, kind: epithet}
+    evidence:
+      - {doc: quest.obc.5778, quote: "一切梦境最终都归还给了须弥的民众"}
+
+  - id: entity.snezhnaya
+    type: nation
+    name: 至冬
+    name_en: Snezhnaya
+    description: 冰之女皇治下的国度，愚人众的母国。
+    spoiler: 0
+    aliases: []
+    evidence:
+      - {doc: quest.obc.533, quote: "被至冬国的女皇赐予了神灵般的权柄"}
+
+  - id: entity.khaenriah
+    type: nation
+    name: 坎瑞亚
+    description: 已在灾变中覆灭的地下古国，与深渊力量相关。
+    spoiler: 2
+    aliases: []
+    evidence:
+      - {doc: quest.obc.506558, quote: "他来自坎瑞亚，在灾变时期获得了「深渊」的力量"}
+
+  - id: entity.seven-archons
+    type: concept
+    name: 尘世七执政
+    description: 统御七国的七位神明，民众口语中称作「七神」。
+    spoiler: 1
+    aliases:
+      - {name: 七神, kind: alias}
+    evidence:
+      - {doc: quest.obc.533, quote: "人们所说的七神，更本源的称谓是「尘世七执政」"}
+
+  - id: entity.vision
+    type: concept
+    name: 神之眼
+    description: 极少数人拥有的外置魔力器官，用于引导元素力。
+    spoiler: 1
+    aliases: []
+    evidence:
+      - {doc: quest.obc.533, quote: "「神之眼」是这世上极少数人才拥有的外置魔力器官"}
+
+  - id: entity.gnosis
+    type: concept
+    name: 神之心
+    description: 更高位的元素控制中枢，七神之座的象征。
+    spoiler: 2
+    aliases: []
+    evidence:
+      - {doc: quest.obc.533, quote: "是更高位的元素控制中枢，是七神之座的象征"}
+
+  - id: entity.irminsul
+    type: concept
+    name: 世界树
+    description: 与提瓦特记忆、梦境和存亡相关的根基。
+    spoiler: 3
+    aliases: []
+    evidence:
+      - {doc: quest.obc.5778, quote: "阻止新神的诞生，拯救世界树"}
+
+  - id: entity.akasha
+    type: concept
+    name: 虚空
+    description: 教令院开发、由大慈树王遗产演化而来的智慧辅助系统。
+    spoiler: 2
+    aliases:
+      - {name: 虚空终端, kind: alias}
+    evidence:
+      - {doc: quest.obc.508783, quote: "教令院称虚空为有史以来最强大完美的智慧辅助系统"}
+
+  - id: entity.wangsheng-funeral-parlor
+    type: organization
+    name: 往生堂
+    description: 璃月主管丧葬仪式的机构，钟离在此任职。
+    spoiler: 1
+    aliases: []
+    evidence:
+      - {doc: event.obc.504692, quote: "是受「往生堂」堂主胡桃所托"}
+
+claims:
+  - id: 1001
+    subject: entity.venti
+    predicate: 身份
+    object: 风神巴巴托斯
+    statement: 温迪即风神巴巴托斯
+    perspective: 蒙德市民台词
+    confidence: confirmed
+    status: accepted
+    spoiler: 2
+    doc: quest.obc.508097
+    quote: "所幸温迪阁下…嗯，也就是巴巴托斯大人也愿意帮忙"
+
+  - id: 1002
+    subject: entity.zhongli
+    predicate: 身份
+    object: 岩王帝君摩拉克斯
+    statement: 钟离是岩王帝君摩拉克斯以凡人身份使用的名字
+    perspective: 钟离自述
+    confidence: confirmed
+    status: accepted
+    spoiler: 2
+    doc: quest.obc.1250
+    quote: "身为岩王帝君、摩拉克斯，我自然可以轻易创造摩拉"
+
+  - id: 1003
+    subject: entity.nahida
+    predicate: 身份
+    object: 草神小吉祥草王
+    statement: 纳西妲即须弥的草神小吉祥草王
+    perspective: 剧情台词
+    confidence: confirmed
+    status: accepted
+    spoiler: 2
+    doc: quest.obc.5299
+    quote: "早上好，纳西妲！我全想起来了，是不是该说「早上好，小吉祥草王」了呢"
+
+  - id: 1004
+    subject: entity.tartaglia
+    predicate: 代号
+    object: 公子
+    statement: 达达利亚的愚人众执行官代号是「公子」
+    perspective: 旁白／介绍
+    confidence: confirmed
+    status: accepted
+    spoiler: 1
+    doc: quest.obc.509511
+    quote: "执行官「公子」，达达利亚"
+
+  - id: 1005
+    subject: entity.dvalin
+    predicate: 别称
+    object: 风魔龙
+    statement: 特瓦林就是被称为风魔龙的龙
+    perspective: 旁白
+    confidence: confirmed
+    status: accepted
+    spoiler: 2
+    doc: quest.obc.399
+    quote: "特瓦林——这就是风魔龙的名字"
+
+  - id: 1006
+    subject: entity.seven-archons
+    predicate: 别称
+    object: 七神
+    statement: 「七神」是民众的说法，更本源的称谓是「尘世七执政」
+    perspective: 温迪台词
+    confidence: likely
+    status: accepted
+    spoiler: 1
+    doc: quest.obc.533
+    quote: "人们所说的七神，更本源的称谓是「尘世七执政」"
+    notes: 角色台词而非旁白，故置信度标 likely 而非 confirmed。
+
+  - id: 1007
+    subject: entity.vision
+    predicate: 性质
+    object: 外置魔力器官
+    statement: 神之眼是引导元素力的外置魔力器官
+    perspective: 温迪台词
+    confidence: likely
+    status: open
+    spoiler: 1
+    doc: quest.obc.533
+    quote: "「神之眼」是这世上极少数人才拥有的外置魔力器官"
+    notes: 由角色向旅行者解释，属于角色视角；保留 open 待与其它来源对照。
+
+  - id: 1008
+    subject: entity.furina
+    predicate: 身份
+    object: 水神
+    statement: 芙宁娜是枫丹的水神
+    perspective: 枫丹民众普遍认知
+    confidence: disputed
+    status: disputed
+    spoiler: 3
+    doc: quest.obc.7202
+    quote: "水神芙宁娜大人天天泡在歌剧院里"
+    notes: 剧情中后期该认知被推翻。按「矛盾是数据不是错误」保留此说法并标 disputed，不写成唯一结论。
+
+  - id: 1009
+    subject: entity.abyss-order
+    predicate: 统领者
+    object: 王子／公主殿下
+    statement: 深渊教团由「王子／公主殿下」统领
+    perspective: 温迪转述并表示存疑
+    confidence: disputed
+    status: open
+    spoiler: 3
+    doc: quest.obc.533
+    quote: "被深渊教团的怪物称为…「王子殿下（公主殿下）」"
+    notes: 同段温迪说「我可从没听说过，深渊教团里有什么公主／王子」，故不标 confirmed。
+
+  - id: 1010
+    subject: entity.raiden-ei
+    predicate: 与雷电将军的关系
+    object: 本体与人偶须区分
+    statement: 雷电影（巴尔泽布）与「雷电将军」人偶不是同一对象
+    perspective: 编校备注
+    confidence: speculative
+    status: open
+    spoiler: 3
+    doc: quest.obc.3531
+    quote: "巴尔泽布则以御侧「影武者」的身份，成为巴尔的替身"
+    notes: 这是编校判断而非原文直述，故意标 speculative/open，等人工补更确切证据后再定。

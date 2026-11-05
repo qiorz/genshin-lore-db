@@ -145,3 +145,30 @@ corpus/*.md     ←→  documents / sections
 ```
 
 知识层可以先用 Markdown 维护，等结构稳定后再导入数据库。不要为了“入库”把还没想清楚的结论硬塞进表里。
+
+## 8. 第一批种子（2026-11-05）
+
+`knowledge/seed.yaml` 是**供人工校对的第一批种子**，不是最终正文。
+校对确认后按类拆进 `entities/` 与 `claims/` 的 Markdown；在此之前不要改它当结论用。
+
+### 证据引用规范（重要）
+
+`sections.section_id` 在**全量重导后会变**（loader 是 DELETE + INSERT），
+所以知识层**不硬编码 section_id**。每条证据只写两样：
+
+```yaml
+doc: quest.obc.508097
+quote: "所幸温迪阁下…嗯，也就是巴巴托斯大人也愿意帮忙"
+```
+
+`scripts/load_knowledge.py` 在灌库时用 `doc_id + quote 前缀` 现场查出当前
+`section_id` / `ordinal` 并写入；查不到就报错，绝不静默跳过。
+这样 `corpus/` 重导之后，重跑一次灌库脚本就能重新对齐证据。
+
+### 与检索的关系
+
+**知识层是额外增加的入口，不替换原文检索。**
+`/` 与 `/search` 的结果卡片、高亮、筛选、分页保持原样；
+实体卡片走独立页面 `/entities` 与 `/api/entities`，
+搜索页底部只额外加一个默认折叠的「相关实体」提示区。
+原文某一句话永远是这个库最根本的检索单位。

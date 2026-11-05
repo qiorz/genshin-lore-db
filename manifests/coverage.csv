@@ -17,8 +17,8 @@ items_materials,文本,材料/食物/道具/摆设描述,P2,观测枢 背包/食
 geography,世界观,地理志、地区/地点文本,P1,观测枢（BWiki 校验）,partial,"观景点 264 篇入 corpus/geography；区域无正文，71 个区域做成 regions.csv（790 行）"
 timeline,世界观,提瓦特编年史/时间线,P1,观测枢 + 人工整理,planned,不是单一原文；每条标来源
 official_notices,公告,"版本更新、活动公告、开发者说明",P1,米游社/官网,done,"55 篇入 corpus/notices；1.1→7.2 版本更新说明连续；27 条运营/重复/纯图片跳过"
-entities,知识层,核心实体：人物/国家/组织/地点/概念,P1,人工整理,planned,0
+entities,知识层,核心实体：人物/国家/组织/地点/概念,P1,人工整理,partial,"第一批种子 30 个实体 / 59 别名，见 knowledge/seed.yaml；待人工校对后按类拆成 Markdown"
 relations,知识层,实体关系,P2,人工整理,planned,0
-claims,知识层,争议说法/不可靠叙述/不同视角,P2,人工整理,planned,0
+claims,知识层,争议说法/不可靠叙述/不同视角,P2,人工整理,partial,"第一批种子 10 条带出处说法，含 disputed / speculative 示例；见 knowledge/seed.yaml"
 manga,跨媒介,官方漫画文本,P3,官网/米游社,planned,未开始
 npc_dialogue,文本,NPC 全部对话,P3,观测枢 NPC&商店/角色逸闻/角色彩蛋,done,"2,525 条 entry 全落盘；2,401 篇入 corpus/voices；124 条无对话见 npc-skip.csv"

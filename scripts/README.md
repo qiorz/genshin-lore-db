@@ -36,6 +36,7 @@
 | `audit_corpus.py` | **全库体检**：串内容/重复、字段覆盖、corpus↔DB 对账、FTS 完整性 | Python 3.11+ |
 | `enrich_release_versions.py` | 按官方版本更新说明的上线日期区间，给有 `release_date` 无 `version` 的公告推导版本（`official`/`inferred`） | Python 3.11+ |
 | `normalize_version_labels.py` | 把「月之X」/多版本列表/版本区间归一化为 `X.Y`，玩法标签移出 version 字段 | Python 3.11+ |
+| `load_knowledge.py` | 把 `knowledge/seed.yaml` 灌进知识层；证据只用 `doc_id + 短引用` 现场解析 section_id，抗重导 | Python 3.11+ |
 
 ```powershell
 # Windows PowerShell（当前环境需要 Bypass 执行策略）
