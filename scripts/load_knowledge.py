@@ -65,7 +65,7 @@ REVIEWED = reviewed_ids(ROOT)
 
 def load_seeds() -> dict:
     """合并所有 seed*.yaml；给每条实体附加所属批次与该批的 status。"""
-    merged = {"entities": [], "claims": [], "relations": [],
+    merged = {"entities": [], "claims": [], "relations": [], "aliases": [],
               "events": [], "release_timeline": {}, "batches": []}
     for path in SEED_FILES:
         data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
@@ -79,7 +79,9 @@ def load_seeds() -> dict:
                 entity["_status"] = "reviewed"
             entity["_batch"] = batch
             merged["entities"].append(entity)
-        for key in ("claims", "relations", "events"):
+        # aliases 单独成段：别名不该存在「会被生成脚本重写」的实体批次里，
+        # 否则重跑一次 build_stage4/5 就全丢了（踩过：19 条别名只剩库里残留）。
+        for key in ("claims", "relations", "aliases", "events"):
             merged[key].extend(data.get(key) or [])
         if data.get("release_timeline"):
             merged["release_timeline"] = data["release_timeline"]
@@ -132,6 +134,7 @@ def main() -> int:
     entities = data["entities"]
     claims = data["claims"]
     relations = data["relations"]
+    alias_rows = data["aliases"]
     events = data["events"]
     release_cfg = data["release_timeline"]
     errors: list[str] = []
@@ -200,7 +203,8 @@ def main() -> int:
     if release_cfg.get("certainty") not in CERTAINTY or release_cfg.get("era") != "release":
         errors.append("release_timeline: era 必须为 release，certainty 必须合法")
 
-    alias_count = sum(len(e.get("aliases") or []) for e in entities)
+    alias_count = (sum(len(e.get("aliases") or []) for e in entities)
+                   + len(alias_rows))
     ev_count = (sum(len(e.get("evidence") or []) for e in entities) + len(claims)
                 + len(relations) + len(events))
     involved_count = sum(len(e.get("entities") or []) for e in events)
@@ -253,6 +257,19 @@ def main() -> int:
                     (eid, ev["doc"], found[0] if found else None, ev["quote"],
                      1 if i == 0 else 0),
                 )
+        # 独立别名的权威源（seed-stage9.yaml），与实体分开写
+        for item in alias_rows:
+            eid = item["entity"]
+            if eid not in known_ids:
+                errors.append(f"别名指向不存在的实体：{eid} ← {item['name']}")
+                continue
+            con.execute(
+                """INSERT OR REPLACE INTO entity_names
+                   (entity_id, name, language, name_type, source_id, is_primary)
+                   VALUES (?,?,'zh-Hans',?,NULL,0)""",
+                (eid, item["name"], item.get("kind", "alias")),
+            )
+
         for item in claims:
             found = resolve(con, item["doc"], item["quote"], cache)
             con.execute(
@@ -406,6 +423,32 @@ def main() -> int:
             if orphans:
                 print(f"已剪掉 {len(orphans)} 个孤儿实体：" + "、".join(orphans[:10])
                       + ("…" if len(orphans) > 10 else ""))
+
+            # 关系与别名同样要剪：删掉一条 fact 后，库里那条边不会自己消失，
+            # 结果就是「种子里没有了、页面还显示」。按 id 集合比对，不按批段。
+            seed_rel_ids = {int(r["id"]) for r in relations}
+            # involved_in 由 events 表生成，不属于 relations 种子，必须放过
+            stale_rel = [r[0] for r in con.execute(
+                "SELECT relation_id FROM entity_relations WHERE predicate <> 'involved_in'")
+                if r[0] not in seed_rel_ids]
+            for rid in stale_rel:
+                con.execute("DELETE FROM entity_relations WHERE relation_id=?", (rid,))
+            if stale_rel:
+                print(f"已剪掉 {len(stale_rel)} 条过期关系边")
+
+            seed_names = set()
+            for e in entities:
+                for a in e.get("aliases") or []:
+                    seed_names.add((e["id"], a["name"]))
+            for a in alias_rows:
+                seed_names.add((a["entity"], a["name"]))
+            stale_names = [(r[0], r[1]) for r in con.execute(
+                "SELECT entity_id, name FROM entity_names WHERE name_type <> 'canonical'")
+                if (r[0], r[1]) not in seed_names]
+            for eid, name in stale_names:
+                con.execute("DELETE FROM entity_names WHERE entity_id=? AND name=?", (eid, name))
+            if stale_names:
+                print(f"已剪掉 {len(stale_names)} 个别名残留")
         con.commit()
         for table in ("entities", "entity_names", "claims", "entity_relations",
                       "events", "event_sources", "timeline_entries"):

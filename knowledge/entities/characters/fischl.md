@@ -3,8 +3,7 @@ id: entity.fischl
 type: character
 canonical_name: 菲谢尔
 canonical_name_en: 
-aliases:
-  - 皇女
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

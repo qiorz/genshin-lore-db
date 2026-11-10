@@ -11,7 +11,6 @@ entities:
   name: 班尼特
   description: 角色页标注：蒙德 · 火 · 单手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.105
     quote: 「只要和班尼特反着来，一切冒险都会顺利无比。」——此为蒙德城前任冒险家赫尔曼的「冒险经验」之一
@@ -20,7 +19,6 @@ entities:
   name: 莫娜
   description: 角色页标注：蒙德 · 水 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1057
     quote: 「『阿斯托洛吉斯·莫娜·梅姬斯图斯』老师的文章真是太有趣了！虽然基本看不懂，但特别有意思。」——《蒸汽鸟报》的忠实读者紫薇满怀敬意地说道
@@ -29,7 +27,6 @@ entities:
   name: 刻晴
   description: 角色页标注：璃月 · 雷 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1058
     quote: 璃月七星之一，玉衡星，刻晴
@@ -38,7 +35,6 @@ entities:
   name: 诺艾尔
   description: 角色页标注：蒙德 · 岩 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.111
     quote: 「就工作状态而言，琴团长是『太累』，诺艾尔是『太忙』。」——总是一副悠闲样的凯亚先生如此评论
@@ -47,7 +43,6 @@ entities:
   name: 香菱
   description: 角色页标注：璃月 · 火 · 长柄武器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.112
     quote: 生在厨师世家，香菱表达愤慨的方式更为直接：她选择接过了自家「万民堂」的大勺
@@ -56,7 +51,6 @@ entities:
   name: 迪奥娜
   description: 角色页标注：蒙德 · 冰 · 弓 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1221
     quote: 「被猫咬了。」——试图通过夸奖迪奥娜的调酒技艺来达成合作的晨曦酒庄管家埃泽
@@ -65,7 +59,6 @@ entities:
   name: 辛焱
   description: 角色页标注：璃月 · 火 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1291
     quote: 第一次围观辛焱的演出，看到神之眼点燃舞台，又害怕又兴奋的船工王扳子高声呐喊
@@ -74,7 +67,6 @@ entities:
   name: 甘雨
   description: 角色页标注：璃月 · 冰 · 弓 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1433
     quote: 对于高居「玉京台」的七枚明星来说，甘雨绝非服侍他们「伴星」，而是璃月港错综情报数据之网的统筹者，璃月港行政效率的筑基人
@@ -83,7 +75,6 @@ entities:
   name: 魈
   description: 角色页标注：璃月 · 风 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1498
     quote: 因为魈并不是能带来祥瑞、富贵的福星，而是与妖邪死斗的「夜叉」
@@ -92,7 +83,6 @@ entities:
   name: 罗莎莉亚
   description: 角色页标注：蒙德 · 冰 · 长柄武器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1744
     quote: 「罗莎莉亚小姐怎么又不见了…糟糕，有人看见她吗？今天唱诗班有活动，塔利雅助祭嘱咐我，一定要请她出席！」——芭芭拉
@@ -101,7 +91,6 @@ entities:
   name: 烟绯
   description: 角色页标注：璃月 · 火 · 法器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1795
     quote: 「律法是璃月繁荣的基石。这块基石需要不断打磨，才能尽善尽美。烟绯一直与我在这一领域周旋，平心而论，她帮我找出了现行律法中的不少瑕疵。」——凝光
@@ -110,7 +99,6 @@ entities:
   name: 优菈
   description: 角色页标注：蒙德 · 冰 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.2040
     quote: 「西风骑士团更看重一个人的能力和作为，而非身世与血统。优菈的确是一名杰出的骑士，不必对她旧贵族后裔的身份耿耿于怀。」—— 琴·古恩希尔德
@@ -119,7 +107,6 @@ entities:
   name: 神里绫华
   description: 角色页标注：稻妻 · 冰 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.2123
     quote: 而神里绫华，正是社奉行神里家的大小姐，远近闻名的「白鹭公主」
@@ -128,7 +115,6 @@ entities:
   name: 早柚
   description: 角色页标注：稻妻 · 风 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.2125
     quote: 说到身高啊…早柚停止长高已经很久了，久到她觉得自己落入了一个时间停止的梦
@@ -137,7 +123,6 @@ entities:
   name: 枫原万叶
   description: 角色页标注：稻妻 · 风 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.2142
     quote: 初见枫原万叶时，大多数人都以为他不过是「南十字」船队的见习水手
@@ -146,7 +131,6 @@ entities:
   name: 珊瑚宫心海
   description: 角色页标注：稻妻 · 水 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.2403
     quote: 人们普遍认为珊瑚宫心海是一名足智多谋、深不可测的领导者
@@ -155,7 +139,6 @@ entities:
   name: 雷电将军
   description: 角色页标注：稻妻 · 雷 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.2404
     quote: 那里很早就有了风雨和雷电，有了天光与大海…有了「雷电将军」
@@ -164,7 +147,6 @@ entities:
   name: 行秋
   description: 角色页标注：璃月 · 水 · 单手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.241
     quote: 璃月港飞云商会的二少爷行秋自幼便以勤奋好学、待人礼貌闻名
@@ -173,7 +155,6 @@ entities:
   name: 埃洛伊
   description: 角色页标注：蒙德 · 冰 · 弓 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.2415
     quote: 自出生起，埃洛伊就一直受到部落中不知缘由的排斥和畏避，被迫居住在远离部落的险峻山野中，由一名猎手罗斯特抚养成人
@@ -182,7 +163,6 @@ entities:
   name: 托马
   description: 角色页标注：稻妻 · 火 · 长柄武器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.2606
     quote: 「太郎丸的意思是，托马先生很擅长照顾人，是个非常好相处的朋友，不过光照顾别人可不行啊，也要照顾好自己…等等，你们笑什么！我只是翻译太郎丸说的话而已啊！」——五郎
@@ -191,7 +171,6 @@ entities:
   name: 荒泷一斗
   description: 角色页标注：稻妻 · 岩 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.3276
     quote: 「您好，我是荒泷派的副手久岐忍，也就是具体管事的人。若您发现我们老大荒泷一斗先生在外有任何不妥行为，请随时联系我。这是我的名片。」——久岐忍
@@ -200,7 +179,6 @@ entities:
   name: 申鹤
   description: 角色页标注：璃月 · 冰 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.3386
     quote: 「本仙云游四海，指点过的人不在少数。其中，当数申鹤这孩子与本仙最为相似。若不是她身为凡人，本仙倒想将她一直留在身旁。」——留云借风真君
@@ -209,7 +187,6 @@ entities:
   name: 神里绫人
   description: 角色页标注：稻妻 · 水 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.3875
     quote: 作为现任社奉行，神里绫人致力于维持地区的繁荣和时局的稳定
@@ -218,7 +195,6 @@ entities:
   name: 夜兰
   description: 角色页标注：璃月 · 水 · 弓 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.4081
     quote: 「你要找夜兰啊…唔，我是很想建议你把她当成普通人，可若真这么做，又容易拿捏不住交涉的分寸。有些事，果然还得看她对你的眼缘。」——烟绯
@@ -227,7 +203,6 @@ entities:
   name: 久岐忍
   description: 角色页标注：稻妻 · 雷 · 单手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.4148
     quote: 更令人惊异的是，散漫的荒泷派竟能出示所有相关执业证书，署名处全是同一个名字：久岐忍
@@ -236,7 +211,6 @@ entities:
   name: 鹿野院平藏
   description: 角色页标注：稻妻 · 风 · 法器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.4197
     quote: 鹿野院平藏，一个不凡的少年侦探
@@ -245,7 +219,6 @@ entities:
   name: 柯莱
   description: 角色页标注：须弥 · 草 · 弓 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.4333
     quote: 「欸，你要去须弥吗？那能不能帮我问候一下柯莱？唔…过去那么久，不知道她头发有没有留长，个子有没有长高呢？」——安柏
@@ -254,7 +227,6 @@ entities:
   name: 提纳里
   description: 角色页标注：须弥 · 草 · 弓 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.4334
     quote: 在道成林不幸遇难的人如果能遇到名叫提纳里的巡林官出手相助，是件幸事
@@ -263,7 +235,6 @@ entities:
   name: 多莉
   description: 角色页标注：须弥 · 雷 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.4736
     quote: 「无论多么稀有的实验材料，都可以从多莉那里买到。也不知道她究竟从哪里进的货…另外，在她那里买东西，一定要留心价格，每次结账我都感觉心脏刺痛。」——提纳里
@@ -272,7 +243,6 @@ entities:
   name: 赛诺
   description: 角色页标注：须弥 · 雷 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.4780
     quote: 在教令院中，如果一位学者需要和大风纪官赛诺进行正式会面，那他一般不会得到什么好消息
@@ -281,7 +251,6 @@ entities:
   name: 坎蒂丝
   description: 角色页标注：须弥 · 水 · 长柄武器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.4781
     quote: 「那个坎蒂丝是⋯是真正的赤王后裔！」
@@ -290,7 +259,6 @@ entities:
   name: 那维莱特
   description: 角色页标注：枫丹 · 水 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.500207
     quote: 「之前对于水神大人的秘辛专栏让得本报荣获了那维莱特先生『什么地摊小报』的评价，这次我们聚焦神秘的最高审判官先生。
@@ -299,7 +267,6 @@ entities:
   name: 莱欧斯利
   description: 角色页标注：枫丹 · 冰 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.500286
     quote: 若莱欧斯利有名片，只需这一行足矣
@@ -308,7 +275,6 @@ entities:
   name: 娜维娅
   description: 角色页标注：枫丹 · 岩 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.500419
     quote: 从外表来看，娜维娅小姐无疑是一位完美的枫丹淑女
@@ -317,7 +283,6 @@ entities:
   name: 夏沃蕾
   description: 角色页标注：枫丹 · 火 · 长柄武器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.500605
     quote: 但是，如果来的是那位戴着高帽，身背铳枪的特巡队队长夏沃蕾，和一群特巡队队员…
@@ -326,7 +291,6 @@ entities:
   name: 嘉明
   description: 角色页标注：璃月 · 火 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.500672
     quote: 走在璃月港街头，如果听闻锣鼓声响，不妨循声而去，说不定有缘能观赏到嘉明惟妙惟肖的舞兽戏表演
@@ -335,7 +299,6 @@ entities:
   name: 闲云
   description: 角色页标注：璃月 · 风 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.500673
     quote: 「你说城里新搬来一位住户？噢，是留…不，闲云吧。她呀，别瞧她平时那样，遇到事可靠得住了。你若是遇到什么事，好好说说，她多半会愿意帮你的。」
@@ -344,7 +307,6 @@ entities:
   name: 赛索斯
   description: 角色页标注：须弥 · 雷 · 弓 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.501212
     quote: 「你将拥有狐狸的机敏与飞蛇的灵巧，赫曼努比斯的智慧亦将垂青于你，你的名字应当叫作赛索斯。」
@@ -353,7 +315,6 @@ entities:
   name: 希格雯
   description: 角色页标注：枫丹 · 水 · 弓 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.501214
     quote: 而像希格雯一样温柔可爱、细心体贴的美露莘护士长，更是千载难逢
@@ -362,7 +323,6 @@ entities:
   name: 艾梅莉埃
   description: 角色页标注：枫丹 · 草 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.501441
     quote: 那些清新的、芬芳的、怡人的…被艾梅莉埃精心调和，最终出现在枫丹廷利奥奈区琳琅满目的货架上
@@ -371,7 +331,6 @@ entities:
   name: 基尼奇
   description: 角色页标注：纳塔 · 草 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.501624
     quote: 因此，熟识龙类弱点的「猎龙人」应运而生，而基尼奇就是其中翘楚
@@ -380,7 +339,6 @@ entities:
   name: 玛拉妮
   description: 角色页标注：纳塔 · 水 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.501625
     quote: 作为「流泉之众」新生代的一员，玛拉妮身为向导的名气也早就传遍了纳塔
@@ -389,7 +347,6 @@ entities:
   name: 卡齐娜
   description: 角色页标注：纳塔 · 岩 · 长柄武器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.501626
     quote: 「记得当时我们刚认识，看到卡齐娜哭我就忍不住递手帕，但她却笑着说『没关系，我的眼泪我来擦』，这句话我一直记得。放心，卡齐娜其实很厉害的，试着多多鼓励她吧。」
@@ -398,7 +355,6 @@ entities:
   name: 妮露
   description: 角色页标注：须弥 · 水 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.5020
     quote: 在灯光与音乐的映衬下，妮露如同一尘不染的莲花，以曼妙的舞姿将观众的思绪引入虚构的世界
@@ -407,7 +363,6 @@ entities:
   name: 茜特菈莉
   description: 角色页标注：纳塔 · 冰 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.503612
     quote: 茜特菈莉就是大萨满之一，也是纳塔当下唯一的大萨满
@@ -416,7 +371,6 @@ entities:
   name: 蓝砚
   description: 角色页标注：璃月 · 风 · 法器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.503614
     quote: 在幽静的山谷中，碧水与古茶树之间，迷路的游人若是遇到了一位满身佩银的爱笑姑娘，那或许就是外出采藤的蓝砚
@@ -425,7 +379,6 @@ entities:
   name: 梦见月瑞希
   description: 角色页标注：稻妻 · 风 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.504440
     quote: 而其中最出色的那位心理诊疗师，当非梦见月瑞希莫属
@@ -434,7 +387,6 @@ entities:
   name: 瓦雷莎
   description: 角色页标注：纳塔 · 雷 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.504570
     quote: 力量与丰沃是这个部族永远的名片，而名片上尤为亮眼的花纹，便来自「瓦雷莎家的果园」
@@ -443,7 +395,6 @@ entities:
   name: 伊安珊
   description: 角色页标注：纳塔 · 雷 · 长柄武器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.504621
     quote: 伊安珊对此也很无奈，毕竟她那孩童般的体格与「强壮」、「力量」都不沾边，很难让人想象出她能够在「摆脱孱弱的自我」这一点上提供指导
@@ -452,7 +403,6 @@ entities:
   name: 爱可菲
   description: 角色页标注：枫丹 · 冰 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.504976
     quote: 作为这一版面的常客，「德波大饭店前主厨」爱可菲和她的「技术料理」更是享誉枫丹
@@ -461,7 +411,6 @@ entities:
   name: 伊法
   description: 角色页标注：纳塔 · 风 · 法器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.504977
     quote: 「上次伊法从我这顺了两罐蜜走，我猜又是去给小龙们做饼干吃了。别误会，我不是在抱怨，就是希望他做完能记得给我留点。」 ——欧洛伦
@@ -470,7 +419,6 @@ entities:
   name: 丝柯克
   description: 角色页标注：纳塔 · 冰 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.505417
     quote: 在很长一段时间里，丝柯克行走提瓦特都尽量避免与人深交，打听情报也慎之又慎
@@ -479,7 +427,6 @@ entities:
   name: 塔利雅
   description: 角色页标注：蒙德 · 水 · 单手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.505418
     quote: 「要化解居民之间的仇怨，当然要申明法令，公平公正，怎么能像塔利雅那样…拉着一对仇家去酒馆，不谈对错，只拼酒量，最后竟然把他们变成了酒友…这算是化解了吗？」
@@ -488,7 +435,6 @@ entities:
   name: 伊涅芙
   description: 角色页标注：至冬 · 雷 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.505631
     quote: 「首先，要承认伊涅芙是最棒最好的机器人！然后，要尊重伊涅芙的想法和决定。还有，最终解释权归叮铃哐啷…不对，归伊涅芙自己所有！」
@@ -497,7 +443,6 @@ entities:
   name: 菲林斯
   description: 角色页标注：至冬 · 雷 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.505971
     quote: 他如此介绍自己：菲林斯，隶属于「执灯人」的一名战士，获得过民众自发送上的功勋章，用以表彰他所属的分队击退了深渊魔物
@@ -506,7 +451,6 @@ entities:
   name: 爱诺
   description: 角色页标注：至冬 · 水 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.505972
     quote: 「如何与爱诺成为朋友？数据分析中…输出答案：首先，反对咸味的蛋卷，其次，欣赏爱诺的发明，最后，多陪爱诺一起玩。」
@@ -515,7 +459,6 @@ entities:
   name: 菈乌玛
   description: 角色页标注：至冬 · 草 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.505973
     quote: 于是菈乌玛从树影中走出，走到月光之下
@@ -524,7 +467,6 @@ entities:
   name: 奈芙尔
   description: 角色页标注：至冬 · 草 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.506676
     quote: 虽然「秘闻馆」的职能和相隔不远的冒险家协会好像有些相似，但挪德卡莱冒险家协会的会长好像早已与奈芙尔老板达成了共识，甚至已经在合作了
@@ -533,7 +475,6 @@ entities:
   name: 杜林
   description: 角色页标注：蒙德 · 火 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.507241
     quote: 真正让人们议论纷纷的，是这个少年的名字——「杜林」
@@ -542,7 +483,6 @@ entities:
   name: 雅珂达
   description: 角色页标注：至冬 · 风 · 弓 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.507287
     quote: 「好的，我会拥抱你，雅珂达。我不会离开。」
@@ -551,7 +491,6 @@ entities:
   name: 兹白
   description: 角色页标注：璃月 · 岩 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.507503
     quote: 为了替自己庇护的人们谋得一线生机，兹白违逆了高天的意志
@@ -560,7 +499,6 @@ entities:
   name: 叶洛亚
   description: 角色页标注：至冬 · 岩 · 长柄武器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.507504
     quote: 「叶洛亚非常感谢你们西风骑士团在战斗中的帮助，可惜他又执行调查任务去了，所以只能托我把这瓶酒交给你，以表谢意。」
@@ -569,7 +507,6 @@ entities:
   name: 哥伦比娅
   description: 角色页标注：至冬 · 水 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.507505
     quote: 而同事们能不能理解哥伦比娅的行为…那就不是她会去考虑的问题了
@@ -578,7 +515,6 @@ entities:
   name: 莉奈娅
   description: 角色页标注：至冬 · 岩 · 弓 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.508198
     quote: 在冒险家协会的众多顾问中，莉奈娅无疑是最特别的一位
@@ -587,7 +523,6 @@ entities:
   name: 尼可
   description: 角色页标注：蒙德 · 火 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.508596
     quote: 尼可所构想的故事，许多都以「在很久很久以前…」开篇
@@ -596,7 +531,6 @@ entities:
   name: 布伦妮
   description: 角色页标注：蒙德 · 风 · 法器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.508597
     quote: 布伦妮初到蒙德时，曾连夜在城里张贴了数十张针对艾莉丝的「讨伐檄文」
@@ -605,7 +539,6 @@ entities:
   name: 洛恩
   description: 角色页标注：蒙德 · 冰 · 长柄武器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.508598
     quote: 洛恩虽是远程小队的副队长，却很少用箭
@@ -614,7 +547,6 @@ entities:
   name: 桑多涅
   description: 角色页标注：至冬 · 冰 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.508841
     quote: 同事和朋友们一般称呼她为「桑多涅」
@@ -623,7 +555,6 @@ entities:
   name: 奥黛塔
   description: 角色页标注：至冬 · 冰 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.509103
     quote: 「但奥黛塔啊，奥黛塔，至冬堡的奥黛塔，科洛列夫茨基剧团的奥黛塔，不属于自己的奥黛塔♪~
@@ -632,7 +563,6 @@ entities:
   name: 阿罗夏
   description: 角色页标注：至冬 · 雷 · 长柄武器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.509104
     quote: 可阿罗夏一次又一次将双脚埋进冰冷的雪地里，为了带回猎获，为了带回希望
@@ -641,7 +571,6 @@ entities:
   name: 薇斯纳
   description: 角色页标注：至冬 · 风 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.509803
     quote: 随心所欲的薇斯纳从不被他人制定的礼数束缚，率性而为的她也常有不拘一格的惊人之举：有时是将火车开出足以喜提禁令的残影，有时是往同僚的餐盘里塞点精心挑选的酸柠檬片…
@@ -650,7 +579,6 @@ entities:
   name: 沃雅妮莎
   description: 角色页标注：至冬 · 水 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.509804
     quote: 不过，在某个早晨，人们却发现，沃雅妮莎依旧在科洛列夫茨基剧院登台献唱，就如同往昔的时光不曾褪却，旧日的欢乐一如往常
@@ -659,7 +587,6 @@ entities:
   name: 瓦列里
   description: 角色页标注：至冬 · 雷 · 单手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.510136
     quote: 瓦列里少校的履历尤为闪耀，他曾率部剿灭六组地脉异动的魔物集群，捣毁三个穷凶极恶的兽怪匪帮，还肃清了至冬堡西面八成以上的暴走合成魔兽…
@@ -668,7 +595,6 @@ entities:
   name: 米提亚
   description: 角色页标注：至冬 · 雷 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.510137
     quote: 「丑角」皮耶罗在面对米提亚疑似拥有特权的质疑时的回答
@@ -677,7 +603,6 @@ entities:
   name: 莱依拉
   description: 角色页标注：须弥 · 冰 · 单手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.5297
     quote: 就读于梨多梵谛学院的莱依拉，专攻理论星相学，日夜不辍地描绘星图、撰写论文
@@ -686,7 +611,6 @@ entities:
   name: 安柏
   description: 角色页标注：蒙德 · 火 · 弓 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.54
     quote: 火红色的安柏，满溢的活力与她「飞行冠军」的头衔一样无人可及
@@ -695,7 +619,6 @@ entities:
   name: 珐露珊
   description: 角色页标注：须弥 · 风 · 弓 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.5493
     quote: 要是有哪门机关术考试未能及格，又不敢去找正在气头上的导师补课，可以移步隔壁室罗婆耽学院，请珐露珊前辈指点一二
@@ -704,7 +627,6 @@ entities:
   name: 可莉
   description: 角色页标注：蒙德 · 火 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.55
     quote: 「放火烧山，可莉完蛋！」——凯亚为可莉写的《骑士团生存守则》中标红标重的一条
@@ -713,7 +635,6 @@ entities:
   name: 雷泽
   description: 角色页标注：蒙德 · 雷 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.56
     quote: 而「狼少年」，雷泽本人，今日依旧站在山岗上，和待他如「卢皮卡」的狼群一起，沐浴着温暖的阳光
@@ -722,7 +643,6 @@ entities:
   name: 艾尔海森
   description: 角色页标注：须弥 · 草 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.5865
     quote: 现任教令院书记官艾尔海森完美符合以上标准——没多少人知道他是谁，他却知道许多旁人毫不知晓的信息
@@ -731,7 +651,6 @@ entities:
   name: 瑶瑶
   description: 角色页标注：璃月 · 草 · 长柄武器 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.5866
     quote: 「本想把我年轻时爱用的法宝送给瑶瑶，当个防身的物件。还没等我开口，留云就先把『月桂』交给了她，瑶瑶这孩子还真是招人疼啊。」——歌尘浪市真君
@@ -740,7 +659,6 @@ entities:
   name: 琴
   description: 角色页标注：蒙德 · 风 · 单手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.59
     quote: 但是当你问琴怎么看待自己时，这位西风骑士团代理团长永远会这么回答
@@ -749,7 +667,6 @@ entities:
   name: 迪希雅
   description: 角色页标注：须弥 · 火 · 双手剑 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.6180
     quote: 「任谁生气都不怕，除非惹毛了迪希雅，
@@ -758,7 +675,6 @@ entities:
   name: 重云
   description: 角色页标注：璃月 · 冰 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.644
     quote: 重云深受其害，发作时阳气暴行周身，性情大变，对自身作为一概不知
@@ -767,7 +683,6 @@ entities:
   name: 白术
   description: 角色页标注：璃月 · 草 · 法器 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.6489
     quote: 然而，童谣中的主角似乎并未因此遭到孩童惧怕，反而经常被亲昵地唤作「白术哥哥」
@@ -776,7 +691,6 @@ entities:
   name: 林尼
   description: 角色页标注：枫丹 · 火 · 弓 · 五星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.6937
     quote: 枫丹廷最值得一看的演出，除了「欧庇克莱歌剧院」的审判，当属林尼与琳妮特的魔术节目
@@ -785,7 +699,6 @@ entities:
   name: 琳妮特
   description: 角色页标注：枫丹 · 风 · 单手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.6938
     quote: 「已经是这个月第五次了…唉，你还没记住不要惹琳妮特吗？」
@@ -794,7 +707,6 @@ entities:
   name: 北斗
   description: 角色页标注：璃月 · 雷 · 双手剑 · 四星。第四批扩量，描述只取游戏内标注，剧情设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.79
     quote: 「整座璃月港，也只有北斗敢真赢凝光的钱。」——飞云商会会长在一次家宴中的醉后真言
@@ -803,7 +715,6 @@ entities:
   name: 蒙德城
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.1231
     quote: 蒙德城现在的状况，您应该也已经有所了解了
@@ -816,7 +727,6 @@ entities:
   name: 风起地
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.1106
     quote: 然后再去风起地，帮我摘一株风车菊
@@ -829,7 +739,6 @@ entities:
   name: 星落湖
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.507621
     quote: 说起星星和湖的话，那就是星落湖了吧
@@ -842,7 +751,6 @@ entities:
   name: 达达乌帕谷
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.595
     quote: 一个人就能…扫平达达乌帕谷的三大部族…
@@ -855,7 +763,6 @@ entities:
   name: 奔狼领
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.588
     quote: 本来只在「奔狼领」活动的狼群，最近胆子变大了
@@ -868,7 +775,6 @@ entities:
   name: 摘星崖
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.6263
     quote: 到摘星崖啦，这里会有我们要找的人吗
@@ -881,7 +787,6 @@ entities:
   name: 风龙废墟
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.533
     quote: 旅行者，你知道「风龙废墟」吗
@@ -894,7 +799,6 @@ entities:
   name: 望风山地
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.595
     quote: 望风山地的一大片地貌，都被那位强者改变了
@@ -907,7 +811,6 @@ entities:
   name: 璃月港
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.1686
     quote: 璃月港可真是一座繁忙的城市啊，虽然稻妻也很繁忙…
@@ -920,7 +823,6 @@ entities:
   name: 归离原
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.720
     quote: 在这片「归离原」上，确实有着一批宝藏
@@ -933,7 +835,6 @@ entities:
   name: 荻花洲
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.1250
     quote: 说起来，荻花洲也有送仙典仪要用的东西吗
@@ -946,7 +847,6 @@ entities:
   name: 天衡山
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1291
     quote: 她坐在天衡山上，俯瞰夜晚的璃月港
@@ -959,7 +859,6 @@ entities:
   name: 层岩巨渊
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.3870
     quote: 层岩巨渊还有很多秘密没被发掘呢…
@@ -972,7 +871,6 @@ entities:
   name: 群玉阁
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: voice.obc.1334
     quote: 但「群玉阁」的结局，还是不免令我等喟叹…
@@ -985,7 +883,6 @@ entities:
   name: 无妄坡
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: book.obc.513
     quote: 在轻策山以北的山峦与丘壑之间，有一片名为「无妄坡」的山坡,此地阴气浊重，多有异闻传说
@@ -998,7 +895,6 @@ entities:
   name: 渌华池
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.6691
     quote: 渌华池吗…那附近地形复杂，但愿不要出事
@@ -1011,7 +907,6 @@ entities:
   name: 孤云阁
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.1250
     quote: 我要唤醒「孤云阁」下沉睡的魔神
@@ -1024,7 +919,6 @@ entities:
   name: 华光林
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.4124
     quote: 华光林、庆云顶等地，山势险峻，交通不便
@@ -1035,7 +929,6 @@ entities:
   name: 庆云顶
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: voice.obc.1717
     quote: 即便是我路过时瞟到过的「庆云顶」，那在大雾中只能看轮廓的山峦，也是别有一番韵味啊…
@@ -1048,7 +941,6 @@ entities:
   name: 镇守之森
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2393
     quote: 镇守之森中，藏着镇物与需要净化的树根
@@ -1061,7 +953,6 @@ entities:
   name: 灵矩关
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.4008
     quote: 从层岩巨渊往北，会抵达灵矩关
@@ -1074,7 +965,6 @@ entities:
   name: 鸣神岛
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2942
     quote: 之前也有听来的人说过「稻妻」、「鸣神岛」之类的地方，你们也是稻妻人吗
@@ -1087,7 +977,6 @@ entities:
   name: 影向山
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2393
     quote: 前往影向山底部的裂口，与花散里交谈
@@ -1100,7 +989,6 @@ entities:
   name: 珊瑚宫
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: book.obc.2481
     quote: 自此以后，珊瑚宫遣使降服，尊稻妻幕府为大宗主也
@@ -1113,7 +1001,6 @@ entities:
   name: 海祇岛
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: book.obc.2481
     quote: 是故珊瑚宫人名之「海祇岛」，盖以大蛇为神也
@@ -1126,7 +1013,6 @@ entities:
   name: 鹤观
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2942
     quote: 言归正传，这次请大家过来，是希望各位能分享关于「鹤观」的情报
@@ -1139,7 +1025,6 @@ entities:
   name: 清籁岛
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2836
     quote: 清籁岛…唉，真想亲自过去看看
@@ -1152,7 +1037,6 @@ entities:
   name: 神无冢
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: voice.obc.3495
     quote: 因此这里被称为「神无冢」，大意是「神不在的山丘」
@@ -1165,7 +1049,6 @@ entities:
   name: 八酝岛
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.501998
     quote: 「…八酝岛前线部队的畏战现象十分严峻，已经引起家主大人的严重关注…」
@@ -1178,7 +1061,6 @@ entities:
   name: 花见坂
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.5802
     quote: 「请来花见坂找久岐忍，我将尽量悉数归还···当然，已经被玩坏掉的、吃掉的东西就爱莫能助了。」
@@ -1191,7 +1073,6 @@ entities:
   name: 天守阁
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.3875
     quote: 去天守阁跟那群老古董开会，不必急于发言
@@ -1204,7 +1085,6 @@ entities:
   name: 踏鞴砂
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2394
     quote: 那座岛叫「踏鞴砂」，是生产锻造武器用的「玉钢」的冶炼厂
@@ -1217,7 +1097,6 @@ entities:
   name: 绀田村
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2393
     quote: 您眼前的村庄名叫「绀田村」，存在着一个需要被解开的…「结界」
@@ -1230,7 +1109,6 @@ entities:
   name: 木漏茶室
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: voice.obc.2410
     quote: 今日光临「木漏茶室」有何贵干
@@ -1243,7 +1121,6 @@ entities:
   name: 天云峠
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2942
     quote: 在天云峠，我们打败了一个一模一样的魔物
@@ -1252,7 +1129,6 @@ entities:
   name: 净善宫
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.5299
     quote: 为什么一直用这种方式，我记得你是住在「净善宫」来着
@@ -1265,7 +1141,6 @@ entities:
   name: 桓那兰那
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.4691
     quote: 总之，我们出发去「桓那兰那」吧
@@ -1278,7 +1153,6 @@ entities:
   name: 化城郭
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.4723
     quote: 这里叫「化城郭」，最早是须弥的学者们在雨林中搭建的临时休息处，现在这里主要由巡林员驻扎
@@ -1291,7 +1165,6 @@ entities:
   name: 赤王陵
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.509517
     quote: 那么，真相便呼之欲出了——那就是所谓的「赤王陵」其实是莫诺马赫皇帝修建的
@@ -1304,7 +1177,6 @@ entities:
   name: 卡萨扎莱宫
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.6490
     quote: 艾尔卡萨扎莱宫问世后，他名满须弥
@@ -1317,7 +1189,6 @@ entities:
   name: 缄默之殿
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: voice.obc.501481
     quote: 不知你是否听说过，「缄默之殿」这一机构最初是赫曼努比斯大人建立的
@@ -1330,7 +1201,6 @@ entities:
   name: 露景泉
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.7202
     quote: 这个喷泉叫做「露景泉」，是枫丹所有水流的交汇之处
@@ -1343,7 +1213,6 @@ entities:
   name: 佩特莉可镇
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.504567
     quote: …这次航行的目的地是佩特莉可镇，那里据说藏有「铃兰十字结社」的秘宝，还是传说中褪色城堡的所在
@@ -1356,7 +1225,6 @@ entities:
   name: 圣火竞技场
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.505144
     quote: 「圣山」的称呼是很久很久以前的织卷留下来的…对我们来说，还是「圣火竞技场」要更「圣」一筹呢
@@ -1369,7 +1237,6 @@ entities:
   name: 挪德卡莱
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.506587
     quote: 可到了「挪德卡莱」，我劝你们最好不要和「愚人众」对着干
@@ -1382,7 +1249,6 @@ entities:
   name: 希汐岛
   description: 地点条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.506655
     quote: 只是希汐岛这边也用不上什么摩拉，所以就全都送给你们吧
@@ -1395,7 +1261,6 @@ entities:
   name: 天领奉行
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.4197
     quote: 他和九条小姐一样，是「天领奉行」的人
@@ -1408,7 +1273,6 @@ entities:
   name: 勘定奉行
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: voice.obc.2705
     quote: 这里是「远国监司」，受「勘定奉行」管辖
@@ -1421,7 +1285,6 @@ entities:
   name: 南十字船队
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.501513
     quote: 「南十字船队」的首席技术官似乎有事相托…
@@ -1434,7 +1297,6 @@ entities:
   name: 千岩军
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.1174
     quote: 我是负责这片区域的「千岩军」
@@ -1447,7 +1309,6 @@ entities:
   name: 冒险家协会
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.7646
     quote: 我们要去「冒险家协会」看看啦，你要不要去
@@ -1460,7 +1321,6 @@ entities:
   name: 盗宝团
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.1593
     quote: 这是跨国犯罪组织「盗宝团」的符号
@@ -1473,7 +1333,6 @@ entities:
   name: 枫丹科学院
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.6807
     quote: 您也可以把它称作「枫丹科学院」，枫丹人也都这么叫
@@ -1486,7 +1345,6 @@ entities:
   name: 蒸汽鸟报
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.502283
     quote: 听说在枫丹格外活跃的旅行者即将启程，「蒸汽鸟报」自然不会错过这个报道机会啊
@@ -1499,7 +1357,6 @@ entities:
   name: 特巡队
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: voice.obc.500592
     quote: 等到我回了「特巡队」的驻地，我帮您好好问问
@@ -1512,7 +1369,6 @@ entities:
   name: 回声之子
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.502175
     quote: 前往观看「回声之子」的舞蹈活动
@@ -1525,7 +1381,6 @@ entities:
   name: 流泉之众
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.502283
     quote: 你们还没有去过「流泉之众」吧
@@ -1538,7 +1393,6 @@ entities:
   name: 花羽会
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.502286
     quote: 恰斯卡，你不是「花羽会」的吗
@@ -1551,7 +1405,6 @@ entities:
   name: 悬木人
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: voice.obc.502270
     quote: 我是「悬木人」部族的首领，叫我瓦伊纳就好
@@ -1564,7 +1417,6 @@ entities:
   name: 沃陆之邦
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.504837
     quote: 你们来「沃陆之邦」有什么事吗
@@ -1577,7 +1429,6 @@ entities:
   name: 烟谜主
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.505242
     quote: 前往「烟谜主」查阅过去的织物
@@ -1590,7 +1441,6 @@ entities:
   name: 执灯士
   description: 组织条目。第四批扩量，描述为分类标签，具体设定请点证据原文核对
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.507424
     quote: 「执灯士」也向来深知告别的重要性

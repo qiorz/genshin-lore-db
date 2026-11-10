@@ -3,8 +3,7 @@ id: entity.arlecchino
 type: character
 canonical_name: 阿蕾奇诺
 canonical_name_en: 
-aliases:
-  - 仆人
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

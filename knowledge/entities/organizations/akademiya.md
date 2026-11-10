@@ -3,8 +3,7 @@ id: entity.akademiya
 type: organization
 canonical_name: 教令院
 canonical_name_en: 
-aliases:
-  - 贤者
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]
@@ -16,7 +15,7 @@ tags: [知识层种子]
 
 ## 关键设定
 
-- **位于** → 须弥（已确认）· [[char.obc.92]] 第 7 段
+- **根据地在** → 须弥（已确认）· [[voice.obc.6275]] 第 10 段
 - 反向：虚空 —由…运营→ 本实体（已确认）
 - 反向：居勒什 —成员所属→ 本实体（已确认）
 - 反向：提纳里 —成员所属→ 本实体（已确认）

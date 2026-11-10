@@ -1,0 +1,207 @@
+# 人工结论表（A1–A3 归属 + D 别名）
+#
+# 这里只写「结论」，出处由 scripts/apply_curated.py 去语料里找。
+# 找不到可用出处的条目不写入，会在运行时列出来——宁可空着，不编证据。
+#
+# 结论怎么来的：先跑 scripts/probe_geography.py 让语料投票（哪个国家同段最多、
+# 有没有「X位于Y」这类硬句式），再人工确认。挪德卡莱、希汐岛这类新地区
+# 光靠记忆容易错，所以必须以语料为准。
+version: 1
+batch: 2026-11-10-curated
+status: draft
+
+relations:
+  # --- A1 地点 → 国家（62 个地点全部归属）------------------------------
+  # predicate=located_in
+  - {subject: 蒙德城, predicate: located_in, object: 蒙德, note: 蒙德地区主城}
+  - {subject: 千风神殿, predicate: located_in, object: 蒙德}
+  - {subject: 奔狼领, predicate: located_in, object: 蒙德}
+  - {subject: 星落湖, predicate: located_in, object: 蒙德}
+  - {subject: 晨曦酒庄, predicate: located_in, object: 蒙德}
+  - {subject: 望风山地, predicate: located_in, object: 蒙德}
+  - {subject: 摘星崖, predicate: located_in, object: 蒙德}
+  - {subject: 达达乌帕谷, predicate: located_in, object: 蒙德}
+  - {subject: 风起地, predicate: located_in, object: 蒙德}
+  - {subject: 风龙废墟, predicate: located_in, object: 蒙德, note: 旧蒙德遗址}
+  - {subject: 龙脊雪山, predicate: located_in, object: 蒙德}
+
+  - {subject: 璃月港, predicate: located_in, object: 璃月, note: 璃月主港}
+  - {subject: 华光林, predicate: located_in, object: 璃月}
+  - {subject: 天衡山, predicate: located_in, object: 璃月}
+  - {subject: 孤云阁, predicate: located_in, object: 璃月}
+  - {subject: 层岩巨渊, predicate: located_in, object: 璃月}
+  - {subject: 庆云顶, predicate: located_in, object: 璃月}
+  - {subject: 归离原, predicate: located_in, object: 璃月}
+  - {subject: 无妄坡, predicate: located_in, object: 璃月}
+  - {subject: 望舒客栈, predicate: located_in, object: 璃月}
+  - {subject: 渌华池, predicate: located_in, object: 璃月}
+  - {subject: 灵矩关, predicate: located_in, object: 璃月}
+  - {subject: 绝云间, predicate: located_in, object: 璃月}
+  - {subject: 群玉阁, predicate: located_in, object: 璃月, note: 璃月七星所建浮空阁}
+  - {subject: 荻花洲, predicate: located_in, object: 璃月}
+  - {subject: 轻策庄, predicate: located_in, object: 璃月}
+
+  - {subject: 稻妻城, predicate: located_in, object: 稻妻, note: 稻妻主城}
+  - {subject: 八酝岛, predicate: located_in, object: 稻妻}
+  - {subject: 天云峠, predicate: located_in, object: 稻妻}
+  - {subject: 天守阁, predicate: located_in, object: 稻妻}
+  - {subject: 影向山, predicate: located_in, object: 稻妻}
+  - {subject: 木漏茶室, predicate: located_in, object: 稻妻}
+  - {subject: 海祇岛, predicate: located_in, object: 稻妻}
+  - {subject: 清籁岛, predicate: located_in, object: 稻妻}
+  - {subject: 珊瑚宫, predicate: located_in, object: 稻妻, note: 海祇岛统治机构驻地}
+  - {subject: 神无冢, predicate: located_in, object: 稻妻}
+  - {subject: 离岛, predicate: located_in, object: 稻妻}
+  - {subject: 绀田村, predicate: located_in, object: 稻妻}
+  - {subject: 花见坂, predicate: located_in, object: 稻妻}
+  - {subject: 踏鞴砂, predicate: located_in, object: 稻妻}
+  - {subject: 鸣神大社, predicate: located_in, object: 稻妻}
+  - {subject: 鸣神岛, predicate: located_in, object: 稻妻}
+  - {subject: 鹤观, predicate: located_in, object: 稻妻}
+  - {subject: 镇守之森, predicate: located_in, object: 稻妻}
+
+  - {subject: 净善宫, predicate: located_in, object: 须弥}
+  - {subject: 化城郭, predicate: located_in, object: 须弥}
+  - {subject: 卡萨扎莱宫, predicate: located_in, object: 须弥, note: 原文多作「艾尔卡萨扎莱宫」}
+  - {subject: 桓那兰那, predicate: located_in, object: 须弥}
+  - {subject: 缄默之殿, predicate: located_in, object: 须弥, note: 语料称其为「存在于须弥的组织」，类型待议}
+  - {subject: 阿如村, predicate: located_in, object: 须弥}
+  - {subject: 须弥沙漠, predicate: located_in, object: 须弥}
+  - {subject: 奥摩斯港, predicate: located_in, object: 须弥}
+  - {subject: 赤王陵, predicate: located_in, object: 须弥}
+
+  - {subject: 枫丹廷, predicate: located_in, object: 枫丹, note: 枫丹主城}
+  - {subject: 佩特莉可镇, predicate: located_in, object: 枫丹}
+  - {subject: 梅洛彼得堡, predicate: located_in, object: 枫丹, note: 水下监狱，原文明确「不属于枫丹法庭」}
+  - {subject: 欧庇克莱歌剧院, predicate: located_in, object: 枫丹}
+  - {subject: 白淞镇, predicate: located_in, object: 枫丹}
+  - {subject: 露景泉, predicate: located_in, object: 枫丹}
+
+  - {subject: 圣火竞技场, predicate: located_in, object: 纳塔}
+
+  - {subject: 挪德卡莱, predicate: located_in, object: 至冬, note: 原文「挪德卡莱地处至冬边境」，属边境自治地区}
+  - {subject: 希汐岛, predicate: located_in, object: 至冬, note: 属挪德卡莱，古月遗骸落点之一}
+
+  # --- A2 组织 → 国家（35 个组织，30 个有归属）-------------------------
+  - {subject: 西风骑士团, predicate: based_in, object: 蒙德}
+  - {subject: 西风教会, predicate: based_in, object: 蒙德}
+
+  - {subject: 璃月七星, predicate: based_in, object: 璃月}
+  - {subject: 璃月总务司, predicate: based_in, object: 璃月}
+  - {subject: 千岩军, predicate: based_in, object: 璃月}
+  - {subject: 往生堂, predicate: based_in, object: 璃月}
+  - {subject: 万民堂, predicate: based_in, object: 璃月}
+  - {subject: 不卜庐, predicate: based_in, object: 璃月}
+  - {subject: 南十字船队, predicate: based_in, object: 璃月}
+
+  - {subject: 幕府, predicate: based_in, object: 稻妻}
+  - {subject: 天领奉行, predicate: based_in, object: 稻妻}
+  - {subject: 勘定奉行, predicate: based_in, object: 稻妻}
+  - {subject: 社奉行, predicate: based_in, object: 稻妻}
+  - {subject: 神里家, predicate: based_in, object: 稻妻}
+  - {subject: 九条家, predicate: based_in, object: 稻妻}
+  - {subject: 八重堂, predicate: based_in, object: 稻妻}
+
+  - {subject: 教令院, predicate: based_in, object: 须弥}
+  - {subject: 三十人团, predicate: based_in, object: 须弥}
+  - {subject: 镀金旅团, predicate: based_in, object: 须弥}
+
+  - {subject: 枫丹科学院, predicate: based_in, object: 枫丹}
+  - {subject: 特巡队, predicate: based_in, object: 枫丹}
+  - {subject: 蒸汽鸟报, predicate: based_in, object: 枫丹}
+
+  - {subject: 回声之子, predicate: based_in, object: 纳塔}
+  - {subject: 悬木人, predicate: based_in, object: 纳塔}
+  - {subject: 沃陆之邦, predicate: based_in, object: 纳塔}
+  - {subject: 流泉之众, predicate: based_in, object: 纳塔}
+  - {subject: 烟谜主, predicate: based_in, object: 纳塔}
+  - {subject: 花羽会, predicate: based_in, object: 纳塔}
+
+  - {subject: 愚人众, predicate: based_in, object: 至冬}
+  - {subject: 愚人众执行官, predicate: based_in, object: 至冬}
+
+  # 留空（跨国或归属不明）：冒险家协会（各国都有分会）、壁炉之家（愚人众下属，
+  # 枫丹有分支）、执灯士（挪德卡莱，非国家实体）、深渊教团（跨地域）、盗宝团（跨地域）
+
+  # --- A3 事件 → 国家 ---------------------------------------------------
+  # held_in = 节庆/赛事/活动；occurred_in = 历史事件；issued_in = 政令
+  - {subject: 海灯节, predicate: held_in, object: 璃月}
+  - {subject: 逐月节, predicate: held_in, object: 璃月}
+  - {subject: 机关棋谭, predicate: held_in, object: 璃月}
+  - {subject: 风花节, predicate: held_in, object: 蒙德}
+  - {subject: 羽球节, predicate: held_in, object: 蒙德}
+  - {subject: 归风佳酿节, predicate: held_in, object: 蒙德}
+  - {subject: 光华容彩祭, predicate: held_in, object: 稻妻, note: 举办地为稻妻离岛}
+  - {subject: 三界路飨祭, predicate: held_in, object: 稻妻, note: 珊瑚宫发起的补救行动}
+  - {subject: 演武传心, predicate: held_in, object: 稻妻}
+  - {subject: 清籁逐雷记, predicate: held_in, object: 稻妻, note: 稻妻世界任务}
+  - {subject: 试胆大会, predicate: held_in, object: 稻妻, note: 举办地为镇守之森}
+  - {subject: 花神诞祭, predicate: held_in, object: 须弥}
+  - {subject: 坎瑞亚灾变, predicate: occurred_in, object: 坎瑞亚}
+  - {subject: 眼狩令, predicate: issued_in, object: 稻妻}
+  - {subject: 锁国令, predicate: issued_in, object: 稻妻}
+
+  # 留空：无相交响诗（仅版本公告出现，无举办地）、葬火之战（远古战争，无国家归属）、
+  #       魔女的茶会（魔女会活动，地点不明）
+
+aliases:
+  # --- 历史别名（原写在 seed-stage3/4，重生成会丢，迁到这里）---------------
+  - {subject: 云堇, alias: 云先生}
+  - {subject: 优菈, alias: 浪花骑士}
+  - {subject: 凝光, alias: 天权}
+  - {subject: 凝光, alias: 天权星}
+  - {subject: 刻晴, alias: 玉衡}
+  - {subject: 刻晴, alias: 玉衡星}
+  - {subject: 北斗, alias: 大姐头}
+  - {subject: 可莉, alias: 火花骑士}
+  - {subject: 多托雷, alias: 博士}
+  - {subject: 奥赛尔, alias: 漩涡之魔神}
+  - {subject: 娜维娅, alias: 刺玫会会长}
+  - {subject: 桑多涅, alias: 木偶}
+  - {subject: 玛薇卡, alias: 火神}
+  - {subject: 琴, alias: 蒲公英骑士}
+  - {subject: 甘雨, alias: 半仙}
+  - {subject: 皮耶罗, alias: 丑角}
+  - {subject: 神里绫华, alias: 白鹭公主}
+  - {subject: 纳塔, alias: 战争之国}
+  - {subject: 芭芭拉, alias: 闪耀偶像}
+  - {subject: 莱欧斯利, alias: 公爵}
+  - {subject: 菈乌玛, alias: 咏月使}
+  - {subject: 菲谢尔, alias: 皇女}
+  - {subject: 赛诺, alias: 大风纪官}
+  - {subject: 跋掣, alias: 旋涡的余威}
+  - {subject: 迪希雅, alias: 炽鬃之狮}
+  - {subject: 那维莱特, alias: 最高审判官}
+  - {subject: 阿蕾奇诺, alias: 仆人}
+  - {subject: 阿贝多, alias: 白垩之子}
+  - {subject: 雷利尔, alias: 猎月人}
+
+  # --- D1 国家别称（语料均有 2 次以上）--------------------------------
+  - {subject: 蒙德, alias: 风之国}
+  - {subject: 璃月, alias: 岩之国}
+  - {subject: 稻妻, alias: 雷之国}
+  - {subject: 须弥, alias: 草之国}
+  - {subject: 枫丹, alias: 水之国}
+  - {subject: 纳塔, alias: 火之国}
+  - {subject: 至冬, alias: 冰之国}
+
+  # --- D3 角色称号补漏（只收能唯一指认的）----------------------------
+  - {subject: 安柏, alias: 侦察骑士}
+  - {subject: 凯亚, alias: 骑兵队长}
+  - {subject: 重云, alias: 驱邪方士}
+  - {subject: 提纳里, alias: 大巡林官}
+  - {subject: 柯莱, alias: 见习巡林员}
+  - {subject: 多莉, alias: 百货商人}
+  - {subject: 克洛琳德, alias: 决斗代理人}
+  - {subject: 基尼奇, alias: 马力卜}
+  - {subject: 恰斯卡, alias: 调停人}
+
+  # 不收的（记录理由，避免以后反复试）：
+  #   图书管理员 / 护士长 / 大祭司 —— 职务词，语料里不唯一绑定某个人
+  #   璃月七星→七星、千岩军→千岩、西风骑士团→西风、教令院→教令 ——
+  #     别名是正名的子串，检索上没有增量（搜「千岩」本来就命中「千岩军」）
+  #   契约之国 / 永恒之国 —— 语料 0 次，属百科说法，不是原文用法（仍在 seed.yaml）
+
+# 需要删掉的错误别名：教令院的「贤者」是职位不是别名
+drop_aliases:
+  - {subject: 教令院, alias: 贤者}

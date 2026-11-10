@@ -11,9 +11,6 @@ entities:
   name: 阿贝多
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 白垩之子
-    kind: alias
   evidence:
   - doc: quest.obc.507699
     quote: 各位，请允许淑女告辞，阿贝多先生给了我许多意见，接下来我要找个地方专心研究了。
@@ -22,9 +19,6 @@ entities:
   name: 阿蕾奇诺
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 仆人
-    kind: alias
   evidence:
   - doc: lore.obc.507822
     quote: 哥伦比娅喜欢的茶都很普通，不像阿蕾奇诺那么有品位。倒也像她这个人。
@@ -33,9 +27,6 @@ entities:
   name: 芭芭拉
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 闪耀偶像
-    kind: alias
   evidence:
   - doc: quest.obc.533
     quote: 看到天空之琴已经面目全非，虔诚的芭芭拉吓坏了。无可奈何的温迪只得用幻术「修复」了天空之琴，趁芭芭拉还没发觉，你们一行人悄悄离开了教堂。但在教堂外，「愚人
@@ -44,7 +35,6 @@ entities:
   name: 夏洛蒂
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.501301
     quote: 第一届夏洛蒂个人留影展将于瓦萨里回廊举行。本次展会将有大量珍贵画片原片参与公开展览。
@@ -53,7 +43,6 @@ entities:
   name: 恰斯卡
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.504585
     quote: 「那可是恰斯卡女士啊！万众瞩目，能够拿下万般难题的恰斯卡女士！我要把这件好事记进族谱！」
@@ -62,7 +51,6 @@ entities:
   name: 千织
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.501740
     quote: 是异域的利刃？还是漆黑的雷鸣？千织屋与它的老板千织总是给人以锐利、高傲且我行我素的感觉。
@@ -71,7 +59,6 @@ entities:
   name: 克洛琳德
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.501740
     quote: 应读者要求，本报记者特对决斗代理人克洛琳德进行了专题采访。尽管采访的请求遭到拒绝，双方仍进行了简短的沟通。
@@ -80,9 +67,6 @@ entities:
   name: 多托雷
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 博士
-    kind: alias
   evidence:
   - doc: lore.obc.507822
     quote: 多托雷的项目批得比我的快十倍？？多托雷和潘塔罗涅能不能一起离开我的视野？
@@ -91,7 +75,6 @@ entities:
   name: 渊上
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.7663
     quote: 对呀，我们也遇到过假扮成研究者的深渊教团成员！我记得是叫渊上…
@@ -100,9 +83,6 @@ entities:
   name: 菲谢尔
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 皇女
-    kind: alias
   evidence:
   - doc: lore.obc.505671
     quote: 无论菲谢尔辞典，或菲谢尔辞典·皇女新编版，正式名均为——断罪圣诰之书。在正式场合（如文学颁奖典礼〔若有幸获奖〕）上错用、误用是不应该、不推荐、不太好的。
@@ -111,7 +91,6 @@ entities:
   name: 菲米尼
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.500363
     quote: 「每分钟三万？最好的潜水员菲米尼都不至于这么贵！你是来诈骗的吧！」
@@ -120,7 +99,6 @@ entities:
   name: 五郎
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.5804
     quote: 「秘密侦查十分顺利，五郎大将完全把那群家伙唬住了！虽然因为长得太年轻，并没有喝到酒…【后面的内容被胡乱擦掉了】」
@@ -129,7 +107,6 @@ entities:
   name: 胡桃
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.501802
     quote: （木牌背后还写上了很有胡桃风格的广告词，「凭此木牌，购一送一」。）
@@ -138,7 +115,6 @@ entities:
   name: 凯亚
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.6236
     quote: 凯亚！原来是他到须弥来了呀…唔，我就觉得「诡计多端的外国先生」很有可能是他呢。
@@ -147,7 +123,6 @@ entities:
   name: 卡维
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.5799
     quote: 「两位的纸上争论还是一贯的犀利呢···不过卡维先生这个月的账单该结了哦，仍旧是记在艾尔海森先生账上吗？」
@@ -156,7 +131,6 @@ entities:
   name: 绮良良
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.501680
     quote: 这…对了一半吧。那我重新介绍一下，这位是绮良良，稻妻「狛荷屋」的快递员，一只猫又。
@@ -165,7 +139,6 @@ entities:
   name: 丽莎
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.6263
     quote: 比如丽莎小姐泡在图书馆错过了巡逻时间，琴小姐会说「丽莎身体抱恙」之类的话。
@@ -174,9 +147,6 @@ entities:
   name: 玛薇卡
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 火神
-    kind: alias
   evidence:
   - doc: lore.obc.504218
     quote: 「玛薇卡姐姐大人！您的眼镜是什么做的呀？为什么不会被火烧坏呢？我问了爸爸，妈妈和姐姐，但他们都不知道…」
@@ -185,7 +155,6 @@ entities:
   name: 米卡
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.507019
     quote: 「我觉得我的画技还不错，大家应该会喜欢这些吧？以前米卡也夸我还算有天赋来着。」
@@ -194,11 +163,6 @@ entities:
   name: 凝光
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 天权星
-    kind: alias
-  - name: 天权
-    kind: alias
   evidence:
   - doc: lore.obc.5982
     quote: 近日凝光大人特批准增建三座船坞仓库，以供「南十字船队」停泊维护之需。
@@ -207,7 +171,6 @@ entities:
   name: 欧洛伦
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.504606
     quote: 欧洛伦勘探员只是对草药学有较为深入的研究与热情。他真不是卖菜的。」
@@ -216,9 +179,6 @@ entities:
   name: 皮耶罗
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 丑角
-    kind: alias
   evidence:
   - doc: quest.obc.509511
     quote: ——起因还是「队长」卡皮塔诺，在前往纳塔之前，给「丑角」皮耶罗留下了一封内容详实的信件。
@@ -227,7 +187,6 @@ entities:
   name: 七七
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.5982
     quote: 「死生有命，何苦与当绝之人同留此世，强延天命？莫如将七七带来往生堂。以礼安葬，安逸无虞，重归元素循环之理。岂不妙哉？」
@@ -236,7 +195,6 @@ entities:
   name: 九条裟罗
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.5804
     quote: 这位客人，虽然不知九条裟罗大人如何亏待了您，还请时常光顾消愁。
@@ -245,7 +203,6 @@ entities:
   name: 砂糖
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.508783
     quote: 亲爱的砂糖，你收到这封信的时候，我应该还在忙，为了好的事而忙。因为我现在不是见习，而是正式巡林官了！
@@ -254,7 +211,6 @@ entities:
   name: 法尔伽
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.508352
     quote: 「…这告示是谁贴的？半个月内？你女儿是法尔伽，艾伦德林还是古华？」
@@ -263,7 +219,6 @@ entities:
   name: 希诺宁
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.504559
     quote: 『莫莫』；原因：『用希诺宁的盆栽磨牙，半夜跟其他龙吵架，偷吃零食，同时曾畏罪躲藏在切妮家。』」
@@ -272,7 +227,6 @@ entities:
   name: 八重神子
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.5803
     quote: 经宫司八重神子大人许可，鸣神大社将向受战争影响之贫困商户、困难家庭发放无息扶助贷款、慰问粮等补助福利。
@@ -281,7 +235,6 @@ entities:
   name: 宵宫
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.5802
     quote: 「诸位市民若发现宵宫小姐在城区内滥放管制烟火，请尽量加以制止！」
@@ -290,9 +243,6 @@ entities:
   name: 云堇
   description: 人物条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 云先生
-    kind: alias
   evidence:
   - doc: lore.obc.6104
     quote: 「前些日子去女婿家做客，顺便在和裕茶馆听了云堇一场戏。」
@@ -301,7 +251,6 @@ entities:
   name: 仙力
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.500786
     quote: 唔…用「仙力」试试吧，旅行者
@@ -314,7 +263,6 @@ entities:
   name: 魔神战争
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1498
     quote: 直截了当的答案则是：七神体系建立前，在「魔神战争」中惨败的魔神余下的残渣
@@ -327,7 +275,6 @@ entities:
   name: 命之座
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.505631
     quote: 高傲如他们，自不会接受「命之座」的禁锢
@@ -340,7 +287,6 @@ entities:
   name: 邪眼
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.501870
     quote: 奥古斯都花…是靠「邪眼」的力量，扭曲、畸变出的花种
@@ -353,7 +299,6 @@ entities:
   name: 降临者
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.507699
     quote: 「降临者」，我来为你展现世界
@@ -366,7 +311,6 @@ entities:
   name: 禁忌知识
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.6463
     quote: 你是怎么被「禁忌知识」缠上的
@@ -379,7 +323,6 @@ entities:
   name: 七圣召唤
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.6678
     quote: 这是...「七圣召唤」的卡牌
@@ -392,7 +335,6 @@ entities:
   name: 命运的织机
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.6236
     quote: （这个概念出现了…「命运的织机」…）
@@ -405,7 +347,6 @@ entities:
   name: 遗迹守卫
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2247
     quote: 「遗迹守卫」这个名字，是现代人根据现代的「印象」取的
@@ -418,7 +359,6 @@ entities:
   name: 仙灵
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.506587
     quote: 在空中一飘一飘的，和「仙灵」长得好像
@@ -431,7 +371,6 @@ entities:
   name: 深境螺旋
   description: 设定/概念条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: artifact.obc.504793
     quote: 独自漫步于深境螺旋的废墟间，意图探寻魔剑士向她提及的旅者的踪迹…
@@ -440,7 +379,6 @@ entities:
   name: 阿佩普
   description: 非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.508722
     quote: 阿佩普将自己的生命力分给她了
@@ -453,7 +391,6 @@ entities:
   name: 若陀龙王
   description: 非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.4214
     quote: 几位还请想想，岩王帝君不是将那若陀龙王封入地下了
@@ -466,7 +403,6 @@ entities:
   name: 深海龙蜥
   description: 非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.3622
     quote: 可是深海龙蜥不是喜欢黑暗的吗
@@ -479,7 +415,6 @@ entities:
   name: 丘丘人
   description: 非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: book.obc.520
     quote: 描述：丘丘人的生活也有酒和诗吗
@@ -492,7 +427,6 @@ entities:
   name: 纯水精灵
   description: 非人存在条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.7236
     quote: （为什么要和「纯水精灵」较真？）
@@ -505,7 +439,6 @@ entities:
   name: 阿如村
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.508722
     quote: 你是说阿如村的守护者珐露珊吗
@@ -518,7 +451,6 @@ entities:
   name: 晨曦酒庄
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.591
     quote: 而他的真实身份即是——「晨曦酒庄」的老板迪卢克
@@ -531,7 +463,6 @@ entities:
   name: 龙脊雪山
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.1796
     quote: 这份「冒险情报」，是关于蒙德旁边那座「龙脊雪山」的
@@ -544,7 +475,6 @@ entities:
   name: 枫丹廷
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.503062
     quote: 今夜，枫丹廷最耀眼的双子星，为你揭秘
@@ -557,7 +487,6 @@ entities:
   name: 梅洛彼得堡
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: lore.obc.501743
     quote: 将其遣送至「梅洛彼得堡」服刑
@@ -570,7 +499,6 @@ entities:
   name: 鸣神大社
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2599
     quote: 「鸣神大社」的大巫女…八重大人
@@ -583,7 +511,6 @@ entities:
   name: 稻妻城
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.504623
     quote: 而既然犯人选择「稻妻城」作为新的目标，那他原先所在的「会场」，就会出现「空缺」…
@@ -596,7 +523,6 @@ entities:
   name: 绝云间
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.677
     quote: 尔是何人，因何擅闯「绝云间」
@@ -609,7 +535,6 @@ entities:
   name: 欧庇克莱歌剧院
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.7201
     quote: 与此同时，「欧庇克莱歌剧院」内…
@@ -622,7 +547,6 @@ entities:
   name: 白淞镇
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.7201
     quote: 是白淞镇本地的商会，由老板一手扶持
@@ -635,7 +559,6 @@ entities:
   name: 奥摩斯港
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.7646
     quote: 嗯…非要说的话，那就是「维摩庄」和「喀万驿」和「奥摩斯港」了吧…
@@ -648,7 +571,6 @@ entities:
   name: 轻策庄
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.969
     quote: 你知道这片地方的名字吧——「轻策庄」
@@ -661,7 +583,6 @@ entities:
   name: 离岛
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.2589
     quote: 就算是突破万难，来到稻妻接待外国人的「离岛」，也需要出具相关证明，不然还是会被赶走…
@@ -674,7 +595,6 @@ entities:
   name: 须弥沙漠
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.508519
     quote: 须弥沙漠来的孩子，不也一样是孩子
@@ -687,7 +607,6 @@ entities:
   name: 千风神殿
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.503548
     quote: 如果你愿意，请到「千风神殿」来找我吧，我已经拜托人把设备安装好了
@@ -700,7 +619,6 @@ entities:
   name: 望舒客栈
   description: 地点条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.677
     quote: 去往「望舒客栈」，或可觅其踪迹
@@ -713,7 +631,6 @@ entities:
   name: 枫丹
   description: 国度条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.509101
     quote: 亏你们还解决了「枫丹」的危机
@@ -726,9 +643,6 @@ entities:
   name: 纳塔
   description: 国度条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases:
-  - name: 战争之国
-    kind: alias
   evidence:
   - doc: lore.obc.504601
     quote: 可他为什么要关闭奥奇卡纳塔的供能
@@ -741,7 +655,6 @@ entities:
   name: 西风教会
   description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.1744
     quote: 蒙德城西风教会下属的一名修女
@@ -754,7 +667,6 @@ entities:
   name: 镀金旅团
   description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.507290
     quote: 看起来，有不少「镀金旅团」的佣兵呢…
@@ -767,7 +679,6 @@ entities:
   name: 壁炉之家
   description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.7202
     quote: 你和琳妮特，其实是「壁炉之家」的人，没错吧
@@ -780,7 +691,6 @@ entities:
   name: 璃月七星
   description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.688
     quote: 这也是「璃月七星」默许的情况
@@ -793,7 +703,6 @@ entities:
   name: 三十人团
   description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: quest.obc.7647
     quote: 你可能知道，「三十人团」受教令院雇佣，负有护卫整个须弥城的责任
@@ -806,7 +715,6 @@ entities:
   name: 社奉行
   description: 组织条目（第三批扩量；描述为分类标签，具体设定请点证据原文核对）
   spoiler: 1
-  aliases: []
   evidence:
   - doc: char.obc.2123
     quote: 稻妻「社奉行」神里家的大小姐

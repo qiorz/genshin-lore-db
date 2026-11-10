@@ -3,8 +3,7 @@ id: entity.pierro
 type: character
 canonical_name: 皮耶罗
 canonical_name_en: 
-aliases:
-  - 丑角
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

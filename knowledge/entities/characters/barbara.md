@@ -3,8 +3,7 @@ id: entity.barbara
 type: character
 canonical_name: 芭芭拉
 canonical_name_en: 
-aliases:
-  - 闪耀偶像
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

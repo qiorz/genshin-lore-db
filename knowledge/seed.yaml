@@ -226,9 +226,7 @@ entities:
   name: 教令院
   description: 须弥的学术与治理机构，开发了虚空。
   spoiler: 1
-  aliases:
-  - name: 贤者
-    kind: alias
+  aliases: []
   evidence:
   - doc: quest.obc.508783
     quote: 教令院称虚空为有史以来最强大完美的智慧辅助系统

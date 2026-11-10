@@ -159,6 +159,9 @@ PREDICATE_LABELS = {
     "has": "拥有", "symbol_of": "象征", "located_in": "位于",
     "nearest_to": "最接近", "based_in": "根据地在",
     "granted_by": "授予对象", "involved_in": "涉及事件",
+    # 第八批：归属类，与 located_in（地点）/based_in（组织）分开
+    "held_in": "举办于", "occurred_in": "发生于", "issued_in": "颁布于",
+    "part_of": "隶属",
 }
 STATUS_LABELS = {
     "open": "待定", "accepted": "已采信", "disputed": "有争议",

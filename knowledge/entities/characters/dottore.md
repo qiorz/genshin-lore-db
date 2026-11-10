@@ -3,8 +3,7 @@ id: entity.dottore
 type: character
 canonical_name: 多托雷
 canonical_name_en: 
-aliases:
-  - 博士
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

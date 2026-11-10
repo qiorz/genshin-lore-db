@@ -3,8 +3,7 @@ id: entity.mavuika
 type: character
 canonical_name: 玛薇卡
 canonical_name_en: 
-aliases:
-  - 火神
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]

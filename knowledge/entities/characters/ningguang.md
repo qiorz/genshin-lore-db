@@ -3,9 +3,7 @@ id: entity.ningguang
 type: character
 canonical_name: 凝光
 canonical_name_en: 
-aliases:
-  - 天权星
-  - 天权
+aliases: []
 spoiler_level: 1
 status: reviewed
 tags: [知识层种子]
