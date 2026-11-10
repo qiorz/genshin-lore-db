@@ -1,4 +1,3 @@
 @echo off
-powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0stop.ps1" %*
-echo.
-pause
+rem 统一入口在项目根目录，这里只做转发
+call "%~dp0..\stop.cmd" %*

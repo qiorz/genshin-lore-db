@@ -2,12 +2,17 @@
 
 本地只读检索界面，直接读 `db/genshin_lore.sqlite3`，不会修改数据库或 Markdown。
 
-**最省事：双击这两个文件**
+**最省事：双击项目根目录这两个文件**
 
 ```text
-webui\start-webui.cmd    启动
-webui\stop-webui.cmd     停止
+start.cmd    启动（已在运行则只打开浏览器，不会重复开进程）
+stop.cmd     停止（只结束 python 进程，端口被别的程序占用时只提示、不动它）
 ```
+
+服务跑在一个最小化窗口里，标题是 `Genshin Lore DB 8765`；
+关掉这个窗口也能停服务。日志在 `logs/webui-8765.log`。
+
+`webui\start-webui.cmd` / `webui\stop-webui.cmd` 只是转发到上面两个，行为完全一样。
 
 **或在本项目 PowerShell 里**
 
