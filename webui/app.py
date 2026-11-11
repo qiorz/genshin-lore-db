@@ -162,6 +162,8 @@ PREDICATE_LABELS = {
     # 第八批：归属类，与 located_in（地点）/based_in（组织）分开
     "held_in": "举办于", "occurred_in": "发生于", "issued_in": "颁布于",
     "part_of": "隶属",
+    # 人物↔人物：方向统一为「本实体是对方的…」
+    "sibling_of": "兄弟姐妹", "child_of": "子女", "student_of": "师从",
 }
 STATUS_LABELS = {
     "open": "待定", "accepted": "已采信", "disputed": "有争议",
@@ -270,6 +272,30 @@ def entity_timeline_rows(con: sqlite3.Connection, entity_id: str) -> list[sqlite
            ORDER BY t.era DESC, t.sort_key""",
         (entity_id,),
     ).fetchall()
+
+
+def entity_release(con: sqlite3.Connection, entity_id: str):
+    """角色实装版本：实体名/别名 → 角色页标题 → documents.version → release 时间线。
+
+    用 entity_names 而不是 canonical_name，是因为「雷电将军」这类实体名与
+    角色页标题（「雷电影」）并不相同，靠别名才接得上。
+
+    1.0 没有对应的版本更新说明（公测首发），relative_time 为空，属正常。
+    """
+    return con.execute(
+        """SELECT d.version, d.doc_id, t.relative_time, t.label, t.sort_key
+           FROM entity_names n
+           JOIN documents d ON d.title = n.name
+                AND d.doc_type = 'character'
+                AND d.version IS NOT NULL AND d.version <> ''
+           LEFT JOIN timeline_entries t
+                ON t.era = 'release'
+               AND ABS(t.sort_key - CAST(d.version AS REAL)) < 0.001
+           WHERE n.entity_id = ?
+           ORDER BY CAST(d.version AS REAL) DESC
+           LIMIT 1""",
+        (entity_id,),
+    ).fetchone()
 
 
 def timeline_rows(con: sqlite3.Connection, era: str) -> list[sqlite3.Row]:
@@ -780,7 +806,7 @@ def render_entities(args: dict[str, list[str]]) -> str:
               <p class="entity-desc">{esc(row['description'] or '')}</p>
               <div class="aliases">{alias_html or '<span class="none">暂无别名</span>'}</div>
               <p class="entity-meta">关系 {len(outgoing) + len(incoming)} 条 · 说法 {len(claims)} 条 ·
-                相关时间线 {len(tl_rows)} 条 ·
+                相关时间线 {len(tl_rows) + (1 if release else 0)} 条 ·
                 {'<span class="entity-status draft">待复核</span>' if row['status'] != 'reviewed' else '<span class="entity-status reviewed">已校对</span>'} ·
                 <a href="/entity/{quote(row['entity_id'], safe='')}">查看详情 →</a></p>
               <h3>带出处的说法（{len(claims)}）</h3>
@@ -834,6 +860,7 @@ def render_entity_detail(entity_id: str) -> str | None:
         ).fetchone()
         outgoing, incoming = entity_relation_rows(con, entity_id)
         tl_rows = entity_timeline_rows(con, entity_id)
+        release = entity_release(con, entity_id)
     finally:
         con.close()
 
@@ -868,6 +895,17 @@ def render_entity_detail(entity_id: str) -> str | None:
         )
 
     tl_items = []
+    if release:
+        # 排在提瓦特纪年之前：这是「现实版本」这条线，与剧情年代无关
+        when = release["relative_time"] or "公测首发，无版本更新说明"
+        ver = f'{release["version"]} 版本上线'
+        tl_items.append(
+            f'<li><span class="claim-text">{esc(ver)}</span>'
+            f'<span class="claim-tags">现实版本 · 确切</span>'
+            f'<span class="claim-src">{esc(when)} · 出处：'
+            f'<a href="/doc/{quote(release["doc_id"], safe="")}">{esc(release["doc_id"])}</a>'
+            f'</span></li>'
+        )
     for t in tl_rows:
         link = (f'<a href="/doc/{quote(t["doc_id"], safe="")}">'
                 f'{esc(t["doc_title"] or t["doc_id"])}</a>') if t["doc_id"] else "—"
@@ -942,7 +980,7 @@ def render_entity_detail(entity_id: str) -> str | None:
       <ul class="claim-list">{''.join(claim_items) or '<li class="none">暂无</li>'}</ul>
     </article>
     <article class="detail-card wide">
-      <h2>相关时间线（{len(tl_rows)}）</h2>
+      <h2>相关时间线（{len(tl_rows) + (1 if release else 0)}）</h2>
       <ul class="claim-list">{''.join(tl_items) or '<li class="none">暂无</li>'}</ul>
       <p class="detail-note">现实版本上线日期与提瓦特纪年是两条独立时间线，不互相换算。</p>
     </article>
@@ -1201,6 +1239,8 @@ class Handler(BaseHTTPRequestHandler):
                    WHERE s.body LIKE ?""",
                 (f"%{row['canonical_name']}%",),
             ).fetchone()
+            rel = entity_release(con, entity_id)
+            item["release"] = dict(rel) if rel else None
             outgoing, incoming = entity_relation_rows(con, entity_id)
             item["relations_out"] = [dict(r) for r in outgoing]
             item["relations_in"] = [dict(r) for r in incoming]

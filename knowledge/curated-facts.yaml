@@ -144,6 +144,31 @@ relations:
   # 留空：无相交响诗（仅版本公告出现，无举办地）、葬火之战（远古战争，无国家归属）、
   #       魔女的茶会（魔女会活动，地点不明）
 
+  # --- A5 人物 ↔ 人物（亲属 / 师徒 / 从属）------------------------------
+  # 方向：subject 是 object 的「兄弟姐妹 / 子女 / 学生 / 部下」。
+  # 句子里必须出现对应的亲属或师徒词，否则不算证据。
+  # 这几对都是先扫语料找到句子、再确认方向的，不是照着人物表填的。
+  - {subject: 琳妮特, predicate: sibling_of, object: 林尼, note: 原话「我是林尼，她是我的妹妹琳妮特」}
+  - {subject: 菲米尼, predicate: sibling_of, object: 林尼, note: 原话「身为林尼和琳妮特的弟弟」}
+  - {subject: 菲米尼, predicate: sibling_of, object: 琳妮特}
+  - {subject: 芭芭拉, predicate: sibling_of, object: 琴, note: 原话「血脉相通的妹妹」}
+  - {subject: 可莉, predicate: sibling_of, object: 阿贝多, note: 可莉称「阿贝多哥哥」}
+  - {subject: 可莉, predicate: child_of, object: 艾莉丝, note: 原话「可莉是艾莉丝的女儿」}
+  - {subject: 砂糖, predicate: student_of, object: 阿贝多, note: 原话「阿贝多与他的学生砂糖」}
+  - {subject: 香菱, predicate: student_of, object: 萍姥姥, note: 原话「香菱的师父是萍姥姥」}
+  - {subject: 瑶瑶, predicate: student_of, object: 萍姥姥, note: 原话「瑶瑶是萍姥姥…的弟子」}
+  - {subject: 柯莱, predicate: student_of, object: 提纳里, note: 原话「是提纳里的学生吗」}
+  - {subject: 赛诺, predicate: student_of, object: 居勒什, note: 原话「贤者居勒什的学生与继承者」}
+  - {subject: 丽莎, predicate: student_of, object: 居勒什, note: 原话「居勒什的学生丽莎」}
+  - {subject: 杜林, predicate: student_of, object: 丽莎, note: 原话「丽莎当上了杜林的老师」}
+  - {subject: 五郎, predicate: subordinate_to, object: 珊瑚宫心海, note: 原话「由其部下五郎率领」}
+
+  # 想建但语料不支持，留空：
+  #   迪卢克 / 凯亚（义兄弟）—— 23 段共现，没有一句写亲属关系
+  #   神里绫华 / 神里绫人（兄妹）—— 只有 3 段共现，无亲属表述
+  #   托马 / 神里绫华（家臣）—— 4 段共现，无「家臣」字样
+  #   九条裟罗 / 雷电将军（主从）—— 6 段共现，无主从表述
+
 aliases:
   # --- 历史别名（原写在 seed-stage3/4，重生成会丢，迁到这里）---------------
   - {subject: 云堇, alias: 云先生}

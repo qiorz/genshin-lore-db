@@ -18,7 +18,7 @@ geography,世界观,地理志、地区/地点文本,P1,观测枢（BWiki 校验�
 timeline,世界观,提瓦特编年史/时间线,P1,官方公告 + 观测枢 + 人工整理,partial,"timeline_entries 61 条：53 条现实版本上线（era=release，官方公告日期）+ 8 条提瓦特纪年（era=teyvat，仅相对顺序，不换算）"
 official_notices,公告,"版本更新、活动公告、开发者说明",P1,米游社/官网,done,"55 篇入 corpus/notices；1.1→7.2 版本更新说明连续；27 条运营/重复/纯图片跳过"
 entities,知识层,核心实体：人物/国家/组织/地点/概念,P1,半自动+人工,partial,"400 个实体 / 474 个名字：character 191、location 62、concept 43、organization 35、creature 29、event 18、deity 14、nation 8；400 个全部 reviewed，其余 340 个 status=draft 待复核；已按类拆成 knowledge/entities/**.md"
-relations,知识层,实体关系,P2,半自动+人工,partial,"184 条：167 条实体关系（member_of 60 / located_in 65 / based_in 31 / held_in 10 / deity_of 5 等）+ 17 条事件参与；覆盖 188 个实体；机器出候选、人工剔除并注明理由，见 seed-stage2/6/8.yaml"
+relations,知识层,实体关系,P2,半自动+人工,partial,"198 条：181 条实体关系（member_of 60 / located_in 65 / based_in 31 / held_in 10 / sibling_of 5 / student_of 7 等）+ 17 条事件参与；覆盖 197 个实体；机器出候选、人工剔除并注明理由，见 seed-stage2/6/8.yaml"
 claims,知识层,争议说法/不可靠叙述/不同视角,P2,半自动+人工,partial,"233 条：10 条人工校对 + 223 条从「角色关联语音」提取（主语/谓词/视角/原话齐全，覆盖 65 个实体）；同批置信度统一 likely，因为它是某个角色的说法"
 manga,跨媒介,官方漫画文本,P3,官网/米游社,planned,未开始
 npc_dialogue,文本,NPC 全部对话,P3,观测枢 NPC&商店/角色逸闻/角色彩蛋,done,"2,525 条 entry 全落盘；2,401 篇入 corpus/voices；124 条无对话见 npc-skip.csv"

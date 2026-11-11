@@ -74,6 +74,16 @@ def score_sentence(s: str, a: str, b: str, predicate: str) -> float:
                                     "issued_in") else 2.6
     if re.search(rf"{eb}(?:境内|内|地区)的?{ea}", s):
         return 3.5
+    # 人物↔人物：句子里必须出现对应的亲属/师徒/从属词，方向由 facts 里写定。
+    # 光共现不算——「提纳里的老师骂居勒什」两人都在句里，但它不说明任何关系。
+    KIN = {
+        "sibling_of": "妹妹|姐姐|哥哥|弟弟|义弟|义兄|义妹|义姐|兄长|胞弟|胞妹",
+        "child_of": "女儿|儿子|母亲|父亲|养子|养女",
+        "student_of": "弟子|学生|徒弟|师父|老师|师傅",
+        "subordinate_to": "部下|属下|家臣|效忠|侍奉|主君|麾下",
+    }.get(predicate)
+    if KIN and re.search(KIN, s):
+        return 3.5
     # 只挨得近，没有任何归属词：能证明「被一起提到」，不能证明归属
     if near(s, a, b, 8):
         return 2.2

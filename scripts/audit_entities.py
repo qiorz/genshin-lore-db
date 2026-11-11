@@ -8,7 +8,7 @@
 统计口径：
   关系     entity_relations 里除 involved_in 之外的边，出边+入边都算
   说法     claims.subject_id
-  时间线   通过 involved_in → timeline_entries 能反查到的条目
+  时间线   involved_in → timeline_entries，加上角色实装版本（documents.version）
   别名     entity_names 里 is_primary=0 的行
   出处     entity_evidence 行数（顺带看锚点够不够）
 
@@ -55,6 +55,14 @@ def main() -> int:
         """SELECT r.subject_id, COUNT(DISTINCT t.entry_id)
            FROM entity_relations r JOIN timeline_entries t ON t.event_id = r.object_literal
            WHERE r.predicate = 'involved_in' GROUP BY 1""")}
+    # 角色实装版本也算一条时间线：网页上它和提瓦特纪年并列显示，
+    # 体检口径必须一致，否则页面上有一条、报告里是 0。
+    for eid, _v in con.execute(
+        """SELECT DISTINCT n.entity_id, d.version
+           FROM entity_names n
+           JOIN documents d ON d.title = n.name AND d.doc_type = 'character'
+                AND d.version IS NOT NULL AND d.version <> ''"""):
+        tl[eid] = tl.get(eid, 0) + 1
     ev = {r[0]: r[1] for r in con.execute(
         "SELECT entity_id, COUNT(*) FROM entity_evidence GROUP BY 1")}
 
