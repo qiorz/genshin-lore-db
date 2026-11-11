@@ -1,6 +1,6 @@
 # 全库体检报告
 
-> 生成时间：2026-11-11T08:49:59+08:00  
+> 生成时间：2026-11-11T09:25:51+08:00  
 > 语料：`D:\harn\2\genshin-lore-db\corpus`　文档 7,734 篇  
 > 数据库：`D:\harn\2\genshin-lore-db\db\genshin_lore.sqlite3`
 

@@ -40,7 +40,7 @@
 | `probe_geography.py` | 让语料投票：每个地点/组织/事件与哪个国家同段最多、有没有「X位于Y」句式；输出 `exports/review/geo-cooccurrence.csv` | Python 3.11+ |
 | `apply_curated.py` | 把 `curated-facts.yaml` 的结论落成关系与别名：按谓词找证据、够硬才写；关系→`seed-stage8.yaml`，别名→`seed-stage9.yaml` | Python 3.11+ |
 | `mine_relations.py` | 从正文挖人物→组织、地点/组织→国家三类关系：同句不重叠共现 + 跨度 ≤16 字 + 连接词/职务词；地点类只认相邻句式；人工复核剔除项写在同一文件里并注明理由 | Python 3.11+ |
-| `mine_claims.py` | 从角色页「角色关联语音」提 claims：按空行切块、还原说话人署名；`【关于X·主题】` 定主语与谓词，其余段落要求提到主语并带评价词 | Python 3.11+ |
+| `mine_claims_dialogue.py` | 从任务对话提评价（评价词与实体主谓紧邻，likely）、从叙述提传闻（「据说/传说」+实体，speculative）；输出候选 CSV 与 `seed-stage10.yaml` | Python 3.11+ |\n| `mine_claims.py` | 从角色页「角色关联语音」提 claims：按空行切块、还原说话人署名；`【关于X·主题】` 定主语与谓词，其余段落要求提到主语并带评价词 | Python 3.11+ |
 | `mine_aliases.py` | 别名候选：严格引号相邻规则 + 人工词表（每个别称须在语料出现 ≥2 次且与正名同篇）；输出候选 CSV | Python 3.11+ |
 | `apply_aliases.py` | 把复核通过的别名写回实体所在 seed 的 `aliases`；只收有辨识度的称号，职务词不收 | Python 3.11+ |
 | `enrich_evidence.py` | 给指定种子里证据不足的**非人物**实体补锚点到 3 条（不同文档各一句），不动实体集合与描述；`--apply` 才写 | Python 3.11+ |

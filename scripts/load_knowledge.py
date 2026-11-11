@@ -436,6 +436,17 @@ def main() -> int:
             if stale_rel:
                 print(f"已剪掉 {len(stale_rel)} 条过期关系边")
 
+            # claims 的机器提取段（6000+）同样要剪：重跑一次条数变了，
+            # 旧 id 不会自己消失，页面上就出现两版说法。
+            seed_claim_ids = {int(c["id"]) for c in claims}
+            stale_claims = [r[0] for r in con.execute(
+                "SELECT claim_id FROM claims WHERE claim_id >= 6000")
+                if r[0] not in seed_claim_ids]
+            for cid in stale_claims:
+                con.execute("DELETE FROM claims WHERE claim_id=?", (cid,))
+            if stale_claims:
+                print(f"已剪掉 {len(stale_claims)} 条过期说法")
+
             seed_names = set()
             for e in entities:
                 for a in e.get("aliases") or []:
