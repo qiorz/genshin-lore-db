@@ -780,6 +780,12 @@ def render_entities(args: dict[str, list[str]]) -> str:
     try:
         ks = knowledge_stats(con)
         rows = find_entities(con, q, limit=500, entity_type=etype)
+        # 列表页只判断「有没有」上线版本，不取具体内容——一次查完，
+        # 不给 400 张卡各查一遍。详情页才用 entity_release()。
+        has_release = {r[0] for r in con.execute(
+            """SELECT DISTINCT n.entity_id FROM entity_names n
+               JOIN documents d ON d.title = n.name AND d.doc_type = 'character'
+               WHERE d.version IS NOT NULL AND d.version <> ''""")}
         cards = []
         for row in rows:
             names = entity_names(con, row["entity_id"])
@@ -806,7 +812,7 @@ def render_entities(args: dict[str, list[str]]) -> str:
               <p class="entity-desc">{esc(row['description'] or '')}</p>
               <div class="aliases">{alias_html or '<span class="none">暂无别名</span>'}</div>
               <p class="entity-meta">关系 {len(outgoing) + len(incoming)} 条 · 说法 {len(claims)} 条 ·
-                相关时间线 {len(tl_rows) + (1 if release else 0)} 条 ·
+                相关时间线 {len(tl_rows) + (1 if row["entity_id"] in has_release else 0)} 条 ·
                 {'<span class="entity-status draft">待复核</span>' if row['status'] != 'reviewed' else '<span class="entity-status reviewed">已校对</span>'} ·
                 <a href="/entity/{quote(row['entity_id'], safe='')}">查看详情 →</a></p>
               <h3>带出处的说法（{len(claims)}）</h3>

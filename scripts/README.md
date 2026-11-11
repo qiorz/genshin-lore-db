@@ -37,7 +37,7 @@
 | `enrich_release_versions.py` | 按官方版本更新说明的上线日期区间，给有 `release_date` 无 `version` 的公告推导版本（`official`/`inferred`） | Python 3.11+ |
 | `normalize_version_labels.py` | 把「月之X」/多版本列表/版本区间归一化为 `X.Y`，玩法标签移出 version 字段 | Python 3.11+ |
 | `build_stage5.py` | 第五批收尾：NPC 人物按 `sections.speaker` 台词量取（≥50 段），其余类别走候选表 + 库内证据；剔除泛用词；产出 `seed-stage5.yaml` | Python 3.11+ |
-| `probe_geography.py` | 让语料投票：每个地点/组织/事件与哪个国家同段最多、有没有「X位于Y」句式；输出 `exports/review/geo-cooccurrence.csv` | Python 3.11+ |
+| `smoke_webui.py` | Web UI 冒烟测试：固定路由 + **全部 400 个实体详情页** + 文档页抽样，逐个查状态码与关键区块。改完模板必须跑 | Python 3.11+ |\n| `probe_geography.py` | 让语料投票：每个地点/组织/事件与哪个国家同段最多、有没有「X位于Y」句式；输出 `exports/review/geo-cooccurrence.csv` | Python 3.11+ |
 | `apply_curated.py` | 把 `curated-facts.yaml` 的结论落成关系与别名：按谓词找证据、够硬才写；关系→`seed-stage8.yaml`，别名→`seed-stage9.yaml` | Python 3.11+ |
 | `mine_relations.py` | 从正文挖人物→组织、地点/组织→国家三类关系：同句不重叠共现 + 跨度 ≤16 字 + 连接词/职务词；地点类只认相邻句式；人工复核剔除项写在同一文件里并注明理由 | Python 3.11+ |
 | `mine_claims_dialogue.py` | 从任务对话提评价（评价词与实体主谓紧邻，likely）、从叙述提传闻（「据说/传说」+实体，speculative）；输出候选 CSV 与 `seed-stage10.yaml` | Python 3.11+ |\n| `mine_claims.py` | 从角色页「角色关联语音」提 claims：按空行切块、还原说话人署名；`【关于X·主题】` 定主语与谓词，其余段落要求提到主语并带评价词 | Python 3.11+ |
@@ -175,4 +175,20 @@ scripts/
 - 回归测试：把有问题的历史文档放进临时目录，用
   `--corpus <dir> --no-db --out-dir <dir>` 验证能否抓出该文档对。
 - `load_markdown.py` 与体检脚本共用 `corpus_rules.py`；改元数据行规则时两边一起改。
+
+## 改完 Web UI 怎么验
+
+`py_compile` 只能查语法，查不出 `NameError`——那要运行时才炸。所以两步都要：
+
+```bash
+python -m pyflakes webui/app.py          # 看 undefined name，其余警告可忽略
+python scripts/smoke_webui.py            # 417 个请求：所有路由 + 400 张实体详情页
+```
+
+踩过的坑：改详情页时用 `t.replace(old, new, 1)` 替换
+`相关时间线 {len(tl_rows)} 条`，而这个字符串在列表页和详情页各有一份，
+`count=1` 命中的是列表页——于是列表页引用了一个只在详情页定义的变量，
+`/entities` 直接 500，而首页和详情页都正常。
+
+> 批量替换前先确认目标字符串唯一：`assert text.count(old) == 1`。
 

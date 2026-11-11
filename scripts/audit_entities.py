@@ -70,7 +70,7 @@ def main() -> int:
     for e in ents:
         by_type[e["entity_type"]].append(e)
 
-    lines = [f"# 实体卡片覆盖体检", "", f"> {date.today().isoformat()} · {len(ents)} 个实体", "",
+    lines = ["# 实体卡片覆盖体检", "", f"> {date.today().isoformat()} · {len(ents)} 个实体", "",
              "| 类型 | 数量 | 有边 | 有说法 | 有时间线 | 有别名 | 平均边 | 平均说法 | 平均出处 |",
              "|---|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for t, rows in sorted(by_type.items(), key=lambda kv: -len(kv[1])):
