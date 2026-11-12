@@ -7,7 +7,7 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-ROOT = Path(r"D:\harn\2\genshin-lore-db")
+ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "manifests" / "obc-index.csv"
 ENTRIES = ROOT / "raw" / "official_site" / "obc" / "entries"
 OUT = ROOT / "exports" / "obc-evaluation" / "version-gaps.txt"

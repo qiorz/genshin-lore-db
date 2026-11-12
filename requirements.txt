@@ -1,0 +1,10 @@
+# 项目直接依赖（Python 3.11+ 即可，实测 3.13）
+# 安装：python -m pip install -r requirements.txt
+# 说明：tools/python 里已装好，用便携解释器时不必再装。
+
+PyYAML==6.0.3
+pypinyin==0.55.0
+jieba==0.42.1
+beautifulsoup4==4.15.0
+pyflakes==4.1.0
+requests==2.34.2

@@ -5,7 +5,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path(r"D:\harn\2\genshin-lore-db")
+ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / "db" / "genshin_lore.sqlite3"
 CHANNELS = ROOT / "raw" / "official_site" / "obc" / "channel_lists"
 OUT = ROOT / "exports" / "obc-evaluation" / "coverage-audit.md"
