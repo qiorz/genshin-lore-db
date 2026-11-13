@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510349,
+  "name": "古妖精密语【晶树溶洞】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1794190681",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510349/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510349,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-13T00:11:19+08:00",
+  "sha256": "2a17d1dda4d52eb115bb02aa88db87ade07e0a2d9eec0e1e1c9cc220c80906e6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

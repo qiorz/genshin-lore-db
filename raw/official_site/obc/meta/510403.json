@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510403,
+  "name": "酒瓶里的乌云",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1794276491",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510403/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510403,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-13T00:10:43+08:00",
+  "sha256": "aa09e2daadd296a657fa6df15222bc482e92b03314b5cdc9a88a7c4bed50fee7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,18 @@
+{
+  "source_id": "obc",
+  "channel_id": 231,
+  "channel_name": "卡牌图鉴",
+  "url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/common/blackboard/ys_obc/v1/home/content/list",
+  "api_params": {
+    "channel_id": 231,
+    "page_num": 1,
+    "page_size": 1000,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-13T00:08:23+08:00",
+  "sha256": "92062c3f241e75230104d380394206ad531dad66ca9735479dc3a93d1381c59e",
+  "entry_count": 0
+}

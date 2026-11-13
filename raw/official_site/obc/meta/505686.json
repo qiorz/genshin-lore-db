@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505686,
+  "name": "异想零落的圆舞",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1769998836",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505686/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505686,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:38:04+08:00",
+  "sha256": "cc39fa279ea8f9486bc2b7116969c59e49f14c1738628e937bb9db8d09ebf1ed",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

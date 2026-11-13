@@ -16,6 +16,7 @@ knowledge/
 ├─ events/               # 事件条目
 ├─ timelines/            # 时间线
 ├─ claims/               # 争议说法/考据
+├─ theories/             # 推论卡片（生成物；源头是 theories.yaml）
 └─ glossary/             # 术语、别名、译名
 ```
 
@@ -101,6 +102,70 @@ sources:
 ```
 
 不要在实体页里把争议写成唯一结论；把不同说法放 claims，并在实体页链接过去。
+
+## 3.5 推论（theories）· 给「需要联想的结论」
+
+claims 是「谁相信什么」，单出处、带立场；关系是「可复用的稳定断言」。
+但还有一类知识两者都不是：
+
+> 《竹林月夜》写「夜空曾挂着三轮明月。她们是三姐妹」——**全篇没有「三月女神」这个词**。
+> 把这个设定讲清楚的线索，散在书、武器、圣遗物、任务、角色故事共 15 篇文档里。
+
+这类结论靠**多条证据串起来**，有的直说、有的只是暗示、还可能有反证。它存在
+`knowledge/theories.yaml`，灌库后落进 `theories` + `theory_evidence` 两张表。
+
+```yaml
+theories:
+  - id: theory.moon-sisters
+    title: 提瓦特曾有三轮明月（三月女神）
+    confidence: likely
+    spoiler_level: 3
+    aliases: [三轮明月, 三姐妹, 月宫三姐妹, 三月女神]
+    claim: >-
+      ……
+    open_questions:
+      - ……
+    evidence:
+      - doc: book.obc.1146
+        quote: 在久远的过去，夜空曾挂着三轮明月
+        kind: direct
+        note: 设定的最早出处
+```
+
+证据强度（`kind`）：
+
+| kind | 含义 |
+|---|---|
+| `direct` | 原文直接陈述 |
+| `implied` | 隐晦暗示，需联想才能连上 |
+| `corroboration` | 他处旁证/呼应 |
+| `counter` | 反证或矛盾（也可能是「不可靠叙述」） |
+
+规则：
+
+1. **每条证据必须能在 corpus 找到原话**，找不到就不写——脚本逐条校验，未命中会报错；
+2. 只写 `doc_id + 短引用`，不写 `section_id`（重导后现场解析，抗段落重切）；
+3. **同一段不能引用两次**，否则虚增证据数，脚本会报错；
+4. `counter` 也要收，哪怕明知它不可靠——「那句是派蒙念的书，菈乌玛当场说作者没见过本人」
+   本身就是有价值的判断，删掉反而失去线索；
+5. `open_questions` 是产物不是缺陷：写清「还差什么」，比强行给一个结论有用。
+
+灌库与导出：
+
+```powershell
+tools\python\python.exe scripts\load_theories.py            # 干跑校验
+tools\python\python.exe scripts\load_theories.py --apply    # 写库 + 生成 knowledge/theories/*.md
+```
+
+找线索用 `scripts/probe_topic.py`——给它主题和别名，把全库相关段落按文档列出来：
+
+```powershell
+tools\python\python.exe scripts\probe_topic.py --topic 三月女神 `
+    --alias 三轮明月 --alias 三姐妹 --alias 月宫三姐妹 --alias 三月女神
+```
+
+**关键：别名不提供，工具什么都找不到。** 隐晦线索的第一道门槛就是「先知道它可能叫什么」。
+所以 `aliases` 字段既是检索入口，也是这套方法的瓶颈所在。
 
 ## 4. 时间线
 

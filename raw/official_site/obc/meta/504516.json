@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 504516,
+  "name": "阿蕾奇诺【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038394",
+  "url": "https://baike.mihoyo.com/ys/obc/content/504516/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 504516,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:32:55+08:00",
+  "sha256": "629748f4169213fd02b9e6a759f62c19d33a2613edd3cfcf68be712f13a7ca33",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509365,
+  "name": "颂时风若",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1786507312",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509365/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509365,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:35:43+08:00",
+  "sha256": "da380178c602a4dbe38d5c650d138f3a4d00db9a75cccc0f510b98434b58db5f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

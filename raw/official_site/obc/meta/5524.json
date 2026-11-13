@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5524,
+  "name": "丘丘岩盔王【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038003",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5524/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5524,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:34:34+08:00",
+  "sha256": "4c42998d9a4556efddbcf133c17d1e43176e952b8cf9c33cc1ded68cbab1afe7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

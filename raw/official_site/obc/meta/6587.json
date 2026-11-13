@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6587,
+  "name": "刺身拼盘",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1746758902",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6587/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6587,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:43:23+08:00",
+  "sha256": "4ae62d362f44a14787a13f3d5e18b0d5702b3ccb5b592531f2549e15c1362b5b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

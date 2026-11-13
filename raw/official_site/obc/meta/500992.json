@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500992,
+  "name": "绮良良【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038264",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500992/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500992,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:33:30+08:00",
+  "sha256": "37fc6b4f82d033fbbe526b4bd58bc9df75796426eb61404cda2f6b3c972dc0c6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

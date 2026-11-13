@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6590,
+  "name": "风与自由",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1759589437",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6590/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6590,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:43:19+08:00",
+  "sha256": "2c0e5ea32f96d88f7eeb27b2dbe73d172042c41572fb96525cb4940e6b40081a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510299,
+  "name": "千柱之殿",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1793759349",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510299/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510299,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:35:14+08:00",
+  "sha256": "d21207b3ed4e64c9a699f19f7a49e04016025cd9a7e87e275fcde43a902d43e9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

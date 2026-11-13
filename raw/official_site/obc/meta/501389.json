@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501389,
+  "name": "阿佩普的绿洲守望者【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038287",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501389/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501389,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:33:22+08:00",
+  "sha256": "0e58763ff2514077fa5a7ec71707ed755f95f4c0a6a6efab4d247cfa72a301b7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

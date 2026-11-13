@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5415,
+  "name": "白缨枪",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1732242625",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5415/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5415,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:45:32+08:00",
+  "sha256": "cfd20a3e9ba736ba2c73a107f1cdfa243fc29e39139b7bfc4dd0fd95ce328521",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

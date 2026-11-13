@@ -1,10 +1,10 @@
-﻿# corpus/quests/_pending · 待补任务
+# corpus/quests/_pending · 待补任务
 
-这里放 **32** 篇「OBC 页面本身没有剧情对话」的任务页。
+这里放 **22** 篇没有可用正文的任务页。
 
 ```text
-world  20
-story  12   （全部是邀约事件）
+world    10   OBC 无剧情对话，BWiki 同名页的「任务剧情」也为空
+hangout  12   邀约事件：OBC 的「剧情对话」面板里装的是玩家攻略与结局清单，不是台词
 ```
 
 ## 特征
@@ -12,7 +12,7 @@ story  12   （全部是邀约事件）
 - 正文只有 `## 任务信息` 一节；
 - `notes` 里标 `OBC 无剧情对话，疑似系列/总览页；待 BWiki 或子任务页补全。`；
 - 它们在 SQLite 里仍作为 `doc_type=quest` 存在，`status=draft`，不影响检索，但搜不到台词；
-- subtype 已归类（邀约的 12 条是 `hangout`，不是 `story`），补全后直接移入对应目录即可。
+- subtype 已归类（10 条 `world`、12 条 `hangout`），补全后直接移入对应目录即可。
 
 ## 和 `corpus/quests/` 的区别
 
@@ -26,7 +26,21 @@ story  12   （全部是邀约事件）
 正文散在子任务页里。混在正文目录里会让「任务总数」虚高，
 也会让检索结果里出现大量空文档。单独隔离后，正文目录的含义就明确了。
 
-## 补全结论（2026-11-04）
+## 2026-11-12：原 32 条里有 10 条属误判，已补回正文
+
+第 23 步查出原 32 条中 10 条并非真的没有剧情：OBC 把台词排在 `collapse_panel` 的
+`rich_text` 里，而 `render_quest()` 当时只认 `interactive_dialogue`，整块被跳过，于是
+`notes` 记成「0 个剧情模块」。已在 `render_obc.py` 补上 `render_rich_dialogue()` 分支，
+10 条（约 9.8 万字）已移入 `corpus/quests/world/`。详见 [`HANDOFF.md`](../../../HANDOFF.md) 第 23 步。
+
+剩下的 22 条分两类，补法不同：
+
+| 类别 | 数量 | 补法 |
+|---|---:|---|
+| OBC 无剧情 | 10 | 只能接游戏数据包（`TalkConfig` / `QuestExcelConfigData`） |
+| 邀约攻略页 | 12 | 面板里是 `〓路线攻略〓`、`End1…End5` 这类玩家攻略，按「不收攻略」原则**不应**补 |
+
+## 补全结论（2026-11-04 探测，针对当时的 32 条）
 
 **BWiki 补不了这批。** 32 条逐条探测：
 
@@ -36,7 +50,7 @@ story  12   （全部是邀约事件）
 
 报告：[`exports/obc-evaluation/bwiki-stub-probe.md`](../../../exports/obc-evaluation/bwiki-stub-probe.md)。
 
-要真正补齐，只能接游戏数据包（`TalkConfig` / `QuestExcelConfigData`），属新数据源。
+要真正补齐剩余的空壳，只能接游戏数据包（`TalkConfig` / `QuestExcelConfigData`），属新数据源。
 
 ## 一条历史事故
 

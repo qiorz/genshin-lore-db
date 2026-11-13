@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505462,
+  "name": "驰轮车·跃升",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1750212672",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505462/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505462,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:38:22+08:00",
+  "sha256": "2cfa8689f204e708aec8fe1fadc3263d932d7a5cbb52ab34fceff35725c638c4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

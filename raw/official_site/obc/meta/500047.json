@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500047,
+  "name": "脉冲的魔女",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1728440495",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500047/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500047,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:42:22+08:00",
+  "sha256": "7a226e295b395dff37ed019e5a78903c0405254c59f41218403af2a716f29cfe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

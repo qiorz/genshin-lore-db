@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502960,
+  "name": "炽热骗骗花",
+  "menu_id": "0",
+  "menu_name": "魔物牌",
+  "page_version": "1728635660",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502960/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502960,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:30:41+08:00",
+  "sha256": "052562870bb2998a4ecc6105b5f5a1b51fcd9c6decf5f9f26ee51c4d838c93fe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -27,6 +27,10 @@ tags: [知识层种子]
 - [[quest.obc.504033]]：关于「天理」与「影子」的立场…
 - [[quest.obc.509534]]：是用来与「天理」进行决战的武器，对么
 
+## 相关推论（1）
+
+- **天理与天空岛：外来的秩序强加者，还是世界的创造者**（较可能；7 条证据）→ `knowledge/theories/theory.sky-isle-and-celestia.md`
+
 ## 待考
 
 - 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。

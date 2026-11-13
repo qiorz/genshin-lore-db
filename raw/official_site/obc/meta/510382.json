@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510382,
+  "name": "安如磐石",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1794191128",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510382/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510382,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-13T00:10:51+08:00",
+  "sha256": "bb55d642548541277281bd4088c27155177d7ad49eb6b8c46280d3b3f2c9fd68",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

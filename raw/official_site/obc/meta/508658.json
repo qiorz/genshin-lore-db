@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508658,
+  "name": "雷风祝佑·罡风",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1779244380",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508658/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508658,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:36:22+08:00",
+  "sha256": "e33db0b1b0a54aeba8c3ccd99d73f6b44ae1f646572ced5960678b80e784a0bb",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505694,
+  "name": "奇想天开捕物帐",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1766586977",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505694/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505694,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:38:11+08:00",
+  "sha256": "4a8526d974f8ff27041eea534c1f85af2b73defb5012f4b258e314479a5c4127",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

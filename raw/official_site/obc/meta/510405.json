@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510405,
+  "name": "先使大地张开裂口",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1794363274",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510405/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510405,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-13T00:10:40+08:00",
+  "sha256": "baca4324c46e04c67f85a51298eb86189ecd59a720ecfbdb6a459f529a455eb6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

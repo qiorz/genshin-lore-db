@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6323,
+  "name": "荒泷第一",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1688714780",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6323/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6323,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:43:42+08:00",
+  "sha256": "8992bea0ca0fc89bd3dd20a1f43f5f4a52a5937a13ecb59e9e97230b75e13815",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

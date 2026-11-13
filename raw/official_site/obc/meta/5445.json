@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5445,
+  "name": "流火焦灼",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1717554044",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5445/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5445,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:44:57+08:00",
+  "sha256": "d0ad5f8202eed10a100f91242d0bdd483f00614e9b8732341fb88c174283a84b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

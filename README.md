@@ -2,7 +2,7 @@
 
 > 目标：把分散在游戏内文本、米游社、Wiki 中的原神叙事资料，整理成一个**本地、可检索、可追溯、可校正**的私人研究库。
 >
-> 当前状态：**书籍 92 篇、任务 1,065 篇、散落文本 705 条、角色 136 个、武器 252 把、圣遗物 63 套、活动 47 篇、观景点 264 篇、材料/食物/动物/道具 2,622 条、NPC 对话/逸闻/彩蛋 2,401 篇、官方公告 55 篇，全部归档在 `corpus/` 下；另有 32 条 OBC 无剧情的空壳任务隔离在 `corpus/quests/_pending/`，1,558 条成就做成 CSV 索引。数据库共 7,734 篇文档、453,939 个段落，可随时从 Markdown 全量重建。**
+> 当前状态：**书籍 92 篇、任务 1,075 篇、散落文本 705 条、角色 136 个、武器 252 把、圣遗物 63 套、活动 47 篇、观景点 264 篇、材料/食物/动物/道具 2,622 条、NPC 对话/逸闻/彩蛋 2,401 篇、官方公告 55 篇、七圣召唤牌面 795 张，全部归档在 `corpus/` 下；另有 22 条空壳任务隔离在 `corpus/quests/_pending/`（10 条 OBC 无剧情 + 12 条邀约攻略页），1,558 条成就做成 CSV 索引。数据库共 8,529 篇文档、465,184 个段落，可随时从 Markdown 全量重建。**
 >
 > 本地 Web UI：**http://127.0.0.1:8765/**（双击项目根目录的 `start.cmd` 启动，`stop.cmd` 停止；细节见 [`webui/README.md`](webui/README.md)）
 >
@@ -94,7 +94,8 @@ genshin-lore-db/
 │  ├─ geography/              <- 地理志、地区文本
 │  ├─ events/                 <- 活动剧情/活动设定
 │  ├─ notices/                <- 官方公告、版本说明（55 篇）
-│  └─ manga/                  <- 官方漫画文本（未做）
+│  ├─ cards/                  <- 七圣召唤牌面（角色牌/行动牌/魔物牌，795 张）
+│  └─ manga/                  <- 官方漫画文本（暂缓：2026-11-12 决定不做）
 ├─ knowledge/                 <- 人工知识层
 │  ├─ entities/               <- 人物、国家、组织、地点、概念、生物
 │  ├─ events/                 <- 事件条目
@@ -132,7 +133,7 @@ genshin-lore-db/
 | P2 | NPC 全部对话 | 噪声大、重复多，最后再做 |
 | P2 | 漫画、PV 文本 | 跨媒介，需单独标注 |
 
-> 进度：上表除「漫画、PV 文本」外已全部落地；官方公告与 NPC 对话于第 6 步补齐。
+> 进度：上表除「漫画、PV 文本」（2026-11-12 决定暂缓）外已全部落地；官方公告与 NPC 对话于第 6 步补齐，七圣召唤牌面于第 25 步补齐。
 > 详见 [`HANDOFF.md`](HANDOFF.md)。
 
 详细试点清单见 [`docs/04-首批试点.md`](docs/04-首批试点.md)。
@@ -193,14 +194,14 @@ source:
 ## 8. 下一步
 
 1. **书籍已归档**：92 本在 `corpus/books/`，`503` 重复卷跳过。
-2. **正文层已闭合**：705 条散落文本在 `corpus/scattered/`，1,065 条有正文任务在 `corpus/quests/`，32 条 OBC 空壳任务隔离在 `corpus/quests/_pending/`；`exports/obc-batch/` 已清空。Git 已初始化，数据库有备份。
+2. **正文层已闭合**：705 条散落文本在 `corpus/scattered/`，1,075 条有正文任务在 `corpus/quests/`，22 条空壳任务隔离在 `corpus/quests/_pending/`；`exports/obc-batch/` 已清空。Git 已初始化，数据库有备份。
 3. **任务结构已理清**：邀约归 `hangout/`、间章归 `interlude/`，18 篇系列页加 `系列任务` 标签，重复组逐组判定（`manifests/duplicates.csv`）。
-4. **剩余尾巴**：32 条空壳只能从游戏数据包补（BWiki 也没有）；11 个多幕系列页是否拆分需先定规范。
+4. **剩余尾巴**：22 条空壳里 10 条只能从游戏数据包补（BWiki 也没有），另 12 条是邀约攻略页、按原则不补；11 个多幕系列页是否拆分需先定规范。
 5. **补缺口**：《白之公主与六侏儒》其余卷、书籍 1158 版本、479 条散落文本版本；任务版本已补齐。
 6. **武器/圣遗物已完成**：252 把武器 + 63 套圣遗物入库，版本由 BWiki 补齐，244/315 与 BWiki 逐字一致。
 7. **活动/成就已处理**：275 条活动里 47 条有叙事，已归档；1,558 条成就做成 CSV，不进正文层。
 8. **地理/物品已完成**：观景点 264 篇、区域做成 `regions.csv`；材料/食物/动物/道具 2,622 条入库（版本全部 unknown）。
-9. **剩下 P3**：官方公告、漫画、NPC 对话、七圣召唤。
+9. **P3 已收口**：漫画、PV / 过场动画文本已于 2026-11-12 决定暂缓；官方公告、NPC 对话、七圣召唤牌面均已补齐。
 10. **最后做知识层**：实体、关系、时间线、claims，不要反过来先画图。
 
 具体拆解见 [`docs/03-实施路线图.md`](docs/03-实施路线图.md)。
@@ -250,7 +251,7 @@ source:
 - [`corpus/items/README.md`](corpus/items/README.md)：材料/食物/动物/道具只收描述、版本为何未知
 - [`manifests/achievements.csv`](manifests/achievements.csv)：1,558 条成就索引
 - [`manifests/regions.csv`](manifests/regions.csv)：71 个区域的任务/怪物/素材索引
-- [`corpus/quests/_pending/README.md`](corpus/quests/_pending/README.md)：32 条空壳任务说明
+- [`corpus/quests/_pending/README.md`](corpus/quests/_pending/README.md)：22 条空壳任务说明
 - [`corpus/characters/index.csv`](corpus/characters/index.csv)：136 个角色正文索引
 - [`corpus/books/index.csv`](corpus/books/index.csv)：92 本书的版本/地区索引
 

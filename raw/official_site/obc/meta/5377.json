@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5377,
+  "name": "元素共鸣：交织之冰",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1755483611",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5377/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5377,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:46:10+08:00",
+  "sha256": "93553b83b4801753a7af63a0c7689501e0343b5ac4d319309c21393ea8c4e7cd",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

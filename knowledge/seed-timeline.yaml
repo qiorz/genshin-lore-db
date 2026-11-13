@@ -1,0 +1,101 @@
+# 纪年事件：只收「本地语料能逐字证实」的条目。
+#
+# 规则（2026-11-13 定）：
+#   - 每条必须有 doc + quote，quote 要能在该文档里解析到具体段落；
+#   - 时间只写原文给的形态（「年岁」级、「两千年前」级），不换算成精确年份；
+#     BWiki 的「3700年前」「2600年前」在语料中查无出处，一律不收；
+#   - **「原初四影」已更正（2026-11-13）**：原文作「原初的那一位和其他三位发光的影子」
+#     （见 knowledge/allusions.yaml · allusion.primordial-and-three-shadows），
+#     1 位原初 + 3 位影子的结构成立，只是「原初四影」是社区命名而非原文用词，可采；
+#   - certainty: exact（原文给了明确数字）/ approximate（原文是约数）/ relative（只能排先后）。
+#
+# sort_key 负数为「主线之前」，数值越小越早。既有条目在 -80 至 -3 区间。
+
+events:
+  - id: event.recorder-and-sovereign
+    name: 记述者与始源之龙
+    doc: artifact.obc.508651
+    quote: 古老者的族裔奋起反抗，在接下来的数百万年里相继征服了时间与空间
+    sort_key: -200
+    label: 太古 · 记述者与始源之龙
+    relative_time: 太古，提瓦特形成之初
+    certainty: relative
+    time_certainty: relative
+    description: >-
+      不朽身躯沉眠于构装天盘、灵智在虚空中流荡的记述者，注意到某个不起眼的小世界，
+      以及伴随世界诞生、被职责禁锢在行星地表的始源之龙（尼伯龙根）。她邀请龙弃置
+      这个注定毁灭的世界、与她同游星海；龙拒绝，立誓引领众生行往群星，并约定重逢。
+    spoiler: 3
+
+  - id: event.void-moon-rises
+    name: 空月升起
+    doc: artifact.obc.506172
+    quote: 那是霜色的柔光早已如银镜般破碎，而新月尚未升起的年岁
+    sort_key: -190
+    label: 太古 · 空月升起
+    relative_time: 空月升起之前
+    certainty: relative
+    time_certainty: relative
+    description: >-
+      初始之龙以指爪捻起游空之土，升起空月代行周流运作之权（生死时空），自己则前往
+      世界之外。此后三月女神的玉座空荡，龙众各行其是。
+    spoiler: 3
+
+  - id: event.throne-arrives
+    name: 王座到来 · 法涅斯与七龙王之战
+    doc: book.obc.3470
+    quote: 原初的那一位，或许是法涅斯。它生着羽翼，头戴王冠，从蛋中出生
+    sort_key: -180
+    label: 太古末期 · 王座到来
+    relative_time: 空月升起之后
+    certainty: relative
+    time_certainty: relative
+    description: >-
+      天上的永恒王座自世界外降临，「原初之人」法涅斯从蛋中出生。它向七龙王开战并取胜，
+      剥夺七龙王的一部分力量，成为新的统治者，随后改造天地：把原始的蛮荒之力与燃素
+      改造为「元素力」，又造出飞鸟走兽、花草树木与数目不可知晓的人。同时布下禁令。
+    spoiler: 3
+
+  - id: event-three-moons-concord
+    name: 三月女神与天空岛法则的和谐期
+    doc: char.obc.505973
+    quote: 在葬火之战还未发生前，受命于尼伯龙根的三月女神曾与天空岛的法则和谐共处过一段时间
+    sort_key: -170
+    label: 第一文明期 · 三月与天空岛共处
+    relative_time: 葬火之战以前
+    certainty: relative
+    time_certainty: relative
+    description: >-
+      菈乌玛回忆：葬火之战前，受命于尼伯龙根的三月女神曾与天空岛法则和谐共处。
+      天空岛的法则「一度十分宽容」。这是三月女神与后来覆灭她们的秩序之间唯一的和平期。
+    spoiler: 3
+
+  - id: event-helion-fall
+    name: 迁灭之时 · 幽蓝晶钉毁灭黄金国
+    doc: artifact.obc.506172
+    quote: 极北的冰原上，凡有血气的城邑，皆被幽蓝的晶钉尽行毁灭
+    sort_key: -160
+    label: 葬火之战 · 迁灭之时
+    relative_time: 葬火之战期间
+    certainty: relative
+    time_certainty: relative
+    description: >-
+      「一夕之间，光耀的精金塔像无花果树般倾倒；从圣城到古都，极北的冰原上，凡有血气的
+      城邑，皆被幽蓝的晶钉尽行毁灭。」受颂的圣徒与最初的神使均在灾厄后不知所踪，
+      远离诸城的幸存者瑟缩于风雪中等待灭亡。后世祷歌称此为「迁灭之时」。
+    spoiler: 3
+
+  - id: event-frostmoon-guides-remnant
+    name: 霜月女神引遗民 · 「霜月之子」由此得名
+    doc: artifact.obc.506172
+    quote: 正因如此，亥珀波瑞亚高傲的后嗣开始以「霜月之子」自称
+    sort_key: -150
+    label: 迁灭之后 · 霜月之子
+    relative_time: 迁灭之时以后
+    certainty: relative
+    time_certainty: relative
+    description: >-
+      迁灭之后，「唯有一位高天之上的主宰为凡人的苦厄垂泪，那是霜月的女主人」。传说她用
+      银白辉光纺出丝线，指引流离的遗民走出霜原，泪水落入极北冻土化作冰风中的铃兰。
+      亥珀波瑞亚的后嗣因此开始自称「霜月之子」。
+    spoiler: 3

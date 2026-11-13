@@ -472,3 +472,28 @@ main { width: min(1220px, calc(100% - 36px)); margin: 0 auto; padding: 30px 0 70
   .about-grid { grid-template-columns: repeat(2, 1fr); }
   .site-footer { width: calc(100% - 24px); }
 }
+
+/* --- 推论层 --- */
+.theory-claim { font-size: 1.02rem; line-height: 1.95; padding: 1rem 1.2rem;
+  background: var(--panel); border: 1px solid var(--line);
+  border-left: 3px solid var(--gold); border-radius: 6px; color: var(--ink); }
+.theory-ev-list { display: flex; flex-direction: column; gap: .9rem; margin: 1rem 0 1.6rem; }
+.theory-ev { border-left: 3px solid var(--line); padding: .55rem 0 .55rem 1rem; }
+.theory-ev-kind { font-size: .74rem; letter-spacing: .06em; color: var(--muted); margin-bottom: .3rem; }
+.theory-ev blockquote { margin: 0 0 .4rem; padding: 0; border: 0; font-size: .96rem; line-height: 1.8; color: var(--ink); }
+.theory-ev.kind-direct{ border-left-color: var(--green); }
+.theory-ev.kind-direct .theory-ev-kind{ color: var(--green); }
+.theory-ev.kind-implied{ border-left-color: var(--gold); }
+.theory-ev.kind-implied .theory-ev-kind{ color: var(--gold); }
+.theory-ev.kind-corroboration{ border-left-color: var(--blue); }
+.theory-ev.kind-corroboration .theory-ev-kind{ color: var(--blue); }
+.theory-ev.kind-counter{ border-left-color: var(--red); }
+.theory-ev.kind-counter .theory-ev-kind{ color: var(--red); }
+
+/* --- 搜索结果中的推论命中 --- */
+.theory-hit { margin: 1.2rem 0; padding: .9rem 1.2rem; background: var(--panel); border-radius: 8px; border-left: 3px solid #8a6a33; }
+.theory-hit-head h2 { margin: 0 0 .15rem; font-size: 1.02rem; }
+.theory-hit-head p { margin: 0 0 .55rem; font-size: .8rem; color: #8a8378; }
+.theory-hit-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .4rem; }
+.theory-hit-list li { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; flex-wrap: wrap; }
+.theory-hit-counter { color: #8a4646; }

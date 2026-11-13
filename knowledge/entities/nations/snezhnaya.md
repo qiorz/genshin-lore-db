@@ -30,6 +30,10 @@ tags: [知识层种子]
 
 - [[quest.obc.533]]：被至冬国的女皇赐予了神灵般的权柄
 
+## 相关推论（1）
+
+- **至冬的严寒不是自古如此：亥珀波瑞亚的陷落**（推测；7 条证据）→ `knowledge/theories/theory.hyperborea-winter.md`
+
 ## 待考
 
 - 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。

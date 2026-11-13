@@ -27,6 +27,10 @@ tags: [知识层种子]
 - [[quest.obc.501464]]：提瓦特的地脉中流淌着「记忆」…
 - [[quest.obc.4008]]：嗯，对我来说，矿石也有「记忆」
 
+## 相关推论（1）
+
+- **世界树、地脉、记忆：同一套系统的三层**（较可能；6 条证据）→ `knowledge/theories/theory.leyline-memory.md`
+
 ## 待考
 
 - 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 502903,
+  "name": "竹星",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1728440363",
+  "url": "https://baike.mihoyo.com/ys/obc/content/502903/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 502903,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:39:34+08:00",
+  "sha256": "cfce7247de84815817205ef008a9728ef84e5fbc2686e2a15463a2991d212571",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500990,
+  "name": "夏洛蒂【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038251",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500990/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500990,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:33:32+08:00",
+  "sha256": "a4801dd97c4bd2275c7b01778b41b3540acc49936d9285208be36cf97e61fac1",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

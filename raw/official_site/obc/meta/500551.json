@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500551,
+  "name": "遗迹守卫",
+  "menu_id": "0",
+  "menu_name": "魔物牌",
+  "page_version": "1761557130",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500551/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500551,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:46:31+08:00",
+  "sha256": "d2070acca5d55e83eaf5556fe3f031cba92852bb900b210644874df994dcc3ce",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

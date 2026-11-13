@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510392,
+  "name": "晶如鳞石的空窟",
+  "menu_id": "0",
+  "menu_name": "观景点",
+  "page_version": "1794191780",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510392/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510392,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-13T00:11:38+08:00",
+  "sha256": "3ed369ea9db2a7cf0bf6d335fdb8176cd776da83b91ff22ccb2dc129dad2f95f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5598,
+  "name": "野伏·阵刀番",
+  "menu_id": "0",
+  "menu_name": "魔物牌",
+  "page_version": "1694074778",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5598/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5598,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:47:02+08:00",
+  "sha256": "e19f7855f225ca4df6dcc02302f81326555d93bf4b209a36b6b73a6d9da50b96",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,6 +1,6 @@
-﻿# corpus/quests · 任务正文
+# corpus/quests · 任务正文
 
-当前收录 **1,065** 篇有正文的任务/系列任务，另 **32** 篇 OBC 无剧情的空壳页在 `_pending/` 等补。按 subtype 分目录：
+当前收录 **1,075** 篇有正文的任务/系列任务，另 **22** 篇没有可用正文的任务页在 `_pending/` 等补。按 subtype 分目录：
 
 ```text
 corpus/quests/
@@ -11,7 +11,7 @@ corpus/quests/
 ├─ world/      世界任务（622）
 ├─ event/      限时/活动任务（288）
 ├─ other/      其他（6）
-├─ _pending/   32 篇 OBC 无剧情对话的空壳页
+├─ _pending/   22 篇无可用正文的任务页（10 条 OBC 无剧情 + 12 条邀约攻略页）
 └─ index.csv
 ```
 
@@ -31,7 +31,7 @@ doc_id,title,subtype,region,version,path
 
 ## 已知问题
 
-- **32 条空壳补不了**：OBC 无正文，BWiki 同名页面的「任务剧情」也为空（3 个挂 `{{待补充}}`）。
+- **22 条空壳补不了**：其中 10 条 OBC 无正文、BWiki 同名页面的「任务剧情」也为空（3 个挂 `{{待补充}}`）；另 12 条是邀约攻略页，面板里装的是玩家攻略，按「不收攻略」原则不补。
   探测报告：[`exports/obc-evaluation/bwiki-stub-probe.md`](../../exports/obc-evaluation/bwiki-stub-probe.md)。
   要补齐只能接游戏数据包（`TalkConfig` / `QuestExcelConfigData`）。
 - **多幕文件未拆分**：规范允许「一个系列一篇」，若要严格「一篇一幕」，需先定合成 doc_id 规则。

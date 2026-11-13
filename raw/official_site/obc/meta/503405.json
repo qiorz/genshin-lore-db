@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503405,
+  "name": "暝视龙",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1732072125",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503405/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503405,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:39:13+08:00",
+  "sha256": "b75830eb5200d5669dca668d1f7648e5f3438abee0a80f44b13b613329511d39",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

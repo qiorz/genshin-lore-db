@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6623,
+  "name": "心识蕴藏之种",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1693202652",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6623/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6623,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:42:43+08:00",
+  "sha256": "a6c2da7dd0ac693c545714879483a51d41e7b0c7de171d1e13da8d862328c781",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5366,
+  "name": "宵宫【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787036503",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5366/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5366,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:34:48+08:00",
+  "sha256": "cd689896b5641fada0b2f78b496aeba37fd513b8593801520e8082dfde4b186d",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

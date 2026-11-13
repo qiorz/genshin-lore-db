@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6606,
+  "name": "天守阁",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1687837107",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6606/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6606,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:43:02+08:00",
+  "sha256": "50207bb41c9bce763f94ae5e1442a206b6423a5cf561f6f94e3a2602f9889ab4",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501315,
+  "name": "大型水史莱姆",
+  "menu_id": "0",
+  "menu_name": "魔物牌",
+  "page_version": "1717338624",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501315/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501315,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:46:22+08:00",
+  "sha256": "941d04d4a37536547f3b0b1abbae5c7a1cc414e36beb2ed4ae228e2e3d17e1f7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

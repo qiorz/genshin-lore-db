@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501447,
+  "name": "歼灭特化型机关",
+  "menu_id": "0",
+  "menu_name": "魔物牌",
+  "page_version": "1717725677",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501447/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501447,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:46:13+08:00",
+  "sha256": "af1c64abc6d62aa48885d32cd4daca4e9b0686b0dbca14b44b715f3390a8777b",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -180,7 +180,12 @@ def main() -> int:
         jieba.load_userdict(str(args.terms))
 
     con = sqlite3.connect(args.db)
-    con.execute("PRAGMA foreign_keys = ON")
+    # 重建 sections 会重新分配 section_id，而 entity_evidence / theory_evidence 用
+    # section_id 做外键。若开着外键检查，DELETE FROM sections 会因引用而失败；
+    # 即使强行删掉，旧引用也会指向错误的段落。所以这里关掉外键，
+    # **入库后必须重跑 load_knowledge.py --apply 与 load_theories.py --apply**，
+    # 它们会用 doc_id + 引文重新解析 section_id。
+    con.execute("PRAGMA foreign_keys = OFF")
     con.execute("PRAGMA temp_store = MEMORY")
     if args.bulk:
         con.execute("PRAGMA synchronous = OFF")

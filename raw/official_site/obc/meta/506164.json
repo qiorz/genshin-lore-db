@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506164,
+  "name": "旁白的注脚",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1757384005",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506164/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506164,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:37:55+08:00",
+  "sha256": "f04ba650f574adbce4831e35a2702e5fed278f772e76964155820aaa94b8850a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

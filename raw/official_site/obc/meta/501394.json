@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501394,
+  "name": "芙宁娜·荒【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038301",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501394/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501394,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:33:19+08:00",
+  "sha256": "df8f390b71f61b768c689bd87cedf9dc33390678519e6b80b79b53ac1aa2a803",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

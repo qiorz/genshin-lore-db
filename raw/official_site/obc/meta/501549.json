@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501549,
+  "name": "卢蒂妮的声援",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1721183048",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501549/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501549,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:40:11+08:00",
+  "sha256": "4f77ebd6fa886535b4cafdec6e45dbc2031346a77c35a4e5b1fc63b8a8080dab",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

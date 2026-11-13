@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505690,
+  "name": "折纸胖胖鼠",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1753841807",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505690/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505690,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:38:14+08:00",
+  "sha256": "eedd38b4b71b82021ec5a66d1d742aa2e9db8ede340ce0be1809d293fee4d314",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

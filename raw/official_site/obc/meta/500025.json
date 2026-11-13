@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500025,
+  "name": "旧时庭园",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1703039404",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500025/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500025,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:42:31+08:00",
+  "sha256": "8657c01078540f6461cf8ca73ca34e61e268bcc40acd586ea25dc0ce9a327307",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

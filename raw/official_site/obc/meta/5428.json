@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5428,
+  "name": "冰风迷途的勇士",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1710295797",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5428/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5428,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:45:17+08:00",
+  "sha256": "e2e3e9343fce7877e195251ae5620db86c43e3bfd7788fd929e37c6f2fbb0383",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

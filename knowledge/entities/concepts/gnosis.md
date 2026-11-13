@@ -27,6 +27,10 @@ tags: [知识层种子]
 
 - [[quest.obc.533]]：是更高位的元素控制中枢，是七神之座的象征
 
+## 相关推论（1）
+
+- **七执政是可更换的「岗位」，不是永恒的神位**（较可能；6 条证据）→ `knowledge/theories/theory.seven-archons-turnover.md`
+
 ## 待考
 
 - 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。

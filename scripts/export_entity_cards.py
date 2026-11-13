@@ -150,6 +150,23 @@ def main() -> int:
         evidence_lines = [f"- {doc_link(ev['doc'])}：{ev['quote']}"
                           for ev in item.get("evidence") or []]
 
+        # 相关推论：由 theory_entities 反向查（推论层是独立一批，不写进 seed）
+        try:
+            theory_rows = con.execute(
+                """SELECT t.theory_id, t.title, t.confidence,
+                          (SELECT COUNT(*) FROM theory_evidence x WHERE x.theory_id=t.theory_id) n
+                   FROM theory_entities te JOIN theories t ON t.theory_id=te.theory_id
+                   WHERE te.entity_id=? ORDER BY t.theory_id""",
+                (eid,),
+            ).fetchall()
+        except sqlite3.OperationalError:
+            theory_rows = []
+        theory_lines = [
+            f"- **{r['title']}**（{CONF_LABELS.get(r['confidence'], r['confidence'])}；"
+            f"{r['n']} 条证据）→ `knowledge/theories/{r['theory_id']}.md`"
+            for r in theory_rows
+        ]
+
         pending = ["- 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。"]
         if not rels:
             pending.append("- 该实体暂无关系边，待补。")
@@ -176,6 +193,8 @@ def main() -> int:
             "\n".join(claim_lines) or "- 暂无", "",
             f"## 证据（{len(evidence_lines)}）", "",
             "\n".join(evidence_lines) or "- 暂无", "",
+            f"## 相关推论（{len(theory_lines)}）", "",
+            "\n".join(theory_lines) or "- 暂无（该实体尚未与任何推论关联）", "",
             "## 待考", "",
             "\n".join(pending), "",
         ])

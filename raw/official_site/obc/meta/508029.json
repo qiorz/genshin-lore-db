@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508029,
+  "name": "循环整流引擎",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1771986969",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508029/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508029,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:36:47+08:00",
+  "sha256": "335759f504ee09836325e22c333bb7a290e36c21b468cf81e6a22fa598c40e80",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

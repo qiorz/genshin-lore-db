@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500293,
+  "name": "白术【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038185",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500293/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500293,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:33:54+08:00",
+  "sha256": "070a1062223ec1a728c983d1a93f31ff453f819f748b4dee4a30e5ce134274a9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

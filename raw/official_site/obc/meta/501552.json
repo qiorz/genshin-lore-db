@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501552,
+  "name": "希洛娜的声援",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1721183027",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501552/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501552,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:40:09+08:00",
+  "sha256": "9d2b3c92205928911884fb4fb9ecfffd4aa418fadecb0dce52a0e5ded4ffb885",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

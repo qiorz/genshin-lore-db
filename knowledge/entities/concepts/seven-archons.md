@@ -28,6 +28,11 @@ tags: [知识层种子]
 
 - [[quest.obc.533]]：人们所说的七神，更本源的称谓是「尘世七执政」
 
+## 相关推论（2）
+
+- **七执政是可更换的「岗位」，不是永恒的神位**（较可能；6 条证据）→ `knowledge/theories/theory.seven-archons-turnover.md`
+- **天理与天空岛：外来的秩序强加者，还是世界的创造者**（较可能；7 条证据）→ `knowledge/theories/theory.sky-isle-and-celestia.md`
+
 ## 待考
 
 - 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。

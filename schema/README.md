@@ -8,10 +8,11 @@
 
 ```text
 1. schema/schema.sql     核心表 + 视图
-2. schema/fts.sql        FTS5 全文索引 + 同步触发器
-3. 导入 sources.csv      数据源
-4. 导入 corpus/*.md      文档 + 段落
-5. 导入 knowledge/*.md   实体、关系、事件、时间线
+2. schema/fts.sql        FTS5 trigram 全文索引 + 同步触发器
+3. schema/migrations/006_fts_words.sql   分词索引（两字词）
+4. 导入 sources.csv      数据源
+5. 导入 corpus/*.md      文档 + 段落
+6. 导入 knowledge/*.md   实体、关系、事件、时间线
 ```
 
 用 Python 标准库即可：
@@ -131,7 +132,7 @@ sources
 - `section_type`：`heading` / `text` / `dialogue` / `option` / `note` / `quote` / `table`；
 - `speaker`：说话者；
 - `body`：原文；
-- `body_segmented`：兼容列；trigram FTS 下通常等于 `body`，不再依赖 jieba；
+- `body_segmented`：jieba 分词结果（空格分隔），供 `sections_fts_words` 做 2 字词检索；导入时不要加 `--no-segment`；
 - `spoiler_level`：段落级剧透；
 - `source_line`：原始 wikitext/HTML 行号（可选）。
 
@@ -207,18 +208,24 @@ subject + predicate + object
 
 ## 4. FTS5 与中文
 
-### 为什么用 trigram
+### 两套索引并存
 
-SQLite 默认 `unicode61` 会把连续汉字当成一个 token，查询“钟离”可能匹配不到“钟离说”。
+`unicode61` 会把连续汉字当成一个 token，所以正文建两套索引，各管一段：
 
-当前使用 FTS5 `trigram`：
+| 表 | 分词器 | 索引内容 | 负责 |
+|---|---|---|---|
+| `sections_fts` | `trigram` | `heading / body / body_segmented / speaker` | ≥3 字任意子串，精确匹配 |
+| `sections_fts_words` | `unicode61` | `body_segmented`（jieba 预分词） | 2 字词按词匹配 |
 
 ```text
-3 字以上中文子串直接 MATCH；
-2 字词由 search.py 回退到 LIKE。
+>= 3 字 → sections_fts（trigram，任意子串）
+   2 字 → sections_fts_words（unicode61 + jieba，按词）
+   1 字 / 两套都没命中 → LIKE 兜底
 ```
 
-`body_segmented` 保留为兼容列，trigram 下通常等于 `body`，不再要求 jieba。
+`body_segmented` 必须是 **jieba 分词结果**（空格分隔），否则 `sections_fts_words`
+只会在整段文字上建一个 token。导入时**不要加 `--no-segment`**。
+建表语句见 `migrations/006_fts_words.sql`。
 
 ### 查询示例
 
@@ -243,7 +250,18 @@ LIMIT 20;
 ```
 
 ```sql
--- 兜底：两字词或 FTS 不可用时
+-- 中文 2 字：走分词索引，带 bm25 相关性排序
+SELECT d.title, s.speaker, s.body
+FROM sections_fts_words f
+JOIN sections s ON s.section_id = f.rowid
+JOIN documents d ON d.doc_id = s.doc_id
+WHERE sections_fts_words MATCH '"钟离"'
+ORDER BY bm25(sections_fts_words)
+LIMIT 20;
+```
+
+```sql
+-- 兜底：单字查询，或两套索引都没命中
 SELECT d.title, s.speaker, s.body
 FROM sections s
 JOIN documents d ON d.doc_id = s.doc_id
@@ -274,7 +292,10 @@ manifests/terms.txt
 深渊教团
 ```
 
-`manifests/terms.txt` 仍保留为人工专名表，trigram 检索不依赖它；如以后换回分词方案可继续使用。
+`manifests/terms.txt` 现在是 **jieba 用户词典**，直接影响 2 字词能否被切成一个 token。
+目前 3,967 条，由实体规范名、别名与说话人汇总而成（见 `HANDOFF.md` 第 24 步）。
+只收纯汉字/间隔号构成的词；编号（`CL-01`）、占位符（`??`）、带标点的句子一律过滤，
+否则 jieba 会切出怪词。
 
 ---
 
@@ -338,7 +359,7 @@ SELECT * FROM v_duplicate_hashes;
 - 每次改 `schema.sql`，新增 `schema/migrations/00X-*.sql`；
 - 已应用：`001_add_version_provenance.sql`（`version_source` / `version_confidence`）；
 - 已应用：`002_allow_duplicate_hashes.sql`（同文异址可共存）；
-- 已应用：`003_fts_trigram.sql`（FTS5 改为 trigram，去掉 jieba 依赖）；
+- 已应用：`003_fts_trigram.sql`（FTS5 改为 trigram）、`006_fts_words.sql`（新增 unicode61 分词索引，两字词可检索）；
 - 已应用：`004_index_sections_parent.sql`（`sections.parent_id` 索引，修复重载大文档的级联删除性能）；
 - 已应用：`005_add_entity_evidence.sql`（新增 `entity_evidence`：实体级原文出处，与 `claims` 分工）；
 - 升级前备份 `db/genshin_lore.sqlite3`；

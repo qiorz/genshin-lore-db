@@ -27,6 +27,11 @@ tags: [知识层种子]
 - [[quest.obc.7609]]：并非是所有宇宙外到来的事物都能被叫做「降临」或者「变量」
 - [[char.obc.1057]]：悄然降临到这枚古老的教具中…
 
+## 相关推论（2）
+
+- **降临者：不属于这个世界规则的「变数」**（较可能；7 条证据）→ `knowledge/theories/theory.descender-variable.md`
+- **提瓦特曾有三轮明月（三月女神）**（较可能；23 条证据）→ `knowledge/theories/theory.moon-sisters.md`
+
 ## 待考
 
 - 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。

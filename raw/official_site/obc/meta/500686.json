@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500686,
+  "name": "托马【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038243",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500686/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500686,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:33:34+08:00",
+  "sha256": "9d97407337e8f7c412975865e3f13d1d450279b3adfd511ab3b4039163de8c9a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

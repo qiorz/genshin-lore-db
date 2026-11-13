@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5475,
+  "name": "甜甜花酿鸡",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1746758952",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5475/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5475,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:44:34+08:00",
+  "sha256": "2854059782767f8ffe8693ff24ac566f0c979c495cbe810e7cb158447f670527",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500459,
+  "name": "和璞鸢",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1703039374",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500459/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500459,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:41:29+08:00",
+  "sha256": "344fb7607db9640e1fc0febfa69addfbe12111a1e27d9da983752621c392a929",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

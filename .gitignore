@@ -22,6 +22,8 @@ jieba.cache
 pip-ephem-wheel-cache-*/
 
 # Scratch probes / id dumps (reproducible from channel lists)
+# 词频挖掘的中间产物，可由 scripts/mine_concepts.py 重跑；噪声大，不入库
+manifests/concept-candidates.csv
 .probe*.py
 .retry_*.py
 .ids-*.txt

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505680,
+  "name": "预言女神的礼物",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1753841686",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505680/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505680,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:38:18+08:00",
+  "sha256": "b034215e8a9123bec1e8b1af789cd74574ddf72e5384c4d4d8e8def117a35ce6",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

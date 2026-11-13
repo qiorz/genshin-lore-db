@@ -20,12 +20,45 @@ ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_DB = ROOT / "db" / "genshin_lore.sqlite3"
 
 
-def fts_query(text: str) -> str:
+_JIEBA = None
+
+
+def _load_jieba():
+    """按需加载 jieba 与自定义词典（只用得到两字查询时才付出这 1 秒）。"""
+    global _JIEBA
+    if _JIEBA is None:
+        import jieba
+
+        terms = ROOT / "manifests" / "terms.txt"
+        if terms.exists():
+            jieba.load_userdict(str(terms))
+        _JIEBA = jieba
+    return _JIEBA
+
+
+def fts_candidates(text: str) -> list[tuple[str, str]]:
+    """按优先级给出 (表名, MATCH 表达式) 候选。
+
+    两字词先试整词匹配：词典内的词（钟离、璃月…）分词后就是一个 token，
+    直接命中，省掉 jieba 启动的近 1 秒。整词没结果时再由调用方补一次
+    分词匹配（见 segmented_match），最后才是 LIKE 兜底。
+    """
     text = (text or "").strip()
-    if len(text) < 3:
+    quoted = '"' + text.replace('"', '""') + '"'
+    if len(text) >= 3:
+        return [("sections_fts", quoted)]
+    if len(text) == 2:
+        return [("sections_fts_words", quoted)]
+    return []
+
+
+def segmented_match(text: str) -> str:
+    """两字词整词没命中时，用 jieba 切成词再拼 phrase 试一次。"""
+    jieba = _load_jieba()
+    toks = [t for t in jieba.cut_for_search(text) if t.strip()]
+    if len(toks) <= 1:
         return ""
-    escaped = text.replace('"', '""')
-    return f'"{escaped}"'
+    return '"' + " ".join(t.replace('"', '""') for t in toks) + '"'
 
 
 def snippet(text: str, query: str, width: int = 120) -> str:
@@ -67,27 +100,41 @@ def main() -> int:
     where = " AND ".join(filters)
 
     rows: list[sqlite3.Row] = []
-    match = fts_query(args.query)
-    if match:
+
+    def run_fts(table: str, match_expr: str) -> list[sqlite3.Row]:
+        return con.execute(
+            f"""
+            SELECT d.doc_id, d.title, d.doc_type, d.region, d.version,
+                   s.speaker, s.body, s.section_id,
+                   COALESCE(ds.url, d.source_url) AS source_url
+            FROM {table} f
+            JOIN sections s ON s.section_id = f.rowid
+            JOIN documents d ON d.doc_id = s.doc_id
+            LEFT JOIN document_sources ds
+                ON ds.doc_id = d.doc_id AND ds.is_primary = 1
+            WHERE {table} MATCH ? AND {where}
+            ORDER BY d.spoiler_level, bm25({table}), d.doc_id, s.ordinal
+            LIMIT ?
+            """,
+            [match_expr, *params, args.limit],
+        ).fetchall()
+
+    for table, fts_match in fts_candidates(args.query):
         try:
-            rows = con.execute(
-                f"""
-                SELECT d.doc_id, d.title, d.doc_type, d.region, d.version,
-                       s.speaker, s.body, s.section_id,
-                       COALESCE(ds.url, d.source_url) AS source_url
-                FROM sections_fts f
-                JOIN sections s ON s.section_id = f.rowid
-                JOIN documents d ON d.doc_id = s.doc_id
-                LEFT JOIN document_sources ds
-                    ON ds.doc_id = d.doc_id AND ds.is_primary = 1
-                WHERE sections_fts MATCH ? AND {where}
-                ORDER BY d.spoiler_level, d.doc_id, s.ordinal
-                LIMIT ?
-                """,
-                [match, *params, args.limit],
-            ).fetchall()
+            rows = run_fts(table, fts_match)
         except sqlite3.OperationalError as exc:
             print(f"FTS query failed, falling back to LIKE: {exc}", file=sys.stderr)
+        if rows:
+            break
+
+    # 两字词整词没命中（不在词典里、被切成两个 token），再用 jieba 切一次查询词。
+    if not rows and len(args.query.strip()) == 2:
+        seg_expr = segmented_match(args.query.strip())
+        if seg_expr:
+            try:
+                rows = run_fts("sections_fts_words", seg_expr)
+            except sqlite3.OperationalError:
+                pass
 
     if not rows:
         rows = con.execute(

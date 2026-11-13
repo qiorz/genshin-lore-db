@@ -1,5 +1,5 @@
-﻿target_id,category,scope,priority,source_hint,status,notes
-main_story,剧情,全部魔神任务：序章、各章、间章、终章,P0,观测枢（BWiki 校验）,partial,"任务 1,097 条；1,065 有正文；32 空壳在 _pending；含系列/子页混合"
+target_id,category,scope,priority,source_hint,status,notes
+main_story,剧情,全部魔神任务：序章、各章、间章、终章,P0,观测枢（BWiki 校验）,partial,"任务 1,097 条；1,075 有正文；22 空壳在 _pending；含系列/子页混合"
 story_quests,剧情,全部传说任务,P0,观测枢（BWiki 校验）,partial,"含在 1,101 条任务中；未按幕做最终审计"
 world_quests,剧情,全部世界任务/地图事件/隐藏任务,P1,观测枢（BWiki 校验）,partial,"含在 1,101 条任务中；50 条缺正文"
 event_quests,剧情,限时活动剧情/活动任务,P1,观测枢 + 米游社,partial,"含在 1,101 条任务中；活动频道未单独入库"
@@ -20,5 +20,7 @@ official_notices,公告,"版本更新、活动公告、开发者说明",P1,米�
 entities,知识层,核心实体：人物/国家/组织/地点/概念,P1,半自动+人工,partial,"400 个实体 / 474 个名字：character 191、location 62、concept 43、organization 35、creature 29、event 18、deity 14、nation 8；400 个全部 reviewed，其余 340 个 status=draft 待复核；已按类拆成 knowledge/entities/**.md"
 relations,知识层,实体关系,P2,半自动+人工,partial,"198 条：181 条实体关系（member_of 60 / located_in 65 / based_in 31 / held_in 10 / sibling_of 5 / student_of 7 等）+ 17 条事件参与；覆盖 197 个实体；机器出候选、人工剔除并注明理由，见 seed-stage2/6/8.yaml"
 claims,知识层,争议说法/不可靠叙述/不同视角,P2,半自动+人工,partial,"364 条：10 条人工 + 223 条角色语音 + 131 条对话/传闻（55 评价 likely、76 传闻 speculative）（主语/谓词/视角/原话齐全，覆盖 65 个实体）；同批置信度统一 likely，因为它是某个角色的说法"
-manga,跨媒介,官方漫画文本,P3,官网/米游社,planned,未开始
+seven_summons,跨媒介,"七圣召唤牌面（角色牌/行动牌/魔物牌）",P3,观测枢 卡牌图鉴,done,"795 张入 corpus/cards；角色牌 150 / 行动牌 584 / 魔物牌 61；doc_type=other + subtype=card"
+manga,跨媒介,官方漫画文本,P3,官网/米游社,deferred,"2026-11-12 决定暂缓：以图片为主，可收的叙事文本有限"
+pv_text,跨媒介,PV / 过场动画文本,P3,视频字幕,deferred,"2026-11-12 决定暂缓：本质是视频，无稳定文本源，需人工转录"
 npc_dialogue,文本,NPC 全部对话,P3,观测枢 NPC&商店/角色逸闻/角色彩蛋,done,"2,525 条 entry 全落盘；2,401 篇入 corpus/voices；124 条无对话见 npc-skip.csv"

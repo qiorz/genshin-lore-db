@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506923,
+  "name": "瓦雷莎【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038472",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506923/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506923,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:32:32+08:00",
+  "sha256": "748e5a05111b502b87947d4557e22f5354a4e9a32814e3299b8651b0d6c03e59",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500431,
+  "name": "琳妮特【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038206",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500431/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500431,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:33:46+08:00",
+  "sha256": "71f8a6a4916ce34f62c27301a0119dc814ee85fee7c740dcf0cdcd89eef27b5a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

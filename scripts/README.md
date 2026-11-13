@@ -8,8 +8,13 @@
 | `Search-Corpus.ps1` | 在 `corpus/` 中做 Markdown 全文搜索 | PowerShell 5.1+ |
 | `fetch_obc.py` | 抓观测枢 entry_page / search / channel_tree | Python 3.11+ |
 | `render_obc.py` | entry_page → Markdown 草稿（任务/书籍/角色/散落文本/武器/圣遗物/活动/地理/物品/NPC 对话） | Python 3.11+ |
+| `fetch_cards.py` | 批量抓七圣召唤牌面（233 角色牌 / 234 行动牌 / 235 魔物牌） | Python 3.11+ |
+| `render_cards.py` | 七圣召唤牌面 → `corpus/cards/`（基础信息/技能/效果/故事） | Python 3.11+ |
 | `load_markdown.py` | Markdown → SQLite（documents/sections/FTS） | Python 3.11+ |
-| `search.py` | SQLite FTS5 命令行检索 | Python 3.11+ |
+| `search.py` | SQLite FTS5 命令行检索（≥3 字走 trigram，2 字走分词索引） | Python 3.11+ |
+| `probe_topic.py` | 按主题/别名（或 `--entity`）扫描全库，列出候选证据线索 | Python 3.11+ |
+| `audit_entity_gaps.py` | 对比「正文提及段数」与「已收证据数」，找出卡片单薄的实体 | Python 3.11+ |
+| `load_theories.py` | 推论层：`theories.yaml` → `theories`/`theory_evidence` + 卡片 | Python 3.11+ |
 | `validate_frontmatter.py` | front matter schema 校验 | Python 3.11+ |
 | `build_obc_index.py` | 从频道列表生成书籍/散落文本/任务索引 | Python 3.11+ |
 | `resolve_versions_bwiki.py` | 用 BWiki SMW 批量补书籍版本/地区 | Python 3.11+ |

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5390,
+  "name": "元素共鸣：热诚之火",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1746758627",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5390/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5390,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:45:57+08:00",
+  "sha256": "31cfa8ba11d900ceabe8c008017136190083396b90ec73172b80d192fbdb8957",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

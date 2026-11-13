@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5414,
+  "name": "狼的末路",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1687837125",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5414/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5414,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:45:33+08:00",
+  "sha256": "2df4ed16324ba93c389c611825232a2a59fc4377e8a33101af0e649de373c765",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

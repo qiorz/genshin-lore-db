@@ -347,6 +347,31 @@ def base_where(type_: str, region: str, max_spoiler: int | None, version: str) -
     return " AND ".join(filters), params
 
 
+_JIEBA = None
+
+
+def _load_jieba():
+    """两字词整词没命中时才需要 jieba；服务常驻，只加载一次。"""
+    global _JIEBA
+    if _JIEBA is None:
+        import jieba
+
+        terms = ROOT / "manifests" / "terms.txt"
+        if terms.exists():
+            jieba.load_userdict(str(terms))
+        _JIEBA = jieba
+    return _JIEBA
+
+
+def segmented_match(query: str) -> str:
+    """把两字查询切成词，拼成 phrase 交给 unicode61 索引。"""
+    jieba = _load_jieba()
+    toks = [t for t in jieba.cut_for_search(query) if t.strip()]
+    if len(toks) <= 1:
+        return ""
+    return '"' + " ".join(t.replace('"', '""') for t in toks) + '"'
+
+
 def search_docs(
     con: sqlite3.Connection,
     query: str,
@@ -376,30 +401,46 @@ def search_docs(
         ).fetchall()
         rows.extend(title_rows)
 
+        def run_fts(table: str, match_expr: str) -> list[sqlite3.Row]:
+            return con.execute(
+                f"""
+                SELECT d.doc_id, d.title, d.doc_type, d.region, d.version,
+                       d.spoiler_level, s.speaker, s.body, s.section_id,
+                       COALESCE(ds.url, d.source_url) AS source_url
+                FROM {table} f
+                JOIN sections s ON s.section_id = f.rowid
+                JOIN documents d ON d.doc_id = s.doc_id
+                LEFT JOIN document_sources ds
+                    ON ds.doc_id = d.doc_id AND ds.is_primary = 1
+                WHERE {table} MATCH ? AND {where}
+                ORDER BY d.spoiler_level, bm25({table}), d.doc_id, s.ordinal
+                LIMIT ?
+                """,
+                [match_expr, *params, limit],
+            ).fetchall()
+
+        # >=3 字用 trigram（任意子串），2 字用 jieba 分词索引（unicode61）。
+        quoted = '"' + query.replace('"', '""') + '"'
         if len(query) >= 3:
-            match = '"' + query.replace('"', '""') + '"'
             try:
-                fts_rows = con.execute(
-                    f"""
-                    SELECT d.doc_id, d.title, d.doc_type, d.region, d.version,
-                           d.spoiler_level, s.speaker, s.body, s.section_id,
-                           COALESCE(ds.url, d.source_url) AS source_url
-                    FROM sections_fts f
-                    JOIN sections s ON s.section_id = f.rowid
-                    JOIN documents d ON d.doc_id = s.doc_id
-                    LEFT JOIN document_sources ds
-                        ON ds.doc_id = d.doc_id AND ds.is_primary = 1
-                    WHERE sections_fts MATCH ? AND {where}
-                    ORDER BY bm25(sections_fts), d.doc_id, s.ordinal
-                    LIMIT ?
-                    """,
-                    [match, *params, limit],
-                ).fetchall()
-                rows.extend(fts_rows)
+                rows.extend(run_fts("sections_fts", quoted))
             except sqlite3.OperationalError:
                 pass
+        elif len(query) == 2:
+            try:
+                rows.extend(run_fts("sections_fts_words", quoted))
+            except sqlite3.OperationalError:
+                pass
+            if not any(row["section_id"] for row in rows):
+                seg = segmented_match(query)
+                if seg:
+                    try:
+                        rows.extend(run_fts("sections_fts_words", seg))
+                    except sqlite3.OperationalError:
+                        pass
 
-        if len(query) < 3 or not any(row["section_id"] for row in rows):
+        # 两套索引都没命中（或单字查询）时回退 LIKE。
+        if not any(row["section_id"] for row in rows):
             like = f"%{query}%"
             like_rows = con.execute(
                 f"""
@@ -506,6 +547,8 @@ def layout(title: str, content: str, active: str = "") -> str:
         ("/search?type=lore", "散落文本", "lore"),
         ("/search?type=character", "角色", "character"),
         ("/entities", "实体卡片", "entities"),
+        ("/theories", "推论", "theories"),
+        ("/allusions", "暗示", "allusions"),
         ("/timeline", "时间线", "timeline"),
         ("/about", "关于", "about"),
     ]
@@ -684,6 +727,28 @@ def render_search(args: dict[str, list[str]]) -> str:
     if q and total == 0:
         summary = "0 条结果"
 
+    theory_html = ""
+    if q:
+        try:
+            trows = search_theories(q)
+        except sqlite3.OperationalError:
+            trows = []
+        if trows:
+            items = []
+            for r in trows:
+                tbadge = CONFIDENCE_LABELS.get(r["confidence"], r["confidence"])
+                counter = f' · <span class="theory-hit-counter">含 {r["c"]} 条反证</span>' if r["c"] else ""
+                items.append(
+                    f'<li><a href="/theory/{quote(r["theory_id"], safe="")}">{esc(r["title"])}</a>'
+                    f'<span class="claim-tags">{esc(tbadge)} · {r["n"]} 条证据{counter}</span></li>'
+                )
+            theory_html = (
+                '<section class="theory-hit"><div class="theory-hit-head">'
+                f'<h2>相关推论（{len(trows)}）</h2>'
+                '<p>由多条证据推出的结论，按证据数排序</p></div>'
+                f'<ul class="theory-hit-list">{"".join(items)}</ul></section>'
+            )
+
     content = f"""
     <section class="hero">
       <div class="hero-kicker">GENSHIN LORE · LOCAL INDEX</div>
@@ -692,6 +757,7 @@ def render_search(args: dict[str, list[str]]) -> str:
       {search_form(q, type_, region, spoiler_raw, version, region_rows, version_rows, cov)}
       <div class="stats-line">{counts} · 段落 {st['sections']:,} · 待补任务 {st['pending']}</div>
     </section>
+    {theory_html}
     <section class="results-head">
       <div><h2>{heading}</h2><p>{summary}</p></div>
       <a class="ghost" href="/">重置</a>
@@ -994,6 +1060,222 @@ def render_entity_detail(entity_id: str) -> str | None:
     return layout(f"实体 · {row['canonical_name']}", content, "entities")
 
 
+def search_theories(query: str, limit: int = 10) -> list:
+    """按标题 / 结论 / 别名 / 证据引文匹配推论。
+
+    为什么证据引文也要搜：推论的标题未必包含读者想到的词。例如读者搜「黑玛门尼」，
+    那是某条证据里的术语，而不是推论标题——不搜引文就命中不了。
+    """
+    con = connect()
+    try:
+        like = f"%{query}%"
+        return con.execute(
+            """SELECT t.theory_id, t.title, t.claim, t.confidence,
+                      (SELECT COUNT(*) FROM theory_evidence e WHERE e.theory_id=t.theory_id) n,
+                      (SELECT COUNT(*) FROM theory_evidence e
+                        WHERE e.theory_id=t.theory_id AND e.kind='counter') c
+               FROM theories t
+               WHERE t.title LIKE ? OR t.claim LIKE ? OR t.aliases LIKE ?
+                  OR t.theory_id IN (SELECT theory_id FROM theory_evidence WHERE quote LIKE ?)
+               ORDER BY n DESC, t.theory_id LIMIT ?""",
+            (like, like, like, like, limit),
+        ).fetchall()
+    finally:
+        con.close()
+
+
+def theory_kind_label(kind: str) -> str:
+    return {
+        "direct": "直接陈述",
+        "implied": "隐晦暗示",
+        "corroboration": "旁证",
+        "counter": "反证",
+    }.get(kind, kind)
+
+
+def render_theories() -> str:
+    con = connect()
+    try:
+        rows = con.execute(
+            """SELECT t.theory_id, t.title, t.claim, t.confidence, t.status, t.spoiler_level,
+                      (SELECT COUNT(*) FROM theory_evidence e WHERE e.theory_id=t.theory_id) n,
+                      (SELECT COUNT(DISTINCT e.doc_id) FROM theory_evidence e
+                        WHERE e.theory_id=t.theory_id) docs,
+                      (SELECT COUNT(*) FROM theory_entities te
+                        WHERE te.theory_id=t.theory_id) ents,
+                      (SELECT COUNT(*) FROM theory_evidence e
+                        WHERE e.theory_id=t.theory_id AND e.kind='counter') counters
+               FROM theories t ORDER BY n DESC, t.theory_id"""
+        ).fetchall()
+    finally:
+        con.close()
+
+    cards = []
+    for r in rows:
+        badge = CONFIDENCE_LABELS.get(r["confidence"], r["confidence"])
+        cards.append(f"""
+        <article class="entity-card">
+          <div class="entity-head">
+            <h2><a href="/theory/{quote(r['theory_id'], safe='')}">{esc(r['title'])}</a></h2>
+            <span class="entity-kind">{esc(badge)}</span>
+          </div>
+          <p class="entity-desc">{esc(r['claim'][:220])}{'…' if len(r['claim']) > 220 else ''}</p>
+          <p class="entity-meta">证据 {r['n']} 条 · 跨 {r['docs']} 篇文档 · 关联实体 {r['ents']} 个
+            {f'· <span class="entity-status draft">含 {r["counters"]} 条反证</span>' if r['counters'] else ''} ·
+            <a href="/theory/{quote(r['theory_id'], safe='')}">查看推理链 →</a></p>
+        </article>""")
+
+    content = f"""
+    <section class="hero">
+      <div class="hero-kicker">THEORY LAYER · 推论</div>
+      <h1>推论卡片（{len(rows)}）</h1>
+      <p class="hero-sub">每条推论都由多条证据支撑，证据分「直接陈述 / 隐晦暗示 / 旁证 / 反证」四档；
+        反证与原结论并存，不强行统一。改 <code>knowledge/theories.yaml</code> 后重跑
+        <code>scripts/load_theories.py --apply</code>。</p>
+    </section>
+    <section class="entity-grid">{''.join(cards) or '<p class="none">暂无推论</p>'}</section>
+    """
+    return layout("推论", content, "theories")
+
+
+def render_theory_detail(theory_id: str) -> str | None:
+    con = connect()
+    try:
+        t = con.execute("SELECT * FROM theories WHERE theory_id=?", (theory_id,)).fetchone()
+        if not t:
+            return None
+        evs = con.execute(
+            """SELECT e.doc_id, e.quote, e.kind, e.note, e.section_id, d.title, d.doc_type
+               FROM theory_evidence e JOIN documents d ON d.doc_id=e.doc_id
+               WHERE e.theory_id=? ORDER BY e.ordinal""",
+            (theory_id,),
+        ).fetchall()
+        ents = con.execute(
+            """SELECT n.entity_id, n.canonical_name FROM theory_entities te
+               JOIN entities n ON n.entity_id=te.entity_id
+               WHERE te.theory_id=? ORDER BY n.canonical_name""",
+            (theory_id,),
+        ).fetchall()
+    finally:
+        con.close()
+
+    order = {"direct": 0, "implied": 1, "corroboration": 2, "counter": 3}
+    evs = sorted(evs, key=lambda r: order.get(r["kind"], 9))
+    blocks = []
+    for e in evs:
+        doc_link = f'<a href="/doc/{quote(e["doc_id"], safe="")}">{esc(e["title"] or e["doc_id"])}</a>'
+        blocks.append(f"""
+        <div class="theory-ev kind-{esc(e['kind'])}">
+          <div class="theory-ev-kind">{esc(theory_kind_label(e['kind']))}</div>
+          <blockquote>{esc(e['quote'])}</blockquote>
+          <p class="claim-src">出处：{doc_link} · <code>{esc(e['doc_id'])}</code></p>
+          {f'<p class="claim-tags">{esc(e["note"])}</p>' if e["note"] else ''}
+        </div>""")
+
+    ent_html = "".join(
+        f'<a class="alias" href="/entity/{quote(r["entity_id"], safe="")}">{esc(r["canonical_name"])}</a>'
+        for r in ents) or '<span class="none">未关联实体</span>'
+
+    questions = [q.strip() for q in (t["open_questions"] or "").splitlines() if q.strip()]
+    q_html = "".join(f"<li>{esc(q)}</li>" for q in questions) or '<li class="none">暂无</li>'
+
+    content = f"""
+    <section class="hero">
+      <div class="hero-kicker">{esc(CONFIDENCE_LABELS.get(t['confidence'], t['confidence']))} · 剧透等级 {t['spoiler_level']}</div>
+      <h1>{esc(t['title'])}</h1>
+    </section>
+    <section class="entity-detail">
+      <h2>结论</h2>
+      <p class="theory-claim">{esc(t['claim'])}</p>
+      <h2>证据（{len(evs)}）</h2>
+      <div class="theory-ev-list">{''.join(blocks) or '<p class="none">暂无</p>'}</div>
+      <h2>待考（{len(questions)}）</h2>
+      <ul class="claim-list">{q_html}</ul>
+      <h2>关联实体（{len(ents)}）</h2>
+      <div class="aliases">{ent_html}</div>
+    </section>
+    """
+    return layout(t["title"], content, "theories")
+
+
+def render_allusions() -> str:
+    con = connect()
+    try:
+        rows = con.execute(
+            """SELECT allusion_id, doc_id, title, surface, target, confidence, status
+               FROM allusions
+               ORDER BY CASE status WHEN 'open' THEN 0 WHEN 'resolved' THEN 1 ELSE 2 END,
+                        CASE confidence WHEN 'explicit' THEN 0 WHEN 'strong' THEN 1 ELSE 2 END,
+                        allusion_id"""
+        ).fetchall()
+    finally:
+        con.close()
+
+    CONF = {"explicit": "原文点明", "strong": "多处吻合", "tentative": "存疑"}
+    cards = []
+    for r in rows:
+        tag = CONF.get(r["confidence"], r["confidence"])
+        rej = ' <span class="entity-status draft">已排除</span>' if r["status"] == "rejected" else ""
+        cards.append(f"""
+        <article class="entity-card">
+          <div class="entity-head">
+            <h2><a href="/allusion/{quote(r['allusion_id'], safe='')}">{esc(r['title'])}</a></h2>
+            <span class="entity-kind">{esc(tag)}</span>
+          </div>
+          <p class="entity-desc"><strong>表面：</strong>{esc((r['surface'] or '')[:120])}…</p>
+          <p class="entity-desc"><strong>影射：</strong>{esc(r['target'] or '—')}</p>
+          <p class="entity-meta">{esc(r['doc_id'] or '无出处')} ·
+            <a href="/allusion/{quote(r['allusion_id'], safe='')}">查看依据 →</a>{rej}</p>
+        </article>""")
+
+    content = f"""
+    <section class="hero">
+      <div class="hero-kicker">ALLUSION LAYER · 暗示</div>
+      <h1>暗示清单（{len(rows)}）</h1>
+      <p class="hero-sub">记录文本中的影射、寓言对应与戏中戏。置信度三档：
+        <b>原文点明</b> / <b>多处吻合</b> / <b>存疑</b>。
+        改 <code>knowledge/allusions.yaml</code> 后跑 <code>scripts/load_allusions.py --apply</code>。</p>
+    </section>
+    <section class="entity-grid">{''.join(cards) or '<p class="none">暂无条目</p>'}</section>
+    """
+    return layout("暗示", content, "allusions")
+
+
+def render_allusion_detail(allusion_id: str) -> str | None:
+    con = connect()
+    try:
+        r = con.execute("SELECT * FROM allusions WHERE allusion_id=?", (allusion_id,)).fetchone()
+    finally:
+        con.close()
+    if not r:
+        return None
+
+    CONF = {"explicit": "原文点明", "strong": "多处吻合", "tentative": "存疑"}
+    doc_link = (f'<a href="/doc/{quote(r["doc_id"], safe="")}">{esc(r["doc_id"])}</a>'
+                if r["doc_id"] else "—")
+    status_line = ('<span class="entity-status draft">已判定为非影射</span>'
+                   if r["status"] == "rejected" else "")
+    content = f"""
+    <section class="hero">
+      <div class="hero-kicker">{esc(CONF.get(r['confidence'], r['confidence']))} · {esc(r['status'])} {status_line}</div>
+      <h1>{esc(r['title'])}</h1>
+    </section>
+    <section class="entity-detail">
+      <h2>表面内容</h2>
+      <p class="theory-claim">{esc(r['surface'] or '—')}</p>
+      <h2>影射对象</h2>
+      <p class="theory-claim">{esc(r['target'] or '—')}</p>
+      <h2>判断依据</h2>
+      <p>{esc(r['basis'] or '—')}</p>
+      {f'<h2>限制与反证</h2><p>{esc(r["caveat"])}</p>' if r['caveat'] else ''}
+      {f'<h2>附带线索</h2><p>{esc(r["extra"])}</p>' if r['extra'] else ''}
+      <h2>出处</h2>
+      <p class="claim-src">{doc_link}</p>
+    </section>
+    """
+    return layout(r["title"], content, "allusions")
+
+
 def render_timeline(args: dict[str, list[str]]) -> str:
     era = first(args, "era")
     if era not in ("release", "teyvat"):
@@ -1133,6 +1415,30 @@ class Handler(BaseHTTPRequestHandler):
                 return
             if path == "/entities":
                 self.send_html(render_entities(args))
+                return
+            if path == "/theories":
+                self.send_html(render_theories())
+                return
+            if path == "/allusions":
+                self.send_html(render_allusions())
+                return
+            if path.startswith("/allusion/"):
+                apage = render_allusion_detail(unquote(path[len("/allusion/"):]))
+                if apage is None:
+                    self.send_html(layout("未找到", '<section class="empty-page"><h1>未找到条目</h1>'
+                                          '<p>这个 allusion_id 不在暗示层里。</p>'
+                                          '<a href="/allusions">返回暗示清单</a></section>'), 404)
+                else:
+                    self.send_html(apage)
+                return
+            if path.startswith("/theory/"):
+                tpage = render_theory_detail(unquote(path[len("/theory/"):]))
+                if tpage is None:
+                    self.send_html(layout("未找到", '<section class="empty-page"><h1>未找到推论</h1>'
+                                          '<p>这个 theory_id 不在推论层里。</p>'
+                                          '<a href="/theories">返回推论列表</a></section>'), 404)
+                else:
+                    self.send_html(tpage)
                 return
             if path.startswith("/entity/"):
                 page = render_entity_detail(unquote(path[len("/entity/"):]))

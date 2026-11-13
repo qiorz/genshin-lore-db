@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507365,
+  "name": "西摩尔",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1764728616",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507365/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507365,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:37:34+08:00",
+  "sha256": "293b8965b24cb6593859f233a9a7a641f3a33bd8a3426be7e4e49bd7cd8a9318",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

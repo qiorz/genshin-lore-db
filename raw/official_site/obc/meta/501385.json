@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501385,
+  "name": "唤醒眷属",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1717554178",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501385/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501385,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:40:48+08:00",
+  "sha256": "234530956f9017aa91c9f787d0f1212351fe5eb0355ba9f208a545216cdff7c7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

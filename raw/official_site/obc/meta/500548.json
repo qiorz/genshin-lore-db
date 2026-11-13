@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500548,
+  "name": "攻坚特化型机关·芒",
+  "menu_id": "0",
+  "menu_name": "魔物牌",
+  "page_version": "1761713001",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500548/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500548,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:46:36+08:00",
+  "sha256": "8da1d11a6fee3d05ce15d14c68f0ed02a31c1eeda57e579a43b94a33a4794930",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

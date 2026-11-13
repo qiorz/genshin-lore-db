@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 6626,
+  "name": "无常之面",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1755483813",
+  "url": "https://baike.mihoyo.com/ys/obc/content/6626/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 6626,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:42:40+08:00",
+  "sha256": "21184eec8cb417ce157eebbeaaef1af5cf9a7503f8434c91ec39c2afe0d91c15",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

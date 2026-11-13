@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5426,
+  "name": "流放者头冠",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1755483869",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5426/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5426,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:45:19+08:00",
+  "sha256": "020f33d1b4b579f87069a114aecdf02be951cd6192b71e5f166be31357188f11",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

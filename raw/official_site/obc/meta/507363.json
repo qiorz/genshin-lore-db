@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 507363,
+  "name": "爱可菲【角色牌】",
+  "menu_id": "0",
+  "menu_name": "角色牌",
+  "page_version": "1787038475",
+  "url": "https://baike.mihoyo.com/ys/obc/content/507363/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 507363,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:32:31+08:00",
+  "sha256": "1e14ec1c817c3f33326b3072f5a87852ce7be83e2d38cbdb77431d9711dca81a",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500424,
+  "name": "四风原典",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1782177405",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500424/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500424,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:41:59+08:00",
+  "sha256": "db188afcb9348d2bd954036d67da5bcfa3204b09d94adbc1c2a4a83b84a983c7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

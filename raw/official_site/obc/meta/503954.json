@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 503954,
+  "name": "燃素充盈",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1735698304",
+  "url": "https://baike.mihoyo.com/ys/obc/content/503954/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 503954,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:39:07+08:00",
+  "sha256": "d792fa3a81514d5b13d1ee4ca95f4578cf6416edcfc623607bd70c6508bda6fe",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

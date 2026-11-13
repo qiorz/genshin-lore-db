@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5593,
+  "name": "火斧丘丘暴徒",
+  "menu_id": "0",
+  "menu_name": "魔物牌",
+  "page_version": "1694074779",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5593/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5593,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:47:08+08:00",
+  "sha256": "4c269c1d3bedb34c18a9049e397be171b83973cf5baf582505b49858d5278f70",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

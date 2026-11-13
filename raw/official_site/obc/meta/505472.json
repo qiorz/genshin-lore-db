@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 505472,
+  "name": "船坞长剑",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1750212938",
+  "url": "https://baike.mihoyo.com/ys/obc/content/505472/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 505472,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:38:30+08:00",
+  "sha256": "c52a6c322f2e4f8ba72ac285aec45f044eb5141c8cb80ae3cd8ba861c00512ce",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -139,6 +139,14 @@ def main() -> int:
     release_cfg = data["release_timeline"]
     errors: list[str] = []
     cache: dict = {}
+    # 人工证据覆盖：第 3–5 批实体由 build_stage*.py 生成、不能手改，
+    # 而它们往往只有 1–2 条机器抓的证据。这里允许单独维护一份完整证据表覆盖。
+    # 文件不存在时行为与以前完全一致。
+    overrides: dict[str, list] = {}
+    overrides_path = SEED_DIR / "evidence-overrides.yaml"
+    if overrides_path.exists():
+        ov = yaml.safe_load(overrides_path.read_text(encoding="utf-8")) or {}
+        overrides = ov.get("evidence") or {}
     con = sqlite3.connect(DB)
     con.row_factory = sqlite3.Row
     con.execute("PRAGMA foreign_keys = ON")
@@ -163,6 +171,15 @@ def main() -> int:
         for ev in item.get("evidence") or []:
             if not resolve(con, ev["doc"], ev["quote"], cache):
                 errors.append(f"{eid}: 证据未命中 {ev['doc']} | {ev['quote'][:28]}")
+
+    # 证据覆盖同样是「doc_id + 短引用」，逐条校验
+    for eid, evs in overrides.items():
+        if eid not in known_ids:
+            errors.append(f"证据覆盖指向不存在的实体 {eid}")
+            continue
+        for ev in evs or []:
+            if not resolve(con, ev.get("doc", ""), ev.get("quote", ""), cache):
+                errors.append(f"{eid}(覆盖): 证据未命中 {ev.get('doc')} | {str(ev.get('quote'))[:28]}")
 
     for item in claims:
         if item.get("subject") not in known_ids:
@@ -205,8 +222,12 @@ def main() -> int:
 
     alias_count = (sum(len(e.get("aliases") or []) for e in entities)
                    + len(alias_rows))
-    ev_count = (sum(len(e.get("evidence") or []) for e in entities) + len(claims)
-                + len(relations) + len(events))
+    # 覆盖会替换实体原有证据，统计时要把原来那几条扣掉
+    overridden_original = sum(len(e.get("evidence") or [])
+                              for e in entities if e["id"] in overrides)
+    ev_count = (sum(len(e.get("evidence") or []) for e in entities) - overridden_original
+                + sum(len(v or []) for v in overrides.values())
+                + len(claims) + len(relations) + len(events))
     involved_count = sum(len(e.get("entities") or []) for e in events)
     missed = sum(1 for x in errors if "证据未命中" in x)
     print(f"实体 {len(entities)} · 别名 {alias_count} · claims {len(claims)} · "
@@ -249,6 +270,20 @@ def main() -> int:
             # 无稳定主键，按 entity 先删后插，保证幂等。
             con.execute("DELETE FROM entity_evidence WHERE entity_id=?", (eid,))
             for i, ev in enumerate(item.get("evidence") or []):
+                found = resolve(con, ev["doc"], ev["quote"], cache)
+                con.execute(
+                    """INSERT INTO entity_evidence
+                       (entity_id, doc_id, section_id, quote, is_primary)
+                       VALUES (?,?,?,?,?)""",
+                    (eid, ev["doc"], found[0] if found else None, ev["quote"],
+                     1 if i == 0 else 0),
+                )
+        # 人工证据覆盖：整体替换这些实体的证据列表（必须含原有那几条，因为是先删后插）
+        for eid, evs in overrides.items():
+            if eid not in known_ids:
+                continue
+            con.execute("DELETE FROM entity_evidence WHERE entity_id=?", (eid,))
+            for i, ev in enumerate(evs or []):
                 found = resolve(con, ev["doc"], ev["quote"], cache)
                 con.execute(
                     """INSERT INTO entity_evidence

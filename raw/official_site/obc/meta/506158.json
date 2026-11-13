@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 506158,
+  "name": "宗室面具",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1759756488",
+  "url": "https://baike.mihoyo.com/ys/obc/content/506158/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 506158,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:37:49+08:00",
+  "sha256": "c7040a09abbc72c36ea008e46e34b0a5e576383986ef8bf97ff024d9d0aa4ee9",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

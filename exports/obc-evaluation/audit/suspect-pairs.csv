@@ -175,6 +175,7 @@ voice.obc.501047,voice.obc.508386,13,13,medium,蒙德,蒙德,,,voice,voice,后�
 event.obc.504692,voice.obc.506315,27,12,medium,,稻妻,5.4,,event,voice,旅行者心海似乎睡着了桌上堆着数量众多的文件处理这些明显耗费了她许多的精力
 voice.obc.509796,voice.obc.509797,12,12,medium,至冬,至冬,,,voice,voice,【完成系列世界任务在生命的寓所后首次对话】
 voice.obc.6099,voice.obc.6100,7,12,medium,须弥,须弥,,,voice,voice,只是想问下姐你上学时写过的论文能借我看看吗
+card.obc.501394,card.obc.501395,11,11,medium,枫丹,枫丹,,,other,other,战斗行动详情我方出战角色为芙宁娜时装备此牌
 char.obc.78,voice.obc.5725,10,11,medium,璃月,璃月,1.0,,character,voice,好那就请您们再赏光听我讲讲那尽览商海遍察工商的凝光大人
 event.obc.508258,voice.obc.510231,11,11,medium,,须弥,5.5,,event,voice,梦见月瑞希嗯我能感觉到你在享受游艺的乐趣时情绪中蕴含着温暖的色彩相信你今晚会有个轻松舒畅的好梦
 quest.obc.507236,voice.obc.510225,15,11,medium,须弥,须弥,6.1,,quest,voice,柯莱还有哪些工作事项没有处理好呢要仔细检查备忘录才行
@@ -309,6 +310,7 @@ voice.obc.508565,voice.obc.508566,7,7,low,蒙德,蒙德,,,voice,voice,呵哈夫�
 voice.obc.3549,voice.obc.3550,7,7,low,蒙德,蒙德,,,voice,voice,然后那天我在给地板上蜡的时候偶然发现二楼走廊的深处里还有一个隐藏房间
 voice.obc.5349,voice.obc.5568,7,7,low,须弥,须弥,,,voice,voice,迪希雅姐姐好厉害啊哗地一下就能挥起那么大的剑
 voice.obc.6152,voice.obc.6154,7,7,low,须弥,须弥,,,voice,voice,哎呀知道啦我没有忘记这不是在冒险之前想先买些须弥的特产吗
+card.obc.6564,card.obc.6623,6,6,low,须弥,,,,other,other,战斗行动详情我方出战角色为纳西妲时装备此牌
 event.obc.509099,quest.obc.509110,7,6,low,,枫丹,6.7,6.7,event,quest,恰斯卡首选有朱南和因卡纳克她们两人一起来应该相当不错
 event.obc.6222,voice.obc.510218,6,6,low,,蒙德,3.5,,event,voice,安柏柯莱砂糖我带了自己做的便当过来等会儿一起吃吧
 lore.obc.504771,quest.obc.503854,6,6,low,纳塔,纳塔,5.2,5.2,lore,quest,那可憎的妖邪之物已被禁锢在雕像中却不愿按照我的意愿歌唱凶兽果然是凶兽明知毫无意义还要做这般无谓的抵抗可见唯有将她那些更为低劣的同族彻底囚禁才能避免对人类造成威胁
@@ -337,6 +339,8 @@ voice.obc.508582,voice.obc.508583,6,6,low,蒙德,蒙德,,,voice,voice,传说可�
 voice.obc.5561,voice.obc.5562,11,6,low,须弥,须弥,,,voice,voice,【完成魔神任务第三章第五幕虚空鼓动劫火高扬后】
 voice.obc.6008,voice.obc.6300,6,6,low,须弥,须弥,,,voice,voice,哈尔瓦你是不是又放宽对商户们的税收标准了
 voice.obc.501479,voice.obc.501480,6,6,low,须弥,须弥,,,voice,voice,因提夫我的朋友恕我直言就是因为你先提到羊之王我们才会讨论到这些
+card.obc.5443,card.obc.5526,5,5,low,,,,,other,other,战斗行动详情我方出战角色为愚人众火之债务处理人时装备此牌
+card.obc.509933,card.obc.509934,5,5,low,挪德卡莱,,,,other,other,战斗行动详情我方出战角色为哥伦比娅时装备此牌
 event.obc.500837,voice.obc.510233,5,5,low,,璃月,4.4,,event,voice,闲云玉衡星啊这风筝比赛冠军的奖品依本仙看还是留给其他人吧
 event.obc.504692,lore.obc.505671,5,5,low,,蒙德,5.4,5.4,event,lore,编者注无论菲谢尔辞典或菲谢尔辞典皇女新编版正式名均为断罪圣诰之书在正式场合如文学颁奖典礼〔若有幸获奖〕上错用误用是不应该不推荐不太好的
 quest.obc.509533,quest.obc.509538,6,5,low,至冬,至冬,7.0,7.0,quest,quest,派蒙不过她不是说之后还会碰到嘛等到那个时候再好好问问她好了

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 5586,
+  "name": "草丘丘萨满",
+  "menu_id": "0",
+  "menu_name": "魔物牌",
+  "page_version": "1694074781",
+  "url": "https://baike.mihoyo.com/ys/obc/content/5586/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 5586,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:47:16+08:00",
+  "sha256": "766a9f65a22a86d64258f033ee359b6d5c934d899bcbbb2afc1d1938a9e836bf",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

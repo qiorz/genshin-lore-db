@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 501416,
+  "name": "「清洁工作」",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1717554688",
+  "url": "https://baike.mihoyo.com/ys/obc/content/501416/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 501416,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:40:21+08:00",
+  "sha256": "c914964dda4022cbab9e2aaf77e5e097a1fba577174bfe2a1035b7cf7aab6c3f",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

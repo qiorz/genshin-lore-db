@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508941,
+  "name": "决胜于逆转之时",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1782876041",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508941/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508941,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:36:00+08:00",
+  "sha256": "9e6e5751c4b4ec04e08f6a90dae5ecb892a67b3c47674c66b34d444eaa307655",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

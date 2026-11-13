@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510357,
+  "name": "《在「谧源所」进行研究的时日》【冰映之镜宫】",
+  "menu_id": "0",
+  "menu_name": "地图文本",
+  "page_version": "1794190727",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510357/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510357,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-13T00:11:07+08:00",
+  "sha256": "a7dcc4d6530518c6f13e95a08aeffa5fb9426f5894715fdc33f8545a1dd7e0ea",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

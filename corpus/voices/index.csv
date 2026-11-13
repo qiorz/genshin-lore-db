@@ -1,4 +1,6 @@
 ﻿doc_id,title,subtype,region,sections,chars,path
+voice.obc.510410,米提亚【洞天】,NPC对话,洞天,1,2760,corpus/voices/NPC对话/洞天/米提亚【洞天】.md
+voice.obc.510409,瓦列里【洞天】,NPC对话,洞天,1,3472,corpus/voices/NPC对话/洞天/瓦列里【洞天】.md
 voice.obc.510259,布兰诺娃,NPC对话,至冬,1,277,corpus/voices/NPC对话/至冬/布兰诺娃.md
 voice.obc.510262,雅鲁金,NPC对话,至冬,1,324,corpus/voices/NPC对话/至冬/雅鲁金.md
 voice.obc.510261,格里亚兹诺夫【凝露镇镇长】,NPC对话,至冬,1,638,corpus/voices/NPC对话/至冬/格里亚兹诺夫【凝露镇镇长】.md

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500450,
+  "name": "欧庇克莱歌剧院",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1778216601",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500450/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500450,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:41:38+08:00",
+  "sha256": "42767e81e25e1e84c75e188473f5b4a3990687f38e11266b50e92c9a1b4819d8",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

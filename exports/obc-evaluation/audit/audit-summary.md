@@ -1,24 +1,24 @@
 # 全库体检报告
 
-> 生成时间：2026-11-12T14:38:29+08:00  
-> 语料：`D:\harn\2\genshin-lore-db\corpus`　文档 7,734 篇  
-> 数据库：`D:\harn\2\genshin-lore-db\db\genshin_lore.sqlite3`
+> 生成时间：2026-11-12T18:57:32+08:00  
+> 语料：`C:\dsh\genshindb\genshin-lore-db\corpus`　文档 8,529 篇  
+> 数据库：`C:\dsh\genshindb\genshin-lore-db\db\genshin_lore.sqlite3`
 
 ## 总览
 
 | 项 | 值 |
 |---|---|
-| 文档 | 7,734 |
-| 归一化长台词 | 185,368 |
-| 跨文档重复台词组 | 5,068 |
-| 疑似重复文档对 | 455 |
-| 其中连续块 ≥8 句 | 244（跨地区高风险 63） |
-| 短正文（<100 字） | 3,090，其中任务 75 篇 |
-| version 缺失 | 5,769 |
-| region 缺失 | 3,041 |
-| release_date 缺失 | 7,679 |
+| 文档 | 8,529 |
+| 归一化长台词 | 188,608 |
+| 跨文档重复台词组 | 5,483 |
+| 疑似重复文档对 | 459 |
+| 其中连续块 ≥8 句 | 245（跨地区高风险 63） |
+| 短正文（<100 字） | 3,586，其中任务 65 篇 |
+| version 缺失 | 6,564 |
+| region 缺失 | 3,735 |
+| release_date 缺失 | 8,474 |
 | spoiler ≠ 1 | 10 |
-| SQLite 文档 / 段落 / FTS 行 | 7,734 / 453,939 / 453,939 |
+| SQLite 文档 / 段落 / FTS 行 | 8,529 / 465,184 / 465,184 |
 | integrity_check | ok |
 | char_count 不符 | 0 |
 
@@ -44,7 +44,7 @@
 | `voice.obc.504445` | `voice.obc.510166` | 37 | 35 | 洞天 / 璃月 | 当然不太习惯跟我平时爱待的地方太不一样了 |
 | `voice.obc.505484` | `voice.obc.510200` | 35 | 31 | 洞天 / 纳塔 | 哦这里看上去与深渊有几分相似都是一片完全独立的空间 |
 
-短正文按类型：item 1939、voice 397、lore 350、geography 261、quest 75、weapon 39、event 20、book 9。`item` / `geography` / `lore` 本来就是铭牌式短文本，不是缺陷；真正需要关注的是 `quest`（含 32 条已知 `_pending` 空壳）。
+短正文按类型：item 1939、other 506、voice 397、lore 350、geography 261、quest 65、weapon 39、event 20、book 9。`item` / `geography` / `lore` 本来就是铭牌式短文本，不是缺陷；真正需要关注的是 `quest`（含 32 条已知 `_pending` 空壳）。
 
 ## 明细文件
 

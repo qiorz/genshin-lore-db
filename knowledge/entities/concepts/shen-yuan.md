@@ -27,6 +27,10 @@ tags: [知识层种子]
 - [[quest.obc.1551]]：呵呵，我与「深渊」…缘分不浅
 - [[quest.obc.506587]]：你好像对「深渊」就有很强的容纳力
 
+## 相关推论（1）
+
+- **坎瑞亚不是深渊的创造者，而是「窃取者」与「被反噬者」**（较可能；7 条证据）→ `knowledge/theories/theory.abyss-and-khaenriah.md`
+
 ## 待考
 
 - 关系与说法的完整证据见 `knowledge/seed*.yaml`；本卡片由脚本生成，不要手改。

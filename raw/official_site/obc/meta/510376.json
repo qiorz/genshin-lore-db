@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 510376,
+  "name": "覆于尘与雪",
+  "menu_id": "0",
+  "menu_name": "任务",
+  "page_version": "1794191100",
+  "url": "https://baike.mihoyo.com/ys/obc/content/510376/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 510376,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-13T00:10:46+08:00",
+  "sha256": "26a64b64f839e5f76e1ef51ab7ce7cce8551d30e3c9ede13f24531480c8db6bc",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

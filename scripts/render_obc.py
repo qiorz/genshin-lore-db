@@ -2,7 +2,8 @@
 """Render an 观测枢 entry_page JSON into a Markdown draft.
 
 This is a pilot renderer, not a complete parser. It supports:
-  - quest: interactive_dialogue modules (dialogue graph + options, one act per file)
+  - quest: interactive_dialogue modules (dialogue graph + options, one act per file),
+           plus rich-text story panels (collapse_panel named 剧情对话)
   - book: material_base_info + collapse_panel volume text
   - character: story/description/voice modules only (no stats/guides)
   - lore: scattered map text (interactive text only, no map images)
@@ -52,6 +53,17 @@ QUEST_SUBTYPE_LABELS = {
     "hangout": "邀约事件",
     "other": "其他任务",
 }
+
+# 任务剧情在 OBC 上有两种存法：
+#   1. interactive_dialogue —— 结构化对话图（有节点、分支、选项）；
+#   2. collapse_panel 富文本  —— 模块名一般就叫「剧情对话」，台词排在 <p>/<li> 里。
+# 早期 render_quest 只认第 1 种，第 2 种会被整篇判成「0 个剧情模块」扔进 _pending，
+# 这就是 HANDOFF §5.4 记的那条遗留缺陷。第 2 种用下面的常量与函数兜住。
+STORY_MODULE_KEYS = ("剧情对话", "对话")
+# 个别邀约页的「剧情对话」里装的是玩家攻略与结局清单，不是台词。
+# 项目原则「不收攻略/配队/数值」，这些一律跳过，宁可保持空壳。
+GUIDE_MARKERS = ("攻略", "推荐", "作者：", "End1", "End2", "End3", "End4", "End5",
+                 "【V", "#其他", "待补充", "版本更新")
 
 
 def now_iso() -> str:
@@ -118,6 +130,40 @@ def render_line(line: str) -> str:
         return f"**{speaker}**：{text}"
     # Scene directions / narration: keep them visually distinct from spoken lines.
     return f"> *{line}*"
+
+
+def _is_story_module_name(name: str) -> bool:
+    """模块名像剧情对话，且本身不是攻略页。"""
+    return any(key in name for key in STORY_MODULE_KEYS) and "攻略" not in name
+
+
+def _looks_like_guide(text: str) -> bool:
+    """富文本剧情面板里混进了攻略/结局清单 —— 不是叙事正文。"""
+    return any(marker in text for marker in GUIDE_MARKERS)
+
+
+def render_rich_dialogue(html: str) -> tuple[str, int]:
+    """collapse_panel 里的富文本剧情：按块切成行，套用与对话图相同的排版。
+
+    返回 (markdown, 对话行数)。旁白用引用块、台词用 **说话人**：，与
+    render_dialogue_group 的输出保持一致，方便后续统一处理。
+    """
+    paragraphs = html_paragraphs(html)
+    if not paragraphs:
+        return "", 0
+    lines: list[str] = []
+    nodes = 0
+    for raw in paragraphs.split("\n\n"):
+        line = raw.strip()
+        if not line:
+            continue
+        rendered = render_line(line)
+        if not rendered:
+            continue
+        lines.append(rendered)
+        if line.startswith("◆") or re.match(r"^([^：:\s]{1,24})[：:]", line):
+            nodes += 1
+    return "\n\n".join(lines), nodes
 
 
 def dialogue_groups(data: dict) -> list[dict]:
@@ -265,26 +311,51 @@ def render_quest(page: dict, meta: dict | None, entry_path: Path, args) -> tuple
 
     dialogue_index = 0
     total_nodes = total_options = 0
+    rich_modules = 0
     heading_counts: dict[str, int] = {}
+
+    def next_heading(module: dict, fallback: str) -> str:
+        heading = dialogue_scene_title(module) or fallback
+        heading_counts[heading] = heading_counts.get(heading, 0) + 1
+        if heading_counts[heading] > 1:
+            heading = f"{heading} · 其{heading_counts[heading]}"
+        return heading
+
     for module in page.get("modules") or []:
+        module_name = (module.get("name") or "").strip()
         for comp in module.get("components") or []:
-            if comp.get("component_id") != "interactive_dialogue":
-                continue
-            data = as_json(comp.get("data")) or {}
-            dialogue_index += 1
-            heading = dialogue_scene_title(module) or f"剧情对话 {dialogue_index}"
-            heading_counts[heading] = heading_counts.get(heading, 0) + 1
-            if heading_counts[heading] > 1:
-                heading = f"{heading} · 其{heading_counts[heading]}"
-            body.append(f"## {heading}")
-            body.append("")
-            for group in dialogue_groups(data):
-                lines, nodes, options = render_dialogue_group(group)
-                body.extend(lines)
+            cid = comp.get("component_id")
+            if cid == "interactive_dialogue":
+                data = as_json(comp.get("data")) or {}
+                dialogue_index += 1
+                heading = next_heading(module, f"剧情对话 {dialogue_index}")
+                body.append(f"## {heading}")
+                body.append("")
+                for group in dialogue_groups(data):
+                    lines, nodes, options = render_dialogue_group(group)
+                    body.extend(lines)
+                    body.append("")
+                    total_nodes += nodes
+                    total_options += options
+            elif cid == "collapse_panel" and _is_story_module_name(module_name):
+                # 富文本剧情面板：内容在就收；装的是攻略/结局清单就跳过，保持空壳。
+                data = as_json(comp.get("data")) or {}
+                text, nodes = render_rich_dialogue(data.get("rich_text") or "")
+                if not text or _looks_like_guide(text):
+                    continue
+                dialogue_index += 1
+                rich_modules += 1
+                heading = next_heading(module, f"剧情对话 {dialogue_index}")
+                body.append(f"## {heading}")
+                body.append("")
+                body.append(text)
                 body.append("")
                 total_nodes += nodes
-                total_options += options
-    front["notes"] += f" 共 {dialogue_index} 个剧情模块、{total_nodes} 个对话节点、{total_options} 个选项。"
+
+    note = f" 共 {dialogue_index} 个剧情模块、{total_nodes} 个对话节点、{total_options} 个选项。"
+    if rich_modules:
+        note += f" 其中 {rich_modules} 个为富文本剧情面板（collapse_panel）。"
+    front["notes"] += note
     return front, body
 
 

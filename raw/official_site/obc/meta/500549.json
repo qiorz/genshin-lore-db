@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 500549,
+  "name": "攻坚特化型机关·荒",
+  "menu_id": "0",
+  "menu_name": "魔物牌",
+  "page_version": "1717725728",
+  "url": "https://baike.mihoyo.com/ys/obc/content/500549/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 500549,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:46:34+08:00",
+  "sha256": "5a882743cd1714424d7188ad519aa7112e4952dd16c8f449c72a79b41eb6b7e2",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 509940,
+  "name": "超载祝佑·追燃",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1790129540",
+  "url": "https://baike.mihoyo.com/ys/obc/content/509940/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 509940,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:35:23+08:00",
+  "sha256": "6a2cc487ae2b3a242610c6f2266bb59db1471dac1a052df20dc86e1e94fde7d7",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}

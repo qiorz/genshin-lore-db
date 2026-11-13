@@ -1,0 +1,20 @@
+{
+  "source_id": "obc",
+  "entry_page_id": 508301,
+  "name": "火岩祝佑·重熔",
+  "menu_id": "0",
+  "menu_name": "行动牌",
+  "page_version": "1782876139",
+  "url": "https://baike.mihoyo.com/ys/obc/content/508301/detail?bbs_presentation_style=no_header",
+  "api_url": "https://act-api-takumi-static.mihoyo.com/hoyowiki/genshin/wapi/entry_page",
+  "api_params": {
+    "entry_page_id": 508301,
+    "app_sn": "ys_obc",
+    "lang": "zh-cn"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-11-12T18:36:35+08:00",
+  "sha256": "9f6b719ea18faf74f692c0e94020424bb05c4ca7bf8aa875599421c6c0f84fde",
+  "content_type": "application/json",
+  "notes": "Official platform, community-maintained; not a verbatim official transcript."
+}
